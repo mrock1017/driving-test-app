@@ -1,0 +1,15 @@
+<form method="POST" action="/submit">
+    {% for q in questions %}
+        {% set q_index = loop.index0 %}
+
+        <p><b>{{ q.question }}</b></p>
+
+        {% for choice in q.choices %}
+            <input type="radio" name="{{ q_index }}" value="{{ choice }}" required>
+            {{ choice }}<br>
+        {% endfor %}
+    {% endfor %}
+
+    <br>
+    <button type="submit">Submit</button>
+</form>

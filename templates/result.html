@@ -1,0 +1,26 @@
+<body>
+    <h2>Your Score: {{ score }} / {{ total }}</h2>
+
+    {% if results %}
+        {% for r in results %}
+            <div style="margin-bottom: 20px;">
+                <p><b>{{ r.question }}</b></p>
+
+                <p>Your answer: {{ r.your_answer or "No answer" }}</p>
+                <p>Correct answer: {{ r.correct_answer }}</p>
+                <p>Explanation: {{ r.explanation }}</p>
+
+                {% if r.is_correct %}
+                    <p style="color:green;">✔ Correct</p>
+                {% else %}
+                    <p style="color:red;">✘ Wrong</p>
+                {% endif %}
+            </div>
+            <hr>
+        {% endfor %}
+    {% else %}
+        <p>No results found.</p>
+    {% endif %}
+
+    <a href="/">Try Again</a>
+</body>
