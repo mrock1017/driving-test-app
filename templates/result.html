@@ -1,26 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+
+    <style>
+    body {
+        font-family: Arial;
+        max-width: 600px;
+        margin: auto;
+        padding: 20px;
+    }
+    button {
+        padding: 10px 20px;
+        background: #2d89ef;
+        color: white;
+        border: none;
+        border-radius: 5px;
+    }
+    </style>
+
+</head>
 <body>
+
     <h2>Your Score: {{ score }} / {{ total }}</h2>
 
-    {% if results %}
-        {% for r in results %}
-            <div style="margin-bottom: 20px;">
-                <p><b>{{ r.question }}</b></p>
-
-                <p>Your answer: {{ r.your_answer or "No answer" }}</p>
-                <p>Correct answer: {{ r.correct_answer }}</p>
-                <p>Explanation: {{ r.explanation }}</p>
-
-                {% if r.is_correct %}
-                    <p style="color:green;">✔ Correct</p>
-                {% else %}
-                    <p style="color:red;">✘ Wrong</p>
-                {% endif %}
-            </div>
-            <hr>
-        {% endfor %}
-    {% else %}
-        <p>No results found.</p>
-    {% endif %}
+    {% for r in results %}
+        <p><b>{{ r.question }}</b></p>
+        <p>Your answer: {{ r.your_answer }}</p>
+        <p>Correct answer: {{ r.correct_answer }}</p>
+        <p>{{ r.explanation }}</p>
+        <hr>
+    {% endfor %}
 
     <a href="/">Try Again</a>
+
 </body>
+</html>

@@ -1,15 +1,44 @@
-<form method="POST" action="/submit">
-    {% for q in questions %}
-        {% set q_index = loop.index0 %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Driving Test</title>
 
-        <p><b>{{ q.question }}</b></p>
+    <style>
+    body {
+        font-family: Arial;
+        max-width: 600px;
+        margin: auto;
+        padding: 20px;
+    }
+    button {
+        padding: 10px 20px;
+        background: #2d89ef;
+        color: white;
+        border: none;
+        border-radius: 5px;
+    }
+    </style>
 
-        {% for choice in q.choices %}
-            <input type="radio" name="{{ q_index }}" value="{{ choice }}" required>
-            {{ choice }}<br>
+</head>
+<body>
+
+    <h2>Japan Driving Test Practice</h2>
+
+    <form method="POST" action="/submit">
+        {% for q in questions %}
+            {% set q_index = loop.index0 %}
+
+            <p><b>{{ q.question }}</b></p>
+
+            {% for choice in q.choices %}
+                <input type="radio" name="{{ q_index }}" value="{{ choice }}" required>
+                {{ choice }}<br>
+            {% endfor %}
         {% endfor %}
-    {% endfor %}
 
-    <br>
-    <button type="submit">Submit</button>
-</form>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>
