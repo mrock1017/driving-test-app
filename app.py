@@ -1,7 +1,8 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, redirect, session
 import os
 
 app = Flask(__name__)
+app.secret_key = "secret123"  # required for session
 
 questions = [
     {
@@ -19,20 +20,34 @@ questions = [
 ]
 
 @app.route('/')
-def index():
-    return render_template('index.html', questions=questions)
+def start():
+    session['answers'] = []
+    session['current'] = 0
+    return redirect('/question')
 
-@app.route('/submit', methods=['POST'])
-def submit():
-    score = 0
+
+@app.route('/question', methods=['GET', 'POST'])
+def question():
+    if request.method == 'POST':
+        answer = request.form.get('answer')
+        session['answers'].append(answer)
+        session['current'] += 1
+
+    if session['current'] >= len(questions):
+        return redirect('/result')
+
+    q = questions[session['current']]
+    return render_template('question.html', q=q, index=session['current'])
+
+
+@app.route('/result')
+def result():
     results = []
+    score = 0
 
     for i, q in enumerate(questions):
-        user_answer = request.form.get(str(i))
-        print("User Answer:", user_answer)
-        print("Correct Answer:", q["answer"])
-        
-        correct = user_answer == q["answer"]
+        user_answer = session['answers'][i]
+        correct = (user_answer or "").strip().lower() == q["answer"].strip().lower()
 
         if correct:
             score += 1
@@ -47,6 +62,7 @@ def submit():
 
     return render_template('result.html', score=score, total=len(questions), results=results)
 
+
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))
-    app.run(host='0.0.0.0', port=port, debug=True)
+    app.run(host='0.0.0.0', port=port)

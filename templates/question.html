@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Question</title>
+
+    <style>
+    body {
+        font-family: Arial;
+        max-width: 600px;
+        margin: auto;
+        padding: 20px;
+    }
+    button {
+        padding: 10px 20px;
+        background: #2d89ef;
+        color: white;
+        border: none;
+        border-radius: 5px;
+    }
+    </style>
+
+</head>
+<body>
+
+    <h2>Question {{ index + 1 }}</h2>
+
+    <form method="POST">
+        <p><b>{{ q.question }}</b></p>
+
+        {% for choice in q.choices %}
+            <input type="radio" name="answer" value="{{ choice }}" required>
+            {{ choice }}<br>
+        {% endfor %}
+
+        <br>
+        <button type="submit">Next</button>
+    </form>
+
+</body>
+</html>
