@@ -52,22 +52,21 @@
 
     /* 🔘 Buttons */
     .menu-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-    width: 100%;
-    padding: 15px;
-    margin-bottom: 10px;
+        width: 100%;
+        padding: 15px;
+        margin-bottom: 10px;
 
-    background: #2d89ef;
-    color: white;
-    border-radius: 12px;
-    text-decoration: none;
-    font-size: 16px;
+        background: #2d89ef;
+        color: white;
+        border-radius: 12px;
+        text-decoration: none;
+        font-size: 16px;
 
-    transition: transform 0.15s ease, box-shadow 0.15s ease;
+        transition: transform 0.15s ease, box-shadow 0.15s ease;
     }
 
     .menu-btn:active {
@@ -81,6 +80,22 @@
 
     .menu-btn.green {
         background: #28a745;
+    }
+
+    /* 🎯 PERFECT CENTERING FIX */
+    .btn-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 24px;
+        font-size: 20px;
     }
 
     /* 📊 Score card */
@@ -118,7 +133,10 @@
         <div class="section-title">Study Mode</div>
 
         <a href="/start/reviewer" class="menu-btn green">
-            🧠 Reviewer Mode
+            <div class="btn-content">
+                <span class="icon">🧠</span>
+                <span>Reviewer Mode</span>
+            </div>
         </a>
     </div>
 
@@ -126,18 +144,52 @@
     <div class="card">
         <div class="section-title">Karimen Practice</div>
 
-        <a href="/start/karimen_1" class="menu-btn">📝 Karimen Test 1</a>
-        <a href="/start/karimen_2" class="menu-btn">📝 Karimen Test 2</a>
-        <a href="/start/karimen_3" class="menu-btn">📝 Karimen Test 3</a>
-        <a href="/start/karimen_4" class="menu-btn">📝 Karimen Test 4</a>
+        <a href="/start/karimen_1" class="menu-btn">
+            <div class="btn-content">
+                <span class="icon">📝</span>
+                <span>Karimen Test 1</span>
+            </div>
+        </a>
+
+        <a href="/start/karimen_2" class="menu-btn">
+            <div class="btn-content">
+                <span class="icon">📝</span>
+                <span>Karimen Test 2</span>
+            </div>
+        </a>
+
+        <a href="/start/karimen_3" class="menu-btn">
+            <div class="btn-content">
+                <span class="icon">📝</span>
+                <span>Karimen Test 3</span>
+            </div>
+        </a>
+
+        <a href="/start/karimen_4" class="menu-btn">
+            <div class="btn-content">
+                <span class="icon">📝</span>
+                <span>Karimen Test 4</span>
+            </div>
+        </a>
     </div>
 
     <!-- 🏁 Honmen -->
     <div class="card">
         <div class="section-title">Honmen Practice</div>
 
-        <a href="/start/honmen_1" class="menu-btn secondary">🏁 Honmen Test 1</a>
-        <a href="/start/honmen_2" class="menu-btn secondary">🏁 Honmen Test 2</a>
+        <a href="/start/honmen_1" class="menu-btn secondary">
+            <div class="btn-content">
+                <span class="icon">🏁</span>
+                <span>Honmen Test 1</span>
+            </div>
+        </a>
+
+        <a href="/start/honmen_2" class="menu-btn secondary">
+            <div class="btn-content">
+                <span class="icon">🏁</span>
+                <span>Honmen Test 2</span>
+            </div>
+        </a>
     </div>
 
 </div>
