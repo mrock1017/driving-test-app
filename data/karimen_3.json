@@ -45,7 +45,7 @@
     "question": "7. In the situation shown, you cannot enter the right side of the road to overtake another vehicle. Is this correct?",
     "image": "solid_white_line.jpg",
     "choices": ["True", "False"],
-    "answer": "False",
+    "answer": "True",
     "explanation": "The road markings(solid white line) indicate that entering the right side (opposite lane) is prohibited for overtaking."
   },
   {
@@ -316,9 +316,9 @@
   },
   {
     "question": "46. You may stop your vehicle in a “no stopping zone” in front of a police or fire station if no emergency vehicles are approaching. Is this correct?",
-    "image": "no_U_turn.jpg",
+    "image": null,
     "choices": ["True", "False"],
-    "answer": "True",
+    "answer": "False",
     "explanation": "Stopping is strictly prohibited in these zones regardless of conditions."
   },
   {
