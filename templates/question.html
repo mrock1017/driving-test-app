@@ -1,146 +1,250 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Question</title>
+    <title>Driving Test</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 📱 PWA -->
+    <link rel="manifest" href="{{ url_for('static', filename='manifest.json') }}">
+    <meta name="theme-color" content="#2d89ef">
 
     <style>
     body {
         font-family: Arial;
-        max-width: 600px;
-        margin: auto;
-        padding: 20px;
+        margin: 0;
+        background: #f5f7fa;
     }
 
+    .container {
+        max-width: 500px;
+        margin: auto;
+        padding: 15px;
+    }
+
+    /* 🔝 Top bar */
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: white;
+        padding: 15px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        position: sticky;
+        top: 0;
+        z-index: 100;
+    }
+
+    .quit {
+        background: #ff4d4d;
+        color: white;
+        padding: 8px 12px;
+        border-radius: 6px;
+        text-decoration: none;
+        font-size: 14px;
+        transition: transform 0.1s;
+    }
+
+    .quit:active {
+        transform: scale(0.95);
+    }
+
+    /* 📊 Progress */
+    .progress-bar {
+        height: 8px;
+        background: #ddd;
+        border-radius: 10px;
+        margin: 10px 0;
+    }
+
+    .progress {
+        height: 8px;
+        background: #2d89ef;
+        border-radius: 10px;
+    }
+
+    /* 📦 Card */
+    .card {
+        background: white;
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0 3px 10px rgba(0,0,0,0.06);
+    }
+
+    /* 🔘 Choices */
+    .choice {
+        display: block;
+        padding: 15px;
+        margin: 10px 0;
+        border-radius: 12px;
+        border: 1px solid #ddd;
+        background: white;
+        cursor: pointer;
+        transition: transform 0.1s, box-shadow 0.1s;
+    }
+
+    .choice:active {
+        transform: scale(0.98);
+        box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    }
+
+    .choice input {
+        margin-right: 10px;
+    }
+
+    /* Buttons */
     button {
-        padding: 10px 20px;
+        width: 100%;
+        padding: 15px;
+        font-size: 16px;
+        border: none;
+        border-radius: 12px;
         background: #2d89ef;
         color: white;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
+        margin-top: 10px;
+        transition: transform 0.1s;
     }
 
-    .progress-container {
-        background: #ddd;
-        height: 10px;
-        border-radius: 5px;
-        margin-bottom: 15px;
+    button:active {
+        transform: scale(0.97);
     }
 
-    .progress-bar {
-        height: 10px;
-        background: #2d89ef;
-        border-radius: 5px;
+    /* ✅ Feedback animations */
+    .correct {
+        color: green;
+        animation: pop 0.3s ease;
     }
 
-    .correct { color: green; }
-    .incorrect { color: red; }
+    .incorrect {
+        color: red;
+        animation: shake 0.3s ease;
+    }
+
+    @keyframes pop {
+        0% { transform: scale(0.8); }
+        100% { transform: scale(1); }
+    }
+
+    @keyframes shake {
+        0% { transform: translateX(0); }
+        25% { transform: translateX(-5px); }
+        50% { transform: translateX(5px); }
+        75% { transform: translateX(-5px); }
+        100% { transform: translateX(0); }
+    }
+
+    img {
+        width: 100%;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+
+    .timer {
+        font-weight: bold;
+        margin-top: 5px;
+    }
     </style>
 </head>
 
 <body>
 
-    <!-- 🔙 TOP BAR -->
-    <div style="display:flex; justify-content:space-between; align-items:center;">
-        <h3>Driving Test</h3>
+<!-- 🔝 Header -->
+<div class="header">
+    <b>🚗 Driving Test</b>
 
-        <a href="/quit"
-           onclick="return confirm('Are you sure you want to quit? Progress will be lost.');"
-           style="
-               padding:8px 15px;
-               background:#888;
-               color:white;
-               border-radius:5px;
-               text-decoration:none;
-           ">
-           Quit
-        </a>
-    </div>
+    <a href="/quit" class="quit"
+       onclick="return confirm('Quit exam? Progress will be lost.')">
+       Quit
+    </a>
+</div>
 
-    <hr>
+<div class="container">
 
-    <!-- 📊 PROGRESS (ONLY EXAM MODE) -->
+    <!-- 📊 Exam Mode -->
     {% if not is_reviewer %}
         <p><b>Question {{ index + 1 }} / {{ total }}</b></p>
 
-        <div class="progress-container">
-            <div class="progress-bar" style="width: {{ ((index+1)/total)*100 }}%;"></div>
+        <div class="progress-bar">
+            <div class="progress" style="width: {{ ((index+1)/total)*100 }}%;"></div>
         </div>
 
-        <!-- ⏱ TIMER -->
-        <p>Time left: <span id="timer"></span></p>
+        <p class="timer">⏱ <span id="timer"></span></p>
     {% endif %}
 
+    <!-- 📦 Question -->
+    <div class="card">
 
-    <p><b>{{ q.question }}</b></p>
+        <p><b>{{ q.question }}</b></p>
 
-    {% if q.image %}
-        <img src="{{ url_for('static', filename='images/' + q.image) }}" width="300"><br><br>
-    {% endif %}
-
-
-    <!-- 🧠 REVIEWER MODE -->
-    {% if is_reviewer and feedback %}
-
-        <p>
-            Your answer:
-            <span class="{{ 'correct' if is_correct else 'incorrect' }}">
-                {{ user_answer }}
-            </span>
-        </p>
-
-        <p>Correct answer: <b>{{ correct_answer }}</b></p>
-        <p>{{ explanation }}</p>
-
-        {% if is_correct %}
-            <p class="correct">✔ Correct</p>
-        {% else %}
-            <p class="incorrect">✘ Incorrect</p>
+        {% if q.image %}
+            <img src="{{ url_for('static', filename='images/' + q.image) }}">
         {% endif %}
 
-        <a href="/next"><button>Next Question</button></a>
+        <!-- 🧠 Reviewer -->
+        {% if is_reviewer and feedback %}
 
-    {% else %}
+            <p class="{{ 'correct' if is_correct else 'incorrect' }}">
+                Your answer: {{ user_answer }}
+            </p>
 
-        <!-- NORMAL FORM -->
-        <form method="POST">
-            {% for choice in q.choices %}
-                <input type="radio" name="answer" value="{{ choice }}" required>
-                {{ choice }}<br>
-            {% endfor %}
+            <p><b>Correct:</b> {{ correct_answer }}</p>
+            <p>{{ explanation }}</p>
 
-            <br>
-            <button type="submit">
-                {% if is_reviewer %}Submit{% else %}Next{% endif %}
-            </button>
-        </form>
+            <a href="/next"><button>Next Question</button></a>
 
-    {% endif %}
+        {% else %}
 
+            <form method="POST">
 
-    <!-- ⏱ TIMER SCRIPT (ONLY EXAM MODE) -->
-    {% if not is_reviewer %}
-    <script>
-    let time = {{ remaining }};
+                {% for choice in q.choices %}
+                <label class="choice">
+                    <input type="radio" name="answer" value="{{ choice }}" required>
+                    {{ choice }}
+                </label>
+                {% endfor %}
 
-    function updateTimer() {
-        let minutes = Math.floor(time / 60);
-        let seconds = time % 60;
+                <button type="submit">
+                    {% if is_reviewer %}Submit{% else %}Next{% endif %}
+                </button>
 
-        document.getElementById("timer").innerText =
-            minutes + ":" + (seconds < 10 ? "0" : "") + seconds;
+            </form>
 
-        if (time <= 0) {
-            window.location.href = "/result";
-        }
+        {% endif %}
 
-        time--;
+    </div>
+
+</div>
+
+<!-- ⏱ Timer -->
+{% if not is_reviewer %}
+<script>
+let time = {{ remaining }};
+
+function updateTimer() {
+    let m = Math.floor(time / 60);
+    let s = time % 60;
+
+    document.getElementById("timer").innerText =
+        m + ":" + (s < 10 ? "0" : "") + s;
+
+    if (time <= 0) {
+        window.location.href = "/result";
     }
 
-    updateTimer();
-    setInterval(updateTimer, 1000);
-    </script>
-    {% endif %}
+    time--;
+}
+
+updateTimer();
+setInterval(updateTimer, 1000);
+</script>
+{% endif %}
+
+<!-- 📱 Service Worker -->
+<script>
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/static/service-worker.js');
+}
+</script>
 
 </body>
 </html>

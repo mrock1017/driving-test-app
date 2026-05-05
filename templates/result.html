@@ -3,6 +3,8 @@
 <head>
     <title>Result</title>
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <style>
     body {
         font-family: Arial;
@@ -96,6 +98,12 @@
 
     <!-- 🔁 Retry -->
     <a href="/menu" class="button">Try Again</a>
+
+<script>
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/static/service-worker.js');
+}
+</script>
 
 </body>
 </html>

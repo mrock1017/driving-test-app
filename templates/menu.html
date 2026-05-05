@@ -1,19 +1,150 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Menu</title>
+    <title>Driving Test</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 📱 PWA -->
+    <link rel="manifest" href="{{ url_for('static', filename='manifest.json') }}">
+    <meta name="theme-color" content="#2d89ef">
+
+    <style>
+    body {
+        margin: 0;
+        font-family: Arial;
+        background: #f5f7fa;
+    }
+
+    .container {
+        max-width: 500px;
+        margin: auto;
+        padding: 15px;
+    }
+
+    /* 🔝 Header */
+    .header {
+        background: white;
+        padding: 20px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        position: sticky;
+        top: 0;
+        z-index: 100;
+    }
+
+    /* 📦 Card */
+    .card {
+        background: white;
+        padding: 15px;
+        border-radius: 12px;
+        margin-bottom: 15px;
+        box-shadow: 0 3px 10px rgba(0,0,0,0.06);
+    }
+
+    .section-title {
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #555;
+    }
+
+    /* 🔘 Buttons */
+    .menu-btn {
+        display: block;
+        width: 100%;
+        padding: 15px;
+        margin-bottom: 10px;
+        text-align: center;
+        background: #2d89ef;
+        color: white;
+        border-radius: 12px;
+        text-decoration: none;
+        font-size: 16px;
+
+        /* ✨ Animation */
+        transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+
+    .menu-btn:active {
+        transform: scale(0.97);
+        box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+
+    .menu-btn.secondary {
+        background: #666;
+    }
+
+    .menu-btn.green {
+        background: #28a745;
+    }
+
+    /* 📊 Score card */
+    .score {
+        font-size: 18px;
+        text-align: center;
+        font-weight: bold;
+        color: #2d89ef;
+    }
+
+    </style>
 </head>
+
 <body>
 
-<h2>Select Test Mode</h2>
+<!-- 🔝 Header -->
+<div class="header">
+    🚗 Driving Test App
+</div>
 
-<a href="/start/reviewer">Reviewer Mode</a><br><br>
-<a href="/start/karimen_1">Karimen Test 1</a><br><br>
-<a href="/start/karimen_2">Karimen Test 2</a><br><br>
-<a href="/start/karimen_3">Karimen Test 3</a><br><br>
-<a href="/start/karimen_4">Karimen Test 4</a><br><br>
-<a href="/start/honmen_1">Honmen Test 1</a><br><br>
-<a href="/start/honmen_2">Honmen Test 2</a>
+<div class="container">
+
+    <!-- 📊 Last Result -->
+    {% if session.last_score %}
+    <div class="card">
+        <div class="section-title">📊 Last Result</div>
+        <p class="score">
+            {{ session.last_score }} / {{ session.last_total }}
+        </p>
+    </div>
+    {% endif %}
+
+    <!-- 🧠 Reviewer -->
+    <div class="card">
+        <div class="section-title">Study Mode</div>
+
+        <a href="/start/reviewer" class="menu-btn green">
+            🧠 Reviewer Mode
+        </a>
+    </div>
+
+    <!-- 📝 Karimen -->
+    <div class="card">
+        <div class="section-title">Karimen Practice</div>
+
+        <a href="/start/karimen_1" class="menu-btn">📝 Karimen Test 1</a>
+        <a href="/start/karimen_2" class="menu-btn">📝 Karimen Test 2</a>
+        <a href="/start/karimen_3" class="menu-btn">📝 Karimen Test 3</a>
+        <a href="/start/karimen_4" class="menu-btn">📝 Karimen Test 4</a>
+    </div>
+
+    <!-- 🏁 Honmen -->
+    <div class="card">
+        <div class="section-title">Honmen Practice</div>
+
+        <a href="/start/honmen_1" class="menu-btn secondary">🏁 Honmen Test 1</a>
+        <a href="/start/honmen_2" class="menu-btn secondary">🏁 Honmen Test 2</a>
+    </div>
+
+</div>
+
+<!-- 📱 Service Worker -->
+<script>
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/static/service-worker.js');
+}
+</script>
 
 </body>
 </html>
