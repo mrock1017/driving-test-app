@@ -6,33 +6,96 @@
     <style>
     body {
         font-family: Arial;
-        max-width: 600px;
+        max-width: 700px;
         margin: auto;
         padding: 20px;
     }
-    button {
+
+    button, a.button {
         padding: 10px 20px;
         background: #2d89ef;
         color: white;
         border: none;
         border-radius: 5px;
+        text-decoration: none;
+    }
+
+    .pass {
+        color: green;
+        font-weight: bold;
+    }
+
+    .fail {
+        color: red;
+        font-weight: bold;
+    }
+
+    .correct {
+        color: green;
+    }
+
+    .incorrect {
+        color: red;
+    }
+
+    .card {
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        padding: 15px;
+        margin-bottom: 15px;
+        background: #fafafa;
     }
     </style>
 
 </head>
 <body>
 
+    <!-- 🎯 Score -->
     <h2>Your Score: {{ score }} / {{ total }}</h2>
 
+    <!-- 🎯 Pass / Fail -->
+    {% if passed %}
+        <h3 class="pass">PASS ✅ (Required: {{ passing_score }})</h3>
+    {% else %}
+        <h3 class="fail">FAIL ❌ (Required: {{ passing_score }})</h3>
+    {% endif %}
+
+    <hr>
+
+    <!-- 🧠 Review -->
     {% for r in results %}
-        <p><b>{{ r.question }}</b></p>
-        <p>Your answer: {{ r.your_answer }}</p>
-        <p>Correct answer: {{ r.correct_answer }}</p>
-        <p>{{ r.explanation }}</p>
-        <hr>
+        <div class="card">
+
+            <p><b>{{ r.question }}</b></p>
+
+            {% if r.image %}
+                <img src="{{ url_for('static', filename='images/' + r.image) }}" width="300"><br><br>
+            {% endif %}
+
+            <p>
+                Your answer:
+                <span class="{% if r.is_correct %}correct{% else %}incorrect{% endif %}">
+                    {{ r.your_answer }}
+                </span>
+            </p>
+
+            <p>Correct answer: <b>{{ r.correct_answer }}</b></p>
+
+            <p>{{ r.explanation }}</p>
+
+            {% if r.is_correct %}
+                <p class="correct">✔ Correct</p>
+            {% else %}
+                <p class="incorrect">✘ Incorrect</p>
+            {% endif %}
+
+        </div>
     {% endfor %}
 
-    <a href="/">Try Again</a>
+    <br>
+
+    <!-- 🔁 Retry -->
+    <a href="/menu" class="button">Try Again</a>
 
 </body>
 </html>

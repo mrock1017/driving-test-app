@@ -10,31 +10,137 @@
         margin: auto;
         padding: 20px;
     }
+
     button {
         padding: 10px 20px;
         background: #2d89ef;
         color: white;
         border: none;
         border-radius: 5px;
+        cursor: pointer;
     }
-    </style>
 
+    .progress-container {
+        background: #ddd;
+        height: 10px;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+
+    .progress-bar {
+        height: 10px;
+        background: #2d89ef;
+        border-radius: 5px;
+    }
+
+    .correct { color: green; }
+    .incorrect { color: red; }
+    </style>
 </head>
+
 <body>
 
-    <h2>Question {{ index + 1 }}</h2>
+    <!-- 🔙 TOP BAR -->
+    <div style="display:flex; justify-content:space-between; align-items:center;">
+        <h3>Driving Test</h3>
 
-    <form method="POST">
-        <p><b>{{ q.question }}</b></p>
+        <a href="/quit"
+           onclick="return confirm('Are you sure you want to quit? Progress will be lost.');"
+           style="
+               padding:8px 15px;
+               background:#888;
+               color:white;
+               border-radius:5px;
+               text-decoration:none;
+           ">
+           Quit
+        </a>
+    </div>
 
-        {% for choice in q.choices %}
-            <input type="radio" name="answer" value="{{ choice }}" required>
-            {{ choice }}<br>
-        {% endfor %}
+    <hr>
 
-        <br>
-        <button type="submit">Next</button>
-    </form>
+    <!-- 📊 PROGRESS (ONLY EXAM MODE) -->
+    {% if not is_reviewer %}
+        <p><b>Question {{ index + 1 }} / {{ total }}</b></p>
+
+        <div class="progress-container">
+            <div class="progress-bar" style="width: {{ ((index+1)/total)*100 }}%;"></div>
+        </div>
+
+        <!-- ⏱ TIMER -->
+        <p>Time left: <span id="timer"></span></p>
+    {% endif %}
+
+
+    <p><b>{{ q.question }}</b></p>
+
+    {% if q.image %}
+        <img src="{{ url_for('static', filename='images/' + q.image) }}" width="300"><br><br>
+    {% endif %}
+
+
+    <!-- 🧠 REVIEWER MODE -->
+    {% if is_reviewer and feedback %}
+
+        <p>
+            Your answer:
+            <span class="{{ 'correct' if is_correct else 'incorrect' }}">
+                {{ user_answer }}
+            </span>
+        </p>
+
+        <p>Correct answer: <b>{{ correct_answer }}</b></p>
+        <p>{{ explanation }}</p>
+
+        {% if is_correct %}
+            <p class="correct">✔ Correct</p>
+        {% else %}
+            <p class="incorrect">✘ Incorrect</p>
+        {% endif %}
+
+        <a href="/next"><button>Next Question</button></a>
+
+    {% else %}
+
+        <!-- NORMAL FORM -->
+        <form method="POST">
+            {% for choice in q.choices %}
+                <input type="radio" name="answer" value="{{ choice }}" required>
+                {{ choice }}<br>
+            {% endfor %}
+
+            <br>
+            <button type="submit">
+                {% if is_reviewer %}Submit{% else %}Next{% endif %}
+            </button>
+        </form>
+
+    {% endif %}
+
+
+    <!-- ⏱ TIMER SCRIPT (ONLY EXAM MODE) -->
+    {% if not is_reviewer %}
+    <script>
+    let time = {{ remaining }};
+
+    function updateTimer() {
+        let minutes = Math.floor(time / 60);
+        let seconds = time % 60;
+
+        document.getElementById("timer").innerText =
+            minutes + ":" + (seconds < 10 ? "0" : "") + seconds;
+
+        if (time <= 0) {
+            window.location.href = "/result";
+        }
+
+        time--;
+    }
+
+    updateTimer();
+    setInterval(updateTimer, 1000);
+    </script>
+    {% endif %}
 
 </body>
 </html>
