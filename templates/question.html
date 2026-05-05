@@ -22,7 +22,7 @@
         padding: 15px;
     }
 
-    /* 🔝 Top bar */
+    /* 🔝 Header */
     .header {
         display: flex;
         justify-content: space-between;
@@ -33,6 +33,13 @@
         position: sticky;
         top: 0;
         z-index: 100;
+    }
+
+    .title {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-weight: bold;
     }
 
     .quit {
@@ -73,13 +80,17 @@
 
     /* 🔘 Choices */
     .choice {
-        display: block;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
         padding: 15px;
         margin: 10px 0;
         border-radius: 12px;
         border: 1px solid #ddd;
         background: white;
         cursor: pointer;
+
         transition: transform 0.1s, box-shadow 0.1s;
     }
 
@@ -89,7 +100,7 @@
     }
 
     .choice input {
-        margin-right: 10px;
+        transform: scale(1.2);
     }
 
     /* Buttons */
@@ -150,7 +161,10 @@
 
 <!-- 🔝 Header -->
 <div class="header">
-    <b>🚗 Driving Test</b>
+    <div class="title">
+        <span>🚗</span>
+        <span>Driving Test</span>
+    </div>
 
     <a href="/quit" class="quit"
        onclick="return confirm('Quit exam? Progress will be lost.')">
@@ -199,7 +213,7 @@
                 {% for choice in q.choices %}
                 <label class="choice">
                     <input type="radio" name="answer" value="{{ choice }}" required>
-                    {{ choice }}
+                    <span>{{ choice }}</span>
                 </label>
                 {% endfor %}
 
