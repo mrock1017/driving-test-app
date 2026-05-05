@@ -52,7 +52,7 @@
     "question": "8. A learner’s permit holder may carry a copy of the permit, and if the copy is carried while practicing driving, it is not necessary to carry the original permit. Is this correct?",
     "image": null,
     "choices": ["True", "False"],
-    "answer": "True",
+    "answer": "False",
     "explanation": "The original learner’s permit must be carried while driving. A copy alone is not sufficient."
   },
   {
@@ -73,7 +73,7 @@
     "question": "11. In the situation shown, vehicle A must proceed slowly when passing through the intersection due to poor visibility caused by obstacles. Is this correct?",
     "image": "poor_visibility.jpg",
     "choices": ["True", "False"],
-    "answer": "True",
+    "answer": "False",
     "explanation": "If the intersection is controlled (e.g., by signs or signals), the rule requiring slow movement due to poor visibility does not automatically apply."
   },
   {
@@ -164,14 +164,14 @@
     "question": "24. Vehicles may proceed in the direction shown by a green arrow signal. When the green arrow points to the right, a right turn or U-turn is permitted. Is this correct?",
     "image": "green_arrow_proceed.jpg",
     "choices": ["True", "False"],
-    "answer": "False",
+    "answer": "True",
     "explanation": "A green arrow allows movement only in the indicated direction, including permitted turns."
   },
   {
     "question": "25. The diamond-shaped pavement marking indicates that a pedestrian crossing or bicycle crossing may be ahead. Is this correct?",
     "image": "diamond_markings.jpg",
     "choices": ["True", "False"],
-    "answer": "False",
+    "answer": "True",
     "explanation": "These markings warn drivers to prepare for crossing areas ahead."
   },
   {
@@ -344,7 +344,7 @@
   },
   {
     "question": "50. When a police officer controlling traffic raises both arms straight up vertically, this signal has the same meaning as a yellow traffic light for traffic moving parallel to the officer. Is this correct?",
-    "image": "bicycle.png",
+    "image": null,
     "choices": ["True", "False"],
     "answer": "False",
     "explanation": "This hand signal does not correspond to a yellow light for parallel traffic. The interpretation in the statement is incorrect."
