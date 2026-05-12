@@ -31,31 +31,62 @@ app.secret_key = "secret123"
 def menu():
     return render_template('menu.html')
 
+
 @app.route('/quit')
 def quit_exam():
-    session.clear()  # clear all session data
+    session.clear()
     return redirect('/menu')
 
 
 # ✅ START MODE
 @app.route('/start/<mode>')
 def start_mode(mode):
-    questions = load_questions(f"{mode}.json")
 
-    order = list(range(len(questions)))
-    random.shuffle(order)
+    questions = load_questions(f"{mode}.json")
 
     session['answers'] = []
     session['current'] = 0
     session['mode'] = mode
+
+    # 🏁 HONMEN SPECIAL STRUCTURE
+    if "honmen" in mode:
+
+        # ✅ Questions 1–90
+        normal_questions = list(range(min(90, len(questions))))
+
+        # ✅ Questions 91+
+        group_questions = list(range(90, len(questions)))
+
+        # shuffle separately
+        random.shuffle(normal_questions)
+        random.shuffle(group_questions)
+
+        # combine
+        order = normal_questions + group_questions
+
+        # ⏱ 50 minutes
+        session['start_time'] = int(time.time())
+        session['duration'] = 50 * 60
+
+    else:
+
+        # ✅ Normal randomization
+        order = list(range(len(questions)))
+        random.shuffle(order)
+
+        # 🧠 Reviewer = no timer
+        if mode == "reviewer":
+            session['duration'] = None
+
+        else:
+            # ⏱ Karimen = 30 minutes
+            session['start_time'] = int(time.time())
+            session['duration'] = 30 * 60
+
     session['order'] = order
 
-    # ⏱ Timer only for exam modes
-    if mode != "reviewer":
-        session['start_time'] = int(time.time())
-        session['duration'] = 30 * 60  # 30 minutes
-
     print("MODE SET:", mode)
+    print("TOTAL QUESTIONS:", len(order))
 
     return redirect('/question')
 
@@ -68,6 +99,7 @@ def start():
 # ✅ QUESTION PAGE
 @app.route('/question', methods=['GET', 'POST'])
 def question():
+
     if 'mode' not in session:
         return redirect('/menu')
 
@@ -79,11 +111,14 @@ def question():
 
     is_reviewer = session['mode'] == "reviewer"
 
-    # ⏱ Only apply timer in exam mode
+    # ⏱ Timer only for exam modes
     remaining = None
+
     if not is_reviewer:
+
         start_time = session.get('start_time', int(time.time()))
         duration = session.get('duration', 1800)
+
         remaining = duration - (int(time.time()) - start_time)
 
         if remaining <= 0:
@@ -96,9 +131,11 @@ def question():
     user_answer = None
 
     if request.method == 'POST':
+
         answer = request.form.get('answer')
 
         if answer is not None:
+
             idx = order[session['current']]
             q = questions[idx]
 
@@ -106,15 +143,24 @@ def question():
             explanation = q["explanation"]
             user_answer = answer
 
-            is_correct = answer.strip().lower() == correct_answer.strip().lower()
+            is_correct = (
+                answer.strip().lower()
+                == q["answer"].strip().lower()
+            )
 
+            # 📝 EXAM MODE
             if not is_reviewer:
+
                 session['answers'].append(answer)
                 session['current'] += 1
-                return redirect('/question')
-            else:
-                feedback = True  # stay on same question
 
+                return redirect('/question')
+
+            # 🧠 REVIEWER MODE
+            else:
+                feedback = True
+
+    # ✅ Finished exam
     if session['current'] >= len(order):
         return redirect('/result')
 
@@ -136,20 +182,23 @@ def question():
     )
 
 
-# ➡️ NEXT QUESTION (for reviewer mode)
+# ➡️ NEXT QUESTION (reviewer only)
 @app.route('/next')
 def next_question():
+
     session['current'] += 1
+
     return redirect('/question')
 
 
-# ✅ RESULT PAGE (exam only)
+# ✅ RESULT PAGE
 @app.route('/result')
 def result():
+
     if 'mode' not in session:
         return redirect('/menu')
 
-    # reviewer doesn't need result page
+    # 🧠 Reviewer doesn't use result page
     if session['mode'] == "reviewer":
         return redirect('/menu')
 
@@ -160,10 +209,19 @@ def result():
     score = 0
 
     for i, idx in enumerate(order):
-        q = questions[idx]
-        user_answer = session['answers'][i] if i < len(session['answers']) else None
 
-        correct = (user_answer or "").strip().lower() == q["answer"].strip().lower()
+        q = questions[idx]
+
+        user_answer = (
+            session['answers'][i]
+            if i < len(session['answers'])
+            else None
+        )
+
+        correct = (
+            (user_answer or "").strip().lower()
+            == q["answer"].strip().lower()
+        )
 
         if correct:
             score += 1
@@ -177,6 +235,11 @@ def result():
             "image": q.get("image")
         })
 
+    # 🎯 Save last score
+    session['last_score'] = score
+    session['last_total'] = len(order)
+
+    # 🎯 Passing score (90%)
     passing_score = int(len(order) * 0.9)
     passed = score >= passing_score
 
