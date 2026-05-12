@@ -229,14 +229,12 @@
             </div>
 
             {% if q.image %}
-                <img src="{{ url_for('static', filename='images/' + q.image) }}">
+                <img src="{{ url_for('static', filename='images/' ~ q.image) }}">
             {% endif %}
 
             <form method="POST">
 
                 {% for item in q.items %}
-
-                    {% set item_index = loop.index0 %}
 
                     <div class="group-question">
 
@@ -246,20 +244,31 @@
 
                         <p><b>{{ item.question }}</b></p>
 
-                        {% for choice in item.choices %}
                         <label class="choice">
 
                             <input
                                 type="radio"
-                                name="answer_{{ item_index }}"
-                                value="{{ choice }}"
+                                name="answer_{{ item.number }}"
+                                value="True"
                                 required
                             >
 
-                            <span>{{ choice }}</span>
+                            <span>True</span>
 
                         </label>
-                        {% endfor %}
+
+                        <label class="choice">
+
+                            <input
+                                type="radio"
+                                name="answer_{{ item.number }}"
+                                value="False"
+                                required
+                            >
+
+                            <span>False</span>
+
+                        </label>
 
                     </div>
 
@@ -275,7 +284,7 @@
             <p><b>{{ q.question }}</b></p>
 
             {% if q.image %}
-                <img src="{{ url_for('static', filename='images/' + q.image) }}">
+                <img src="{{ url_for('static', filename='images/' ~ q.image) }}">
             {% endif %}
 
             <p class="{{ 'correct' if is_correct else 'incorrect' }}">
@@ -283,9 +292,12 @@
             </p>
 
             <p><b>Correct:</b> {{ correct_answer }}</p>
+
             <p>{{ explanation }}</p>
 
-            <a href="/next"><button>Next Question</button></a>
+            <a href="/next">
+                <button>Next Question</button>
+            </a>
 
         <!-- 📝 NORMAL QUESTION -->
         {% else %}
@@ -293,12 +305,13 @@
             <p><b>{{ q.question }}</b></p>
 
             {% if q.image %}
-                <img src="{{ url_for('static', filename='images/' + q.image) }}">
+                <img src="{{ url_for('static', filename='images/' ~ q.image) }}">
             {% endif %}
 
             <form method="POST">
 
                 {% for choice in q.choices %}
+
                 <label class="choice">
 
                     <input
@@ -311,6 +324,7 @@
                     <span>{{ choice }}</span>
 
                 </label>
+
                 {% endfor %}
 
                 <button type="submit">

@@ -5,6 +5,7 @@ import random
 import time
 
 def load_questions(filename):
+
     filepath = os.path.join("data", filename)
 
     if not os.path.exists(filepath):
@@ -35,7 +36,9 @@ def menu():
 
 @app.route('/quit')
 def quit_exam():
+
     session.clear()
+
     return redirect('/menu')
 
 
@@ -49,7 +52,7 @@ def start_mode(mode):
     session['current'] = 0
     session['mode'] = mode
 
-    # 🏁 HONMEN SPECIAL STRUCTURE
+    # 🏁 HONMEN
     if "honmen" in mode:
 
         normal_questions = []
@@ -57,37 +60,37 @@ def start_mode(mode):
 
         for i, q in enumerate(questions):
 
-            # 🏁 grouped questions (91-95)
+            # 🏁 grouped
             if q.get("question_group"):
                 grouped_questions.append(i)
 
-            # 📝 normal questions
+            # 📝 normal
             else:
                 normal_questions.append(i)
 
-        # shuffle separately
         random.shuffle(normal_questions)
         random.shuffle(grouped_questions)
 
-        # combine
         order = normal_questions + grouped_questions
 
-        # ⏱ 50 minutes
+        # ⏱ 50 mins
         session['start_time'] = int(time.time())
         session['duration'] = 50 * 60
 
     else:
 
-        # 📝 Normal randomization
         order = list(range(len(questions)))
+
         random.shuffle(order)
 
-        # 🧠 Reviewer mode
+        # 🧠 reviewer
         if mode == "reviewer":
+
             session['duration'] = None
 
         else:
-            # ⏱ Karimen = 30 mins
+
+            # ⏱ karimen
             session['start_time'] = int(time.time())
             session['duration'] = 30 * 60
 
@@ -111,24 +114,28 @@ def question():
     if 'mode' not in session:
         return redirect('/menu')
 
-    questions = load_questions(f"{session['mode']}.json")
+    questions = load_questions(
+        f"{session['mode']}.json"
+    )
 
     order = session.get(
         'order',
         list(range(len(questions)))
     )
 
-    # ❌ no questions
+    # ❌ empty
     if len(questions) == 0:
-        return "<h2>No questions found.</h2><a href='/menu'>Go back</a>"
+        return "<h2>No questions found.</h2>"
 
     # ✅ finished
     if session['current'] >= len(order):
         return redirect('/result')
 
-    is_reviewer = session['mode'] == "reviewer"
+    is_reviewer = (
+        session['mode'] == "reviewer"
+    )
 
-    # ⏱ Timer
+    # ⏱ timer
     remaining = None
 
     if not is_reviewer:
@@ -169,13 +176,17 @@ def question():
 
             group_answers = []
 
-            for i, item in enumerate(q['items']):
+            for item in q['items']:
 
-                ans = request.form.get(f'answer_{i}')
+                ans = request.form.get(
+                    f'answer_{item["number"]}'
+                )
 
                 group_answers.append(ans)
 
-            session['answers'].append(group_answers)
+            session['answers'].append(
+                group_answers
+            )
 
             session['current'] += 1
 
@@ -184,29 +195,36 @@ def question():
         # 📝 NORMAL QUESTIONS
         else:
 
-            answer = request.form.get('answer')
+            answer = request.form.get(
+                'answer'
+            )
 
             if answer is not None:
 
                 correct_answer = q["answer"]
+
                 explanation = q["explanation"]
+
                 user_answer = answer
 
                 is_correct = (
                     answer.strip().lower()
-                    == q["answer"].strip().lower()
+                    ==
+                    q["answer"].strip().lower()
                 )
 
-                # 📝 EXAM MODE
+                # 📝 exam
                 if not is_reviewer:
 
-                    session['answers'].append(answer)
+                    session['answers'].append(
+                        answer
+                    )
 
                     session['current'] += 1
 
                     return redirect('/question')
 
-                # 🧠 REVIEWER MODE
+                # 🧠 reviewer
                 else:
                     feedback = True
 
@@ -255,6 +273,7 @@ def result():
     )
 
     results = []
+
     score = 0
     total_questions = 0
 
@@ -278,31 +297,40 @@ def result():
                 ans = None
 
                 if (
-                    user_answer
-                    and isinstance(user_answer, list)
+                    isinstance(user_answer, list)
                     and j < len(user_answer)
                 ):
                     ans = user_answer[j]
 
                 correct = (
                     (ans or "").strip().lower()
-                    == item["answer"].strip().lower()
+                    ==
+                    item["answer"].strip().lower()
                 )
 
                 if correct:
                     score += 1
 
                 results.append({
+
                     "question":
-                        f"Group {q['question_group']} - "
+                        f"Group "
+                        f"{q['question_group']} - "
                         f"{item['number']}: "
                         f"{item['question']}",
 
                     "your_answer": ans,
-                    "correct_answer": item["answer"],
-                    "explanation": item["explanation"],
+
+                    "correct_answer":
+                        item["answer"],
+
+                    "explanation":
+                        item["explanation"],
+
                     "is_correct": correct,
-                    "image": q.get("image")
+
+                    "image":
+                        q.get("image")
                 })
 
         # 📝 NORMAL QUESTIONS
@@ -312,27 +340,42 @@ def result():
 
             correct = (
                 (user_answer or "").strip().lower()
-                == q["answer"].strip().lower()
+                ==
+                q["answer"].strip().lower()
             )
 
             if correct:
                 score += 1
 
             results.append({
-                "question": q["question"],
-                "your_answer": user_answer,
-                "correct_answer": q["answer"],
-                "explanation": q["explanation"],
-                "is_correct": correct,
-                "image": q.get("image")
+
+                "question":
+                    q["question"],
+
+                "your_answer":
+                    user_answer,
+
+                "correct_answer":
+                    q["answer"],
+
+                "explanation":
+                    q["explanation"],
+
+                "is_correct":
+                    correct,
+
+                "image":
+                    q.get("image")
             })
 
-    # 🎯 Save latest score
+    # 🎯 save latest score
     session['last_score'] = score
     session['last_total'] = total_questions
 
-    # 🎯 Passing score
-    passing_score = int(total_questions * 0.9)
+    # 🎯 passing score
+    passing_score = int(
+        total_questions * 0.9
+    )
 
     passed = score >= passing_score
 
