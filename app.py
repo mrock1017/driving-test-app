@@ -298,9 +298,12 @@ def result():
         # 🏁 GROUP QUESTIONS
         if "items" in q:
 
-            for j, item in enumerate(q["items"]):
+            # ✅ each group question = 2 points
+            total_questions += 2
 
-                total_questions += 1
+            all_correct = True
+
+            for j, item in enumerate(q["items"]):
 
                 ans = None
 
@@ -316,8 +319,9 @@ def result():
                     item["answer"].strip().lower()
                 )
 
-                if correct:
-                    score += 1
+                # ❌ even one mistake = whole group wrong
+                if not correct:
+                    all_correct = False
 
                 results.append({
 
@@ -342,6 +346,10 @@ def result():
                     "image":
                         q.get("image")
                 })
+
+            # ✅ full 2 points only if ALL correct
+            if all_correct:
+                score += 2
 
         # 📝 NORMAL QUESTIONS
         else:
@@ -382,10 +390,13 @@ def result():
     session['last_score'] = score
     session['last_total'] = total_questions
 
-    # 🎯 passing score
-    passing_score = int(
-        total_questions * 0.9
-    )
+    # 🎯 HONMEN PASSING SCORE = 90 / 100
+    if "honmen" in session['mode']:
+        passing_score = 90
+    else:
+        passing_score = int(
+            total_questions * 0.9
+        )
 
     passed = score >= passing_score
 
