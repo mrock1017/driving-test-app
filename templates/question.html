@@ -218,7 +218,7 @@
     <div class="card">
 
         <!-- 🏁 GROUP QUESTION MODE -->
-        {% if q.question_group %}
+        {% if "items" in q %}
 
             <div class="group-title">
                 Group Question {{ q.question_group }}
@@ -234,7 +234,7 @@
 
             <form method="POST">
 
-                {% for item in q.items %}
+                {% for item in q["items"] %}
 
                     <div class="group-question">
 

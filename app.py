@@ -63,17 +63,18 @@ def start_mode(mode):
 
         for i, q in enumerate(questions):
 
-            # 🏁 grouped
-            if q.get("question_group"):
+            # 🏁 grouped questions
+            if "question_group" in q:
                 grouped_questions.append(i)
 
-            # 📝 normal
+            # 📝 normal questions
             else:
                 normal_questions.append(i)
 
         random.shuffle(normal_questions)
         random.shuffle(grouped_questions)
 
+        # grouped always at end
         order = normal_questions + grouped_questions
 
         # ⏱ 50 mins
@@ -126,7 +127,7 @@ def question():
         list(range(len(questions)))
     )
 
-    # ❌ empty
+    # ❌ no questions
     if len(questions) == 0:
         return "<h2>No questions found.</h2>"
 
@@ -164,7 +165,7 @@ def question():
     idx = order[session['current']]
     q = questions[idx]
 
-    # reviewer feedback
+    # reviewer mode feedback
     feedback = False
     correct_answer = None
     explanation = None
@@ -175,11 +176,11 @@ def question():
     if request.method == 'POST':
 
         # 🏁 GROUP QUESTIONS
-        if q.get('items'):
+        if "items" in q:
 
             group_answers = []
 
-            for item in q['items']:
+            for item in q["items"]:
 
                 ans = request.form.get(
                     f'answer_{item["number"]}'
@@ -190,6 +191,8 @@ def question():
             session['answers'].append(
                 group_answers
             )
+
+            session.modified = True
 
             session['current'] += 1
 
@@ -216,18 +219,20 @@ def question():
                     q["answer"].strip().lower()
                 )
 
-                # 📝 exam
+                # 📝 exam mode
                 if not is_reviewer:
 
                     session['answers'].append(
                         answer
                     )
 
+                    session.modified = True
+
                     session['current'] += 1
 
                     return redirect('/question')
 
-                # 🧠 reviewer
+                # 🧠 reviewer mode
                 else:
                     feedback = True
 
@@ -291,7 +296,7 @@ def result():
         )
 
         # 🏁 GROUP QUESTIONS
-        if q.get("items"):
+        if "items" in q:
 
             for j, item in enumerate(q["items"]):
 
@@ -322,7 +327,8 @@ def result():
                         f"{item['number']}: "
                         f"{item['question']}",
 
-                    "your_answer": ans,
+                    "your_answer":
+                        ans,
 
                     "correct_answer":
                         item["answer"],
@@ -330,7 +336,8 @@ def result():
                     "explanation":
                         item["explanation"],
 
-                    "is_correct": correct,
+                    "is_correct":
+                        correct,
 
                     "image":
                         q.get("image")
@@ -392,6 +399,7 @@ def result():
     )
 
 
+# ✅ SHOW REAL ERRORS
 @app.errorhandler(Exception)
 def handle_error(e):
 
@@ -399,7 +407,8 @@ def handle_error(e):
     <h1>ERROR</h1>
     <pre>{str(e)}</pre>
     """, 500
-    
+
+
 if __name__ == '__main__':
 
     port = int(
