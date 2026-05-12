@@ -236,6 +236,8 @@
 
                 {% for item in q.items %}
 
+                    {% set item_index = loop.index0 %}
+
                     <div class="group-question">
 
                         <div class="group-number">
@@ -249,7 +251,7 @@
 
                             <input
                                 type="radio"
-                                name="answer_{{ loop.parent.index0 }}"
+                                name="answer_{{ item_index }}"
                                 value="{{ choice }}"
                                 required
                             >
