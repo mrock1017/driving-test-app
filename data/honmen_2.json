@@ -632,7 +632,7 @@
 {
   "question_group": "91",
   "situation": "You are waiting to make a right turn at an intersection. A large truck coming from the opposite direction stops and flashes its headlights. What should you pay attention to in this situation?",
-  "image": "making_a_right_turn_flasing_light.jpg",
+  "image": null,
   "items": [
     {
       "number": 1,
@@ -660,7 +660,7 @@
 {
   "question_group": "92",
   "situation": "You are driving at about 20 kph through a busy shopping street with pedestrians, parked vehicles, and possible hazards nearby. What should you be careful about in this situation?",
-  "image": "shopping_district_safety.jpg",
+  "image": null,
   "items": [
     {
       "number": 1,
@@ -688,7 +688,7 @@
 {
   "question_group": "93",
   "situation": "Rain begins to fall while you are driving at around 40 kph near an intersection with pedestrians nearby. What precautions should you take in this situation?",
-  "image": "rainy_intersection_pedestrian.jpg",
+  "image": null,
   "items": [
     {
       "number": 1,
@@ -716,7 +716,7 @@
 {
   "question_group": "94",
   "situation": "You are driving at approximately 30 kph on a narrow road where pedestrians are walking ahead and an oncoming vehicle is approaching. What should you pay attention to in this situation?",
-  "image": "narrow_road_pedestrian_oncoming_car.jpg",
+  "image": null,
   "items": [
     {
       "number": 1,
@@ -744,7 +744,7 @@
 {
   "question_group": "95",
   "situation": "You are driving at about 80 kph in the main lane of an expressway while another vehicle is approaching from an acceleration lane. What should you watch for in this situation?",
-  "image": "expressway_merging_vehicle.jpg",
+  "image": null,
   "items": [
     {
       "number": 1,
