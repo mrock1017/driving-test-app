@@ -89,6 +89,16 @@
         font-weight: bold;
     }
 
+    .group-badge {
+        display: inline-block;
+        background: #2d89ef;
+        color: white;
+        padding: 4px 10px;
+        border-radius: 999px;
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
     /* 🔘 Button */
     .button {
         display: block;
@@ -134,10 +144,16 @@
     {% for r in results %}
         <div class="card">
 
+            {% if "Group" in r.question %}
+                <div class="group-badge">
+                    GROUP QUESTION
+                </div>
+            {% endif %}
+
             <p><b>{{ r.question }}</b></p>
 
             {% if r.image %}
-                <img src="{{ url_for('static', filename='images/' + r.image) }}">
+                <img src="{{ url_for('static', filename='images/' ~ r.image) }}">
             {% endif %}
 
             <p>
@@ -147,7 +163,10 @@
                 </span>
             </p>
 
-            <p>Correct answer: <b>{{ r.correct_answer }}</b></p>
+            <p>
+                Correct answer:
+                <b>{{ r.correct_answer }}</b>
+            </p>
 
             <p>{{ r.explanation }}</p>
 
@@ -161,7 +180,9 @@
     {% endfor %}
 
     <!-- 🔁 Retry -->
-    <a href="/menu" class="button">🔁 Try Again</a>
+    <a href="/menu" class="button">
+        🔁 Try Again
+    </a>
 
 </div>
 

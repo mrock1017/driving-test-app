@@ -18,6 +18,7 @@ def load_questions(filename):
     try:
         with open(filepath, encoding="utf-8-sig") as f:
             return json.load(f)
+
     except Exception as e:
         print("JSON ERROR in", filepath, ":", e)
         return []
@@ -51,16 +52,16 @@ def start_mode(mode):
     # 🏁 HONMEN SPECIAL STRUCTURE
     if "honmen" in mode:
 
-        # ✅ normal questions
         normal_questions = []
-
-        # ✅ grouped questions
         grouped_questions = []
 
         for i, q in enumerate(questions):
 
-            if "question_group" in q:
+            # 🏁 grouped questions (91-95)
+            if q.get("question_group"):
                 grouped_questions.append(i)
+
+            # 📝 normal questions
             else:
                 normal_questions.append(i)
 
@@ -77,16 +78,16 @@ def start_mode(mode):
 
     else:
 
-        # ✅ Normal randomization
+        # 📝 Normal randomization
         order = list(range(len(questions)))
         random.shuffle(order)
 
-        # 🧠 Reviewer = no timer
+        # 🧠 Reviewer mode
         if mode == "reviewer":
             session['duration'] = None
 
         else:
-            # ⏱ Karimen = 30 minutes
+            # ⏱ Karimen = 30 mins
             session['start_time'] = int(time.time())
             session['duration'] = 30 * 60
 
@@ -111,45 +112,60 @@ def question():
         return redirect('/menu')
 
     questions = load_questions(f"{session['mode']}.json")
-    order = session.get('order', list(range(len(questions))))
 
+    order = session.get(
+        'order',
+        list(range(len(questions)))
+    )
+
+    # ❌ no questions
     if len(questions) == 0:
         return "<h2>No questions found.</h2><a href='/menu'>Go back</a>"
 
-    # ✅ prevent crash after last question
+    # ✅ finished
     if session['current'] >= len(order):
         return redirect('/result')
 
     is_reviewer = session['mode'] == "reviewer"
 
-    # ⏱ Timer only for exam modes
+    # ⏱ Timer
     remaining = None
 
     if not is_reviewer:
 
-        start_time = session.get('start_time', int(time.time()))
-        duration = session.get('duration', 1800)
+        start_time = session.get(
+            'start_time',
+            int(time.time())
+        )
 
-        remaining = duration - (int(time.time()) - start_time)
+        duration = session.get(
+            'duration',
+            1800
+        )
+
+        remaining = duration - (
+            int(time.time()) - start_time
+        )
 
         if remaining <= 0:
             return redirect('/result')
 
+    # current question
+    idx = order[session['current']]
+    q = questions[idx]
+
+    # reviewer feedback
     feedback = False
     correct_answer = None
     explanation = None
     is_correct = None
     user_answer = None
 
-    # current question
-    idx = order[session['current']]
-    q = questions[idx]
-
     # ✅ FORM SUBMIT
     if request.method == 'POST':
 
         # 🏁 GROUP QUESTIONS
-        if 'items' in q:
+        if q.get('items'):
 
             group_answers = []
 
@@ -185,6 +201,7 @@ def question():
                 if not is_reviewer:
 
                     session['answers'].append(answer)
+
                     session['current'] += 1
 
                     return redirect('/question')
@@ -208,7 +225,7 @@ def question():
     )
 
 
-# ➡️ NEXT QUESTION (reviewer only)
+# ➡️ NEXT QUESTION
 @app.route('/next')
 def next_question():
 
@@ -224,12 +241,18 @@ def result():
     if 'mode' not in session:
         return redirect('/menu')
 
-    # 🧠 Reviewer doesn't use result page
+    # 🧠 reviewer skips results
     if session['mode'] == "reviewer":
         return redirect('/menu')
 
-    questions = load_questions(f"{session['mode']}.json")
-    order = session.get('order', list(range(len(questions))))
+    questions = load_questions(
+        f"{session['mode']}.json"
+    )
+
+    order = session.get(
+        'order',
+        list(range(len(questions)))
+    )
 
     results = []
     score = 0
@@ -246,17 +269,20 @@ def result():
         )
 
         # 🏁 GROUP QUESTIONS
-        if "items" in q:
+        if q.get("items"):
 
             for j, item in enumerate(q["items"]):
 
                 total_questions += 1
 
-                ans = (
-                    user_answer[j]
-                    if user_answer and j < len(user_answer)
-                    else None
-                )
+                ans = None
+
+                if (
+                    user_answer
+                    and isinstance(user_answer, list)
+                    and j < len(user_answer)
+                ):
+                    ans = user_answer[j]
 
                 correct = (
                     (ans or "").strip().lower()
@@ -267,7 +293,11 @@ def result():
                     score += 1
 
                 results.append({
-                    "question": f"Group {q['question_group']} - {item['number']}: {item['question']}",
+                    "question":
+                        f"Group {q['question_group']} - "
+                        f"{item['number']}: "
+                        f"{item['question']}",
+
                     "your_answer": ans,
                     "correct_answer": item["answer"],
                     "explanation": item["explanation"],
@@ -297,12 +327,13 @@ def result():
                 "image": q.get("image")
             })
 
-    # 🎯 Save last score
+    # 🎯 Save latest score
     session['last_score'] = score
     session['last_total'] = total_questions
 
-    # 🎯 Passing score (90%)
+    # 🎯 Passing score
     passing_score = int(total_questions * 0.9)
+
     passed = score >= passing_score
 
     return render_template(
@@ -316,5 +347,12 @@ def result():
 
 
 if __name__ == '__main__':
-    port = int(os.environ.get("PORT", 5000))
-    app.run(host='0.0.0.0', port=port)
+
+    port = int(
+        os.environ.get("PORT", 5000)
+    )
+
+    app.run(
+        host='0.0.0.0',
+        port=port
+    )

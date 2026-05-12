@@ -106,7 +106,7 @@
   },
   {
     "question": "16. A person holding an ordinary vehicle license is permitted to operate light special vehicles and standard mopeds in addition to regular automobiles.",
-    "image": "cannot_change.jpg",
+    "image": null,
     "choices": ["True", "False"],
     "answer": "False",
     "explanation": "A regular driver’s license in Japan generally allows the holder to drive ordinary cars as well as certain smaller vehicle categories, including general mopeds and light special-purpose vehicles."
@@ -134,7 +134,7 @@
   },
   {
     "question": "20. The driver’s seat should be adjusted so that the driver’s leg becomes fully straight when the clutch pedal is completely pressed.",
-    "image": "50.jpg",
+    "image": null,
     "choices": ["True", "False"],
     "answer": "False",
     "explanation": "The driver’s knee should remain slightly bent when pressing the clutch fully. This position allows better control and reduces fatigue while driving."
