@@ -28,6 +28,9 @@ def load_questions(filename):
 app = Flask(__name__)
 app.secret_key = "secret123"
 
+app.config['TEMPLATES_AUTO_RELOAD'] = True
+app.config['DEBUG'] = True
+
 
 @app.route('/menu')
 def menu():
@@ -389,6 +392,14 @@ def result():
     )
 
 
+@app.errorhandler(Exception)
+def handle_error(e):
+
+    return f"""
+    <h1>ERROR</h1>
+    <pre>{str(e)}</pre>
+    """, 500
+    
 if __name__ == '__main__':
 
     port = int(
