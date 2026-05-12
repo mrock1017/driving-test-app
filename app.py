@@ -116,6 +116,10 @@ def question():
     if len(questions) == 0:
         return "<h2>No questions found.</h2><a href='/menu'>Go back</a>"
 
+    # ✅ prevent crash after last question
+    if session['current'] >= len(order):
+        return redirect('/result')
+
     is_reviewer = session['mode'] == "reviewer"
 
     # ⏱ Timer only for exam modes
@@ -148,26 +152,12 @@ def question():
         if 'items' in q:
 
             group_answers = []
-            group_results = []
 
             for i, item in enumerate(q['items']):
 
                 ans = request.form.get(f'answer_{i}')
 
                 group_answers.append(ans)
-
-                correct = (
-                    (ans or "").strip().lower()
-                    == item["answer"].strip().lower()
-                )
-
-                group_results.append({
-                    "question": item["question"],
-                    "your_answer": ans,
-                    "correct_answer": item["answer"],
-                    "explanation": item["explanation"],
-                    "is_correct": correct
-                })
 
             session['answers'].append(group_answers)
 
@@ -202,13 +192,6 @@ def question():
                 # 🧠 REVIEWER MODE
                 else:
                     feedback = True
-
-    # ✅ Finished exam
-    if session['current'] >= len(order):
-        return redirect('/result')
-
-    idx = order[session['current']]
-    q = questions[idx]
 
     return render_template(
         'question.html',
@@ -269,7 +252,11 @@ def result():
 
                 total_questions += 1
 
-                ans = user_answer[j] if user_answer else None
+                ans = (
+                    user_answer[j]
+                    if user_answer and j < len(user_answer)
+                    else None
+                )
 
                 correct = (
                     (ans or "").strip().lower()
@@ -280,7 +267,7 @@ def result():
                     score += 1
 
                 results.append({
-                    "question": item["question"],
+                    "question": f"Group {q['question_group']} - {item['number']}: {item['question']}",
                     "your_answer": ans,
                     "correct_answer": item["answer"],
                     "explanation": item["explanation"],
