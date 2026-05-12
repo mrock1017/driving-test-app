@@ -51,18 +51,25 @@ def start_mode(mode):
     # 🏁 HONMEN SPECIAL STRUCTURE
     if "honmen" in mode:
 
-        # ✅ Questions 1–90
-        normal_questions = list(range(min(90, len(questions))))
+        # ✅ normal questions
+        normal_questions = []
 
-        # ✅ Questions 91+
-        group_questions = list(range(90, len(questions)))
+        # ✅ grouped questions
+        grouped_questions = []
+
+        for i, q in enumerate(questions):
+
+            if "question_group" in q:
+                grouped_questions.append(i)
+            else:
+                normal_questions.append(i)
 
         # shuffle separately
         random.shuffle(normal_questions)
-        random.shuffle(group_questions)
+        random.shuffle(grouped_questions)
 
         # combine
-        order = normal_questions + group_questions
+        order = normal_questions + grouped_questions
 
         # ⏱ 50 minutes
         session['start_time'] = int(time.time())
@@ -130,35 +137,71 @@ def question():
     is_correct = None
     user_answer = None
 
+    # current question
+    idx = order[session['current']]
+    q = questions[idx]
+
+    # ✅ FORM SUBMIT
     if request.method == 'POST':
 
-        answer = request.form.get('answer')
+        # 🏁 GROUP QUESTIONS
+        if 'items' in q:
 
-        if answer is not None:
+            group_answers = []
+            group_results = []
 
-            idx = order[session['current']]
-            q = questions[idx]
+            for i, item in enumerate(q['items']):
 
-            correct_answer = q["answer"]
-            explanation = q["explanation"]
-            user_answer = answer
+                ans = request.form.get(f'answer_{i}')
 
-            is_correct = (
-                answer.strip().lower()
-                == q["answer"].strip().lower()
-            )
+                group_answers.append(ans)
 
-            # 📝 EXAM MODE
-            if not is_reviewer:
+                correct = (
+                    (ans or "").strip().lower()
+                    == item["answer"].strip().lower()
+                )
 
-                session['answers'].append(answer)
-                session['current'] += 1
+                group_results.append({
+                    "question": item["question"],
+                    "your_answer": ans,
+                    "correct_answer": item["answer"],
+                    "explanation": item["explanation"],
+                    "is_correct": correct
+                })
 
-                return redirect('/question')
+            session['answers'].append(group_answers)
 
-            # 🧠 REVIEWER MODE
-            else:
-                feedback = True
+            session['current'] += 1
+
+            return redirect('/question')
+
+        # 📝 NORMAL QUESTIONS
+        else:
+
+            answer = request.form.get('answer')
+
+            if answer is not None:
+
+                correct_answer = q["answer"]
+                explanation = q["explanation"]
+                user_answer = answer
+
+                is_correct = (
+                    answer.strip().lower()
+                    == q["answer"].strip().lower()
+                )
+
+                # 📝 EXAM MODE
+                if not is_reviewer:
+
+                    session['answers'].append(answer)
+                    session['current'] += 1
+
+                    return redirect('/question')
+
+                # 🧠 REVIEWER MODE
+                else:
+                    feedback = True
 
     # ✅ Finished exam
     if session['current'] >= len(order):
@@ -207,6 +250,7 @@ def result():
 
     results = []
     score = 0
+    total_questions = 0
 
     for i, idx in enumerate(order):
 
@@ -218,35 +262,66 @@ def result():
             else None
         )
 
-        correct = (
-            (user_answer or "").strip().lower()
-            == q["answer"].strip().lower()
-        )
+        # 🏁 GROUP QUESTIONS
+        if "items" in q:
 
-        if correct:
-            score += 1
+            for j, item in enumerate(q["items"]):
 
-        results.append({
-            "question": q["question"],
-            "your_answer": user_answer,
-            "correct_answer": q["answer"],
-            "explanation": q["explanation"],
-            "is_correct": correct,
-            "image": q.get("image")
-        })
+                total_questions += 1
+
+                ans = user_answer[j] if user_answer else None
+
+                correct = (
+                    (ans or "").strip().lower()
+                    == item["answer"].strip().lower()
+                )
+
+                if correct:
+                    score += 1
+
+                results.append({
+                    "question": item["question"],
+                    "your_answer": ans,
+                    "correct_answer": item["answer"],
+                    "explanation": item["explanation"],
+                    "is_correct": correct,
+                    "image": q.get("image")
+                })
+
+        # 📝 NORMAL QUESTIONS
+        else:
+
+            total_questions += 1
+
+            correct = (
+                (user_answer or "").strip().lower()
+                == q["answer"].strip().lower()
+            )
+
+            if correct:
+                score += 1
+
+            results.append({
+                "question": q["question"],
+                "your_answer": user_answer,
+                "correct_answer": q["answer"],
+                "explanation": q["explanation"],
+                "is_correct": correct,
+                "image": q.get("image")
+            })
 
     # 🎯 Save last score
     session['last_score'] = score
-    session['last_total'] = len(order)
+    session['last_total'] = total_questions
 
     # 🎯 Passing score (90%)
-    passing_score = int(len(order) * 0.9)
+    passing_score = int(total_questions * 0.9)
     passed = score >= passing_score
 
     return render_template(
         'result.html',
         score=score,
-        total=len(order),
+        total=total_questions,
         results=results,
         passed=passed,
         passing_score=passing_score
