@@ -4,9 +4,16 @@ import json
 import random
 import time
 
-def load_questions(filename):
+# ✅ LOAD QUESTIONS
+def load_questions(folder, filename):
 
-    filepath = os.path.join("data", filename)
+    filepath = os.path.join(
+        "data",
+        folder,
+        filename
+    )
+
+    print("LOADING:", filepath)
 
     if not os.path.exists(filepath):
         print("FILE NOT FOUND:", filepath)
@@ -26,17 +33,21 @@ def load_questions(filename):
 
 
 app = Flask(__name__)
+
 app.secret_key = "secret123"
 
 app.config['TEMPLATES_AUTO_RELOAD'] = True
 app.config['DEBUG'] = True
 
 
+# ✅ MENU
 @app.route('/menu')
 def menu():
+
     return render_template('menu.html')
 
 
+# ✅ QUIT
 @app.route('/quit')
 def quit_exam():
 
@@ -46,17 +57,47 @@ def quit_exam():
 
 
 # ✅ START MODE
-@app.route('/start/<mode>')
-def start_mode(mode):
+@app.route('/start/<mode>/<test>')
+def start_mode(mode, test):
 
-    questions = load_questions(f"{mode}.json")
+    # 📝 KARIMEN
+    if mode == "karimen":
+
+        folder = "karimen"
+
+    # 🏁 HONMEN
+    elif mode == "honmen":
+
+        folder = "honmen"
+
+    # 🧠 REVIEWER KARIMEN
+    elif mode == "reviewer_karimen":
+
+        folder = "reviewer/karimen"
+
+    # 🧠 REVIEWER HONMEN
+    elif mode == "reviewer_honmen":
+
+        folder = "reviewer/honmen"
+
+    else:
+
+        return "Invalid mode"
+
+    questions = load_questions(
+        folder,
+        f"{test}.json"
+    )
+
+    session['folder'] = folder
+    session['questions_file'] = test
 
     session['answers'] = []
     session['current'] = 0
     session['mode'] = mode
 
     # 🏁 HONMEN
-    if "honmen" in mode:
+    if mode == "honmen":
 
         normal_questions = []
         grouped_questions = []
@@ -88,7 +129,7 @@ def start_mode(mode):
         random.shuffle(order)
 
         # 🧠 reviewer
-        if mode == "reviewer":
+        if "reviewer" in mode:
 
             session['duration'] = None
 
@@ -106,8 +147,10 @@ def start_mode(mode):
     return redirect('/question')
 
 
+# ✅ HOME
 @app.route('/')
 def start():
+
     return redirect('/menu')
 
 
@@ -119,7 +162,8 @@ def question():
         return redirect('/menu')
 
     questions = load_questions(
-        f"{session['mode']}.json"
+        session['folder'],
+        f"{session['questions_file']}.json"
     )
 
     order = session.get(
@@ -136,7 +180,7 @@ def question():
         return redirect('/result')
 
     is_reviewer = (
-        session['mode'] == "reviewer"
+        "reviewer" in session['mode']
     )
 
     # ⏱ timer
@@ -251,7 +295,7 @@ def question():
     )
 
 
-# ➡️ NEXT QUESTION
+# ✅ NEXT QUESTION
 @app.route('/next')
 def next_question():
 
@@ -268,11 +312,12 @@ def result():
         return redirect('/menu')
 
     # 🧠 reviewer skips results
-    if session['mode'] == "reviewer":
+    if "reviewer" in session['mode']:
         return redirect('/menu')
 
     questions = load_questions(
-        f"{session['mode']}.json"
+        session['folder'],
+        f"{session['questions_file']}.json"
     )
 
     order = session.get(
@@ -298,7 +343,7 @@ def result():
         # 🏁 GROUP QUESTIONS
         if "items" in q:
 
-            # ✅ each group question = 2 points
+            # ✅ each group = 2 points
             total_questions += 2
 
             all_correct = True
@@ -319,7 +364,7 @@ def result():
                     item["answer"].strip().lower()
                 )
 
-                # ❌ even one mistake = whole group wrong
+                # ❌ one mistake = whole group wrong
                 if not correct:
                     all_correct = False
 
@@ -347,7 +392,7 @@ def result():
                         q.get("image")
                 })
 
-            # ✅ full 2 points only if ALL correct
+            # ✅ full 2 points only if all correct
             if all_correct:
                 score += 2
 
@@ -390,10 +435,13 @@ def result():
     session['last_score'] = score
     session['last_total'] = total_questions
 
-    # 🎯 HONMEN PASSING SCORE = 90 / 100
-    if "honmen" in session['mode']:
+    # 🎯 HONMEN passing = 90/100
+    if session['mode'] == "honmen":
+
         passing_score = 90
+
     else:
+
         passing_score = int(
             total_questions * 0.9
         )
