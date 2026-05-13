@@ -2,45 +2,49 @@
 <html>
 <head>
 
-
-    <title>Result</title>
+    <title>Exam Result</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
     <!-- 📱 PWA -->
     <link rel="manifest" href="{{ url_for('static', filename='manifest.json') }}">
-    <meta name="theme-color" content="#2d89ef">
 
-    <style>
+    <meta name="theme-color" content="#0f172a">
+
+<style>
 
 *{
     box-sizing:border-box;
+    -webkit-tap-highlight-color:transparent;
 }
 
 body{
+
     font-family:'Inter', sans-serif;
 
     margin:0;
 
     background:
-    linear-gradient(
-    180deg,
-    #f8fbff,
-    #eef3f9
-    );
+    radial-gradient(circle at top,#13203d 0%,#081225 45%,#050b18 100%);
 
-    color:#222;
+    color:#f8fafc;
+
+    min-height:100vh;
 }
 
 /* 📦 CONTAINER */
 
 .container{
-    max-width:560px;
+
+    max-width:580px;
+
     margin:auto;
+
     padding:22px;
 }
 
@@ -48,138 +52,231 @@ body{
 
 .header{
 
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-
-    background:rgba(255,255,255,0.75);
-
-    backdrop-filter:blur(14px);
-    -webkit-backdrop-filter:blur(14px);
-
-    padding:18px 22px;
-
     position:sticky;
     top:0;
     z-index:100;
 
-    border-bottom-left-radius:24px;
-    border-bottom-right-radius:24px;
+    padding:24px;
 
-    box-shadow:
-    0 10px 30px rgba(0,0,0,0.08);
-}
+    text-align:center;
 
-.title{
-
-    display:flex;
-    align-items:center;
-    gap:10px;
+    font-size:30px;
 
     font-weight:800;
 
-    font-size:24px;
+    letter-spacing:-1px;
 
-    letter-spacing:-0.7px;
+    background:
+    rgba(8,15,30,0.78);
+
+    backdrop-filter:blur(18px);
+    -webkit-backdrop-filter:blur(18px);
+
+    border-bottom-left-radius:28px;
+    border-bottom-right-radius:28px;
+
+    box-shadow:
+    0 12px 35px rgba(0,0,0,0.35);
 }
 
-/* ❌ QUIT BUTTON */
+/* 🎯 SCORE CARD */
 
-.quit{
+.score-card{
+
+    position:relative;
+
+    overflow:hidden;
+
+    background:
+    rgba(15,23,42,0.82);
+
+    backdrop-filter:blur(18px);
+    -webkit-backdrop-filter:blur(18px);
+
+    border:
+    1px solid rgba(255,255,255,0.08);
+
+    border-radius:34px;
+
+    padding:34px 28px;
+
+    text-align:center;
+
+    margin-bottom:28px;
+
+    box-shadow:
+    0 18px 50px rgba(0,0,0,0.35);
+}
+
+/* ✨ GLOW */
+
+.score-card::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:240px;
+    height:240px;
+
+    background:
+    radial-gradient(
+    rgba(59,130,246,0.20),
+    transparent 70%
+    );
+
+    top:-130px;
+    right:-100px;
+
+    pointer-events:none;
+}
+
+/* 🎯 SCORE */
+
+.score{
+
+    font-size:56px;
+
+    font-weight:800;
+
+    letter-spacing:-2px;
+
+    margin-bottom:14px;
 
     background:
     linear-gradient(
     135deg,
-    #ff6b6b,
-    #ff4d4d
+    #60a5fa,
+    #38bdf8
     );
 
-    color:white;
-
-    padding:10px 14px;
-
-    border-radius:14px;
-
-    text-decoration:none;
-
-    font-size:14px;
-
-    font-weight:600;
-
-    box-shadow:
-    0 8px 18px rgba(255,77,77,0.25);
-
-    transition:
-    transform 0.15s ease,
-    opacity 0.15s ease;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
 }
 
-.quit:active{
-    transform:scale(0.96);
-}
+/* ✅ PASS / FAIL */
 
-/* 📊 PROGRESS */
+.pass{
 
-.progress-bar{
+    display:inline-block;
 
-    height:12px;
+    padding:12px 18px;
 
-    background:#dfe7f2;
-
-    border-radius:999px;
-
-    overflow:hidden;
-
-    margin:12px 0 18px 0;
-}
-
-.progress{
-
-    height:12px;
-
-    background:
-    linear-gradient(
-    90deg,
-    #4facfe,
-    #007bff
-    );
-
-    border-radius:999px;
-
-    transition:width 0.3s ease;
-}
-
-/* ⏱ TIMER */
-
-.timer{
+    border-radius:18px;
 
     font-weight:700;
 
-    color:#444;
+    background:
+    rgba(34,197,94,0.15);
 
-    margin-bottom:18px;
+    color:#4ade80;
 
-    font-size:15px;
+    border:
+    1px solid rgba(74,222,128,0.22);
+
+    margin-top:6px;
 }
 
-/* 📦 QUESTION CARD */
+.fail{
+
+    display:inline-block;
+
+    padding:12px 18px;
+
+    border-radius:18px;
+
+    font-weight:700;
+
+    background:
+    rgba(239,68,68,0.15);
+
+    color:#f87171;
+
+    border:
+    1px solid rgba(248,113,113,0.22);
+
+    margin-top:6px;
+}
+
+/* 📦 RESULT CARD */
 
 .card{
 
-    background:rgba(255,255,255,0.72);
+    position:relative;
 
-    backdrop-filter:blur(14px);
-    -webkit-backdrop-filter:blur(14px);
+    overflow:hidden;
 
-    border:1px solid rgba(255,255,255,0.35);
+    background:
+    rgba(15,23,42,0.82);
+
+    backdrop-filter:blur(18px);
+    -webkit-backdrop-filter:blur(18px);
+
+    border:
+    1px solid rgba(255,255,255,0.08);
+
+    border-radius:30px;
 
     padding:26px;
 
-    border-radius:28px;
+    margin-bottom:22px;
 
     box-shadow:
-    0 12px 35px rgba(0,0,0,0.08),
-    0 3px 10px rgba(0,0,0,0.04);
+    0 14px 40px rgba(0,0,0,0.28);
+
+    transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease;
+}
+
+.card:hover{
+
+    transform:translateY(-2px);
+
+    box-shadow:
+    0 18px 50px rgba(0,0,0,0.35);
+}
+
+/* 🏷 GROUP BADGE */
+
+.group-badge{
+
+    display:inline-block;
+
+    padding:8px 14px;
+
+    border-radius:999px;
+
+    margin-bottom:14px;
+
+    font-size:13px;
+
+    font-weight:700;
+
+    letter-spacing:0.5px;
+
+    background:
+    rgba(96,165,250,0.16);
+
+    color:#93c5fd;
+
+    border:
+    1px solid rgba(96,165,250,0.22);
+}
+
+/* ❓ QUESTION */
+
+.question-text{
+
+    font-size:19px;
+
+    line-height:1.55;
+
+    font-weight:700;
+
+    color:#f8fafc;
+
+    margin-bottom:18px;
 }
 
 /* 🖼 IMAGE */
@@ -188,128 +285,78 @@ img{
 
     width:100%;
 
-    border-radius:18px;
+    height:auto;
 
-    margin-top:14px;
+    max-height:420px;
 
-    box-shadow:
-    0 8px 20px rgba(0,0,0,0.08);
-}
+    object-fit:contain;
 
-/* 🔘 CHOICES */
-
-.choice{
-
-    display:flex;
-    align-items:center;
-    gap:14px;
-
-    padding:18px;
-
-    margin:14px 0;
-
-    border-radius:18px;
-
-    border:1px solid #e2e8f0;
-
-    background:rgba(255,255,255,0.85);
-
-    cursor:pointer;
-
-    transition:
-    transform 0.15s ease,
-    box-shadow 0.15s ease,
-    border 0.15s ease;
-}
-
-.choice:hover{
-
-    transform:translateY(-2px);
-
-    border:1px solid #4facfe;
-
-    box-shadow:
-    0 10px 20px rgba(79,172,254,0.12);
-}
-
-.choice:active{
-    transform:scale(0.98);
-}
-
-.choice input{
-    transform:scale(1.35);
-}
-
-/* 🏁 GROUP QUESTIONS */
-
-.group-question{
-
-    margin-top:26px;
-
-    padding-top:20px;
-
-    border-top:1px solid #e5e7eb;
-}
-
-.group-number{
-
-    font-weight:800;
-
-    margin-bottom:12px;
-
-    color:#007bff;
-
-    font-size:19px;
-}
-
-.group-title{
-
-    font-size:24px;
-
-    font-weight:800;
-
-    color:#007bff;
-
-    margin-bottom:14px;
-
-    letter-spacing:-0.5px;
-}
-
-.situation-box{
+    display:block;
 
     background:
-    linear-gradient(
-    135deg,
-    #eef6ff,
-    #f7fbff
-    );
+    rgba(255,255,255,0.95);
 
-    border-left:6px solid #007bff;
+    border-radius:22px;
 
-    padding:18px;
+    padding:12px;
 
-    border-radius:18px;
-
+    margin-top:16px;
     margin-bottom:20px;
 
-    line-height:1.6;
+    box-shadow:
+    0 12px 30px rgba(0,0,0,0.25);
 }
 
-/* 🔘 BUTTONS */
+/* 📝 TEXT */
 
-button{
+.answer-label{
+
+    font-size:16px;
+
+    margin-top:10px;
+
+    line-height:1.7;
+
+    color:#e2e8f0;
+}
+
+/* ✅ CORRECT */
+
+.correct{
+
+    color:#4ade80;
+
+    font-weight:700;
+}
+
+/* ❌ INCORRECT */
+
+.incorrect{
+
+    color:#f87171;
+
+    font-weight:700;
+}
+
+/* 🔁 BUTTON */
+
+.button{
+
+    display:block;
+
+    text-align:center;
+
+    text-decoration:none;
 
     width:100%;
 
-    padding:18px;
+    padding:20px;
 
-    font-size:18px;
+    font-size:22px;
 
-    font-weight:700;
+    font-weight:800;
 
-    border:none;
-
-    border-radius:18px;
+    border-radius:24px;
 
     background:
     linear-gradient(
@@ -320,163 +367,182 @@ button{
 
     color:white;
 
-    margin-top:22px;
+    margin-top:28px;
 
     box-shadow:
-    0 10px 20px rgba(0,123,255,0.22);
+    0 15px 30px rgba(0,123,255,0.28);
 
     transition:
     transform 0.15s ease,
-    opacity 0.15s ease;
+    opacity 0.15s ease,
+    box-shadow 0.15s ease;
 }
 
-button:hover{
-    opacity:0.96;
+.button:hover{
+
+    opacity:0.97;
 }
 
-button:active{
-    transform:scale(0.97);
+.button:active{
+
+    transform:scale(0.98);
+
+    box-shadow:
+    0 8px 18px rgba(0,123,255,0.24);
 }
 
-/* ✅ FEEDBACK */
+/* 📱 MOBILE */
 
-.correct{
-    color:#16a34a;
-    font-weight:700;
-}
-
-.incorrect{
-    color:#dc2626;
-    font-weight:700;
-}
-
-/* 🌙 DARK MODE */
-
-@media (prefers-color-scheme: dark){
-
-    body{
-
-        background:
-        linear-gradient(
-        180deg,
-        #0f172a,
-        #111827
-        );
-
-        color:white;
-    }
+@media(max-width:600px){
 
     .header{
 
-        background:rgba(15,23,42,0.72);
+        font-size:26px;
     }
 
-    .card{
+    .score{
 
-        background:rgba(30,41,59,0.68);
-
-        border:1px solid rgba(255,255,255,0.08);
+        font-size:48px;
     }
 
-    .choice{
+    .question-text{
 
-        background:rgba(15,23,42,0.6);
-
-        border:1px solid rgba(255,255,255,0.08);
-
-        color:white;
+        font-size:17px;
     }
 
-    .progress-bar{
-        background:#334155;
-    }
+    .button{
 
-    .timer{
-        color:#e5e7eb;
-    }
-
-    .situation-box{
-
-        background:rgba(15,23,42,0.55);
-
-        color:#e5e7eb;
+        font-size:20px;
     }
 }
 
 </style>
+
 </head>
 
 <body>
 
-<!-- 🔝 Header -->
+<!-- 🔝 HEADER -->
+
 <div class="header">
     🏁 Exam Result
 </div>
 
 <div class="container">
 
-    <!-- 🎯 Score -->
+    <!-- 🎯 SCORE -->
+
     <div class="score-card">
-        <div class="score">{{ score }} / {{ total }}</div>
+
+        <div class="score">
+            {{ score }} / {{ total }}
+        </div>
 
         {% if passed %}
-            <div class="pass">PASS ✅ (Required: {{ passing_score }})</div>
+
+            <div class="pass">
+                PASS ✅ (Required: {{ passing_score }})
+            </div>
+
         {% else %}
-            <div class="fail">FAIL ❌ (Required: {{ passing_score }})</div>
+
+            <div class="fail">
+                FAIL ❌ (Required: {{ passing_score }})
+            </div>
+
         {% endif %}
+
     </div>
 
-    <!-- 🧠 Review -->
+    <!-- 🧠 REVIEW -->
+
     {% for r in results %}
+
         <div class="card">
 
             {% if "Group" in r.question %}
+
                 <div class="group-badge">
                     GROUP QUESTION
                 </div>
+
             {% endif %}
 
-            <p><b>{{ r.question }}</b></p>
+            <div class="question-text">
+                {{ r.question }}
+            </div>
 
             {% if r.image %}
-                <img src="{{ url_for('static', filename='images/' ~ r.image) }}">
+
+                <img
+                    src="{{ url_for('static', filename='images/' ~ r.image) }}"
+                    loading="lazy"
+                    draggable="false"
+                >
+
             {% endif %}
 
-            <p>
+            <div class="answer-label">
+
                 Your answer:
+
                 <span class="{% if r.is_correct %}correct{% else %}incorrect{% endif %}">
                     {{ r.your_answer }}
                 </span>
-            </p>
 
-            <p>
+            </div>
+
+            <div class="answer-label">
+
                 Correct answer:
-                <b>{{ r.correct_answer }}</b>
-            </p>
 
-            <p>{{ r.explanation }}</p>
+                <b>
+                    {{ r.correct_answer }}
+                </b>
+
+            </div>
+
+            <div class="answer-label">
+                {{ r.explanation }}
+            </div>
 
             {% if r.is_correct %}
-                <p class="correct">✔ Correct</p>
+
+                <div class="correct answer-label">
+                    ✔ Correct
+                </div>
+
             {% else %}
-                <p class="incorrect">✘ Incorrect</p>
+
+                <div class="incorrect answer-label">
+                    ✘ Incorrect
+                </div>
+
             {% endif %}
 
         </div>
+
     {% endfor %}
 
-    <!-- 🔁 Retry -->
+    <!-- 🔁 RETRY -->
+
     <a href="/menu" class="button">
         🔁 Try Again
     </a>
 
 </div>
 
-<!-- 📱 Service Worker -->
+<!-- 📱 SERVICE WORKER -->
+
 <script>
+
 if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/static/service-worker.js');
+
+    navigator.serviceWorker.register(
+        '/static/service-worker.js'
+    );
 }
+
 </script>
 
 </body>

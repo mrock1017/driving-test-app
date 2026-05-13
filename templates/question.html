@@ -2,45 +2,48 @@
 <html>
 <head>
 
-
     <title>Driving Test</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
     <!-- 📱 PWA -->
     <link rel="manifest" href="{{ url_for('static', filename='manifest.json') }}">
-    <meta name="theme-color" content="#2d89ef">
+    <meta name="theme-color" content="#0f172a">
 
-    <style>
+<style>
 
 *{
     box-sizing:border-box;
+    -webkit-tap-highlight-color:transparent;
 }
 
 body{
+
     font-family:'Inter', sans-serif;
 
     margin:0;
 
     background:
-    linear-gradient(
-    180deg,
-    #f8fbff,
-    #eef3f9
-    );
+    radial-gradient(circle at top,#13203d 0%,#081225 45%,#050b18 100%);
 
-    color:#222;
+    color:#f8fafc;
+
+    min-height:100vh;
 }
 
 /* 📦 CONTAINER */
 
 .container{
-    max-width:560px;
+
+    max-width:580px;
+
     margin:auto;
+
     padding:22px;
 }
 
@@ -52,35 +55,36 @@ body{
     justify-content:space-between;
     align-items:center;
 
-    background:rgba(255,255,255,0.75);
+    background:
+    rgba(8,15,30,0.78);
 
-    backdrop-filter:blur(14px);
-    -webkit-backdrop-filter:blur(14px);
+    backdrop-filter:blur(18px);
+    -webkit-backdrop-filter:blur(18px);
 
-    padding:18px 22px;
+    padding:20px 24px;
 
     position:sticky;
     top:0;
     z-index:100;
 
-    border-bottom-left-radius:24px;
-    border-bottom-right-radius:24px;
+    border-bottom-left-radius:28px;
+    border-bottom-right-radius:28px;
 
     box-shadow:
-    0 10px 30px rgba(0,0,0,0.08);
+    0 12px 35px rgba(0,0,0,0.35);
 }
 
 .title{
 
     display:flex;
     align-items:center;
-    gap:10px;
+    gap:12px;
 
     font-weight:800;
 
-    font-size:24px;
+    font-size:30px;
 
-    letter-spacing:-0.7px;
+    letter-spacing:-1px;
 }
 
 /* ❌ QUIT BUTTON */
@@ -96,46 +100,67 @@ body{
 
     color:white;
 
-    padding:10px 14px;
+    padding:14px 18px;
 
-    border-radius:14px;
+    border-radius:18px;
 
     text-decoration:none;
 
-    font-size:14px;
+    font-size:17px;
 
-    font-weight:600;
+    font-weight:700;
 
     box-shadow:
-    0 8px 18px rgba(255,77,77,0.25);
+    0 12px 24px rgba(255,77,77,0.25);
 
     transition:
     transform 0.15s ease,
-    opacity 0.15s ease;
+    opacity 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+.quit:hover{
+
+    opacity:0.96;
 }
 
 .quit:active{
+
     transform:scale(0.96);
+}
+
+/* 📊 QUESTION NUMBER */
+
+.question-status{
+
+    margin-top:18px;
+
+    font-size:17px;
+
+    font-weight:700;
+
+    color:#dbeafe;
 }
 
 /* 📊 PROGRESS */
 
 .progress-bar{
 
-    height:12px;
+    height:14px;
 
-    background:#dfe7f2;
+    background:
+    rgba(255,255,255,0.12);
 
     border-radius:999px;
 
     overflow:hidden;
 
-    margin:12px 0 18px 0;
+    margin:14px 0 22px;
 }
 
 .progress{
 
-    height:12px;
+    height:14px;
 
     background:
     linear-gradient(
@@ -147,39 +172,89 @@ body{
     border-radius:999px;
 
     transition:width 0.3s ease;
+
+    box-shadow:
+    0 0 16px rgba(79,172,254,0.55);
 }
 
 /* ⏱ TIMER */
 
 .timer{
 
-    font-weight:700;
+    font-weight:800;
 
-    color:#444;
+    color:#f8fafc;
 
-    margin-bottom:18px;
+    margin-bottom:24px;
 
-    font-size:15px;
+    font-size:18px;
+
+    letter-spacing:-0.4px;
 }
 
 /* 📦 QUESTION CARD */
 
 .card{
 
-    background:rgba(255,255,255,0.72);
+    background:
+    rgba(15,23,42,0.82);
 
-    backdrop-filter:blur(14px);
-    -webkit-backdrop-filter:blur(14px);
+    backdrop-filter:blur(18px);
+    -webkit-backdrop-filter:blur(18px);
 
-    border:1px solid rgba(255,255,255,0.35);
+    border:
+    1px solid rgba(255,255,255,0.08);
 
-    padding:26px;
+    padding:28px;
 
-    border-radius:28px;
+    border-radius:34px;
 
     box-shadow:
-    0 12px 35px rgba(0,0,0,0.08),
-    0 3px 10px rgba(0,0,0,0.04);
+    0 18px 50px rgba(0,0,0,0.35);
+
+    overflow:hidden;
+
+    position:relative;
+}
+
+/* ✨ GLOW */
+
+.card::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:220px;
+    height:220px;
+
+    background:
+    radial-gradient(
+    rgba(59,130,246,0.18),
+    transparent 70%
+    );
+
+    top:-120px;
+    right:-100px;
+
+    pointer-events:none;
+}
+
+/* ❓ QUESTION TEXT */
+
+.question-text{
+
+    font-size:20px;
+
+    line-height:1.5;
+
+    font-weight:700;
+
+    margin-bottom:22px;
+
+    color:#f8fafc;
+
+    letter-spacing:-0.5px;
 }
 
 /* 🖼 IMAGE */
@@ -188,12 +263,27 @@ img{
 
     width:100%;
 
-    border-radius:18px;
+    height:auto;
 
-    margin-top:14px;
+    max-height:420px;
+
+    object-fit:contain;
+
+    display:block;
+
+    background:
+    rgba(255,255,255,0.96);
+
+    border-radius:24px;
+
+    padding:12px;
+
+    margin-top:18px;
+
+    margin-bottom:22px;
 
     box-shadow:
-    0 8px 20px rgba(0,0,0,0.08);
+    0 12px 30px rgba(0,0,0,0.28);
 }
 
 /* 🔘 CHOICES */
@@ -202,97 +292,117 @@ img{
 
     display:flex;
     align-items:center;
-    gap:14px;
+    gap:16px;
 
-    padding:18px;
+    padding:22px 20px;
 
-    margin:14px 0;
+    margin:16px 0;
 
-    border-radius:18px;
+    border-radius:22px;
 
-    border:1px solid #e2e8f0;
+    border:
+    1px solid rgba(255,255,255,0.08);
 
-    background:rgba(255,255,255,0.85);
+    background:
+    rgba(8,15,30,0.62);
 
     cursor:pointer;
 
     transition:
     transform 0.15s ease,
     box-shadow 0.15s ease,
-    border 0.15s ease;
+    border 0.15s ease,
+    background 0.15s ease;
 }
 
 .choice:hover{
 
     transform:translateY(-2px);
 
-    border:1px solid #4facfe;
+    border:
+    1px solid rgba(79,172,254,0.45);
+
+    background:
+    rgba(15,23,42,0.92);
 
     box-shadow:
-    0 10px 20px rgba(79,172,254,0.12);
+    0 12px 24px rgba(79,172,254,0.12);
 }
 
 .choice:active{
-    transform:scale(0.98);
+
+    transform:scale(0.985);
 }
 
 .choice input{
-    transform:scale(1.35);
+
+    transform:scale(1.45);
+
+    accent-color:#4facfe;
+}
+
+.choice span{
+
+    font-size:20px;
+
+    font-weight:600;
+
+    color:#f8fafc;
 }
 
 /* 🏁 GROUP QUESTIONS */
 
 .group-question{
 
-    margin-top:26px;
+    margin-top:28px;
 
-    padding-top:20px;
+    padding-top:24px;
 
-    border-top:1px solid #e5e7eb;
+    border-top:
+    1px solid rgba(255,255,255,0.08);
 }
 
 .group-number{
 
     font-weight:800;
 
-    margin-bottom:12px;
+    margin-bottom:14px;
 
-    color:#007bff;
+    color:#4facfe;
 
-    font-size:19px;
+    font-size:20px;
 }
 
 .group-title{
 
-    font-size:24px;
+    font-size:28px;
 
     font-weight:800;
 
-    color:#007bff;
+    color:#60a5fa;
 
-    margin-bottom:14px;
+    margin-bottom:18px;
 
-    letter-spacing:-0.5px;
+    letter-spacing:-0.8px;
 }
 
 .situation-box{
 
     background:
-    linear-gradient(
-    135deg,
-    #eef6ff,
-    #f7fbff
-    );
+    rgba(59,130,246,0.10);
 
-    border-left:6px solid #007bff;
+    border:
+    1px solid rgba(96,165,250,0.25);
 
-    padding:18px;
+    padding:20px;
 
-    border-radius:18px;
+    border-radius:22px;
 
-    margin-bottom:20px;
+    margin-bottom:24px;
 
-    line-height:1.6;
+    line-height:1.7;
+
+    color:#dbeafe;
 }
 
 /* 🔘 BUTTONS */
@@ -301,15 +411,15 @@ button{
 
     width:100%;
 
-    padding:18px;
+    padding:20px;
 
-    font-size:18px;
+    font-size:22px;
 
-    font-weight:700;
+    font-weight:800;
 
     border:none;
 
-    border-radius:18px;
+    border-radius:24px;
 
     background:
     linear-gradient(
@@ -320,86 +430,68 @@ button{
 
     color:white;
 
-    margin-top:22px;
+    margin-top:26px;
 
     box-shadow:
-    0 10px 20px rgba(0,123,255,0.22);
+    0 15px 30px rgba(0,123,255,0.28);
 
     transition:
     transform 0.15s ease,
-    opacity 0.15s ease;
+    opacity 0.15s ease,
+    box-shadow 0.15s ease;
 }
 
 button:hover{
-    opacity:0.96;
+
+    opacity:0.97;
 }
 
 button:active{
-    transform:scale(0.97);
+
+    transform:scale(0.98);
+
+    box-shadow:
+    0 8px 18px rgba(0,123,255,0.24);
 }
 
 /* ✅ FEEDBACK */
 
 .correct{
-    color:#16a34a;
+
+    color:#4ade80;
+
     font-weight:700;
 }
 
 .incorrect{
-    color:#dc2626;
+
+    color:#f87171;
+
     font-weight:700;
 }
 
-/* 🌙 DARK MODE */
+/* 📱 MOBILE */
 
-@media (prefers-color-scheme: dark){
+@media(max-width:600px){
 
-    body{
+    .title{
 
-        background:
-        linear-gradient(
-        180deg,
-        #0f172a,
-        #111827
-        );
-
-        color:white;
+        font-size:24px;
     }
 
-    .header{
+    .question-text{
 
-        background:rgba(15,23,42,0.72);
+        font-size:18px;
     }
 
-    .card{
+    .choice span{
 
-        background:rgba(30,41,59,0.68);
-
-        border:1px solid rgba(255,255,255,0.08);
+        font-size:18px;
     }
 
-    .choice{
+    button{
 
-        background:rgba(15,23,42,0.6);
-
-        border:1px solid rgba(255,255,255,0.08);
-
-        color:white;
-    }
-
-    .progress-bar{
-        background:#334155;
-    }
-
-    .timer{
-        color:#e5e7eb;
-    }
-
-    .situation-box{
-
-        background:rgba(15,23,42,0.55);
-
-        color:#e5e7eb;
+        font-size:20px;
     }
 }
 
@@ -410,28 +502,43 @@ button:active{
 
 <!-- 🔝 Header -->
 <div class="header">
+
     <div class="title">
         <span>🚗</span>
         <span>Driving Test</span>
     </div>
 
-    <a href="/quit" class="quit"
+    <a href="/quit"
+       class="quit"
        onclick="return confirm('Quit exam? Progress will be lost.')">
+
        Quit
+
     </a>
+
 </div>
 
 <div class="container">
 
     <!-- 📊 Exam Mode -->
     {% if not is_reviewer %}
-        <p><b>Question {{ index + 1 }} / {{ total }}</b></p>
 
-        <div class="progress-bar">
-            <div class="progress" style="width: {{ ((index+1)/total)*100 }}%;"></div>
+        <div class="question-status">
+            Question {{ index + 1 }} / {{ total }}
         </div>
 
-        <p class="timer">⏱ <span id="timer"></span></p>
+        <div class="progress-bar">
+
+            <div class="progress"
+                 style="width: {{ ((index+1)/total)*100 }}%;">
+            </div>
+
+        </div>
+
+        <div class="timer">
+            ⏱ <span id="timer"></span>
+        </div>
+
     {% endif %}
 
     <!-- 📦 Question -->
@@ -449,7 +556,11 @@ button:active{
             </div>
 
             {% if q.image %}
-                <img src="{{ url_for('static', filename='images/' ~ q.image) }}">
+                <img
+                    src="{{ url_for('static', filename='images/' ~ q.image) }}"
+                    loading="lazy"
+                    draggable="false"
+                >
             {% endif %}
 
             <form method="POST">
@@ -462,7 +573,9 @@ button:active{
                             Question {{ q.question_group }}-{{ item.number }}
                         </div>
 
-                        <p><b>{{ item.question }}</b></p>
+                        <p class="question-text">
+                            {{ item.question }}
+                        </p>
 
                         <label class="choice">
 
@@ -494,38 +607,61 @@ button:active{
 
                 {% endfor %}
 
-                <button type="submit">Next</button>
+                <button type="submit">
+                    Next
+                </button>
 
             </form>
 
         <!-- 🧠 Reviewer -->
         {% elif is_reviewer and feedback %}
 
-            <p><b>{{ q.question }}</b></p>
+            <p class="question-text">
+                {{ q.question }}
+            </p>
 
             {% if q.image %}
-                <img src="{{ url_for('static', filename='images/' ~ q.image) }}">
+                <img
+                    src="{{ url_for('static', filename='images/' ~ q.image) }}"
+                    loading="lazy"
+                    draggable="false"
+                >
             {% endif %}
 
             <p class="{{ 'correct' if is_correct else 'incorrect' }}">
                 Your answer: {{ user_answer }}
             </p>
 
-            <p><b>Correct:</b> {{ correct_answer }}</p>
+            <p>
+                <b>Correct:</b>
+                {{ correct_answer }}
+            </p>
 
-            <p>{{ explanation }}</p>
+            <p>
+                {{ explanation }}
+            </p>
 
             <a href="/next">
-                <button>Next Question</button>
+
+                <button>
+                    Next Question
+                </button>
+
             </a>
 
         <!-- 📝 NORMAL QUESTION -->
         {% else %}
 
-            <p><b>{{ q.question }}</b></p>
+            <p class="question-text">
+                {{ q.question }}
+            </p>
 
             {% if q.image %}
-                <img src="{{ url_for('static', filename='images/' ~ q.image) }}">
+                <img
+                    src="{{ url_for('static', filename='images/' ~ q.image) }}"
+                    loading="lazy"
+                    draggable="false"
+                >
             {% endif %}
 
             <form method="POST">
@@ -548,11 +684,13 @@ button:active{
                 {% endfor %}
 
                 <button type="submit">
+
                     {% if is_reviewer %}
                         Submit
                     {% else %}
                         Next
                     {% endif %}
+
                 </button>
 
             </form>
@@ -565,7 +703,9 @@ button:active{
 
 <!-- ⏱ Timer -->
 {% if not is_reviewer %}
+
 <script>
+
 let time = {{ remaining }};
 
 function updateTimer() {
@@ -584,15 +724,23 @@ function updateTimer() {
 }
 
 updateTimer();
+
 setInterval(updateTimer, 1000);
+
 </script>
+
 {% endif %}
 
 <!-- 📱 Service Worker -->
 <script>
+
 if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/static/service-worker.js');
+
+    navigator.serviceWorker.register(
+        '/static/service-worker.js'
+    );
 }
+
 </script>
 
 </body>
