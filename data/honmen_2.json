@@ -71,7 +71,7 @@
   },
   {
     "question": "11. When driving at night in a busy urban area, it is acceptable to use high beams continuously to improve visibility.",
-    "image": "no_entry.jpg",
+    "image": null,
     "choices": ["True", "False"],
     "answer": "False",
     "explanation": "High beams can temporarily blind other drivers and pedestrians in areas with heavy traffic. Low beams should normally be used in urban environments."
@@ -413,7 +413,7 @@
     "explanation": "Motorcycle riders should keep their feet positioned properly on the foot pegs with toes pointed forward for better balance and control. Incorrect foot positioning may interfere with safe braking and shifting."
   },
   {
-    "question": "60. Motorcycle riders should keep their feet positioned properly on the foot pegs with toes pointed forward for better balance and control. Incorrect foot positioning may interfere with safe braking and shifting.",
+    "question": "60. During a turn, the rear inside wheel of a vehicle travels on a wider path than the inside front wheel.",
     "image": null,
     "choices": ["True", "False"],
     "answer": "False",
@@ -500,7 +500,7 @@
     "question": "72. The displayed traffic sign means “School, Kindergarten, or Nursery Area,” and drivers are not required to exercise extra caution when passing through the area.",
     "image": "pedestrian.jpg",
     "choices": ["True", "False"],
-    "answer": "True",
+    "answer": "False",
     "explanation": "This type of sign warns drivers that pedestrian may be nearby. Drivers should reduce speed and pay close attention to pedestrians and crossing activity."
   },
   {
