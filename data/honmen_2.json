@@ -567,205 +567,205 @@
     "explanation": "Drivers should also check under the vehicle when possible, especially in residential or crowded areas. Children, animals, or obstacles may be hidden from view."
   },
   {
-    "question": "82. When helping injured people after a traffic accident, first aid should be provided whenever possible, but people with suspected head injuries should be moved only when absolutely necessary.",
+    "question": "82. You may temporarily stop a vehicle within 1 meter of a fire alarm or fire hydrant area, but parking there is prohibited.",
     "image": null,
     "choices": ["True", "False"],
     "answer": "True",
-    "explanation": "Improper movement of a person with a head or neck injury may worsen the condition. Emergency assistance should be given carefully until professional help arrives."
+    "explanation": "Short stops may be permitted in certain situations, but parking near emergency equipment can interfere with firefighting operations and is restricted."
   },
   {
-    "question": "83. Even when traveling at the same speed, drivers often feel as though they are moving more slowly at night than during daytime.",
+    "question": "83. When facing an oncoming vehicle with very bright headlights at night, slightly shifting your line of sight toward the left side of the road can help reduce glare.",
     "image": null,
     "choices": ["True", "False"],
     "answer": "True",
-    "explanation": "Reduced visibility and fewer visual references at night can affect a driver’s sense of speed. This may unintentionally lead to driving faster than intended."
+    "explanation": "Looking slightly away from direct headlights helps reduce temporary blindness caused by glare. Drivers should still continue monitoring the roadway carefully."
   },
   {
-    "question": "84. If a large earthquake occurs while driving, you should immediately pull over to the left side of the road, close all windows, and lock the doors to prevent theft.",
+    "question": "84. At a railway crossing controlled by traffic signals, you may proceed without making a full stop if the signal allows passage and you confirm that no train is approaching.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Traffic-controlled crossings may permit vehicles to proceed according to the signal. Drivers must still check carefully for trains and ensure the crossing is safe."
+  },
+  {
+    "question": "85. If an emergency vehicle approaches near an intersection, you should move toward the left side of the road while continuing through the intersection slowly.",
     "image": null,
     "choices": ["True", "False"],
     "answer": "False",
-    "explanation": "During a major earthquake, drivers should avoid sudden braking and stop safely after checking surrounding conditions. The priority is evacuation readiness and emergency access, not theft prevention."
+    "explanation": "Drivers should avoid blocking intersections for emergency vehicles. It is important to stop in a safe place and yield properly according to traffic conditions."
   },
   {
-    "question": "85. When towing a disabled vehicle, attaching a red cloth of at least 30 cm² to the towing rope is sufficient.",
-    "image": null,
-    "choices": ["True", "False"],
-    "answer": "False",
-    "explanation": "The required warning cloth or marker attached to a towing rope must meet specific visibility standards and is generally larger than 30 cm². Proper marking helps other drivers notice the tow connection safely."
-  },
-  {
-    "question": "86. Daily vehicle inspections are mandatory for operators or users of taxis, rental vehicles, large private vehicles, heavy special vehicles, and other business-use automobiles.",
+    "question": "86. When towing a disabled vehicle using a rope or cable, the total length from the front of the towing vehicle to the rear of the towed vehicle must remain within the legal limit of 25 meters.",
     "image": null,
     "choices": ["True", "False"],
     "answer": "True",
-    "explanation": "Regular pre-driving inspections help detect mechanical problems before operation. This improves safety and helps prevent accidents caused by vehicle failure."
+    "explanation": "Towing distance limits exist to maintain vehicle control and road safety. Excessive towing length can increase accident risk."
   },
   {
-    "question": "87. A vehicle can become unstable and may overturn if cargo is stacked too high or loaded unevenly. For safety, baggage should be kept as low as possible and distributed evenly on both sides.",
+    "question": "87. Motorcycle riders should wear clothing that covers as much of the body as possible, even during hot weather.",
     "image": null,
     "choices": ["True", "False"],
     "answer": "True",
-    "explanation": "A high or uneven load raises the vehicle’s center of gravity, making it easier to lose balance. Properly balanced cargo improves stability during turns and sudden movements."
+    "explanation": "Protective clothing helps reduce injuries in case of a fall or collision. Proper riding gear also provides protection from wind, debris, and weather conditions."
   },
   {
-    "question": "88. If your car receives an illegally parked vehicle notice, you must contact a police officer to personally remove the sticker after relocating the vehicle to a legal parking area.",
-    "image": null,
-    "choices": ["True", "False"],
-    "answer": "False",
-    "explanation": "The driver or vehicle user may remove the notice themselves after handling the violation properly. It is not necessary to wait for a police officer to remove it."
-  },
-  {
-    "question": "89. When facing an oncoming vehicle with strong headlights at night, it is safer to keep your eyes slightly toward the left side of the road while continuing carefully.",
+    "question": "88. Parking is prohibited within 3 meters of the entrance or exit of a parking area, garage, or similar vehicle access point.",
     "image": null,
     "choices": ["True", "False"],
     "answer": "True",
-    "explanation": "Looking slightly left helps reduce glare from approaching headlights and allows you to maintain awareness of your lane position. Staring directly into bright lights can temporarily reduce visibility."
+    "explanation": "Keeping entrances and exits clear allows vehicles to enter and leave safely. Blocking these areas can create traffic hazards and obstruct visibility."
   },
   {
-    "question": "90. The posted sign means that drivers are prohibited from both stopping and parking in the designated area.",
-    "image": "time_restriction.jpg",
+    "question": "89. When a tram or streetcar stop is equipped with a designated safety zone for passengers, vehicles may continue passing without reducing speed.",
+    "image": null,
     "choices": ["True", "False"],
     "answer": "False",
-    "explanation": "This sign indicates “No Parking,” which still allows temporary stopping under certain conditions. A separate sign is used when both stopping and parking are prohibited."
+    "explanation": "Drivers should still slow down and remain alert for pedestrians entering or leaving the safety zone. Passenger safety must always be prioritized near streetcar stops."
+  },
+  {
+    "question": "90. Driving at high speed for a long period can make drivers less aware of their actual speed, so checking the speedometer regularly is important.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Long periods of high-speed driving can distort a driver’s sense of motion and speed. Frequently checking the speedometer helps maintain safe and legal speeds."
   },
 {
   "question_group": "91",
-  "situation": "You are waiting to make a right turn at an intersection. A large truck coming from the opposite direction stops and flashes its headlights. What should you pay attention to in this situation?",
-  "image": null,
+  "situation": "You are driving at approximately 40 km/h near a tram safety island in an urban area. What should you pay attention to in this situation?",
+  "image": "city_drive_on_a_city_island.jpg",
   "items": [
     {
       "number": 1,
-      "question": "The truck’s flashing lights mean it is safe to turn immediately, so you should complete your right turn quickly to avoid delaying the truck.",
+      "question": "Because no streetcar is currently stopped at the safety island and no pedestrians appear ready to cross, you may continue driving without reducing speed.",
       "choices": ["True", "False"],
       "answer": "False",
-      "explanation": "Flashing headlights do not always guarantee that the road is completely safe. You must confirm traffic conditions yourself before turning."
+      "explanation": "Even if no tram is present, pedestrians near a safety zone may suddenly cross the roadway. Drivers should remain cautious and slow down when approaching these areas."
     },
     {
       "number": 2,
-      "question": "Because the large truck blocks part of your view, you should carefully check the crosswalk and sidewalk area on the right side for pedestrians before turning.",
+      "question": "A pedestrian on the left side could step toward the safety island and enter your path. However, you may keep your current speed if you move slightly toward the right side of the lane.",
       "choices": ["True", "False"],
-      "answer": "True",
-      "explanation": "Large vehicles can create blind spots that hide pedestrians or cyclists. Always slow down and confirm the safety of the crosswalk before proceeding."
+      "answer": "False",
+      "explanation": "Changing position within the lane does not remove the need to slow down. Drivers must reduce speed and prepare to stop whenever pedestrians may cross unexpectedly."
     },
     {
       "number": 3,
-      "question": "You should expect that a motorcycle or bicycle may appear from behind the stopped truck and continue your turn only after checking carefully around the hidden area.",
+      "question": "The pedestrian on the left may move toward the safety island and cross in front of your vehicle, so you should slow down before passing the area.",
       "choices": ["True", "False"],
       "answer": "True",
-      "explanation": "Motorcycles and bicycles are often difficult to see when hidden behind large vehicles. Careful observation helps prevent collisions during turns."
+      "explanation": "Safety zones require extra attention because pedestrians may suddenly enter the roadway. Reducing speed helps ensure enough reaction time to avoid accidents."
     }
   ]
 },
 {
   "question_group": "92",
-  "situation": "You are driving at about 20 kph through a busy shopping street with pedestrians, parked vehicles, and possible hazards nearby. What should you be careful about in this situation?",
-  "image": null,
+  "situation": "You are driving at around 30 km/h on a curved road, and a vehicle behind you appears to be trying to pass. What should you keep in mind in this situation?",
+  "image": "driving_through_greenhills.jpg",
   "items": [
     {
       "number": 1,
-      "question": "As long as you watch the brake lights of the vehicle ahead and keep a speed that allows stopping quickly, there is no need to pay much attention to pedestrians nearby.",
+      "question": "Since the vehicle behind is attempting to pass, you should apply the brakes firmly and slow down immediately so it can overtake faster.",
       "choices": ["True", "False"],
       "answer": "False",
-      "explanation": "Drivers in shopping areas must continuously watch for pedestrians, bicycles, and sudden hazards. Focusing only on the car ahead is dangerous."
+      "explanation": "Sudden braking can surprise the following driver and create danger. If another vehicle is overtaking, you should remain calm and avoid abrupt actions."
     },
     {
       "number": 2,
-      "question": "Because an animal or pedestrian may suddenly move into the roadway, you should continue at a speed that allows you to stop immediately if necessary.",
+      "question": "Because the car behind is trying to overtake, you should accelerate so the other driver will no longer need to pass you.",
       "choices": ["True", "False"],
-      "answer": "True",
-      "explanation": "Shopping streets often have unpredictable movement from people and animals. Maintaining a low speed and staying alert helps prevent accidents."
+      "answer": "False",
+      "explanation": "Increasing speed while being overtaken is unsafe and may lead to a collision. Drivers being passed should maintain or slightly reduce speed instead of accelerating."
     },
     {
       "number": 3,
-      "question": "Since the vehicle ahead could stop suddenly, you should reduce speed, keep enough distance, and also observe conditions farther ahead beyond that vehicle.",
+      "question": "If a vehicle behind begins overtaking, you should ease off the accelerator and keep as far to the left as safely possible to allow enough room.",
       "choices": ["True", "False"],
       "answer": "True",
-      "explanation": "Looking beyond the vehicle in front improves hazard awareness and gives you more time to react safely."
+      "explanation": "Giving adequate space helps the overtaking vehicle pass more safely. Smoothly reducing speed without sudden braking lowers the risk of accidents on curved roads."
     }
   ]
 },
 {
   "question_group": "93",
-  "situation": "Rain begins to fall while you are driving at around 40 kph near an intersection with pedestrians nearby. What precautions should you take in this situation?",
-  "image": null,
+  "situation": "You are riding a motorcycle at about 10 km/h while approaching an intersection beside a large truck. What hazards should you be aware of before proceeding?",
+  "image": "motorcycle_on_chuo_dori_street.jpg",
   "items": [
     {
       "number": 1,
-      "question": "Road surfaces become slippery soon after rain starts, so you should slow down before entering the intersection and prepare for pedestrians who may suddenly cross.",
+      "question": "Because the traffic signal is green and your lane appears clear, you may continue through the intersection without paying special attention to surrounding vehicles.",
       "choices": ["True", "False"],
-      "answer": "True",
-      "explanation": "Rain reduces tire grip and increases stopping distance. Drivers should reduce speed early and stay alert for pedestrians whose visibility may also be reduced."
+      "answer": "False",
+      "explanation": "A green light does not guarantee complete safety at an intersection. Drivers and riders must still watch for hidden vehicles, turning traffic, and sudden movements nearby."
     },
     {
       "number": 2,
-      "question": "You may continue at the same speed as long as you believe you can stop quickly if a pedestrian suddenly crosses the road.",
+      "question": "You should watch the truck carefully because it could suddenly make a left turn and move into your path.",
       "choices": ["True", "False"],
-      "answer": "False",
-      "explanation": "Maintaining the same speed in rainy conditions is dangerous because wet roads make braking less effective and reaction time becomes more important."
+      "answer": "True",
+      "explanation": "Large trucks often need extra space when turning and may swing into nearby lanes. Motorcyclists should stay alert and avoid riding in blind spots near intersections."
     },
     {
       "number": 3,
-      "question": "If a pedestrian appears unexpectedly from the left side, it is acceptable to move partly into the oncoming lane while passing through the intersection.",
+      "question": "A vehicle coming from the opposite direction and turning right may be hidden behind the truck, so you should reduce speed and check carefully before moving ahead.",
       "choices": ["True", "False"],
-      "answer": "False",
-      "explanation": "Crossing into the opposing lane at an intersection creates a serious collision risk. Drivers should instead slow down and maintain proper lane position."
+      "answer": "True",
+      "explanation": "Large vehicles can block your view of approaching traffic. Slowing down and checking thoroughly helps prevent collisions with vehicles concealed behind the truck."
     }
   ]
 },
 {
   "question_group": "94",
-  "situation": "You are driving at approximately 30 kph on a narrow road where pedestrians are walking ahead and an oncoming vehicle is approaching. What should you pay attention to in this situation?",
-  "image": null,
+  "situation": "You are driving at about 30 km/h and approaching a road construction area where traffic is temporarily narrowed. There is also an oncoming vehicle ahead. What should you be careful about?",
+  "image": "coastal_drive_with_construction.jpg",
   "items": [
     {
       "number": 1,
-      "question": "You should speed up and pass the pedestrians before the approaching vehicle reaches your position.",
+      "question": "Because an oncoming vehicle is approaching, you should stop before entering the narrowed construction section and proceed only after the opposing vehicle has passed.",
       "choices": ["True", "False"],
-      "answer": "False",
-      "explanation": "Accelerating in a narrow area with pedestrians and oncoming traffic is dangerous. Drivers should prioritize safety and maintain proper control of the vehicle."
+      "answer": "True",
+      "explanation": "At road construction zones with limited space, yielding to oncoming traffic may be necessary to avoid danger. Stopping and confirming safety helps prevent collisions in narrow sections."
     },
     {
       "number": 2,
-      "question": "If the pedestrians do not appear to notice your vehicle, you should sound the horn and continue driving at the same speed.",
+      "question": "Since the opposing vehicle is still some distance away and another car is behind you, you should speed up and pass through the construction area quickly before the oncoming vehicle arrives.",
       "choices": ["True", "False"],
       "answer": "False",
-      "explanation": "Drivers should reduce speed and prepare to stop when pedestrians are nearby. Simply sounding the horn does not guarantee safety."
+      "explanation": "Accelerating through a narrowed roadway is risky and may lead to loss of control or unsafe passing distance. Drivers should proceed cautiously instead of rushing through construction zones."
     },
     {
       "number": 3,
-      "question": "Because it may be safer to wait until the oncoming vehicle passes before going around the pedestrians, you should move to the side and stop if necessary.",
+      "question": "If a vehicle behind may not notice your sudden slowdown near the construction zone, it is safer to apply the brakes gradually or tap them lightly several times while stopping.",
       "choices": ["True", "False"],
       "answer": "True",
-      "explanation": "Yielding and waiting when space is limited helps avoid dangerous situations involving pedestrians and approaching vehicles."
+      "explanation": "Using the brakes progressively can warn following drivers through your brake lights. This reduces the chance of a rear-end collision when traffic conditions suddenly change."
     }
   ]
 },
 {
   "question_group": "95",
-  "situation": "You are driving at about 80 kph in the main lane of an expressway while another vehicle is approaching from an acceleration lane. What should you watch for in this situation?",
-  "image": null,
+  "situation": "You are riding a motorcycle at around 80 km/h on an expressway and are about to leave a tunnel. What possible dangers should you anticipate?",
+  "image": "motorcycle_on_expressway.jpg",
   "items": [
     {
       "number": 1,
-      "question": "Because the vehicle in the acceleration lane may merge suddenly, you should slow down when necessary to help create a safe merging space.",
+      "question": "Strong side winds are often present near tunnel exits, so you should hold the handlebars firmly and slow down before leaving the tunnel.",
       "choices": ["True", "False"],
       "answer": "True",
-      "explanation": "Drivers on expressways should cooperate with merging traffic when it is safe to do so. Adjusting speed can help prevent dangerous situations."
+      "explanation": "Sudden crosswinds can affect vehicle stability when exiting a tunnel. Reducing speed and maintaining firm control helps prevent drifting or losing balance."
     },
     {
       "number": 2,
-      "question": "If it is safe after checking mirrors and surrounding traffic, you may move to another lane to provide more space for the merging vehicle.",
+      "question": "Crosswinds at the tunnel exit may push your motorcycle toward the right side of the road, so you should slow down and keep toward the left side of your lane.",
       "choices": ["True", "False"],
       "answer": "True",
-      "explanation": "Changing lanes safely can reduce conflict with vehicles entering from an acceleration lane and improve overall traffic flow."
+      "explanation": "Positioning safely within your lane gives you more room to react if wind pressure pushes the vehicle sideways. Slowing down also improves stability and control."
     },
     {
       "number": 3,
-      "question": "You do not need to take any precautions because vehicles in the acceleration lane will always wait and avoid merging near your vehicle.",
+      "question": "The passenger car on your right may suddenly move into your lane, so you should reduce speed and stay prepared for an unexpected lane change.",
       "choices": ["True", "False"],
-      "answer": "False",
-      "explanation": "Drivers should never assume other vehicles will always act predictably. Staying alert for sudden merges is important on expressways."
+      "answer": "True",
+      "explanation": "Drivers near tunnel exits may react unpredictably because of visibility changes or wind conditions. Staying alert and keeping enough distance helps avoid collisions."
     }
   ]
 }
