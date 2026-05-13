@@ -540,7 +540,7 @@
   },
   {
     "question": "78. Small-sized vehicles, ordinary mopeds, and standard motorcycles with engines of 125cc or less are not permitted to travel on roads marked with the indicated sign.",
-    "image": null,
+    "image": "designated_lane_automobiles.jpg",
     "choices": ["True", "False"],
     "answer": "True",
     "explanation": "Certain roads restrict entry for smaller vehicles and low-engine-capacity motorcycles for safety and traffic flow reasons. Drivers must obey the posted vehicle restrictions."
