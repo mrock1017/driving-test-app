@@ -22,6 +22,18 @@ def load_questions(folder, language, filename):
         filename
     )
 
+    # 🌐 FALLBACK TO ENGLISH
+    if not os.path.exists(filepath):
+
+        print("FALLBACK TO ENGLISH")
+
+        filepath = os.path.join(
+            "data",
+            folder,
+            "en",
+            filename
+        )
+
     print("LOADING:", filepath)
 
     if not os.path.exists(filepath):
@@ -127,29 +139,60 @@ def start_mode(mode, test):
 
         for i, q in enumerate(questions):
 
-            # 🏁 grouped questions
-            if "question_group" in q:
+            # 🏁 GROUP QUESTIONS
+            if "items" in q:
+
                 grouped_questions.append(i)
 
-            # 📝 normal questions
+            # 📝 NORMAL QUESTIONS
             else:
+
                 normal_questions.append(i)
 
-        random.shuffle(normal_questions)
-        random.shuffle(grouped_questions)
+        # 🎯 RANDOMLY SELECT 90 NORMAL
+        selected_normal = random.sample(
 
-        # grouped always at end
-        order = normal_questions + grouped_questions
+            normal_questions,
 
-        # ⏱ 50 mins
+            min(90, len(normal_questions))
+        )
+
+        # 🎯 RANDOMLY SELECT 5 GROUPS
+        selected_grouped = random.sample(
+
+            grouped_questions,
+
+            min(5, len(grouped_questions))
+        )
+
+        # 🧩 NORMAL FIRST, GROUPS LAST
+        order = selected_normal + selected_grouped
+
+        # ⏱ 50 MINUTES
         session['start_time'] = int(time.time())
+
         session['duration'] = 50 * 60
 
     else:
 
-        order = list(range(len(questions)))
+        # 🎯 RANDOMLY SELECT 50 QUESTIONS
 
-        random.shuffle(order)
+        TOTAL_QUESTIONS = 50
+
+        if len(questions) > TOTAL_QUESTIONS:
+
+            order = random.sample(
+
+                range(len(questions)),
+
+                TOTAL_QUESTIONS
+            )
+
+        else:
+
+            order = list(range(len(questions)))
+
+            random.shuffle(order)
 
         # 🧠 reviewer
         if "reviewer" in mode:
@@ -160,6 +203,7 @@ def start_mode(mode, test):
 
             # ⏱ karimen
             session['start_time'] = int(time.time())
+
             session['duration'] = 30 * 60
 
     session['order'] = order
