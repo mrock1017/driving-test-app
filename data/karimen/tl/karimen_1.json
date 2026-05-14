@@ -323,7 +323,7 @@
     },
     {
     "question": "47. Ang mga sasakyang nasa unahan ay bumabagal o humihinto malapit sa interseksyon. Sumisingit ang isang drayber sa unahan nila upang maunang dumaan. Pinapayagan ba ito?",
-    "image": "8_20_X_sign.jpg",
+    "image": null,
     "choices": ["Tama", "Mali"],
     "answer": "Mali",
     "explanation": "Mapanganib at hindi pinapayagan ang pagsingit sa harap ng mga nakahinto o bumabagal na sasakyan. Dapat sundin ng mga drayber ang tamang pagkakasunod-sunod at ligtas na pagmamaneho."

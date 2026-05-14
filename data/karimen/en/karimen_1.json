@@ -323,7 +323,7 @@
   },
   {
     "question": "47. Vehicles ahead are slowing down or stopped near an intersection. A driver cuts in front of them to proceed first. Is this allowed?",
-    "image": "8_20_X_sign.jpg",
+    "image": null,
     "choices": ["True", "False"],
     "answer": "False",
     "explanation": "Cutting in front of stopped or slowing vehicles is dangerous and not permitted. Drivers must follow proper order and maintain safe driving behavior."
