@@ -350,353 +350,353 @@
     "explanation": "Proper posture helps maintain balance and prevents the rider from being thrown forward during sudden braking."
   },
   {
-    "question": "1. You are driving behind another vehicle. The driver gives a hand signal as shown, and you understand that it indicates the vehicle may slow down or proceed forward. Is this correct?",
-    "image": "hand_sideward.jpg",
+    "question": "1. While driving, you operated the navigation system and searched for a route because you were lost. Is this acceptable?",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "Operating a navigation system while driving distracts attention and is dangerous. You must stop in a safe place before adjusting or checking routes."
+  },
+  {
+    "question": "2. In this situation, Car A does not need to give way to Car B. Is this correct?",
+    "image": "hidari_yuusen.jpg",
     "choices": ["True", "False"],
     "answer": "True",
-    "explanation": "Certain hand signals indicate changes in speed or movement, including slowing down or continuing forward. Drivers must observe carefully and respond safely."
+    "explanation": "Based on the intersection rule shown, Car A has priority and does not need to yield to Car B."
   },
   {
-    "question": "2. A driver approaches a yellow traffic light and believes they must always stop and check for traffic. Is this correct?",
-    "image": "yellow_shingo.jpg",
+    "question": "3. If a vehicle is equipped with airbags, it is not necessary to wear a seatbelt. Is this correct?",
+    "image": null,
     "choices": ["True", "False"],
     "answer": "False",
-    "explanation": "A yellow light means stop if it is safe to do so. If stopping suddenly is dangerous, the driver may proceed carefully."
+    "explanation": "Seatbelts are always required. Airbags are supplemental safety devices and do not replace seatbelts."
   },
   {
-    "question": "3. A A driver sees the road marking shown and believes it indicates an area where vehicles must not stop or park. Is this correct?",
-    "image": "stopping.jpg",
+    "question": "4. Seen from behind, when a driver extends their arm diagonally downward, it indicates that the vehicle is slowing down or coming to a stop. Is this correct?",
+    "image": "hands_down.jpg",
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "This hand signal indicates deceleration or stopping when brake lights are not sufficient or visible."
+  },
+  {
+    "question": "5. You must always sound the horn when passing an intersection, curve, or hilltop where visibility is poor. Is this correct?",
+    "image": null,
     "choices": ["True", "False"],
     "answer": "False",
-    "explanation": "This marking does not necessarily indicate a strict “no stopping or parking” zone. Misinterpreting road markings can lead to incorrect driving behavior."
+    "explanation": "The horn is used only when necessary for safety. It is not always required unless specifically indicated or needed to prevent danger."
   },
   {
-    "question": "4. At a stop sign, a driver stops once and then believes they automatically have the right of way over other vehicles and can proceed first. Is this correct?",
+    "question": "6. At a road with this sign, you must stop just before the stop line. If there is no stop line, you must stop just before the intersection. Is this correct?",
     "image": "stop_sign.jpg",
     "choices": ["True", "False"],
-    "answer": "False",
-    "explanation": "Stopping does not give automatic priority. Drivers must still yield to other vehicles and ensure it is safe before proceeding."
+    "answer": "True",
+    "explanation": "A complete stop is mandatory. If no line exists, stop at a position where you can safely check for traffic."
   },
   {
-    "question": "5. A person with a moped license believes they can drive both a moped and a light-duty special vehicle. Is this correct?",
+    "question": "7. If you can confirm safety, you may pass a stopped school bus without slowing down. Is this correct?",
     "image": null,
     "choices": ["True", "False"],
     "answer": "False",
-    "explanation": "A moped license only allows operation of mopeds. Driving other vehicle types requires the appropriate license."
+    "explanation": "Even if the road appears clear, a stopped school bus indicates possible movement of children. Children can:\n\n- Suddenly cross the road\n- Appear from blind spots"
   },
   {
-    "question": "6. A rider believes that posture does not affect safety when riding a two-wheeled vehicle. Is this correct?",
-    "image": null,
+    "question": "8. As shown in the picture, you cannot move into the right side of the road to overtake another vehicle. Is this correct?",
+    "image": "white_centerline.jpg",
     "choices": ["True", "False"],
     "answer": "False",
-    "explanation": "Proper posture is essential for balance and control. Poor posture can cause loss of balance, especially during braking."
+    "explanation": "In general, overtaking rules depend on road markings and conditions. In this situation:\n\n- There is no prohibition shown (e.g., solid line or sign)\n- The right side can be used if it is safe"
   },
   {
-    "question": "7. A driver passes close to a pedestrian or bicycle without slowing down or maintaining distance. Is this acceptable?",
+    "question": "9. On a one-way road, a vehicle may use the right side of the roadway. Is this correct?",
     "image": null,
-    "choices": ["True", "False"],
-    "answer": "False",
-    "explanation": "Drivers must keep a safe distance or slow down when passing pedestrians and cyclists to ensure safety."
-  },
-  {
-    "question": "8. A driver sees this sign and understands that they may turn in the indicated direction at an intersection regardless of the traffic light. Is this correct?",
-    "image": "arrow_right.jpg",
     "choices": ["True", "False"],
     "answer": "True",
-    "explanation": "This type of sign allows movement in the indicated direction even if the traffic light would normally restrict it, provided it is safe."
+    "explanation": "Since all traffic flows in the same direction, vehicles may use the right side when appropriate. Drivers must still follow lane markings and drive safely."
   },
   {
-    "question": "9. When practicing driving on public roads, a driver places a learner’s permit sign only at the rear of the vehicle. Is this sufficient?",
+    "question": "10. The vehicle traveling in lane A may change its path to lane B. Is this correct?",
+    "image": "can_change.jpg",
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Lane changes are allowed if there are no prohibiting markings and it is safe. Drivers must check surroundings and signal before changing lanes."
+  },
+  {
+    "question": "11. Because you have entered the intersection, you may turn right before an oncoming vehicle. Is this correct?",
     "image": null,
     "choices": ["True", "False"],
     "answer": "False",
-    "explanation": "Learner’s permit signs must be displayed clearly (typically both front and rear) so other drivers can recognize the learner."
+    "explanation": "Entering the intersection does not give you priority over oncoming traffic. You must yield to vehicles coming straight or turning left."
   },
   {
-    "question": "10. A driver sees this road sign and believes that pedestrians and bicycles are allowed to pass through the restricted area. Is this correct?",
+    "question": "12. In this situation, the vehicle A cannot change lanes or turn right at the intersection. Is this correct?",
+    "image": "change_lane.jpg",
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Lane arrows and markings restrict the allowed direction of travel. Drivers must follow these instructions and cannot change lanes or turn freely."
+  },
+  {
+    "question": "13. You may overtake other vehicles or mopeds on a steep downhill. Is this correct?",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "Steep downhills increase speed and reduce control, making overtaking dangerous. It should be avoided for safety."
+  },
+   {
+    "question": "14. This traffic sign indicates that the road is closed to vehicles. Is this correct?",
     "image": "no_vehicle_entry.jpg",
     "choices": ["True", "False"],
     "answer": "False",
-    "explanation": "This sign indicates a restriction (such as no vehicle entry). It does not automatically mean pedestrians and bicycles are allowed unless specifically indicated."
+    "explanation": "This sign generally indicates a prohibition (such as no entry or restriction), but not necessarily that the entire road is closed to all vehicles. The statement is too absolute."
   },
   {
-    "question": "11. A driver sees this road sign and understands that it indicates a large intersection ahead. Is this correct?",
-    "image": "big_arrow_road_sign.jpg",
+    "question": "15. You may stop your vehicle in a “no stopping zone” in front of a police station or fire station if no emergency vehicle is coming out. Is this correct?",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "Stopping is prohibited in these areas at all times to ensure emergency vehicles can exit immediately. The rule applies regardless of whether an emergency vehicle is present."
+  },
+  {
+    "question": "16. The sign and road marking indicate a bus-only lane, and other vehicles (except mopeds, light-duty special vehicles, and light vehicles) are not allowed to use it. Is this correct?",
+    "image": "bus_lane.jpg",
     "choices": ["True", "False"],
     "answer": "True",
-    "explanation": "This sign warns drivers of an upcoming intersection, allowing them to prepare and proceed with caution."
+    "explanation": "Bus lanes are reserved for specific vehicles, and other vehicles are restricted except for certain permitted categories. Drivers must follow lane designation signs and markings."
   },
   {
-    "question": "12. A driver turns the steering wheel just before making a left turn in order to eliminate the difference in wheel paths. Is this recommended?",
-    "image": null,
-    "choices": ["True", "False"],
-    "answer": "False",
-    "explanation": "Drivers should not turn the steering wheel too early. Proper turning should be done at the correct position to maintain control and safety."
-  },
-  {
-    "question": "13. A driver sees this sign and believes it means that the road is closed to bicycles only. Is this correct?",
-    "image": "bicycle.png",
-    "choices": ["True", "False"],
-    "answer": "False",
-    "explanation": "This is a warning sign, indicating that bicycles may be present, not that the road is restricted only to bicycles."
-  },
-   {
-    "question": "14. A driver sees this road marking and believes that vehicles are prohibited from not parking for any reason.",
-    "image": "No_Parking.jpg",
-    "choices": ["True", "False"],
-    "answer": "False",
-    "explanation": "This statement is too tricky. Road markings must be interpreted correctly, and not all situations prohibit parking for any reason."
-  },
-  {
-    "question": "15. A driver believes that footwear has no effect on driving control and can be ignored when operating a vehicle. Is this correct?",
-    "image": null,
-    "choices": ["True", "False"],
-    "answer": "False",
-    "explanation": "Proper footwear is important for safe pedal control. Inappropriate footwear can affect braking and acceleration."
-  },
-  {
-    "question": "16. An emergency vehicle approaches from behind while you are at an intersection. You stop and give way immediately. Is this correct?",
+    "question": "17. If a vehicle is stopped at or before a crosswalk, you must stop before passing it. Is this correct?",
     "image": null,
     "choices": ["True", "False"],
     "answer": "True",
-    "explanation": "Drivers must give way to emergency vehicles, even at intersections, by stopping or moving aside safely."
+    "explanation": "A stopped vehicle may be yielding to pedestrians, so passing without stopping is dangerous. You must stop to check for pedestrians before proceeding."
   },
   {
-    "question": "17. At a railway crossing controlled by a traffic light, a driver proceeds without stopping after confirming the light is green. Is this correct?",
-    "image": null,
+    "question": "18. This road marking indicates a “no entry zone.” Is this correct?",
+    "image": "no_entry_zone.jpg",
     "choices": ["True", "False"],
     "answer": "True",
-    "explanation": "If the signal is green and safety is confirmed, drivers may proceed without stopping. However, they must always remain cautious."
+    "explanation": "The marking shows an area where vehicles must not enter. It is used to control traffic flow and prevent unsafe movement."
   },
   {
-    "question": "18. A driver sees this pavement marking and believes it indicates both the beginning and end of a 50 km/h speed limit zone. Is this correct?",
-    "image": "pavement.jpg",
-    "choices": ["True", "False"],
-    "answer": "False",
-    "explanation": "This marking does not indicate both the start and end of a speed limit. Speed limits are determined by official signs and road markings used correctly."
-  },
-  {
-    "question": "19. A driver sees this sign and understands that crossing the road is prohibited, except when turning to enter or exit a roadside facility. Is this correct?",
-    "image": "no_crossing_sign.jpg",
-    "choices": ["True", "False"],
-    "answer": "True",
-    "explanation": "This sign restricts crossing movements, but allows exceptions such as entering or leaving a roadside facility."
-  },
-  {
-    "question": "20. At an intersection with poor visibility, a driver sounds the horn repeatedly as much as possible. Is this advisable?",
+    "question": "19. When making a left turn, you should move to the left side of the road just before turning. Is this correct?",
     "image": null,
     "choices": ["True", "False"],
     "answer": "False",
-    "explanation": "The horn should be used only when necessary for safety. Excessive use is not recommended and may cause confusion or danger."
+    "explanation": "You should position your vehicle toward the left side in advance, not only immediately before the turn. Proper positioning must be done early and smoothly."
   },
   {
-    "question": "21. When learning to drive, a driver carries their learner’s permit license as required. Is this correct?",
-    "image": null,
-    "choices": ["True", "False"],
-    "answer": "True",
-    "explanation": "Learners must carry their permit while driving to comply with legal requirements."
-  },
-  {
-    "question": "22. A driver towing a motor vehicle believes they must always travel in a lane indicated by a specific designation sign. Is this correct?",
-    "image": "senyou_lane.jpg",
-    "choices": ["True", "False"],
-    "answer": "False",
-    "explanation": "Lane designation signs apply to specific vehicles or conditions. Towing does not automatically require using a designated lane unless specified."
-  },
-  {
-    "question": "23. A driver sees this sign and understands that it indicates a bicycle crossing lane. Is this correct?",
-    "image": "bicycle.png",
-    "choices": ["True", "False"],
-    "answer": "True",
-    "explanation": "This sign warns of a bicycle crossing area, meaning drivers should be cautious of bicycles."
-  },
-  {
-    "question": "24. A driver believes that vehicles may stop or park in front of police or fire stations if pavement markings allow it, except for emergency vehicles. Is this correct?",
-    "image": null,
-    "choices": ["True", "False"],
-    "answer": "False",
-    "explanation": "Stopping or parking in front of police or fire stations is generally prohibited regardless of pavement markings, except for authorized emergency use."
-  },
-  {
-    "question": "25. A driver encounters an obstacle ahead and slows down or stops, but does not take any action to warn oncoming traffic. Is this correct?",
-    "image": null,
-    "choices": ["True", "False"],
-    "answer": "False",
-    "explanation": "Drivers must take appropriate action, including warning other road users if necessary, to prevent danger when encountering obstacles."
-  },
-  {
-    "question": "26. In the situation shown, a driver in lane A changes lanes to turn right at the intersection. Is this allowed?",
-    "image": "change_lane.jpg",
-    "choices": ["True", "False"],
-    "answer": "False",
-    "explanation": "Lane markings determine permitted movements. If lane A does not allow a right turn, the driver must not change lanes improperly to make that turn."
-  },
-  {
-    "question": "27. On the road shown, vehicles traveling in lane A must not change to lane B. Is this correct?",
-    "image": "A_to_B.jpg",
-    "choices": ["True", "False"],
-    "answer": "True",
-    "explanation": "The road markings prohibit changing lanes from A to B. Drivers must follow lane restrictions indicated by markings."
-  },
-  {
-    "question": "28. When approaching a traffic signal that changes to yellow, if you cannot stop safely, you may proceed through the intersection. Is this correct?",
-    "image": null,
-    "choices": ["True", "False"],
-    "answer": "True",
-    "explanation": "A yellow signal means stop if possible, but if stopping suddenly is unsafe, proceeding is allowed."
-  },
-  {
-    "question": "29. A driver stops behind a route bus at a bus stop and waits until the bus starts moving again before proceeding. Is this required?",
-    "image": null,
-    "choices": ["True", "False"],
-    "answer": "False",
-    "explanation": "Drivers are not always required to wait behind a stopped bus. They may proceed carefully if it is safe and permitted."
-  },
-  {
-    "question": "30. A driver sees this sign and understands that vehicles may proceed only by turning left or right, and cannot go straight. Is this correct?",
+    "question": "20. This sign means that all vehicles cannot turn either right or left. Is this correct?",
     "image": "direction_left_and_right.jpg",
     "choices": ["True", "False"],
-    "answer": "True",
-    "explanation": "This sign restricts movement to the indicated directions only."
+    "answer": "False",
+    "explanation": "The sign indicates that vehicles must turn either left or right and cannot go straight. The statement is incorrect because turning is actually required."
   },
   {
-    "question": "31. When the traffic signal is flashing amber, vehicles and streetcars must reduce speed. Is this correct?",
-    "image": "blinking_amber.jpg",
+    "question": "21. When passing a person using a white or yellow cane or a person in a wheelchair, you must slow down or stop to ensure their safety. Is this correct?",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "These individuals may have limited mobility or visibility, so extra caution is required. Drivers must slow down or stop to allow safe passage."
+  },
+  {
+    "question": "22. This traffic sign and the road marking indicate the same meaning. Is this correct?",
+    "image": "50.jpg",
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Both the circular sign and the “50” marking indicate the maximum speed limit. Road markings reinforce the same regulation shown by the sign."
+  },
+  {
+    "question": "23. When reversing with poor rear visibility or backing out from a narrow place, it is better to ask a passenger to check for safety. Is this correct?",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "A passenger can help check blind spots that the driver cannot see. This reduces the risk of hitting pedestrians or obstacles."
+  },
+  {
+    "question": "24. When an emergency vehicle approaches on a road other than a one-way street, you must pull over to the left side of the road to give way if you are not near an intersection. Is this correct?",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Drivers must move to the left and stop to allow emergency vehicles to pass safely. This ensures a clear and quick route for emergency response."
+  },
+  {
+    "question": "25. When passing a road with this sign, you do not need to slow down if you can check left and right completely. Is this correct?",
+    "image": "yokei.jpg",
     "choices": ["True", "False"],
     "answer": "False",
-    "explanation": "Flashing amber means proceed with caution, not necessarily a mandatory reduction in speed."
+    "explanation": "This sign requires you to slow down regardless of visibility. You must be able to stop immediately if necessary."
   },
   {
-    "question": "32. A driver sees a child walking alone and uses the horn to warn others and ensure safety. Is this appropriate?",
+    "question": "26. Where this sign is present, you must not enter the right side of the road to overtake. Is this correct?",
+    "image": "no_overtaking.jpg",
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "This sign prohibits overtaking by entering the right side of the road. Drivers must remain in their lane and follow the restriction."
+  },
+  {
+    "question": "27. When crossing a sidewalk to enter a parking area, you do not need to stop if you can confirm safety. Is this correct?",
     "image": null,
     "choices": ["True", "False"],
     "answer": "False",
-    "explanation": "When necessary, the horn may be used to warn others of potential danger. Extra caution is required around children."
+    "explanation": "You must stop before crossing a sidewalk to check for pedestrians. Pedestrians always have priority in this situation."
   },
   {
-    "question": "33. A driver sees this sign and understands it indicates a pedestrian crossing area. Is this correct?",
+    "question": "28. Stopping distance is the distance traveled after the driver reacts and brakes, plus the distance required for the vehicle to stop. Is this correct?",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Stopping distance consists of reaction distance and braking distance combined. Both factors increase with speed and road conditions."
+  },
+  {
+    "question": "29. When passing a pedestrian walking on the side strip, you do not need to keep a safe distance or slow down. Is this correct?",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "Drivers must keep a safe distance and slow down when passing pedestrians. This prevents accidents if the pedestrian suddenly moves."
+  },
+  {
+    "question": "30. When closing the vehicle door, it is better to shut it forcefully without pausing just before it latches. Is this correct?",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "Doors should be closed carefully to ensure proper latching without damage or danger. Slamming the door can cause injury or mechanical issues."
+  },
+  {
+    "question": "31. When making a left turn to leave the road, you should move as close as possible to the left side and slow down. Is this correct?",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Positioning close to the left reduces interference with other traffic and improves safety. Slowing down allows better control during the turn."
+  },
+  {
+    "question": "32. Before starting an automatic transmission vehicle, you should visually confirm the positions of the brake and accelerator pedals to avoid pressing the wrong one. Is this correct?",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Confirming pedal positions helps prevent pedal misapplication, which can cause sudden unintended acceleration. This is especially important before starting the engine."
+  },
+  {
+    "question": "33. In this situation, the vehicle approaching from side A must slow down. Is this correct?",
+    "image": "poor_visibility.jpg",
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "The vehicle on the priority road does not necessarily need to slow down. Drivers on the non-priority side must yield instead."
+  },
+  {
+    "question": "34. A learner driver must have an experienced driver in the passenger seat, and there are no specific requirements for that experienced driver. Is this correct?",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "The accompanying driver must meet specific requirements, such as having sufficient driving experience. Not just any person can supervise a learner."
+  },
+  {
+    "question": "35. This sign indicates that there are schools, kindergartens, or nurseries ahead. Is this correct?",
     "image": "pedestrian.jpg",
     "choices": ["True", "False"],
-    "answer": "True",
-    "explanation": "This sign warns drivers of a pedestrian crossing ahead and the need to slow down and prepare to stop."
+    "answer": "False",
+    "explanation": "This sign warns of children nearby, but it does not specifically mean a school or nursery is ahead. Drivers should still proceed with caution."
   },
   {
-    "question": "34. A driver sees this road marking and understands that stopping and parking are prohibited in this area. Is this correct?",
-    "image": "stopping.jpg",
+    "question": "36. In this situation, the vehicle labeled A is parked illegally. Is this correct?",
+    "image": "illegal_parking.jpg",
     "choices": ["True", "False"],
     "answer": "True",
-    "explanation": "This type of marking indicates that vehicles must not stop or park in that area."
+    "explanation": "The sign shown indicates a parking restriction in that area. Parking there violates the regulation, making it illegal."
   },
   {
-    "question": "35. A driver catches up to a route bus stopped at a bus stop and waits behind it until the bus starts moving again. Is this required?",
+    "question": "37. “You must follow all conditions written on your driver’s license (such as automatic-only restriction or wearing glasses). Is this correct?",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "License conditions are legally binding and must always be followed while driving. Ignoring them is considered a violation."
+  },
+  {
+    "question": "38. When facing a flashing red traffic signal, you must stop at the stop line and must not interfere with other traffic. Is this correct?",
+    "image": "flashing_red_light.jpg",
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "A flashing red light is treated the same as a stop sign. You must come to a complete stop and proceed only when safe."
+  },
+  {
+    "question": "39. This sign indicates that there is a bicycle crossing ahead. Is this correct?",
+    "image": "bicycle.png",
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "The sign warns drivers to watch for bicycles crossing the road. Drivers should slow down and be prepared to yield.."
+  },
+  {
+    "question": "40. Stopping is prohibited on a road marked with this type of marking. Is this correct?",
+    "image": "stopping.jpg",
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "This marking typically indicates restrictions related to stopping or parking near specific areas, but it does not always mean stopping is completely prohibited. The exact rule depends on the location and context."
+  },
+  {
+    "question": "41. This sign means that the road is closed to pedestrians. Is this correct?",
+    "image": "oudan_kinshi.jpg",
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "This sign specifically means “pedestrian crossing prohibited,” not that pedestrians are completely banned from the road. It only restricts crossing at that location."
+  },
+  {
+    "question": "42. This sign does not prohibit mopeds from traveling on this road. Is this correct?",
+    "image": "moped_can_enter.png",
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "The sign prohibits automobiles but does not include mopeds in the restriction. Therefore, mopeds are allowed unless another rule restricts them."
+  },
+  {
+    "question": "43. These two signs indicate the same meaning. Is this correct?",
+    "image": "slash_arrow_right.png",
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "The circular sign indicates the end of a restriction, while the arrow plate only shows a direction or supplementary instruction. They do not have the same meaning."
+  },
+  {
+    "question": "44. If a police officer’s hand signals conflict with a traffic light, the traffic light takes priority. Is this correct?",
     "image": null,
     "choices": ["True", "False"],
     "answer": "False",
-    "explanation": "Drivers are not always required to wait behind a stopped bus. They may pass carefully if it is safe and permitted."
+    "explanation": "Police officer instructions always take priority over traffic lights and signs. Drivers must follow the officer’s signals first."
   },
   {
-    "question": "36. When approaching a person traveling in a wheelchair, a driver slows down or stops to ensure safety. Is this correct?",
+    "question": "45. A learner driver must display this sign at the designated positions on the front and rear of the vehicle while practicing. Is this correct?",
+    "image": "karimen.jpg",
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Learner drivers are legally required to display the sign clearly on both the front and rear. This alerts other drivers and ensures safety."
+  },
+  {
+    "question": "46. When passing a railroad crossing, you should check traffic ahead and oncoming traffic to avoid stopping on the tracks. Is this correct?",
     "image": null,
     "choices": ["True", "False"],
     "answer": "True",
-    "explanation": "Wheelchair users are vulnerable road users. Drivers must slow down or stop to avoid danger."
+    "explanation": "Drivers must ensure there is enough space beyond the crossing before entering. Stopping on tracks is extremely dangerous and prohibited."
   },
   {
-    "question": "37. A driver sees a police officer giving a hand signal as shown and believes it indicates a red light for the direction shown by the arrow. Is this correct?",
+    "question": "47. This police hand signal means a red light (stop) for the traffic indicated by the arrow. Is this correct?",
     "image": "police_stop_hand_signal.jpg",
     "choices": ["True", "False"],
     "answer": "True",
-    "explanation": "Police signals may override traffic lights and can indicate stop (red) depending on direction. Drivers must follow the officer’s signal."
+    "explanation": "When a police officer raises both arms vertically, traffic approaching from certain directions must stop. It functions like a red signal for those directions."
   },
   {
-    "question": "38. A driver sees this “No Entry” sign and understands that vehicles are prohibited from entering that road. Is this correct?",
+    "question": "48. When approaching an intersection and the light turns yellow, you may proceed if stopping safely before the stop line is not possible. Is this correct?",
     "image": null,
     "choices": ["True", "False"],
     "answer": "True",
-    "explanation": "This sign clearly indicates that entry is not allowed for vehicles."
+    "explanation": "Yellow means “stop if you can do so safely.” If stopping suddenly would be dangerous, you may continue through the intersection."
   },
   {
-    "question": "39. A driver encounters an obstacle ahead and slows down or stops but does not give way to oncoming traffic. Is this correct?",
+    "question": "49. On a road with this sign, vehicles are prohibited from going straight or turning left. Is this correct?",
+    "image": "no_crossing_sign.jpg",
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "This sign prohibits a right turn only, not straight movement or left turns. Drivers may go straight or turn left unless otherwise restricted."
+  },
+  {
+    "question": "50. A holder of a standard driver’s license is allowed to ride a standard motorcycle. Is this correct?",
     "image": null,
     "choices": ["True", "False"],
     "answer": "False",
-    "explanation": "When facing an obstacle, drivers must yield to oncoming traffic and ensure safe passage."
-  },
-  {
-    "question": "40. A driver believes that seatbelts are not necessary in a vehicle equipped with airbags or when following a police officer’s signal at an intersection. Is this correct?",
-    "image": null,
-    "choices": ["True", "False"],
-    "answer": "False",
-    "explanation": "Seatbelts must always be worn, regardless of airbags or traffic control situations."
-  },
-  {
-    "question": "41. On the road shown in the figure, a driver understands that they cannot enter the right side of the road to overtake a vehicle ahead. Is this correct?",
-    "image": "can_change.jpg",
-    "choices": ["True", "False"],
-    "answer": "False",
-    "explanation": "The statement says the driver cannot enter the right side to overtake. However, in this situation, entering the right side of the road is allowed (when safe and permitted), so the statement is incorrect."
-  },
-  {
-    "question": "42. When vehicles approach an intersection where the width of each road is the same, car B must not obstruct the path of car A. Is this correct?",
-    "image": "B_yield_A.jpg",
-    "choices": ["True", "False"],
-    "answer": "True",
-    "explanation": "At intersections of equal width, vehicles must give way to vehicles approaching from the left. Therefore, car B must yield to car A."
-  },
-  {
-    "question": "43. If an emergency vehicle approaches, you must change lanes to give way, even when you are traveling in a designated lane. Is this correct?",
-    "image": null,
-    "choices": ["True", "False"],
-    "answer": "False",
-    "explanation": "Drivers must give way to emergency vehicles, but not necessarily by changing lanes. The correct action is to move aside or stop safely, depending on the situation."
-  },
-  {
-    "question": "44. When towing a vehicle with a gross weight of 750 kg or less using a regular vehicle, a separate towing license is required in addition to the appropriate license. Is this correct?",
-    "image": null,
-    "choices": ["True", "False"],
-    "answer": "True",
-    "explanation": "Even when towing a light vehicle (750 kg or less), a towing license may be required depending on licensing conditions."
-  },
-  {
-    "question": "45. Vehicles and streetcars facing the red traffic light shown may enter the intersection by slowing down while checking for other traffic. Is this correct?",
-    "image": "red_light.jpg",
-    "choices": ["True", "False"],
-    "answer": "False",
-    "explanation": "A red traffic light means stop. Vehicles and streetcars must not enter the intersection, even if they slow down and check for safety."
-  },
-  {
-    "question": "46. This sign indicates that vehicles are prohibited from making a U-turn. Is this correct?",
-    "image": "no_U_turn.jpg",
-    "choices": ["True", "False"],
-    "answer": "True",
-    "explanation": "his is a regulatory sign that clearly prohibits U-turns."
-  },
-  {
-    "question": "47. It is not necessary to ensure safety when opening or closing a door while a passenger gets in or out of the vehicle. Is this correct?",
-    "image": null,
-    "choices": ["True", "False"],
-    "answer": "False",
-    "explanation": "Drivers must always ensure safety when passengers enter or exit the vehicle to avoid accidents."
-  },
-  {
-    "question": "48. You must not overtake or pass other vehicles within 30 meters of a crosswalk or bicycle crossing lane. Is this correct?",
-    "image": null,
-    "choices": ["True", "False"],
-    "answer": "True",
-    "explanation": "Overtaking or passing within 30 meters of a crossing is prohibited to protect pedestrians and cyclists."
-  },
-  {
-    "question": "49. When a vehicle is determined to be illegally parked and a sticker is attached, the user or driver responsible must not remove the sticker. Is this correct?",
-    "image": null,
-    "choices": ["True", "False"],
-    "answer": "True",
-    "explanation": "An illegally parked vehicle may be marked with an official sticker. The responsible person must not remove it, as it is part of enforcement procedures."
-  },
-  {
-    "question": "50. This sign indicates that only bicycles are allowed. Is this correct?",
-    "image": "bicycle.png",
-    "choices": ["True", "False"],
-    "answer": "False",
-    "explanation": "This is a warning sign, indicating the presence of bicycles or a bicycle-related area, not a restriction that limits the road to bicycles only."
+    "explanation": "A regular driver’s license does not permit riding motorcycles. A separate motorcycle license is required."
   }
 ]
