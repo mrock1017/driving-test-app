@@ -98,9 +98,9 @@ body{
 
     border-radius:28px;
 
-    padding:24px 20px;
-
     margin-bottom:22px;
+
+    overflow:hidden;
 
     box-shadow:
     0 10px 30px rgba(15,23,42,0.05);
@@ -118,12 +118,25 @@ body{
     0 14px 36px rgba(15,23,42,0.08);
 }
 
-/* 🏷 TITLES */
+/* 🏷 SECTION TITLE */
 
-h2{
+.section-title{
 
-    margin-top:0;
-    margin-bottom:18px;
+    display:flex;
+
+    align-items:center;
+    justify-content:space-between;
+
+    padding:22px 20px;
+
+    cursor:pointer;
+
+    user-select:none;
+}
+
+.section-title h2{
+
+    margin:0;
 
     font-size:20px;
 
@@ -132,6 +145,38 @@ h2{
     letter-spacing:-0.6px;
 
     color:#334155;
+}
+
+.arrow{
+
+    font-size:18px;
+
+    transition:transform 0.2s ease;
+}
+
+.card.active .arrow{
+
+    transform:rotate(180deg);
+}
+
+/* 📂 COLLAPSIBLE CONTENT */
+
+.menu-content{
+
+    max-height:0;
+
+    overflow:hidden;
+
+    transition:max-height 0.35s ease;
+
+    padding:0 20px;
+}
+
+.card.active .menu-content{
+
+    max-height:500px;
+
+    padding-bottom:22px;
 }
 
 /* 🔘 BUTTONS */
@@ -214,6 +259,20 @@ h2{
     0 8px 20px rgba(22,163,74,0.18);
 }
 
+/* ⚪ EXTRA BUTTONS */
+
+.menu-btn-light{
+
+    background:white;
+
+    color:#334155;
+
+    border:
+    1px solid #e2e8f0;
+
+    box-shadow:none;
+}
+
 /* ✨ HOVER */
 
 .menu-btn:hover{
@@ -241,12 +300,7 @@ h2{
         padding:20px 16px;
     }
 
-    .card{
-
-        padding:22px 18px;
-    }
-
-    h2{
+    .section-title h2{
 
         font-size:18px;
     }
@@ -268,78 +322,179 @@ h2{
 <body>
 
 <div class="header">
-    🚗 Driving Test App
+    🇯🇵 Japan Driving Test Master
 </div>
 
 <div class="container">
 
-    <!-- 🧠 Reviewer -->
-    <div class="card">
+    <!-- 🧠 STUDY MODE -->
+    <div class="card active">
 
-        <h2>Study Mode</h2>
+        <div class="section-title"
+             onclick="toggleMenu(this)">
 
-        <a href="/start/reviewer_karimen/reviewer_karimen"
-           class="menu-btn menu-btn-green">
-           🧠 Reviewer Karimen
-        </a>
+            <h2>🧠 Study Mode</h2>
 
-        <a href="/start/reviewer_honmen/reviewer_honmen"
-           class="menu-btn menu-btn-green">
-           🧠 Reviewer Honmen
-        </a>
+            <span class="arrow">⌄</span>
 
-    </div>
+        </div>
 
-    <!-- 📝 Karimen -->
-    <div class="card">
+        <div class="menu-content">
 
-        <h2>Karimen Mock Test</h2>
+            <a href="/start/reviewer_karimen/reviewer_karimen"
+               class="menu-btn menu-btn-green">
 
-        <a href="/start/karimen/karimen_1"
-           class="menu-btn">
-           📝 Karimen Test 1
-        </a>
+               🧠 Reviewer Karimen
 
-        <a href="/start/karimen/karimen_2"
-           class="menu-btn">
-           📝 Karimen Test 2
-        </a>
+            </a>
 
-        <a href="/start/karimen/karimen_3"
-           class="menu-btn">
-           📝 Karimen Test 3
-        </a>
+            <a href="/start/reviewer_honmen/reviewer_honmen"
+               class="menu-btn menu-btn-green">
 
-        <a href="/start/karimen/karimen_4"
-           class="menu-btn">
-           📝 Karimen Test 4
-        </a>
+               🧠 Reviewer Honmen
+
+            </a>
+
+        </div>
 
     </div>
 
-    <!-- 🏁 Honmen -->
+    <!-- 📝 KARIMEN -->
     <div class="card">
 
-        <h2>Honmen Mock Test</h2>
+        <div class="section-title"
+             onclick="toggleMenu(this)">
 
-        <a href="/start/honmen/honmen_1"
-           class="menu-btn menu-btn-secondary">
-           🏁 Honmen Test 1
-        </a>
+            <h2>📝 Karimen Mock Test</h2>
 
-        <a href="/start/honmen/honmen_2"
-           class="menu-btn menu-btn-secondary">
-           🏁 Honmen Test 2
-        </a>
+            <span class="arrow">⌄</span>
 
-        <a href="/start/honmen/honmen_3"
-           class="menu-btn menu-btn-secondary">
-           🏁 Honmen Test 3
-        </a>
+        </div>
+
+        <div class="menu-content">
+
+            <a href="/start/karimen/karimen_1"
+               class="menu-btn">
+
+               📝 Karimen Test 1
+
+            </a>
+
+            <a href="/start/karimen/karimen_2"
+               class="menu-btn">
+
+               📝 Karimen Test 2
+
+            </a>
+
+            <a href="/start/karimen/karimen_3"
+               class="menu-btn">
+
+               📝 Karimen Test 3
+
+            </a>
+
+            <a href="/start/karimen/karimen_4"
+               class="menu-btn">
+
+               📝 Karimen Test 4
+
+            </a>
+
+        </div>
+
+    </div>
+
+    <!-- 🏁 HONMEN -->
+    <div class="card">
+
+        <div class="section-title"
+             onclick="toggleMenu(this)">
+
+            <h2>🏁 Honmen Mock Test</h2>
+
+            <span class="arrow">⌄</span>
+
+        </div>
+
+        <div class="menu-content">
+
+            <a href="/start/honmen/honmen_1"
+               class="menu-btn menu-btn-secondary">
+
+               🏁 Honmen Test 1
+
+            </a>
+
+            <a href="/start/honmen/honmen_2"
+               class="menu-btn menu-btn-secondary">
+
+               🏁 Honmen Test 2
+
+            </a>
+
+            <a href="/start/honmen/honmen_3"
+               class="menu-btn menu-btn-secondary">
+
+               🏁 Honmen Test 3
+
+            </a>
+
+        </div>
+
+    </div>
+
+    <!-- ⚙️ APP INFO -->
+    <div class="card">
+
+        <div class="section-title"
+             onclick="toggleMenu(this)">
+
+            <h2>⚙️ App Information</h2>
+
+            <span class="arrow">⌄</span>
+
+        </div>
+
+        <div class="menu-content">
+
+            <a href="/privacy"
+               class="menu-btn menu-btn-light">
+
+               🔒 Privacy Policy
+
+            </a>
+
+            <a href="/terms"
+               class="menu-btn menu-btn-light">
+
+               📄 Terms of Use
+
+            </a>
+
+            <a href="/contact"
+               class="menu-btn menu-btn-light">
+
+               ✉️ Contact Us
+
+            </a>
+
+        </div>
 
     </div>
 
 </div>
+
+<script>
+
+function toggleMenu(element){
+
+    const card = element.parentElement;
+
+    card.classList.toggle("active");
+}
+
+</script>
 
 </body>
 </html>
