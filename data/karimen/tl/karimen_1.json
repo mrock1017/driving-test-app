@@ -1,0 +1,352 @@
+[
+    {
+    "question": "1. Ikaw ay nagmamaneho sa likod ng ibang sasakyan. Inilabas ng drayber ang kanyang braso pababa mula sa bintana. Ipinapahiwatig ba ng senyas na ito na ang sasakyan ay malapit nang bumagal o huminto?",
+    "image": "hands_down.jpg",
+    "choices": ["Tama", "Mali"],
+    "answer": "Tama",
+    "explanation": "Ang pababang senyas ng kamay ay ginagamit upang ipahiwatig ang pagbawas ng bilis o paghinto. Ang mga drayber sa likod ay dapat maghanda na magbawas ng bilis."
+    },
+    {
+    "question": "2. Naniniwala ang isang drayber na pinapayagan ang pag-overtake sa malapit o sa loob ng 30 metro bago ang tawiran ng pedestrian o bisikleta. Tama ba ito?",
+    "image": null,
+    "choices": ["Tama", "Mali"],
+    "answer": "Mali",
+    "explanation": "Ipinagbabawal ang pag-overtake malapit sa tawiran ng pedestrian o bisikleta (lalo na sa loob ng 30 metro) dahil mataas ang panganib na may biglang tumawid."
+    },
+    {
+    "question": "3. Ang isang sasakyang nakaharap sa traffic light na ito ay humihinto at nagmamasid sa trapiko. Tama ba ito?",
+    "image": "yellow_light.jpg",
+    "choices": ["Tama", "Mali"],
+    "answer": "Mali",
+    "explanation": "Ang dilaw na ilaw ay nangangahulugang “huminto kung ligtas gawin,” hindi lamang “huminto at magmasid.”"
+    },
+    {
+    "question": "4. Kapag nagmamaneho malapit sa school bus na huminto upang magsakay o magbaba ng mga bata, ang isang drayber ay bumabagal at tinitiyak ang kaligtasan. Tama ba ito?",
+    "image": null,
+    "choices": ["Tama", "Mali"],
+    "answer": "Tama",
+    "explanation": "Dapat bumagal at maging maingat ang mga drayber sa paligid ng nakahintong school bus dahil maaaring biglang tumawid ang mga bata."
+    },
+    {
+    "question": "5. Kapag liliko pakanan sa interseksyon na may mga directional arrow sa kalsada, sinusunod ng drayber ang mga arrow na ipinapakita. Tama ba ito?",
+    "image": "diamond.jpg",
+    "choices": ["Tama", "Mali"],
+    "answer": "Tama",
+    "explanation": "Ipinapakita ng mga arrow ang tamang direksyon ng pagliko kaya dapat itong sundin ng mga drayber upang mapanatili ang ligtas at maayos na daloy ng trapiko."
+    },
+    {
+    "question": "6. Ang isang road sign ay nagsasaad na bawal ang pag-overtake. Iniisip ng drayber na maaari pa rin siyang mag-overtake basta mabagal lamang. Tama ba ito?",
+    "image": "oikoshi_kinshi.jpg",
+    "choices": ["Tama", "Mali"],
+    "answer": "Mali",
+    "explanation": "Ang senyas na bawal mag-overtake ay nagbabawal sa pagdaan sa ibang sasakyan anuman ang bilis."
+    },
+    {
+    "question": "7. Ang isang kalsada ay may speed limit na 30 km/h. Naniniwala ang drayber na hindi dapat umabot o lumampas sa 30 km/h ang bilis ng sasakyan. Tama ba ito?",
+    "image": "30.jpg",
+    "choices": ["Tama", "Mali"],
+    "answer": "Mali",
+    "explanation": "Ang speed limit na 30 km/h ay nangangahulugang hindi dapat lumampas sa 30 km/h. Pinapayagan ang eksaktong 30 km/h. Mali ang pahayag dahil kasama nito ang “30 km/h o higit pa.”"
+    },
+    {
+    "question": "8. Napansin ng isang drayber na pula ang traffic light para sa kasalubong na kalsada. Nauunawaan niya na hindi nito awtomatikong ibig sabihin na berde ang kanyang signal. Tama ba ito?",
+    "image": null,
+    "choices": ["Tama", "Mali"],
+    "answer": "Tama",
+    "explanation": "Kahit pula ang ilaw para sa kasalubong na kalsada, maaaring pula, dilaw, o ibang phase ang iyong signal depende sa direksyon o pedestrian crossing."
+    },
+    {
+    "question": "9. Nakakita ang isang drayber ng asul na triangular sign na may simbolo ng bisikleta at iniisip niyang ang ibig sabihin nito ay para lamang sa bisikleta ang kalsadang iyon. Tama ba ito?",
+    "image": "bicycle.png",
+    "choices": ["Tama", "Mali"],
+    "answer": "Mali",
+    "explanation": "Ang simbolo ng bisikleta ay hindi palaging nangangahulugang “bisikleta lamang”—nakadepende ang eksaktong kahulugan nito sa uri ng senyas."
+    },
+    {
+    "question": "10. Nakita ng isang drayber ang road marking na ipinapakita at nauunawaan niyang parehong bawal ang pagparada at paghinto sa lugar na iyon. Tama ba ito?",
+    "image": "No_Parking.jpg",
+    "choices": ["Tama", "Mali"],
+    "answer": "Tama",
+    "explanation": "Ang ganitong road marking ay nagpapahiwatig na parehong ipinagbabawal ang paghinto at pagparada, kaya hindi dapat huminto o magparada ang mga drayber sa lugar na iyon."
+    },
+    {
+    "question": "11. Habang nagsasanay magmaneho gamit ang learner’s permit, ang drayber ay naglalagay ng beginner’s mark sa harap at likod ng sasakyan. Tama ba ito?",
+    "image": null,
+    "choices": ["Tama", "Mali"],
+    "answer": "Tama",
+    "explanation": "Ang mga learner driver ay kailangang magpakita ng beginner’s mark sa harap at likod upang madaling makilala ng ibang gumagamit ng kalsada."
+    },
+    {
+    "question": "12. Lumalapit ang isang drayber sa kalsadang may senyas na “徐行” (mabagal na takbo) at ibinababa ang bilis sa napakabagal na antas upang makahinto agad kung kinakailangan. Tama ba ito?",
+    "image": "yokei.jpg",
+    "choices": ["Tama", "Mali"],
+    "answer": "Tama",
+    "explanation": "Ang “徐行” ay nangangahulugang pagmamaneho sa napakabagal na bilis upang agad na makahinto kapag kinakailangan. Hindi sapat ang bahagyang pagbawas lamang ng bilis."
+    },
+    {
+    "question": "13. Ang isang drayber na may regular na lisensya nang wala pang isang taon ay naglalagay ng “仮免許 練習中” (learner’s permit) sign sa kanyang sasakyan. Tama ba ito?",
+    "image": "karimen.jpg",
+    "choices": ["Tama", "Mali"],
+    "answer": "Mali",
+    "explanation": "Ang “仮免許 練習中” sign ay para lamang sa mga may learner’s permit, hindi para sa may regular na lisensya na. Ang bagong lisensyadong drayber ay dapat gumamit ng beginner’s mark (初心者マーク)."
+    },
+    {
+    "question": "14. Ipinagbabawal ang pagparada at paghinto sa mga sumusunod na lugar. Naniniwala ang isang drayber na palaging naaangkop ang patakarang ito kahit kinakailangan ang paghinto ayon sa batas. Tama ba ito?",
+    "image": "prohibited.jpg",
+    "choices": ["Tama", "Mali"],
+    "answer": "Mali",
+    "explanation": "May mga pagbubukod. Kung kinakailangan ang paghinto ayon sa batas (halimbawa, pagsunod sa signal o pag-iwas sa panganib), hindi naaangkop ang pagbabawal."
+    },
+    {
+    "question": "15. Ang isang taong may lisensya para sa moped ay naniniwalang maaari siyang magmaneho ng parehong moped at light-duty special vehicle. Tama ba ito?",
+    "image": null,
+    "choices": ["Tama", "Mali"],
+    "answer": "Mali",
+    "explanation": "Ang lisensya para sa moped ay nagpapahintulot lamang sa paggamit ng moped, hindi ng light-duty special vehicle. Ang bawat uri ng sasakyan ay nangangailangan ng tamang lisensya."
+    },
+    {
+    "question": "16. Ang isang drayber ay bumibiyahe sa lane B sa kalsadang may ipinakitang marking at lumilipat papunta sa lane A. Pinapayagan ba ito?",
+    "image": "cannot_change.jpg",
+    "choices": ["Tama", "Mali"],
+    "answer": "Mali",
+    "explanation": "Maaaring limitahan ng road markings ang paglipat ng lane depende sa uri ng linya. Sa kasong ito, ipinapakita ng marking na hindi pinapayagan ang paglipat mula B papuntang A."
+    },
+    {
+    "question": "17. May paparating na emergency vehicle habang ikaw ay nagmamaneho sa isang designated lane. Ikaw ay tumabi o nagpalit ng lane upang makadaan ito. Tama ba ito?",
+    "image": null,
+    "choices": ["Tama", "Mali"],
+    "answer": "Tama",
+    "explanation": "Dapat magbigay-daan ang mga drayber sa mga emergency vehicle kahit nasa designated lane sila. Kailangang tumabi o huminto upang makadaan ito nang ligtas."
+    },
+    {
+    "question": "18. Nakakita ka ng road sign na nagpapakita ng parking restriction mula 8 hanggang 20. Naniniwala kang pinapayagan ang pagparada sa oras na iyon. Tama ba ito?",
+    "image": "time_restriction.jpg",
+    "choices": ["Tama", "Mali"],
+    "answer": "Mali",
+    "explanation": "Ang senyas na ito ay nangangahulugang bawal ang pagparada sa ipinakitang oras (8:00–20:00). Pinapayagan lamang ang pagparada sa labas ng mga oras na iyon."
+    },
+    {
+    "question": "19. Lumalapit ka sa interseksyon na mahina ang visibility ngunit may gumaganang traffic signal. Naniniwala kang kailangan mong palaging magpatakbo nang mabagal sa sitwasyong ito. Tama ba ito?",
+    "image": null,
+    "choices": ["Tama", "Mali"],
+    "answer": "Mali",
+    "explanation": "Kung gumagana ang traffic signal, dapat sundin ito. Ang patakaran sa mabagal na pagdaan sa interseksyong mahina ang visibility ay karaniwang naaangkop lamang kapag walang signal."
+    },
+    {
+    "question": "20. Nakakita ka ng bilog na speed limit sign na may “50” at road marking na may “50” na nakapinta sa kalsada. Nauunawaan mo na pareho silang nagpapahiwatig ng parehong speed limit. Tama ba ito?",
+    "image": "50.jpg",
+    "choices": ["Tama", "Mali"],
+    "answer": "Tama",
+    "explanation": "Parehong ipinapakita ng traffic sign at road marking ang parehong speed limit. Ang road markings ay nagpapatibay sa kahulugan ng traffic signs."
+    },
+    {
+    "question": "21. Habang nagmamaneho ng automatic na sasakyan, biglang madiing inapakan ng drayber ang accelerator pedal kaya mabilis na bumilis ang sasakyan. Nagdudulot ba ito ng biglaang pag-arangkada?",
+    "image": null,
+    "choices": ["Tama", "Mali"],
+    "answer": "Tama",
+    "explanation": "Ang biglaang pag-apak sa accelerator ng automatic na sasakyan ay maaaring magdulot ng mabilis na pagbilis na maaaring maging mapanganib kung hindi makokontrol nang maayos."
+    },
+    {
+    "question": "22. Sa interseksyong magkapareho ang lapad ng mga kalsada, ang sasakyang A ay nanggagaling sa kanan at ang sasakyang B ay nanggagaling sa kaliwa. Dumaan ang sasakyang A nang hindi nagbibigay-daan sa sasakyang B. Tama ba ito?",
+    "image": "hidari_B.jpg",
+    "choices": ["Tama", "Mali"],
+    "answer": "Mali",
+    "explanation": "Sa mga interseksyong walang signal at magkapareho ang lapad ng kalsada, dapat magbigay-priyoridad sa sasakyang nanggagaling sa kaliwa. Hindi dapat harangan ng sasakyang A ang sasakyang B."
+    },
+    {
+    "question": "23. Lumalapit ang isang drayber sa nakahintong school bus at matapos tiyakin ang kaligtasan ay dumaan nang hindi bumabagal. Pinapayagan ba ito?",
+    "image": null,
+    "choices": ["Tama", "Mali"],
+    "answer": "Mali",
+    "explanation": "Dapat bumagal ang mga drayber kapag dumadaan sa nakahintong school bus kahit sa tingin nila ay ligtas. Maaaring biglang tumawid ang mga bata."
+    },
+    {
+    "question": "24. Nakakita ka ng senyas na nagpapakita ng kaliwang pagliko. Naniniwala kang maaari kang lumiko pakaliwa sa interseksyon anuman ang traffic light. Tama ba ito?",
+    "image": "turn_left.jpg",
+    "choices": ["Tama", "Mali"],
+    "answer": "Mali",
+    "explanation": "Ang senyas ay nagpapakita lamang ng direksyon, hindi pahintulot na balewalain ang traffic signal. Dapat pa ring sundin ng mga drayber ang traffic light."
+    },
+    {
+    "question": "25. Iniiwasan ng isang drayber ang pag-overtake o pagdaan sa ibang sasakyan sa loob ng 30 metro bago ang tawiran ng pedestrian o bicycle crossing lane. Tama ba ito?",
+    "image": null,
+    "choices": ["Tama", "Mali"],
+    "answer": "Tama",
+    "explanation": "Ipinagbabawal ang pag-overtake o pagdaan sa loob ng 30 metro bago ang tawiran ng pedestrian o bisikleta dahil sa panganib sa kaligtasan."
+    },
+    {
+    "question": "26. Ang isang kalsada ay may lane na may marka at senyas na para lamang sa bus. Nauunawaan ng drayber na ang ibang sasakyan, maliban sa moped, light-duty vehicle, at light-weight vehicle, ay hindi maaaring gumamit ng lane na ito. Tama ba ito?",
+    "image": "bus_lane.jpg",
+    "choices": ["Tama", "Mali"],
+    "answer": "Tama",
+    "explanation": "Ang bus-only lane ay para lamang sa partikular na uri ng sasakyan. Tanging ang mga nakalistang pagbubukod lamang ang maaaring gumamit nito; ipinagbabawal ang ibang sasakyan."
+    },
+    {
+    "question": "27. Sa kalsadang may stop sign, humihinto ang drayber bago ang stop line. Kung walang stop line, humihinto siya bago ang interseksyon. Tama ba ito?",
+    "image": "stop_sign.jpg",
+    "choices": ["Tama", "Mali"],
+    "answer": "Tama",
+    "explanation": "Dapat huminto ang mga drayber sa nakatalagang stop line. Kung walang linya, dapat huminto bago pumasok sa interseksyon upang tiyakin ang kaligtasan."
+    },
+    {
+    "question": "28. Lumalapit ang isang drayber sa pedestrian o bicycle crossing at bumabagal lamang kapag may taong naroon, ngunit hindi bumabagal kung walang nakikitang tao. Tama ba ito?",
+    "image": null,
+    "choices": ["Tama", "Mali"],
+    "answer": "Mali",
+    "explanation": "Dapat maging maingat at bumagal ang mga drayber malapit sa tawiran kahit walang nakikitang pedestrian o siklista dahil maaaring may biglang lumitaw."
+    },
+    {
+    "question": "29. Sa interseksyong may lane markings tulad ng ipinapakita, ang drayber sa lane A ay hindi nagpalit ng lane kaya hindi siya maaaring lumiko pakanan mula sa lane na iyon. Tama ba ito?",
+    "image": "change_lane.jpg",
+    "choices": ["Tama", "Mali"],
+    "answer": "Tama",
+    "explanation": "Ipinapakita ng lane markings ang pinapayagang direksyon. Kung hindi pinapayagan ng lane A ang pagliko pakanan, hindi dapat lumiko pakanan mula rito ang drayber."
+    },
+    {
+    "question": "30. Kapag dumaraan sa taong naka-wheelchair, bumubusina ang drayber upang bigyan sila ng babala at nagpapatuloy sa pagdaan. Maituturing ba itong ligtas na asal?",
+    "image": null,
+    "choices": ["Tama", "Mali"],
+    "answer": "Mali",
+    "explanation": "Ang paggamit ng busina malapit sa mga mahihinang gumagamit ng kalsada ay maaaring makagulat at magdulot ng panganib. Dapat bumagal, magbigay ng sapat na espasyo, at maingat na dumaan ang mga drayber."
+    },
+    {
+    "question": "31. Nakita ng isang drayber ang road marking na ipinapakita at nauunawaan niyang ito ay nangangahulugang “no entry zone.” Tama ba ito?",
+    "image": "no_entry_zone.jpg",
+    "choices": ["Tama", "Mali"],
+    "answer": "Tama",
+    "explanation": "Ang ganitong uri ng marking ay nagpapahiwatig ng lugar na hindi maaaring pasukin ng sasakyan upang gabayan ang daloy ng trapiko at maiwasan ang panganib."
+    },
+    {
+    "question": "32. Ikaw ay nagmamaneho sa kalsadang walang sidewalk o designated pedestrian zone. Iniiwasan mong pumasok sa side strip area (humigit-kumulang 0.5 metro mula sa gilid ng kalsada). Tama ba ito?",
+    "image": null,
+    "choices": ["Tama", "Mali"],
+    "answer": "Tama",
+    "explanation": "Hindi dapat gamitin ng mga drayber ang side strip maliban sa mga espesyal na sitwasyon tulad ng pag-iwas sa panganib. Karaniwang nakalaan ang lugar na ito para sa mga pedestrian."
+    },
+    {
+    "question": "33. Sa lugar na may “No Overtaking” sign, nauunawaan ng drayber na ipinagbabawal ang pag-overtake gamit ang kasalubong na lane, ngunit maaari pa ring dumaan kung hindi papasok sa kanang bahagi ng kalsada. Tama ba ito?",
+    "image": "no_overtaking.jpg",
+    "choices": ["Tama", "Mali"],
+    "answer": "Tama",
+    "explanation": "Ipinagbabawal ng “No Overtaking” ang paggamit ng kasalubong na lane para mag-overtake. Gayunpaman, maaaring pahintulutan ang pagdaan kung hindi tatawid sa opposing lane at ligtas itong gawin."
+    },
+    {
+    "question": "34. Pinapayagan ng isang drayber ang pasahero na sumakay o bumaba nang hindi tinitingnan ang paligid na trapiko. Katanggap-tanggap ba ito?",
+    "image": null,
+    "choices": ["Tama", "Mali"],
+    "answer": "Mali",
+    "explanation": "Dapat palaging suriin ng mga drayber ang paligid na trapiko upang matiyak na ligtas bago payagang sumakay o bumaba ang mga pasahero."
+    },
+    {
+    "question": "35. Sa lugar na may “No Right Turn” at “No U-turn” signs, iniiwasan ng drayber ang parehong pagliko at pag-U-turn. Tama ba ito?",
+    "image": "no_right_and_U_turn.jpg",
+    "choices": ["Tama", "Mali"],
+    "answer": "Tama",
+    "explanation": "Malinaw na ipinagbabawal ng mga regulatory sign na ito ang ipinakitang galaw. Dapat itong sundin ng mga drayber."
+    },
+    {
+    "question": "36. Kapag nagpaparada ng automatic transmission vehicle sa paakyat na daan, inilalagay ng drayber ang gear sa “L” o “1.” Tama ba ito?",
+    "image": null,
+    "choices": ["Tama", "Mali"],
+    "answer": "Mali",
+    "explanation": "Para sa automatic vehicle, ang tamang posisyon kapag nagpaparada ay karaniwang “P” (Park) kasama ang tamang paggamit ng parking brake. Hindi angkop ang “L” o “1” para sa pagparada."
+    },
+    {
+    "question": "37. Sa kalsadang tulad ng ipinapakita, pumupunta ang drayber sa kanang bahagi ng kalsada upang mag-overtake ng sasakyang nasa unahan. Pinapayagan ba ito?",
+    "image": "white_centerline.jpg",
+    "choices": ["Tama", "Mali"],
+    "answer": "Mali",
+    "explanation": "Hindi dapat gamitin ng mga drayber ang kanang bahagi ng kalsada para mag-overtake maliban kung malinaw itong pinapayagan at ligtas. Sa sitwasyong ito, hindi ito pinapayagan."
+    },
+    {
+    "question": "38. Kapag dumaraan sa nakaparadang sasakyan, nagpapanatili ng ligtas na distansya o bumabagal ang drayber dahil maaaring biglang bumukas ang pinto. Tama ba ito?",
+    "image": null,
+    "choices": ["Tama", "Mali"],
+    "answer": "Tama",
+    "explanation": "Maaaring maging mapanganib ang mga nakaparadang sasakyan dahil sa biglaang pagbukas ng pinto. Dapat bumagal at magbigay ng sapat na distansya ang mga drayber."
+    },
+    {
+    "question": "39. Nakita ng isang drayber ang road marking na ito at naniniwala siyang nangangahulugan ito na dapat siyang magbigay-daan sa mga sasakyang nasa unahan. Tama ba ito?",
+    "image": "diamond_markings.jpg",
+    "choices": ["Tama", "Mali"],
+    "answer": "Mali",
+    "explanation": "Ang marking na ito ay hindi nangangahulugang “magbigay-daan sa mga sasakyang nasa unahan.” Ito ay ginagamit bilang warning o guide marking, hindi direktang utos na magbigay-daan."
+    },
+    {
+    "question": "40. Kapag lumalapit sa school bus na huminto upang magsakay o magbaba ng mga bata, bumabagal ang drayber at maingat na tumitingin para sa kaligtasan. Tama ba ito?",
+    "image": null,
+    "choices": ["Tama", "Mali"],
+    "answer": "Tama",
+    "explanation": "Dapat bumagal at maging maingat ang mga drayber dahil maaaring biglang tumawid ang mga bata sa kalsada."
+    },
+    {
+    "question": "41. Nakita ng isang drayber ang senyas na ito at iniisip niyang nangangahulugan ito na bawal ang pagparada ng parehong kotse at motorsiklo. Tama ba ito?",
+    "image": "car_motorcycle_no_entry.jpg",
+    "choices": ["Tama", "Mali"],
+    "answer": "Mali",
+    "explanation": "Ang senyas na ito ay hindi simpleng nangangahulugang “bawal magparada.” Ipinapakita nito ang pagbabawal sa pagpasok o paggamit ng sasakyan, hindi lamang tungkol sa pagparada."
+    },
+    {
+    "question": "42. Sa isang one-way road, ginagamit ng drayber ang kanang bahagi ng kalsada. Pinapayagan ba ito?",
+    "image": null,
+    "choices": ["Tama", "Mali"],
+    "answer": "Tama",
+    "explanation": "Sa one-way road, maaaring gamitin ng mga sasakyan ang alinmang bahagi ng kalsada maliban kung may ibang restriksyon."
+    },
+    {
+    "question": "43. Ang isang pulis ay nagbibigay ng hand signal tulad ng ipinapakita. Naniniwala ang isang drayber na ang senyas na ito ay nangangahulugang pulang ilaw para sa direksyong ipinapakita ng arrow. Tama ba ito?",
+    "image": "police_hand_signal.jpg",
+    "choices": ["Tama", "Mali"],
+    "answer": "Mali",
+    "explanation": "Ang hand signals ng pulis ay dapat unawain base sa posisyon at galaw ng pulis. Ang senyas na ito ay hindi katumbas ng pulang ilaw para sa ipinakitang direksyon."
+    },
+    {
+    "question": "44. Kapag liliko pakanan sa interseksyon, iniiwasan ng drayber na harangan ang mga kasalubong na sasakyang dumidiretso o liliko pakaliwa. Tama ba ito?",
+    "image": null,
+    "choices": ["Tama", "Mali"],
+    "answer": "Tama",
+    "explanation": "Kapag liliko pakanan, dapat magbigay-daan ang mga drayber sa kasalubong na trapikong dumidiretso o liliko pakaliwa upang matiyak ang ligtas na pagdaan."
+    },
+    {
+    "question": "45. Nakita ng isang drayber ang road sign na ito at iniisip niyang nangangahulugan ito na maaari lamang siyang dumiretso. Tama ba ito?",
+    "image": "big_arrow_road_sign.jpg",
+    "choices": ["Tama", "Mali"],
+    "answer": "Mali",
+    "explanation": "Ang senyas na ito ay hindi mahigpit na nangangahulugang “diretso lamang.” Ipinapakita nito ang layout o gabay sa direksyon ng kalsada, hindi limitasyon sa paggalaw."
+    },
+    {
+    "question": "46. Tumatawid ang isang drayber sa sidewalk area upang pumasok o lumabas sa isang lugar kahit walang pedestrian. Pinapayagan ba ito?",
+    "image": null,
+    "choices": ["Tama", "Mali"],
+    "answer": "Tama",
+    "explanation": "Maaaring tumawid ang mga sasakyan sa sidewalk kapag pumapasok o lumalabas sa isang property, ngunit dapat palaging magbigay-daan sa pedestrian at mag-ingat."
+    },
+    {
+    "question": "47. Ang mga sasakyang nasa unahan ay bumabagal o humihinto malapit sa interseksyon. Sumisingit ang isang drayber sa unahan nila upang maunang dumaan. Pinapayagan ba ito?",
+    "image": "8_20_X_sign.jpg",
+    "choices": ["Tama", "Mali"],
+    "answer": "Mali",
+    "explanation": "Mapanganib at hindi pinapayagan ang pagsingit sa harap ng mga nakahinto o bumabagal na sasakyan. Dapat sundin ng mga drayber ang tamang pagkakasunod-sunod at ligtas na pagmamaneho."
+    },
+    {
+    "question": "48. Sa interseksyon, isang pulis ang nagdidirekta ng trapiko na parehong nakataas nang patayo ang mga braso. Naniniwala ang drayber na ang senyas na ito ay may parehong kahulugan ng dilaw na ilaw para sa trapikong gumagalaw nang parallel sa pulis. Tama ba ito?",
+    "image": null,
+    "choices": ["Tama", "Mali"],
+    "answer": "Mali",
+    "explanation": "Ang hand signals ng pulis ay hindi palaging direktang katumbas ng kahulugan ng traffic light. Ang partikular na senyas na ito ay hindi nangangahulugang dilaw na ilaw para sa direksyong iyon."
+    },
+    {
+    "question": "49. Kapag gumagamit ng automatic transmission vehicle, ginagamit ng drayber ang drive position upang umabante at reverse position upang umatras. Tama ba ito?",
+    "image": null,
+    "choices": ["Tama", "Mali"],
+    "answer": "Tama",
+    "explanation": "Ginagamit ng automatic vehicle ang “D” (Drive) para umabante at “R” (Reverse) para umatras. Ito ang tamang paggamit."
+    },
+    {
+    "question": "50. Ang isang rider ay nagpapanatili ng tamang postura habang nagpapatakbo ng two-wheeled vehicle upang mapanatili ang balanse at kontrol habang nagpepreno. Tama ba ito?",
+    "image": null,
+    "choices": ["Tama", "Mali"],
+    "answer": "Tama",
+    "explanation": "Ang tamang postura ay nakatutulong upang mapanatili ang balanse at maiwasang matapon pasulong ang rider kapag biglang nagpreno."
+    }
+]
