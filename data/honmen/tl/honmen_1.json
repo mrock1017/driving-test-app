@@ -1,0 +1,1545 @@
+[
+{
+"question": "1. Habang naghahanda na lumiko pakaliwa sa interseksyon, napansin kong may bisikletang mabilis na papalapit mula sa likod sa kaliwang bahagi. Dahil inisip kong maaaring maging mapanganib, bumusina ako at agad na lumiko pakaliwa sa unahan ng bisikleta.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Mali",
+"explanation": "Hindi dapat pilitin ng mga drayber ang pagliko pakaliwa sa harap ng papalapit na bisikleta kahit pa bumusina sila. Mas ligtas na bumagal o maghintay hanggang makalampas nang ligtas ang bisikleta bago lumiko."
+},
+{
+"question": "2. Sa interseksyon kung saan nakapaskil ang sumusunod na sign, maaaring maingat na magpatuloy ang mga drayber sa ipinakitang direksyon matapos suriin ang mga pedestrian at nakapaligid na trapiko kahit pula o dilaw ang signal.",
+"image": "turn_left.jpg",
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Ang ilang traffic signs ay nagpapahintulot ng paggalaw sa tinukoy na direksyon kahit taliwas sa normal na signal. Gayunpaman, kailangan pa ring unahin ng mga drayber ang kaligtasan at magbigay-daan sa mga pedestrian at ibang gumagamit ng kalsada."
+},
+{
+"question": "3. Ang traffic sign na ipinapakita sa ibaba ay nangangahulugang hindi kinakailangang magsagawa ng two-stage right turn ang ordinaryong moped sa interseksyon.",
+"image": "no_moped.jpg",
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Ipinapakita ng sign na ito ang eksepsyon sa karaniwang two-stage right turn rule para sa ordinaryong moped. Maaaring magsagawa ng normal na pagliko pakanan ang rider habang maingat pa ring sinusuri ang kondisyon ng trapiko."
+},
+{
+"question": "4. Ang taong nagtutulak ng motorsiklo habang nakapatay ang makina ay karaniwang itinuturing na pedestrian ayon sa traffic regulations.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Kapag itinutulak lamang ang motorsiklo sa halip na normal na minamaneho, ang taong humahawak dito ay karaniwang tinatratong katulad ng pedestrian. Dapat nilang sundin ang mga patakarang naaangkop sa pedestrian kung kinakailangan."
+},
+{
+"question": "5. Kung malambot o parang lumulubog ang brake pedal kapag madiing inapakan, nangangahulugan ito na napakahusay ng paggana ng braking system.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Mali",
+"explanation": "Ang malambot o parang lumulubog na brake pedal ay maaaring senyales ng hangin sa brake lines o ibang problema sa preno. Dapat agad na ipa-inspeksyon ang sasakyan upang matiyak ang ligtas na paggamit."
+},
+{
+"question": "6. Kung mawalan ng preno habang pababa ng matarik na kalsada at hindi mapahinto ng engine braking o parking brake ang sasakyan, maaaring makatulong ang paggamit ng graba sa gilid ng kalsada, harang, o kanal upang pabagalin ang sasakyan at maiwasan ang mas malubhang aksidente.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Sa emergency na brake failure, ang pagpapabagal gamit ang ligtas na hadlang sa gilid ng kalsada ay maaaring makatulong upang mabawasan ang tindi ng aksidente. Ang pagprotekta sa buhay ng tao ang pinakamahalagang prayoridad."
+},
+{
+"question": "7. Ang mga kalsadang eksklusibong nakalaan para sa pedestrian ay maaaring malayang gamitin ng light special vehicles, mopeds, at compact vehicles anumang oras.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Mali",
+"explanation": "Karaniwang ipinagbabawal ang pagpasok ng sasakyan sa pedestrian-only roads maliban kung may espesyal na pahintulot o partikular na eksepsyon. Dapat maingat na sundin ng mga drayber ang mga nakapaskil na restriksyon."
+},
+{
+"question": "8. Kapag nagmamaneho ng motorsiklo, dapat ilagay ang mga paa sa foot pegs habang nakaturo palabas ang mga daliri sa paa.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Mali",
+"explanation": "Dapat nakaturo paloob o diretso ang mga daliri sa paa ng motorcycle rider upang mapanatili ang tamang balanse at kontrol. Ang pagturo palabas ng mga daliri ay maaaring magpataas ng panganib na tumama ang paa sa kalsada o mga hadlang."
+},
+{
+"question": "9. Dapat magsuot ang motorcycle riders ng damit na nakababawas sa nakalantad na bahagi ng katawan kahit mainit ang panahon.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Nakakatulong ang protective clothing upang mabawasan ang pinsala kapag naaksidente. Kahit tag-init, dapat magsuot ang rider ng gear na nagpoprotekta sa mga braso, binti, at ibang nakalantad na bahagi ng katawan."
+},
+{
+"question": "10. Dahil mahalagang dokumento ang vehicle inspection certificate, katanggap-tanggap na photocopy lamang ang itago sa loob ng sasakyan habang ligtas na nakaimbak ang orihinal sa bahay.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Mali",
+"explanation": "Dapat dalhin ang orihinal na vehicle inspection certificate sa loob ng sasakyan habang nagmamaneho. Hindi sapat ayon sa batas ang photocopy lamang."
+},
+{
+"question": "11. Ang traffic sign na ito ay nangangahulugang ipinagbabawal ang pagpasok ng sasakyan mula sa direksyong ito, bagaman maaaring pumasok ang sasakyan mula sa ibang pasukan lampas sa sign.",
+"image": "no_entry.jpg",
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Ipinagbabawal lamang ng “Do Not Enter” sign ang pagpasok mula sa direksyong nakaharap dito. Maaari pa ring legal na makapasok ang mga sasakyan mula sa ibang pinapayagang direksyon."
+},
+{
+"question": "12. Ipinagbabawal ang paghinto o pagparada sa loob ng 5 metro mula sa gilid ng bicycle crossing area.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Hindi dapat huminto o magparada ang mga sasakyan nang masyadong malapit sa bicycle crossing dahil maaari nitong hadlangan ang visibility at magdulot ng panganib sa mga siklista at ibang gumagamit ng kalsada."
+},
+{
+"question": "13. Sa kaliwang bahagi ng safety zone at sa loob ng 10 metro mula sa gilid nito, ipinagbabawal ang pagparada ngunit pinapayagan ang pansamantalang paghinto.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Mali",
+"explanation": "Parehong ipinagbabawal ang pagparada at paghinto malapit sa safety zones sa itinakdang distansya. Nakakatulong ang mga restriksyong ito upang maprotektahan ang mga pedestrian at mapanatili ang ligtas na visibility sa paligid ng lugar."
+},
+{
+"question": "14. Kapag papalapit sa sumusunod na warning sign, kinakailangang bumusina ang mga drayber habang nagpapatuloy sa lugar.",
+"image": "winding_road.jpg",
+"choices": ["Tama", "Mali"],
+"answer": "Mali",
+"explanation": "Ang ganitong warning sign ay nagbibigay lamang ng babala tungkol sa kondisyon ng kalsada sa unahan, tulad ng mga kurbada o paikot-ikot na daan. Hindi kinakailangang bumusina maliban kung may hiwalay na horn sign o emergency situation."
+},
+{
+"question": "15. Kapag nagbibigay-daan sa emergency vehicle, dapat palaging lumipat ang mga drayber sa kaliwang bahagi ng kalsada, kabilang na sa one-way streets.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Mali",
+"explanation": "Sa one-way roads, maaaring lumipat ang mga sasakyan sa alinmang bahagi kung kinakailangan upang ligtas na makadaan ang emergency vehicle. Dapat piliin ng mga drayber ang pinakaligtas na posisyon depende sa kondisyon ng kalsada."
+},
+{
+"question": "16. Ang taong may ordinary vehicle license ay pinapayagang magmaneho ng light special vehicles at standard mopeds bukod sa regular na sasakyan.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "False",
+"explanation": "Ang regular na driver’s license sa Japan ay karaniwang nagpapahintulot sa may hawak nito na magmaneho ng ordinaryong sasakyan pati na rin ng ilang mas maliliit na uri ng sasakyan, kabilang ang general mopeds at light special-purpose vehicles."
+},
+{
+"question": "17. Kapag may ganitong road marking, maaaring malayang magpalit ng lane ang mga drayber patawid sa center line ayon sa direksyong ipinapakita ng arrow.",
+"image": "cannot_change_to_center.jpg",
+"choices": ["Tama", "Mali"],
+"answer": "Mali",
+"explanation": "Karaniwang ipinagbabawal ang pagtawid sa solid center line kahit pa tila ipinapakita ng larawan ang paggalaw patawid ng lane. Dapat sundin ng mga drayber ang lane markings at iwasang tawirin ang mga linyang naglilimita sa lane changes."
+},
+{
+"question": "18. Kinakailangang gumamit ang motorcycle riders ng helmet na may aprubadong safety standards tulad ng PS(C) mark o JIS certification mark.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Ang mga aprubadong helmet ay dinisenyo upang matugunan ang safety standards na nakakatulong mabawasan ang pinsala sa ulo kapag naaksidente. Dapat palaging gumamit ang riders ng tamang certified protective gear."
+},
+{
+"question": "19. Ang pananatiling nakahinto sa no-parking area nang humigit-kumulang limang minuto habang naghihintay sa loob ng sasakyan para sa kaibigan ay maaari pa ring maituring na parking violation.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Kahit manatili ang drayber sa loob ng sasakyan, ang paghihintay sa tao sa ipinagbabawal na lugar ay maaaring maituring na pagparada. Nakatuon ang traffic rules sa layunin at haba ng paghinto."
+},
+{
+"question": "20. Dapat ayusin ang driver’s seat upang tuluyang tuwid ang binti ng drayber kapag lubusang inapakan ang clutch pedal.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Mali",
+"explanation": "Dapat bahagyang nakabaluktot pa rin ang tuhod ng drayber kapag lubusang inapakan ang clutch. Ang posisyong ito ay nagbibigay ng mas mabuting kontrol at nakababawas ng pagkapagod habang nagmamaneho."
+},
+{
+"question": "21. Ang berdeng traffic light ay hindi awtomatikong nangangahulugan ng ligtas na pagdaan, kaya dapat iwasan ng mga drayber ang pagpasok sa interseksyon, crosswalk, o railroad crossing kung maaaring maipit doon ang sasakyan dahil sa trapiko.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Dapat tiyakin ng mga drayber na may sapat na espasyo sa unahan bago magpatuloy kahit berde ang ilaw. Ang pagharang sa interseksyon o crossing ay nagdudulot ng panganib at sagabal sa daloy ng trapiko."
+},
+{
+"question": "22. Kapag humihinto o nagpaparada sa kalsadang may sidewalk, inirerekomendang ilagay ang bahagi ng gulong ng sasakyan sa sidewalk upang magkaroon ng mas maraming espasyo sa kalsada.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Mali",
+"explanation": "Hindi dapat pumasok o humarang ang mga sasakyan sa sidewalk maliban kung partikular na pinapayagan. Ang sidewalks ay pangunahing nakalaan para sa paggamit at kaligtasan ng mga pedestrian."
+},
+{
+"question": "23. Para sa pagtukoy ng passenger capacity ng sasakyan, ang dalawang batang wala pang 12 taong gulang ay binibilang bilang isang adult.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Mali",
+"explanation": "Sa Japan, karaniwang tatlong batang wala pang 12 taong gulang ang binibilang bilang dalawang adult sa pagkalkula ng passenger capacity. Hindi dapat lumampas ang mga drayber sa legal seating limit."
+},
+{
+"question": "24. Habang dumaraan sa kurbada, magkaiba ang dinadaanan ng harap at likurang gulong anuman ang bilis ng sasakyan.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Dahil hindi eksaktong magkapareho ng linya ang dinaanan ng harap at likurang gulong habang lumiliko, kailangang magbigay ng sapat na espasyo ang mga drayber lalo na sa makikitid na kalsada."
+},
+{
+"question": "25. Ang padalos-dalos o walang konsiderasyong pagmamaneho ay hindi lamang nakaaabala sa ibang gumagamit ng kalsada kundi maaari ring maging direktang sanhi ng traffic accidents.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Ang hindi ligtas na pagmamaneho ay nagpapataas ng stress at kalituhan sa mga drayber at pedestrian. Pinapataas din nito ang panganib ng banggaan at mapanganib na sitwasyon sa kalsada."
+},
+{
+"question": "26. Dapat hawakan ng motorcycle rider ang handlebars habang bahagyang nakayuko pababa ang mga pulsuhan at mahigpit ngunit magaan ang pagkakahawak.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Ang tamang paghawak sa handlebars ay nakakatulong upang mapanatili ng rider ang mas magandang balanse at mas maayos na kontrol sa motorsiklo. Ang sobrang higpit na paghawak ay maaaring makabawas sa flexibility ng pagmamaniobra."
+},
+{
+"question": "27. Bago lumiko pakanan, dapat palaging ilapit ng mga drayber ang sasakyan sa gitna ng kalsada kaagad bago pumasok sa interseksyon.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Mali",
+"explanation": "Dapat iposisyon ng mga drayber ang sasakyan nang naaayon sa road markings, lane structure, at kondisyon ng trapiko. Ang hindi kinakailangang paglapit sa gitna ay maaaring magdulot ng panganib o kalituhan."
+},
+{
+"question": "28. Ang lakas ng banggaan sa konkretong pader habang tumatakbo sa 60 km/h ay halos katumbas ng pagkahulog mula sa gusaling may limang palapag.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Ang mga banggaang may mataas na bilis ay lumilikha ng napakalakas na impact force na maaaring magdulot ng malubhang pinsala o kamatayan. Ipinapakita ng paghahambing na ito ang kahalagahan ng ligtas na bilis sa pagmamaneho."
+},
+{
+"question": "29. Dapat palaging magpakita ng konsiderasyon ang mga drayber sa mga pedestrian at ibang motorista habang pinananatili ang maayos na pakikitungo sa kalsada.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Ang ligtas na daloy ng trapiko ay nakadepende sa respeto at kooperasyon ng lahat ng gumagamit ng kalsada. Ang maingat at may konsiderasyong pagmamaneho ay nakakatulong maiwasan ang aksidente at problema sa trapiko."
+},
+{
+"question": "30. Dahil mas mahina ang visibility sa gabi, maaaring mas huli mapansin ng mga drayber ang mga pedestrian o bisikleta kumpara sa daytime, kaya mas ligtas na bawasan ang bilis kapag nagmamaneho sa gabi.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Nililimitahan ng dilim ang visibility at nagpapahirap sa pagtantiya ng distansya at galaw. Ang mas mabagal na pagmamaneho sa gabi ay nagbibigay ng mas maraming oras upang makapag-react sa hindi inaasahang panganib."
+},
+{
+"question": "31. Ang sumusunod na warning sign ay nagbababala sa mga drayber tungkol sa lugar sa unahan kung saan maaaring magkaroon ng pagbagsak ng bato o landslide, kaya kinakailangan ang dagdag na pag-iingat habang nagmamaneho.",
+"image": "falling_rocks_hazzard_sign.jpg",
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Ginagamit ang warning sign na ito sa mabundok o hindi matatag na lugar kung saan maaaring bumagsak ang mga bato sa kalsada. Dapat magbawas ng bilis at manatiling alerto ang mga drayber kapag dumadaan sa ganitong lugar."
+},
+{
+"question": "32. Dahil mas malamang na mangyari ang aksidente pagkatapos ng paglubog ng araw, dapat maagang buksan ng mga drayber ang headlights upang mas madaling makita ng ibang tao ang kanilang sasakyan.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Hindi lamang tumutulong ang headlights upang makita ng drayber ang daan sa unahan kundi ginagawa rin nitong mas nakikita ang sasakyan ng mga pedestrian at ibang motorista. Ang maagang paggamit ng headlights ay nagpapabuti sa pangkalahatang kaligtasan sa kalsada."
+},
+{
+"question": "33. Bago magmaneho sa expressway, dapat maingat na suriin ng mga drayber ang fuel, engine oil, at coolant levels upang makatulong maiwasan ang aberya o aksidente habang bumibiyahe.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Ang mechanical trouble sa expressway ay maaaring maging napakapanganib dahil sa high-speed traffic. Ang tamang inspeksyon ng sasakyan ay nakababawas sa panganib ng hindi inaasahang problema habang nagmamaneho."
+},
+{
+"question": "34. Bago pumasok sa expressway, ipinapayo na kumuha ng traffic at weather information sa pamamagitan ng radio broadcasts o Japan Traffic Information Center.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Ang pagsuri nang maaga sa kondisyon ng kalsada, aksidente, o posibleng pagsasara ng daan ay nakakatulong upang makapagplano nang ligtas at maiwasan ang mapanganib o matrapik na ruta."
+},
+{
+"question": "35. Upang maging ligtas na drayber, mas mabuting magmaneho nang maingat at may kaunting pagkakamali kaysa magmadali at makagawa ng mas maraming driving errors.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Mas nakadepende ang ligtas na pagmamaneho sa tamang paghusga at maingat na operasyon kaysa sa bilis. Ang kalmado at maayos na pagmamaneho ay lubos na nakababawas sa posibilidad ng aksidente."
+},
+{
+"question": "36. Kapag dumaraan sa blind curve pakaliwa, mas ligtas na magmaneho malapit sa center line upang mas mapabuti ang pagtingin sa kasalubong na trapiko.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Mali",
+"explanation": "Dapat iwasan ng mga drayber ang paglapit nang sobra sa center line sa blind curves dahil maaaring biglang may sumulpot na kasalubong na sasakyan. Ang pagpapanatili ng ligtas na lane position ay nakakatulong maiwasan ang head-on collision."
+},
+{
+"question": "37. Ang rider na wala pang isang taon na may hawak na standard motorcycle license ay ipinagbabawal magsakay ng pasahero sa ordinaryong kalsada.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Sa Japan, kailangang matugunan ng motorcycle riders ang ilang experience requirements bago magsakay ng pasahero. Layunin ng mga patakarang ito na mabawasan ang aksidente na kinasasangkutan ng mga bagitong rider."
+},
+{
+"question": "38. Kung ma-stranded ang sasakyan sa railroad tracks, dapat agad na balaan ng drayber ang railway personnel at subukang alisin kaagad ang sasakyan mula sa crossing.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Ang tumirik na sasakyan sa train tracks ay nagdudulot ng napakapanganib na sitwasyon. Ang agarang aksyon ay maaaring makatulong maiwasan ang seryosong banggaan sa paparating na tren."
+},
+{
+"question": "39. Hindi dapat magpalit ng lane ang mga drayber kung mapipilitan nitong magpreno nang biglaan o umiwas ang mga sasakyang nasa likuran upang maiwasan ang panganib.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Ang ligtas na lane change ay nangangailangan ng sapat na espasyo at tamang timing. Ang biglaang pagpalit ng lane na nakaaabala sa nakapaligid na trapiko ay lubhang nagpapataas ng panganib ng aksidente."
+},
+{
+"question": "40. Kung may paparating na emergency vehicle habang ikaw ay malapit o nasa loob ng interseksyon, kailangan mong agad huminto eksakto sa iyong kinalalagyan.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Mali",
+"explanation": "Dapat iwasan ng mga drayber ang paghinto sa paraang makahaharang sa interseksyon. Sa halip, dapat silang ligtas na gumilid at magbigay-daan nang maayos upang makadaan ang emergency vehicle."
+},
+{
+"question": "41. Sa kalsadang may sumusunod na priority road sign, pinapayagan ang mga drayber na lampasan ang ibang sasakyan o standard moped malapit o sa loob ng interseksyon sa pamamagitan ng pagpalit ng lane.",
+"image": "big_arrow_road_sign.jpg",
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Sa priority roads, maaaring hindi pareho ang pagpapatupad ng ilang overtaking restrictions malapit sa interseksyon kumpara sa ordinaryong kalsada. Gayunpaman, kailangan pa ring tiyakin ng mga drayber na ligtas gawin ang pag-overtake."
+},
+{
+"question": "42. Pinapayagang gumamit ng expressway ang passenger vehicles habang humihila ng sirang sasakyan gamit ang lubid o cable.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Mali",
+"explanation": "Karaniwang ipinagbabawal sa expressways ang paghila ng sasakyan gamit ang lubid o cable dahil mapanganib ito sa mataas na bilis. Kinakailangan ang mas ligtas na towing methods gamit ang tamang kagamitan."
+},
+{
+"question": "43. Maaaring mag-overtake ang drayber sa pamamagitan ng bahagyang pagtawid sa center line papunta sa kasalubong na lane kung sapat ang lapad ng kalsada, malinaw ang visibility, at hindi maaapektuhan ang kasalubong na trapiko.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Mali",
+"explanation": "Kahit mukhang sapat ang visibility at lapad ng kalsada, maaaring ipinagbabawal pa rin ang pag-overtake sa pamamagitan ng pagpasok sa kasalubong na lane depende sa road markings at traffic rules. Dapat maingat na sundin ng mga drayber ang lane restrictions."
+},
+{
+"question": "44. Kapag hinihila ng tow truck ang sirang sasakyan habang nakataas ang harap o likurang gulong nito mula sa kalsada, hindi na kinakailangang may drayber sa loob ng sirang sasakyan.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Sa ganitong uri ng towing method, kontrolado ng tow truck ang paggalaw ng sirang sasakyan. Kaya karaniwang hindi na kailangan ang drayber sa loob nito."
+},
+{
+"question": "45. Ipinagbabawal ang parehong pagparada at pansamantalang paghinto sa loob ng 5 metro mula sa road construction area.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Mali",
+"explanation": "Karaniwang ipinagbabawal ang pagparada malapit sa road construction zones, ngunit maaaring pahintulutan ang pansamantalang paghinto depende sa sitwasyon at kung hindi ito nakahahadlang sa trapiko o safety operations."
+},
+{
+"question": "46. Ang medium-sized trucks ay palaging limitado sa maximum speed na 80 km/h habang nagmamaneho sa main lanes ng national expressways.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Mali",
+"explanation": "Ang speed limits para sa medium-sized trucks ay maaaring magbago depende sa road signs, kondisyon ng kalsada, at legal regulations. Dapat sundin ng mga drayber ang nakapaskil na speed limit para sa partikular na bahagi ng kalsada."
+},
+{
+"question": "47. Pinapayagan ang may-ari o manager ng garage na magparada ng sasakyan kahit nasa loob ng 3 metro mula sa entrance ng garage.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Mali",
+"explanation": "Ang pagparada malapit sa entrance ng garage ay maaaring makahadlang sa pagpasok at paglabas ng sasakyan kahit para pa sa may-ari o manager. Karaniwang ipinagbabawal ng traffic regulations ang pagparada nang masyadong malapit sa mga entrance at exit."
+},
+{
+"question": "48. Pinapayagan ang pagparada sa kaliwang bahagi ng kalsada basta may natitirang hindi bababa sa 2.5 metro na espasyo sa kanang bahagi ng nakaparadang sasakyan.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Mali",
+"explanation": "Sa ordinaryong kalsada sa Japan, karaniwang kinakailangang magparada ang mga sasakyan sa kaliwang gilid kasunod ng direksyon ng trapiko, at dapat pa ring sundin ang partikular na clearance rules. Ang simpleng pag-iwan ng 2.5 metro na espasyo ay hindi awtomatikong ginagawang legal ang pagparada."
+},
+{
+"question": "49. Sa mga kalsadang may sumusunod na sign, pinapayagan ang pag-overtake basta hindi tatawid ang drayber sa center line papunta sa opposite lane.",
+"image": "oikoshi_kinshi.jpg",
+"choices": ["Tama", "Mali"],
+"answer": "Mali",
+"explanation": "Ipinapahiwatig ng sign na ito na ipinagbabawal mismo ang pag-overtake, hindi lamang ang pagtawid sa center line. Hindi dapat lampasan ng mga drayber ang ibang sasakyan sa itinakdang lugar."
+},
+{
+"question": "50. Upang makumpirma na maayos na gumagana ang backup lights, ilagay ang transmission sa reverse gear at suriin kung umiilaw ang reverse lamps.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Ang reverse lights ay mahalagang safety feature dahil nagbibigay-babala ito sa mga tao at sasakyan sa paligid na umaatras ang kotse. Ang regular na inspeksyon ay nakakatulong upang matiyak ang ligtas na paggamit."
+},
+{
+"question": "51. Kapag nagpepreno ng motorsiklo, dapat gamitin ng rider ang parehong front at rear brakes habang pinananatiling stable ang motorsiklo at tuwid ang handlebars.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Ang sabay na paggamit ng dalawang preno ay nagpapabuti sa balanse at kontrol habang humihinto. Ang biglaang pagtagilid o hindi kinakailangang paggalaw ng handlebars habang nagpepreno ay maaaring magpataas ng panganib ng pagdulas."
+},
+{
+"question": "52. Ang sinumang may hawak ng standard vehicle license o motorcycle license nang mas mababa sa isang taon ay kailangang maglagay ng beginner driver mark.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Mali",
+"explanation": "Ang requirement para sa beginner mark ay pangunahing naaangkop sa mga bagong may hawak ng ordinary vehicle license. Ang mga motorcycle license holders lamang ay hindi awtomatikong kinakailangang maglagay nito."
+},
+{
+"question": "53. Sa right-hand-drive vehicle, ang hand signal para sa pagliko pakaliwa ay ginagawa sa pamamagitan ng pag-unat ng kanang braso palabas at pagtiklop ng bisig pataas nang patayo.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Ang hand signal na ito ay kinikilalang indikasyon ng pagliko pakaliwa. Maaaring gumamit ng hand signals ang mga drayber kung hindi maayos na magamit ang signal lamps."
+},
+{
+"question": "54. Ipinagbabawal ang paghinto o pagparada sa expressway sa lahat ng sitwasyon.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Mali",
+"explanation": "Bagama’t karaniwang ipinagbabawal ang paghinto sa expressways, may mga exception para sa emergency situations tulad ng pagkasira ng sasakyan, aksidente, o utos ng pulis."
+},
+{
+"question": "55. Maaaring mapabuti ng motorcycle riders ang stability at balanse sa pamamagitan ng mahigpit na pag-ipit sa fuel tank gamit ang parehong tuhod habang nagmamaneho.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Ang pag-ipit sa tangke gamit ang mga tuhod ay nakakatulong upang maging stable ang postura ng rider at mabawasan ang hindi kinakailangang paggalaw ng upper body. Pinapabuti nito ang pangkalahatang kontrol sa motorsiklo."
+},
+{
+"question": "56. Matapos pumasok sa interseksyon sa berdeng ilaw upang lumiko pakanan, huminto ako sa loob ng interseksyon dahil naging pula ang hiwalay na right-turn signal.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Mali",
+"explanation": "Kapag nakapasok na nang legal ang drayber sa interseksyon, dapat niyang ligtas na tapusin ang pagliko kung posible. Ang hindi kinakailangang paghinto sa loob ng interseksyon ay maaaring makahadlang sa trapiko at magdulot ng panganib."
+},
+{
+"question": "57. Kapag nagmamaneho sa gabi sa mataong city area na may mabigat na trapiko, katanggap-tanggap na panatilihing nakabukas palagi ang high beams upang mapabuti ang visibility.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Mali",
+"explanation": "Maaaring pansamantalang mabulag o ma-distract ng high beams ang ibang drayber at pedestrian sa mataong lugar. Dapat gumamit ng low beams kapag may malapit na ibang trapiko."
+},
+{
+"question": "58. Bago paandarin ang automatic transmission vehicle, dapat apakan ng drayber ang brake pedal upang kumpirmahin ang posisyon nito at tingnang mabuti ang lokasyon ng accelerator pedal.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Ang pagkumpirma sa posisyon ng mga pedal bago paandarin ang makina ay nakakatulong maiwasan ang aksidenteng pag-arangkada. Isa itong mahalagang safety habit lalo na sa automatic vehicles."
+},
+{
+"question": "59. Sa signal-controlled intersection na walang stop line, dapat huminto ang mga drayber direkta sa ilalim ng traffic signal.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Mali",
+"explanation": "Kapag walang stop line, dapat huminto ang mga drayber sa posisyong ligtas nilang makukumpirma ang kondisyon ng trapiko at hindi makahahadlang sa mga pedestrian o cross traffic. Hindi palaging tamang huminto direkta sa ilalim ng signal."
+},
+{
+"question": "60. Kapag pumapasok sa main lane ng expressway mula sa acceleration lane, dapat bigyang-pansin ng mga drayber ang mga sasakyang papalapit mula sa likuran sa main traffic lane.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Ang mga sasakyang nasa main lane ay karaniwang may prayoridad. Kailangang maingat na tantiyahin ng mga drayber na papasok sa expressway ang bilis at posisyon ng nakapaligid na trapiko."
+},
+{
+"question": "61. Sa maulang panahon, humahaba ang reaction distance ngunit nananatiling pareho ang braking distance gaya sa tuyong kalsada.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Mali",
+"explanation": "Ang basang kalsada ay nagpapababa sa tire grip at lubhang nagpapahaba sa braking distance. Parehong maaaring humaba ang reaction distance at stopping distance sa maulang kondisyon."
+},
+{
+"question": "62. Dapat ayusin ng mga drayber ang kanilang bilis at panatilihin ang sapat na following distance dahil hindi agad makahihinto ang sasakyan sa emergency.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Ang ligtas na following distance ay nagbibigay ng sapat na oras upang makapag-react at makapagpreno nang ligtas. Ang pagdikit nang sobra sa sinusundang sasakyan ay nagpapataas ng panganib ng rear-end collision."
+},
+{
+"question": "63. Pinapayagan ang pagparada o paghinto sa loob ng 10 metro mula sa bus stop sign kapag hindi aktibong bumibiyahe ang mga bus sa lugar.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Ang mga restriksyon malapit sa bus stops ay pangunahing naaangkop sa operating hours kapag ginagamit ng mga bus ang hintuan. Dapat pa ring kumpirmahin ng mga drayber ang mga nakapaskil na regulasyon at iwasang hadlangan ang pagpasok ng bus."
+},
+{
+"question": "64. Ang center dividing line sa kalsada ay hindi kinakailangang eksaktong nasa gitna ng daan sa lahat ng lugar.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Maaaring magkaiba ang road structure at lane widths depende sa kondisyon ng trapiko o disenyo ng kalsada. Dahil dito, maaaring minsan ay hindi eksaktong nasa gitna ang center line."
+},
+{
+"question": "65. Ang warning sign na ipinapakita sa ibaba ay nangangahulugang mababawasan ang bilang ng traffic lanes sa unahan.",
+"image": "lane_decreased.jpg",
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Binabalaan ng sign na ito ang mga drayber na magsasama o liliit ang bilang ng lanes sa unahan. Dapat maingat na suriin ang nakapaligid na trapiko at ligtas na mag-merge."
+},
+{
+"question": "66. Kapag may mga pedestrian na naglalakad sa gilid ng kalsada, dapat palaging magbawas ng bilis ang mga drayber anuman ang kondisyon ng trapiko o kalsada.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Mali",
+"explanation": "Dapat magbawas ng bilis ang mga drayber kapag kinakailangan upang matiyak ang kaligtasan ng pedestrian, ngunit ang pag-aadjust ng bilis ay nakadepende sa partikular na sitwasyon ng kalsada at trapiko. Ang mahalaga ay ligtas na pagmamaneho at pag-iwas sa panganib."
+},
+{
+"question": "67. Kung may siklistang tumatawid sa bicycle crossing zone, dapat huminto ang mga drayber sa paraang makapagpapatuloy nang ligtas ang siklista nang walang hindi kinakailangang abala.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Kinakailangang magbigay ng tamang prayoridad ang mga drayber sa mga siklista sa designated crossings. Ang maayos at ligtas na paghinto ay nakakatulong maiwasan ang kalituhan at aksidente."
+},
+{
+"question": "68. Mas nagiging epektibo ang engine braking kapag nagmamaneho sa mas mataas na gear kaysa sa mababang gear.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Mali",
+"explanation": "Mas malakas ang epekto ng engine braking sa mababang gears dahil mas mataas ang RPM ng makina. Madalas gumamit ng mababang gear ang mga drayber sa pababang kalsada upang ligtas na makontrol ang bilis."
+},
+{
+"question": "69. Sa interseksyon na ipinapakita sa illustration, parehong limitado ang visibility nina Vehicle A at Vehicle B dahil sa mga hadlang sa paligid. Kaya dapat magbawas ng bilis at maingat na magpatuloy ang bawat drayber.",
+"image": "mitoshi_with_shop.jpg",
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Kapag mahina ang visibility sa interseksyon, maaaring hindi agad mapansin ng mga drayber ang papalapit na sasakyan, bisikleta, o pedestrian. Ang pagbabawas ng bilis ay nakakatulong maiwasan ang banggaan at nagbibigay ng mas maraming oras upang makapag-react."
+},
+{
+"question": "70. Kapag may angkas sa motorsiklo, mas ligtas na gumamit ng standard o large motorcycle na may sapat na laki ng passenger seat.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Ang motorsiklong dinisenyo para sa dalawang sakay ay nagbibigay ng mas magandang balanse, stability, at comfort. Ang tamang upuan ay nagpapabuti rin sa kaligtasan ng rider at pasahero."
+},
+{
+"question": "71. Ang sumusunod na warning sign ay nagsasabi sa mga drayber na mag-ingat nang husto dahil maaaring biglang tumawid o lumabas ang mga bata sa kalapit na kalsada.",
+"image": "childrens_crossing.jpg",
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Karaniwang inilalagay ang sign na ito malapit sa mga paaralan, parke, o residential areas kung saan maaaring biglang lumitaw ang mga bata. Dapat magbawas ng bilis at manatiling alerto ang mga drayber sa biglaang paggalaw."
+},
+{
+"question": "72. Ipinagbabawal ang pagsakay ng pasahero sa standard motorcycles na walang passenger seat, pati na rin sa ordinary mopeds.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Ang mga sasakyang dinisenyo lamang para sa isang rider ay hindi dapat gamitin para sa double riding. Kinakailangan ang tamang passenger equipment upang matiyak ang ligtas at legal na paggamit."
+},
+{
+"question": "73. Maaaring maging napakadulas ng mga kalsada kapag may snowfall o icy weather, kaya dapat gumamit ang mga drayber ng tire chains, winter tires, o studless snow tires upang mabawasan ang panganib ng pagdulas.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Ang snow at yelo ay lubhang nagpapababa sa tire grip at braking performance. Ang tamang winter equipment ay nakakatulong mapabuti ang traction at kontrol ng sasakyan."
+},
+{
+"question": "74. Kapag ang nakahintong sasakyan ay magsisimulang umalis mula sa kaliwang bahagi ng kalsada, maaaring gamitin ng drayber ang parehong turn signal na ginagamit kapag gagalaw o lilipat ng lane pakakanan.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Ang sasakyang aalis mula sa kaliwang curb o roadside ay kailangang magbigay ng signal bilang indikasyon ng pagpasok nito sa trapiko. Binabalaan nito ang mga kalapit na drayber at nakakatulong maiwasan ang banggaan."
+},
+{
+"question": "75. Ang school bus na humihinto upang magsakay o magbaba ng kindergarten o school children ay dapat magbukas ng hazard warning lights.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Ang hazard lights ay nagbibigay-babala sa nakapaligid na trapiko na maaaring may mga batang sumasakay o bumababa sa sasakyan. Dapat magpatuloy nang maingat at manatiling alerto ang mga drayber sa paligid."
+},
+[
+  {
+    "question": "1. While preparing to turn left at an intersection, I noticed a bicycle rapidly approaching from behind on the left side. Thinking there was a possibility of danger, I sounded the horn and immediately completed the left turn ahead of the bicycle.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "Drivers should not force a left turn in front of an approaching bicycle, even after using the horn. The safer action is to slow down or wait until the bicycle has safely passed before turning."
+  },
+  {
+    "question": "2. At an intersection where the following sign is displayed, drivers may carefully proceed in the indicated direction after checking for pedestrians and surrounding traffic, even when the signal is red or yellow.",
+    "image": "turn_left.jpg",
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Certain traffic signs permit movement in a specified direction despite the normal signal indication. However, drivers must still prioritize safety and yield to pedestrians and other road users."
+  },
+  {
+    "question": "3. The traffic sign shown below means that ordinary mopeds are not required to make a two-stage right turn at the intersection.",
+    "image": "no_moped.jpg",
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "This sign indicates an exception to the normal two-stage right turn rule for general mopeds. Riders may make a regular right turn while still checking traffic conditions carefully."
+  },
+  {
+    "question": "4. A person pushing a motorcycle with the engine switched off is generally regarded as a pedestrian under traffic regulations.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "When a motorcycle is being pushed by hand rather than operated normally, the person handling it is usually treated similarly to a pedestrian. They should follow pedestrian-related traffic rules where applicable."
+  },
+  {
+    "question": "5. If the brake pedal feels soft or spongy when pressed firmly, it means the braking system is functioning very effectively.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "A soft or spongy brake pedal can indicate air in the brake lines or another brake-related problem. The vehicle should be inspected immediately to ensure safe operation."
+  },
+  {
+    "question": "6. If your brakes fail while going downhill and engine braking or the parking brake cannot stop the vehicle, using roadside gravel, barriers, or a ditch to slow down may help prevent a more serious accident.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "In a brake failure emergency, reducing speed by using safe roadside obstacles may lessen the severity of a crash. Protecting human life is the highest priority."
+  },
+  {
+    "question": "7. Roads reserved exclusively for pedestrians may be freely used by light special vehicles, mopeds, and compact vehicles at all times.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "Pedestrian-only roads generally prohibit vehicle entry unless special permission or exceptions are specifically provided. Drivers must obey the posted restrictions carefully."
+  },
+  {
+    "question": "8. When riding a motorcycle, you should place your feet on the pedals with your toes pointed outward.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "Motorcycle riders should keep their toes pointed inward or straight to maintain proper balance and control. Pointing the toes outward may increase the risk of hitting the road surface or obstacles."
+  },
+  {
+    "question": "9. Motorcycle riders should wear clothing that reduces exposed areas of the body, even during hot weather conditions.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Protective clothing helps reduce injuries in the event of an accident. Even during summer, riders should wear gear that protects the arms, legs, and other exposed areas."
+  },
+  {
+    "question": "10. Because the vehicle inspection certificate is an important document, it is acceptable to keep only a photocopy inside the vehicle while storing the original document safely at home.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "The original vehicle inspection certificate must be kept inside the vehicle while driving. A copy alone is not considered legally sufficient."
+  },
+  {
+    "question": "11. This traffic sign means vehicles are prohibited from entering from this direction, although vehicles may enter the road from another entrance beyond the sign.",
+    "image": "no_entry.jpg",
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "The “Do Not Enter” sign prohibits entry only from the direction facing the sign. Vehicles may still access the road legally from another permitted direction."
+  },
+  {
+    "question": "12. Parking or stopping is prohibited within 5 meters of the edge of a bicycle crossing area.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Vehicles must not stop or park too close to bicycle crossings because doing so may block visibility and create danger for cyclists and other road users."
+  },
+  {
+    "question": "13. On the left side of a safety zone and within 10 meters of its edge, parking is prohibited, but temporary stopping is allowed.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "Both parking and stopping are prohibited near safety zones within the specified distance. These restrictions help protect pedestrians and maintain safe visibility around the area."
+  },
+   {
+    "question": "14. When approaching the following warning sign, drivers are required to sound the horn while continuing through the area.",
+    "image": "winding_road.jpg",
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "A warning sign like this only alerts drivers to road conditions ahead, such as curves or winding roads. Drivers are not required to use the horn unless there is a separate horn sign or an emergency situation."
+  },
+  {
+    "question": "15. When making way for an emergency vehicle, drivers must always move to the left side of the road, including on one-way streets.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "On one-way roads, vehicles may move to either side if necessary to allow the emergency vehicle to pass safely. Drivers should choose the safest position depending on the road conditions."
+  },
+  {
+    "question": "16. A person holding an ordinary vehicle license is permitted to operate light special vehicles and standard mopeds in addition to regular automobiles.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "A regular driver’s license in Japan generally allows the holder to drive ordinary cars as well as certain smaller vehicle categories, including general mopeds and light special-purpose vehicles."
+  },
+  {
+    "question": "17. When the following road marking is present, drivers may freely change lanes across the center line in the direction shown by the arrow.",
+    "image": "cannot_change_to_center.jpg",
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "Crossing a solid center line is generally prohibited even if the illustration appears to show movement across lanes. Drivers must follow the lane markings and avoid crossing lines that restrict lane changes."
+  },
+  {
+    "question": "18. Motorcycle riders are required to use helmets that display approved safety standards such as the PS(C) mark or the JIS certification mark.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Approved helmets are designed to meet safety standards that help reduce head injuries during accidents. Riders should always use properly certified protective gear."
+  },
+  {
+    "question": "19. Remaining stopped in a no-parking area for about five minutes while waiting inside the vehicle for a friend may still be considered a parking violation.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Even if the driver stays inside the vehicle, waiting for a person in a prohibited area can be treated as parking. Traffic rules focus on the purpose and duration of the stop."
+  },
+  {
+    "question": "20. The driver’s seat should be adjusted so that the driver’s leg becomes fully straight when the clutch pedal is completely pressed.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "The driver’s knee should remain slightly bent when pressing the clutch fully. This position allows better control and reduces fatigue while driving."
+  },
+  {
+    "question": "21. A green traffic light does not automatically guarantee safe passage, so drivers should avoid entering intersections, crosswalks, or railroad crossings if traffic congestion may trap the vehicle there.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Drivers must confirm that there is enough space ahead before proceeding, even on a green light. Blocking intersections or crossings creates danger and disrupts traffic flow."
+  },
+  {
+    "question": "22. When stopping or parking on a road with a sidewalk, it is recommended to place part of the vehicle’s tires onto the sidewalk in order to leave more space on the roadway.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "Vehicles should not enter or block the sidewalk unless specifically permitted. Sidewalks are intended primarily for pedestrian use and safety."
+  },
+  {
+    "question": "23. For the purpose of determining a vehicle’s passenger capacity, two children under 12 years old are counted as one adult.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "In Japan, generally three children under 12 years old are counted as two adults when calculating passenger capacity. Drivers must not exceed the legal seating limit."
+  },
+  {
+    "question": "24. While driving through a curve, the front and rear wheels follow different turning paths regardless of vehicle speed.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Because the front and rear wheels do not travel on exactly the same line during a turn, drivers must allow enough space when cornering, especially on narrow roads."
+  },
+  {
+    "question": "25. Reckless or inconsiderate driving not only disturbs other road users, but can also become a direct cause of traffic accidents.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Unsafe driving behavior increases stress and confusion among drivers and pedestrians. It also raises the risk of collisions and dangerous situations on the road."
+  },
+  {
+    "question": "26. Motorcycle riders should grip the handlebars with their wrists angled slightly downward while holding the bars gently but firmly.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Proper handlebar grip helps riders maintain better balance and smoother control of the motorcycle. Holding the handlebars too tightly may reduce steering flexibility."
+  },
+  {
+    "question": "27. Before making a right turn, drivers must always move close to the center of the road immediately before entering the intersection.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "Drivers should position the vehicle appropriately depending on road markings, lane structure, and traffic conditions. Moving unnecessarily toward the center may create danger or confusion."
+  },
+  {
+    "question": "28. The force of a collision with a concrete wall at 60 km/h is roughly comparable to falling from a building about five stories high.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "High-speed collisions create extremely strong impact forces that can result in severe injury or death. This comparison highlights the importance of safe driving speeds."
+  },
+  {
+    "question": "29. Drivers should always show consideration toward pedestrians and other motorists while maintaining a cooperative attitude on the road.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Safe traffic flow depends on mutual respect and cooperation between all road users. Considerate driving helps prevent accidents and reduces traffic trouble."
+  },
+  {
+    "question": "30. Because visibility becomes much poorer at night, drivers may notice pedestrians or bicycles later than during daytime, so it is safer to reduce speed when driving at night.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Darkness limits visibility and makes it harder to judge distance and movement. Slower driving at night provides more time to react to unexpected hazards."
+  },
+  {
+    "question": "31. The following warning sign alerts drivers to an area ahead where falling rocks or landslides may occur, requiring extra caution while driving.",
+    "image": "falling_rocks_hazzard_sign.jpg",
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "This warning sign is used in mountainous or unstable areas where rocks may fall onto the roadway. Drivers should reduce speed and stay alert when passing through such zones."
+  },
+  {
+    "question": "32. Because accidents are more likely to occur after sunset, drivers should switch on their headlights early so their vehicle can be seen more easily by others.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Headlights not only help drivers see the road ahead but also make the vehicle more visible to pedestrians and other motorists. Early use of headlights improves overall road safety."
+  },
+  {
+    "question": "33. Before driving on an expressway, drivers should carefully inspect fuel, engine oil, and coolant levels to help prevent breakdowns or accidents during travel.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Mechanical trouble on an expressway can be especially dangerous because of high-speed traffic. Proper vehicle checks reduce the risk of unexpected problems while driving."
+  },
+  {
+    "question": "34. Before entering an expressway, it is advisable to gather traffic and weather information through radio broadcasts or the Japan Traffic Information Center.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Checking road conditions, accidents, or possible closures in advance helps drivers plan safely and avoid dangerous or congested routes."
+  },
+  {
+    "question": "35. To become a safe driver, it is better to drive carefully with fewer mistakes rather than rush and make more driving errors.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Safe driving depends more on correct judgment and careful operation than speed. Calm and accurate driving greatly reduces the chance of accidents."
+  },
+  {
+    "question": "36. When traveling through a blind curve to the left, it is safer to drive close to the center line in order to improve your view of oncoming traffic.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "Drivers should avoid moving too close to the center line on blind curves because oncoming vehicles may appear suddenly. Maintaining a safe lane position helps prevent head-on collisions."
+  },
+  {
+    "question": "37. A rider who has not possessed a standard motorcycle license for at least one year is prohibited from carrying a passenger on ordinary roads.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "In Japan, motorcycle riders must meet certain experience requirements before carrying passengers. These rules are intended to reduce accidents involving inexperienced riders."
+  },
+  {
+    "question": "38. If a vehicle becomes stranded on railroad tracks, the driver should quickly warn railway personnel and attempt to move the vehicle away from the crossing immediately.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "A stalled vehicle on train tracks creates an extremely dangerous situation. Prompt action can help prevent a serious collision with an approaching train."
+  },
+  {
+    "question": "39. Drivers must not change lanes if doing so would force nearby vehicles behind them to brake suddenly or swerve to avoid danger.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Safe lane changes require enough space and proper timing. Abrupt lane changes that interfere with surrounding traffic greatly increase accident risk."
+  },
+  {
+    "question": "40. If an emergency vehicle approaches while you are near or inside an intersection, you must immediately stop exactly where you are.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "Drivers should avoid stopping in a way that blocks the intersection. Instead, they should move safely out of the way and yield appropriately to allow the emergency vehicle to pass."
+  },
+  {
+    "question": "41. On a road marked with the following priority road sign, drivers are permitted to pass another automobile or standard moped near or inside an intersection by changing lanes.",
+    "image": "big_arrow_road_sign.jpg",
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "On priority roads, certain overtaking restrictions near intersections may not apply in the same way as on ordinary roads. Drivers must still confirm that overtaking can be done safely."
+  },
+  {
+    "question": "42. Passenger vehicles are allowed to use expressways while towing a broken-down vehicle with a rope or cable.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "Towing a vehicle with a rope or cable is generally prohibited on expressways because it is dangerous at high speeds. Safer towing methods using proper equipment are required."
+  },
+  {
+    "question": "43. A driver may overtake by partially crossing the center line into the oncoming lane if the road is wide enough, visibility is clear, and oncoming traffic is not affected.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "Even if visibility and road width seem sufficient, overtaking by entering the oncoming lane may still be prohibited depending on road markings and traffic rules. Drivers must obey lane restrictions carefully."
+  },
+  {
+    "question": "44. When a disabled vehicle is being towed by a tow truck with either the front or rear wheels lifted off the road surface, no driver is required to remain inside the disabled vehicle.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "In this type of towing method, the tow truck controls the movement of the disabled vehicle. Therefore, a driver inside the disabled vehicle is generally unnecessary."
+  },
+  {
+    "question": "45. Vehicles are prohibited from both parking and temporarily stopping within 5 meters of a road construction area.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "Parking is generally prohibited near road construction zones, but temporary stopping may be allowed depending on the situation and whether it interferes with traffic or safety operations."
+  },
+  {
+    "question": "46. Medium-sized trucks are always limited to a maximum speed of 80 km/h while driving in the main lanes of national expressways.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "Speed limits for medium-sized trucks may vary depending on road signs, road conditions, and legal regulations. Drivers must follow the posted speed limit for the specific road section."
+  },
+  {
+    "question": "47. The owner or manager of a garage is permitted to park a vehicle even within 3 meters of the garage entrance.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "Parking near a garage entrance may obstruct vehicle access, even for the owner or manager. Traffic regulations generally prohibit parking too close to entrances and exits."
+  },
+  {
+    "question": "48.Parking on the left side of the roadway is allowed as long as at least 2.5 meters of space remains on the right side of the parked vehicle.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "On ordinary roads in Japan, vehicles are generally required to park along the left edge facing the direction of traffic, and specific clearance rules must still be followed. Simply leaving 2.5 meters of space does not automatically make parking legal."
+  },
+  {
+    "question": "49. On roads where the following sign is displayed, overtaking is permitted as long as the driver does not cross over the center line into the opposite lane.",
+    "image": "oikoshi_kinshi.jpg",
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "This sign indicates that overtaking itself is prohibited, not only crossing the center line. Drivers must not pass other vehicles in the designated area."
+  },
+  {
+    "question": "50. To confirm that the backup lights are functioning properly, place the transmission into reverse gear and check whether the reverse lamps illuminate.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Reverse lights are an important safety feature because they alert nearby people and vehicles that the car is backing up. Regular inspection helps ensure safe operation."
+  },
+  {
+    "question": "51. When braking a motorcycle, riders should use both the front and rear brakes together while keeping the motorcycle stable and the handlebars straight.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Using both brakes at the same time improves stopping balance and control. Sudden leaning or unnecessary handlebar movement during braking may increase the risk of skidding."
+  },
+  {
+    "question": "52. Anyone who has held either a standard vehicle license or motorcycle license for less than one year is required to display a beginner driver mark.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "The beginner mark requirement mainly applies to new holders of ordinary vehicle licenses. Motorcycle license holders alone are not automatically required to display the mark."
+  },
+  {
+    "question": "53. In a right-hand-drive vehicle, a left-turn hand signal is given by extending the right arm outward and bending the forearm upward vertically.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "This hand signal is internationally recognized as an indication of a left turn. Drivers may use hand signals if signal lamps cannot be used properly."
+  },
+  {
+    "question": "54. Stopping or parking on an expressway is prohibited under all circumstances.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "Although stopping on expressways is generally prohibited, exceptions exist for emergencies such as vehicle breakdowns, accidents, or police instructions."
+  },
+  {
+    "question": "55. Motorcycle riders can improve stability and balance by holding the fuel tank firmly with both knees while riding.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Gripping the tank with the knees helps stabilize the rider’s posture and reduces unnecessary upper body movement. This technique improves overall motorcycle control."
+  },
+  {
+    "question": "56. After entering an intersection on a green light to make a right turn, I stopped inside the intersection because the separate right-turn signal changed to red.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "Once a driver has already entered the intersection lawfully, they should complete the turn safely when possible. Stopping unnecessarily inside the intersection may obstruct traffic and create danger."
+  },
+  {
+    "question": "57. When driving at night in a busy city area with heavy traffic, it is acceptable to keep the high beams on continuously to improve visibility.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "High beams can temporarily blind or distract other drivers and pedestrians in crowded areas. Drivers should switch to low beams when other traffic is nearby."
+  },
+  {
+    "question": "58. Before starting an automatic transmission vehicle, the driver should press the brake pedal to confirm its position and visually check the location of the accelerator pedal.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Confirming pedal positions before starting the engine helps prevent accidental acceleration. This is an important safety habit, especially in automatic vehicles."
+  },
+  {
+    "question": "59. At a signal-controlled intersection without a stop line, drivers must stop directly underneath the traffic signal.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "When there is no stop line, drivers should stop at a position where they can safely confirm traffic conditions and avoid interfering with pedestrians or cross traffic. Stopping directly under the signal may not always be appropriate."
+  },
+  {
+    "question": "60. When entering the main lane of an expressway from an acceleration lane, drivers should pay close attention to vehicles approaching from behind in the main traffic lane.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Vehicles already traveling in the main lane usually have priority. Drivers merging onto the expressway must carefully judge the speed and position of surrounding traffic."
+  },
+  {
+    "question": "61. In rainy weather, reaction distance becomes longer, but braking distance remains the same as on dry roads.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "Wet roads reduce tire grip and increase braking distance significantly. Both reaction distance and stopping distance may become longer in rainy conditions."
+  },
+  {
+    "question": "62. Drivers should adjust their speed and maintain enough following distance because vehicles cannot stop immediately in an emergency.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Safe following distance provides enough time to react and brake safely. Tailgating increases the risk of rear-end collisions."
+  },
+  {
+    "question": "63. Parking or stopping within 10 meters of a bus stop sign is allowed when buses are not actively operating in the area.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Restrictions near bus stops mainly apply during operating hours when buses are using the stop. Drivers should still confirm posted regulations and avoid obstructing bus access."
+  },
+   {
+    "question": "64. The center dividing line on a roadway is not necessarily placed exactly in the middle of the road at all locations.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Road structures and lane widths may differ depending on traffic conditions or road design. Because of this, the center line may sometimes be offset from the exact center."
+  },
+  {
+    "question": "65. The warning sign shown below indicates that the number of traffic lanes ahead will decrease.",
+    "image": "lane_decreased.jpg",
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "This sign warns drivers that lanes are narrowing or merging ahead. Drivers should check surrounding traffic carefully and merge safely."
+  },
+  {
+    "question": "66. Whenever pedestrians are walking along the roadside, drivers must always reduce speed regardless of the surrounding traffic or road conditions.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "Drivers should slow down when necessary to ensure pedestrian safety, but speed adjustments depend on the specific road and traffic situation. The key requirement is to drive safely and avoid danger."
+  },
+  {
+    "question": "67. If a bicyclist is crossing at a bicycle crossing zone, drivers must stop in a way that allows the cyclist to continue safely without unnecessary interruption.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Drivers are required to give proper priority to cyclists at designated crossings. Stopping smoothly and safely helps prevent confusion and accidents."
+  },
+  {
+    "question": "68. Engine braking becomes more effective when driving in a higher gear than in a lower gear.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "Lower gears create stronger engine braking effects because the engine rotates at higher RPMs. Drivers often use lower gears on downhill roads to help control speed safely."
+  },
+  {
+    "question": "69. In the intersection shown in the illustration, both Vehicle A and Vehicle B have limited visibility due to surrounding obstructions. Therefore, each driver should slow down and proceed carefully.",
+    "image": "mitoshi_with_shop.jpg",
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "When visibility is blocked at an intersection, drivers may not notice approaching vehicles, bicycles, or pedestrians immediately. Reducing speed helps prevent collisions and allows more reaction time."
+  },
+  {
+    "question": "70. When carrying a passenger on a motorcycle, it is safer to use a standard or large motorcycle equipped with a sufficiently sized passenger seat.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "A motorcycle designed for two riders provides better balance, stability, and comfort. Proper seating also improves safety for both the rider and passenger."
+  },
+  {
+    "question": "71. The following warning sign tells drivers to use extra caution because children may suddenly enter or cross the roadway nearby.",
+    "image": "childrens_crossing.jpg",
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "This sign is commonly placed near schools, parks, or residential areas where children may appear unexpectedly. Drivers should reduce speed and stay alert for sudden movement."
+  },
+  {
+    "question": "72. Carrying a passenger is prohibited on standard motorcycles that are not equipped with a passenger seat, as well as on ordinary mopeds.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Vehicles intended for only one rider must not be used for double riding. Proper passenger equipment is required to ensure safe and legal operation."
+  },
+  {
+    "question": "73. Roads can become very slippery during snowfall or icy weather, so drivers should use tire chains, winter tires, or studless snow tires to reduce the risk of skidding.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Snow and ice greatly reduce tire grip and braking performance. Appropriate winter equipment helps improve traction and vehicle control."
+  },
+  {
+    "question": "74. When a stopped vehicle begins moving away from the left side of the road, the driver may use the same turn signal that is used when moving or changing lanes to the right.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "A vehicle pulling away from the left curb or roadside must signal its intention to move into traffic. This alerts nearby drivers and helps prevent collisions."
+  },
+  {
+    "question": "75. A school bus that stops to pick up or drop off kindergarten or school children should activate its hazard warning lights.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Hazard lights warn surrounding traffic that children may be entering or leaving the vehicle. Drivers nearby should proceed carefully and remain alert."
+  },
+  {
+    "question": "76. If visibility is blocked at a railroad crossing, drivers should continue moving closer to the tracks until they can confirm that no train is approaching.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "Drivers should stop at a safe position and carefully check both directions before crossing. Moving too close to the tracks without proper confirmation can be extremely dangerous."
+  },
+  {
+    "question": "77. On a roadway displaying the following speed limit sign, drivers are prohibited from operating a vehicle at speeds greater than 30 km/h.",
+    "image": "30_sign.jpg",
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Regulatory speed limit signs indicate the maximum legal speed allowed on that road section. Drivers must adjust their speed to remain within the posted limit."
+  },
+  {
+    "question": "78. Small-sized vehicles, ordinary mopeds, and standard motorcycles with engines of 125cc or less are not permitted to travel on roads marked with the indicated sign.",
+    "image": "designated_lane_automobiles.jpg",
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Certain roads restrict entry for smaller vehicles and low-engine-capacity motorcycles for safety and traffic flow reasons. Drivers must obey the posted vehicle restrictions."
+  },
+  {
+    "question": "79. On a road with a sidewalk located on the left side, drivers may stop but not park on the right side of another stopped or parked vehicle.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "Stopping beside another parked vehicle may obstruct traffic and create danger for other road users. Double parking is generally prohibited except in special situations."
+  },
+  {
+    "question": "80. In locations where the following sign is installed, drivers are required to sound the horn while passing through the area.",
+    "image": "horn_sign.jpg",
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "This sign indicates a mandatory horn zone, often used in areas with poor visibility such as mountain roads or blind curves. Sounding the horn helps warn approaching vehicles or pedestrians."
+  },
+  {
+    "question": "81. Although front-seat occupants are required to wear seatbelts, passengers seated in the back are not legally required to use them.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "Seatbelt use is required for rear-seat passengers as well. Wearing seatbelts greatly reduces the risk of serious injury during an accident."
+  },
+  {
+    "question": "82. When helping injured people after a traffic accident, first aid should be provided whenever possible, but people with suspected head injuries should be moved only when absolutely necessary.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Improper movement of a person with a head or neck injury may worsen the condition. Emergency assistance should be given carefully until professional help arrives."
+  },
+  {
+    "question": "83. Even when traveling at the same speed, drivers often feel as though they are moving more slowly at night than during daytime.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Reduced visibility and fewer visual references at night can affect a driver’s sense of speed. This may unintentionally lead to driving faster than intended."
+  },
+  {
+    "question": "84. If a large earthquake occurs while driving, you should immediately pull over to the left side of the road, close all windows, and lock the doors to prevent theft.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "During a major earthquake, drivers should avoid sudden braking and stop safely after checking surrounding conditions. The priority is evacuation readiness and emergency access, not theft prevention."
+  },
+  {
+    "question": "85. When towing a disabled vehicle, attaching a red cloth of at least 30 cm² to the towing rope is sufficient.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "The required warning cloth or marker attached to a towing rope must meet specific visibility standards and is generally larger than 30 cm². Proper marking helps other drivers notice the tow connection safely."
+  },
+  {
+    "question": "86. Daily vehicle inspections are mandatory for operators or users of taxis, rental vehicles, large private vehicles, heavy special vehicles, and other business-use automobiles.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Regular pre-driving inspections help detect mechanical problems before operation. This improves safety and helps prevent accidents caused by vehicle failure."
+  },
+  {
+    "question": "87. A vehicle can become unstable and may overturn if cargo is stacked too high or loaded unevenly. For safety, baggage should be kept as low as possible and distributed evenly on both sides.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "A high or uneven load raises the vehicle’s center of gravity, making it easier to lose balance. Properly balanced cargo improves stability during turns and sudden movements."
+  },
+  {
+    "question": "88. If your car receives an illegally parked vehicle notice, you must contact a police officer to personally remove the sticker after relocating the vehicle to a legal parking area.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "The driver or vehicle user may remove the notice themselves after handling the violation properly. It is not necessary to wait for a police officer to remove it."
+  },
+  {
+    "question": "89. When facing an oncoming vehicle with strong headlights at night, it is safer to keep your eyes slightly toward the left side of the road while continuing carefully.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Looking slightly left helps reduce glare from approaching headlights and allows you to maintain awareness of your lane position. Staring directly into bright lights can temporarily reduce visibility."
+  },
+  {
+    "question": "90. The posted sign means that drivers are prohibited from both stopping and parking in the designated area.",
+    "image": "time_restriction.jpg",
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "This sign indicates “No Parking,” which still allows temporary stopping under certain conditions. A separate sign is used when both stopping and parking are prohibited."
+  },
+{
+  "question_group": "91",
+  "situation": "You are waiting to make a right turn at an intersection. A large truck coming from the opposite direction stops and flashes its headlights. What should you pay attention to in this situation?",
+  "image": "making_a_right_turn_flasing_light.jpg",
+  "items": [
+    {
+      "number": 1,
+      "question": "The truck’s flashing lights mean it is safe to turn immediately, so you should complete your right turn quickly to avoid delaying the truck.",
+      "choices": ["True", "False"],
+      "answer": "False",
+      "explanation": "Flashing headlights do not always guarantee that the road is completely safe. You must confirm traffic conditions yourself before turning."
+    },
+    {
+      "number": 2,
+      "question": "Because the large truck blocks part of your view, you should carefully check the crosswalk and sidewalk area on the right side for pedestrians before turning.",
+      "choices": ["True", "False"],
+      "answer": "True",
+      "explanation": "Large vehicles can create blind spots that hide pedestrians or cyclists. Always slow down and confirm the safety of the crosswalk before proceeding."
+    },
+    {
+      "number": 3,
+      "question": "You should expect that a motorcycle or bicycle may appear from behind the stopped truck and continue your turn only after checking carefully around the hidden area.",
+      "choices": ["True", "False"],
+      "answer": "True",
+      "explanation": "Motorcycles and bicycles are often difficult to see when hidden behind large vehicles. Careful observation helps prevent collisions during turns."
+    }
+  ]
+},
+{
+  "question_group": "92",
+  "situation": "You are driving at about 20 kph through a busy shopping street with pedestrians, parked vehicles, and possible hazards nearby. What should you be careful about in this situation?",
+  "image": "shopping_district_safety.jpg",
+  "items": [
+    {
+      "number": 1,
+      "question": "As long as you watch the brake lights of the vehicle ahead and keep a speed that allows stopping quickly, there is no need to pay much attention to pedestrians nearby.",
+      "choices": ["True", "False"],
+      "answer": "False",
+      "explanation": "Drivers in shopping areas must continuously watch for pedestrians, bicycles, and sudden hazards. Focusing only on the car ahead is dangerous."
+    },
+    {
+      "number": 2,
+      "question": "Because an animal or pedestrian may suddenly move into the roadway, you should continue at a speed that allows you to stop immediately if necessary.",
+      "choices": ["True", "False"],
+      "answer": "True",
+      "explanation": "Shopping streets often have unpredictable movement from people and animals. Maintaining a low speed and staying alert helps prevent accidents."
+    },
+    {
+      "number": 3,
+      "question": "Since the vehicle ahead could stop suddenly, you should reduce speed, keep enough distance, and also observe conditions farther ahead beyond that vehicle.",
+      "choices": ["True", "False"],
+      "answer": "True",
+      "explanation": "Looking beyond the vehicle in front improves hazard awareness and gives you more time to react safely."
+    }
+  ]
+},
+{
+  "question_group": "93",
+  "situation": "Rain begins to fall while you are driving at around 40 kph near an intersection with pedestrians nearby. What precautions should you take in this situation?",
+  "image": "rainy_intersection_pedestrian.jpg",
+  "items": [
+    {
+      "number": 1,
+      "question": "Road surfaces become slippery soon after rain starts, so you should slow down before entering the intersection and prepare for pedestrians who may suddenly cross.",
+      "choices": ["True", "False"],
+      "answer": "True",
+      "explanation": "Rain reduces tire grip and increases stopping distance. Drivers should reduce speed early and stay alert for pedestrians whose visibility may also be reduced."
+    },
+    {
+      "number": 2,
+      "question": "You may continue at the same speed as long as you believe you can stop quickly if a pedestrian suddenly crosses the road.",
+      "choices": ["True", "False"],
+      "answer": "False",
+      "explanation": "Maintaining the same speed in rainy conditions is dangerous because wet roads make braking less effective and reaction time becomes more important."
+    },
+    {
+      "number": 3,
+      "question": "If a pedestrian appears unexpectedly from the left side, it is acceptable to move partly into the oncoming lane while passing through the intersection.",
+      "choices": ["True", "False"],
+      "answer": "False",
+      "explanation": "Crossing into the opposing lane at an intersection creates a serious collision risk. Drivers should instead slow down and maintain proper lane position."
+    }
+  ]
+},
+{
+  "question_group": "94",
+  "situation": "You are driving at approximately 30 kph on a narrow road where pedestrians are walking ahead and an oncoming vehicle is approaching. What should you pay attention to in this situation?",
+  "image": "narrow_road_pedestrian_oncoming_car.jpg",
+  "items": [
+    {
+      "number": 1,
+      "question": "You should speed up and pass the pedestrians before the approaching vehicle reaches your position.",
+      "choices": ["True", "False"],
+      "answer": "False",
+      "explanation": "Accelerating in a narrow area with pedestrians and oncoming traffic is dangerous. Drivers should prioritize safety and maintain proper control of the vehicle."
+    },
+    {
+      "number": 2,
+      "question": "If the pedestrians do not appear to notice your vehicle, you should sound the horn and continue driving at the same speed.",
+      "choices": ["True", "False"],
+      "answer": "False",
+      "explanation": "Drivers should reduce speed and prepare to stop when pedestrians are nearby. Simply sounding the horn does not guarantee safety."
+    },
+    {
+      "number": 3,
+      "question": "Because it may be safer to wait until the oncoming vehicle passes before going around the pedestrians, you should move to the side and stop if necessary.",
+      "choices": ["True", "False"],
+      "answer": "True",
+      "explanation": "Yielding and waiting when space is limited helps avoid dangerous situations involving pedestrians and approaching vehicles."
+    }
+  ]
+},
+{
+  "question_group": "95",
+  "situation": "You are driving at about 80 kph in the main lane of an expressway while another vehicle is approaching from an acceleration lane. What should you watch for in this situation?",
+  "image": "expressway_merging_vehicle.jpg",
+  "items": [
+    {
+      "number": 1,
+      "question": "Because the vehicle in the acceleration lane may merge suddenly, you should slow down when necessary to help create a safe merging space.",
+      "choices": ["True", "False"],
+      "answer": "True",
+      "explanation": "Drivers on expressways should cooperate with merging traffic when it is safe to do so. Adjusting speed can help prevent dangerous situations."
+    },
+    {
+      "number": 2,
+      "question": "If it is safe after checking mirrors and surrounding traffic, you may move to another lane to provide more space for the merging vehicle.",
+      "choices": ["True", "False"],
+      "answer": "True",
+      "explanation": "Changing lanes safely can reduce conflict with vehicles entering from an acceleration lane and improve overall traffic flow."
+    },
+    {
+      "number": 3,
+      "question": "You do not need to take any precautions because vehicles in the acceleration lane will always wait and avoid merging near your vehicle.",
+      "choices": ["True", "False"],
+      "answer": "False",
+      "explanation": "Drivers should never assume other vehicles will always act predictably. Staying alert for sudden merges is important on expressways."
+    },
+    {
+"question": "76. Kung mahina ang visibility sa railroad crossing, dapat magpatuloy ang mga drayber nang mas malapit sa riles hanggang makumpirma nilang walang paparating na tren.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Mali",
+"explanation": "Dapat huminto ang mga drayber sa ligtas na posisyon at maingat na tingnan ang magkabilang direksyon bago tumawid. Ang paglapit nang sobra sa riles nang walang tamang kumpirmasyon ay maaaring maging lubhang mapanganib."
+},
+{
+"question": "77. Sa kalsadang may ganitong speed limit sign, ipinagbabawal sa mga drayber ang pagpapatakbo ng sasakyan nang lampas sa 30 km/h.",
+"image": "30_sign.jpg",
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Ang regulatory speed limit signs ay nagpapakita ng pinakamataas na legal na bilis na pinapayagan sa bahaging iyon ng kalsada. Dapat ayusin ng mga drayber ang kanilang bilis upang manatili sa loob ng itinakdang limitasyon."
+},
+{
+"question": "78. Ang small-sized vehicles, ordinary mopeds, at standard motorcycles na may makinang 125cc o mas mababa ay hindi pinapayagang dumaan sa mga kalsadang may ipinakitang sign.",
+"image": "designated_lane_automobiles.jpg",
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Ang ilang kalsada ay may restriksyon para sa maliliit na sasakyan at motorsiklong mababa ang engine capacity para sa kaligtasan at maayos na daloy ng trapiko. Dapat sundin ng mga drayber ang mga nakapaskil na restriksyon sa sasakyan."
+},
+{
+"question": "79. Sa kalsadang may sidewalk sa kaliwang bahagi, maaaring huminto ngunit hindi maaaring magparada ang mga drayber sa kanan ng ibang nakahinto o nakaparadang sasakyan.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Mali",
+"explanation": "Ang paghinto sa tabi ng ibang nakaparadang sasakyan ay maaaring makahadlang sa trapiko at magdulot ng panganib sa ibang road users. Ang double parking ay karaniwang ipinagbabawal maliban sa mga espesyal na sitwasyon."
+},
+{
+"question": "80. Sa mga lugar na may ganitong sign, kinakailangang bumusina ang mga drayber habang dumadaan sa lugar.",
+"image": "horn_sign.jpg",
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Ang sign na ito ay nagpapahiwatig ng mandatory horn zone, na karaniwang ginagamit sa mga lugar na mahina ang visibility tulad ng mountain roads o blind curves. Ang pagbubusina ay nakakatulong upang mabigyan ng babala ang mga paparating na sasakyan o pedestrian."
+},
+{
+"question": "81. Bagama’t kinakailangang magsuot ng seatbelt ang mga nasa front seat, hindi legal na kinakailangan ang paggamit nito ng mga pasaherong nasa likod.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Mali",
+"explanation": "Kinakailangan din ang pagsusuot ng seatbelt para sa mga pasaherong nasa rear seat. Ang paggamit ng seatbelt ay lubhang nagpapababa ng panganib ng malubhang pinsala sa oras ng aksidente."
+},
+{
+"question": "82. Kapag tumutulong sa mga nasugatan matapos ang traffic accident, dapat magbigay ng first aid kung posible, ngunit ang mga taong may pinaghihinalaang head injury ay dapat lamang galawin kung talagang kinakailangan.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Ang maling paggalaw sa taong may head o neck injury ay maaaring magpalala sa kondisyon. Dapat maingat na ibigay ang emergency assistance hanggang dumating ang propesyonal na tulong."
+},
+{
+"question": "83. Kahit pareho ang bilis ng takbo, kadalasang pakiramdam ng mga drayber ay mas mabagal silang umaandar sa gabi kaysa sa daytime.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Ang mahinang visibility at kakulangan ng visual references sa gabi ay maaaring makaapekto sa pakiramdam ng drayber tungkol sa bilis. Maaari itong magdulot ng hindi sinasadyang mas mabilis na pagmamaneho kaysa sa inaakala."
+},
+{
+"question": "84. Kapag nagkaroon ng malakas na lindol habang nagmamaneho, dapat agad na tumabi sa kaliwang bahagi ng kalsada, isara ang lahat ng bintana, at i-lock ang mga pinto upang maiwasan ang pagnanakaw.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Mali",
+"explanation": "Sa panahon ng malakas na lindol, dapat iwasan ng mga drayber ang biglaang pagpreno at ligtas na huminto matapos suriin ang paligid. Ang prayoridad ay pagiging handa sa paglikas at pagbibigay-daan sa emergency access, hindi ang pag-iwas sa pagnanakaw."
+},
+{
+"question": "85. Kapag humihila ng disabled vehicle, sapat na ang pagkabit ng pulang tela na may sukat na hindi bababa sa 30 cm² sa towing rope.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Mali",
+"explanation": "Ang kinakailangang warning cloth o marker na nakakabit sa towing rope ay dapat tumugon sa partikular na visibility standards at karaniwang mas malaki kaysa 30 cm². Ang tamang marka ay nakakatulong upang mapansin ng ibang drayber ang tow connection."
+},
+{
+"question": "86. Ang daily vehicle inspections ay mandatory para sa operators o users ng taxis, rental vehicles, large private vehicles, heavy special vehicles, at iba pang business-use automobiles.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Ang regular na inspeksyon bago bumiyahe ay nakakatulong upang matukoy ang mechanical problems bago gamitin ang sasakyan. Pinapabuti nito ang kaligtasan at nakakatulong maiwasan ang aksidenteng dulot ng sira ng sasakyan."
+},
+{
+"question": "87. Maaaring maging unstable at tumaob ang sasakyan kung masyadong mataas o hindi pantay ang pagkakalagay ng kargamento. Para sa kaligtasan, dapat panatilihing mababa hangga’t maaari ang mga bagahe at pantay ang distribusyon sa magkabilang panig.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Ang mataas o hindi pantay na kargamento ay nagpapataas sa center of gravity ng sasakyan, kaya mas madaling mawalan ng balanse. Ang maayos na pagkakabalanse ng kargamento ay nagpapabuti ng stability sa pagliko at biglaang paggalaw."
+},
+{
+"question": "88. Kapag nakatanggap ang iyong sasakyan ng illegally parked vehicle notice, kailangan mong tumawag ng pulis upang personal na alisin ang sticker matapos ilipat ang sasakyan sa legal parking area.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Mali",
+"explanation": "Maaaring alisin mismo ng drayber o user ng sasakyan ang notice matapos maayos na asikasuhin ang violation. Hindi kailangang hintayin pa ang pulis upang alisin ito."
+},
+{
+"question": "89. Kapag nakakaharap ng kasalubong na sasakyang may malalakas na headlights sa gabi, mas ligtas na ituon nang bahagya ang tingin sa kaliwang bahagi ng kalsada habang maingat na nagpapatuloy.",
+"image": null,
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Ang pagtingin nang bahagya sa kaliwa ay nakakatulong mabawasan ang glare mula sa headlights ng kasalubong na sasakyan at mapanatili ang awareness sa iyong lane position. Ang direktang pagtitig sa maliwanag na ilaw ay maaaring pansamantalang magpababa ng visibility."
+},
+{
+"question": "90. Ang nakapaskil na sign ay nangangahulugang ipinagbabawal ang parehong paghinto at pagparada sa itinakdang lugar.",
+"image": "time_restriction.jpg",
+"choices": ["Tama", "Mali"],
+"answer": "Mali",
+"explanation": "Ang sign na ito ay nagpapahiwatig ng “No Parking,” na pinapayagan pa rin ang pansamantalang paghinto sa ilang kondisyon. Ibang sign ang ginagamit kapag parehong ipinagbabawal ang paghinto at pagparada."
+},
+{
+"question_group": "91",
+"situation": "Ikaw ay naghihintay upang lumiko pakanan sa isang interseksyon. Huminto ang isang malaking truck na nanggagaling sa kabilang direksyon at nag-flash ng headlights. Ano ang dapat mong bigyang-pansin sa sitwasyong ito?",
+"image": "making_a_right_turn_flasing_light.jpg",
+"items": [
+{
+"number": 1,
+"question": "Ang pag-flash ng headlights ng truck ay nangangahulugang ligtas nang lumiko agad, kaya dapat mong mabilis na tapusin ang pagliko pakanan upang hindi maantala ang truck.",
+"choices": ["Tama", "Mali"],
+"answer": "Mali",
+"explanation": "Ang pag-flash ng headlights ay hindi palaging garantiya na ganap na ligtas ang daan. Dapat mo pa ring kumpirmahin mismo ang kondisyon ng trapiko bago lumiko."
+},
+{
+"number": 2,
+"question": "Dahil natatakpan ng malaking truck ang bahagi ng iyong view, dapat mong maingat na tingnan ang crosswalk at sidewalk area sa kanang bahagi para sa mga pedestrian bago lumiko.",
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Ang malalaking sasakyan ay maaaring lumikha ng blind spots na nagtatago sa mga pedestrian o siklista. Palaging magbagal at kumpirmahin ang kaligtasan ng crosswalk bago magpatuloy."
+},
+{
+"number": 3,
+"question": "Dapat mong asahan na maaaring may motorsiklo o bisikleta na lumabas mula sa likod ng nakahintong truck at magpatuloy lamang sa pagliko matapos maingat na suriin ang natatagong bahagi.",
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Mahirap madalas makita ang mga motorsiklo at bisikleta kapag natatakpan ng malalaking sasakyan. Ang maingat na pagmamasid ay nakakatulong maiwasan ang banggaan habang lumiliko."
+}
+]
+},
+{
+"question_group": "92",
+"situation": "Ikaw ay nagmamaneho nang humigit-kumulang 20 kph sa mataong shopping street na may mga pedestrian, nakaparadang sasakyan, at posibleng panganib sa paligid. Ano ang dapat mong pag-ingatan sa sitwasyong ito?",
+"image": "shopping_district_safety.jpg",
+"items": [
+{
+"number": 1,
+"question": "Basta’t binabantayan mo ang brake lights ng sasakyan sa unahan at nagpapanatili ng bilis na kayang huminto agad, hindi na kailangang masyadong pansinin ang mga pedestrian sa paligid.",
+"choices": ["Tama", "Mali"],
+"answer": "Mali",
+"explanation": "Ang mga drayber sa shopping areas ay dapat patuloy na nagbabantay sa mga pedestrian, bisikleta, at biglaang panganib. Mapanganib ang pagtutok lamang sa sasakyan sa unahan."
+},
+{
+"number": 2,
+"question": "Dahil maaaring may hayop o pedestrian na biglang pumasok sa kalsada, dapat kang magpatuloy sa bilis na magbibigay-daan upang makahinto agad kung kinakailangan.",
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Ang shopping streets ay kadalasang may hindi inaasahang galaw mula sa tao at hayop. Ang pagpapanatili ng mababang bilis at pagiging alerto ay nakakatulong maiwasan ang aksidente."
+},
+{
+"number": 3,
+"question": "Dahil maaaring biglang huminto ang sasakyan sa unahan, dapat kang magbawas ng bilis, magpanatili ng sapat na distansya, at obserbahan din ang kondisyon sa mas malayong bahagi lampas sa sasakyang iyon.",
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Ang pagtingin lampas sa sasakyan sa unahan ay nagpapabuti sa hazard awareness at nagbibigay ng mas maraming oras upang makapag-react nang ligtas."
+}
+]
+},
+{
+"question_group": "93",
+"situation": "Nagsimulang umulan habang nagmamaneho ka nang humigit-kumulang 40 kph malapit sa isang interseksyon na may mga pedestrian sa paligid. Anong pag-iingat ang dapat mong gawin sa sitwasyong ito?",
+"image": "rainy_intersection_pedestrian.jpg",
+"items": [
+{
+"number": 1,
+"question": "Nagiging madulas ang kalsada kaagad pagkatapos magsimulang umulan, kaya dapat kang magbagal bago pumasok sa interseksyon at maghanda para sa mga pedestrian na maaaring biglang tumawid.",
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Pinapababa ng ulan ang tire grip at pinahahaba ang stopping distance. Dapat maagang magbawas ng bilis ang mga drayber at manatiling alerto sa mga pedestrian na maaari ring nabawasan ang visibility."
+},
+{
+"number": 2,
+"question": "Maaari kang magpatuloy sa parehong bilis basta naniniwala kang kaya mong huminto agad kung may pedestrian na biglang tumawid sa kalsada.",
+"choices": ["Tama", "Mali"],
+"answer": "Mali",
+"explanation": "Mapanganib ang pagpapanatili ng parehong bilis sa maulang kondisyon dahil ang basang kalsada ay nagpapababa sa bisa ng pagpreno at nagiging mas mahalaga ang reaction time."
+},
+{
+"number": 3,
+"question": "Kung may pedestrian na biglang lumabas mula sa kaliwang bahagi, katanggap-tanggap na bahagyang pumasok sa kasalubong na lane habang dumadaan sa interseksyon.",
+"choices": ["Tama", "Mali"],
+"answer": "Mali",
+"explanation": "Ang pagpasok sa opposing lane sa interseksyon ay nagdudulot ng malaking panganib ng banggaan. Sa halip, dapat magbagal ang mga drayber at panatilihin ang tamang lane position."
+}
+]
+},
+{
+"question_group": "94",
+"situation": "Ikaw ay nagmamaneho nang humigit-kumulang 30 kph sa makitid na kalsada kung saan may mga pedestrian sa unahan at may paparating na sasakyan mula sa kasalubong na direksyon. Ano ang dapat mong bigyang-pansin sa sitwasyong ito?",
+"image": "narrow_road_pedestrian_oncoming_car.jpg",
+"items": [
+{
+"number": 1,
+"question": "Dapat kang bumilis at lampasan ang mga pedestrian bago makarating sa iyong posisyon ang paparating na sasakyan.",
+"choices": ["Tama", "Mali"],
+"answer": "Mali",
+"explanation": "Mapanganib ang pagbilis sa makitid na lugar na may pedestrian at kasalubong na trapiko. Dapat unahin ng mga drayber ang kaligtasan at panatilihin ang tamang kontrol sa sasakyan."
+},
+{
+"number": 2,
+"question": "Kung tila hindi napapansin ng mga pedestrian ang iyong sasakyan, dapat kang bumusina at magpatuloy sa parehong bilis.",
+"choices": ["Tama", "Mali"],
+"answer": "Mali",
+"explanation": "Dapat magbawas ng bilis at maghanda sa paghinto ang mga drayber kapag may pedestrian sa paligid. Ang simpleng pagbubusina ay hindi garantiya ng kaligtasan."
+},
+{
+"number": 3,
+"question": "Dahil maaaring mas ligtas na hintaying makadaan muna ang kasalubong na sasakyan bago lampasan ang mga pedestrian, dapat kang tumabi at huminto kung kinakailangan.",
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Ang pagbibigay-daan at paghihintay kapag limitado ang espasyo ay nakakatulong maiwasan ang mapanganib na sitwasyon na may kinalaman sa mga pedestrian at paparating na sasakyan."
+}
+]
+},
+{
+"question_group": "95",
+"situation": "Ikaw ay nagmamaneho nang humigit-kumulang 80 kph sa main lane ng expressway habang may isa pang sasakyang papalapit mula sa acceleration lane. Ano ang dapat mong bantayan sa sitwasyong ito?",
+"image": "expressway_merging_vehicle.jpg",
+"items": [
+{
+"number": 1,
+"question": "Dahil maaaring biglang mag-merge ang sasakyan mula sa acceleration lane, dapat kang magbagal kung kinakailangan upang makatulong makagawa ng ligtas na merging space.",
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Dapat makipagtulungan ang mga drayber sa expressway sa mga sasakyang nagme-merge kung ligtas itong gawin. Ang pag-adjust ng bilis ay nakakatulong maiwasan ang mapanganib na sitwasyon."
+},
+{
+"number": 2,
+"question": "Kung ligtas matapos suriin ang mga salamin at nakapaligid na trapiko, maaari kang lumipat sa ibang lane upang magbigay ng mas maraming espasyo para sa sasakyang nagme-merge.",
+"choices": ["Tama", "Mali"],
+"answer": "Tama",
+"explanation": "Ang ligtas na paglipat ng lane ay maaaring makabawas sa conflict sa mga sasakyang pumapasok mula sa acceleration lane at mapabuti ang daloy ng trapiko."
+},
+{
+"number": 3,
+"question": "Hindi mo kailangang mag-ingat dahil palaging maghihintay ang mga sasakyang nasa acceleration lane at iiwasang mag-merge malapit sa iyong sasakyan.",
+"choices": ["Tama", "Mali"],
+"answer": "Mali",
+"explanation": "Hindi dapat ipagpalagay ng mga drayber na palaging predictable ang kilos ng ibang sasakyan. Mahalagang manatiling alerto sa mga biglaang pag-merge sa expressway."
+}
+]
+}
+  ]
+}
+]
+
+]

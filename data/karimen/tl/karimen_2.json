@@ -155,7 +155,7 @@
   },
   {
     "question": "23. Nakita ng isang drayber ang sign na ito at nauunawaan niyang ito ay bicycle crossing lane. Tama ba ito?",
-    "image": null,
+    "image": "bicycle.png",
     "choices": ["Tama", "Mali"],
     "answer": "Tama",
     "explanation": "Binabalaan ng sign na ito ang tungkol sa bicycle crossing area kaya dapat mag-ingat ang mga drayber sa mga bisikleta."
@@ -204,7 +204,7 @@
   },
   {
     "question": "30. Nakita ng isang drayber ang sign na ito at nauunawaan niyang maaari lamang dumaan sa pamamagitan ng pagliko pakaliwa o pakanan at hindi maaaring dumiretso. Tama ba ito?",
-    "image": "direction_left_and_right",
+    "image": "direction_left_and_right.jpg",
     "choices": ["Tama", "Mali"],
     "answer": "Tama",
     "explanation": "Nililimitahan ng sign na ito ang galaw sa mga ipinakitang direksyon lamang."
@@ -316,7 +316,7 @@
   },
   {
     "question": "46. Ang sign na ito ay nagpapahiwatig na ipinagbabawal ang pag-U-turn ng mga sasakyan. Tama ba ito?",
-    "image": "no_U_turn",
+    "image": "no_U_turn.jpg",
     "choices": ["Tama", "Mali"],
     "answer": "Tama",
     "explanation": "Ito ay regulatory sign na malinaw na nagbabawal sa U-turn."

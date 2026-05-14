@@ -155,7 +155,7 @@
   },
   {
     "question": "23. A driver sees this sign and understands that it indicates a bicycle crossing lane. Is this correct?",
-    "image": null,
+    "image": "bicycle.png",
     "choices": ["True", "False"],
     "answer": "True",
     "explanation": "This sign warns of a bicycle crossing area, meaning drivers should be cautious of bicycles."
@@ -204,7 +204,7 @@
   },
   {
     "question": "30. A driver sees this sign and understands that vehicles may proceed only by turning left or right, and cannot go straight. Is this correct?",
-    "image": "direction_left_and_right",
+    "image": "direction_left_and_right.jpg",
     "choices": ["True", "False"],
     "answer": "True",
     "explanation": "This sign restricts movement to the indicated directions only."
@@ -316,7 +316,7 @@
   },
   {
     "question": "46. This sign indicates that vehicles are prohibited from making a U-turn. Is this correct?",
-    "image": "no_U_turn",
+    "image": "no_U_turn.jpg",
     "choices": ["True", "False"],
     "answer": "True",
     "explanation": "his is a regulatory sign that clearly prohibits U-turns."
