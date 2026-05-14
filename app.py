@@ -4,12 +4,21 @@ import json
 import random
 import time
 
+app = Flask(__name__)
+
+app.secret_key = "secret123"
+
+app.config['TEMPLATES_AUTO_RELOAD'] = True
+app.config['DEBUG'] = True
+
+
 # ✅ LOAD QUESTIONS
-def load_questions(folder, filename):
+def load_questions(folder, language, filename):
 
     filepath = os.path.join(
         "data",
         folder,
+        language,
         filename
     )
 
@@ -32,17 +41,28 @@ def load_questions(folder, filename):
         return []
 
 
-app = Flask(__name__)
+# ✅ SET LANGUAGE
+@app.route('/set-language/<lang>')
+def set_language(lang):
 
-app.secret_key = "secret123"
+    allowed_languages = ['en', 'tl']
 
-app.config['TEMPLATES_AUTO_RELOAD'] = True
-app.config['DEBUG'] = True
+    if lang not in allowed_languages:
+        lang = 'en'
+
+    session['lang'] = lang
+
+    print("LANGUAGE SET:", lang)
+
+    return redirect('/menu')
 
 
 # ✅ MENU
 @app.route('/menu')
 def menu():
+
+    if 'lang' not in session:
+        session['lang'] = 'en'
 
     return render_template('menu.html')
 
@@ -59,6 +79,8 @@ def quit_exam():
 # ✅ START MODE
 @app.route('/start/<mode>/<test>')
 def start_mode(mode, test):
+
+    language = session.get('lang', 'en')
 
     # 📝 KARIMEN
     if mode == "karimen":
@@ -86,6 +108,7 @@ def start_mode(mode, test):
 
     questions = load_questions(
         folder,
+        language,
         f"{test}.json"
     )
 
@@ -161,8 +184,11 @@ def question():
     if 'mode' not in session:
         return redirect('/menu')
 
+    language = session.get('lang', 'en')
+
     questions = load_questions(
         session['folder'],
+        language,
         f"{session['questions_file']}.json"
     )
 
@@ -315,8 +341,11 @@ def result():
     if "reviewer" in session['mode']:
         return redirect('/menu')
 
+    language = session.get('lang', 'en')
+
     questions = load_questions(
         session['folder'],
+        language,
         f"{session['questions_file']}.json"
     )
 

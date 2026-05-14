@@ -6,14 +6,20 @@
 
     <title>Japan Driving Test Master</title>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
 
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
 
-    <style>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+<style>
 
 *{
     box-sizing:border-box;
@@ -70,6 +76,70 @@ body{
 
     box-shadow:
     0 8px 28px rgba(15,23,42,0.06);
+}
+
+/* 🌐 LANGUAGE SWITCHER */
+
+.language-switcher{
+
+    margin-top:16px;
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:10px;
+
+    flex-wrap:wrap;
+}
+
+.lang-btn{
+
+    text-decoration:none;
+
+    padding:9px 16px;
+
+    border-radius:999px;
+
+    font-size:14px;
+
+    font-weight:700;
+
+    color:#334155;
+
+    background:
+    rgba(255,255,255,0.72);
+
+    border:
+    1px solid rgba(255,255,255,0.6);
+
+    box-shadow:
+    0 4px 12px rgba(15,23,42,0.04);
+
+    transition:
+    all 0.15s ease;
+}
+
+.lang-btn:hover{
+
+    transform:translateY(-1px);
+
+    background:white;
+}
+
+.active-lang{
+
+    background:
+    linear-gradient(
+    135deg,
+    #3b82f6,
+    #2563eb
+    );
+
+    color:white;
+
+    box-shadow:
+    0 6px 18px rgba(37,99,235,0.22);
 }
 
 /* 📦 CONTAINER */
@@ -313,16 +383,49 @@ body{
 
         padding:13px 16px;
     }
+
+    .lang-btn{
+
+        font-size:13px;
+
+        padding:8px 14px;
+    }
 }
 
-    </style>
+</style>
 
 </head>
 
 <body>
 
 <div class="header">
+
     🇯🇵 Japan Driving Test Master
+
+    <div class="language-switcher">
+
+        <a href="/set-language/en"
+           class="lang-btn
+           {% if session.get('lang', 'en') == 'en' %}
+           active-lang
+           {% endif %}">
+
+           🇺🇸 English
+
+        </a>
+
+        <a href="/set-language/tl"
+           class="lang-btn
+           {% if session.get('lang', 'en') == 'tl' %}
+           active-lang
+           {% endif %}">
+
+           🇵🇭 Tagalog
+
+        </a>
+
+    </div>
+
 </div>
 
 <div class="container">

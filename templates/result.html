@@ -2,21 +2,30 @@
 <html>
 <head>
 
-    <link rel="apple-touch-icon" href="/static/images/icon.png?v=2">
+    <link rel="apple-touch-icon"
+          href="/static/images/icon.png?v=2">
 
     <title>Exam Result</title>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
 
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
 
     <!-- 📱 PWA -->
-    <link rel="manifest" href="{{ url_for('static', filename='manifest.json') }}">
+    <link rel="manifest"
+          href="{{ url_for('static', filename='manifest.json') }}">
 
-    <meta name="theme-color" content="#ffffff">
+    <meta name="theme-color"
+          content="#ffffff">
 
 <style>
 
@@ -67,12 +76,6 @@ body{
 
     text-align:center;
 
-    font-size:26px;
-
-    font-weight:800;
-
-    letter-spacing:-0.8px;
-
     background:
     rgba(255,255,255,0.82);
 
@@ -86,6 +89,30 @@ body{
     0 8px 30px rgba(15,23,42,0.06);
 
     color:#0f172a;
+}
+
+/* 🏁 TITLE */
+
+.header-title{
+
+    font-size:26px;
+
+    font-weight:800;
+
+    letter-spacing:-0.8px;
+}
+
+/* 🌐 LANGUAGE */
+
+.language-badge{
+
+    margin-top:8px;
+
+    font-size:13px;
+
+    font-weight:700;
+
+    color:#64748b;
 }
 
 /* 🎯 SCORE CARD */
@@ -122,6 +149,19 @@ body{
     margin-bottom:14px;
 
     color:#2563eb;
+}
+
+/* 📊 SCORE DETAILS */
+
+.score-details{
+
+    font-size:15px;
+
+    font-weight:600;
+
+    color:#64748b;
+
+    margin-bottom:12px;
 }
 
 /* ✅ PASS */
@@ -354,7 +394,7 @@ img{
 
 @media(max-width:600px){
 
-    .header{
+    .header-title{
 
         font-size:24px;
     }
@@ -384,7 +424,18 @@ img{
 <!-- 🔝 HEADER -->
 
 <div class="header">
-    🏁 Exam Result
+
+    <div class="header-title">
+        🏁 Exam Result
+    </div>
+
+    <div class="language-badge">
+
+        🌐 Language:
+        {{ session.get('lang', 'en').upper() }}
+
+    </div>
+
 </div>
 
 <div class="container">
@@ -395,6 +446,16 @@ img{
 
         <div class="score">
             {{ score }} / {{ total }}
+        </div>
+
+        <div class="score-details">
+
+            {% set percentage =
+            ((score / total) * 100) | round(1) %}
+
+            Score Percentage:
+            {{ percentage }}%
+
         </div>
 
         {% if passed %}
@@ -485,8 +546,11 @@ img{
 
     <!-- 🔁 RETRY -->
 
-    <a href="/menu" class="button">
+    <a href="/menu"
+       class="button">
+
         🔁 Try Again
+
     </a>
 
 </div>
