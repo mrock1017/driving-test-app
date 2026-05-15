@@ -1,0 +1,352 @@
+[
+  {
+    "question": "1. If the view is clear at a railroad crossing, you may pass through after only slowing down and checking both directions.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "Drivers are generally required to stop before crossing railroad tracks and confirm that no train is approaching. Simply slowing down is not enough in normal situations."
+  },
+  {
+    "question": "2. When pedestrians at a crosswalk stop walking after noticing your vehicle, you may continue driving at the same speed.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "Drivers must still slow down or stop for pedestrians near a crosswalk. Pedestrians may hesitate or stop temporarily, but they still have priority."
+  },
+  {
+    "question": "3. At a signalized intersection without a stop line, you should stop directly underneath the traffic signal.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "When no stop line is marked, vehicles should stop just before entering the intersection, not directly beneath the traffic light itself."
+  },
+  {
+    "question": "4. The hand signal shown from behind indicates that the driver intends to turn right, make a U-turn, or move into the lane on the right.",
+    "image": "hand_upward.jpg",
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "This hand signal does not indicate a right turn or lane change to the right. It is a left turn signal. Drivers must correctly understand hand signals to avoid confusion and accidents."
+  },
+  {
+    "question": "5. Even if no pedestrians are currently visible, drivers should still slow down and stay cautious when passing a safety zone.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Pedestrians may suddenly appear from behind obstacles or enter the roadway unexpectedly. Reducing speed near safety zones helps drivers react safely in time."
+  },
+  {
+    "question": "6. Vehicles other than buses and certain permitted vehicles are not allowed to use a bus-only lane, except when turning or when unavoidable conditions require it.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Bus priority lanes are mainly reserved for authorized vehicles to help public transportation move efficiently. Other vehicles may enter only in limited situations such as making a turn or avoiding an obstruction."
+  },
+  {
+    "question": "7. The displayed traffic sign means overtaking other vehicles is completely prohibited in that area.",
+    "image": "no_overtaking.jpg",
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "The sign specifically prohibits dangerous passing or overtaking in a certain manner, not every type of passing in all situations. Drivers should understand the exact meaning of road signs before acting."
+  },
+  {
+    "question": "8. On a road with three lanes going in the same direction, traffic flow is generally organized so that slower vehicles keep left while faster vehicles use lanes farther to the right.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Lane usage is designed to keep traffic moving smoothly and safely. Faster vehicles typically travel in the lanes farther to the right, while slower vehicles stay toward the left."
+  },
+  {
+    "question": "9. On a sharp left-hand curve marked with this road indication, drivers may partly use the opposite side of the roadway if necessary, while paying close attention to approaching traffic.",
+    "image": "curve.jpg",
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "On narrow or sharp curves, larger turning space may sometimes be needed. Drivers must still proceed carefully and watch for vehicles coming from the opposite direction."
+  },
+  {
+    "question": "10. Even when driving in a lane with traffic priority, you do not need to yield to an emergency vehicle approaching an intersection.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "Emergency vehicles always have priority when using sirens and warning lights. Drivers must safely give way regardless of lane designation or traffic priority."
+  },
+  {
+    "question": "11. You are allowed to cross a solid yellow lane marking whenever making a left or right turn.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "Solid yellow lines generally prohibit lane changes or crossing except in very limited situations. Drivers should follow the lane markings carefully to avoid unsafe maneuvers."
+  },
+  {
+    "question": "12. If a vehicle ahead is signaling to move into another lane for a turn, you should avoid blocking it unless avoiding the vehicle suddenly would require dangerous braking or steering.",
+    "image": "yokei.jpg",
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Drivers should cooperate with vehicles preparing to turn by allowing safe lane changes whenever possible. Smooth and predictable driving helps prevent collisions."
+  },
+  {
+    "question": "13. When preparing to turn left at an intersection, signaling about three seconds before turning is sufficient.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "Turn signals should be given early enough to clearly inform surrounding traffic of your intention. In many cases, signaling farther in advance than three seconds is required for safety."
+  },
+   {
+    "question": "14. When passing parked or stopped vehicles, drivers should slow down and stay alert for sudden hazards such as opening doors or pedestrians stepping into the roadway.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "People may unexpectedly appear from behind parked vehicles, and doors can open suddenly. Reducing speed gives drivers more time to react safely."
+  },
+  {
+    "question": "15. Even if you entered the intersection first to make a right turn, you must still avoid blocking oncoming vehicles traveling straight ahead.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Vehicles going straight generally have priority over turning vehicles. Drivers turning right must wait until it is safe and avoid interfering with opposing traffic."
+  },
+  {
+    "question": "16. Passing another vehicle at or near an intersection is allowed when traveling on a road that has traffic priority.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Certain exceptions allow overtaking near intersections on priority roads where traffic flow is controlled and visibility is sufficient. Drivers must still perform the maneuver safely."
+  },
+  {
+    "question": "17. The road marking shown indicates that parking is prohibited in that area.",
+    "image": "no_entry_zone.jpg",
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "The marking shown is a “No Entry Zone” area. Drivers should carefully distinguish between road markings related to stopping, parking, or traffic guidance."
+  },
+  {
+    "question": "18. Roads marked with the displayed sign are generally closed to regular vehicle traffic. However, a vehicle may enter at low speed to reach an authorized parking area if special permission has been granted by the police.",
+    "image": "reserved_for_pedestrians.jpg",
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "This type of road is mainly reserved for pedestrians and restricted access. Vehicles may only enter under specific authorized conditions and must proceed carefully."
+  },
+  {
+    "question": "19. During a collision, the lap portion of a seatbelt can place strong force on the stomach area, so it should be positioned low across the hips or pelvic bones.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "A properly worn seatbelt spreads impact force more safely across strong parts of the body. Wearing the lap belt too high can increase the risk of injury."
+  },
+  {
+    "question": "20. Drivers should operate vehicles with courtesy and cooperation toward pedestrians and other road users instead of behaving selfishly.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Safe driving depends not only on following rules but also on showing consideration to others. Cooperative driving helps reduce accidents and traffic problems."
+  },
+  {
+    "question": "21. Even if making a U-turn or crossing the road is legally allowed, you must not do so when it would interfere with surrounding traffic.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Drivers must always consider safety and traffic flow before performing a maneuver. Actions that obstruct or endanger other road users should be avoided."
+  },
+  {
+    "question": "22. Drivers are always required to slow down whenever traveling uphill.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "Reducing speed uphill is not automatically required in every situation. Drivers should adjust speed according to road, traffic, and vehicle conditions."
+  },
+  {
+    "question": "23. The sign shown warns drivers of a left curve ahead.",
+    "image": "right_direction.jpg",
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "The sign is not simply a warning sign for a curve. It is a mandatory direction sign instructing vehicles to proceed in the indicated direction."
+  },
+  {
+    "question": "24. Anyone who has held a standard or motorcycle license for less than one year is required to display a beginner driver mark.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "The beginner mark requirement applies to certain license holders, mainly standard vehicle drivers, and not automatically to all motorcycle license holders."
+  },
+  {
+    "question": "25. If a traffic signal changes to yellow when you are already too close to stop safely, you may continue through the intersection carefully.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Sudden hard braking can create danger for surrounding traffic. Drivers may proceed cautiously if stopping safely before the line is not possible."
+  },
+  {
+    "question": "26. After entering an intersection on a green light to make a right turn, I stopped inside the intersection because the separate right-turn signal was red.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "Drivers should follow the signal that applies before entering the intersection. Entering and stopping improperly inside the intersection can obstruct traffic and create danger."
+  },
+  {
+    "question": "27. The warning sign shown means the road ahead ends in a dead end.",
+    "image": "general_caution.jpg",
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "The sign is a general caution or warning sign used to alert drivers to possible hazards ahead. It does not specifically indicate a dead-end road."
+  },
+  {
+    "question": "28. During a left or right turn, the inside rear wheel travels farther outward than the inside front wheel.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "When turning, the rear wheels follow a path closer to the inside of the curve than the front wheels. Drivers should be aware of this difference, especially on narrow roads or corners."
+  },
+  {
+    "question": "29. In the illustrated situation, Vehicle A is not allowed to move into the opposite side of the roadway to pass Vehicle B.",
+    "image": "solid_white_centerline.jpg",
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "The solid white centerline indicates that crossing into the opposite lane is prohibited. Since Vehicle A would have to cross the centerline to pass Vehicle B, overtaking is not allowed in this situation."
+  },
+  {
+    "question": "30. Passing another vehicle is prohibited on steep downhill roads, but it may be permitted on steep uphill sections.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Steep downhill roads can reduce control and visibility, making overtaking especially dangerous. Certain uphill areas may allow overtaking if visibility and safety conditions are adequate."
+  },
+  {
+    "question": "31. Even if the posted speed limit is 40 km/h, operators of general motorized bicycles must not exceed 30 km/h.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Some vehicle categories have their own maximum legal speed limits regardless of the posted road limit. Drivers and riders must follow the rule that applies specifically to their vehicle type."
+  },
+  {
+    "question": "32. The hand signal shown from the police officer has the same meaning as a yellow traffic signal for vehicles facing the officer.",
+    "image": "police_arms_raised.jpg",
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "This gesture generally means that traffic should prepare to stop because the signal phase is changing. Vehicles that have not yet entered the intersection must stop, while vehicles already inside the intersection may continue carefully to clear it."
+  },
+  {
+    "question": "33. If no pedestrians are nearby, drivers do not need to stop briefly before crossing a sidewalk or side strip when entering or leaving a roadside area.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "Drivers are required to check safety carefully before crossing sidewalks or side strips, even if pedestrians are not immediately visible. A brief stop helps prevent accidents."
+  },
+  {
+    "question": "34. Whenever pedestrians are walking near the roadside, drivers must always travel at a very slow speed.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "Drivers should adjust speed according to the situation and maintain safe operation, but the law does not always require extremely slow driving in every case. Safety and proper caution are the key requirements."
+  },
+  {
+    "question": "35. Driving safely simply means traveling at the posted speed limit or the maximum legal speed.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "A safe speed depends on road, weather, traffic, and visibility conditions. In many situations, driving below the maximum speed limit is necessary for safety."
+  },
+  {
+    "question": "36. The road marking shown indicates that the section where U-turns were prohibited has ended.",
+    "image": "reversible_lane.jpg",
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "This pavement marking informs drivers that the no U-turn restriction no longer applies beyond that point. Drivers should still confirm that making a U-turn is safe and legal before turning."
+  },
+  {
+    "question": "37. On regular public roads, the standard maximum speed for passenger vehicles is 60 km/h unless another speed limit is posted.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "In Japan, ordinary roads generally have a default speed limit of 60 km/h for standard automobiles. However, drivers must always obey any posted signs showing a different limit."
+  },
+  {
+    "question": "38. When yielding to an emergency vehicle, drivers must always move to the left side of the road, including on one-way streets.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "On one-way roads in Japan, vehicles may move to either side if necessary to clear the path safely for emergency vehicles. The important rule is to avoid obstructing their passage."
+  },
+  {
+    "question": "39. The warning sign shown alerts drivers that the number of traffic lanes ahead will decrease.",
+    "image": "lane_decreased.jpg",
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "This sign warns that one lane will merge or disappear ahead, requiring drivers to prepare for lane reduction. Drivers should check surroundings early and merge safely."
+  },
+  {
+    "question": "40. Seatbelts are mandatory for front-seat passengers, but rear-seat passengers do not need to wear them.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "In Japan, passengers in both the front and rear seats are generally required to wear seatbelts. Wearing a seatbelt greatly reduces the risk of serious injury during a collision."
+  },
+  {
+    "question": "41. If your lane is blocked by a parked vehicle or another obstruction, you may slow down or stop and allow approaching vehicles to pass first before proceeding.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Drivers must avoid interfering with oncoming traffic when passing around obstacles. Yielding when necessary helps prevent collisions on narrow roads."
+  },
+  {
+    "question": "42. Normally, a person applying for a large vehicle license must be at least 21 years old and have several years of driving experience, but exceptions may apply for those who complete approved training programs.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Japan allows certain relaxed requirements for applicants who complete specially authorized driver training courses. These programs can shorten the required age and driving experience period."
+  },
+  {
+    "question": "43. When an emergency vehicle approaches away from an intersection, moving to the left side of the road may be enough, and stopping is not always required if the vehicle can pass safely.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Drivers should give way to emergency vehicles promptly and safely. Outside intersections, simply pulling over and slowing or stopping as needed is generally acceptable if it allows clear passage."
+  },
+  {
+    "question": "44. To legally operate a car or standard motorized bicycle on public roads, you must hold the proper license for that category of vehicle.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Drivers in Japan are required to possess a valid license matching the type of vehicle they are operating. Driving without the correct license is a traffic violation."
+  },
+  {
+    "question": "45. After completing a lane change, U-turn, or backing maneuver, you should keep your turn signal on for about three more seconds before turning it off.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "Turn signals should be turned off once the maneuver has been completed safely. Leaving the signal on unnecessarily may confuse other road users."
+  },
+  {
+    "question": "46. The mark shown means other vehicles are completely prohibited from overtaking or passing that regular passenger car.",
+    "image": "senior.jpg",
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "The Koreisha Mark identifies elderly drivers in Japan. Other drivers should show caution and consideration, but overtaking is not automatically prohibited as long as it can be done safely and legally."
+  },
+  {
+    "question": "47. When passing a school bus or kindergarten bus that is loading or unloading children, drivers must always stop completely before continuing.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "Drivers are required to slow down carefully and pay close attention to safety, but a full stop is not always mandatory unless conditions make it necessary. Children may move unpredictably near the vehicle."
+  },
+  {
+    "question": "48. Entering or driving through a pedestrian safety zone is allowed if there is no other possible route.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "Safety zones are reserved to protect pedestrians and must not be driven through except under very limited lawful circumstances. Drivers should avoid entering these areas to maintain pedestrian safety."
+  },
+  {
+    "question": "49. A person holding only a standard private driver’s license is not permitted to operate a taxi, even if the purpose is only to bring the vehicle to a repair garage.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "A non-professional license holder may drive a taxi vehicle if it is not being used for passenger transport service. The restriction mainly applies to operating it as a commercial passenger vehicle."
+  },
+  {
+    "question": "50. The sign shown indicates a center line, but the actual center line on the road may not always be located exactly in the middle of the roadway.",
+    "image": "chuo_sen.jpg",
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Road layouts can vary depending on lane width or road conditions, so the painted center line may be offset from the physical center of the road. Drivers should follow the marked lane boundaries carefully."
+  }
+]
