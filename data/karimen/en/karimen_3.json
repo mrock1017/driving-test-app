@@ -1,66 +1,66 @@
 [
   {
-    "question": "1. If the view is clear at a railroad crossing, you may pass through after only slowing down and checking both directions.",
+    "question": "1. When passing a streetcar, drivers should normally overtake from the left side, except where the streetcar tracks are positioned along the far left side of the road.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "In Japan, vehicles generally pass streetcars on the left. However, if the tracks run along the left edge of the roadway, passing on the right may be permitted depending on road conditions."
+  },
+  {
+    "question": "2. Whenever traveling beside a pedestrian, drivers are required to continue at a very slow speed at all times.",
     "image": null,
     "choices": ["True", "False"],
     "answer": "False",
-    "explanation": "Drivers are generally required to stop before crossing railroad tracks and confirm that no train is approaching. Simply slowing down is not enough in normal situations."
+    "explanation": "Drivers must slow down only when necessary to protect pedestrians and ensure safety. The required speed depends on the situation and available space."
   },
   {
-    "question": "2. When pedestrians at a crosswalk stop walking after noticing your vehicle, you may continue driving at the same speed.",
+    "question": "3. If lanes are separated by a yellow line, drivers are never allowed to cross it, even to make room for an approaching emergency vehicle.",
     "image": null,
     "choices": ["True", "False"],
     "answer": "False",
-    "explanation": "Drivers must still slow down or stop for pedestrians near a crosswalk. Pedestrians may hesitate or stop temporarily, but they still have priority."
+    "explanation": "Drivers may cross a yellow line when necessary to safely yield to an emergency vehicle. Giving priority to emergency vehicles is an important legal obligation."
   },
   {
-    "question": "3. At a signalized intersection without a stop line, you should stop directly underneath the traffic signal.",
-    "image": null,
+    "question": "4. The posted sign means that both ordinary automobiles and standard motorized bicycles may travel at exactly 50 km/h.",
+    "image": "50.jpg",
     "choices": ["True", "False"],
     "answer": "False",
-    "explanation": "When no stop line is marked, vehicles should stop just before entering the intersection, not directly beneath the traffic light itself."
+    "explanation": "While ordinary automobiles may follow the posted 50 km/h limit, some vehicle categories such as certain motorized bicycles may have lower legal maximum speeds. Drivers must follow the limit that applies to their vehicle type."
   },
   {
-    "question": "4. The hand signal shown from behind indicates that the driver intends to turn right, make a U-turn, or move into the lane on the right.",
-    "image": "hand_upward.jpg",
-    "choices": ["True", "False"],
-    "answer": "True",
-    "explanation": "This hand signal does not indicate a right turn or lane change to the right. It is a left turn signal. Drivers must correctly understand hand signals to avoid confusion and accidents."
-  },
-  {
-    "question": "5. Even if no pedestrians are currently visible, drivers should still slow down and stay cautious when passing a safety zone.",
+    "question": "5. A school or kindergarten bus stopping to load or unload children should use its hazard warning lights.",
     "image": null,
     "choices": ["True", "False"],
     "answer": "True",
-    "explanation": "Pedestrians may suddenly appear from behind obstacles or enter the roadway unexpectedly. Reducing speed near safety zones helps drivers react safely in time."
+    "explanation": "Hazard flashers help alert nearby drivers that children may be entering or leaving the vehicle. This encourages surrounding traffic to proceed carefully and cautiously."
   },
   {
-    "question": "6. Vehicles other than buses and certain permitted vehicles are not allowed to use a bus-only lane, except when turning or when unavoidable conditions require it.",
+    "question": "6. A special towing qualification is not required when pulling a disabled vehicle using a rope, tow truck, or similar equipment.",
     "image": null,
     "choices": ["True", "False"],
     "answer": "True",
-    "explanation": "Bus priority lanes are mainly reserved for authorized vehicles to help public transportation move efficiently. Other vehicles may enter only in limited situations such as making a turn or avoiding an obstruction."
+    "explanation": "In Japan, a separate towing license is generally unnecessary for simple towing of a disabled vehicle under certain legal conditions. However, proper safety measures and towing rules must still be followed."
   },
   {
-    "question": "7. The displayed traffic sign means overtaking other vehicles is completely prohibited in that area.",
-    "image": "no_overtaking.jpg",
+    "question": "7. Drivers should use hand signals or a light signal when slowing down or bringing the vehicle to a stop if necessary.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Signaling your intentions helps warn vehicles behind you and improves road safety. Hand or light signals may be used when normal brake or signal lights are unavailable or insufficient."
+  },
+  {
+    "question": "8. In an automatic transmission vehicle, you should keep the brake pedal pressed and place the selector in “P” or “N” while stopped, because the vehicle may move slightly due to creep phenomenon.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Automatic vehicles can slowly move forward even without pressing the accelerator because of engine idle power transfer. Keeping the brake applied helps prevent unintended movement."
+  },
+  {
+    "question": "9. The displayed symbol identifies a vehicle driven by an elderly motorist aged 60 or older.",
+    "image": "senior.jpg",
     "choices": ["True", "False"],
     "answer": "False",
-    "explanation": "The sign specifically prohibits dangerous passing or overtaking in a certain manner, not every type of passing in all situations. Drivers should understand the exact meaning of road signs before acting."
-  },
-  {
-    "question": "8. On a road with three lanes going in the same direction, traffic flow is generally organized so that slower vehicles keep left while faster vehicles use lanes farther to the right.",
-    "image": null,
-    "choices": ["True", "False"],
-    "answer": "True",
-    "explanation": "Lane usage is designed to keep traffic moving smoothly and safely. Faster vehicles typically travel in the lanes farther to the right, while slower vehicles stay toward the left."
-  },
-  {
-    "question": "9. On a sharp left-hand curve marked with this road indication, drivers may partly use the opposite side of the roadway if necessary, while paying close attention to approaching traffic.",
-    "image": "curve.jpg",
-    "choices": ["True", "False"],
-    "answer": "True",
-    "explanation": "On narrow or sharp curves, larger turning space may sometimes be needed. Drivers must still proceed carefully and watch for vehicles coming from the opposite direction."
+    "explanation": "This is Japan’s elderly driver mark, which is generally associated with drivers aged 70 and above, not 60. The mark encourages surrounding drivers to show extra caution and consideration."
   },
   {
     "question": "10. Even when driving in a lane with traffic priority, you do not need to yield to an emergency vehicle approaching an intersection.",

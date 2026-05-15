@@ -1036,7 +1036,7 @@
       "True",
       "False"
     ],
-    "answer": "True",
+    "answer": "False",
     "explanation": "This hand signal does not indicate a right turn or lane change to the right. It is a left turn signal. Drivers must correctly understand hand signals to avoid confusion and accidents."
   },
   {
@@ -1111,7 +1111,7 @@
   },
   {
     "question": "12. If a vehicle ahead is signaling to move into another lane for a turn, you should avoid blocking it unless avoiding the vehicle suddenly would require dangerous braking or steering.",
-    "image": "yokei.jpg",
+    "image": null,
     "choices": [
       "True",
       "False"

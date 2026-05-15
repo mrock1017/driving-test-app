@@ -1036,7 +1036,7 @@
       "Tama",
       "Mali"
     ],
-    "answer": "Tama",
+    "answer": "Mali",
     "explanation": "Ang hand signal na ito ay hindi nangangahulugang right turn o lane change sa kanan. Ito ay signal para sa pagliko pakaliwa. Dapat tama ang pag-unawa ng mga drayber sa hand signals upang maiwasan ang kalituhan at aksidente."
   },
   {
@@ -1111,7 +1111,7 @@
   },
   {
     "question": "12. Kung ang sasakyan sa unahan ay nagsi-signal upang lumipat ng lane para lumiko, dapat mong iwasang harangan ito maliban kung ang pag-iwas ay mangangailangan ng mapanganib na pagpreno o pagmaniobra.",
-    "image": "yokei.jpg",
+    "image": null,
     "choices": [
       "Tama",
       "Mali"
