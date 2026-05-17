@@ -331,7 +331,7 @@
   },
   {
     "question": "34. Sa ipinakitang traffic signal, maaaring lumiko pakanan ang passenger cars at large trucks ngunit ipinagbabawal sa mga motorsiklo ang pagliko pakanan.",
-    "image": "gree_arrow_proceed.jpg",
+    "image": "green_arrow_proceed.jpg",
     "choices": [
       "Tama",
       "Mali"
@@ -481,7 +481,7 @@
   },
   {
     "question": "49. Ang standard legal speed limit para sa mga sasakyan sa ordinary roads ay palaging 60 km/h.",
-    "image": "oikoshi_kinshi.jpg",
+    "image": null,
     "choices": [
       "Tama",
       "Mali"

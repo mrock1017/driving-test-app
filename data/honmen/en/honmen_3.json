@@ -331,7 +331,7 @@
   },
   {
     "question": "34. At the traffic signal shown, passenger cars and large trucks may make a right turn, but motorcycles are prohibited from turning right.",
-    "image": "gree_arrow_proceed.jpg",
+    "image": "green_arrow_proceed.jpg",
     "choices": [
       "True",
       "False"
@@ -481,7 +481,7 @@
   },
   {
     "question": "49. The standard legal speed limit for automobiles on ordinary roads is always 60 km/h.",
-    "image": "oikoshi_kinshi.jpg",
+    "image": null,
     "choices": [
       "True",
       "False"
