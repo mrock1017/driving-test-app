@@ -521,6 +521,39 @@ def result():
 
     passed = score >= passing_score
 
+    # 📊 SCORE HISTORY
+
+    if 'score_history' not in session:
+
+        session['score_history'] = []
+
+    history_item = {
+
+        "mode": session['mode'],
+
+        "score": score,
+
+        "total": total_questions,
+
+        "passed": passed,
+
+        "time": time.strftime(
+            "%Y-%m-%d %H:%M"
+        )
+    }
+
+    session['score_history'].append(
+        history_item
+    )
+
+    # 🧹 KEEP ONLY LATEST 20 ATTEMPTS
+
+    session['score_history'] = (
+        session['score_history'][-20:]
+    )
+
+    session.modified = True
+
     return render_template(
         'result.html',
         score=score,
@@ -529,7 +562,20 @@ def result():
         passed=passed,
         passing_score=passing_score
     )
+    
+# 📊 SCORE HISTORY
+@app.route('/history')
+def history():
 
+    history = session.get(
+        'score_history',
+        []
+    )
+
+    return render_template(
+        'history.html',
+        history=history[::-1]
+    )
 
 # ✅ SHOW REAL ERRORS
 @app.errorhandler(Exception)

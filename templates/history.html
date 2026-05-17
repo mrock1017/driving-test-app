@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Score History</title>
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+
+    margin:0;
+
+    font-family:'Inter', sans-serif;
+
+    background:
+    linear-gradient(
+    180deg,
+    #f8fbff 0%,
+    #eef4fb 60%,
+    #edf2f7 100%
+    );
+
+    color:#0f172a;
+
+    min-height:100vh;
+}
+
+/* 🔝 HEADER */
+
+.header{
+
+    position:sticky;
+    top:0;
+
+    padding:22px;
+
+    text-align:center;
+
+    font-size:28px;
+
+    font-weight:800;
+
+    background:
+    rgba(255,255,255,0.82);
+
+    backdrop-filter:blur(16px);
+
+    border-bottom-left-radius:24px;
+    border-bottom-right-radius:24px;
+
+    box-shadow:
+    0 8px 28px rgba(15,23,42,0.06);
+}
+
+/* 📦 CONTAINER */
+
+.container{
+
+    max-width:560px;
+
+    margin:auto;
+
+    padding:18px 16px 40px;
+}
+
+/* 📊 CARD */
+
+.card{
+
+    background:white;
+
+    border-radius:26px;
+
+    padding:22px;
+
+    margin-bottom:18px;
+
+    border:
+    1px solid #e2e8f0;
+
+    box-shadow:
+    0 8px 24px rgba(15,23,42,0.05);
+}
+
+/* 🏷 MODE */
+
+.mode{
+
+    font-size:14px;
+
+    font-weight:700;
+
+    color:#2563eb;
+
+    margin-bottom:10px;
+}
+
+/* 🎯 SCORE */
+
+.score{
+
+    font-size:34px;
+
+    font-weight:800;
+
+    margin-bottom:10px;
+
+    color:#0f172a;
+}
+
+/* 🕒 TIME */
+
+.time{
+
+    color:#64748b;
+
+    font-size:14px;
+
+    margin-top:10px;
+}
+
+/* ✅ PASS */
+
+.pass{
+
+    display:inline-block;
+
+    padding:8px 14px;
+
+    border-radius:999px;
+
+    background:#ecfdf3;
+
+    color:#16a34a;
+
+    font-weight:700;
+
+    border:
+    1px solid #bbf7d0;
+}
+
+/* ❌ FAIL */
+
+.fail{
+
+    display:inline-block;
+
+    padding:8px 14px;
+
+    border-radius:999px;
+
+    background:#fef2f2;
+
+    color:#dc2626;
+
+    font-weight:700;
+
+    border:
+    1px solid #fecaca;
+}
+
+/* 🔙 BUTTON */
+
+.back-btn{
+
+    display:block;
+
+    text-align:center;
+
+    text-decoration:none;
+
+    padding:16px;
+
+    border-radius:20px;
+
+    background:
+    linear-gradient(
+    135deg,
+    #3b82f6,
+    #2563eb
+    );
+
+    color:white;
+
+    font-weight:800;
+
+    margin-top:24px;
+
+    box-shadow:
+    0 10px 22px rgba(37,99,235,0.18);
+}
+
+.empty{
+
+    text-align:center;
+
+    padding:40px 20px;
+
+    color:#64748b;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="header">
+    📊 Score History
+</div>
+
+<div class="container">
+
+    {% if history %}
+
+        {% for item in history %}
+
+            <div class="card">
+
+                <div class="mode">
+                    {{ item.mode.upper() }}
+                </div>
+
+                <div class="score">
+                    {{ item.score }} / {{ item.total }}
+                </div>
+
+                {% if item.passed %}
+
+                    <div class="pass">
+                        PASS ✅
+                    </div>
+
+                {% else %}
+
+                    <div class="fail">
+                        FAIL ❌
+                    </div>
+
+                {% endif %}
+
+                <div class="time">
+                    {{ item.time }}
+                </div>
+
+            </div>
+
+        {% endfor %}
+
+    {% else %}
+
+        <div class="card empty">
+
+            No exam history yet.
+
+        </div>
+
+    {% endif %}
+
+    <a href="/menu"
+       class="back-btn">
+
+       🔙 Back to Menu
+
+    </a>
+
+</div>
+
+</body>
+</html>
