@@ -1,0 +1,2702 @@
+[
+  {
+    "question": "1. Habang naghahanda na lumiko pakaliwa sa interseksyon, napansin kong may bisikletang mabilis na papalapit mula sa likod sa kaliwang bahagi. Dahil inisip kong maaaring maging mapanganib, bumusina ako at agad na lumiko pakaliwa sa unahan ng bisikleta.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Hindi dapat pilitin ng mga drayber ang pagliko pakaliwa sa harap ng papalapit na bisikleta kahit pa bumusina sila. Mas ligtas na bumagal o maghintay hanggang makalampas nang ligtas ang bisikleta bago lumiko."
+  },
+  {
+    "question": "2. Sa interseksyon kung saan nakapaskil ang sumusunod na sign, maaaring maingat na magpatuloy ang mga drayber sa ipinakitang direksyon matapos suriin ang mga pedestrian at nakapaligid na trapiko kahit pula o dilaw ang signal.",
+    "image": "turn_left.jpg",
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang ilang traffic signs ay nagpapahintulot ng paggalaw sa tinukoy na direksyon kahit taliwas sa normal na signal. Gayunpaman, kailangan pa ring unahin ng mga drayber ang kaligtasan at magbigay-daan sa mga pedestrian at ibang gumagamit ng kalsada."
+  },
+  {
+    "question": "3. Ang traffic sign na ipinapakita sa ibaba ay nangangahulugang hindi kinakailangang magsagawa ng two-stage right turn ang ordinaryong moped sa interseksyon.",
+    "image": "no_moped.jpg",
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ipinapakita ng sign na ito ang eksepsyon sa karaniwang two-stage right turn rule para sa ordinaryong moped. Maaaring magsagawa ng normal na pagliko pakanan ang rider habang maingat pa ring sinusuri ang kondisyon ng trapiko."
+  },
+  {
+    "question": "4. Ang taong nagtutulak ng motorsiklo habang nakapatay ang makina ay karaniwang itinuturing na pedestrian ayon sa traffic regulations.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Kapag itinutulak lamang ang motorsiklo sa halip na normal na minamaneho, ang taong humahawak dito ay karaniwang tinatratong katulad ng pedestrian. Dapat nilang sundin ang mga patakarang naaangkop sa pedestrian kung kinakailangan."
+  },
+  {
+    "question": "5. Kung malambot o parang lumulubog ang brake pedal kapag madiing inapakan, nangangahulugan ito na napakahusay ng paggana ng braking system.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ang malambot o parang lumulubog na brake pedal ay maaaring senyales ng hangin sa brake lines o ibang problema sa preno. Dapat agad na ipa-inspeksyon ang sasakyan upang matiyak ang ligtas na paggamit."
+  },
+  {
+    "question": "6. Kung mawalan ng preno habang pababa ng matarik na kalsada at hindi mapahinto ng engine braking o parking brake ang sasakyan, maaaring makatulong ang paggamit ng graba sa gilid ng kalsada, harang, o kanal upang pabagalin ang sasakyan at maiwasan ang mas malubhang aksidente.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Sa emergency na brake failure, ang pagpapabagal gamit ang ligtas na hadlang sa gilid ng kalsada ay maaaring makatulong upang mabawasan ang tindi ng aksidente. Ang pagprotekta sa buhay ng tao ang pinakamahalagang prayoridad."
+  },
+  {
+    "question": "7. Ang mga kalsadang eksklusibong nakalaan para sa pedestrian ay maaaring malayang gamitin ng light special vehicles, mopeds, at compact vehicles anumang oras.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Karaniwang ipinagbabawal ang pagpasok ng sasakyan sa pedestrian-only roads maliban kung may espesyal na pahintulot o partikular na eksepsyon. Dapat maingat na sundin ng mga drayber ang mga nakapaskil na restriksyon."
+  },
+  {
+    "question": "8. Kapag nagmamaneho ng motorsiklo, dapat ilagay ang mga paa sa foot pegs habang nakaturo palabas ang mga daliri sa paa.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Dapat nakaturo paloob o diretso ang mga daliri sa paa ng motorcycle rider upang mapanatili ang tamang balanse at kontrol. Ang pagturo palabas ng mga daliri ay maaaring magpataas ng panganib na tumama ang paa sa kalsada o mga hadlang."
+  },
+  {
+    "question": "9. Dapat magsuot ang motorcycle riders ng damit na nakababawas sa nakalantad na bahagi ng katawan kahit mainit ang panahon.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Nakakatulong ang protective clothing upang mabawasan ang pinsala kapag naaksidente. Kahit tag-init, dapat magsuot ang rider ng gear na nagpoprotekta sa mga braso, binti, at ibang nakalantad na bahagi ng katawan."
+  },
+  {
+    "question": "10. Dahil mahalagang dokumento ang vehicle inspection certificate, katanggap-tanggap na photocopy lamang ang itago sa loob ng sasakyan habang ligtas na nakaimbak ang orihinal sa bahay.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Dapat dalhin ang orihinal na vehicle inspection certificate sa loob ng sasakyan habang nagmamaneho. Hindi sapat ayon sa batas ang photocopy lamang."
+  },
+  {
+    "question": "11. Ang traffic sign na ito ay nangangahulugang ipinagbabawal ang pagpasok ng sasakyan mula sa direksyong ito, bagaman maaaring pumasok ang sasakyan mula sa ibang pasukan lampas sa sign.",
+    "image": "no_entry.jpg",
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ipinagbabawal lamang ng “Do Not Enter” sign ang pagpasok mula sa direksyong nakaharap dito. Maaari pa ring legal na makapasok ang mga sasakyan mula sa ibang pinapayagang direksyon."
+  },
+  {
+    "question": "12. Ipinagbabawal ang paghinto o pagparada sa loob ng 5 metro mula sa gilid ng bicycle crossing area.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Hindi dapat huminto o magparada ang mga sasakyan nang masyadong malapit sa bicycle crossing dahil maaari nitong hadlangan ang visibility at magdulot ng panganib sa mga siklista at ibang gumagamit ng kalsada."
+  },
+  {
+    "question": "13. Sa kaliwang bahagi ng safety zone at sa loob ng 10 metro mula sa gilid nito, ipinagbabawal ang pagparada ngunit pinapayagan ang pansamantalang paghinto.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Parehong ipinagbabawal ang pagparada at paghinto malapit sa safety zones sa itinakdang distansya. Nakakatulong ang mga restriksyong ito upang maprotektahan ang mga pedestrian at mapanatili ang ligtas na visibility sa paligid ng lugar."
+  },
+  {
+    "question": "14. Kapag papalapit sa sumusunod na warning sign, kinakailangang bumusina ang mga drayber habang nagpapatuloy sa lugar.",
+    "image": "winding_road.jpg",
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ang ganitong warning sign ay nagbibigay lamang ng babala tungkol sa kondisyon ng kalsada sa unahan, tulad ng mga kurbada o paikot-ikot na daan. Hindi kinakailangang bumusina maliban kung may hiwalay na horn sign o emergency situation."
+  },
+  {
+    "question": "15. Kapag nagbibigay-daan sa emergency vehicle, dapat palaging lumipat ang mga drayber sa kaliwang bahagi ng kalsada, kabilang na sa one-way streets.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Sa one-way roads, maaaring lumipat ang mga sasakyan sa alinmang bahagi kung kinakailangan upang ligtas na makadaan ang emergency vehicle. Dapat piliin ng mga drayber ang pinakaligtas na posisyon depende sa kondisyon ng kalsada."
+  },
+  {
+    "question": "16. Ang taong may ordinary vehicle license ay pinapayagang magmaneho ng light special vehicles at standard mopeds bukod sa regular na sasakyan.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "False",
+    "explanation": "Ang regular na driver’s license sa Japan ay karaniwang nagpapahintulot sa may hawak nito na magmaneho ng ordinaryong sasakyan pati na rin ng ilang mas maliliit na uri ng sasakyan, kabilang ang general mopeds at light special-purpose vehicles."
+  },
+  {
+    "question": "17. Kapag may ganitong road marking, maaaring malayang magpalit ng lane ang mga drayber patawid sa center line ayon sa direksyong ipinapakita ng arrow.",
+    "image": "cannot_change_to_center.jpg",
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Karaniwang ipinagbabawal ang pagtawid sa solid center line kahit pa tila ipinapakita ng larawan ang paggalaw patawid ng lane. Dapat sundin ng mga drayber ang lane markings at iwasang tawirin ang mga linyang naglilimita sa lane changes."
+  },
+  {
+    "question": "18. Kinakailangang gumamit ang motorcycle riders ng helmet na may aprubadong safety standards tulad ng PS(C) mark o JIS certification mark.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang mga aprubadong helmet ay dinisenyo upang matugunan ang safety standards na nakakatulong mabawasan ang pinsala sa ulo kapag naaksidente. Dapat palaging gumamit ang riders ng tamang certified protective gear."
+  },
+  {
+    "question": "19. Ang pananatiling nakahinto sa no-parking area nang humigit-kumulang limang minuto habang naghihintay sa loob ng sasakyan para sa kaibigan ay maaari pa ring maituring na parking violation.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Kahit manatili ang drayber sa loob ng sasakyan, ang paghihintay sa tao sa ipinagbabawal na lugar ay maaaring maituring na pagparada. Nakatuon ang traffic rules sa layunin at haba ng paghinto."
+  },
+  {
+    "question": "20. Dapat ayusin ang driver’s seat upang tuluyang tuwid ang binti ng drayber kapag lubusang inapakan ang clutch pedal.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Dapat bahagyang nakabaluktot pa rin ang tuhod ng drayber kapag lubusang inapakan ang clutch. Ang posisyong ito ay nagbibigay ng mas mabuting kontrol at nakababawas ng pagkapagod habang nagmamaneho."
+  },
+  {
+    "question": "21. Ang berdeng traffic light ay hindi awtomatikong nangangahulugan ng ligtas na pagdaan, kaya dapat iwasan ng mga drayber ang pagpasok sa interseksyon, crosswalk, o railroad crossing kung maaaring maipit doon ang sasakyan dahil sa trapiko.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Dapat tiyakin ng mga drayber na may sapat na espasyo sa unahan bago magpatuloy kahit berde ang ilaw. Ang pagharang sa interseksyon o crossing ay nagdudulot ng panganib at sagabal sa daloy ng trapiko."
+  },
+  {
+    "question": "22. Kapag humihinto o nagpaparada sa kalsadang may sidewalk, inirerekomendang ilagay ang bahagi ng gulong ng sasakyan sa sidewalk upang magkaroon ng mas maraming espasyo sa kalsada.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Hindi dapat pumasok o humarang ang mga sasakyan sa sidewalk maliban kung partikular na pinapayagan. Ang sidewalks ay pangunahing nakalaan para sa paggamit at kaligtasan ng mga pedestrian."
+  },
+  {
+    "question": "23. Para sa pagtukoy ng passenger capacity ng sasakyan, ang dalawang batang wala pang 12 taong gulang ay binibilang bilang isang adult.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Sa Japan, karaniwang tatlong batang wala pang 12 taong gulang ang binibilang bilang dalawang adult sa pagkalkula ng passenger capacity. Hindi dapat lumampas ang mga drayber sa legal seating limit."
+  },
+  {
+    "question": "24. Habang dumaraan sa kurbada, magkaiba ang dinadaanan ng harap at likurang gulong anuman ang bilis ng sasakyan.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Dahil hindi eksaktong magkapareho ng linya ang dinaanan ng harap at likurang gulong habang lumiliko, kailangang magbigay ng sapat na espasyo ang mga drayber lalo na sa makikitid na kalsada."
+  },
+  {
+    "question": "25. Ang padalos-dalos o walang konsiderasyong pagmamaneho ay hindi lamang nakaaabala sa ibang gumagamit ng kalsada kundi maaari ring maging direktang sanhi ng traffic accidents.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang hindi ligtas na pagmamaneho ay nagpapataas ng stress at kalituhan sa mga drayber at pedestrian. Pinapataas din nito ang panganib ng banggaan at mapanganib na sitwasyon sa kalsada."
+  },
+  {
+    "question": "26. Dapat hawakan ng motorcycle rider ang handlebars habang bahagyang nakayuko pababa ang mga pulsuhan at mahigpit ngunit magaan ang pagkakahawak.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang tamang paghawak sa handlebars ay nakakatulong upang mapanatili ng rider ang mas magandang balanse at mas maayos na kontrol sa motorsiklo. Ang sobrang higpit na paghawak ay maaaring makabawas sa flexibility ng pagmamaniobra."
+  },
+  {
+    "question": "27. Bago lumiko pakanan, dapat palaging ilapit ng mga drayber ang sasakyan sa gitna ng kalsada kaagad bago pumasok sa interseksyon.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Dapat iposisyon ng mga drayber ang sasakyan nang naaayon sa road markings, lane structure, at kondisyon ng trapiko. Ang hindi kinakailangang paglapit sa gitna ay maaaring magdulot ng panganib o kalituhan."
+  },
+  {
+    "question": "28. Ang lakas ng banggaan sa konkretong pader habang tumatakbo sa 60 km/h ay halos katumbas ng pagkahulog mula sa gusaling may limang palapag.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang mga banggaang may mataas na bilis ay lumilikha ng napakalakas na impact force na maaaring magdulot ng malubhang pinsala o kamatayan. Ipinapakita ng paghahambing na ito ang kahalagahan ng ligtas na bilis sa pagmamaneho."
+  },
+  {
+    "question": "29. Dapat palaging magpakita ng konsiderasyon ang mga drayber sa mga pedestrian at ibang motorista habang pinananatili ang maayos na pakikitungo sa kalsada.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang ligtas na daloy ng trapiko ay nakadepende sa respeto at kooperasyon ng lahat ng gumagamit ng kalsada. Ang maingat at may konsiderasyong pagmamaneho ay nakakatulong maiwasan ang aksidente at problema sa trapiko."
+  },
+  {
+    "question": "30. Dahil mas mahina ang visibility sa gabi, maaaring mas huli mapansin ng mga drayber ang mga pedestrian o bisikleta kumpara sa daytime, kaya mas ligtas na bawasan ang bilis kapag nagmamaneho sa gabi.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Nililimitahan ng dilim ang visibility at nagpapahirap sa pagtantiya ng distansya at galaw. Ang mas mabagal na pagmamaneho sa gabi ay nagbibigay ng mas maraming oras upang makapag-react sa hindi inaasahang panganib."
+  },
+  {
+    "question": "31. Ang sumusunod na warning sign ay nagbababala sa mga drayber tungkol sa lugar sa unahan kung saan maaaring magkaroon ng pagbagsak ng bato o landslide, kaya kinakailangan ang dagdag na pag-iingat habang nagmamaneho.",
+    "image": "falling_rocks_hazzard_sign.jpg",
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ginagamit ang warning sign na ito sa mabundok o hindi matatag na lugar kung saan maaaring bumagsak ang mga bato sa kalsada. Dapat magbawas ng bilis at manatiling alerto ang mga drayber kapag dumadaan sa ganitong lugar."
+  },
+  {
+    "question": "32. Dahil mas malamang na mangyari ang aksidente pagkatapos ng paglubog ng araw, dapat maagang buksan ng mga drayber ang headlights upang mas madaling makita ng ibang tao ang kanilang sasakyan.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Hindi lamang tumutulong ang headlights upang makita ng drayber ang daan sa unahan kundi ginagawa rin nitong mas nakikita ang sasakyan ng mga pedestrian at ibang motorista. Ang maagang paggamit ng headlights ay nagpapabuti sa pangkalahatang kaligtasan sa kalsada."
+  },
+  {
+    "question": "33. Bago magmaneho sa expressway, dapat maingat na suriin ng mga drayber ang fuel, engine oil, at coolant levels upang makatulong maiwasan ang aberya o aksidente habang bumibiyahe.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang mechanical trouble sa expressway ay maaaring maging napakapanganib dahil sa high-speed traffic. Ang tamang inspeksyon ng sasakyan ay nakababawas sa panganib ng hindi inaasahang problema habang nagmamaneho."
+  },
+  {
+    "question": "34. Bago pumasok sa expressway, ipinapayo na kumuha ng traffic at weather information sa pamamagitan ng radio broadcasts o Japan Traffic Information Center.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang pagsuri nang maaga sa kondisyon ng kalsada, aksidente, o posibleng pagsasara ng daan ay nakakatulong upang makapagplano nang ligtas at maiwasan ang mapanganib o matrapik na ruta."
+  },
+  {
+    "question": "35. Upang maging ligtas na drayber, mas mabuting magmaneho nang maingat at may kaunting pagkakamali kaysa magmadali at makagawa ng mas maraming driving errors.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Mas nakadepende ang ligtas na pagmamaneho sa tamang paghusga at maingat na operasyon kaysa sa bilis. Ang kalmado at maayos na pagmamaneho ay lubos na nakababawas sa posibilidad ng aksidente."
+  },
+  {
+    "question": "36. Kapag dumaraan sa blind curve pakaliwa, mas ligtas na magmaneho malapit sa center line upang mas mapabuti ang pagtingin sa kasalubong na trapiko.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Dapat iwasan ng mga drayber ang paglapit nang sobra sa center line sa blind curves dahil maaaring biglang may sumulpot na kasalubong na sasakyan. Ang pagpapanatili ng ligtas na lane position ay nakakatulong maiwasan ang head-on collision."
+  },
+  {
+    "question": "37. Ang rider na wala pang isang taon na may hawak na standard motorcycle license ay ipinagbabawal magsakay ng pasahero sa ordinaryong kalsada.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Sa Japan, kailangang matugunan ng motorcycle riders ang ilang experience requirements bago magsakay ng pasahero. Layunin ng mga patakarang ito na mabawasan ang aksidente na kinasasangkutan ng mga bagitong rider."
+  },
+  {
+    "question": "38. Kung ma-stranded ang sasakyan sa railroad tracks, dapat agad na balaan ng drayber ang railway personnel at subukang alisin kaagad ang sasakyan mula sa crossing.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang tumirik na sasakyan sa train tracks ay nagdudulot ng napakapanganib na sitwasyon. Ang agarang aksyon ay maaaring makatulong maiwasan ang seryosong banggaan sa paparating na tren."
+  },
+  {
+    "question": "39. Hindi dapat magpalit ng lane ang mga drayber kung mapipilitan nitong magpreno nang biglaan o umiwas ang mga sasakyang nasa likuran upang maiwasan ang panganib.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang ligtas na lane change ay nangangailangan ng sapat na espasyo at tamang timing. Ang biglaang pagpalit ng lane na nakaaabala sa nakapaligid na trapiko ay lubhang nagpapataas ng panganib ng aksidente."
+  },
+  {
+    "question": "40. Kung may paparating na emergency vehicle habang ikaw ay malapit o nasa loob ng interseksyon, kailangan mong agad huminto eksakto sa iyong kinalalagyan.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Dapat iwasan ng mga drayber ang paghinto sa paraang makahaharang sa interseksyon. Sa halip, dapat silang ligtas na gumilid at magbigay-daan nang maayos upang makadaan ang emergency vehicle."
+  },
+  {
+    "question": "41. Sa kalsadang may sumusunod na priority road sign, pinapayagan ang mga drayber na lampasan ang ibang sasakyan o standard moped malapit o sa loob ng interseksyon sa pamamagitan ng pagpalit ng lane.",
+    "image": "big_arrow_road_sign.jpg",
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Sa priority roads, maaaring hindi pareho ang pagpapatupad ng ilang overtaking restrictions malapit sa interseksyon kumpara sa ordinaryong kalsada. Gayunpaman, kailangan pa ring tiyakin ng mga drayber na ligtas gawin ang pag-overtake."
+  },
+  {
+    "question": "42. Pinapayagang gumamit ng expressway ang passenger vehicles habang humihila ng sirang sasakyan gamit ang lubid o cable.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Karaniwang ipinagbabawal sa expressways ang paghila ng sasakyan gamit ang lubid o cable dahil mapanganib ito sa mataas na bilis. Kinakailangan ang mas ligtas na towing methods gamit ang tamang kagamitan."
+  },
+  {
+    "question": "43. Maaaring mag-overtake ang drayber sa pamamagitan ng bahagyang pagtawid sa center line papunta sa kasalubong na lane kung sapat ang lapad ng kalsada, malinaw ang visibility, at hindi maaapektuhan ang kasalubong na trapiko.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Kahit mukhang sapat ang visibility at lapad ng kalsada, maaaring ipinagbabawal pa rin ang pag-overtake sa pamamagitan ng pagpasok sa kasalubong na lane depende sa road markings at traffic rules. Dapat maingat na sundin ng mga drayber ang lane restrictions."
+  },
+  {
+    "question": "44. Kapag hinihila ng tow truck ang sirang sasakyan habang nakataas ang harap o likurang gulong nito mula sa kalsada, hindi na kinakailangang may drayber sa loob ng sirang sasakyan.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Sa ganitong uri ng towing method, kontrolado ng tow truck ang paggalaw ng sirang sasakyan. Kaya karaniwang hindi na kailangan ang drayber sa loob nito."
+  },
+  {
+    "question": "45. Ipinagbabawal ang parehong pagparada at pansamantalang paghinto sa loob ng 5 metro mula sa road construction area.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Karaniwang ipinagbabawal ang pagparada malapit sa road construction zones, ngunit maaaring pahintulutan ang pansamantalang paghinto depende sa sitwasyon at kung hindi ito nakahahadlang sa trapiko o safety operations."
+  },
+  {
+    "question": "46. Ang medium-sized trucks ay palaging limitado sa maximum speed na 80 km/h habang nagmamaneho sa main lanes ng national expressways.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ang speed limits para sa medium-sized trucks ay maaaring magbago depende sa road signs, kondisyon ng kalsada, at legal regulations. Dapat sundin ng mga drayber ang nakapaskil na speed limit para sa partikular na bahagi ng kalsada."
+  },
+  {
+    "question": "47. Pinapayagan ang may-ari o manager ng garage na magparada ng sasakyan kahit nasa loob ng 3 metro mula sa entrance ng garage.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ang pagparada malapit sa entrance ng garage ay maaaring makahadlang sa pagpasok at paglabas ng sasakyan kahit para pa sa may-ari o manager. Karaniwang ipinagbabawal ng traffic regulations ang pagparada nang masyadong malapit sa mga entrance at exit."
+  },
+  {
+    "question": "48. Pinapayagan ang pagparada sa kaliwang bahagi ng kalsada basta may natitirang hindi bababa sa 2.5 metro na espasyo sa kanang bahagi ng nakaparadang sasakyan.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Sa ordinaryong kalsada sa Japan, karaniwang kinakailangang magparada ang mga sasakyan sa kaliwang gilid kasunod ng direksyon ng trapiko, at dapat pa ring sundin ang partikular na clearance rules. Ang simpleng pag-iwan ng 2.5 metro na espasyo ay hindi awtomatikong ginagawang legal ang pagparada."
+  },
+  {
+    "question": "49. Sa mga kalsadang may sumusunod na sign, pinapayagan ang pag-overtake basta hindi tatawid ang drayber sa center line papunta sa opposite lane.",
+    "image": "oikoshi_kinshi.jpg",
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ipinapahiwatig ng sign na ito na ipinagbabawal mismo ang pag-overtake, hindi lamang ang pagtawid sa center line. Hindi dapat lampasan ng mga drayber ang ibang sasakyan sa itinakdang lugar."
+  },
+  {
+    "question": "50. Upang makumpirma na maayos na gumagana ang backup lights, ilagay ang transmission sa reverse gear at suriin kung umiilaw ang reverse lamps.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang reverse lights ay mahalagang safety feature dahil nagbibigay-babala ito sa mga tao at sasakyan sa paligid na umaatras ang kotse. Ang regular na inspeksyon ay nakakatulong upang matiyak ang ligtas na paggamit."
+  },
+  {
+    "question": "51. Kapag nagpepreno ng motorsiklo, dapat gamitin ng rider ang parehong front at rear brakes habang pinananatiling stable ang motorsiklo at tuwid ang handlebars.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang sabay na paggamit ng dalawang preno ay nagpapabuti sa balanse at kontrol habang humihinto. Ang biglaang pagtagilid o hindi kinakailangang paggalaw ng handlebars habang nagpepreno ay maaaring magpataas ng panganib ng pagdulas."
+  },
+  {
+    "question": "52. Ang sinumang may hawak ng standard vehicle license o motorcycle license nang mas mababa sa isang taon ay kailangang maglagay ng beginner driver mark.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ang requirement para sa beginner mark ay pangunahing naaangkop sa mga bagong may hawak ng ordinary vehicle license. Ang mga motorcycle license holders lamang ay hindi awtomatikong kinakailangang maglagay nito."
+  },
+  {
+    "question": "53. Sa right-hand-drive vehicle, ang hand signal para sa pagliko pakaliwa ay ginagawa sa pamamagitan ng pag-unat ng kanang braso palabas at pagtiklop ng bisig pataas nang patayo.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang hand signal na ito ay kinikilalang indikasyon ng pagliko pakaliwa. Maaaring gumamit ng hand signals ang mga drayber kung hindi maayos na magamit ang signal lamps."
+  },
+  {
+    "question": "54. Ipinagbabawal ang paghinto o pagparada sa expressway sa lahat ng sitwasyon.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Bagama’t karaniwang ipinagbabawal ang paghinto sa expressways, may mga exception para sa emergency situations tulad ng pagkasira ng sasakyan, aksidente, o utos ng pulis."
+  },
+  {
+    "question": "55. Maaaring mapabuti ng motorcycle riders ang stability at balanse sa pamamagitan ng mahigpit na pag-ipit sa fuel tank gamit ang parehong tuhod habang nagmamaneho.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang pag-ipit sa tangke gamit ang mga tuhod ay nakakatulong upang maging stable ang postura ng rider at mabawasan ang hindi kinakailangang paggalaw ng upper body. Pinapabuti nito ang pangkalahatang kontrol sa motorsiklo."
+  },
+  {
+    "question": "56. Matapos pumasok sa interseksyon sa berdeng ilaw upang lumiko pakanan, huminto ako sa loob ng interseksyon dahil naging pula ang hiwalay na right-turn signal.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Kapag nakapasok na nang legal ang drayber sa interseksyon, dapat niyang ligtas na tapusin ang pagliko kung posible. Ang hindi kinakailangang paghinto sa loob ng interseksyon ay maaaring makahadlang sa trapiko at magdulot ng panganib."
+  },
+  {
+    "question": "57. Kapag nagmamaneho sa gabi sa mataong city area na may mabigat na trapiko, katanggap-tanggap na panatilihing nakabukas palagi ang high beams upang mapabuti ang visibility.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Maaaring pansamantalang mabulag o ma-distract ng high beams ang ibang drayber at pedestrian sa mataong lugar. Dapat gumamit ng low beams kapag may malapit na ibang trapiko."
+  },
+  {
+    "question": "58. Bago paandarin ang automatic transmission vehicle, dapat apakan ng drayber ang brake pedal upang kumpirmahin ang posisyon nito at tingnang mabuti ang lokasyon ng accelerator pedal.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang pagkumpirma sa posisyon ng mga pedal bago paandarin ang makina ay nakakatulong maiwasan ang aksidenteng pag-arangkada. Isa itong mahalagang safety habit lalo na sa automatic vehicles."
+  },
+  {
+    "question": "59. Sa signal-controlled intersection na walang stop line, dapat huminto ang mga drayber direkta sa ilalim ng traffic signal.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Kapag walang stop line, dapat huminto ang mga drayber sa posisyong ligtas nilang makukumpirma ang kondisyon ng trapiko at hindi makahahadlang sa mga pedestrian o cross traffic. Hindi palaging tamang huminto direkta sa ilalim ng signal."
+  },
+  {
+    "question": "60. Kapag pumapasok sa main lane ng expressway mula sa acceleration lane, dapat bigyang-pansin ng mga drayber ang mga sasakyang papalapit mula sa likuran sa main traffic lane.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang mga sasakyang nasa main lane ay karaniwang may prayoridad. Kailangang maingat na tantiyahin ng mga drayber na papasok sa expressway ang bilis at posisyon ng nakapaligid na trapiko."
+  },
+  {
+    "question": "61. Sa maulang panahon, humahaba ang reaction distance ngunit nananatiling pareho ang braking distance gaya sa tuyong kalsada.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ang basang kalsada ay nagpapababa sa tire grip at lubhang nagpapahaba sa braking distance. Parehong maaaring humaba ang reaction distance at stopping distance sa maulang kondisyon."
+  },
+  {
+    "question": "62. Dapat ayusin ng mga drayber ang kanilang bilis at panatilihin ang sapat na following distance dahil hindi agad makahihinto ang sasakyan sa emergency.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang ligtas na following distance ay nagbibigay ng sapat na oras upang makapag-react at makapagpreno nang ligtas. Ang pagdikit nang sobra sa sinusundang sasakyan ay nagpapataas ng panganib ng rear-end collision."
+  },
+  {
+    "question": "63. Pinapayagan ang pagparada o paghinto sa loob ng 10 metro mula sa bus stop sign kapag hindi aktibong bumibiyahe ang mga bus sa lugar.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang mga restriksyon malapit sa bus stops ay pangunahing naaangkop sa operating hours kapag ginagamit ng mga bus ang hintuan. Dapat pa ring kumpirmahin ng mga drayber ang mga nakapaskil na regulasyon at iwasang hadlangan ang pagpasok ng bus."
+  },
+  {
+    "question": "64. Ang center dividing line sa kalsada ay hindi kinakailangang eksaktong nasa gitna ng daan sa lahat ng lugar.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Maaaring magkaiba ang road structure at lane widths depende sa kondisyon ng trapiko o disenyo ng kalsada. Dahil dito, maaaring minsan ay hindi eksaktong nasa gitna ang center line."
+  },
+  {
+    "question": "65. Ang warning sign na ipinapakita sa ibaba ay nangangahulugang mababawasan ang bilang ng traffic lanes sa unahan.",
+    "image": "lane_decreased.jpg",
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Binabalaan ng sign na ito ang mga drayber na magsasama o liliit ang bilang ng lanes sa unahan. Dapat maingat na suriin ang nakapaligid na trapiko at ligtas na mag-merge."
+  },
+  {
+    "question": "66. Kapag may mga pedestrian na naglalakad sa gilid ng kalsada, dapat palaging magbawas ng bilis ang mga drayber anuman ang kondisyon ng trapiko o kalsada.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Dapat magbawas ng bilis ang mga drayber kapag kinakailangan upang matiyak ang kaligtasan ng pedestrian, ngunit ang pag-aadjust ng bilis ay nakadepende sa partikular na sitwasyon ng kalsada at trapiko. Ang mahalaga ay ligtas na pagmamaneho at pag-iwas sa panganib."
+  },
+  {
+    "question": "67. Kung may siklistang tumatawid sa bicycle crossing zone, dapat huminto ang mga drayber sa paraang makapagpapatuloy nang ligtas ang siklista nang walang hindi kinakailangang abala.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Kinakailangang magbigay ng tamang prayoridad ang mga drayber sa mga siklista sa designated crossings. Ang maayos at ligtas na paghinto ay nakakatulong maiwasan ang kalituhan at aksidente."
+  },
+  {
+    "question": "68. Mas nagiging epektibo ang engine braking kapag nagmamaneho sa mas mataas na gear kaysa sa mababang gear.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Mas malakas ang epekto ng engine braking sa mababang gears dahil mas mataas ang RPM ng makina. Madalas gumamit ng mababang gear ang mga drayber sa pababang kalsada upang ligtas na makontrol ang bilis."
+  },
+  {
+    "question": "69. Sa interseksyon na ipinapakita sa illustration, parehong limitado ang visibility nina Vehicle A at Vehicle B dahil sa mga hadlang sa paligid. Kaya dapat magbawas ng bilis at maingat na magpatuloy ang bawat drayber.",
+    "image": "mitoshi_with_shop.jpg",
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Kapag mahina ang visibility sa interseksyon, maaaring hindi agad mapansin ng mga drayber ang papalapit na sasakyan, bisikleta, o pedestrian. Ang pagbabawas ng bilis ay nakakatulong maiwasan ang banggaan at nagbibigay ng mas maraming oras upang makapag-react."
+  },
+  {
+    "question": "70. Kapag may angkas sa motorsiklo, mas ligtas na gumamit ng standard o large motorcycle na may sapat na laki ng passenger seat.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang motorsiklong dinisenyo para sa dalawang sakay ay nagbibigay ng mas magandang balanse, stability, at comfort. Ang tamang upuan ay nagpapabuti rin sa kaligtasan ng rider at pasahero."
+  },
+  {
+    "question": "71. Ang sumusunod na warning sign ay nagsasabi sa mga drayber na mag-ingat nang husto dahil maaaring biglang tumawid o lumabas ang mga bata sa kalapit na kalsada.",
+    "image": "childrens_crossing.jpg",
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Karaniwang inilalagay ang sign na ito malapit sa mga paaralan, parke, o residential areas kung saan maaaring biglang lumitaw ang mga bata. Dapat magbawas ng bilis at manatiling alerto ang mga drayber sa biglaang paggalaw."
+  },
+  {
+    "question": "72. Ipinagbabawal ang pagsakay ng pasahero sa standard motorcycles na walang passenger seat, pati na rin sa ordinary mopeds.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang mga sasakyang dinisenyo lamang para sa isang rider ay hindi dapat gamitin para sa double riding. Kinakailangan ang tamang passenger equipment upang matiyak ang ligtas at legal na paggamit."
+  },
+  {
+    "question": "73. Maaaring maging napakadulas ng mga kalsada kapag may snowfall o icy weather, kaya dapat gumamit ang mga drayber ng tire chains, winter tires, o studless snow tires upang mabawasan ang panganib ng pagdulas.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang snow at yelo ay lubhang nagpapababa sa tire grip at braking performance. Ang tamang winter equipment ay nakakatulong mapabuti ang traction at kontrol ng sasakyan."
+  },
+  {
+    "question": "74. Kapag ang nakahintong sasakyan ay magsisimulang umalis mula sa kaliwang bahagi ng kalsada, maaaring gamitin ng drayber ang parehong turn signal na ginagamit kapag gagalaw o lilipat ng lane pakakanan.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang sasakyang aalis mula sa kaliwang curb o roadside ay kailangang magbigay ng signal bilang indikasyon ng pagpasok nito sa trapiko. Binabalaan nito ang mga kalapit na drayber at nakakatulong maiwasan ang banggaan."
+  },
+  {
+    "question": "75. Ang school bus na humihinto upang magsakay o magbaba ng kindergarten o school children ay dapat magbukas ng hazard warning lights.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang hazard lights ay nagbibigay-babala sa nakapaligid na trapiko na maaaring may mga batang sumasakay o bumababa sa sasakyan. Dapat magpatuloy nang maingat at manatiling alerto ang mga drayber sa paligid."
+  },
+  {
+    "question": "76. Kung mahina ang visibility sa railroad crossing, dapat magpatuloy ang mga drayber nang mas malapit sa riles hanggang makumpirma nilang walang paparating na tren.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Dapat huminto ang mga drayber sa ligtas na posisyon at maingat na tingnan ang magkabilang direksyon bago tumawid. Ang paglapit nang sobra sa riles nang walang tamang kumpirmasyon ay maaaring maging lubhang mapanganib."
+  },
+  {
+    "question": "77. Sa kalsadang may ganitong speed limit sign, ipinagbabawal sa mga drayber ang pagpapatakbo ng sasakyan nang lampas sa 30 km/h.",
+    "image": "30_sign.jpg",
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang regulatory speed limit signs ay nagpapakita ng pinakamataas na legal na bilis na pinapayagan sa bahaging iyon ng kalsada. Dapat ayusin ng mga drayber ang kanilang bilis upang manatili sa loob ng itinakdang limitasyon."
+  },
+  {
+    "question": "78. Ang small-sized vehicles, ordinary mopeds, at standard motorcycles na may makinang 125cc o mas mababa ay hindi pinapayagang dumaan sa mga kalsadang may ipinakitang sign.",
+    "image": "designated_lane_automobiles.jpg",
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang ilang kalsada ay may restriksyon para sa maliliit na sasakyan at motorsiklong mababa ang engine capacity para sa kaligtasan at maayos na daloy ng trapiko. Dapat sundin ng mga drayber ang mga nakapaskil na restriksyon sa sasakyan."
+  },
+  {
+    "question": "79. Sa kalsadang may sidewalk sa kaliwang bahagi, maaaring huminto ngunit hindi maaaring magparada ang mga drayber sa kanan ng ibang nakahinto o nakaparadang sasakyan.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ang paghinto sa tabi ng ibang nakaparadang sasakyan ay maaaring makahadlang sa trapiko at magdulot ng panganib sa ibang road users. Ang double parking ay karaniwang ipinagbabawal maliban sa mga espesyal na sitwasyon."
+  },
+  {
+    "question": "80. Sa mga lugar na may ganitong sign, kinakailangang bumusina ang mga drayber habang dumadaan sa lugar.",
+    "image": "horn_sign.jpg",
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang sign na ito ay nagpapahiwatig ng mandatory horn zone, na karaniwang ginagamit sa mga lugar na mahina ang visibility tulad ng mountain roads o blind curves. Ang pagbubusina ay nakakatulong upang mabigyan ng babala ang mga paparating na sasakyan o pedestrian."
+  },
+  {
+    "question": "81. Bagama’t kinakailangang magsuot ng seatbelt ang mga nasa front seat, hindi legal na kinakailangan ang paggamit nito ng mga pasaherong nasa likod.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Kinakailangan din ang pagsusuot ng seatbelt para sa mga pasaherong nasa rear seat. Ang paggamit ng seatbelt ay lubhang nagpapababa ng panganib ng malubhang pinsala sa oras ng aksidente."
+  },
+  {
+    "question": "82. Kapag tumutulong sa mga nasugatan matapos ang traffic accident, dapat magbigay ng first aid kung posible, ngunit ang mga taong may pinaghihinalaang head injury ay dapat lamang galawin kung talagang kinakailangan.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang maling paggalaw sa taong may head o neck injury ay maaaring magpalala sa kondisyon. Dapat maingat na ibigay ang emergency assistance hanggang dumating ang propesyonal na tulong."
+  },
+  {
+    "question": "83. Kahit pareho ang bilis ng takbo, kadalasang pakiramdam ng mga drayber ay mas mabagal silang umaandar sa gabi kaysa sa daytime.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang mahinang visibility at kakulangan ng visual references sa gabi ay maaaring makaapekto sa pakiramdam ng drayber tungkol sa bilis. Maaari itong magdulot ng hindi sinasadyang mas mabilis na pagmamaneho kaysa sa inaakala."
+  },
+  {
+    "question": "84. Kapag nagkaroon ng malakas na lindol habang nagmamaneho, dapat agad na tumabi sa kaliwang bahagi ng kalsada, isara ang lahat ng bintana, at i-lock ang mga pinto upang maiwasan ang pagnanakaw.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Sa panahon ng malakas na lindol, dapat iwasan ng mga drayber ang biglaang pagpreno at ligtas na huminto matapos suriin ang paligid. Ang prayoridad ay pagiging handa sa paglikas at pagbibigay-daan sa emergency access, hindi ang pag-iwas sa pagnanakaw."
+  },
+  {
+    "question": "85. Kapag humihila ng disabled vehicle, sapat na ang pagkabit ng pulang tela na may sukat na hindi bababa sa 30 cm² sa towing rope.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ang kinakailangang warning cloth o marker na nakakabit sa towing rope ay dapat tumugon sa partikular na visibility standards at karaniwang mas malaki kaysa 30 cm². Ang tamang marka ay nakakatulong upang mapansin ng ibang drayber ang tow connection."
+  },
+  {
+    "question": "86. Ang daily vehicle inspections ay mandatory para sa operators o users ng taxis, rental vehicles, large private vehicles, heavy special vehicles, at iba pang business-use automobiles.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang regular na inspeksyon bago bumiyahe ay nakakatulong upang matukoy ang mechanical problems bago gamitin ang sasakyan. Pinapabuti nito ang kaligtasan at nakakatulong maiwasan ang aksidenteng dulot ng sira ng sasakyan."
+  },
+  {
+    "question": "87. Maaaring maging unstable at tumaob ang sasakyan kung masyadong mataas o hindi pantay ang pagkakalagay ng kargamento. Para sa kaligtasan, dapat panatilihing mababa hangga’t maaari ang mga bagahe at pantay ang distribusyon sa magkabilang panig.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang mataas o hindi pantay na kargamento ay nagpapataas sa center of gravity ng sasakyan, kaya mas madaling mawalan ng balanse. Ang maayos na pagkakabalanse ng kargamento ay nagpapabuti ng stability sa pagliko at biglaang paggalaw."
+  },
+  {
+    "question": "88. Kapag nakatanggap ang iyong sasakyan ng illegally parked vehicle notice, kailangan mong tumawag ng pulis upang personal na alisin ang sticker matapos ilipat ang sasakyan sa legal parking area.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Maaaring alisin mismo ng drayber o user ng sasakyan ang notice matapos maayos na asikasuhin ang violation. Hindi kailangang hintayin pa ang pulis upang alisin ito."
+  },
+  {
+    "question": "89. Kapag nakakaharap ng kasalubong na sasakyang may malalakas na headlights sa gabi, mas ligtas na ituon nang bahagya ang tingin sa kaliwang bahagi ng kalsada habang maingat na nagpapatuloy.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang pagtingin nang bahagya sa kaliwa ay nakakatulong mabawasan ang glare mula sa headlights ng kasalubong na sasakyan at mapanatili ang awareness sa iyong lane position. Ang direktang pagtitig sa maliwanag na ilaw ay maaaring pansamantalang magpababa ng visibility."
+  },
+  {
+    "question": "90. Ang nakapaskil na sign ay nangangahulugang ipinagbabawal ang parehong paghinto at pagparada sa itinakdang lugar.",
+    "image": "time_restriction.jpg",
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ang sign na ito ay nagpapahiwatig ng “No Parking,” na pinapayagan pa rin ang pansamantalang paghinto sa ilang kondisyon. Ibang sign ang ginagamit kapag parehong ipinagbabawal ang paghinto at pagparada."
+  },
+  {
+    "question": "1. Kung ikaw ay inaantok o nagkaroon ng mechanical issue ang iyong sasakyan habang gumagamit ng expressway, pinapayagan kang huminto o magparada nang malaya sa shoulder area.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ang paghinto o pagparada sa shoulder ng expressway ay pinapayagan lamang sa panahon ng emergency o hindi maiiwasang sitwasyon. Karaniwang dapat gumamit ang mga drayber ng service areas o parking areas para magpahinga."
+  },
+  {
+    "question": "2. Kapag ang isang kalsada ay diretso ang daan sa isang interseksyon bilang pangunahing ruta ng trapiko, ang mga sasakyang bumibiyahe sa kalsadang iyon ay karaniwang may prayoridad kaysa sa mga sasakyang pumapasok mula sa side roads.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang mga priority road ay ginawa upang mapanatili ang maayos na daloy ng trapiko. Ang mga drayber na nanggagaling sa mas maliliit na kalsada ay karaniwang kailangang magbigay-daan sa mga sasakyang nasa pangunahing kalsada."
+  },
+  {
+    "question": "3. Ang ipinakitang traffic sign ay nangangahulugang ang ilang motorized bicycles ay kailangang lumiko pakanan sa parehong paraan ng ordinaryong sasakyan.",
+    "image": "no_moped.jpg",
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Sa ilang interseksyon, kinakailangan sa general motorized bicycles na gamitin ang automobile-style right turn sa halip na two-step turn. Dapat sundin ng mga drayber at rider ang mga nakapaskil na traffic instructions."
+  },
+  {
+    "question": "4. Hangga’t may kargang dala ang truck, kahit gaano karaming tao ay maaaring sumakay sa cargo bed habang bumibiyahe.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Karaniwang ipinagbabawal ang pagsakay ng mga pasahero sa truck bed maliban sa limitadong sitwasyong pinapayagan ng batas. Ang cargo area ay hindi idinisenyo upang ligtas na magsakay ng pasahero."
+  },
+  {
+    "question": "5. Sa expressway, ang slow lane ay hindi itinuturing na bahagi ng pangunahing traffic lanes.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang pangunahing through lanes ay para sa tuloy-tuloy na biyahe, habang ang slow lane ay pangunahing ginagamit ng mababagal na sasakyan at merging traffic."
+  },
+  {
+    "question": "6. Ipinagbabawal ang paghinto o pagparada sa matarik na paakyat at pati na rin sa matarik na pababang bahagi ng kalsada.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang mga sasakyang nakaparada sa matatarik na lugar ay maaaring magdulot ng panganib dahil sa mahinang visibility o posibleng paggalaw ng sasakyan. Ang mga lugar na ito ay itinuturing na mapanganib para sa paghinto."
+  },
+  {
+    "question": "7. Kapag lalabas sa expressway, dapat kang lubusang magbagal bago pumasok sa deceleration lane.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Dapat munang pumasok ang mga drayber sa deceleration lane bago unti-unting magbawas ng bilis doon. Ang masyadong maagang pagbagal sa pangunahing lane ay maaaring makaabala sa daloy ng trapiko at magdulot ng panganib."
+  },
+  {
+    "question": "8. Ipinagbabawal ang paghinto o pagparada sa pedestrian crossings, bicycle crossings, at sa loob ng 5 metro bago o pagkatapos ng mga lugar na ito.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang mga restriksyong ito ay tumutulong mapanatili ang visibility at maprotektahan ang mga pedestrian at siklista. Ang mga sasakyang humihinto nang masyadong malapit sa crossings ay maaaring humarang sa paningin at magpataas ng panganib ng aksidente."
+  },
+  {
+    "question": "9. Upang maiwasan ang pag-skid sa nagyeyelong kalsada, dapat ikabit ang tire chains sa non-driving wheels ng sasakyan.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ang tire chains ay karaniwang dapat ikabit sa driving wheels upang mapabuti ang traction at kontrol ng sasakyan. Ang pagkabit nito sa non-driving wheels ay nagpapababa ng bisa nito."
+  },
+  {
+    "question": "10. Ang pag-overtake sa loob ng tunnel ay palaging ipinagbabawal kahit na pinapayagan ng lane markings ang maraming traffic lanes.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ang pag-overtake ay hindi awtomatikong ipinagbabawal sa lahat ng tunnel. Sa mga tunnel na may malinaw na lane markings at ligtas na kondisyon ng trapiko, maaaring pahintulutan ito maliban kung ipinagbabawal ng signs o road markings."
+  },
+  {
+    "question": "11. Kapag nagmamaneho sa gabi sa mataong urban area, katanggap-tanggap na gumamit ng high beams nang tuloy-tuloy upang mapabuti ang visibility.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ang high beams ay maaaring pansamantalang makasilaw sa ibang drayber at pedestrian sa mga lugar na matao ang trapiko. Karaniwang dapat gamitin ang low beams sa urban environments."
+  },
+  {
+    "question": "12. Bago magpalit ng lane, mag-U-turn, o umatras, dapat mo munang suriin ang mga salamin at nakapaligid na trapiko para sa kaligtasan, pagkatapos ay ipagpatuloy ang signal hanggang matapos ang maneuver.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Dapat kumpirmahin ng mga drayber ang kaligtasan bago igalaw ang sasakyan at gamitin nang tama ang turn signals upang ipaalam sa ibang road users. Ang pagpapanatiling naka-on ng signal habang ginagawa ang maneuver ay nakakatulong maiwasan ang kalituhan at aksidente."
+  },
+  {
+    "question": "13. Ang ipinakitang road marking ay nangangahulugang ipinagbabawal sa mga bisikleta ang pumasok sa intersection area.",
+    "image": "no_entry_of_bicycles_into_the_intersections.jpg",
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang mga road markings at simbolo ay ginagamit upang kontrolin ang galaw ng bisikleta sa mga interseksyon. Dapat sundin ng mga siklista ang mga marking na ito upang mapanatili ang ligtas na daloy ng trapiko."
+  },
+  {
+    "question": "14. Kapag may horn sign sa lugar na ito, kinakailangang bumusina ang mga drayber bilang babala dahil maaaring may nakatagong panganib tulad ng blind curves o limitadong visibility.",
+    "image": "horn_sign.jpg",
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang horn signs ay karaniwang inilalagay sa mga lugar na mahina ang visibility at mahalagang mabigyan ng babala ang kalapit na trapiko para sa kaligtasan. Dapat gamitin ng mga drayber ang busina nang tama sa mga itinalagang lugar na iyon."
+  },
+  {
+    "question": "15. Kapag nagbibigay-daan sa emergency vehicle, dapat laging lumipat ang mga drayber sa kaliwang bahagi ng kalsada, kabilang na sa one-way streets.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Sa one-way roads, maaaring lumipat ang mga sasakyan sa alinmang bahagi kung kinakailangan upang ligtas na makadaan ang emergency vehicle. Dapat piliin ng mga drayber ang pinakaligtas na posisyon depende sa kondisyon ng kalsada."
+  },
+  {
+    "question": "16. Ang pagkapagod ng drayber ay pangunahing nakakaapekto lamang sa konsentrasyon at may kaunting epekto sa kakayahang magpreno o mabilis na magmaniobra sa mapanganib na sitwasyon.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ang pagkapagod ay nagpapabagal sa reaction time at nagpapababa sa physical coordination. Ang mga pagod na drayber ay maaaring hindi makapagpreno, makapagmaniobra, o makapag-react nang sapat na mabilis upang maiwasan ang aksidente."
+  },
+  {
+    "question": "17. Sa ipinakitang traffic signal, maaaring dumiretso o lumiko pakaliwa ang mga sasakyan, ngunit ang mga sasakyang liliko pakanan ay kailangang maghintay sa stop line hanggang lumabas ang right-turn arrow signal.",
+    "image": "arrow_direction_light.jpg",
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Kinokontrol ng arrow signals kung aling direksyon ang pinapayagan sa interseksyon. Ang mga drayber na liliko pakanan ay kailangang manatiling nakahinto hanggang payagan ng dedicated signal ang paggalaw."
+  },
+  {
+    "question": "18. Dahil ang general motorized bicycles ay karaniwang bumibiyahe malapit sa kaliwang bahagi ng kalsada, kailangan din nilang mag-overtake ng ibang sasakyan mula lamang sa kaliwang bahagi.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ang mga patakaran sa pag-overtake ay nakadepende sa traffic laws at kondisyon ng kalsada, hindi lamang sa normal na lane position. Ang pagdaan sa maling bahagi ay maaaring magdulot ng mapanganib na sitwasyon."
+  },
+  {
+    "question": "19. Kahit na manu-manong nagdidirekta ng trapiko ang police officer sa panahon ng traffic congestion o emergency, maaaring balewalain ng mga drayber ang utos ng officer basta’t sumusunod sila sa normal na traffic laws.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Dapat sundin ang mga utos ng police officers na nagdidirekta ng trapiko. Ang kanilang mga direksyon ay may mas mataas na prioridad kaysa sa ordinaryong traffic rules at signals kapag sila ang kumokontrol sa daloy ng trapiko."
+  },
+  {
+    "question": "20. Maaaring mapabuti ng motorcycle rider ang stability at balanse sa pamamagitan ng mahigpit na pagkapit sa fuel tank gamit ang parehong tuhod habang nagmamaneho.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang pagkapit sa tank gamit ang mga tuhod ay nakakatulong upang maging stable ang katawan ng rider at mapabuti ang kontrol sa motorsiklo. Nakakabawas din ito sa hindi kinakailangang paggalaw ng upper body."
+  },
+  {
+    "question": "21. Ang light adaptation ay tumutukoy sa agarang pag-adjust ng mata kapag lumilipat mula sa maliwanag na lugar patungo sa madilim na kapaligiran nang walang pansamantalang pagkawala ng visibility.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Kapag pumapasok sa madilim na lugar mula sa maliwanag na lugar, pansamantalang humihina ang paningin bago unti-unting mag-adjust. Dapat mag-ingat ang mga drayber dahil maaaring bumaba ang visibility sa panahong ito."
+  },
+  {
+    "question": "22. Ang hydroplaning ay nangyayari kapag naiipon ang tubig sa pagitan ng mga gulong at road surface sa panahon ng ulan, na nagiging sanhi ng pagkawala ng traction at pagbawas ng steering o braking control.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Mapanganib ang hydroplaning dahil maaaring mawalan ng tamang kapit ang mga gulong sa kalsada. Ang pagbabawas ng bilis sa basang kondisyon ay nakakatulong mabawasan ang panganib."
+  },
+  {
+    "question": "23. Kapag iniunat ng police officer ang parehong braso nang pahalang, ang trapikong papalapit mula sa harap at likod ng officer ay kailangang huminto, katulad ng pulang traffic signal.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang hand signal na ito ay nangangahulugang stop instruction para sa mga sasakyang nanggagaling sa harap at likod ng officer. Dapat maingat na sundin ng mga drayber ang police hand signals sa mga interseksyon."
+  },
+  {
+    "question": "24. Sa pag-inspeksyon ng windshield washer system, dapat mong tingnan kung sapat ang washer fluid at kumpirmahing maayos na tumatama ang spray sa windshield.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang maayos na washer system ay nakakatulong mapanatili ang malinaw na visibility habang nagmamaneho. Dapat regular na inspeksyunin ng mga drayber ang fluid level at spray direction para sa ligtas na operasyon."
+  },
+  {
+    "question": "25. Sa gabi, kapag papalapit sa kurbada o interseksyon na mahina ang visibility, katanggap-tanggap na saglit na mag-flash ng headlights upang balaan ang mga pedestrian at paparating na sasakyan tungkol sa iyong paglapit.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang panandaliang pag-flash ng headlights ay maaaring makatulong upang mabigyan ng babala ang iba sa mga lugar na mahina ang visibility. Gayunpaman, dapat iwasan ng mga drayber ang sobrang paggamit nito na maaaring makalito o makaabala sa iba."
+  },
+  {
+    "question": "26. Ang ipinakitang traffic sign ay nangangahulugang may bicycle crossing area sa unahan.",
+    "image": "Japanese_bicycle_sign.jpg",
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ang asul na bilog na sign na ito ay nagpapahiwatig ng designated bicycle route o lane, hindi partikular na bicycle crossing. Dapat malaman ng mga drayber ang pagkakaiba ng guidance signs at crossing signs."
+  },
+  {
+    "question": "27. Maliban kung partikular na pinapayagan ng traffic signs o road markings, dapat iwasan ng mga drayber ang pagtawid sa roadway o paggawa ng U-turn kung makakahadlang ito sa mga pedestrian o ibang trapiko.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Dapat palaging isaalang-alang ng mga drayber ang kaligtasan at galaw ng nakapaligid na trapiko bago lumiko o tumawid ng lane. Ang hindi ligtas na U-turns o pagtawid ay madaling magdulot ng aksidente o traffic congestion."
+  },
+  {
+    "question": "28. Mas nagiging epektibo ang engine braking kapag nagmamaneho sa mas mataas na gear kumpara sa mas mababang gear.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Mas malakas ang engine braking sa mas mababang gears dahil mas mataas ang RPM ng makina. Madalas mag-shift ang mga drayber sa mas mababang gear kapag bumababa sa matatarik na kalsada para sa mas mahusay na speed control."
+  },
+  {
+    "question": "29. Kapag dumadaan sa tabi ng siklistang bumibiyahe sa side lane o shoulder area, hindi kailangang magbagal o magbigay ng dagdag na espasyo ang mga drayber.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Dapat magbawas ng bilis at magpanatili ng ligtas na distansya mula sa mga bisikleta ang mga drayber. Maaaring biglang mawalan ng balanse o umiwas sa hadlang ang mga siklista kaya kinakailangan ang dagdag na pag-iingat."
+  },
+  {
+    "question": "30. Ipinagbabawal ang pagsakay ng pasahero sa motorsiklong walang tamang passenger seat, o sa motorized bicycle na hindi dinisenyo para sa mga pasahero.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang mga motorsiklo at motorized bicycles ay dapat may tamang kagamitan para sa pagsakay ng pasahero. Ang pagsakay ng pasahero sa hindi angkop na sasakyan ay nagdudulot ng seryosong panganib sa kaligtasan."
+  },
+  {
+    "question": "31. Ipinagbabawal ang pagparada sa kaliwang bahagi ng safety zone at sa loob ng 10 metro mula sa gilid nito, bagama’t maaaring payagan pa rin ang pansamantalang paghinto.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang safety zones ay nilalayon upang protektahan ang mga pedestrian at mapanatili ang visibility. Ang matagal na pagparada malapit sa mga lugar na ito ay maaaring makahadlang sa trapiko at magpababa ng kaligtasan."
+  },
+  {
+    "question": "32. Para sa pagsakay ng pasahero, mas ligtas na gumamit ng standard o large motorcycle na may sapat na laki ng passenger seat.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang mas malaking motorsiklo na may tamang upuan ay nagbibigay ng mas mahusay na stability at comfort para sa dalawang rider. Ang tamang support para sa pasahero ay nagpapabuti rin ng overall vehicle control."
+  },
+  {
+    "question": "33. Sa mga kalsadang may ipinakitang solid center line, malayang maaaring magpalit ng lane ang mga drayber kung kinakailangan upang maghanda sa pagliko pakaliwa o pakanan.",
+    "image": "centerline_roadsign.jpg",
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ang solid center line ay karaniwang naglilimita sa pagtawid o lane changes maliban sa limitadong sitwasyong pinapayagan ng traffic rules. Dapat iwasan ng mga drayber ang pagtawid sa ganitong markings maliban kung malinaw na pinapayagan."
+  },
+  {
+    "question": "34. Karaniwang kinakailangang huminto ang mga drayber bago tumawid sa railroad tracks, ngunit kung ang crossing ay kontrolado ng traffic signals, maaari silang magpatuloy ayon sa traffic light indications.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang traffic signals sa railway crossings ay tumutulong upang ligtas na makontrol ang galaw ng sasakyan. Dapat pa ring maging alerto ang mga drayber sa mga tren at sundin ang anumang karagdagang warnings o barriers."
+  },
+  {
+    "question": "35. Ang kargang inilagay sa motorsiklo ay hindi dapat lumampas nang higit sa 15 sentimetro sa alinmang gilid ng luggage carrier.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang pagpapanatili ng kargamento sa loob ng pinapayagang lapad ay nakakatulong mapanatili ang balanse ng motorsiklo at maiwasan ang pagbangga sa kalapit na sasakyan o hadlang. Ang maayos na pagkakatali ng kargamento ay nagpapabuti rin ng riding safety."
+  },
+  {
+    "question": "36. Ang ipinakitang speed limit sign at ang painted road marking ay parehong nagpapakita ng parehong maximum speed regulation.",
+    "image": "50.jpg",
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Maaaring palakasin ng road markings ang kahulugan ng mga kalapit na traffic signs. Dapat sundin ng mga drayber ang parehong signs at pavement markings na nagpapakita ng nakatakdang speed limit."
+  },
+  {
+    "question": "37. Ipinagbabawal ang paggamit ng lubid upang hilahin ang disabled vehicle sa expressways at mga katulad na high-speed roads.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang expressways ay nangangailangan ng mas ligtas na towing methods dahil sa mataas na bilis ng sasakyan at daloy ng trapiko. Ang rope towing ay maaaring maging hindi stable at mapanganib sa ganitong kondisyon."
+  },
+  {
+    "question": "38. Ang road surface ay maaaring maging lalo pang madulas kaagad pagkatapos magsimulang umulan dahil naghahalo ang alikabok at langis sa tubig, kaya dapat mag-ingat nang higit ang mga drayber.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang unang ulan ay madalas na nagpapababa nang malaki sa tire traction. Dapat magbagal ang mga drayber at iwasan ang biglaang pagpreno o pagmaniobra."
+  },
+  {
+    "question": "39. Kapag pumapasok o lumalabas sa isang property na konektado sa roadway, hindi kailangang huminto ng mga drayber bago tumawid sa sidewalk kung walang nakikitang pedestrian.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Dapat pansamantalang huminto at maingat na tingnan ng mga drayber kung may pedestrian o bisikleta bago tumawid sa sidewalks o side strips. Maaaring may biglang lumitaw mula sa blind spot."
+  },
+  {
+    "question": "40. Ang mga drayber na bumibiyahe sa lane B na ipinakita sa road marking ay maaaring malayang lumipat sa ibang lane upang lumiko pakaliwa o pakanan.",
+    "image": "B_cannot_change_lane.jpg",
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ipinapakita ng lane direction markings ang pinapayagang direksyon ng pagbiyahe para sa bawat lane. Ang mga sasakyang nasa straight-only lane ay kailangang dumiretso maliban kung pinapayagan ng road markings o signs ang lane change bago pa man."
+  },
+  {
+    "question": "41. Kung may emergency vehicle na papalapit habang ikaw ay malayo sa interseksyon, maaari kang tumabi sa kaliwang bahagi ng kalsada nang hindi kinakailangang ganap na huminto, basta’t mapapayagan mo itong makadaan nang ligtas.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Dapat agad at ligtas na magbigay-daan ang mga drayber sa emergency vehicles. Sa ilang sitwasyon, sapat na ang pagbagal at pagtabi kung hindi nito haharangan ang emergency vehicle."
+  },
+  {
+    "question": "42. Ang centrifugal force ay lumalakas habang tumataas ang bilis ng sasakyan, at tumataas din ito kapag lumiliko sa mas matarik na kurbada na may mas maliit na radius.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang mas mataas na bilis at mas matatalim na liko ay naglalagay ng mas malakas na puwersa palabas sa sasakyan. Dapat magbawas ng bilis ang mga drayber bago pumasok sa kurbada upang mapanatili ang stability at traction."
+  },
+  {
+    "question": "43. Ang mga drayber na makasarili o walang pakialam sa ibang tao sa kalsada ay inilalagay sa mas malaking panganib ng aksidente ang ibang tao pati na rin ang kanilang sarili.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang ligtas na pagmamaneho ay nakadepende sa kooperasyon, awareness, at konsiderasyon sa iba. Ang reckless o self-centered na pag-uugali ay madalas magdulot ng mapanganib na sitwasyon para sa lahat."
+  },
+  {
+    "question": "44. Kung kailangan mong iwan ang iyong sasakyan sa kalsada sa panahon ng malakas na lindol, dapat mong isara ang mga bintana, kunin ang ignition key, at i-lock ang mga pinto bago umalis.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Sa panahon ng malalaking sakuna, maaaring kailanganin ng emergency personnel na mabilis na ilipat ang mga iniwang sasakyan. Karaniwang pinapayuhan ang mga drayber na iwanang accessible ang susi at huwag i-lock ang sasakyan."
+  },
+  {
+    "question": "45. Dapat panatilihin ng mga drayber ang parehong following distance mula sa sasakyan sa unahan anuman ang ulan, fog, trapiko, o kondisyon ng road surface.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ang ligtas na following distance ay kailangang i-adjust ayon sa bilis, panahon, visibility, at kondisyon ng kalsada. Ang mahihinang kondisyon ay nangangailangan ng mas malaking pagitan para sa mas ligtas na paghinto."
+  },
+  {
+    "question": "46. Maaaring magpatuloy nang normal ang mga drayber kapag papalapit sa matarik na paakyat na bahagi ng kalsada, ngunit dapat silang magbawas ng bilis kapag papalapit sa matarik na pababang kalsada.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang downhill driving ay natural na nagpapataas ng bilis ng sasakyan at maaaring magpababa ng bisa ng pagpreno. Dapat maagang magbagal ang mga drayber at gumamit ng tamang gear control sa matatarik na pagbaba."
+  },
+  {
+    "question": "47. Ang mga may-ari ng automobiles, maliban sa mga motorsiklo, ay kinakailangang magkaroon ng off-road parking space sa loob ng 5 kilometro mula sa pangunahing lugar ng paggamit ng sasakyan.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Karaniwang kinakailangan ng parking space regulations na mas malapit nang husto kaysa 5 kilometro mula sa pangunahing lugar ng paggamit. Ang tamang parking arrangements ay nakakatulong maiwasan ang illegal roadside parking."
+  },
+  {
+    "question": "48. Kung ang traffic accident ay nagdulot lamang ng minor injuries at nagkasundo ang magkabilang panig, hindi na kailangang i-report ang insidente sa pulis.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Kailangan pa ring i-report sa pulis ang traffic accidents kahit mukhang minor lamang ang injuries o nagkasundo nang pribado ang magkabilang panig. Mahalaga ang official reporting para sa legal at insurance purposes."
+  },
+  {
+    "question": "49. Sa mga kalsadang may ipinakitang sign na ito, pinapayagan ang pag-overtake basta’t hindi tatawid ang drayber sa center line papunta sa opposite lane.",
+    "image": "oikoshi_kinshi.jpg",
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ipinapakita ng sign na ito na ipinagbabawal mismo ang pag-overtake, hindi lamang ang pagtawid sa center line. Hindi dapat lampasan ng mga drayber ang ibang sasakyan sa itinalagang lugar."
+  },
+  {
+    "question": "50. Kung may road construction na humaharang sa bahagi ng kaliwang bahagi ng roadway habang may mga sasakyang paparating mula sa kabilang direksyon, dapat kang mabilis na bahagyang pumasok sa opposing lane habang binabalaan ang kasalubong na trapiko tungkol sa iyong presensya.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Hindi dapat pumasok ang mga drayber sa opposing lane maliban kung malinaw na ligtas at pinapayagan ito. Ang pagbagal at pagbibigay-daan kung kinakailangan ay mas ligtas kaysa piliting dumaan sa makitid na lugar."
+  },
+  {
+    "question": "51. Kapag kumikislap na pula ang traffic signal, kailangang huminto ang mga drayber sa stop line at magpatuloy lamang pagkatapos makumpirmang ligtas ito.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang flashing red signal ay itinuturing na katulad ng stop sign. Kailangang ganap na huminto ang mga drayber at maingat na suriin ang paligid bago umusad."
+  },
+  {
+    "question": "52. Kahit ipinagbabawal ang pagparada, maaaring huminto ang mga drayber sa kanang bahagi ng isa pang nakahinto o nakaparadang sasakyan sa tabi ng sidewalk sa kaliwang bahagi ng kalsada.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ang paghinto sa tabi ng isa pang nakaparadang sasakyan ay maaaring makahadlang sa trapiko at lumikha ng mapanganib na sitwasyon. Dapat iwasan ng mga drayber ang paghinto sa paraang humaharang sa normal na daloy ng sasakyan."
+  },
+  {
+    "question": "53. Ang ipinakitang road sign ay nagpapahiwatig ng pagkakaroon ng safety zone para sa mga pedestrian o proteksyon sa trapiko.",
+    "image": "safety_zone.jpg",
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang mga safety zone signs ay tumutukoy sa mga lugar na ginawa upang mapabuti ang kaligtasan ng mga pedestrian at maayos ang galaw ng trapiko. Dapat lapitan ng mga drayber ang mga lugar na ito nang maingat at iwasang harangan ang mga ito."
+  },
+  {
+    "question": "54. Katanggap-tanggap na biglang pumasok sa harap ng sasakyang may learner practice sign kung may certified driving instructor na kasama ang nagpa-practice.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Dapat iwasan ng mga drayber ang biglang pagputol sa harap ng learner vehicles dahil maaaring mabagal o hindi inaasahan ang reaksyon ng mga baguhang drayber. Dapat palaging magbigay ng dagdag na pasensya at espasyo sa mga practice vehicles."
+  },
+  {
+    "question": "55. Maliban kung may espesyal na sign na nagsasaad ng iba, ang mga rider ng general motorized bicycles sa mga interseksyon na may tig-dalawang lane sa bawat direksyon ay kailangang lumapit malapit sa gitna ng kalsada bago lumiko pakanan gamit ang hook-turn method.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang ilang maliliit na motorsiklo at motorized bicycles ay kailangang magsagawa ng two-stage right turn sa malalaking interseksyon. Ang paraang ito ay nagpapabuti ng kaligtasan sa pamamagitan ng pagbawas ng conflict sa ibang trapiko."
+  },
+  {
+    "question": "56. Kung ang hand signals ng police officer ay salungat sa traffic lights o signs, dapat sundin ng mga drayber ang direksyon ng officer.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Mas may prioridad ang mga police officer na nagdidirekta ng trapiko kaysa sa normal na traffic signals. Dapat maingat na sundin ng mga drayber ang mga utos ng officer upang mapanatili ang ligtas na daloy ng trapiko."
+  },
+  {
+    "question": "57. Dapat maghanda ang mga drayber para sa posibleng aksidente sa pamamagitan ng pagpapanatili ng insurance coverage, pag-aaral ng basic first aid, at pagdadala ng emergency supplies tulad ng first-aid kit sa sasakyan.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang pagiging handa sa emergency ay maaaring makabawas sa pinsala at makatulong sa tamang pagtugon sa panahon ng aksidente. Dapat maintindihan ng responsableng mga drayber ang basic safety procedures at magdala ng mahahalagang kagamitan."
+  },
+  {
+    "question": "58. Isang paraan upang suriin kung maayos na gumagana ang hydraulic brakes ay ang mariing pagpindot sa brake pedal; kung dahan-dahang lumulubog ang pedal, maaaring indikasyon ito ng brake fluid leak.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang brake pedal na unti-unting lumulubog habang may pressure ay maaaring senyales ng hydraulic problems o fluid leakage. Mahalaga ang regular na brake inspections para sa kaligtasan ng sasakyan."
+  },
+  {
+    "question": "59. Kapag nagmomotorsiklo, dapat nakaturo palabas ang iyong mga daliri sa paa habang nakapatong ang mga paa sa brake at foot controls.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Dapat maayos na nakaposisyon ang mga paa ng motorcycle riders sa foot pegs at nakaturo pasulong ang mga daliri sa paa para sa mas mahusay na balanse at kontrol. Ang maling posisyon ng paa ay maaaring makaapekto sa ligtas na pagpreno at pag-shift."
+  },
+  {
+    "question": "60. Habang lumiliko, ang rear inside wheel ng sasakyan ay dumadaan sa mas malawak na landas kaysa sa inside front wheel.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ang rear inside wheel ay aktuwal na dumadaan sa mas makitid na landas kaysa sa front wheel habang lumiliko. Dapat itong tandaan ng mga drayber kapag lumiliko malapit sa curb o mga hadlang."
+  },
+  {
+    "question": "61. Hindi kailangang magbagal o huminto ng mga drayber para sa mga pedestrian na tumatawid malapit sa mga interseksyon na walang marked crosswalk dahil may prioridad ang mga sasakyan.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "May mahalagang proteksyon pa rin ang mga pedestrian kahit walang crosswalk markings. Dapat manatiling alerto ang mga drayber at magbigay-daan kung kinakailangan upang maiwasan ang aksidente."
+  },
+  {
+    "question": "62. Kapag papalapit sa blind curve pakaliwa, mas ligtas na lumapit sa center line upang mapabuti ang visibility sa paligid ng kurbada.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ang pagmamaneho nang masyadong malapit sa center line sa blind curve ay nagpapataas ng panganib ng head-on collision. Dapat panatilihin ng mga drayber ang ligtas na lane position at magbawas ng bilis bago pumasok sa kurbada."
+  },
+  {
+    "question": "63. Habang nagmomotorsiklo sa kurbada, ang maayos na pag-adjust ng throttle sa gitna ng pagliko ay makakatulong sa pagkontrol ng bilis at pagpapanatili ng stability.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Mahalaga ang tamang throttle control para sa balanse at cornering ng motorsiklo. Ang biglaang pag-arangkada o pagpreno habang nasa kurbada ay maaaring magpababa ng stability."
+  },
+  {
+    "question": "64. Dahil medyo simple at maginhawang gamitin ang mga motorsiklo, nangangailangan ito ng mas kaunting driving skill at atensyon kaysa sa mga sasakyan.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ang mga motorsiklo ay nangangailangan ng advanced balance, coordination, at hazard awareness. Mas exposed sa panganib ang mga rider kaya kailangan nilang magmaneho nang may dagdag na pag-iingat at kasanayan."
+  },
+  {
+    "question": "65. Kung ang iyong sasakyan ay nakatanggap ng illegally parked vehicle notice, kailangan mong hilingin sa police officer na personal na tanggalin ang sticker pagkatapos ilipat ang sasakyan sa legal na parking location.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Karaniwang pinapayagan ang mga drayber na tanggalin mismo ang notice pagkatapos maayos na asikasuhin ang parking violation. Ang mahalaga ay sundin ang kinakailangang procedures at parking rules."
+  },
+  {
+    "question": "66. Kapag nagmamaneho sa maniyebe o nagyelong kalsada, ang paggamit ng biglaang steering movements o abrupt braking ay epektibong paraan upang mapanatili ang kontrol ng sasakyan.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ang biglaang pagmaniobra o pagpreno sa madulas na kalsada ay madaling magdulot ng skidding. Dapat gumawa ng maayos at banayad na galaw ang mga drayber upang mapanatili ang traction at stability."
+  },
+  {
+    "question": "67. Sa mga interseksyon na walang traffic signals, maaaring dumiretso agad ang mga drayber nang hindi nagbabawas ng bilis kung naniniwala silang walang paparating na sasakyan.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Dapat magbawas ng bilis at maingat na suriin ng mga drayber ang trapiko at mga pedestrian kahit sa mga interseksyon na mukhang malinaw. Maaaring mayroon pa ring nakatagong panganib."
+  },
+  {
+    "question": "68. Kapag sumusunod sa isa pang sasakyan sa gabi, katanggap-tanggap na patuloy na gumamit ng high-beam headlights kung maikli ang distansya sa pagitan ng mga sasakyan.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ang high beams ay maaaring tumama sa salamin at makaapekto sa paningin ng drayber sa unahan. Dapat gumamit ng low beams kapag malapit na sumusunod sa isa pang sasakyan."
+  },
+  {
+    "question": "69. Ang ipinakitang halimbawa ay nagpapakita ng tamang paraan ng paghawak sa kurbada sa pamamagitan ng pagbagal bago pumasok, pagpapanatili ng kontroladong bilis habang lumiliko, at unti-unting pag-arangkada pagkatapos makalabas sa kurbada.",
+    "image": "curving_proper_way.jpg",
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Dapat magbawas ng bilis ang mga drayber bago pumasok sa kurbada upang mapanatili ang traction at stability. Ang maayos na pag-arangkada pagkatapos ng pagliko ay nakakatulong upang mapanatiling kontrolado ang sasakyan."
+  },
+  {
+    "question": "70. Ang mga private passenger vehicles ay kinakailangang sumailalim sa regular na vehicle inspection tuwing anim na buwan.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ang ordinaryong private vehicles ay karaniwang hindi iniinspeksyon tuwing anim na buwan. Ang inspection schedules ay nakadepende sa kategorya ng sasakyan at naaangkop na regulations."
+  },
+  {
+    "question": "71. Ang tamang driving posture ay kinabibilangan ng bahagyang nakabaluktot na mga tuhod habang ginagamit ang pedals at relaxed na mga braso na may bahagyang nakabaluktot na siko habang hawak ang steering wheel.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang tamang seating posture ay nagpapabuti ng kontrol sa sasakyan at nakakabawas ng pagkapagod ng drayber. Ang relaxed ngunit stable na posisyon ay tumutulong din sa mga drayber na mas mabilis makapag-react sa emergencies."
+  },
+  {
+    "question": "72. Ang ipinakitang traffic sign ay nangangahulugang “School, Kindergarten, o Nursery Area,” at hindi kinakailangang mag-ingat nang higit ang mga drayber kapag dumadaan sa lugar.",
+    "image": "pedestrian.jpg",
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ang ganitong uri ng sign ay nagbababala sa mga drayber na maaaring may mga pedestrian sa paligid. Dapat magbawas ng bilis ang mga drayber at bigyang pansin ang mga pedestrian at tawiran."
+  },
+  {
+    "question": "73. Ang taong nagtutulak ng motorsiklo gamit ang kamay ay maaaring gumamit ng sidewalk o roadside path basta’t naka-off ang makina at ang motorsiklo ay itinuturing na parang pedestrian object.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Kapag ang motorsiklo ay itinutulak nang mano-mano habang naka-off ang makina, karaniwan itong itinuturing na iba sa gumagalaw na sasakyan. Gayunpaman, kailangan pa ring mag-ingat upang hindi makahadlang sa mga pedestrian."
+  },
+  {
+    "question": "74. Ang learner na nagpa-practice gamit ang standard passenger car ay kailangang bantayan ng kwalipikadong tao, tulad ng may sapat na driving experience o tamang lisensyadong instructor.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang supervised driving practice ay tumutulong upang matiyak ang kaligtasan at tamang pagtuturo. Ang kasamang tao ay kailangang tumugon sa legal qualifications para sa pagbabantay sa learner drivers."
+  },
+  {
+    "question": "75. Maliban kung may ibang nakapaskil na speed limit, ang standard maximum speed para sa ordinary cargo vehicles sa regular public roads ay 60 kph.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang general speed limits ay sinusunod maliban kung may ibang ipinapakitang traffic signs. Dapat palaging sundin ng mga drayber ang posted limits at i-adjust ang bilis ayon sa kondisyon ng kalsada."
+  },
+  {
+    "question": "76. Sa sitwasyon kung saan ang merging lane ay sumasama sa pangunahing traffic lane, ang sasakyang bumibiyahe na sa pangunahing lane ay kailangang laging magbigay-prayoridad sa sasakyang pumapasok mula sa merging lane.",
+    "image": "merging_vehicle.jpg",
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ang mga sasakyang pumapasok mula sa merging lane ay karaniwang kailangang mag-adjust ng bilis at ligtas na sumanib sa kasalukuyang trapiko. Gayunpaman, dapat pa ring maging maingat at makipagtulungan kung posible ang mga drayber na nasa pangunahing lane."
+  },
+  {
+    "question": "77. Ang mga sasakyang walang pahintulot para sa priority bus lane ay maaari pa ring pumasok sa lane sa panahon ng traffic congestion kung walang malapit na bus.",
+    "image": "senyou_lane.jpg",
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ang exclusive lanes ay nakalaan lamang para sa mga itinalagang sasakyan. Hindi pinapayagang gamitin ito ng ibang sasakyan dahil lamang mukhang walang laman ang lane."
+  },
+  {
+    "question": "78. Bago mag-overtake ng ibang sasakyan, dapat mo munang gamitin ang iyong turn signal at pagkatapos ay tingnan kung ligtas lumabas.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Dapat munang kumpirmahin ng mga drayber na ligtas gawin ang pag-overtake bago mag-signal at magpalit ng posisyon. Ang tamang pagmamasid ay nakakatulong maiwasan ang banggaan."
+  },
+  {
+    "question": "79. Ang pagmamaneho habang suspendido ang iyong lisensya ay itinuturing na kapareho lamang ng pagkalimot na dalhin ang lisensya habang nagmamaneho.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ang pagpapatakbo ng sasakyan na suspendido ang lisensya ay mas seryosong paglabag kaysa simpleng hindi pagdadala ng valid license card."
+  },
+  {
+    "question": "80. Kapag nagparada sa tabi ng sidewalk, katanggap-tanggap na ilagay ang bahagi ng sasakyan sa sidewalk upang magbigay ng mas maraming espasyo para sa trapiko sa roadway.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Hindi dapat harangan o pasukin ng mga sasakyan ang sidewalks dahil kailangang ligtas na makadaan ang mga pedestrian. Dapat palaging sundin ang tamang parking rules."
+  },
+  {
+    "question": "81. Bago sumakay sa sasakyan, sapat nang suriin ang paligid sa gilid at likuran ng sasakyan nang hindi tinitingnan ang ilalim nito.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Dapat ding suriin ng mga drayber ang ilalim ng sasakyan kung posible, lalo na sa residential o mataong lugar. Maaaring may mga bata, hayop, o hadlang na hindi agad nakikita."
+  },
+  {
+    "question": "82. Maaari kang pansamantalang huminto ng sasakyan sa loob ng 1 metro mula sa fire alarm o fire hydrant area, ngunit ipinagbabawal ang pagparada roon.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Maaaring pahintulutan ang maikling paghinto sa ilang sitwasyon, ngunit ang pagparada malapit sa emergency equipment ay maaaring makahadlang sa firefighting operations kaya ito ay ipinagbabawal."
+  },
+  {
+    "question": "83. Kapag nakakaharap ng kasalubong na sasakyan na may napakaliwanag na headlights sa gabi, ang bahagyang paglilipat ng tingin sa kaliwang bahagi ng kalsada ay makakatulong upang mabawasan ang glare.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang bahagyang pag-iwas ng tingin mula sa direktang headlights ay nakakatulong mabawasan ang pansamantalang pagkasilaw dahil sa glare. Dapat pa ring patuloy na bantayan ng mga drayber ang kalsada nang maingat."
+  },
+  {
+    "question": "84. Sa railway crossing na kontrolado ng traffic signals, maaari kang dumaan nang hindi ganap na humihinto kung pinapayagan ng signal at nakumpirma mong walang paparating na tren.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang mga crossing na kontrolado ng traffic signals ay maaaring pahintulutan ang mga sasakyan na dumaan ayon sa signal. Dapat pa ring maingat na suriin ng mga drayber ang paparating na tren at tiyaking ligtas ang tawiran."
+  },
+  {
+    "question": "85. Kung may paparating na emergency vehicle malapit sa interseksyon, dapat kang lumipat sa kaliwang bahagi ng kalsada habang mabagal na nagpapatuloy sa interseksyon.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Dapat iwasan ng mga drayber ang pagharang sa interseksyon para sa emergency vehicles. Mahalaga ang paghinto sa ligtas na lugar at tamang pagbibigay-daan ayon sa kondisyon ng trapiko."
+  },
+  {
+    "question": "86. Kapag hinihila ang sirang sasakyan gamit ang lubid o cable, ang kabuuang haba mula sa harap ng towing vehicle hanggang sa likod ng hinihilang sasakyan ay dapat nasa loob ng legal limit na 25 metro.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "May limitasyon sa haba ng paghila upang mapanatili ang kontrol ng sasakyan at kaligtasan sa kalsada. Ang sobrang haba ng towing distance ay maaaring magpataas ng panganib ng aksidente."
+  },
+  {
+    "question": "87. Dapat magsuot ang mga motorcycle rider ng damit na tumatakip sa pinakamaraming bahagi ng katawan hangga’t maaari, kahit mainit ang panahon.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang protective clothing ay nakakatulong mabawasan ang pinsala sakaling matumba o mabangga. Ang tamang riding gear ay nagbibigay rin ng proteksyon laban sa hangin, debris, at kondisyon ng panahon."
+  },
+  {
+    "question": "88. Ipinagbabawal ang pagparada sa loob ng 3 metro mula sa pasukan o labasan ng parking area, garahe, o katulad na access point ng sasakyan.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang pagpapanatiling maluwag ng mga pasukan at labasan ay nagbibigay-daan sa ligtas na pagpasok at paglabas ng mga sasakyan. Ang pagharang sa mga lugar na ito ay maaaring magdulot ng traffic hazards at makaapekto sa visibility."
+  },
+  {
+    "question": "89. Kapag ang tram o streetcar stop ay may nakatalagang safety zone para sa mga pasahero, maaaring dumaan ang mga sasakyan nang hindi nagbabawas ng bilis.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Dapat pa ring magbagal ang mga drayber at manatiling alerto sa mga pedestrian na papasok o lalabas sa safety zone. Dapat palaging unahin ang kaligtasan ng mga pasahero malapit sa streetcar stops."
+  },
+  {
+    "question": "90. Ang pagmamaneho nang mabilis sa mahabang panahon ay maaaring magpababa ng awareness ng mga drayber sa kanilang aktuwal na bilis, kaya mahalagang regular na tingnan ang speedometer.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang matagal na high-speed driving ay maaaring makapagpabago sa pakiramdam ng drayber tungkol sa galaw at bilis. Ang madalas na pagtingin sa speedometer ay nakakatulong mapanatili ang ligtas at legal na bilis."
+  },
+  {
+    "question": "1. Hindi pinapayagan ang paghinto o pagparada ng sasakyan sa loob ng 5 metro mula sa lugar kung saan may ginagawang roadwork.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Sa ilalim ng traffic regulations ng Japan, ipinagbabawal ang pagparada o paghinto sa loob ng 5 metro mula sa gilid ng road construction area, ngunit maaaring pahintulutan pa rin ang ilang pansamantalang paghinto depende sa sitwasyon. Hindi ganap na tama ang pahayag ayon sa pagkakasulat."
+  },
+  {
+    "question": "2. Ang ipinakitang sign ay nangangahulugang “Sound Horn” area, na nangangahulugang kinakailangang bumusina ang mga drayber kahit walang nakikitang agarang panganib.",
+    "image": "horn_sign.jpg",
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Sa Japan, ang asul na “Sound Horn” sign ay nangangailangan sa mga drayber na bumusina sa mga itinakdang lugar tulad ng mountain roads o mga lugar na mahina ang visibility, kahit walang kasalukuyang panganib."
+  },
+  {
+    "question": "3. Kinakailangang gumamit ang mga motorcycle rider ng helmet na may approved safety certification marks tulad ng PS(C) o JIS.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Kinakailangan ng batas sa Japan na ang motorcycle helmets ay sumusunod sa approved safety standards. Ang mga helmet na may PS(C) o JIS markings ay nagpapakita ng pagsunod sa kinikilalang safety requirements."
+  },
+  {
+    "question": "4. Kapag humihila ng sirang sasakyan gamit ang lubid, sapat na ang pagkakabit ng pulang tela na may sukat na hindi bababa sa 30 cm² sa lubid.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Bahagyang mali ang pahayag na ito. Bagama’t tama ang requirement sa sukat ng tela, kinakailangan ng traffic law sa Japan na puting tela ang gamitin, hindi pula."
+  },
+  {
+    "question": "5. Kung masira ang iyong sasakyan sa expressway at hindi na ito makatakbo nang normal, dapat mong subukang ilipat ito sa shoulder o roadside area gamit ang starting force ng makina habang nasa first o second gear. Hindi naaangkop ang paraang ito sa automatic vehicles o mga sasakyang may clutch-start safety system.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Sa expressways ng Japan, dapat ilipat ng mga drayber ang sirang sasakyan sa ligtas na lugar hangga’t maaari. Ang paggamit ng starter motor habang nasa low gear ay maaaring makatulong upang mailipat ang ilang manual vehicles sa maikling distansya kapag emergency."
+  },
+  {
+    "question": "6. Ang mga drayber na dumaraan sa tabi ng safety zone ay palaging kinakailangang magmaneho nang mabagal kahit walang pedestrian sa paligid.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Sa ilalim ng traffic rules ng Japan, kinakailangang magbagal ang mga motorista malapit sa safety zone lamang kapag maaaring may pedestrian o kung kinakailangan para sa kaligtasan. Hindi ito awtomatikong kinakailangan sa lahat ng sitwasyon."
+  },
+  {
+    "question": "7. Maaaring gumamit ng biglaang pagpreno kapag kinakailangan upang maiwasan ang agarang panganib o ibang hindi maiiwasang emergency.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Karaniwang ipinagbabawal ng traffic law sa Japan ang biglaang pagpreno maliban kung may wastong dahilan para sa kaligtasan. Ang emergency situations ay eksepsyon kapag kinakailangan ang mabilis na pagpreno upang maiwasan ang aksidente."
+  },
+  {
+    "question": "8. Kapag bumibiyahe kasama ng ibang sasakyan, dapat iwasan ng mga drayber ang mapanganib na kilos tulad ng weaving o reckless maneuvering na maaaring makaabala sa trapiko sa paligid.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ipinagbabawal ng road regulations sa Japan ang hindi ligtas na pagmamaneho na maaaring magdulot ng panganib sa trapiko o abala sa ibang road users. Mahigpit na ipinagbabawal ang zigzag driving at reckless group driving."
+  },
+  {
+    "question": "9. Ang pananatiling nakahinto ng 5 minuto sa no-parking area habang naghihintay sa loob ng sasakyan para sa isang tao ay itinuturing na illegal parking.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Sa Japan, ang sasakyang nakahinto nang tuluy-tuloy para sa layuning tulad ng paghihintay sa isang tao ay maaaring ituring na nakaparada kahit nananatili ang drayber sa loob ng sasakyan. Maaari itong lumabag sa parking restrictions."
+  },
+  {
+    "question": "10. Ang illegally parked vehicle sticker ay maaari lamang alisin ng gumagamit ng sasakyan, drayber, o ibang taong responsable sa pamamahala ng sasakyan.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Sa Japan, ang Illegal Parking Violation Sticker ay nilalayong manatiling nakakabit maliban kung aalisin ng awtorisadong taong konektado sa sasakyan. Hindi pinapayagan ang unauthorized removal."
+  },
+  {
+    "question": "11. Sa expressway, maaaring huminto o magparada ang mga drayber sa shoulder dahil lamang sila ay pagod o gustong magpahinga, pati na rin para sa problema sa sasakyan.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ipinagbabawal ng expressways sa Japan ang hindi kinakailangang paghinto o pagparada sa shoulder. Dapat gamitin ng mga drayber ang service areas o parking areas para magpahinga, habang pinapayagan lamang ang emergency stopping para sa hindi maiiwasang sitwasyon tulad ng breakdowns."
+  },
+  {
+    "question": "12. Kung maaapektuhan ng malalakas na side winds malapit sa tunnel exit o open road section ang steering control, dapat mabilis na ikabig nang madiin ng drayber ang manibela habang mabilis ang takbo.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Mapanganib ang biglaang pagliko ng manibela habang mabilis ang takbo at maaaring magdulot ng pagkawala ng kontrol sa sasakyan. Kinakailangan ng safe-driving practice sa Japan na dahan-dahang magbagal at panatilihing maayos ang steering movements kapag may malalakas na hangin."
+  },
+  {
+    "question": "13. Ang ipinakitang sign ay nangangahulugang ipinagbabawal ang parehong left at right turns sa intersection.",
+    "image": "direction_left_and_right.jpg",
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ang asul na mandatory direction sign na ito ay nagpapahiwatig na maaaring magpatuloy ang mga sasakyan pakaliwa o pakanan. Hindi nito ipinagbabawal ang pagliko; sa halip, inaatasan nito ang mga drayber na bumiyahe lamang sa mga ipinakitang direksyon."
+  },
+  {
+    "question": "14. Ang lane na may ipinakitang sign ay maaaring gamitin ng light vehicles, motorized bicycles, at small special-purpose vehicles.",
+    "image": "senyou_lane.jpg",
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang sign na ito ay nagpapahiwatig ng lane na nakalaan para sa mga bus, ngunit sa ilalim ng traffic regulations sa Japan, ang ilang mas maliliit na uri ng sasakyan tulad ng motorized bicycles at light special vehicles ay maaari ring pahintulutan depende sa kondisyon ng kalsada at local rules."
+  },
+  {
+    "question": "15. Kung mabigat ang trapiko sa kaliwang bahagi ng kalsada, maaaring bahagyang tumawid ang drayber sa center line papunta sa kasalubong na lane upang makalampas sa pagsisikip.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Sa Japan, karaniwang ipinagbabawal ang pagtawid sa center line papunta sa opposing traffic lane maliban kung partikular na pinapayagan o hindi maiiwasan para sa kaligtasan. Hindi dapat pumasok ang mga drayber sa right-hand lane para lamang makaiwas sa trapiko."
+  },
+  {
+    "question": "16. Ipinagbabawal ng batas ang pagsakay ng pasahero sa motorsiklong walang passenger seat, o sa ordinary motorized bicycle.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Kinakailangan ng batas sa Japan na ang mga motorsiklong may pasahero ay maayos na may passenger seating. Ang standard motorized bicycles ay karaniwang hindi pinapayagang magsakay ng pasahero."
+  },
+  {
+    "question": "17. Sa railway crossing na may malinaw na visibility, maaaring dumaan ang mga drayber matapos lamang magbagal at tumingin sa magkabilang direksyon.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Kinakailangan ng traffic rules sa Japan na huminto ang mga sasakyan bago tumawid sa karamihan ng railway crossings kahit malinaw ang visibility. Dapat tiyakin ng mga drayber ang kaligtasan bago magpatuloy."
+  },
+  {
+    "question": "18. Ang mga taong kinakailangan para sa pagkakarga o pagbaba ng kargamento ay pinapayagang sumakay sa cargo area gaano man karami ang kailangan.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Pinapayagan lamang ng regulations sa Japan ang minimum na bilang ng mga taong kinakailangan para sa loading o unloading work na sumakay sa cargo section. Hindi pinapayagan ang hindi kinakailangang pasahero sa cargo area."
+  },
+  {
+    "question": "19. Sa makikitid na mountain roads, dapat magbigay-prayoridad ang mga sasakyang paakyat sa mga sasakyang pababa.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Sa ilalim ng driving rules sa Japan, karaniwang inaasahang magbigay-daan ang mga sasakyang pababa sa mga sasakyang paakyat dahil mas mahirap magsimulang muli habang paakyat."
+  },
+  {
+    "question": "20. Ang ipinakitang warning sign ay inilalagay malapit sa tunnel exits o exposed road sections upang balaan ang mga drayber tungkol sa posibleng malalakas na side winds.",
+    "image": "strong_wind_sign.jpg",
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang warning sign na ito sa Japan ay nagpapahiwatig ng mga lugar kung saan maaaring makaapekto ang malalakas na crosswinds sa stability ng sasakyan. Dapat hawakang mabuti ng mga drayber ang manibela at magbawas ng bilis kapag papalapit sa mga lugar na ito."
+  },
+  {
+    "question": "21. Kung magiging doble ang bilis ng sasakyan, ang braking distance at centrifugal force habang lumiliko ay tataas din nang dalawang beses lamang.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Parehong tumataas nang apat na beses ang braking distance at centrifugal force, hindi dalawang beses lamang, kapag nadoble ang bilis ng sasakyan."
+  },
+  {
+    "question": "22. Dahil nababawasan ang visibility sa gabi at mas mahirap makita ang mga pedestrian o bisikleta, dapat magmaneho ang mga drayber nang mas mabagal kaysa sa pagmamaneho nila sa daytime.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Binibigyang-diin ng safe-driving rules sa Japan ang pagbabawas ng bilis sa gabi dahil sa mas maikling visibility range at delayed hazard recognition. Ang mas mabagal na pagmamaneho ay nagpapabuti sa reaction time at kaligtasan."
+  },
+  {
+    "question": "23. Para sa long-distance driving, mainam na gumawa ng driving plan na may regular na pahinga, tulad ng paghinto kada dalawang oras.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Inirerekomenda ng traffic safety guidance sa Japan ang regular na pahinga habang nasa mahabang biyahe upang maiwasan ang pagkapagod at mapanatili ang konsentrasyon. Ang regular na pahinga ay nakakatulong mabawasan ang panganib ng aksidente."
+  },
+  {
+    "question": "24. Sa intersection na may ipinakitang sign, dapat munang lumapit sa gitna ng roadway ang riders ng ordinary motorized bicycles bago pumasok sa intersection at pagkatapos ay dahan-dahang kumpletuhin ang right turn malapit sa gitna ng intersection.",
+    "image": "no_moped.jpg",
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ipinapakita ng sign na ito na ipinagbabawal ang two-stage right turns para sa ordinary motorized bicycles. Samakatuwid, dapat gumawa ang riders ng regular right turn mula malapit sa gitna ng kalsada alinsunod sa traffic rules ng Japan."
+  },
+  {
+    "question": "25. Kapag bumababa sa matarik na slope gamit ang automatic transmission vehicle, dapat gumamit ang drayber ng engine braking sa pamamagitan ng pag-shift sa mas mababang gear tulad ng “2,” “1,” o “L,” habang gumagamit ng brake pedal kung kinakailangan.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Inirerekomenda ng driving guidance sa Japan ang pagsasama ng engine braking at foot braking sa matatarik na pababang kalsada. Nakakatulong ito upang maiwasan ang brake overheating at mapabuti ang kontrol sa sasakyan."
+  },
+  {
+    "question": "26. Hindi dapat pumasok ang drayber sa railway crossing kung ang traffic congestion sa kabila ng crossing ay maaaring magdulot na maipit ang sasakyan sa riles.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Sa ilalim ng traffic law sa Japan, ipinagbabawal sa mga drayber ang pumasok sa railroad crossing maliban kung kaya nila itong ganap na matawid nang ligtas. Mapanganib at ilegal ang pagharang sa riles dahil sa traffic congestion."
+  },
+  {
+    "question": "27. Kapag iniunat ng police officer ang parehong braso nang pahalang sa magkabilang gilid, ang signal ay may parehong kahulugan ng pulang traffic light para sa mga sasakyang papalapit mula sa harap ng opisyal.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Sa police hand signals ng Japan, dapat huminto ang trapikong nakaharap sa opisyal kapag nakaunat ang parehong braso sa gilid. Ang signal na ito ay gumagana tulad ng pulang ilaw para sa trapikong papalapit mula sa harap at likod."
+  },
+  {
+    "question": "28. Kapag naghihintay sa intersection upang lumiko pakanan, ang blind area na dulot ng kasalubong na sasakyang dumidiretso o lumiliko pakanan ay lumalawak habang papalapit ang sasakyang iyon.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Habang papalapit ang kasalubong na sasakyan, maaari nitong matakpan ang mas malaking bahagi ng field of view ng drayber, kaya mas mahirap mapansin ang motorsiklo, bisikleta, o pedestrian. Binibigyang-diin ng driving safety instruction sa Japan ang dagdag na pag-iingat sa mga ganitong sitwasyon."
+  },
+  {
+    "question": "29. Sa intersection, hindi dapat magpatuloy ang mga drayber sa parehong bilis batay sa pag-aakalang hihinto ang mga kasalubong na sasakyang liliko pakanan.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Kinakailangan ng traffic safety rules sa Japan na maging handa ang mga drayber sa hindi inaasahang kilos ng ibang road users. Ang pag-aakalang hihinto ang ibang sasakyan ay maaaring magdulot ng seryosong banggaan."
+  },
+  {
+    "question": "30. Nangyayari ang hydroplaning kapag may ulan at nagkakaroon ng tubig sa pagitan ng mga gulong at road surface, dahilan upang mawalan ng kapit ang sasakyan at mabawasan ang steering at braking control.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang hydroplaning ay mapanganib na kondisyon na karaniwang nangyayari sa mataas na bilis sa basang kalsada. Inirerekomenda ng driving guidance sa Japan ang pagbabawas ng bilis at pag-iwas sa biglaang pagliko o pagpreno habang malakas ang ulan."
+  },
+  {
+    "question": "31. Pagkatapos ng traffic accident, dapat ilipat ng mga drayber ang sasakyan sa ligtas na lugar at patayin ang makina upang maiwasan ang pagharang sa trapiko o pagdulot ng panibagong aksidente.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Kinakailangan ng traffic law sa Japan na pigilan ng mga drayber na nasangkot sa aksidente ang karagdagang panganib hangga’t maaari. Ang ligtas na paglipat ng sasakyan at pagpapatay ng makina ay nakakatulong mabawasan ang panganib ng secondary accidents."
+  },
+  {
+    "question": "32. Ang ipinakitang pavement marking ay nagpapahiwatig ng lugar kung saan pinapayagan ang paghinto ngunit ipinagbabawal ang pagparada.",
+    "image": "No_Parking.jpg",
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ang marking na ito ay kumakatawan sa zone kung saan parehong restricted ang parking at stopping sa ilalim ng traffic regulations sa Japan. Hindi dapat huminto o magparada ang mga drayber sa markadong bahagi maliban sa mga legal na pinapayagang sitwasyon."
+  },
+  {
+    "question": "33.Ang taong may hawak ng standard motorcycle license nang wala pang isang taon ay hindi pinapayagang magsakay ng pasahero sa ordinary roads.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Nililimitahan ng traffic law sa Japan ang mga beginner motorcycle riders sa pagsasakay ng pasahero hanggang magkaroon sila ng naaangkop na motorcycle license nang hindi bababa sa isang taon."
+  },
+  {
+    "question": "34. Sa ipinakitang traffic signal, maaaring lumiko pakanan ang passenger cars at large trucks ngunit ipinagbabawal sa mga motorsiklo ang pagliko pakanan.",
+    "image": "gree_arrow_proceed.jpg",
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Pinapayagan ng blue arrow signal ang trapiko na magpatuloy sa ipinakitang direksyon anuman ang uri ng sasakyan maliban kung may hiwalay na restriction. Pinapayagan din ang mga motorsiklo na lumiko pakanan kapag pinahihintulutan ng arrow signal ang movement."
+  },
+  {
+    "question": "35. Pinapayagan ang pagparada o paghinto sa loob ng 10 metro mula sa bus stop sign kapag hindi tumatakbo ang mga bus sa lokasyong iyon.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Sa ilalim ng traffic regulations sa Japan, ang paghinto o pagparada malapit sa bus stop ay pangunahing restricted lamang sa operating hours ng mga bus. Sa labas ng operating periods na iyon, maaaring hindi na umiiral ang restriction."
+  },
+  {
+    "question": "36. Ang centrifugal force na kumikilos sa gumagalaw na sasakyan ay tumataas ayon sa square ng bilis at mas lumalakas din habang lumalaki ang curve radius.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Bagama’t tumataas ang centrifugal force ayon sa square ng bilis, mas lumalakas ito kapag mas maliit ang curve radius, hindi mas malaki. Ang matatalim na kurbada ay lumilikha ng mas malakas na outward force."
+  },
+  {
+    "question": "37. Kung may emergency vehicle na paparating mula sa likuran habang nasa loob ka na ng intersection, dapat kang huminto agad kung nasaan ka.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Kinakailangan ng traffic rules sa Japan na iwasan ng mga drayber ang pagharang sa intersections. Kapag nasa loob na ng intersection, dapat muna itong ligtas na malampasan bago magbigay-daan sa emergency vehicle."
+  },
+  {
+    "question": "38. Pinapayagan ang ordinary motor vehicle na humila ng hanggang dalawang sirang sasakyan gamit ang lubid.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Pinapayagan ng regulations sa Japan ang ilang motor vehicles na humila ng hanggang dalawang disabled vehicles gamit ang lubid kapag maayos na nasunod ang legal towing requirements at safety conditions."
+  },
+  {
+    "question": "39. Kahit ang nakapost na speed limit sign ay nagpapakita ng 40 km/h, hindi dapat lumampas sa 30 km/h ang operators ng ordinary motorized bicycles.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Sa Japan, ang ordinary motorized bicycles ay may maximum legal speed na 30 km/h maliban kung may ibang partikular na pahintulot. Hindi pinapalitan ng general road speed limit ang restriction na ito."
+  },
+  {
+    "question": "40. Dapat laging sundin ng mga drayber ang traffic signals, ngunit hindi nila kinakailangang sundin ang hand directions na ibinibigay ng police officers o traffic controllers.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Sa Japan, legal na kinakailangang sundin ng mga drayber ang parehong traffic signals at instructions na ibinibigay ng police officers o authorized traffic controllers. Ang hand signals mula sa officers ang may prayoridad kapag nagdidirekta ng trapiko."
+  },
+  {
+    "question": "41. Habang nagmamaneho sa expressway, dapat iwasan ng mga drayber ang biglaang pagpreno o matalim na pagliko at panatilihin ang sapat na distansya mula sa sasakyan sa unahan.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Binibigyang-diin ng expressway safety rules sa Japan ang maayos na pagmamaneho at sapat na following distance upang mabawasan ang panganib ng high-speed collisions."
+  },
+  {
+    "question": "42. Dahil mura at madaling gamitin ang mga motorsiklo, ang pagsakay nito ay hindi nangangailangan ng higit na kasanayan o awareness kaysa sa pagmamaneho ng four-wheeled vehicle.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ang pagpapatakbo ng motorsiklo ay nangangailangan ng advanced balance, hazard awareness, at vehicle control skills. Itinuturing ng driving education sa Japan na nangangailangan ng espesyal na pag-iingat at technique ang mga motorsiklo."
+  },
+  {
+    "question": "43. Ipinagbabawal sa mga sasakyan ang paghinto o pagparada sa pedestrian crossing, bicycle crossing, o sa loob ng 5 metro bago o pagkatapos ng mga lugar na iyon.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Nililimitahan ng traffic law sa Japan ang paghinto at pagparada malapit sa crosswalks at bicycle crossings upang maprotektahan ang visibility at kaligtasan ng mga pedestrian."
+  },
+  {
+    "question": "44. Kung dalawang sasakyan ang sabay na dumating sa uncontrolled intersection na may magkaparehong lapad ng kalsada, ang sasakyang nasa kaliwa ang may prayoridad kaysa sa sasakyang nasa kanan.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Paliwanag: Sa Japan, sa intersections na walang signals o signs kung saan magkapareho ang lapad ng mga kalsada, ang sasakyang nanggagaling sa kanan ang karaniwang may right-of-way."
+  },
+  {
+    "question": "45. Kapag nagpaparada ng manual transmission vehicle sa patag na lupa, hindi na kinakailangan ang paggamit ng parking brake kung naka-shift sa reverse gear ang sasakyan.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Kinakailangan ng safe-driving practice sa Japan na gamitin ang parking brake tuwing iiwanang nakaparada ang sasakyan. Ang paggamit lamang ng gear ay hindi itinuturing na sapat na safety protection."
+  },
+  {
+    "question": "46. Ang medium-sized trucks ay palaging limitado sa maximum speed na 80 km/h habang bumibiyahe sa main lanes ng national expressways.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ang speed limits sa expressways ng Japan ay maaaring mag-iba depende sa road signs, traffic regulations, panahon, at kondisyon ng kalsada. Hindi palaging nakatakda sa 80 km/h ang maximum speed para sa medium-sized trucks."
+  },
+  {
+    "question": "47. Ang ipinakitang warning sign ay nagpapahiwatig na mababawasan ang bilang ng mga lane sa unahan, at ang mga sasakyang nasa kaliwang lane ay dapat maghanda na mag-merge pakanan.",
+    "image": "lane_decreased.jpg",
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ipinapaalam ng Japanese warning sign na ito sa mga drayber na magtatapos ang kaliwang lane sa unahan. Dapat ligtas na mag-merge pakanan ang mga drayber na nasa lane na iyon habang sinusuri ang trapiko sa paligid."
+  },
+  {
+    "question": "48. Ang mga patakaran tungkol sa laki ng kargamento at paraan ng pagkakakarga nito ay umiiral dahil ang hindi tamang pagkakakarga ay maaaring magdulot ng panganib at makaapekto sa kaligtasan ng trapiko.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Nililimitahan ng traffic regulations sa Japan ang sukat ng kargamento at mga paraan ng pagkakakarga upang maiwasan ang pagkahulog ng mga bagay, hindi matatag na pagmamaneho, at traffic accidents."
+  },
+  {
+    "question": "49. Ang standard legal speed limit para sa mga sasakyan sa ordinary roads ay palaging 60 km/h.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Sa Japan, ang general maximum speed limit para sa ordinary passenger vehicles sa regular roads ay karaniwang 60 km/h maliban kung may ibang speed limit na ipinapakita ng road signs."
+  },
+  {
+    "question": "50. Habang nagmamaneho sa gabi, maaaring panandaliang mag-flash ng headlights ang drayber bago pumasok sa blind intersection o kurbada upang balaan ang mga pedestrian at paparating na sasakyan tungkol sa presensya ng sasakyan.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Pinapayagan ng driving practice sa Japan ang pag-flash ng headlights bilang warning signal sa mga lugar na mahina ang visibility. Nakakatulong ito upang maiwasan ang banggaan sa mga kurbada at intersections sa gabi."
+  },
+  {
+    "question": "51. Ang Japanese driver’s licenses ay nahahati sa tatlong kategorya: first-class licenses, second-class licenses, at learner’s permits.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Kasama sa licensing system ng Japan ang ordinary first-class licenses, second-class licenses para sa professional passenger transport, at learner’s permits para sa driving practice."
+  },
+  {
+    "question": "52. Bago lumipat sa lane sa kanan, kinakailangang gumamit ng turn signal ang mga drayber nang hindi bababa sa 30 metro bago magpalit ng lane.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Sa Japan, ang lane-change signals ay karaniwang dapat ibigay nang hindi bababa sa 3 segundo bago ang paglipat, hindi batay sa nakatakdang 30-meter distance. Ang distance rules ay pangunahing naaangkop sa pagliko sa intersections."
+  },
+  {
+    "question": "53. Ipinagbabawal ang overtaking sa at sa loob ng 30 metro bago ang pedestrian crossing o bicycle crossing, ngunit pinapayagan pa rin ang simpleng pagdaan sa ibang sasakyan doon.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Nililimitahan ng traffic law sa Japan ang overtaking malapit sa crosswalks at bicycle crossings dahil sa panganib sa mga pedestrian at siklista. Ipinagbabawal din sa mga lugar na ito ang pagdaan sa ibang sasakyan sa paraang itinuturing na overtaking."
+  },
+  {
+    "question": "54. Kahit sa lugar na may ipinakitang sign na nangangahulugang “No Stopping or Parking,” maaaring pansamantalang huminto ang sasakyan basta’t hindi ito nakaparada.",
+    "image": "can_stop_but_cant_park.jpg",
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang Japanese sign na ito ay nagpapakita ng parking prohibition area kung saan hindi pinapayagan ang parking, ngunit maaaring pahintulutan pa rin ang maikling paghinto sa ilalim ng pinapayagang kondisyon depende sa sitwasyon."
+  },
+  {
+    "question": "55. Kung ang traffic signal ay nagpapakita ng green arrow para sa right turn habang nananatiling pula ang forward signal, tanging light vehicles lamang ang pinapayagang gumalaw sa direksyon ng arrow.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Sa Japan, pinapayagan ng green arrow signal ang lahat ng sasakyang maaaring bumiyahe sa direksyong iyon maliban kung may ibang restriction na partikular na naglilimita sa ilang uri ng sasakyan."
+  },
+  {
+    "question": "56. Kung may mga sasakyang nakahinto kaagad bago ang bicycle crossing, maaaring maingat na lampasan ito ng mga drayber at magpatuloy nang mabagal.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Kinakailangan ng traffic rules sa Japan na mag-ingat nang husto ang mga drayber malapit sa bicycle crossings dahil maaaring may mga pedestrian o siklistang natatakpan ng mga nakahintong sasakyan. Ang pagdaan sa ganitong sitwasyon ay maaaring ipinagbabawal o mapanganib."
+  },
+  {
+    "question": "57. Ang Automobile Storage Location Sticker na ibinibigay para sa sasakyan ay dapat ikabit sa rear window ng kotse.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang Automobile Storage Location Sticker na ibinibigay para sa sasakyan ay dapat ikabit sa rear window ng kotse."
+  },
+  {
+    "question": "58. Kinakailangang magdala ng emergency equipment tulad ng flare, smoke signal, o flashlight ang large trucks, medium-sized vehicles, semi-medium trucks, at ordinary passenger cars.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Kinakailangan ng vehicle safety regulations sa Japan na maraming uri ng sasakyan ang magdala ng emergency warning devices para gamitin kapag may breakdown o roadside emergency."
+  },
+  {
+    "question": "59. Maaaring itulak ng motorcyclist ang motorsiklo sa sidewalk o roadside strip kung nakapatay ang makina.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Sa ilalim ng traffic rules sa Japan, ang motorsiklong itinutulak habang nakapatay ang makina ay karaniwang itinuturing na katulad ng pedestrian activity, kaya pinapayagan ang paggamit ng sidewalks kung ligtas itong magagawa."
+  },
+  {
+    "question": "60. Dapat magbawas ng bilis ang mga drayber tuwing liliko pakaliwa o pakanan.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Kinakailangan ng safe-driving rules sa Japan na maingat at mabagal ang pagliko ng mga motorista upang mapanatili ang kontrol at maprotektahan ang mga pedestrian, siklista, at trapiko sa paligid."
+  },
+  {
+    "question": "61. Maaaring lampasan ng drayber ang ibang sasakyan mula sa kaliwa o kanan depende kung aling panig ang mas madaling gamitin.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Sa Japan, karaniwang kinakailangang gawin ang overtaking mula sa kanang bahagi maliban sa limitadong sitwasyong legal na pinapayagan. Ang pagdaan mula sa kaliwa ay maaaring mapanganib at labag sa batas."
+  },
+  {
+    "question": "62. Kung may mga pedestrian na tumatawid o malapit nang tumawid malapit sa intersection na walang marked crosswalk, dapat magbagal o huminto ang mga drayber upang hindi makaabala sa paggalaw ng pedestrian.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Kinakailangan ng traffic law sa Japan na unahin ng mga drayber ang kaligtasan ng pedestrian malapit sa intersections kahit walang painted crosswalk."
+  },
+  {
+    "question": "63. Kung pumalya ang preno habang bumababa sa slope at hindi mapahinto ng engine braking at parking brake ang sasakyan, dapat gamitin ng drayber ang roadside barriers, graba, o kanal upang makatulong sa pagpapahinto ng sasakyan.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Pinapayagan ng emergency driving guidance sa Japan ang paggamit ng mas ligtas na roadside obstacles o escape areas upang mabawasan ang pinsala at maiwasan ang mas seryosong aksidente kapag pumalya ang braking system."
+  },
+  {
+    "question": "64. Dapat magbagal ang mga drayber kapag papalapit sa kurbada, malinaw man o hindi ang kalsada sa unahan.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Pinapataas ng mga kurbada ang panganib ng pag-skid at binabawasan ang stability ng sasakyan. Binibigyang-diin ng driving rules sa Japan ang pagbabawas ng bilis bago pumasok sa mga kurbada para sa ligtas na kontrol ng sasakyan."
+  },
+  {
+    "question": "65. Ang mga sasakyang may espesyal na pahintulot ay maaaring pumasok sa kalsadang may ipinakitang sign kung mag-iingat sila at magbibigay ng matinding atensyon sa mga pedestrian, ngunit hindi na nila kailangang magbagal kapag walang pedestrian sa paligid.",
+    "image": "reserved_for_pedestrians.jpg",
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ang sign ay nagpapahiwatig ng pedestrian-only road. Kahit ang mga awtorisadong sasakyan ay dapat bumiyahe nang napakabagal at mag-ingat nang husto sa lahat ng oras, kahit walang nakikitang pedestrian."
+  },
+  {
+    "question": "66. Ang rider na nagtutulak ng motorsiklo habang nakapatay ang makina ay itinuturing na pedestrian sa ilalim ng traffic rules sa Japan.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Sa Japan, ang taong naglalakad habang nagtutulak ng motorsiklo na nakapatay ang makina ay karaniwang itinuturing na pedestrian at dapat sumunod sa pedestrian-related traffic rules."
+  },
+  {
+    "question": "67. Kung masyadong maliwanag ang headlights ng paparating na sasakyan sa gabi, dapat panatilihin ng mga drayber ang tingin nang bahagya sa kaliwang bahagi habang patuloy na nagmamaneho.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang bahagyang pagtingin sa kaliwa ay nakakatulong mabawasan ang glare mula sa kasalubong na headlights at nagbibigay-daan upang manatiling aware ang drayber sa gilid ng kalsada nang ligtas."
+  },
+  {
+    "question": "68. Pinapayagan ang parking sa kaliwang bahagi ng kalsada basta’t may natitirang hindi bababa sa 2.5 metro ng espasyo sa kanang bahagi ng nakaparadang sasakyan.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Karaniwang kinakailangan ng parking rules sa Japan na magparada ang mga sasakyan sa kaliwang bahagi na nakaharap sa direksyon ng trapiko. Ang posisyon ng parking at natitirang espasyo sa kalsada ay dapat sumunod sa partikular na legal conditions, at mali ang pahayag ayon sa pagkakasulat."
+  },
+  {
+    "question": "69. Sa intersection na ipinapakita sa ilustrasyon, parehong limitado ang visibility ng Vehicle A at Vehicle B dahil sa mga harang sa paligid. Kaya dapat magbagal at maingat na magpatuloy ang bawat drayber.",
+    "image": "motorcycle_not_allowed.jpg",
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ipinagbabawal ng Japanese regulatory sign na ito ang pagpasok ng mga motorsiklo, kabilang ang ordinary motorized bicycles. Hindi dapat magpatuloy ang mga sasakyang sakop ng restriction lampas sa sign."
+  },
+  {
+    "question": "70. Dapat hawakan ng mga motorcycle rider ang handlebars na bahagyang pababa ang anggulo ng pulso habang magaang lamang ang pagkakahawak sa bars.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Kasama sa tamang motorcycle riding posture sa Japanese safety training ang relaxed grip at natural wrist position upang mapabuti ang steering control at mabawasan ang pagkapagod ng rider."
+  },
+  {
+    "question": "71. Sa intersection na walang traffic signals, ang drayber na papasok sa kalsadang mas malapad kaysa sa kasalukuyang kalsada ay dapat magbagal at umiwas na makaabala sa trapikong gumagamit na ng mas malapad na kalsada.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Karaniwang nagbibigay ng prayoridad ang right-of-way rules sa Japan sa trapikong bumibiyahe sa mas malapad na kalsada sa uncontrolled intersections. Dapat maingat na magpatuloy ang mga drayber na galing sa mas makitid na kalsada."
+  },
+  {
+    "question": "72. Sa national expressways, tanging mga sasakyang may tamang kagamitan para sa towing at mga sasakyang maayos na dinisenyo upang ma-tow lamang ang maaaring magsagawa ng towing operations.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Kinakailangan ng expressway regulations sa Japan na parehong ang towing vehicle at ang vehicle na tina-tow ay nakakatugon sa partikular na structural at safety requirements bago pahintulutan ang towing."
+  },
+  {
+    "question": "73. Kapag nagpapabagal o humihinto ng motorsiklo, dapat gamitin ng riders ang engine braking kasama ng front at rear brakes habang pinananatiling tuwid ang motorsiklo at diretso ang front wheel.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Inirerekomenda ng motorcycle safety instruction sa Japan ang balanced braking at stable posture upang maiwasan ang pag-skid at mapanatili ang kontrol habang nagpepreno."
+  },
+  {
+    "question": "74. Kapag may asul na left-turn arrow sign na may puting background sa tabi ng traffic signal o sa gilid ng kalsada, maaaring lumiko pakaliwa ang mga drayber matapos tiyakin ang kaligtasan ng mga pedestrian at trapiko sa paligid kahit pula o dilaw ang pangunahing signal.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Sa Japan, pinapayagan ng directional arrow signal ang mga sasakyan na magpatuloy sa ipinakitang direksyon kahit ano pa ang kulay ng regular signal, basta ligtas itong gawin."
+  },
+  {
+    "question": "75. Ipinagbabawal ang pag-overtake sa loob ng tunnel kahit ang tunnel ay may maraming lanes sa parehong direksyon.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Karaniwang ipinagbabawal ng traffic law sa Japan ang overtaking sa tunnels na walang lane separation, ngunit maaaring pahintulutan ang overtaking sa tunnels na may markadong maraming lanes na papunta sa parehong direksyon."
+  },
+  {
+    "question": "76. Ipinagbabawal ang parking sa loob ng 3 metro mula sa entrance o exit ng parking area, garage, o katulad na vehicle access point.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Nililimitahan ng parking regulations sa Japan ang parking malapit sa entrances at exits upang matiyak na ligtas na makakapasok at makakalabas ang mga sasakyan nang walang harang."
+  },
+  {
+    "question": "77. Kasama sa terminong “expressway” ang parehong national expressways at motorways.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Sa ilalim ng road classifications sa Japan, malawak na kabilang sa expressways ang national expressways at iba pang high-speed motor vehicle roads na dinisenyo para sa mabilis na daloy ng trapiko."
+  },
+  {
+    "question": "78. Sa snowy o icy road conditions, dapat gumamit ang mga drayber ng tire chains, snow tires, o studless winter tires upang mabawasan ang panganib ng pagdulas.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Inirerekomenda ng winter driving safety guidance sa Japan ang tamang winter equipment dahil malaki ang ibinabawas ng snow at yelo sa tire traction at pinahahaba nito ang stopping distance."
+  },
+  {
+    "question": "79. Maliban kung may traffic sign na nagbibigay ng ibang instruction para sa ordinary motorized bicycles sa intersection na may dalawang lanes sa bawat direksyon, dapat lumapit ang rider sa gitna ng roadway bago gumawa ng right turn at tapusin ang pagliko nang mabagal malapit sa gitna ng intersection.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Karaniwang kinakailangan ng traffic rules sa Japan na magsagawa ng two-stage right turn ang ordinary motorized bicycles sa malalaking intersections maliban kung may sign na partikular na nagpapahintulot ng ibang turning method."
+  },
+  {
+    "question": "80. Maaaring bumusina ang mga drayber kapag tunay na kinakailangan upang maiwasan ang agarang panganib o aksidente.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Sa Japan, hindi hinihikayat ang hindi kinakailangang paggamit ng busina, ngunit pinapayagan ito kapag kinakailangan upang magbigay-babala at maiwasan ang panganib."
+  },
+  {
+    "question": "81. Ang pagmamaneho nang sobrang bilis ay nagpapadali sa mga drayber na hindi mapansin ang mga panganib o makita ito nang huli na.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Binabawasan ng mataas na bilis ang reaction time at pinapaliit ang effective field of vision ng drayber, kaya tumataas ang panganib na hindi mapansin ang mga panganib."
+  },
+  {
+    "question": "82. Kahit tuluyang lumubog hanggang sahig ang brake pedal, maaari ka pa ring magpatuloy sa pagmamaneho basta tila normal pa ring gumagana ang preno.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ang brake pedal na tuluyang lumulubog hanggang sahig ay maaaring palatandaan ng seryosong problema sa brake system. Kinakailangan ng vehicle safety rules sa Japan na agad itong ipa-inspect at ipa-repair."
+  },
+  {
+    "question": "83. Dapat suriin ang tire tread wear indicators upang malaman kung ang mga gulong ay lampas na sa ligtas na limitasyon ng pagkasuot.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Kinakailangan ng vehicle maintenance standards sa Japan na regular na bantayan ng mga drayber ang kondisyon ng gulong. Tumutulong ang tread wear indicators upang malaman kung kailan kailangang palitan ang mga gulong."
+  },
+  {
+    "question": "84. Sa kalsadang may tatlong lanes sa parehong direksyon, ang daloy ng trapiko ay karaniwang dapat bumilis mula kaliwa papuntang kanan, at ang pinakakanang lane ay pangunahing ginagamit para sa overtaking.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Karaniwang inilalaan ng lane usage rules sa Japan ang right-side lane para sa overtaking at mas mabilis na trapiko, habang ang mas mababagal na sasakyan ay dapat manatili sa kaliwa kung maaari."
+  },
+  {
+    "question": "85. Dapat malawakang tingnan ng mga drayber ang kalsada sa unahan sa halip na ituon lamang ang mata sa isang nakapirming punto.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Itinuturo ng safe-driving instruction sa Japan sa mga drayber na panatilihin ang malawak na field of vision upang mas mabilis makita ang mga panganib, pedestrian, at pagbabago sa trapiko."
+  },
+  {
+    "question": "86. Habang sumasakay ng motorsiklo sa kurbada, maaaring gamitin ang throttle sa gitna ng pagliko upang makatulong sa maayos na pagkontrol ng bilis.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Kasama sa tamang motorcycle handling sa Japan ang maayos na throttle control habang lumiliko upang mapanatili ang balance at stability ng sasakyan. Maaaring mapanganib ang biglaang pagpreno sa kurbada."
+  },
+  {
+    "question": "87. Kahit may ipinakitang sign na nagbabawal ng right turns, maaari pa ring lumiko pakanan ang mga drayber upang pumasok o lumabas sa garage sa gilid ng kalsada.",
+    "image": "no_crossing_sign.jpg",
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ipinagbabawal ng Japanese regulatory sign na ito ang right turns sa lokasyong iyon. Dapat sundin ng mga drayber ang restriction kahit papasok o lalabas sila sa malapit na private property maliban kung may partikular na pinapayagang exception."
+  },
+  {
+    "question": "88. Kung makatanggap ang iyong sasakyan ng illegally parked vehicle notice, kailangan mong makipag-ugnayan sa police officer upang personal na alisin ang sticker pagkatapos ilipat ang sasakyan sa legal parking area.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Maaaring alisin ng drayber o gumagamit ng sasakyan ang notice matapos maayos na asikasuhin ang violation. Hindi kailangang hintayin pa ang police officer para alisin ito."
+  },
+  {
+    "question": "89. Hindi kailangang maging lalo pang maingat ang mga motorcycle rider kapag bumibiyahe sa tabi ng four-wheeled vehicles dahil palaging aware ang mga automobile drivers sa trapiko sa paligid.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Mas mahirap mapansin ng ibang drayber ang mga motorsiklo dahil sa blind spots at mas maliit nitong sukat. Binibigyang-diin ng motorcycle safety guidance sa Japan ang dagdag na pag-iingat malapit sa mas malalaking sasakyan."
+  },
+  {
+    "question": "90. Bago lampasan ang ibang sasakyan, dapat munang gamitin ng drayber ang turn signal at pagkatapos ay suriin kung ligtas ang traffic conditions sa unahan at likuran.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Bago lampasan ang ibang sasakyan, dapat munang gamitin ng drayber ang turn signal at pagkatapos ay suriin kung ligtas ang traffic conditions sa unahan at likuran."
+  }
+]
