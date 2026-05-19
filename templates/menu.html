@@ -116,6 +116,17 @@ body.dark .active-lang{
     );
 }
 
+body.dark .user-box{
+
+    background:
+    rgba(30,41,59,0.92);
+
+    border:
+    1px solid rgba(255,255,255,0.08);
+
+    color:white;
+}
+
 
 /* 🔝 HEADER */
 
@@ -215,6 +226,90 @@ body.dark .active-lang{
     box-shadow:
     0 6px 18px rgba(37,99,235,0.22);
 }
+
+/* 👤 USER BOX */
+
+.user-box{
+
+    margin-top:16px;
+
+    padding:14px;
+
+    border-radius:18px;
+
+    background:
+    rgba(255,255,255,0.7);
+
+    border:
+    1px solid rgba(255,255,255,0.6);
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    gap:12px;
+
+    flex-wrap:wrap;
+}
+
+.user-info{
+
+    font-size:15px;
+
+    font-weight:700;
+}
+
+.premium-badge{
+
+    display:inline-block;
+
+    margin-top:6px;
+
+    padding:6px 10px;
+
+    border-radius:999px;
+
+    background:
+    linear-gradient(
+    135deg,
+    #facc15,
+    #eab308
+    );
+
+    color:#111827;
+
+    font-size:12px;
+
+    font-weight:800;
+}
+
+.auth-btn{
+
+    text-decoration:none;
+
+    padding:10px 16px;
+
+    border-radius:14px;
+
+    font-size:14px;
+
+    font-weight:700;
+
+    color:white;
+
+    background:
+    linear-gradient(
+    135deg,
+    #3b82f6,
+    #2563eb
+    );
+
+    box-shadow:
+    0 6px 18px rgba(37,99,235,0.18);
+}
+
 
 /* 📦 CONTAINER */
 
@@ -318,7 +413,7 @@ body.dark .active-lang{
 
 .card.active .menu-content{
 
-    max-height:600px;
+    max-height:700px;
 
     padding-bottom:22px;
 }
@@ -417,6 +512,23 @@ body.dark .active-lang{
     box-shadow:none;
 }
 
+/* ⭐ PREMIUM */
+
+.menu-btn-gold{
+
+    background:
+    linear-gradient(
+    135deg,
+    #facc15,
+    #eab308
+    );
+
+    color:#111827;
+
+    box-shadow:
+    0 8px 20px rgba(234,179,8,0.25);
+}
+
 /* ✨ HOVER */
 
 .menu-btn:hover{
@@ -464,6 +576,11 @@ body.dark .active-lang{
 
         padding:8px 14px;
     }
+
+    .user-box{
+
+        flex-direction:column;
+    }
 }
 
 </style>
@@ -476,9 +593,10 @@ body.dark .active-lang{
 
     🇯🇵 Japan Driving Test Master
 
+    <!-- 🌐 LANGUAGE -->
+
     <div class="language-switcher">
 
-        <!-- 🇺🇸 ENGLISH -->
         <a href="/set-language/en"
            class="lang-btn
            {% if session.get('lang', 'en') == 'en' %}
@@ -489,7 +607,6 @@ body.dark .active-lang{
 
         </a>
 
-        <!-- 🇵🇭 TAGALOG -->
         <a href="/set-language/tl"
            class="lang-btn
            {% if session.get('lang', 'en') == 'tl' %}
@@ -500,7 +617,6 @@ body.dark .active-lang{
 
         </a>
 
-        <!-- 🇳🇵 NEPALI -->
         <a href="/set-language/ne"
            class="lang-btn
            {% if session.get('lang', 'en') == 'ne' %}
@@ -512,12 +628,71 @@ body.dark .active-lang{
         </a>
 
         <!-- 🌙 DARK MODE -->
+
         <button onclick="toggleDarkMode()"
                 class="lang-btn">
 
-            🌙 Dark Mode
+            {{ ui.dark_mode }}
 
         </button>
+
+    </div>
+
+    <!-- 👤 USER LOGIN -->
+
+    <div class="user-box">
+
+        {% if session.get('username') %}
+
+            <div class="user-info">
+
+                👋 {{ ui.welcome }},
+                {{ session.get('username') }}
+
+                {% if session.get('is_premium') %}
+
+                    <div class="premium-badge">
+                        {{ ui.premium }}
+                    </div>
+
+                {% endif %}
+
+            </div>
+
+            <a href="/logout"
+               class="auth-btn">
+
+               {{ ui.logout }}
+
+            </a>
+
+        {% else %}
+
+            <div class="user-info">
+
+                👤 Guest User
+
+            </div>
+
+            <div style="display:flex; gap:10px;">
+
+                <a href="/login"
+                   class="auth-btn">
+
+                   {{ ui.login }}
+
+                </a>
+
+                <a href="/register"
+                   class="auth-btn">
+
+                   {{ ui.register }}
+
+                </a>
+
+            </div>
+
+        {% endif %}
 
     </div>
 
@@ -526,6 +701,7 @@ body.dark .active-lang{
 <div class="container">
 
     <!-- 🧠 STUDY MODE -->
+
     <div class="card active">
 
         <div class="section-title"
@@ -558,6 +734,7 @@ body.dark .active-lang{
     </div>
 
     <!-- 📝 KARIMEN -->
+
     <div class="card">
 
         <div class="section-title"
@@ -590,6 +767,7 @@ body.dark .active-lang{
     </div>
 
     <!-- 🏁 HONMEN -->
+
     <div class="card">
 
         <div class="section-title"
@@ -628,7 +806,48 @@ body.dark .active-lang{
 
     </div>
 
+    <!-- ⭐ PREMIUM -->
+
+    <div class="card">
+
+        <div class="section-title"
+             onclick="toggleMenu(this)">
+
+            <h2>⭐ Premium Features</h2>
+
+            <span class="arrow">⌄</span>
+
+        </div>
+
+        <div class="menu-content">
+
+            <a href="#"
+               class="menu-btn menu-btn-gold">
+
+               ⭐ AI Tutor Unlimited
+
+            </a>
+
+            <a href="#"
+               class="menu-btn menu-btn-gold">
+
+               ⭐ Unlimited Mock Exams
+
+            </a>
+
+            <a href="#"
+               class="menu-btn menu-btn-gold">
+
+               ⭐ Advanced Analytics
+
+            </a>
+
+        </div>
+
+    </div>
+
     <!-- ⚙️ APP INFO -->
+
     <div class="card">
 
         <div class="section-title"
@@ -686,7 +905,7 @@ function toggleMenu(element){
 }
 
 
-// 🌙 DARK MODE
+/* 🌙 DARK MODE */
 
 function toggleDarkMode(){
 
@@ -705,7 +924,7 @@ function toggleDarkMode(){
 }
 
 
-// ✅ LOAD SAVED DARK MODE
+/* ✅ LOAD SAVED DARK MODE */
 
 if(
 

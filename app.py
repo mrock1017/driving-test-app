@@ -1,4 +1,7 @@
 from flask import Flask, render_template, request, redirect, session
+from flask_sqlalchemy import SQLAlchemy
+from werkzeug.security import generate_password_hash, check_password_hash
+
 import os
 import json
 import random
@@ -9,9 +12,46 @@ app = Flask(__name__)
 # ✅ SECRET KEY
 app.config['SECRET_KEY'] = 'secret123'
 
+# ✅ DATABASE
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///users.db'
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+
+db = SQLAlchemy(app)
+
 # ✅ DEBUG
 app.config['TEMPLATES_AUTO_RELOAD'] = True
 app.config['DEBUG'] = False
+
+
+# 👤 USER DATABASE MODEL
+class User(db.Model):
+
+    id = db.Column(
+        db.Integer,
+        primary_key=True
+    )
+
+    username = db.Column(
+        db.String(100),
+        unique=True,
+        nullable=False
+    )
+
+    email = db.Column(
+        db.String(120),
+        unique=True,
+        nullable=False
+    )
+
+    password = db.Column(
+        db.String(200),
+        nullable=False
+    )
+
+    is_premium = db.Column(
+        db.Boolean,
+        default=False
+    )
 
 
 # 🌐 UI TRANSLATIONS
@@ -38,13 +78,16 @@ UI_TEXT = {
         "terms": "📄 Terms of Use",
         "contact": "✉️ Contact Us",
 
-        # 🌙 DARK MODE
         "dark_mode": "🌙 Dark Mode",
 
-        # 👤 LOGIN
         "login": "👤 Login",
+        "register": "📝 Register",
         "logout": "🚪 Logout",
-        "welcome": "Welcome"
+        "welcome": "Welcome",
+
+        "ai_title": "🧠 AI Tutor",
+
+        "premium": "⭐ Premium User"
     },
 
     "tl": {
@@ -68,13 +111,16 @@ UI_TEXT = {
         "terms": "📄 Mga Tuntunin ng Paggamit",
         "contact": "✉️ Makipag-ugnayan",
 
-        # 🌙 DARK MODE
         "dark_mode": "🌙 Dark Mode",
 
-        # 👤 LOGIN
         "login": "👤 Login",
+        "register": "📝 Register",
         "logout": "🚪 Logout",
-        "welcome": "Maligayang pagdating"
+        "welcome": "Maligayang pagdating",
+
+        "ai_title": "🧠 AI Tutor",
+
+        "premium": "⭐ Premium User"
     },
 
     "ne": {
@@ -98,24 +144,59 @@ UI_TEXT = {
         "terms": "📄 प्रयोगका सर्तहरू",
         "contact": "✉️ सम्पर्क गर्नुहोस्",
 
-        # 🌙 DARK MODE
         "dark_mode": "🌙 डार्क मोड",
 
-        # 👤 LOGIN
         "login": "👤 लगइन",
+        "register": "📝 दर्ता",
         "logout": "🚪 लगआउट",
-        "welcome": "स्वागत छ"
+        "welcome": "स्वागत छ",
+
+        "ai_title": "🧠 AI ट्यूटर",
+
+        "premium": "⭐ प्रिमियम प्रयोगकर्ता"
     }
 }
 
 
-# 👤 SIMPLE USER DATABASE
-USERS = {
+# 🌐 GET UI LANGUAGE
+def get_ui():
 
-    "admin": "1234",
+    language = session.get('lang', 'en')
 
-    "demo": "demo123"
-}
+    return UI_TEXT.get(
+        language,
+        UI_TEXT['en']
+    )
+
+
+# 🤖 AI EXPLANATION
+def generate_ai_explanation(
+    question,
+    correct_answer,
+    user_answer,
+    is_correct
+):
+
+    if is_correct:
+
+        return (
+            "✅ Excellent driving judgment. "
+            "You correctly understood the road rule and selected "
+            f"the proper answer ({correct_answer}). "
+            "This type of question usually tests safety awareness, "
+            "traffic law understanding, and defensive driving habits."
+        )
+
+    else:
+
+        return (
+            f"❌ Your answer was '{user_answer}', "
+            f"but the correct answer is '{correct_answer}'. "
+            "This question focuses on safe driving behavior and "
+            "proper traffic rule interpretation. "
+            "Pay close attention to keywords involving stopping, "
+            "road signs, pedestrians, intersections, and hazard prediction."
+        )
 
 
 # ✅ LOAD QUESTIONS
@@ -130,7 +211,6 @@ def load_questions(folder, language, filename):
 
     print("TRYING:", filepath)
 
-    # 🌐 FALLBACK TO ENGLISH
     if not os.path.exists(filepath):
 
         print("FALLBACK TO ENGLISH")
@@ -173,28 +253,13 @@ def load_questions(folder, language, filename):
         return []
 
 
-# 🌐 GET UI LANGUAGE
-def get_ui():
-
-    language = session.get('lang', 'en')
-
-    return UI_TEXT.get(
-        language,
-        UI_TEXT['en']
-    )
-
-
 # ✅ SET LANGUAGE
 @app.route('/set-language/<lang>')
 def set_language(lang):
 
     allowed_languages = ['en', 'tl', 'ne']
 
-    print("CLICKED LANGUAGE:", lang)
-
     if lang not in allowed_languages:
-
-        print("INVALID LANGUAGE")
 
         lang = 'en'
 
@@ -202,9 +267,57 @@ def set_language(lang):
 
     session.modified = True
 
-    print("LANGUAGE SAVED:", session['lang'])
-
     return redirect('/menu')
+
+
+# 👤 REGISTER
+@app.route('/register', methods=['GET', 'POST'])
+def register():
+
+    ui = get_ui()
+
+    error = None
+
+    if request.method == 'POST':
+
+        username = request.form.get('username')
+        email = request.form.get('email')
+        password = request.form.get('password')
+
+        existing_user = User.query.filter_by(
+            email=email
+        ).first()
+
+        if existing_user:
+
+            error = "Email already exists."
+
+        else:
+
+            hashed_password = generate_password_hash(
+                password
+            )
+
+            new_user = User(
+
+                username=username,
+
+                email=email,
+
+                password=hashed_password
+            )
+
+            db.session.add(new_user)
+
+            db.session.commit()
+
+            return redirect('/login')
+
+    return render_template(
+        'register.html',
+        error=error,
+        ui=ui
+    )
 
 
 # 👤 LOGIN
@@ -217,23 +330,27 @@ def login():
 
     if request.method == 'POST':
 
-        username = request.form.get(
-            'username'
-        )
+        email = request.form.get('email')
+        password = request.form.get('password')
 
-        password = request.form.get(
-            'password'
-        )
+        user = User.query.filter_by(
+            email=email
+        ).first()
 
-        if username in USERS and USERS[username] == password:
+        if user and check_password_hash(
+            user.password,
+            password
+        ):
 
-            session['user'] = username
+            session['user_id'] = user.id
+            session['username'] = user.username
+            session['is_premium'] = user.is_premium
 
             return redirect('/menu')
 
         else:
 
-            error = "Invalid username or password"
+            error = "Invalid login credentials."
 
     return render_template(
         'login.html',
@@ -246,7 +363,21 @@ def login():
 @app.route('/logout')
 def logout():
 
-    session.pop('user', None)
+    session.clear()
+
+    return redirect('/menu')
+
+
+# 🌙 DARK MODE
+@app.route('/toggle-dark-mode')
+def toggle_dark_mode():
+
+    current = session.get(
+        'dark_mode',
+        False
+    )
+
+    session['dark_mode'] = not current
 
     return redirect('/menu')
 
@@ -258,8 +389,6 @@ def menu():
     if 'lang' not in session:
 
         session['lang'] = 'en'
-
-    print("CURRENT LANGUAGE:", session['lang'])
 
     ui = get_ui()
 
@@ -284,22 +413,18 @@ def start_mode(mode, test):
 
     language = session.get('lang', 'en')
 
-    # 📝 KARIMEN
     if mode == "karimen":
 
         folder = "karimen"
 
-    # 🏁 HONMEN
     elif mode == "honmen":
 
         folder = "honmen"
 
-    # 🧠 REVIEWER KARIMEN
     elif mode == "reviewer_karimen":
 
         folder = "reviewer/karimen"
 
-    # 🧠 REVIEWER HONMEN
     elif mode == "reviewer_honmen":
 
         folder = "reviewer/honmen"
@@ -321,7 +446,6 @@ def start_mode(mode, test):
     session['current'] = 0
     session['mode'] = mode
 
-    # 🏁 HONMEN
     if mode == "honmen":
 
         normal_questions = []
@@ -376,7 +500,6 @@ def start_mode(mode, test):
 
             random.shuffle(order)
 
-        # 🧠 reviewer
         if "reviewer" in mode:
 
             session['duration'] = None
@@ -388,10 +511,6 @@ def start_mode(mode, test):
             session['duration'] = 30 * 60
 
     session['order'] = order
-
-    print("MODE SET:", mode)
-
-    print("TOTAL QUESTIONS:", len(order))
 
     return redirect('/question')
 
@@ -429,12 +548,10 @@ def question():
         list(range(len(questions)))
     )
 
-    # ❌ no questions
     if len(questions) == 0:
 
         return "<h2>No questions found.</h2>"
 
-    # ✅ finished
     if session['current'] >= len(order):
 
         return redirect('/result')
@@ -444,7 +561,6 @@ def question():
         "reviewer" in session['mode']
     )
 
-    # ⏱ timer
     remaining = None
 
     if not is_reviewer:
@@ -472,12 +588,10 @@ def question():
 
             return redirect('/result')
 
-    # current question
     idx = order[session['current']]
 
     q = questions[idx]
 
-    # reviewer mode feedback
     feedback = False
 
     correct_answer = None
@@ -488,13 +602,10 @@ def question():
 
     user_answer = None
 
-    # 🤖 AI EXPLANATION
     ai_explanation = None
 
-    # ✅ FORM SUBMIT
     if request.method == 'POST':
 
-        # 🏁 GROUP QUESTIONS
         if "items" in q:
 
             group_answers = []
@@ -502,14 +613,12 @@ def question():
             for item in q["items"]:
 
                 ans = request.form.get(
-
                     f'answer_{item["number"]}'
                 )
 
                 group_answers.append(ans)
 
             session['answers'].append(
-
                 group_answers
             )
 
@@ -519,11 +628,9 @@ def question():
 
             return redirect('/question')
 
-        # 📝 NORMAL QUESTIONS
         else:
 
             answer = request.form.get(
-
                 'answer'
             )
 
@@ -544,26 +651,20 @@ def question():
                     q["answer"].strip().lower()
                 )
 
-                # 🤖 AI EXPLANATION
-                if is_correct:
+                ai_explanation = generate_ai_explanation(
 
-                    ai_explanation = (
-                        "✅ Great job! "
-                        "You understood the traffic rule correctly."
-                    )
+                    q["question"],
 
-                else:
+                    correct_answer,
 
-                    ai_explanation = (
-                        "❌ Review this rule carefully. "
-                        "Focus on road safety, signs, and driving judgment."
-                    )
+                    user_answer,
 
-                # 📝 exam mode
+                    is_correct
+                )
+
                 if not is_reviewer:
 
                     session['answers'].append(
-
                         answer
                     )
 
@@ -573,7 +674,6 @@ def question():
 
                     return redirect('/question')
 
-                # 🧠 reviewer mode
                 else:
 
                     feedback = True
@@ -602,7 +702,9 @@ def question():
 
         user_answer=user_answer,
 
-        ai_explanation=ai_explanation
+        ai_explanation=ai_explanation,
+
+        ui=get_ui()
     )
 
 
@@ -623,7 +725,6 @@ def result():
 
         return redirect('/menu')
 
-    # 🧠 reviewer skips results
     if "reviewer" in session['mode']:
 
         return redirect('/menu')
@@ -665,7 +766,6 @@ def result():
             else None
         )
 
-        # 🏁 GROUP QUESTIONS
         if "items" in q:
 
             total_questions += 2
@@ -735,7 +835,6 @@ def result():
 
                 score += 2
 
-        # 📝 NORMAL QUESTIONS
         else:
 
             total_questions += 1
@@ -780,12 +879,10 @@ def result():
                     q.get("image")
             })
 
-    # 🎯 save latest score
     session['last_score'] = score
 
     session['last_total'] = total_questions
 
-    # 🎯 PASSING SCORE
     if session['mode'] == "honmen":
 
         passing_score = 90
@@ -799,7 +896,6 @@ def result():
 
     passed = score >= passing_score
 
-    # 📊 SCORE HISTORY
     if 'score_history' not in session:
 
         session['score_history'] = []
@@ -823,7 +919,6 @@ def result():
         history_item
     )
 
-    # 🧹 KEEP LAST 20
     session['score_history'] = (
         session['score_history'][-20:]
     )
@@ -842,7 +937,9 @@ def result():
 
         passed=passed,
 
-        passing_score=passing_score
+        passing_score=passing_score,
+
+        ui=get_ui()
     )
 
 
@@ -859,7 +956,9 @@ def history():
 
         'history.html',
 
-        history=history[::-1]
+        history=history[::-1],
+
+        ui=get_ui()
     )
 
 
@@ -871,6 +970,12 @@ def handle_error(e):
     <h1>ERROR</h1>
     <pre>{str(e)}</pre>
     """, 500
+
+
+# ✅ CREATE DATABASE
+with app.app_context():
+
+    db.create_all()
 
 
 if __name__ == '__main__':
