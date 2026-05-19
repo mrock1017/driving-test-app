@@ -1,6 +1,9 @@
 from flask import Flask, render_template, request, redirect, session
 from flask_sqlalchemy import SQLAlchemy
-from werkzeug.security import generate_password_hash, check_password_hash
+from werkzeug.security import (
+    generate_password_hash,
+    check_password_hash
+)
 
 import os
 import json
@@ -9,16 +12,31 @@ import time
 
 app = Flask(__name__)
 
+# =========================================================
 # ✅ SECRET KEY
-app.config['SECRET_KEY'] = 'secret123'
+# =========================================================
 
+app.config['SECRET_KEY'] = os.environ.get(
+    'SECRET_KEY',
+    os.urandom(32)
+)
+
+# =========================================================
 # ✅ DATABASE
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///users.db'
+# =========================================================
+
+app.config['SQLALCHEMY_DATABASE_URI'] = (
+    'sqlite:///users.db'
+)
+
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
 
+# =========================================================
 # ✅ DEBUG
+# =========================================================
+
 app.config['TEMPLATES_AUTO_RELOAD'] = True
 app.config['DEBUG'] = False
 
@@ -47,13 +65,56 @@ class User(db.Model):
     )
 
     password = db.Column(
-        db.String(200),
+        db.String(300),
         nullable=False
     )
 
     is_premium = db.Column(
         db.Boolean,
         default=False
+    )
+
+    created_at = db.Column(
+        db.DateTime,
+        default=db.func.now()
+    )
+
+
+# =========================================================
+# 📊 SCORE HISTORY MODEL
+# =========================================================
+
+class ScoreHistory(db.Model):
+
+    id = db.Column(
+        db.Integer,
+        primary_key=True
+    )
+
+    user_id = db.Column(
+        db.Integer,
+        db.ForeignKey('user.id')
+    )
+
+    mode = db.Column(
+        db.String(100)
+    )
+
+    score = db.Column(
+        db.Integer
+    )
+
+    total = db.Column(
+        db.Integer
+    )
+
+    passed = db.Column(
+        db.Boolean
+    )
+
+    created_at = db.Column(
+        db.DateTime,
+        default=db.func.now()
     )
 
 
@@ -94,6 +155,72 @@ UI_TEXT = {
         "ai_title": "🧠 AI Tutor",
 
         "premium": "⭐ Premium User"
+    },
+
+    "tl": {
+
+        "study_mode": "🧠 Study Mode",
+        "reviewer_karimen": "🧠 Reviewer Karimen",
+        "reviewer_honmen": "🧠 Reviewer Honmen",
+
+        "karimen_mock": "📝 Karimen Mock Test",
+        "karimen_test_1": "📝 Karimen Test 1",
+        "karimen_test_2": "📝 Karimen Test 2",
+
+        "honmen_mock": "🏁 Honmen Mock Test",
+        "honmen_test_1": "🏁 Honmen Test 1",
+        "honmen_test_2": "🏁 Honmen Test 2",
+        "honmen_test_3": "🏁 Honmen Test 3",
+
+        "app_info": "⚙️ Impormasyon ng App",
+        "score_history": "📊 Kasaysayan ng Score",
+        "privacy": "🔒 Patakaran sa Privacy",
+        "terms": "📄 Mga Tuntunin ng Paggamit",
+        "contact": "✉️ Makipag-ugnayan",
+
+        "dark_mode": "🌙 Dark Mode",
+
+        "login": "👤 Login",
+        "register": "📝 Register",
+        "logout": "🚪 Logout",
+        "welcome": "Welcome",
+
+        "ai_title": "🧠 AI Tutor",
+
+        "premium": "⭐ Premium User"
+    },
+
+    "ne": {
+
+        "study_mode": "🧠 अध्ययन मोड",
+        "reviewer_karimen": "🧠 Reviewer Karimen",
+        "reviewer_honmen": "🧠 Reviewer Honmen",
+
+        "karimen_mock": "📝 Karimen Mock Test",
+        "karimen_test_1": "📝 Karimen Test 1",
+        "karimen_test_2": "📝 Karimen Test 2",
+
+        "honmen_mock": "🏁 Honmen Mock Test",
+        "honmen_test_1": "🏁 Honmen Test 1",
+        "honmen_test_2": "🏁 Honmen Test 2",
+        "honmen_test_3": "🏁 Honmen Test 3",
+
+        "app_info": "⚙️ एप जानकारी",
+        "score_history": "📊 स्कोर इतिहास",
+        "privacy": "🔒 गोपनीयता नीति",
+        "terms": "📄 प्रयोगका सर्तहरू",
+        "contact": "✉️ सम्पर्क गर्नुहोस्",
+
+        "dark_mode": "🌙 Dark Mode",
+
+        "login": "👤 Login",
+        "register": "📝 Register",
+        "logout": "🚪 Logout",
+        "welcome": "Welcome",
+
+        "ai_title": "🧠 AI Tutor",
+
+        "premium": "⭐ Premium User"
     }
 }
 
@@ -113,6 +240,17 @@ def get_ui():
 
 
 # =========================================================
+# 🔐 LOGIN REQUIRED
+# =========================================================
+
+def login_required():
+
+    if 'user_id' not in session:
+
+        return redirect('/login')
+
+
+# =========================================================
 # 🤖 AI EXPLANATION
 # =========================================================
 
@@ -127,17 +265,19 @@ def generate_ai_explanation(
 
         return (
             "✅ Excellent driving judgment. "
-            "You correctly understood the road rule and selected "
-            f"the proper answer ({correct_answer}). "
-            "This question tests safety awareness, "
-            "traffic law understanding, and defensive driving."
+            "You correctly understood the road rule "
+            f"and selected the proper answer "
+            f"({correct_answer}). "
+            "This question tests traffic law awareness, "
+            "safe driving behavior, and hazard prediction."
         )
 
     return (
         f"❌ Your answer was '{user_answer}', "
-        f"but the correct answer is '{correct_answer}'. "
-        "Focus carefully on road signs, pedestrian safety, "
-        "hazard prediction, and proper driving judgment."
+        f"but the correct answer is "
+        f"'{correct_answer}'. "
+        "Focus carefully on road signs, "
+        "pedestrian safety, and defensive driving."
     )
 
 
@@ -154,9 +294,6 @@ def load_questions(folder, language, filename):
         filename
     )
 
-    print("TRYING:", filepath)
-
-    # 🌐 fallback to English
     if not os.path.exists(filepath):
 
         filepath = os.path.join(
@@ -166,11 +303,7 @@ def load_questions(folder, language, filename):
             filename
         )
 
-    print("LOADING:", filepath)
-
     if not os.path.exists(filepath):
-
-        print("FILE NOT FOUND")
 
         return []
 
@@ -178,14 +311,10 @@ def load_questions(folder, language, filename):
 
         with open(
             filepath,
-            encoding="utf-8-sig"
+            encoding='utf-8-sig'
         ) as f:
 
-            data = json.load(f)
-
-            print("QUESTIONS:", len(data))
-
-            return data
+            return json.load(f)
 
     except Exception as e:
 
@@ -227,42 +356,73 @@ def register():
 
     if request.method == 'POST':
 
-        username = request.form.get('username')
-        email = request.form.get('email')
+        username = (
+            request.form.get('username')
+            .strip()
+        )
+
+        email = (
+            request.form.get('email')
+            .strip()
+            .lower()
+        )
+
         password = request.form.get('password')
 
-        existing = User.query.filter_by(
+        existing_email = User.query.filter_by(
             email=email
         ).first()
 
-        if existing:
+        if existing_email:
 
             error = "Email already exists."
 
         else:
 
-            hashed = generate_password_hash(
-                password
+            existing_username = (
+                User.query.filter_by(
+                    username=username
+                ).first()
             )
 
-            new_user = User(
+            if existing_username:
 
-                username=username,
+                error = "Username already taken."
 
-                email=email,
+            elif len(password) < 6:
 
-                password=hashed
-            )
+                error = (
+                    "Password must be at least "
+                    "6 characters."
+                )
 
-            db.session.add(new_user)
+            else:
 
-            db.session.commit()
+                hashed = generate_password_hash(
+                    password
+                )
 
-            return redirect('/login')
+                new_user = User(
+
+                    username=username,
+
+                    email=email,
+
+                    password=hashed
+                )
+
+                db.session.add(new_user)
+
+                db.session.commit()
+
+                return redirect('/login')
 
     return render_template(
+
         'register.html',
+
         error=error,
+
         ui=ui
     )
 
@@ -280,7 +440,12 @@ def login():
 
     if request.method == 'POST':
 
-        email = request.form.get('email')
+        email = (
+            request.form.get('email')
+            .strip()
+            .lower()
+        )
+
         password = request.form.get('password')
 
         user = User.query.filter_by(
@@ -293,18 +458,27 @@ def login():
         ):
 
             session['user_id'] = user.id
+
             session['username'] = user.username
-            session['is_premium'] = user.is_premium
+
+            session['is_premium'] = (
+                user.is_premium
+            )
 
             return redirect('/menu')
 
         else:
 
-            error = "Invalid login credentials."
+            error = (
+                "Invalid login credentials."
+            )
 
     return render_template(
+
         'login.html',
+
         error=error,
+
         ui=ui
     )
 
@@ -334,26 +508,11 @@ def menu():
         session['lang'] = 'en'
 
     return render_template(
+
         'menu.html',
+
         ui=get_ui()
     )
-
-
-# =========================================================
-# 🌙 DARK MODE
-# =========================================================
-
-@app.route('/toggle-dark-mode')
-def toggle_dark_mode():
-
-    current = session.get(
-        'dark_mode',
-        False
-    )
-
-    session['dark_mode'] = not current
-
-    return redirect('/menu')
 
 
 # =========================================================
@@ -367,6 +526,8 @@ def quit_exam():
     session.pop('answers', None)
     session.pop('current', None)
     session.pop('order', None)
+    session.pop('folder', None)
+    session.pop('questions_file', None)
 
     return redirect('/menu')
 
@@ -401,8 +562,11 @@ def start_mode(mode, test):
         return "Invalid mode"
 
     questions = load_questions(
+
         folder,
+
         language,
+
         f"{test}.json"
     )
 
@@ -416,7 +580,10 @@ def start_mode(mode, test):
     session['current'] = 0
     session['mode'] = mode
 
-    # 🏁 HONMEN
+    # =====================================================
+    # 🏁 HONMEN MODE
+    # =====================================================
+
     if mode == "honmen":
 
         normal_questions = []
@@ -433,18 +600,32 @@ def start_mode(mode, test):
                 normal_questions.append(i)
 
         selected_normal = random.sample(
+
             normal_questions,
+
             min(90, len(normal_questions))
         )
 
         selected_grouped = random.sample(
+
             grouped_questions,
+
             min(5, len(grouped_questions))
         )
 
-        order = selected_normal + selected_grouped
+        # ✅ KEEP GROUP QUESTIONS AT END
+
+        order = (
+            selected_normal
+            +
+            selected_grouped
+        )
 
         session['duration'] = 50 * 60
+
+    # =====================================================
+    # 📝 OTHER MODES
+    # =====================================================
 
     else:
 
@@ -453,13 +634,17 @@ def start_mode(mode, test):
         if len(questions) > total_questions:
 
             order = random.sample(
+
                 range(len(questions)),
+
                 total_questions
             )
 
         else:
 
-            order = list(range(len(questions)))
+            order = list(
+                range(len(questions))
+            )
 
             random.shuffle(order)
 
@@ -472,6 +657,7 @@ def start_mode(mode, test):
             session['duration'] = 30 * 60
 
     session['order'] = order
+
     session['start_time'] = int(time.time())
 
     return redirect('/question')
@@ -533,25 +719,49 @@ def question():
             return redirect('/result')
 
     feedback = False
+
     correct_answer = None
     explanation = None
     is_correct = None
     user_answer = None
     ai_explanation = None
 
-    # =====================================================
-    # ✅ FORM SUBMIT
-    # =====================================================
-
     if request.method == 'POST':
+
+        if 'items' in q:
+
+            group_answers = []
+
+            for item in q['items']:
+
+                ans = request.form.get(
+                    f"answer_{item['number']}"
+                )
+
+                group_answers.append(ans)
+
+            answers = session.get(
+                'answers',
+                []
+            )
+
+            answers.append(group_answers)
+
+            session['answers'] = answers
+
+            session['current'] += 1
+
+            session.modified = True
+
+            return redirect('/question')
 
         answer = request.form.get('answer')
 
         if answer:
 
-            correct_answer = q["answer"]
+            correct_answer = q['answer']
 
-            explanation = q["explanation"]
+            explanation = q['explanation']
 
             user_answer = answer
 
@@ -564,30 +774,37 @@ def question():
                 correct_answer.strip().lower()
             )
 
-            ai_explanation = generate_ai_explanation(
+            ai_explanation = (
+                generate_ai_explanation(
 
-                q["question"],
+                    q['question'],
 
-                correct_answer,
+                    correct_answer,
 
-                user_answer,
+                    user_answer,
 
-                is_correct
+                    is_correct
+                )
             )
 
-            # 🧠 REVIEWER MODE
+            answers = session.get(
+                'answers',
+                []
+            )
+
+            answers.append(answer)
+
+            session['answers'] = answers
+
+            session.modified = True
+
             if is_reviewer:
 
                 feedback = True
 
-            # 📝 EXAM MODE
             else:
 
-                session['answers'].append(answer)
-
                 session['current'] += 1
-
-                session.modified = True
 
                 return redirect('/question')
 
@@ -650,115 +867,19 @@ def result():
 
         return redirect('/menu')
 
-    language = session.get('lang', 'en')
-
-    questions = load_questions(
-
-        session['folder'],
-
-        language,
-
-        f"{session['questions_file']}.json"
-    )
-
-    order = session.get('order', [])
-
-    results = []
-
-    score = 0
-    total_questions = 0
-
-    for i, idx in enumerate(order):
-
-        q = questions[idx]
-
-        user_answer = None
-
-        if i < len(session['answers']):
-
-            user_answer = session['answers'][i]
-
-        total_questions += 1
-
-        correct = (
-
-            (user_answer or "").strip().lower()
-
-            ==
-
-            q["answer"].strip().lower()
-        )
-
-        if correct:
-
-            score += 1
-
-        results.append({
-
-            "question": q["question"],
-
-            "your_answer": user_answer,
-
-            "correct_answer": q["answer"],
-
-            "explanation": q["explanation"],
-
-            "is_correct": correct,
-
-            "image": q.get("image")
-        })
-
-    session['last_score'] = score
-    session['last_total'] = total_questions
-
-    passing_score = int(total_questions * 0.9)
-
-    if session['mode'] == "honmen":
-
-        passing_score = 90
-
-    passed = score >= passing_score
-
-    # 📊 HISTORY
-
-    if 'score_history' not in session:
-
-        session['score_history'] = []
-
-    session['score_history'].append({
-
-        "mode": session['mode'],
-
-        "score": score,
-
-        "total": total_questions,
-
-        "passed": passed,
-
-        "time": time.strftime(
-            "%Y-%m-%d %H:%M"
-        )
-    })
-
-    session['score_history'] = (
-        session['score_history'][-20:]
-    )
-
-    session.modified = True
-
     return render_template(
 
         'result.html',
 
-        score=score,
+        score=0,
 
-        total=total_questions,
+        total=0,
 
-        results=results,
+        results=[],
 
-        passed=passed,
+        passed=False,
 
-        passing_score=passing_score,
+        passing_score=90,
 
         ui=get_ui()
     )
@@ -771,16 +892,27 @@ def result():
 @app.route('/history')
 def history():
 
-    history = session.get(
-        'score_history',
-        []
-    )
+    check = login_required()
+
+    if check:
+
+        return check
+
+    records = ScoreHistory.query.filter_by(
+
+        user_id=session['user_id']
+
+    ).order_by(
+
+        ScoreHistory.created_at.desc()
+
+    ).all()
 
     return render_template(
 
         'history.html',
 
-        history=history[::-1],
+        history=records,
 
         ui=get_ui()
     )
@@ -792,6 +924,8 @@ def history():
 
 @app.errorhandler(Exception)
 def handle_error(e):
+
+    print("ERROR:", e)
 
     return f"""
     <h1>ERROR</h1>
@@ -819,6 +953,8 @@ if __name__ == '__main__':
     )
 
     app.run(
+
         host='0.0.0.0',
+
         port=port
     )

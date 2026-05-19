@@ -10,6 +10,22 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0">
 
+    <!-- 📱 PWA -->
+    <link rel="manifest"
+          href="{{ url_for('static', filename='manifest.json') }}">
+
+    <meta name="theme-color"
+          content="#2563eb">
+
+    <meta name="apple-mobile-web-app-capable"
+          content="yes">
+
+    <meta name="apple-mobile-web-app-status-bar-style"
+          content="black-translucent">
+
+    <meta name="apple-mobile-web-app-title"
+          content="Driving Test Master">
+
     <link rel="preconnect"
           href="https://fonts.googleapis.com">
 
@@ -20,18 +36,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
           rel="stylesheet">
 
-    <!-- 📱 PWA -->
-    <link rel="manifest"
-          href="{{ url_for('static', filename='manifest.json') }}">
-
-    <meta name="theme-color"
-          content="#ffffff">
-
 <style>
 
 *{
     box-sizing:border-box;
     -webkit-tap-highlight-color:transparent;
+}
+
+html{
+    scroll-behavior:smooth;
 }
 
 body{
@@ -51,6 +64,11 @@ body{
     color:#0f172a;
 
     min-height:100vh;
+
+    overscroll-behavior:none;
+
+    padding-bottom:
+    env(safe-area-inset-bottom);
 
     transition:
     background 0.3s ease,
@@ -113,6 +131,14 @@ body.dark .timer{
     color:#cbd5e1;
 }
 
+body.dark .ai-box{
+
+    background:#1e3a8a;
+
+    border:
+    1px solid #3b82f6;
+}
+
 /* 📦 CONTAINER */
 
 .container{
@@ -165,8 +191,6 @@ body.dark .timer{
 
     color:#0f172a;
 }
-
-/* 🌐 LANGUAGE BADGE */
 
 .language-badge{
 
@@ -329,6 +353,23 @@ body.dark .timer{
 
     box-shadow:
     0 10px 30px rgba(15,23,42,0.05);
+
+    animation:fadeSlide 0.35s ease;
+}
+
+@keyframes fadeSlide{
+
+    from{
+
+        opacity:0;
+        transform:translateY(14px);
+    }
+
+    to{
+
+        opacity:1;
+        transform:translateY(0);
+    }
 }
 
 /* ❓ QUESTION TEXT */
@@ -377,6 +418,8 @@ img{
 
     box-shadow:
     0 8px 22px rgba(15,23,42,0.06);
+
+    cursor:zoom-in;
 }
 
 /* 🔘 CHOICES */
@@ -499,9 +542,17 @@ img{
 
 /* 🔘 BUTTONS */
 
-button{
+button,
+.next-btn{
 
     width:100%;
+
+    display:flex;
+
+    justify-content:center;
+    align-items:center;
+
+    text-decoration:none;
 
     padding:16px;
 
@@ -530,14 +581,18 @@ button{
     transition:
     transform 0.12s ease,
     opacity 0.12s ease;
+
+    cursor:pointer;
 }
 
-button:hover{
+button:hover,
+.next-btn:hover{
 
     opacity:0.97;
 }
 
-button:active{
+button:active,
+.next-btn:active{
 
     transform:scale(0.985);
 }
@@ -581,14 +636,6 @@ button:active{
     line-height:1.7;
 }
 
-body.dark .ai-box{
-
-    background:#1e3a8a;
-
-    border:
-    1px solid #3b82f6;
-}
-
 /* 📱 MOBILE */
 
 @media(max-width:600px){
@@ -608,7 +655,8 @@ body.dark .ai-box{
         font-size:17px;
     }
 
-    button{
+    button,
+    .next-btn{
 
         font-size:17px;
     }
@@ -632,6 +680,7 @@ body.dark .ai-box{
 <body>
 
 <!-- 🔝 Header -->
+
 <div class="header">
 
     <div>
@@ -651,12 +700,11 @@ body.dark .ai-box{
 
         </div>
 
-        <!-- 👤 USER -->
-        {% if session.get('user') %}
+        {% if session.get('username') %}
 
         <div class="language-badge">
 
-            👤 {{ session.get('user') }}
+            👤 {{ session.get('username') }}
 
         </div>
 
@@ -667,12 +715,16 @@ body.dark .ai-box{
     <div class="header-buttons">
 
         <!-- 🌙 DARK MODE -->
+
         <button
             class="dark-btn"
             onclick="toggleDarkMode()">
 
             🌙
+
         </button>
+
+        <!-- ❌ QUIT -->
 
         <a href="/quit"
            class="quit"
@@ -688,47 +740,61 @@ body.dark .ai-box{
 
 <div class="container">
 
-    <!-- 📊 Exam Mode -->
+    <!-- 📊 EXAM MODE -->
+
     {% if not is_reviewer %}
 
         <div class="question-status">
+
             Question {{ index + 1 }} / {{ total }}
+
         </div>
 
         <div class="progress-bar">
 
             <div class="progress"
                  style="width: {{ ((index+1)/total)*100 }}%;">
+
             </div>
 
         </div>
 
         <div class="timer">
+
             ⏱ <span id="timer"></span>
+
         </div>
 
     {% endif %}
 
-    <!-- 📦 Question -->
+    <!-- 📦 QUESTION CARD -->
+
     <div class="card">
 
-        <!-- 🏁 GROUP QUESTION MODE -->
+        <!-- 🏁 GROUP QUESTIONS -->
+
         {% if "items" in q %}
 
             <div class="group-title">
+
                 Group Question {{ q.question_group }}
+
             </div>
 
             <div class="situation-box">
+
                 {{ q.situation }}
+
             </div>
 
             {% if q.image %}
+
                 <img
                     src="{{ url_for('static', filename='images/' ~ q.image) }}"
                     loading="lazy"
                     draggable="false"
                 >
+
             {% endif %}
 
             <form method="POST">
@@ -738,12 +804,18 @@ body.dark .ai-box{
                     <div class="group-question">
 
                         <div class="group-number">
+
                             Question {{ q.question_group }}-{{ item.number }}
+
                         </div>
 
                         <p class="question-text">
+
                             {{ item.question }}
+
                         </p>
+
+                        <!-- ✅ TRUE -->
 
                         <label class="choice">
 
@@ -757,6 +829,8 @@ body.dark .ai-box{
                             <span>True</span>
 
                         </label>
+
+                        <!-- ✅ FALSE -->
 
                         <label class="choice">
 
@@ -776,40 +850,52 @@ body.dark .ai-box{
                 {% endfor %}
 
                 <button type="submit">
+
                     Next
+
                 </button>
 
             </form>
 
-        <!-- 🧠 Reviewer -->
+        <!-- 🧠 REVIEWER FEEDBACK -->
+
         {% elif is_reviewer and feedback %}
 
             <p class="question-text">
+
                 {{ q.question }}
+
             </p>
 
             {% if q.image %}
+
                 <img
                     src="{{ url_for('static', filename='images/' ~ q.image) }}"
                     loading="lazy"
                     draggable="false"
                 >
+
             {% endif %}
 
             <p class="{{ 'correct' if is_correct else 'incorrect' }}">
+
                 Your answer: {{ user_answer }}
+
             </p>
 
             <p>
+
                 <b>Correct:</b>
                 {{ correct_answer }}
+
             </p>
 
             <p>
+
                 {{ explanation }}
+
             </p>
 
-            <!-- 🤖 AI EXPLANATION -->
             {% if ai_explanation %}
 
             <div class="ai-box">
@@ -817,34 +903,42 @@ body.dark .ai-box{
                 <b>🧠 AI Explanation</b>
 
                 <p>
+
                     {{ ai_explanation }}
+
                 </p>
 
             </div>
 
             {% endif %}
 
-            <a href="/next">
+            <!-- ✅ FIXED NEXT BUTTON -->
 
-                <button>
-                    Next Question
-                </button>
+            <a href="/next"
+               class="next-btn">
+
+               Next Question
 
             </a>
 
         <!-- 📝 NORMAL QUESTION -->
+
         {% else %}
 
             <p class="question-text">
+
                 {{ q.question }}
+
             </p>
 
             {% if q.image %}
+
                 <img
                     src="{{ url_for('static', filename='images/' ~ q.image) }}"
                     loading="lazy"
                     draggable="false"
                 >
+
             {% endif %}
 
             <form method="POST">
@@ -869,9 +963,13 @@ body.dark .ai-box{
                 <button type="submit">
 
                     {% if is_reviewer %}
+
                         Submit
+
                     {% else %}
+
                         Next
+
                     {% endif %}
 
                 </button>
@@ -884,23 +982,34 @@ body.dark .ai-box{
 
 </div>
 
-<!-- ⏱ Timer -->
+<!-- ⏱ TIMER -->
+
 {% if not is_reviewer %}
 
 <script>
 
 let time = {{ remaining }};
 
-function updateTimer() {
+function updateTimer(){
 
     let m = Math.floor(time / 60);
+
     let s = time % 60;
 
     document.getElementById("timer").innerText =
+
         m + ":" + (s < 10 ? "0" : "") + s;
 
-    if (time <= 0) {
-        window.location.href = "/result";
+    const timerElement = document.querySelector('.timer');
+
+    if(time <= 300){
+
+        timerElement.style.color = '#dc2626';
+    }
+
+    if(time <= 0){
+
+        window.location.replace("/result");
     }
 
     time--;
@@ -915,6 +1024,7 @@ setInterval(updateTimer, 1000);
 {% endif %}
 
 <!-- 🌙 DARK MODE -->
+
 <script>
 
 function toggleDarkMode(){
@@ -922,7 +1032,9 @@ function toggleDarkMode(){
     document.body.classList.toggle('dark');
 
     localStorage.setItem(
+
         'darkMode',
+
         document.body.classList.contains('dark')
     );
 }
@@ -934,10 +1046,32 @@ if(localStorage.getItem('darkMode') === 'true'){
 
 </script>
 
-<!-- 📱 Service Worker -->
+<!-- 🚫 ANTI DOUBLE SUBMIT -->
+
 <script>
 
-if ('serviceWorker' in navigator) {
+document.querySelectorAll('form').forEach(form => {
+
+    form.addEventListener('submit', () => {
+
+        const button = form.querySelector('button');
+
+        if(button){
+
+            button.disabled = true;
+
+            button.innerText = 'Loading...';
+        }
+    });
+});
+
+</script>
+
+<!-- 📱 SERVICE WORKER -->
+
+<script>
+
+if('serviceWorker' in navigator){
 
     navigator.serviceWorker.register(
         '/static/service-worker.js'

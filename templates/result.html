@@ -10,6 +10,23 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0">
 
+    <!-- 📱 PWA -->
+
+    <link rel="manifest"
+          href="{{ url_for('static', filename='manifest.json') }}">
+
+    <meta name="theme-color"
+          content="#2563eb">
+
+    <meta name="apple-mobile-web-app-capable"
+          content="yes">
+
+    <meta name="apple-mobile-web-app-status-bar-style"
+          content="black-translucent">
+
+    <meta name="apple-mobile-web-app-title"
+          content="Driving Test Master">
+
     <link rel="preconnect"
           href="https://fonts.googleapis.com">
 
@@ -20,18 +37,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
           rel="stylesheet">
 
-    <!-- 📱 PWA -->
-    <link rel="manifest"
-          href="{{ url_for('static', filename='manifest.json') }}">
-
-    <meta name="theme-color"
-          content="#ffffff">
-
 <style>
 
 *{
     box-sizing:border-box;
     -webkit-tap-highlight-color:transparent;
+}
+
+html{
+    scroll-behavior:smooth;
 }
 
 body{
@@ -106,6 +120,19 @@ body.dark .group-badge{
     1px solid #3b82f6;
 }
 
+body.dark .score-details{
+
+    color:#cbd5e1;
+}
+
+body.dark .ai-box{
+
+    background:#1e3a8a;
+
+    border:
+    1px solid #3b82f6;
+}
+
 /* 📦 CONTAINER */
 
 .container{
@@ -114,7 +141,7 @@ body.dark .group-badge{
 
     margin:auto;
 
-    padding:18px 16px 40px;
+    padding:18px 16px 50px;
 }
 
 /* 🔝 HEADER */
@@ -187,6 +214,23 @@ body.dark .group-badge{
 
     box-shadow:
     0 10px 30px rgba(15,23,42,0.05);
+
+    animation:fadeSlide 0.35s ease;
+}
+
+@keyframes fadeSlide{
+
+    from{
+
+        opacity:0;
+        transform:translateY(14px);
+    }
+
+    to{
+
+        opacity:1;
+        transform:translateY(0);
+    }
 }
 
 /* 🎯 SCORE */
@@ -215,6 +259,37 @@ body.dark .group-badge{
     color:#64748b;
 
     margin-bottom:12px;
+}
+
+/* 📈 PROGRESS BAR */
+
+.result-progress{
+
+    width:100%;
+
+    height:12px;
+
+    background:#dbe7f5;
+
+    border-radius:999px;
+
+    overflow:hidden;
+
+    margin-top:18px;
+}
+
+.result-progress-fill{
+
+    height:12px;
+
+    border-radius:999px;
+
+    background:
+    linear-gradient(
+    90deg,
+    #60a5fa,
+    #2563eb
+    );
 }
 
 /* ✅ PASS */
@@ -282,6 +357,8 @@ body.dark .group-badge{
     transition:
     transform 0.12s ease,
     box-shadow 0.12s ease;
+
+    animation:fadeSlide 0.35s ease;
 }
 
 .card:hover{
@@ -417,19 +494,14 @@ img{
     line-height:1.7;
 }
 
-body.dark .ai-box{
-
-    background:#1e3a8a;
-
-    border:
-    1px solid #3b82f6;
-}
-
 /* 🔁 BUTTON */
 
 .button{
 
-    display:block;
+    display:flex;
+
+    justify-content:center;
+    align-items:center;
 
     text-align:center;
 
@@ -507,6 +579,8 @@ body.dark .ai-box{
 
     box-shadow:
     0 10px 24px rgba(15,23,42,0.25);
+
+    z-index:999;
 }
 
 /* 📱 MOBILE */
@@ -545,7 +619,9 @@ body.dark .ai-box{
 <div class="header">
 
     <div class="header-title">
+
         🏁 Exam Result
+
     </div>
 
     <div class="language-badge">
@@ -555,11 +631,11 @@ body.dark .ai-box{
 
     </div>
 
-    {% if session.get('user') %}
+    {% if session.get('username') %}
 
     <div class="language-badge">
 
-        👤 {{ session.get('user') }}
+        👤 {{ session.get('username') }}
 
     </div>
 
@@ -574,13 +650,15 @@ body.dark .ai-box{
     <div class="score-card">
 
         <div class="score">
+
             {{ score }} / {{ total }}
+
         </div>
 
-        <div class="score-details">
+        {% set percentage =
+        ((score / total) * 100) | round(1) %}
 
-            {% set percentage =
-            ((score / total) * 100) | round(1) %}
+        <div class="score-details">
 
             Score Percentage:
             {{ percentage }}%
@@ -590,16 +668,33 @@ body.dark .ai-box{
         {% if passed %}
 
             <div class="pass">
-                PASS ✅ (Required: {{ passing_score }})
+
+                PASS ✅
+                (Required: {{ passing_score }})
+
             </div>
 
         {% else %}
 
             <div class="fail">
-                FAIL ❌ (Required: {{ passing_score }})
+
+                FAIL ❌
+                (Required: {{ passing_score }})
+
             </div>
 
         {% endif %}
+
+        <!-- 📈 SCORE BAR -->
+
+        <div class="result-progress">
+
+            <div class="result-progress-fill"
+                 style="width: {{ percentage }}%;">
+
+            </div>
+
+        </div>
 
     </div>
 
@@ -609,16 +704,21 @@ body.dark .ai-box{
 
         <div class="card">
 
-            {% if "Group" in r.question %}
+            {% if r.question_group %}
 
                 <div class="group-badge">
+
                     GROUP QUESTION
+                    {{ r.question_group }}
+
                 </div>
 
             {% endif %}
 
             <div class="question-text">
+
                 {{ r.question }}
+
             </div>
 
             {% if r.image %}
@@ -636,7 +736,9 @@ body.dark .ai-box{
                 Your answer:
 
                 <span class="{% if r.is_correct %}correct{% else %}incorrect{% endif %}">
+
                     {{ r.your_answer }}
+
                 </span>
 
             </div>
@@ -646,16 +748,24 @@ body.dark .ai-box{
                 Correct answer:
 
                 <b>
+
                     {{ r.correct_answer }}
+
                 </b>
 
             </div>
 
+            {% if r.explanation %}
+
             <div class="answer-label">
+
                 {{ r.explanation }}
+
             </div>
 
-            <!-- 🤖 AI EXPLANATION -->
+            {% endif %}
+
+            <!-- 🤖 AI BOX -->
 
             <div class="ai-box">
 
@@ -665,11 +775,14 @@ body.dark .ai-box{
 
                     {% if r.is_correct %}
 
-                        Great job. This answer follows Japanese driving safety rules and proper road awareness.
+                        Great job.
+                        This answer follows Japanese driving safety rules and proper road awareness.
 
                     {% else %}
 
-                        This question tests safe driving judgment and road rule understanding. Pay attention to hazard prediction and defensive driving principles.
+                        This question tests safe driving judgment, hazard prediction,
+                        and road rule understanding.
+                        Review defensive driving principles carefully.
 
                     {% endif %}
 
@@ -680,13 +793,17 @@ body.dark .ai-box{
             {% if r.is_correct %}
 
                 <div class="correct answer-label">
+
                     ✔ Correct
+
                 </div>
 
             {% else %}
 
                 <div class="incorrect answer-label">
+
                     ✘ Incorrect
+
                 </div>
 
             {% endif %}
@@ -700,7 +817,7 @@ body.dark .ai-box{
     <a href="/menu"
        class="button">
 
-        🔁 Try Again
+        🔁 Back To Menu
 
     </a>
 
@@ -725,7 +842,9 @@ function toggleDarkMode(){
     document.body.classList.toggle('dark');
 
     localStorage.setItem(
+
         'darkMode',
+
         document.body.classList.contains('dark')
     );
 }
@@ -741,7 +860,7 @@ if(localStorage.getItem('darkMode') === 'true'){
 
 <script>
 
-if ('serviceWorker' in navigator) {
+if('serviceWorker' in navigator){
 
     navigator.serviceWorker.register(
         '/static/service-worker.js'
