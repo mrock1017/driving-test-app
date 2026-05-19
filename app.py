@@ -1,5 +1,4 @@
 from flask import Flask, render_template, request, redirect, session
-from flask_sqlalchemy import SQLAlchemy
 from werkzeug.security import generate_password_hash, check_password_hash
 
 import os
@@ -12,46 +11,26 @@ app = Flask(__name__)
 # ✅ SECRET KEY
 app.config['SECRET_KEY'] = 'secret123'
 
-# ✅ DATABASE
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///users.db'
-app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-
-db = SQLAlchemy(app)
-
 # ✅ DEBUG
 app.config['TEMPLATES_AUTO_RELOAD'] = True
 app.config['DEBUG'] = False
 
 
-# 👤 USER DATABASE MODEL
-class User(db.Model):
+# 👤 SIMPLE USER STORAGE
+USERS = {
 
-    id = db.Column(
-        db.Integer,
-        primary_key=True
-    )
+    "admin@example.com": {
 
-    username = db.Column(
-        db.String(100),
-        unique=True,
-        nullable=False
-    )
+        "username": "admin",
 
-    email = db.Column(
-        db.String(120),
-        unique=True,
-        nullable=False
-    )
+        "password": generate_password_hash(
+            "1234"
+        ),
 
-    password = db.Column(
-        db.String(200),
-        nullable=False
-    )
+        "is_premium": True
+    }
 
-    is_premium = db.Column(
-        db.Boolean,
-        default=False
-    )
+}
 
 
 # 🌐 UI TRANSLATIONS
@@ -88,72 +67,6 @@ UI_TEXT = {
         "ai_title": "🧠 AI Tutor",
 
         "premium": "⭐ Premium User"
-    },
-
-    "tl": {
-
-        "study_mode": "🧠 Study Mode",
-        "reviewer_karimen": "🧠 Reviewer Karimen",
-        "reviewer_honmen": "🧠 Reviewer Honmen",
-
-        "karimen_mock": "📝 Karimen Mock Test",
-        "karimen_test_1": "📝 Karimen Test 1",
-        "karimen_test_2": "📝 Karimen Test 2",
-
-        "honmen_mock": "🏁 Honmen Mock Test",
-        "honmen_test_1": "🏁 Honmen Test 1",
-        "honmen_test_2": "🏁 Honmen Test 2",
-        "honmen_test_3": "🏁 Honmen Test 3",
-
-        "app_info": "⚙️ Impormasyon ng App",
-        "score_history": "📊 Kasaysayan ng Score",
-        "privacy": "🔒 Patakaran sa Privacy",
-        "terms": "📄 Mga Tuntunin ng Paggamit",
-        "contact": "✉️ Makipag-ugnayan",
-
-        "dark_mode": "🌙 Dark Mode",
-
-        "login": "👤 Login",
-        "register": "📝 Register",
-        "logout": "🚪 Logout",
-        "welcome": "Maligayang pagdating",
-
-        "ai_title": "🧠 AI Tutor",
-
-        "premium": "⭐ Premium User"
-    },
-
-    "ne": {
-
-        "study_mode": "🧠 अध्ययन मोड",
-        "reviewer_karimen": "🧠 करिमेन रिभ्यू",
-        "reviewer_honmen": "🧠 होनमेन रिभ्यू",
-
-        "karimen_mock": "📝 करिमेन मोक टेस्ट",
-        "karimen_test_1": "📝 करिमेन टेस्ट 1",
-        "karimen_test_2": "📝 करिमेन टेस्ट 2",
-
-        "honmen_mock": "🏁 होनमेन मोक टेस्ट",
-        "honmen_test_1": "🏁 होनमेन टेस्ट 1",
-        "honmen_test_2": "🏁 होनमेन टेस्ट 2",
-        "honmen_test_3": "🏁 होनमेन टेस्ट 3",
-
-        "app_info": "⚙️ एप जानकारी",
-        "score_history": "📊 स्कोर इतिहास",
-        "privacy": "🔒 गोपनीयता नीति",
-        "terms": "📄 प्रयोगका सर्तहरू",
-        "contact": "✉️ सम्पर्क गर्नुहोस्",
-
-        "dark_mode": "🌙 डार्क मोड",
-
-        "login": "👤 लगइन",
-        "register": "📝 दर्ता",
-        "logout": "🚪 लगआउट",
-        "welcome": "स्वागत छ",
-
-        "ai_title": "🧠 AI ट्यूटर",
-
-        "premium": "⭐ प्रिमियम प्रयोगकर्ता"
     }
 }
 
@@ -183,8 +96,8 @@ def generate_ai_explanation(
             "✅ Excellent driving judgment. "
             "You correctly understood the road rule and selected "
             f"the proper answer ({correct_answer}). "
-            "This type of question usually tests safety awareness, "
-            "traffic law understanding, and defensive driving habits."
+            "This question checks safe driving awareness "
+            "and traffic law understanding."
         )
 
     else:
@@ -192,10 +105,8 @@ def generate_ai_explanation(
         return (
             f"❌ Your answer was '{user_answer}', "
             f"but the correct answer is '{correct_answer}'. "
-            "This question focuses on safe driving behavior and "
-            "proper traffic rule interpretation. "
-            "Pay close attention to keywords involving stopping, "
-            "road signs, pedestrians, intersections, and hazard prediction."
+            "Focus carefully on road safety, signs, "
+            "pedestrian awareness, and driving judgment."
         )
 
 
@@ -209,11 +120,7 @@ def load_questions(folder, language, filename):
         filename
     )
 
-    print("TRYING:", filepath)
-
     if not os.path.exists(filepath):
-
-        print("FALLBACK TO ENGLISH")
 
         filepath = os.path.join(
             "data",
@@ -222,17 +129,7 @@ def load_questions(folder, language, filename):
             filename
         )
 
-    print("LOADING:", filepath)
-
     if not os.path.exists(filepath):
-
-        print("FILE NOT FOUND:", filepath)
-
-        return []
-
-    if os.path.getsize(filepath) == 0:
-
-        print("EMPTY FILE:", filepath)
 
         return []
 
@@ -240,15 +137,11 @@ def load_questions(folder, language, filename):
 
         with open(filepath, encoding="utf-8-sig") as f:
 
-            data = json.load(f)
-
-            print("QUESTIONS LOADED:", len(data))
-
-            return data
+            return json.load(f)
 
     except Exception as e:
 
-        print("JSON ERROR in", filepath, ":", e)
+        print(e)
 
         return []
 
@@ -281,35 +174,27 @@ def register():
     if request.method == 'POST':
 
         username = request.form.get('username')
+
         email = request.form.get('email')
+
         password = request.form.get('password')
 
-        existing_user = User.query.filter_by(
-            email=email
-        ).first()
-
-        if existing_user:
+        if email in USERS:
 
             error = "Email already exists."
 
         else:
 
-            hashed_password = generate_password_hash(
-                password
-            )
+            USERS[email] = {
 
-            new_user = User(
+                "username": username,
 
-                username=username,
+                "password": generate_password_hash(
+                    password
+                ),
 
-                email=email,
-
-                password=hashed_password
-            )
-
-            db.session.add(new_user)
-
-            db.session.commit()
+                "is_premium": False
+            }
 
             return redirect('/login')
 
@@ -331,20 +216,21 @@ def login():
     if request.method == 'POST':
 
         email = request.form.get('email')
+
         password = request.form.get('password')
 
-        user = User.query.filter_by(
-            email=email
-        ).first()
+        user = USERS.get(email)
 
         if user and check_password_hash(
-            user.password,
+            user['password'],
             password
         ):
 
-            session['user_id'] = user.id
-            session['username'] = user.username
-            session['is_premium'] = user.is_premium
+            session['username'] = user['username']
+
+            session['email'] = email
+
+            session['is_premium'] = user['is_premium']
 
             return redirect('/menu')
 
@@ -390,19 +276,34 @@ def menu():
 
         session['lang'] = 'en'
 
-    ui = get_ui()
-
     return render_template(
         'menu.html',
-        ui=ui
+        ui=get_ui()
     )
 
 
-# ✅ QUIT
+# ✅ HOME
+@app.route('/')
+def start():
+
+    return redirect('/menu')
+
+
+# ✅ QUIT EXAM
 @app.route('/quit')
 def quit_exam():
 
+    keep_user = session.get('username')
+    keep_email = session.get('email')
+    keep_premium = session.get('is_premium')
+
     session.clear()
+
+    if keep_user:
+
+        session['username'] = keep_user
+        session['email'] = keep_email
+        session['is_premium'] = keep_premium
 
     return redirect('/menu')
 
@@ -439,6 +340,10 @@ def start_mode(mode, test):
         f"{test}.json"
     )
 
+    if len(questions) == 0:
+
+        return "<h2>No questions found.</h2>"
+
     session['folder'] = folder
     session['questions_file'] = test
 
@@ -446,80 +351,24 @@ def start_mode(mode, test):
     session['current'] = 0
     session['mode'] = mode
 
-    if mode == "honmen":
-
-        normal_questions = []
-        grouped_questions = []
-
-        for i, q in enumerate(questions):
-
-            if "items" in q:
-
-                grouped_questions.append(i)
-
-            else:
-
-                normal_questions.append(i)
-
-        selected_normal = random.sample(
-
-            normal_questions,
-
-            min(90, len(normal_questions))
-        )
-
-        selected_grouped = random.sample(
-
-            grouped_questions,
-
-            min(5, len(grouped_questions))
-        )
-
-        order = selected_normal + selected_grouped
-
-        session['start_time'] = int(time.time())
-
-        session['duration'] = 50 * 60
-
-    else:
-
-        TOTAL_QUESTIONS = 50
-
-        if len(questions) > TOTAL_QUESTIONS:
-
-            order = random.sample(
-
-                range(len(questions)),
-
-                TOTAL_QUESTIONS
-            )
-
-        else:
-
-            order = list(range(len(questions)))
-
-            random.shuffle(order)
-
-        if "reviewer" in mode:
-
-            session['duration'] = None
-
-        else:
-
-            session['start_time'] = int(time.time())
-
-            session['duration'] = 30 * 60
+    order = list(range(len(questions)))
+    random.shuffle(order)
 
     session['order'] = order
 
+    if "reviewer" not in mode:
+
+        session['start_time'] = int(time.time())
+
+        if mode == "honmen":
+
+            session['duration'] = 50 * 60
+
+        else:
+
+            session['duration'] = 30 * 60
+
     return redirect('/question')
-
-
-# ✅ HOME
-@app.route('/')
-def start():
-
-    return redirect('/menu')
 
 
 # ✅ QUESTION PAGE
@@ -533,150 +382,90 @@ def question():
     language = session.get('lang', 'en')
 
     questions = load_questions(
-
         session['folder'],
-
         language,
-
         f"{session['questions_file']}.json"
     )
 
-    order = session.get(
-
-        'order',
-
-        list(range(len(questions)))
-    )
-
-    if len(questions) == 0:
-
-        return "<h2>No questions found.</h2>"
+    order = session['order']
 
     if session['current'] >= len(order):
 
         return redirect('/result')
 
-    is_reviewer = (
+    idx = order[session['current']]
 
+    q = questions[idx]
+
+    is_reviewer = (
         "reviewer" in session['mode']
     )
+
+    feedback = False
+
+    correct_answer = None
+    explanation = None
+    is_correct = None
+    user_answer = None
+    ai_explanation = None
 
     remaining = None
 
     if not is_reviewer:
 
-        start_time = session.get(
-
-            'start_time',
-
-            int(time.time())
-        )
-
-        duration = session.get(
-
-            'duration',
-
-            1800
-        )
-
-        remaining = duration - (
-
-            int(time.time()) - start_time
+        remaining = session['duration'] - (
+            int(time.time()) - session['start_time']
         )
 
         if remaining <= 0:
 
             return redirect('/result')
 
-    idx = order[session['current']]
-
-    q = questions[idx]
-
-    feedback = False
-
-    correct_answer = None
-
-    explanation = None
-
-    is_correct = None
-
-    user_answer = None
-
-    ai_explanation = None
-
     if request.method == 'POST':
 
-        if "items" in q:
+        answer = request.form.get('answer')
 
-            group_answers = []
+        if answer:
 
-            for item in q["items"]:
+            correct_answer = q["answer"]
 
-                ans = request.form.get(
-                    f'answer_{item["number"]}'
-                )
+            explanation = q["explanation"]
 
-                group_answers.append(ans)
+            user_answer = answer
 
-            session['answers'].append(
-                group_answers
+            is_correct = (
+
+                answer.strip().lower()
+
+                ==
+
+                q["answer"].strip().lower()
             )
+
+            ai_explanation = generate_ai_explanation(
+
+                q["question"],
+
+                correct_answer,
+
+                user_answer,
+
+                is_correct
+            )
+
+            session['answers'].append(answer)
 
             session.modified = True
 
-            session['current'] += 1
+            if is_reviewer:
 
-            return redirect('/question')
+                feedback = True
 
-        else:
+            else:
 
-            answer = request.form.get(
-                'answer'
-            )
+                session['current'] += 1
 
-            if answer is not None:
-
-                correct_answer = q["answer"]
-
-                explanation = q["explanation"]
-
-                user_answer = answer
-
-                is_correct = (
-
-                    answer.strip().lower()
-
-                    ==
-
-                    q["answer"].strip().lower()
-                )
-
-                ai_explanation = generate_ai_explanation(
-
-                    q["question"],
-
-                    correct_answer,
-
-                    user_answer,
-
-                    is_correct
-                )
-
-                if not is_reviewer:
-
-                    session['answers'].append(
-                        answer
-                    )
-
-                    session.modified = True
-
-                    session['current'] += 1
-
-                    return redirect('/question')
-
-                else:
-
-                    feedback = True
+                return redirect('/question')
 
     return render_template(
 
@@ -732,167 +521,61 @@ def result():
     language = session.get('lang', 'en')
 
     questions = load_questions(
-
         session['folder'],
-
         language,
-
         f"{session['questions_file']}.json"
     )
 
-    order = session.get(
-
-        'order',
-
-        list(range(len(questions)))
-    )
-
-    results = []
+    order = session['order']
 
     score = 0
 
-    total_questions = 0
+    results = []
 
     for i, idx in enumerate(order):
 
         q = questions[idx]
 
-        user_answer = (
+        if i >= len(session['answers']):
 
-            session['answers'][i]
+            break
 
-            if i < len(session['answers'])
+        user_answer = session['answers'][i]
 
-            else None
+        correct = (
+
+            user_answer.strip().lower()
+
+            ==
+
+            q["answer"].strip().lower()
         )
 
-        if "items" in q:
+        if correct:
 
-            total_questions += 2
+            score += 1
 
-            all_correct = True
+        results.append({
 
-            for j, item in enumerate(q["items"]):
+            "question": q["question"],
 
-                ans = None
+            "your_answer": user_answer,
 
-                if (
+            "correct_answer": q["answer"],
 
-                    isinstance(user_answer, list)
+            "explanation": q["explanation"],
 
-                    and j < len(user_answer)
-                ):
+            "is_correct": correct,
 
-                    ans = user_answer[j]
+            "image": q.get("image")
+        })
 
-                correct = (
-
-                    (ans or "").strip().lower()
-
-                    ==
-
-                    item["answer"].strip().lower()
-                )
-
-                if not correct:
-
-                    all_correct = False
-
-                results.append({
-
-                    "question":
-
-                        f"Group "
-
-                        f"{q['question_group']} - "
-
-                        f"{item['number']}: "
-
-                        f"{item['question']}",
-
-                    "your_answer":
-
-                        ans,
-
-                    "correct_answer":
-
-                        item["answer"],
-
-                    "explanation":
-
-                        item["explanation"],
-
-                    "is_correct":
-
-                        correct,
-
-                    "image":
-
-                        q.get("image")
-                })
-
-            if all_correct:
-
-                score += 2
-
-        else:
-
-            total_questions += 1
-
-            correct = (
-
-                (user_answer or "").strip().lower()
-
-                ==
-
-                q["answer"].strip().lower()
-            )
-
-            if correct:
-
-                score += 1
-
-            results.append({
-
-                "question":
-
-                    q["question"],
-
-                "your_answer":
-
-                    user_answer,
-
-                "correct_answer":
-
-                    q["answer"],
-
-                "explanation":
-
-                    q["explanation"],
-
-                "is_correct":
-
-                    correct,
-
-                "image":
-
-                    q.get("image")
-            })
+    total_questions = len(results)
 
     session['last_score'] = score
-
     session['last_total'] = total_questions
 
-    if session['mode'] == "honmen":
-
-        passing_score = 90
-
-    else:
-
-        passing_score = int(
-
-            total_questions * 0.9
-        )
+    passing_score = int(total_questions * 0.9)
 
     passed = score >= passing_score
 
@@ -900,7 +583,7 @@ def result():
 
         session['score_history'] = []
 
-    history_item = {
+    session['score_history'].append({
 
         "mode": session['mode'],
 
@@ -913,15 +596,7 @@ def result():
         "time": time.strftime(
             "%Y-%m-%d %H:%M"
         )
-    }
-
-    session['score_history'].append(
-        history_item
-    )
-
-    session['score_history'] = (
-        session['score_history'][-20:]
-    )
+    })
 
     session.modified = True
 
@@ -970,12 +645,6 @@ def handle_error(e):
     <h1>ERROR</h1>
     <pre>{str(e)}</pre>
     """, 500
-
-
-# ✅ CREATE DATABASE
-with app.app_context():
-
-    db.create_all()
 
 
 if __name__ == '__main__':
