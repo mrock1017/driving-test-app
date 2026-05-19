@@ -36,7 +36,15 @@ UI_TEXT = {
         "score_history": "📊 Score History",
         "privacy": "🔒 Privacy Policy",
         "terms": "📄 Terms of Use",
-        "contact": "✉️ Contact Us"
+        "contact": "✉️ Contact Us",
+
+        # 🌙 DARK MODE
+        "dark_mode": "🌙 Dark Mode",
+
+        # 👤 LOGIN
+        "login": "👤 Login",
+        "logout": "🚪 Logout",
+        "welcome": "Welcome"
     },
 
     "tl": {
@@ -58,7 +66,15 @@ UI_TEXT = {
         "score_history": "📊 Kasaysayan ng Score",
         "privacy": "🔒 Patakaran sa Privacy",
         "terms": "📄 Mga Tuntunin ng Paggamit",
-        "contact": "✉️ Makipag-ugnayan"
+        "contact": "✉️ Makipag-ugnayan",
+
+        # 🌙 DARK MODE
+        "dark_mode": "🌙 Dark Mode",
+
+        # 👤 LOGIN
+        "login": "👤 Login",
+        "logout": "🚪 Logout",
+        "welcome": "Maligayang pagdating"
     },
 
     "ne": {
@@ -80,8 +96,25 @@ UI_TEXT = {
         "score_history": "📊 स्कोर इतिहास",
         "privacy": "🔒 गोपनीयता नीति",
         "terms": "📄 प्रयोगका सर्तहरू",
-        "contact": "✉️ सम्पर्क गर्नुहोस्"
+        "contact": "✉️ सम्पर्क गर्नुहोस्",
+
+        # 🌙 DARK MODE
+        "dark_mode": "🌙 डार्क मोड",
+
+        # 👤 LOGIN
+        "login": "👤 लगइन",
+        "logout": "🚪 लगआउट",
+        "welcome": "स्वागत छ"
     }
+}
+
+
+# 👤 SIMPLE USER DATABASE
+USERS = {
+
+    "admin": "1234",
+
+    "demo": "demo123"
 }
 
 
@@ -140,6 +173,17 @@ def load_questions(folder, language, filename):
         return []
 
 
+# 🌐 GET UI LANGUAGE
+def get_ui():
+
+    language = session.get('lang', 'en')
+
+    return UI_TEXT.get(
+        language,
+        UI_TEXT['en']
+    )
+
+
 # ✅ SET LANGUAGE
 @app.route('/set-language/<lang>')
 def set_language(lang):
@@ -163,6 +207,50 @@ def set_language(lang):
     return redirect('/menu')
 
 
+# 👤 LOGIN
+@app.route('/login', methods=['GET', 'POST'])
+def login():
+
+    ui = get_ui()
+
+    error = None
+
+    if request.method == 'POST':
+
+        username = request.form.get(
+            'username'
+        )
+
+        password = request.form.get(
+            'password'
+        )
+
+        if username in USERS and USERS[username] == password:
+
+            session['user'] = username
+
+            return redirect('/menu')
+
+        else:
+
+            error = "Invalid username or password"
+
+    return render_template(
+        'login.html',
+        error=error,
+        ui=ui
+    )
+
+
+# 🚪 LOGOUT
+@app.route('/logout')
+def logout():
+
+    session.pop('user', None)
+
+    return redirect('/menu')
+
+
 # ✅ MENU
 @app.route('/menu')
 def menu():
@@ -173,12 +261,7 @@ def menu():
 
     print("CURRENT LANGUAGE:", session['lang'])
 
-    language = session.get('lang', 'en')
-
-    ui = UI_TEXT.get(
-        language,
-        UI_TEXT['en']
-    )
+    ui = get_ui()
 
     return render_template(
         'menu.html',
@@ -405,6 +488,9 @@ def question():
 
     user_answer = None
 
+    # 🤖 AI EXPLANATION
+    ai_explanation = None
+
     # ✅ FORM SUBMIT
     if request.method == 'POST':
 
@@ -458,6 +544,21 @@ def question():
                     q["answer"].strip().lower()
                 )
 
+                # 🤖 AI EXPLANATION
+                if is_correct:
+
+                    ai_explanation = (
+                        "✅ Great job! "
+                        "You understood the traffic rule correctly."
+                    )
+
+                else:
+
+                    ai_explanation = (
+                        "❌ Review this rule carefully. "
+                        "Focus on road safety, signs, and driving judgment."
+                    )
+
                 # 📝 exam mode
                 if not is_reviewer:
 
@@ -499,7 +600,9 @@ def question():
 
         is_correct=is_correct,
 
-        user_answer=user_answer
+        user_answer=user_answer,
+
+        ai_explanation=ai_explanation
     )
 
 

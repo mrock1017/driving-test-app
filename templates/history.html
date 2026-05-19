@@ -11,6 +11,10 @@
 
 <style>
 
+*{
+    box-sizing:border-box;
+}
+
 body{
 
     font-family:Arial;
@@ -24,7 +28,7 @@ body{
 
 .container{
 
-    max-width:700px;
+    max-width:900px;
 
     margin:auto;
 }
@@ -45,7 +49,32 @@ h1{
 
     text-align:center;
 
-    margin-bottom:25px;
+    margin-bottom:30px;
+}
+
+h2{
+
+    margin-top:40px;
+
+    margin-bottom:15px;
+
+    color:#1e293b;
+}
+
+.chart-container{
+
+    margin-top:20px;
+
+    margin-bottom:40px;
+
+    background:#ffffff;
+
+    border-radius:16px;
+
+    padding:15px;
+
+    box-shadow:
+    0 2px 10px rgba(0,0,0,0.05);
 }
 
 .back-btn{
@@ -54,7 +83,7 @@ h1{
 
     text-align:center;
 
-    margin-top:25px;
+    margin-top:30px;
 
     text-decoration:none;
 
@@ -94,6 +123,29 @@ h1{
     font-weight:bold;
 }
 
+@media(max-width:600px){
+
+    body{
+
+        padding:12px;
+    }
+
+    .card{
+
+        padding:16px;
+    }
+
+    h1{
+
+        font-size:24px;
+    }
+
+    h2{
+
+        font-size:18px;
+    }
+}
+
 </style>
 
 </head>
@@ -106,8 +158,43 @@ h1{
 
         <h1>📊 Score History</h1>
 
-        <canvas id="scoreChart"></canvas>
+        <!-- 📈 MAIN CHART -->
+        <div class="chart-container">
 
+            <h2>📈 Overall Performance</h2>
+
+            <canvas id="scoreChart"></canvas>
+
+        </div>
+
+        <!-- 📝 KARIMEN -->
+        <div class="chart-container">
+
+            <h2>📝 Karimen Progress</h2>
+
+            <canvas id="karimenChart"></canvas>
+
+        </div>
+
+        <!-- 🏁 HONMEN -->
+        <div class="chart-container">
+
+            <h2>🏁 Honmen Progress</h2>
+
+            <canvas id="honmenChart"></canvas>
+
+        </div>
+
+        <!-- 🧠 REVIEWER -->
+        <div class="chart-container">
+
+            <h2>🧠 Reviewer Accuracy</h2>
+
+            <canvas id="reviewerChart"></canvas>
+
+        </div>
+
+        <!-- 📋 HISTORY LIST -->
         {% for item in history %}
 
         <div class="history-item">
@@ -157,25 +244,36 @@ const historyData = [
     {% for item in history %}
 
     {
+        mode: "{{ item.mode }}",
         score: {{ item.score }},
         total: {{ item.total }},
+        passed: {{ 'true' if item.passed else 'false' }},
         label: "{{ item.time }}"
     },
 
     {% endfor %}
 ];
 
-const labels = historyData.map(
-    item => item.label
+
+// ✅ FILTER DATA
+
+const karimenData = historyData.filter(
+    item => item.mode === "karimen"
 );
 
-const scores = historyData.map(
-    item => item.score
+const honmenData = historyData.filter(
+    item => item.mode === "honmen"
 );
 
-const totals = historyData.map(
-    item => item.total
+const reviewerData = historyData.filter(
+    item =>
+        item.mode === "reviewer_karimen"
+        ||
+        item.mode === "reviewer_honmen"
 );
+
+
+// ✅ MAIN SCORE CHART
 
 new Chart(
 
@@ -187,21 +285,50 @@ new Chart(
 
         data: {
 
-            labels: labels,
+            labels: historyData.map(
+                item => item.label
+            ),
 
             datasets: [
 
+                // 🟢 PASSED
                 {
+                    label: 'Passed',
 
-                    label: 'Score',
+                    data: historyData.map(
+                        item =>
+                            item.passed
+                            ? item.score
+                            : null
+                    ),
 
-                    data: scores,
+                    borderColor: 'green',
 
-                    tension: 0.3,
+                    backgroundColor: 'green',
 
-                    borderWidth: 3,
+                    pointRadius: 6,
 
-                    fill: false
+                    tension: 0.3
+                },
+
+                // 🔴 FAILED
+                {
+                    label: 'Failed',
+
+                    data: historyData.map(
+                        item =>
+                            !item.passed
+                            ? item.score
+                            : null
+                    ),
+
+                    borderColor: 'red',
+
+                    backgroundColor: 'red',
+
+                    pointRadius: 6,
+
+                    tension: 0.3
                 }
             ]
         },
@@ -223,6 +350,157 @@ new Chart(
                 y: {
 
                     beginAtZero: true
+                }
+            }
+        }
+    }
+);
+
+
+// 📝 KARIMEN CHART
+
+new Chart(
+
+    document.getElementById('karimenChart'),
+
+    {
+
+        type: 'bar',
+
+        data: {
+
+            labels: karimenData.map(
+                item => item.label
+            ),
+
+            datasets: [
+
+                {
+                    label: 'Karimen Scores',
+
+                    data: karimenData.map(
+                        item => item.score
+                    ),
+
+                    backgroundColor: '#3b82f6'
+                }
+            ]
+        },
+
+        options: {
+
+            responsive: true,
+
+            scales: {
+
+                y: {
+
+                    beginAtZero: true
+                }
+            }
+        }
+    }
+);
+
+
+// 🏁 HONMEN CHART
+
+new Chart(
+
+    document.getElementById('honmenChart'),
+
+    {
+
+        type: 'bar',
+
+        data: {
+
+            labels: honmenData.map(
+                item => item.label
+            ),
+
+            datasets: [
+
+                {
+                    label: 'Honmen Scores',
+
+                    data: honmenData.map(
+                        item => item.score
+                    ),
+
+                    backgroundColor: '#7c3aed'
+                }
+            ]
+        },
+
+        options: {
+
+            responsive: true,
+
+            scales: {
+
+                y: {
+
+                    beginAtZero: true
+                }
+            }
+        }
+    }
+);
+
+
+// 🧠 REVIEWER ACCURACY
+
+new Chart(
+
+    document.getElementById('reviewerChart'),
+
+    {
+
+        type: 'line',
+
+        data: {
+
+            labels: reviewerData.map(
+                item => item.label
+            ),
+
+            datasets: [
+
+                {
+                    label: 'Reviewer Accuracy %',
+
+                    data: reviewerData.map(
+                        item =>
+                            (
+                                item.score
+                                /
+                                item.total
+                            ) * 100
+                    ),
+
+                    borderColor: '#22c55e',
+
+                    backgroundColor: '#22c55e',
+
+                    pointRadius: 5,
+
+                    tension: 0.3
+                }
+            ]
+        },
+
+        options: {
+
+            responsive: true,
+
+            scales: {
+
+                y: {
+
+                    beginAtZero: true,
+
+                    max: 100
                 }
             }
         }

@@ -43,7 +43,79 @@ body{
     color:#1e293b;
 
     min-height:100vh;
+
+    transition:
+    background 0.3s ease,
+    color 0.3s ease;
 }
+
+
+/* 🌙 DARK MODE */
+
+body.dark{
+
+    background:
+    linear-gradient(
+    180deg,
+    #0f172a 0%,
+    #111827 100%
+    );
+
+    color:white;
+}
+
+body.dark .header{
+
+    background:
+    rgba(15,23,42,0.92);
+
+    color:white;
+}
+
+body.dark .card{
+
+    background:
+    rgba(30,41,59,0.92);
+
+    border:
+    1px solid rgba(255,255,255,0.08);
+}
+
+body.dark .section-title h2{
+
+    color:white;
+}
+
+body.dark .menu-btn-light{
+
+    background:#1e293b;
+
+    color:white;
+
+    border:
+    1px solid #334155;
+}
+
+body.dark .lang-btn{
+
+    background:#1e293b;
+
+    color:white;
+
+    border:
+    1px solid #334155;
+}
+
+body.dark .active-lang{
+
+    background:
+    linear-gradient(
+    135deg,
+    #2563eb,
+    #1d4ed8
+    );
+}
+
 
 /* 🔝 HEADER */
 
@@ -118,6 +190,8 @@ body{
 
     transition:
     all 0.15s ease;
+
+    cursor:pointer;
 }
 
 .lang-btn:hover{
@@ -244,7 +318,7 @@ body{
 
 .card.active .menu-content{
 
-    max-height:500px;
+    max-height:600px;
 
     padding-bottom:22px;
 }
@@ -404,6 +478,7 @@ body{
 
     <div class="language-switcher">
 
+        <!-- 🇺🇸 ENGLISH -->
         <a href="/set-language/en"
            class="lang-btn
            {% if session.get('lang', 'en') == 'en' %}
@@ -414,6 +489,7 @@ body{
 
         </a>
 
+        <!-- 🇵🇭 TAGALOG -->
         <a href="/set-language/tl"
            class="lang-btn
            {% if session.get('lang', 'en') == 'tl' %}
@@ -424,6 +500,7 @@ body{
 
         </a>
 
+        <!-- 🇳🇵 NEPALI -->
         <a href="/set-language/ne"
            class="lang-btn
            {% if session.get('lang', 'en') == 'ne' %}
@@ -433,6 +510,14 @@ body{
            🇳🇵 Nepali
 
         </a>
+
+        <!-- 🌙 DARK MODE -->
+        <button onclick="toggleDarkMode()"
+                class="lang-btn">
+
+            🌙 Dark Mode
+
+        </button>
 
     </div>
 
@@ -598,6 +683,40 @@ function toggleMenu(element){
     const card = element.parentElement;
 
     card.classList.toggle("active");
+}
+
+
+// 🌙 DARK MODE
+
+function toggleDarkMode(){
+
+    document.body.classList.toggle(
+        "dark"
+    );
+
+    localStorage.setItem(
+
+        "darkMode",
+
+        document.body.classList.contains(
+            "dark"
+        )
+    );
+}
+
+
+// ✅ LOAD SAVED DARK MODE
+
+if(
+
+    localStorage.getItem(
+        "darkMode"
+    ) === "true"
+){
+
+    document.body.classList.add(
+        "dark"
+    );
 }
 
 </script>
