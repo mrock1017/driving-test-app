@@ -468,7 +468,9 @@ def register():
             .lower()
         )
 
-        password = request.form.get('password')
+        password = request.form.get(
+            'password'
+        )
 
         existing_email = User.query.filter_by(
             email=email
@@ -511,54 +513,18 @@ def register():
 
                     password=hashed,
 
-                    is_verified=False
+                    is_verified=True
                 )
 
                 db.session.add(new_user)
 
                 db.session.commit()
 
-                # ✅ VERIFY EMAIL
+                print("AUTO VERIFIED USER")
 
-                token = serializer.dumps(
-
-                    email,
-
-                    salt='email-verify'
-                )
-
-                verify_link = url_for(
-
-                    'verify_email',
-
-                    token=token,
-
-                    _external=True
-                )
-
-                body = f"""
-Welcome to Japan Driving Test Master.
-
-Please verify your email:
-
-{verify_link}
-
-If you did not create this account,
-you may ignore this email.
-"""
-
-                email_sent = send_email(
-
-                    'Verify Your Email',
-
-                    email,
-
-                    body
-                )
-                print("EMAIL SENT:", email_sent)
                 success = (
                     "Account created successfully. "
-                    "Please verify your email."
+                    "You can now login."
                 )
 
     return render_template(
@@ -571,7 +537,6 @@ you may ignore this email.
 
         ui=ui
     )
-
 # =========================================================
 # 📧 VERIFY EMAIL
 # =========================================================
@@ -781,7 +746,9 @@ def login():
             .lower()
         )
 
-        password = request.form.get('password')
+        password = request.form.get(
+            'password'
+        )
 
         user = User.query.filter_by(
             email=email
@@ -792,25 +759,19 @@ def login():
             password
         ):
 
-            # ✅ REQUIRE VERIFIED EMAIL
+            # ✅ LOGIN USER
 
-            if not user.is_verified:
+            session['user_id'] = user.id
 
-                error = (
-                    "Please verify your email first."
-                )
+            session['username'] = (
+                user.username
+            )
 
-            else:
+            session['is_premium'] = (
+                user.is_premium
+            )
 
-                session['user_id'] = user.id
-
-                session['username'] = user.username
-
-                session['is_premium'] = (
-                    user.is_premium
-                )
-
-                return redirect('/menu')
+            return redirect('/menu')
 
         else:
 
@@ -882,6 +843,41 @@ def start_mode(mode, test):
 
     language = session.get('lang', 'en')
 
+    # =====================================================
+    # ⭐ PREMIUM LOCK
+    # =====================================================
+
+    free_tests = [
+
+        'test1',
+
+        'karimen_test_1'
+    ]
+
+    if not session.get('is_premium'):
+
+        # ❌ BLOCK HONMEN
+
+        if mode == "honmen":
+
+            return redirect('/upgrade')
+
+        # ❌ BLOCK REVIEWER HONMEN
+
+        if mode == "reviewer_honmen":
+
+            return redirect('/upgrade')
+
+        # ❌ BLOCK OTHER PREMIUM TESTS
+
+        if test not in free_tests:
+
+            return redirect('/upgrade')
+
+    # =====================================================
+    # 📂 LOAD FOLDER
+    # =====================================================
+
     if mode == "karimen":
 
         folder = "karimen"
@@ -916,9 +912,13 @@ def start_mode(mode, test):
         return "No questions found."
 
     session['folder'] = folder
+
     session['questions_file'] = test
+
     session['answers'] = []
+
     session['current'] = 0
+
     session['mode'] = mode
 
     # =====================================================
@@ -928,6 +928,7 @@ def start_mode(mode, test):
     if mode == "honmen":
 
         normal_questions = []
+
         grouped_questions = []
 
         for i, q in enumerate(questions):
@@ -954,9 +955,14 @@ def start_mode(mode, test):
             min(5, len(grouped_questions))
         )
 
+        # ✅ KEEP GROUP QUESTIONS AT END
+
         order = (
+
             selected_normal
+
             +
+
             selected_grouped
         )
 
@@ -969,6 +975,12 @@ def start_mode(mode, test):
     else:
 
         total_questions = 50
+
+        # ✅ FREE USERS GET LIMITED QUESTIONS
+
+        if not session.get('is_premium'):
+
+            total_questions = 10
 
         if len(questions) > total_questions:
 
@@ -1462,6 +1474,53 @@ def contact():
     )
 
 # =========================================================
+# ⭐ UPGRADE PAGE
+# =========================================================
+
+@app.route('/upgrade')
+def upgrade():
+
+    return render_template(
+
+        'upgrade.html',
+
+        ui=get_ui()
+    )
+
+# =========================================================
+# ⭐ SUBSCRIBE
+# =========================================================
+
+@app.route('/subscribe')
+def subscribe():
+
+    # ✅ TEMPORARY PREMIUM ACCESS
+
+    if 'user_id' not in session:
+
+        return redirect('/login')
+
+    user = User.query.get(
+        session['user_id']
+    )
+
+    if not user:
+
+        return redirect('/login')
+
+    # ✅ MAKE USER PREMIUM
+
+    user.is_premium = True
+
+    db.session.commit()
+
+    # ✅ UPDATE SESSION
+
+    session['is_premium'] = True
+
+    return redirect('/menu')
+
+# =========================================================
 # ⚠ ERROR HANDLER
 # =========================================================
 
@@ -1496,12 +1555,7 @@ def favicon():
             filename='images/icon.png'
         )
     )
-if __name__ == '__main__':
 
-    port = int(
-        os.environ.get("PORT", 5000)
-    )
-    
 # =========================================================
 # 🚀 RUN APP
 # =========================================================

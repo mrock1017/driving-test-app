@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<style>
+
+body{
+
+    font-family:Arial;
+
+    padding:30px;
+
+    background:#f3f4f6;
+}
+
+.box{
+
+    background:#facc15;
+
+    padding:25px;
+
+    border-radius:20px;
+
+    margin-bottom:20px;
+
+    cursor:pointer;
+
+    font-size:25px;
+
+    font-weight:bold;
+}
+
+.content{
+
+    display:none;
+
+    background:white;
+
+    padding:20px;
+
+    border-radius:20px;
+
+    margin-top:10px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div
+    class="box"
+    onclick="toggleBox('box1')"
+>
+
+    ⭐ AI Tutor Unlimited
+
+    <div
+        id="box1"
+        class="content"
+    >
+
+        Unlimited AI explanations for all questions.
+
+    </div>
+
+</div>
+
+<div
+    class="box"
+    onclick="toggleBox('box2')"
+>
+
+    ⭐ Unlimited Mock Exams
+
+    <div
+        id="box2"
+        class="content"
+    >
+
+        Practice unlimited Karimen and Honmen exams.
+
+    </div>
+
+</div>
+
+<script>
+
+function toggleBox(id){
+
+    const box =
+        document.getElementById(id);
+
+    if(box.style.display === 'block'){
+
+        box.style.display = 'none';
+
+    }else{
+
+        box.style.display = 'block';
+
+    }
+}
+
+</script>
+
+</body>
+
+</html>
