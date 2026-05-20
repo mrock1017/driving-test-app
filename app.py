@@ -843,39 +843,41 @@ def start_mode(mode, test):
 
     language = session.get('lang', 'en')
 
+    is_premium = session.get(
+        'is_premium',
+        False
+    )
+
     # =====================================================
-    # ⭐ PREMIUM LOCK
+    # ✅ FREE ACCESS RULES
     # =====================================================
 
-    free_tests = [
+    free_access = [
 
-        'test1',
+        ('karimen', 'mock'),
 
-        'karimen_test_1'
+        ('reviewer_karimen', 'reviewer'),
+
     ]
 
-    if not session.get('is_premium'):
+    # =====================================================
+    # 🔒 PREMIUM LOCK
+    # =====================================================
 
-        # ❌ BLOCK HONMEN
+    allowed = False
 
-        if mode == "honmen":
+    for free_mode, free_test in free_access:
 
-            return redirect('/upgrade')
+        if mode == free_mode:
 
-        # ❌ BLOCK REVIEWER HONMEN
+            allowed = True
 
-        if mode == "reviewer_honmen":
+    if not is_premium and not allowed:
 
-            return redirect('/upgrade')
-
-        # ❌ BLOCK OTHER PREMIUM TESTS
-
-        if test not in free_tests:
-
-            return redirect('/upgrade')
+        return redirect('/upgrade')
 
     # =====================================================
-    # 📂 LOAD FOLDER
+    # 📂 FOLDER
     # =====================================================
 
     if mode == "karimen":
@@ -912,13 +914,9 @@ def start_mode(mode, test):
         return "No questions found."
 
     session['folder'] = folder
-
     session['questions_file'] = test
-
     session['answers'] = []
-
     session['current'] = 0
-
     session['mode'] = mode
 
     # =====================================================
@@ -928,7 +926,6 @@ def start_mode(mode, test):
     if mode == "honmen":
 
         normal_questions = []
-
         grouped_questions = []
 
         for i, q in enumerate(questions):
@@ -955,14 +952,9 @@ def start_mode(mode, test):
             min(5, len(grouped_questions))
         )
 
-        # ✅ KEEP GROUP QUESTIONS AT END
-
         order = (
-
             selected_normal
-
             +
-
             selected_grouped
         )
 
@@ -975,12 +967,6 @@ def start_mode(mode, test):
     else:
 
         total_questions = 50
-
-        # ✅ FREE USERS GET LIMITED QUESTIONS
-
-        if not session.get('is_premium'):
-
-            total_questions = 10
 
         if len(questions) > total_questions:
 
