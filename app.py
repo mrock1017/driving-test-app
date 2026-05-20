@@ -1,5 +1,23 @@
-from flask import Flask, render_template, request, redirect, session
+from flask import (
+    Flask,
+    render_template,
+    request,
+    redirect,
+    session,
+    url_for
+)
+
 from flask_sqlalchemy import SQLAlchemy
+
+from flask_mail import (
+    Mail,
+    Message
+)
+
+from itsdangerous import (
+    URLSafeTimedSerializer
+)
+
 from werkzeug.security import (
     generate_password_hash,
     check_password_hash
@@ -25,8 +43,26 @@ app.config['SECRET_KEY'] = os.environ.get(
 # ✅ DATABASE
 # =========================================================
 
-app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get(
+database_url = os.environ.get(
     'DATABASE_URL'
+)
+
+# ✅ Railway PostgreSQL Fix
+
+if database_url and database_url.startswith(
+    "postgres://"
+):
+
+    database_url = database_url.replace(
+        "postgres://",
+        "postgresql://",
+        1
+    )
+
+app.config['SQLALCHEMY_DATABASE_URI'] = (
+    database_url
+    or
+    'sqlite:///users.db'
 )
 
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
@@ -34,12 +70,48 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
 # =========================================================
+# 📧 EMAIL CONFIG
+# =========================================================
+
+app.config['MAIL_SERVER'] = (
+    'smtp-relay.brevo.com'
+)
+
+app.config['MAIL_PORT'] = 587
+
+app.config['MAIL_USE_TLS'] = True
+
+app.config['MAIL_USERNAME'] = os.environ.get(
+    'MAIL_USERNAME'
+)
+
+app.config['MAIL_PASSWORD'] = os.environ.get(
+    'MAIL_PASSWORD'
+)
+
+app.config['MAIL_DEFAULT_SENDER'] = (
+    os.environ.get(
+        'MAIL_DEFAULT_SENDER',
+        'noreply@drivingtestmaster.com'
+    )
+)
+
+mail = Mail(app)
+
+# =========================================================
+# 🔐 TOKEN SERIALIZER
+# =========================================================
+
+serializer = URLSafeTimedSerializer(
+    app.config['SECRET_KEY']
+)
+
+# =========================================================
 # ✅ DEBUG
 # =========================================================
 
 app.config['TEMPLATES_AUTO_RELOAD'] = True
 app.config['DEBUG'] = False
-
 
 # =========================================================
 # 👤 USER MODEL
@@ -74,11 +146,17 @@ class User(db.Model):
         default=False
     )
 
+    # ✅ EMAIL VERIFIED
+
+    is_verified = db.Column(
+        db.Boolean,
+        default=False
+    )
+
     created_at = db.Column(
         db.DateTime,
         default=db.func.now()
     )
-
 
 # =========================================================
 # 📊 SCORE HISTORY MODEL
@@ -116,7 +194,6 @@ class ScoreHistory(db.Model):
         db.DateTime,
         default=db.func.now()
     )
-
 
 # =========================================================
 # 🌐 UI TRANSLATIONS
@@ -224,7 +301,6 @@ UI_TEXT = {
     }
 }
 
-
 # =========================================================
 # 🌐 GET UI LANGUAGE
 # =========================================================
@@ -238,7 +314,6 @@ def get_ui():
         UI_TEXT['en']
     )
 
-
 # =========================================================
 # 🔐 LOGIN REQUIRED
 # =========================================================
@@ -249,6 +324,32 @@ def login_required():
 
         return redirect('/login')
 
+# =========================================================
+# 📧 SEND EMAIL
+# =========================================================
+
+def send_email(subject, recipient, body):
+
+    try:
+
+        msg = Message(
+
+            subject,
+
+            recipients=[recipient]
+        )
+
+        msg.body = body
+
+        mail.send(msg)
+
+        return True
+
+    except Exception as e:
+
+        print("EMAIL ERROR:", e)
+
+        return False
 
 # =========================================================
 # 🤖 AI EXPLANATION
@@ -279,7 +380,6 @@ def generate_ai_explanation(
         "Focus carefully on road signs, "
         "pedestrian safety, and defensive driving."
     )
-
 
 # =========================================================
 # ✅ LOAD QUESTIONS
@@ -322,7 +422,6 @@ def load_questions(folder, language, filename):
 
         return []
 
-
 # =========================================================
 # 🌐 SET LANGUAGE
 # =========================================================
@@ -342,7 +441,6 @@ def set_language(lang):
 
     return redirect('/menu')
 
-
 # =========================================================
 # 👤 REGISTER
 # =========================================================
@@ -353,6 +451,8 @@ def register():
     ui = get_ui()
 
     error = None
+
+    success = None
 
     if request.method == 'POST':
 
@@ -408,14 +508,57 @@ def register():
 
                     email=email,
 
-                    password=hashed
+                    password=hashed,
+
+                    is_verified=False
                 )
 
                 db.session.add(new_user)
 
                 db.session.commit()
 
-                return redirect('/login')
+                # ✅ VERIFY EMAIL
+
+                token = serializer.dumps(
+
+                    email,
+
+                    salt='email-verify'
+                )
+
+                verify_link = url_for(
+
+                    'verify_email',
+
+                    token=token,
+
+                    _external=True
+                )
+
+                body = f"""
+Welcome to Japan Driving Test Master.
+
+Please verify your email:
+
+{verify_link}
+
+If you did not create this account,
+you may ignore this email.
+"""
+
+                send_email(
+
+                    'Verify Your Email',
+
+                    email,
+
+                    body
+                )
+
+                success = (
+                    "Account created successfully. "
+                    "Please verify your email."
+                )
 
     return render_template(
 
@@ -423,9 +566,200 @@ def register():
 
         error=error,
 
+        success=success,
+
         ui=ui
     )
 
+# =========================================================
+# 📧 VERIFY EMAIL
+# =========================================================
+
+@app.route('/verify-email/<token>')
+def verify_email(token):
+
+    try:
+
+        email = serializer.loads(
+
+            token,
+
+            salt='email-verify',
+
+            max_age=3600
+        )
+
+        user = User.query.filter_by(
+            email=email
+        ).first()
+
+        if user:
+
+            user.is_verified = True
+
+            db.session.commit()
+
+            return """
+            <h1>Email Verified</h1>
+            <p>You can now login.</p>
+            """
+
+    except Exception as e:
+
+        print(e)
+
+    return """
+    <h1>Invalid or Expired Link</h1>
+    """
+
+# =========================================================
+# 🔑 FORGOT PASSWORD
+# =========================================================
+
+@app.route(
+    '/forgot-password',
+    methods=['GET', 'POST']
+)
+def forgot_password():
+
+    message = None
+
+    if request.method == 'POST':
+
+        email = (
+            request.form.get('email')
+            .strip()
+            .lower()
+        )
+
+        user = User.query.filter_by(
+            email=email
+        ).first()
+
+        if user:
+
+            token = serializer.dumps(
+
+                email,
+
+                salt='reset-password'
+            )
+
+            reset_link = url_for(
+
+                'reset_password',
+
+                token=token,
+
+                _external=True
+            )
+
+            body = f"""
+Reset your password:
+
+{reset_link}
+
+If you did not request this,
+ignore this email.
+"""
+
+            send_email(
+
+                'Reset Password',
+
+                email,
+
+                body
+            )
+
+        message = (
+            "If the email exists, "
+            "a reset link was sent."
+        )
+
+    return render_template(
+
+        'forgot_password.html',
+
+        message=message,
+
+        ui=get_ui()
+    )
+
+# =========================================================
+# 🔑 RESET PASSWORD
+# =========================================================
+
+@app.route(
+    '/reset-password/<token>',
+    methods=['GET', 'POST']
+)
+def reset_password(token):
+
+    error = None
+
+    success = None
+
+    try:
+
+        email = serializer.loads(
+
+            token,
+
+            salt='reset-password',
+
+            max_age=3600
+        )
+
+    except:
+
+        return """
+        <h1>Invalid or Expired Link</h1>
+        """
+
+    if request.method == 'POST':
+
+        password = request.form.get(
+            'password'
+        )
+
+        if len(password) < 6:
+
+            error = (
+                "Password must be at least "
+                "6 characters."
+            )
+
+        else:
+
+            user = User.query.filter_by(
+                email=email
+            ).first()
+
+            if user:
+
+                user.password = (
+                    generate_password_hash(
+                        password
+                    )
+                )
+
+                db.session.commit()
+
+                success = (
+                    "Password updated successfully."
+                )
+
+    return render_template(
+
+        'reset_password.html',
+
+        error=error,
+
+        success=success,
+
+        ui=get_ui()
+    )
 
 # =========================================================
 # 👤 LOGIN
@@ -457,15 +791,25 @@ def login():
             password
         ):
 
-            session['user_id'] = user.id
+            # ✅ REQUIRE VERIFIED EMAIL
 
-            session['username'] = user.username
+            if not user.is_verified:
 
-            session['is_premium'] = (
-                user.is_premium
-            )
+                error = (
+                    "Please verify your email first."
+                )
 
-            return redirect('/menu')
+            else:
+
+                session['user_id'] = user.id
+
+                session['username'] = user.username
+
+                session['is_premium'] = (
+                    user.is_premium
+                )
+
+                return redirect('/menu')
 
         else:
 
@@ -482,7 +826,6 @@ def login():
         ui=ui
     )
 
-
 # =========================================================
 # 🚪 LOGOUT
 # =========================================================
@@ -493,7 +836,6 @@ def logout():
     session.clear()
 
     return redirect('/menu')
-
 
 # =========================================================
 # ✅ MENU
@@ -514,7 +856,6 @@ def menu():
         ui=get_ui()
     )
 
-
 # =========================================================
 # ❌ QUIT EXAM
 # =========================================================
@@ -530,7 +871,6 @@ def quit_exam():
     session.pop('questions_file', None)
 
     return redirect('/menu')
-
 
 # =========================================================
 # 🚀 START MODE
@@ -613,8 +953,6 @@ def start_mode(mode, test):
             min(5, len(grouped_questions))
         )
 
-        # ✅ KEEP GROUP QUESTIONS AT END
-
         order = (
             selected_normal
             +
@@ -661,7 +999,6 @@ def start_mode(mode, test):
     session['start_time'] = int(time.time())
 
     return redirect('/question')
-
 
 # =========================================================
 # ❓ QUESTION PAGE
@@ -837,7 +1174,6 @@ def question():
         ui=get_ui()
     )
 
-
 # =========================================================
 # ➡ NEXT QUESTION
 # =========================================================
@@ -850,7 +1186,6 @@ def next_question():
         session['current'] += 1
 
     return redirect('/question')
-
 
 # =========================================================
 # 🏆 RESULT PAGE
@@ -891,10 +1226,6 @@ def result():
     for i, idx in enumerate(order):
 
         q = questions[idx]
-
-        # =================================================
-        # 🏁 GROUP QUESTIONS
-        # =================================================
 
         if 'items' in q:
 
@@ -957,10 +1288,6 @@ def result():
                     q.get("image")
                 })
 
-        # =================================================
-        # 📝 NORMAL QUESTIONS
-        # =================================================
-
         else:
 
             total_questions += 1
@@ -1013,10 +1340,6 @@ def result():
 
     session['last_total'] = total_questions
 
-    # =====================================================
-    # ✅ PASSING SCORE
-    # =====================================================
-
     passing_score = int(
         total_questions * 0.9
     )
@@ -1026,10 +1349,6 @@ def result():
         passing_score = 90
 
     passed = score >= passing_score
-
-    # =====================================================
-    # 📊 DATABASE SCORE HISTORY
-    # =====================================================
 
     if 'user_id' in session:
 
@@ -1066,7 +1385,6 @@ def result():
 
         ui=get_ui()
     )
-
 
 # =========================================================
 # 📊 HISTORY
@@ -1114,7 +1432,6 @@ def privacy():
         ui=get_ui()
     )
 
-
 # =========================================================
 # 📄 TERMS OF USE
 # =========================================================
@@ -1128,7 +1445,6 @@ def terms():
 
         ui=get_ui()
     )
-
 
 # =========================================================
 # ✉️ CONTACT
@@ -1158,7 +1474,6 @@ def handle_error(e):
     <pre>{str(e)}</pre>
     """, 500
 
-
 # =========================================================
 # ✅ CREATE DATABASE
 # =========================================================
@@ -1166,7 +1481,6 @@ def handle_error(e):
 with app.app_context():
 
     db.create_all()
-
 
 # =========================================================
 # 🚀 RUN APP

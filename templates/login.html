@@ -127,7 +127,8 @@ body.dark .subtitle{
 }
 
 body.dark .register-link,
-body.dark .back-link{
+body.dark .back-link,
+body.dark .forgot-link{
 
     color:#93c5fd;
 }
@@ -249,6 +250,28 @@ body.dark .back-link{
     font-weight:600;
 }
 
+/* ✅ SUCCESS */
+
+.success{
+
+    background:#ecfdf5;
+
+    border:
+    1px solid #a7f3d0;
+
+    color:#047857;
+
+    padding:14px;
+
+    border-radius:16px;
+
+    margin-bottom:18px;
+
+    font-size:14px;
+
+    font-weight:600;
+}
+
 /* 📝 FORM */
 
 form{
@@ -350,6 +373,26 @@ button:disabled{
     cursor:not-allowed;
 
     transform:none;
+}
+
+/* 🔑 FORGOT PASSWORD */
+
+.forgot{
+
+    text-align:right;
+
+    margin-top:-6px;
+}
+
+.forgot-link{
+
+    color:#2563eb;
+
+    text-decoration:none;
+
+    font-size:14px;
+
+    font-weight:700;
 }
 
 /* 🔗 REGISTER */
@@ -466,11 +509,25 @@ button:disabled{
 
     </div>
 
+    <!-- ⚠ ERROR -->
+
     {% if error %}
 
         <div class="error">
 
             ⚠ {{ error }}
+
+        </div>
+
+    {% endif %}
+
+    <!-- ✅ SUCCESS -->
+
+    {% if success %}
+
+        <div class="success">
+
+            ✅ {{ success }}
 
         </div>
 
@@ -493,6 +550,19 @@ button:disabled{
             autocomplete="current-password"
             required
         >
+
+        <!-- 🔑 FORGOT PASSWORD -->
+
+        <div class="forgot">
+
+            <a href="/forgot-password"
+               class="forgot-link">
+
+               Forgot Password?
+
+            </a>
+
+        </div>
 
         <button
             type="submit"
