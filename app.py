@@ -73,13 +73,13 @@ db = SQLAlchemy(app)
 # 📧 EMAIL CONFIG
 # =========================================================
 
-app.config['MAIL_SERVER'] = (
-    'smtp-relay.brevo.com'
-)
+app.config['MAIL_SERVER'] = 'smtp-relay.brevo.com'
 
 app.config['MAIL_PORT'] = 587
 
 app.config['MAIL_USE_TLS'] = True
+
+app.config['MAIL_USE_SSL'] = False
 
 app.config['MAIL_USERNAME'] = os.environ.get(
     'MAIL_USERNAME'
@@ -89,14 +89,13 @@ app.config['MAIL_PASSWORD'] = os.environ.get(
     'MAIL_PASSWORD'
 )
 
-app.config['MAIL_DEFAULT_SENDER'] = (
-    os.environ.get(
-        'MAIL_DEFAULT_SENDER',
-        'noreply@drivingtestmaster.com'
-    )
+app.config['MAIL_DEFAULT_SENDER'] = os.environ.get(
+    'MAIL_DEFAULT_SENDER'
 )
 
-mail = Mail(app)
+app.config['MAIL_MAX_EMAILS'] = None
+
+app.config['MAIL_ASCII_ATTACHMENTS'] = False
 
 # =========================================================
 # 🔐 TOKEN SERIALIZER
