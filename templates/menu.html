@@ -863,56 +863,101 @@ body.dark .user-box{
 
     <!-- ⭐ PREMIUM -->
 
-    <div class="card">
+<div class="card">
 
-        <div class="section-title"
-             onclick="toggleMenu(this)">
+    <div class="section-title"
+         onclick="toggleMenu(this)">
 
-            <h2>⭐ Premium Features</h2>
+        <h2>⭐ Premium Features</h2>
 
-            <span class="arrow">⌄</span>
-
-        </div>
-
-        <div class="menu-content">
-
-            {% if session.get('is_premium') %}
-
-                <a href="#"
-                   class="menu-btn menu-btn-gold">
-
-                   ⭐ AI Tutor Unlimited
-
-                </a>
-
-                <a href="#"
-                   class="menu-btn menu-btn-gold">
-
-                   ⭐ Unlimited Mock Exams
-
-                </a>
-
-                <a href="#"
-                   class="menu-btn menu-btn-gold">
-
-                   ⭐ Advanced Analytics
-
-                </a>
-
-            {% else %}
-
-                <a href="#"
-                   class="menu-btn menu-btn-gold">
-
-                   🔒 Upgrade To Premium
-
-                </a>
-
-            {% endif %}
-
-        </div>
+        <span class="arrow">⌄</span>
 
     </div>
+
+    <div class="menu-content">
+
+        {% if session.get('is_premium') %}
+
+            <div style="
+                background:linear-gradient(
+                135deg,
+                #facc15,
+                #eab308
+                );
+                color:#111827;
+                padding:16px;
+                border-radius:18px;
+                text-align:center;
+                font-weight:800;
+                margin-top:14px;
+                margin-bottom:14px;
+                box-shadow:
+                0 8px 20px rgba(234,179,8,0.25);
+            ">
+
+                ⭐ PREMIUM ACTIVE
+
+            </div>
+
+            <a href="#"
+               class="menu-btn menu-btn-gold">
+
+               ⭐ AI Tutor Unlimited
+
+            </a>
+
+            <a href="#"
+               class="menu-btn menu-btn-gold">
+
+               ⭐ Unlimited Mock Exams
+
+            </a>
+
+            <a href="#"
+               class="menu-btn menu-btn-gold">
+
+               ⭐ Advanced Analytics
+
+            </a>
+
+            <a href="#"
+               class="menu-btn menu-btn-gold">
+
+               ⭐ Full Reviewer Access
+
+            </a>
+
+        {% else %}
+
+            <div style="
+                background:#fee2e2;
+                color:#991b1b;
+                padding:16px;
+                border-radius:18px;
+                text-align:center;
+                font-weight:700;
+                margin-top:14px;
+                margin-bottom:14px;
+            ">
+
+                🔒 Premium Required
+                for all Honmen exams
+                and advanced features.
+
+            </div>
+
+            <a href="/upgrade"
+               class="menu-btn menu-btn-gold">
+
+               ⭐ Unlock Premium Now
+
+            </a>
+
+        {% endif %}
+
+    </div>
+
+</div>
 
     <!-- ⚙️ APP INFO -->
 

@@ -1,110 +1,343 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
 
-<style>
+    <meta charset="UTF-8">
 
-body{
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
 
-    font-family:Arial;
+    <title>
 
-    padding:30px;
+        Upgrade Premium
 
-    background:#f3f4f6;
-}
+    </title>
 
-.box{
+    <style>
 
-    background:#facc15;
+        body{
 
-    padding:25px;
+            font-family:Arial, sans-serif;
 
-    border-radius:20px;
+            padding:30px;
 
-    margin-bottom:20px;
+            background:#f3f4f6;
 
-    cursor:pointer;
+            margin:0;
+        }
 
-    font-size:25px;
+        .container{
 
-    font-weight:bold;
-}
+            max-width:500px;
 
-.content{
+            margin:auto;
 
-    display:none;
+            background:white;
 
-    background:white;
+            padding:30px;
 
-    padding:20px;
+            border-radius:30px;
 
-    border-radius:20px;
+            box-shadow:0 10px 30px rgba(0,0,0,0.08);
+        }
 
-    margin-top:10px;
-}
+        h1{
 
-</style>
+            text-align:center;
+
+            font-size:40px;
+
+            margin-bottom:10px;
+
+            color:#111827;
+        }
+
+        .subtitle{
+
+            text-align:center;
+
+            color:#6b7280;
+
+            margin-bottom:35px;
+
+            line-height:1.7;
+
+            font-size:18px;
+        }
+
+        .premium-required{
+
+            background:#fee2e2;
+
+            color:#991b1b;
+
+            padding:20px;
+
+            border-radius:20px;
+
+            margin-bottom:30px;
+
+            text-align:center;
+
+            font-size:20px;
+
+            font-weight:bold;
+        }
+
+        .box{
+
+            background:#facc15;
+
+            padding:25px;
+
+            border-radius:20px;
+
+            margin-bottom:20px;
+
+            cursor:pointer;
+
+            font-size:24px;
+
+            font-weight:bold;
+
+            transition:0.2s;
+        }
+
+        .box:hover{
+
+            transform:scale(1.02);
+        }
+
+        .content{
+
+            display:none;
+
+            background:white;
+
+            padding:20px;
+
+            border-radius:20px;
+
+            margin-top:15px;
+
+            font-size:17px;
+
+            color:#444;
+
+            line-height:1.7;
+
+            box-shadow:0 5px 15px rgba(0,0,0,0.06);
+        }
+
+        .subscribe-btn{
+
+            display:block;
+
+            width:100%;
+
+            text-align:center;
+
+            background:#2563eb;
+
+            color:white;
+
+            text-decoration:none;
+
+            padding:22px;
+
+            border-radius:22px;
+
+            font-size:26px;
+
+            font-weight:bold;
+
+            margin-top:35px;
+
+            transition:0.2s;
+        }
+
+        .subscribe-btn:hover{
+
+            transform:scale(1.02);
+        }
+
+        .small{
+
+            text-align:center;
+
+            color:#6b7280;
+
+            margin-top:15px;
+
+            font-size:15px;
+        }
+
+    </style>
 
 </head>
 
 <body>
 
-<div
-    class="box"
-    onclick="toggleBox('box1')"
->
+    <div class="container">
 
-    ⭐ AI Tutor Unlimited
+        <h1>
 
-    <div
-        id="box1"
-        class="content"
-    >
+            ⭐ Premium Access
 
-        Unlimited AI explanations for all questions.
+        </h1>
+
+        <p class="subtitle">
+
+            Unlock all Karimen and Honmen exams,
+            premium reviewers, unlimited practice,
+            and advanced driving explanations.
+
+        </p>
+
+        <div class="premium-required">
+
+            🔒 This content requires Premium access.
+
+        </div>
+
+        <!-- AI Tutor -->
+
+        <div
+            class="box"
+            onclick="toggleBox('box1')"
+        >
+
+            ⭐ AI Tutor Unlimited
+
+            <div
+                id="box1"
+                class="content"
+            >
+
+                Get unlimited smart driving explanations
+                for road signs, hazard prediction,
+                pedestrian safety, and traffic laws.
+
+            </div>
+
+        </div>
+
+        <!-- Mock Exams -->
+
+        <div
+            class="box"
+            onclick="toggleBox('box2')"
+        >
+
+            ⭐ Unlimited Mock Exams
+
+            <div
+                id="box2"
+                class="content"
+            >
+
+                Access all Karimen and Honmen
+                practice exams with randomized
+                questions and realistic exam simulation.
+
+            </div>
+
+        </div>
+
+        <!-- Analytics -->
+
+        <div
+            class="box"
+            onclick="toggleBox('box3')"
+        >
+
+            ⭐ Advanced Analytics
+
+            <div
+                id="box3"
+                class="content"
+            >
+
+                Monitor weak areas, exam history,
+                passing trends, and performance
+                improvement over time.
+
+            </div>
+
+        </div>
+
+        <!-- Premium Features -->
+
+        <div
+            class="box"
+            onclick="toggleBox('box4')"
+        >
+
+            ⭐ Full Premium Features
+
+            <div
+                id="box4"
+                class="content"
+            >
+
+                ✅ Full Reviewer Access<br><br>
+
+                ✅ All Karimen Tests<br><br>
+
+                ✅ All Honmen Tests<br><br>
+
+                ✅ Unlimited Practice<br><br>
+
+                ✅ Smart Driving Explanations<br><br>
+
+                ✅ Future Premium Updates
+
+            </div>
+
+        </div>
+
+        <!-- Subscribe -->
+
+        <a
+            href="/subscribe"
+            class="subscribe-btn"
+        >
+
+            ⭐ Unlock Premium Now
+
+        </a>
+
+        <div class="small">
+
+            Premium access is activated instantly
+            after subscription.
+
+        </div>
 
     </div>
 
-</div>
+    <script>
 
-<div
-    class="box"
-    onclick="toggleBox('box2')"
->
+        function toggleBox(id){
 
-    ⭐ Unlimited Mock Exams
+            const box =
+                document.getElementById(id);
 
-    <div
-        id="box2"
-        class="content"
-    >
+            if(box.style.display === 'block'){
 
-        Practice unlimited Karimen and Honmen exams.
+                box.style.display = 'none';
 
-    </div>
+            }else{
 
-</div>
+                box.style.display = 'block';
 
-<script>
+            }
+        }
 
-function toggleBox(id){
-
-    const box =
-        document.getElementById(id);
-
-    if(box.style.display === 'block'){
-
-        box.style.display = 'none';
-
-    }else{
-
-        box.style.display = 'block';
-
-    }
-}
-
-</script>
+    </script>
 
 </body>
 
