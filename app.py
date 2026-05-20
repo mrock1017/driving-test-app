@@ -347,7 +347,7 @@ def send_email(subject, recipient, body):
 
     except Exception as e:
 
-        print("EMAIL ERROR:", e)
+        print("EMAIL ERROR:", str(e))
 
         return False
 
@@ -546,7 +546,7 @@ If you did not create this account,
 you may ignore this email.
 """
 
-                send_email(
+                email_sent = send_email(
 
                     'Verify Your Email',
 
@@ -554,7 +554,7 @@ you may ignore this email.
 
                     body
                 )
-
+                print("EMAIL SENT:", email_sent)
                 success = (
                     "Account created successfully. "
                     "Please verify your email."
