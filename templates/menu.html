@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 
     <link rel="apple-touch-icon"
@@ -66,8 +67,6 @@ body{
 
     min-height:100vh;
 
-    overscroll-behavior:none;
-
     transition:
     background 0.3s ease,
     color 0.3s ease;
@@ -91,8 +90,6 @@ body.dark .header{
 
     background:
     rgba(15,23,42,0.92);
-
-    color:white;
 }
 
 body.dark .card{
@@ -109,16 +106,6 @@ body.dark .section-title h2{
     color:white;
 }
 
-body.dark .menu-btn-light{
-
-    background:#1e293b;
-
-    color:white;
-
-    border:
-    1px solid #334155;
-}
-
 body.dark .lang-btn{
 
     background:#1e293b;
@@ -129,71 +116,213 @@ body.dark .lang-btn{
     1px solid #334155;
 }
 
-body.dark .active-lang{
+body.dark .menu-toggle{
 
-    background:
-    linear-gradient(
-    135deg,
-    #2563eb,
-    #1d4ed8
-    );
+    background:#1e293b;
+
+    color:white;
 }
 
-body.dark .user-box{
+body.dark .menu-btn-light{
+
+    background:#1e293b;
+
+    color:white;
+
+    border:
+    1px solid #334155;
+}
+
+body.dark .user-mini{
+
+    color:white;
+}
+
+body.dark .settings-group{
 
     background:
     rgba(30,41,59,0.92);
 
     border:
     1px solid rgba(255,255,255,0.08);
-
-    color:white;
 }
 
-/* 🔝 HEADER */
+body.dark .settings-title{
+
+    color:#cbd5e1;
+}
+
+/* 🔝 COMPACT HEADER */
 
 .header{
 
     position:sticky;
+
     top:0;
+
     z-index:100;
 
-    padding:22px 20px;
+    padding:16px;
 
-    text-align:center;
+    background:
+    rgba(255,255,255,0.88);
+
+    backdrop-filter:blur(18px);
+
+    -webkit-backdrop-filter:blur(18px);
+
+    border-bottom-left-radius:24px;
+
+    border-bottom-right-radius:24px;
+
+    box-shadow:
+    0 8px 24px rgba(15,23,42,0.06);
+
+    margin-bottom:20px;
+}
+
+.topbar{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+}
+
+.logo{
 
     font-size:28px;
 
     font-weight:800;
 
     letter-spacing:-1px;
-
-    color:#0f172a;
-
-    background:
-    rgba(255,255,255,0.82);
-
-    backdrop-filter:blur(16px);
-    -webkit-backdrop-filter:blur(16px);
-
-    border-bottom-left-radius:24px;
-    border-bottom-right-radius:24px;
-
-    box-shadow:
-    0 8px 28px rgba(15,23,42,0.06);
 }
 
-/* 🌐 LANGUAGE SWITCHER */
+.menu-toggle{
 
-.language-switcher{
+    border:none;
+
+    background:white;
+
+    width:52px;
+
+    height:52px;
+
+    border-radius:16px;
+
+    font-size:28px;
+
+    cursor:pointer;
+
+    box-shadow:
+    0 6px 18px rgba(15,23,42,0.08);
+}
+
+/* ⚙️ SETTINGS PANEL */
+
+.settings-panel{
+
+    display:none;
+
+    margin-top:18px;
+
+    animation:fadeSlide 0.25s ease;
+}
+
+.settings-panel.active{
+
+    display:block;
+}
+
+/* ⚙️ SETTINGS GROUP */
+
+.settings-group{
+
+    background:
+    rgba(255,255,255,0.72);
+
+    border:
+    1px solid rgba(255,255,255,0.5);
+
+    border-radius:22px;
+
+    padding:18px;
 
     margin-top:16px;
 
+    box-shadow:
+    0 8px 20px rgba(15,23,42,0.04);
+}
+
+.settings-title{
+
+    font-size:15px;
+
+    font-weight:800;
+
+    margin-bottom:14px;
+
+    color:#64748b;
+
+    letter-spacing:0.3px;
+}
+
+/* 👤 USER */
+
+.user-mini{
+
+    font-size:18px;
+
+    font-weight:700;
+
+    margin-bottom:18px;
+}
+
+.premium-mini{
+
+    background:#facc15;
+
+    color:#111827;
+
+    padding:6px 10px;
+
+    border-radius:999px;
+
+    font-size:12px;
+
+    margin-left:8px;
+
+    font-weight:800;
+}
+
+.premium-status{
+
+    background:
+    linear-gradient(
+    135deg,
+    #facc15,
+    #eab308
+    );
+
+    color:#111827;
+
+    padding:12px 16px;
+
+    border-radius:14px;
+
+    font-weight:800;
+
+    display:inline-block;
+}
+
+/* 🌐 LANGUAGE */
+
+.language-switcher{
+
     display:flex;
 
-    justify-content:center;
-
-    gap:10px;
+    gap:12px;
 
     flex-wrap:wrap;
 }
@@ -202,7 +331,7 @@ body.dark .user-box{
 
     text-decoration:none;
 
-    padding:9px 16px;
+    padding:12px 18px;
 
     border-radius:999px;
 
@@ -212,17 +341,15 @@ body.dark .user-box{
 
     color:#334155;
 
-    background:
-    rgba(255,255,255,0.72);
+    background:white;
 
     border:
     1px solid rgba(255,255,255,0.6);
 
     box-shadow:
-    0 4px 12px rgba(15,23,42,0.04);
+    0 6px 16px rgba(15,23,42,0.05);
 
-    transition:
-    all 0.15s ease;
+    transition:all 0.2s ease;
 
     cursor:pointer;
 }
@@ -230,8 +357,6 @@ body.dark .user-box{
 .lang-btn:hover{
 
     transform:translateY(-1px);
-
-    background:white;
 }
 
 .active-lang{
@@ -244,78 +369,32 @@ body.dark .user-box{
     );
 
     color:white;
-
-    box-shadow:
-    0 6px 18px rgba(37,99,235,0.22);
 }
 
-/* 👤 USER BOX */
+/* ⚙️ SETTINGS ACTIONS */
 
-.user-box{
-
-    margin-top:16px;
-
-    padding:14px;
-
-    border-radius:18px;
-
-    background:
-    rgba(255,255,255,0.7);
-
-    border:
-    1px solid rgba(255,255,255,0.6);
+.settings-actions{
 
     display:flex;
-
-    justify-content:space-between;
-
-    align-items:center;
 
     gap:12px;
 
     flex-wrap:wrap;
+
+    margin-top:16px;
 }
 
-.user-info{
-
-    font-size:15px;
-
-    font-weight:700;
-}
-
-.premium-badge{
-
-    display:inline-block;
-
-    margin-top:6px;
-
-    padding:6px 10px;
-
-    border-radius:999px;
-
-    background:
-    linear-gradient(
-    135deg,
-    #facc15,
-    #eab308
-    );
-
-    color:#111827;
-
-    font-size:12px;
-
-    font-weight:800;
-}
+/* 🔵 AUTH BUTTON */
 
 .auth-btn{
 
     text-decoration:none;
 
-    padding:10px 16px;
+    padding:12px 18px;
 
-    border-radius:14px;
+    border-radius:16px;
 
-    font-size:14px;
+    font-size:15px;
 
     font-weight:700;
 
@@ -329,21 +408,13 @@ body.dark .user-box{
     );
 
     box-shadow:
-    0 6px 18px rgba(37,99,235,0.18);
+    0 8px 20px rgba(37,99,235,0.18);
 
-    transition:
-    transform 0.12s ease,
-    opacity 0.12s ease;
-}
+    display:inline-flex;
 
-.auth-btn:hover{
+    align-items:center;
 
-    opacity:0.96;
-}
-
-.auth-btn:active{
-
-    transform:scale(0.98);
+    justify-content:center;
 }
 
 /* 📦 CONTAINER */
@@ -354,7 +425,7 @@ body.dark .user-box{
 
     margin:auto;
 
-    padding:18px 16px 40px;
+    padding:0 16px 40px;
 }
 
 /* 📦 CARD */
@@ -365,7 +436,6 @@ body.dark .user-box{
     rgba(255,255,255,0.72);
 
     backdrop-filter:blur(18px);
-    -webkit-backdrop-filter:blur(18px);
 
     border:
     1px solid rgba(255,255,255,0.5);
@@ -378,10 +448,6 @@ body.dark .user-box{
 
     box-shadow:
     0 10px 30px rgba(15,23,42,0.05);
-
-    transition:
-    transform 0.18s ease,
-    box-shadow 0.18s ease;
 
     animation:fadeSlide 0.35s ease;
 }
@@ -401,14 +467,6 @@ body.dark .user-box{
     }
 }
 
-.card:hover{
-
-    transform:translateY(-2px);
-
-    box-shadow:
-    0 14px 36px rgba(15,23,42,0.08);
-}
-
 /* 🏷 SECTION TITLE */
 
 .section-title{
@@ -416,13 +474,12 @@ body.dark .user-box{
     display:flex;
 
     align-items:center;
+
     justify-content:space-between;
 
     padding:22px 20px;
 
     cursor:pointer;
-
-    user-select:none;
 }
 
 .section-title h2{
@@ -432,8 +489,6 @@ body.dark .user-box{
     font-size:20px;
 
     font-weight:800;
-
-    letter-spacing:-0.6px;
 
     color:#334155;
 }
@@ -450,7 +505,7 @@ body.dark .user-box{
     transform:rotate(180deg);
 }
 
-/* 📂 COLLAPSIBLE CONTENT */
+/* 📂 CONTENT */
 
 .menu-content{
 
@@ -465,7 +520,7 @@ body.dark .user-box{
 
 .card.active .menu-content{
 
-    max-height:700px;
+    max-height:800px;
 
     padding-bottom:22px;
 }
@@ -477,27 +532,22 @@ body.dark .user-box{
     display:flex;
 
     align-items:center;
+
     justify-content:center;
 
     gap:10px;
 
     text-decoration:none;
 
-    padding:14px 18px;
+    padding:16px;
 
-    min-height:58px;
-
-    border-radius:18px;
+    border-radius:20px;
 
     margin-top:14px;
 
     font-size:18px;
 
     font-weight:700;
-
-    letter-spacing:-0.3px;
-
-    text-align:center;
 
     color:white;
 
@@ -508,34 +558,16 @@ body.dark .user-box{
     #2563eb
     );
 
-    border:
-    1px solid rgba(255,255,255,0.08);
-
     box-shadow:
     0 8px 20px rgba(37,99,235,0.18);
 
-    transition:
-    transform 0.12s ease,
-    opacity 0.12s ease,
-    box-shadow 0.12s ease;
+    transition:all 0.2s ease;
 }
 
-/* 🟣 HONMEN */
+.menu-btn:hover{
 
-.menu-btn-secondary{
-
-    background:
-    linear-gradient(
-    135deg,
-    #7c3aed,
-    #6d28d9
-    );
-
-    box-shadow:
-    0 8px 20px rgba(109,40,217,0.18);
+    transform:translateY(-1px);
 }
-
-/* 🟢 REVIEW */
 
 .menu-btn-green{
 
@@ -545,12 +577,29 @@ body.dark .user-box{
     #22c55e,
     #16a34a
     );
-
-    box-shadow:
-    0 8px 20px rgba(22,163,74,0.18);
 }
 
-/* ⚪ EXTRA BUTTONS */
+.menu-btn-secondary{
+
+    background:
+    linear-gradient(
+    135deg,
+    #7c3aed,
+    #6d28d9
+    );
+}
+
+.menu-btn-gold{
+
+    background:
+    linear-gradient(
+    135deg,
+    #facc15,
+    #eab308
+    );
+
+    color:#111827;
+}
 
 .menu-btn-light{
 
@@ -564,74 +613,23 @@ body.dark .user-box{
     box-shadow:none;
 }
 
-/* ⭐ PREMIUM */
-
-.menu-btn-gold{
-
-    background:
-    linear-gradient(
-    135deg,
-    #facc15,
-    #eab308
-    );
-
-    color:#111827;
-
-    box-shadow:
-    0 8px 20px rgba(234,179,8,0.25);
-}
-
-/* ✨ HOVER */
-
-.menu-btn:hover{
-
-    transform:translateY(-1px);
-
-    opacity:0.97;
-}
-
-/* 👆 TAP EFFECT */
-
-.menu-btn:active{
-
-    transform:scale(0.985);
-}
-
 /* 📱 MOBILE */
 
 @media(max-width:600px){
 
-    .header{
+    .logo{
 
-        font-size:24px;
+        font-size:22px;
+    }
 
-        padding:20px 16px;
+    .menu-btn{
+
+        font-size:16px;
     }
 
     .section-title h2{
 
         font-size:18px;
-    }
-
-    .menu-btn{
-
-        font-size:17px;
-
-        min-height:54px;
-
-        padding:13px 16px;
-    }
-
-    .lang-btn{
-
-        font-size:13px;
-
-        padding:8px 14px;
-    }
-
-    .user-box{
-
-        flex-direction:column;
     }
 }
 
@@ -641,117 +639,210 @@ body.dark .user-box{
 
 <body>
 
+<!-- 🔝 HEADER -->
+
 <div class="header">
 
-    🇯🇵 Japan Driving Test Master
+    <div class="topbar">
 
-    <!-- 🌐 LANGUAGE -->
+        <div class="logo">
 
-    <div class="language-switcher">
+            🇯🇵 Japan Driving Test Master
 
-        <a href="/set-language/en"
-           class="lang-btn
-           {% if session.get('lang', 'en') == 'en' %}
-           active-lang
-           {% endif %}">
+        </div>
 
-           🇺🇸 English
+        <button
+            class="menu-toggle"
+            onclick="toggleSettings()"
+        >
 
-        </a>
-
-        <a href="/set-language/tl"
-           class="lang-btn
-           {% if session.get('lang', 'en') == 'tl' %}
-           active-lang
-           {% endif %}">
-
-           🇵🇭 Tagalog
-
-        </a>
-
-        <a href="/set-language/ne"
-           class="lang-btn
-           {% if session.get('lang', 'en') == 'ne' %}
-           active-lang
-           {% endif %}">
-
-           🇳🇵 Nepali
-
-        </a>
-
-
-        <!-- 🌙 DARK MODE -->
-
-        <button onclick="toggleDarkMode()"
-                class="lang-btn">
-
-            {{ ui.dark_mode }}
+            ☰
 
         </button>
 
     </div>
 
-    <!-- 👤 USER LOGIN -->
+    <!-- ⚙️ SETTINGS PANEL -->
 
-    <div class="user-box">
+    <div
+        id="settingsPanel"
+        class="settings-panel"
+    >
 
-        {% if session.get('username') %}
+        <!-- 👤 ACCOUNT -->
 
-            <div class="user-info">
+        <div class="settings-group">
 
-                👋 {{ ui.welcome }},
-                {{ session.get('username') }}
+            <div class="settings-title">
+
+                👤 Account
+
+            </div>
+
+            {% if session.get('username') %}
+
+                <div class="user-mini">
+
+                    👋 {{ session.get('username') }}
+
+                    {% if session.get('is_premium') %}
+
+                        <span class="premium-mini">
+
+                            ⭐ Premium
+
+                        </span>
+
+                    {% endif %}
+
+                </div>
+
+                <div class="settings-actions">
+
+                    <a href="/logout"
+                       class="auth-btn">
+
+                       🚪 Logout
+
+                    </a>
+
+                </div>
+
+            {% else %}
+
+                <div class="settings-actions">
+
+                    <a href="/login"
+                       class="auth-btn">
+
+                       👤 Login
+
+                    </a>
+
+                    <a href="/register"
+                       class="auth-btn">
+
+                       📝 Register
+
+                    </a>
+
+                </div>
+
+            {% endif %}
+
+        </div>
+
+        <!-- 🌐 LANGUAGE -->
+
+        <div class="settings-group">
+
+            <div class="settings-title">
+
+                🌐 Language
+
+            </div>
+
+            <div class="language-switcher">
+
+                <a href="/set-language/en"
+                   class="lang-btn
+                   {% if session.get('lang', 'en') == 'en' %}
+                   active-lang
+                   {% endif %}">
+
+                   🇺🇸 English
+
+                </a>
+
+                <a href="/set-language/tl"
+                   class="lang-btn
+                   {% if session.get('lang', 'en') == 'tl' %}
+                   active-lang
+                   {% endif %}">
+
+                   🇵🇭 Tagalog
+
+                </a>
+
+                <a href="/set-language/ne"
+                   class="lang-btn
+                   {% if session.get('lang', 'en') == 'ne' %}
+                   active-lang
+                   {% endif %}">
+
+                   🇳🇵 Nepali
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- ⚙️ SETTINGS -->
+
+        <div class="settings-group">
+
+            <div class="settings-title">
+
+                ⚙️ Settings
+
+            </div>
+
+            <div class="settings-actions">
+
+                <button
+                    onclick="toggleDarkMode()"
+                    class="lang-btn"
+                >
+
+                    🌙 Dark Mode
+
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- ⭐ PREMIUM -->
+
+        <div class="settings-group">
+
+            <div class="settings-title">
+
+                ⭐ Premium
+
+            </div>
+
+            <div class="settings-actions">
 
                 {% if session.get('is_premium') %}
 
-                    <div class="premium-badge">
+                    <div class="premium-status">
 
-                        {{ ui.premium }}
+                        ✅ Premium Active
 
                     </div>
+
+                {% else %}
+
+                    <a href="/upgrade"
+                       class="auth-btn">
+
+                       ⭐ Upgrade
+
+                    </a>
 
                 {% endif %}
 
             </div>
 
-            <a href="/logout"
-               class="auth-btn">
-
-               {{ ui.logout }}
-
-            </a>
-
-        {% else %}
-
-            <div class="user-info">
-
-                👤 Guest User
-
-            </div>
-
-            <div style="display:flex; gap:10px;">
-
-                <a href="/login"
-                   class="auth-btn">
-
-                   {{ ui.login }}
-
-                </a>
-
-                <a href="/register"
-                   class="auth-btn">
-
-                   {{ ui.register }}
-
-                </a>
-
-            </div>
-
-        {% endif %}
+        </div>
 
     </div>
 
 </div>
+
+<!-- 📦 CONTENT -->
 
 <div class="container">
 
@@ -762,7 +853,7 @@ body.dark .user-box{
         <div class="section-title"
              onclick="toggleMenu(this)">
 
-            <h2>{{ ui.study_mode }}</h2>
+            <h2>🧠 Study Mode</h2>
 
             <span class="arrow">⌄</span>
 
@@ -773,14 +864,14 @@ body.dark .user-box{
             <a href="/start/reviewer_karimen/reviewer_karimen"
                class="menu-btn menu-btn-green">
 
-               {{ ui.reviewer_karimen }}
+               📘 Reviewer Karimen
 
             </a>
 
             <a href="/start/reviewer_honmen/reviewer_honmen"
                class="menu-btn menu-btn-green">
 
-               {{ ui.reviewer_honmen }}
+               📗 Reviewer Honmen
 
             </a>
 
@@ -795,7 +886,7 @@ body.dark .user-box{
         <div class="section-title"
              onclick="toggleMenu(this)">
 
-            <h2>{{ ui.karimen_mock }}</h2>
+            <h2>📝 Karimen Mock Tests</h2>
 
             <span class="arrow">⌄</span>
 
@@ -806,14 +897,14 @@ body.dark .user-box{
             <a href="/start/karimen/karimen_1"
                class="menu-btn">
 
-               {{ ui.karimen_test_1 }}
+               🚗 Karimen Test 1
 
             </a>
 
             <a href="/start/karimen/karimen_2"
                class="menu-btn">
 
-               {{ ui.karimen_test_2 }}
+               🚙 Karimen Test 2
 
             </a>
 
@@ -828,7 +919,7 @@ body.dark .user-box{
         <div class="section-title"
              onclick="toggleMenu(this)">
 
-            <h2>{{ ui.honmen_mock }}</h2>
+            <h2>🏁 Honmen Mock Tests</h2>
 
             <span class="arrow">⌄</span>
 
@@ -839,21 +930,21 @@ body.dark .user-box{
             <a href="/start/honmen/honmen_1"
                class="menu-btn menu-btn-secondary">
 
-               {{ ui.honmen_test_1 }}
+               🛣 Honmen Test 1
 
             </a>
 
             <a href="/start/honmen/honmen_2"
                class="menu-btn menu-btn-secondary">
 
-               {{ ui.honmen_test_2 }}
+               🛣 Honmen Test 2
 
             </a>
 
             <a href="/start/honmen/honmen_3"
                class="menu-btn menu-btn-secondary">
 
-               {{ ui.honmen_test_3 }}
+               🛣 Honmen Test 3
 
             </a>
 
@@ -863,110 +954,12 @@ body.dark .user-box{
 
     <!-- ⭐ PREMIUM -->
 
-<div class="card">
-
-    <div class="section-title"
-         onclick="toggleMenu(this)">
-
-        <h2>⭐ Premium Features</h2>
-
-        <span class="arrow">⌄</span>
-
-    </div>
-
-    <div class="menu-content">
-
-        {% if session.get('is_premium') %}
-
-            <div style="
-                background:linear-gradient(
-                135deg,
-                #facc15,
-                #eab308
-                );
-                color:#111827;
-                padding:16px;
-                border-radius:18px;
-                text-align:center;
-                font-weight:800;
-                margin-top:14px;
-                margin-bottom:14px;
-                box-shadow:
-                0 8px 20px rgba(234,179,8,0.25);
-            ">
-
-                ⭐ PREMIUM ACTIVE
-
-            </div>
-
-            <a href="#"
-               class="menu-btn menu-btn-gold">
-
-               ⭐ AI Tutor Unlimited
-
-            </a>
-
-            <a href="#"
-               class="menu-btn menu-btn-gold">
-
-               ⭐ Unlimited Mock Exams
-
-            </a>
-
-            <a href="#"
-               class="menu-btn menu-btn-gold">
-
-               ⭐ Advanced Analytics
-
-            </a>
-
-            <a href="#"
-               class="menu-btn menu-btn-gold">
-
-               ⭐ Full Reviewer Access
-
-            </a>
-
-        {% else %}
-
-            <div style="
-                background:#fee2e2;
-                color:#991b1b;
-                padding:16px;
-                border-radius:18px;
-                text-align:center;
-                font-weight:700;
-                margin-top:14px;
-                margin-bottom:14px;
-            ">
-
-                🔒 Premium Required
-                for all Honmen exams
-                and advanced features.
-
-            </div>
-
-            <a href="/upgrade"
-               class="menu-btn menu-btn-gold">
-
-               ⭐ Unlock Premium Now
-
-            </a>
-
-        {% endif %}
-
-    </div>
-
-</div>
-
-    <!-- ⚙️ APP INFO -->
-
     <div class="card">
 
         <div class="section-title"
              onclick="toggleMenu(this)">
 
-            <h2>{{ ui.app_info }}</h2>
+            <h2>⭐ Premium Features</h2>
 
             <span class="arrow">⌄</span>
 
@@ -974,37 +967,39 @@ body.dark .user-box{
 
         <div class="menu-content">
 
-            {% if session.get('user_id') %}
+            {% if session.get('is_premium') %}
 
-                <a href="/history"
-                   class="menu-btn menu-btn-light">
+                <a href="#"
+                   class="menu-btn menu-btn-gold">
 
-                   {{ ui.score_history }}
+                   ⭐ AI Tutor Unlimited
+
+                </a>
+
+                <a href="#"
+                   class="menu-btn menu-btn-gold">
+
+                   ⭐ Unlimited Mock Exams
+
+                </a>
+
+                <a href="#"
+                   class="menu-btn menu-btn-gold">
+
+                   ⭐ Advanced Analytics
+
+                </a>
+
+            {% else %}
+
+                <a href="/upgrade"
+                   class="menu-btn menu-btn-gold">
+
+                   🔒 Unlock Premium
 
                 </a>
 
             {% endif %}
-
-            <a href="/privacy"
-               class="menu-btn menu-btn-light">
-
-               {{ ui.privacy }}
-
-            </a>
-
-            <a href="/terms"
-               class="menu-btn menu-btn-light">
-
-               {{ ui.terms }}
-
-            </a>
-
-            <a href="/contact"
-               class="menu-btn menu-btn-light">
-
-               {{ ui.contact }}
-
-            </a>
 
         </div>
 
@@ -1012,15 +1007,30 @@ body.dark .user-box{
 
 </div>
 
-<!-- 🌙 DARK MODE -->
+<!-- ⚙️ SCRIPTS -->
 
 <script>
 
 function toggleMenu(element){
 
-    const card = element.parentElement;
+    const card =
+        element.parentElement;
 
-    card.classList.toggle("active");
+    card.classList.toggle(
+        "active"
+    );
+}
+
+function toggleSettings(){
+
+    const panel =
+        document.getElementById(
+            "settingsPanel"
+        );
+
+    panel.classList.toggle(
+        "active"
+    );
 }
 
 function toggleDarkMode(){
@@ -1038,8 +1048,6 @@ function toggleDarkMode(){
         )
     );
 }
-
-/* ✅ LOAD SAVED DARK MODE */
 
 if(
 
