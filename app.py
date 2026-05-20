@@ -1100,6 +1100,49 @@ def history():
         ui=get_ui()
     )
 
+# =========================================================
+# 🔒 PRIVACY POLICY
+# =========================================================
+
+@app.route('/privacy')
+def privacy():
+
+    return render_template(
+
+        'privacy.html',
+
+        ui=get_ui()
+    )
+
+
+# =========================================================
+# 📄 TERMS OF USE
+# =========================================================
+
+@app.route('/terms')
+def terms():
+
+    return render_template(
+
+        'terms.html',
+
+        ui=get_ui()
+    )
+
+
+# =========================================================
+# ✉️ CONTACT
+# =========================================================
+
+@app.route('/contact')
+def contact():
+
+    return render_template(
+
+        'contact.html',
+
+        ui=get_ui()
+    )
 
 # =========================================================
 # ⚠ ERROR HANDLER
