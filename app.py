@@ -93,9 +93,11 @@ app.config['MAIL_DEFAULT_SENDER'] = os.environ.get(
     'MAIL_DEFAULT_SENDER'
 )
 
-app.config['MAIL_MAX_EMAILS'] = None
-
-app.config['MAIL_ASCII_ATTACHMENTS'] = False
+# ✅ IMPORTANT
+app.config['MAIL_DEFAULT_SENDER'] = (
+    'rensasing143@gmail.com'
+)
+mail = Mail(app)
 
 # =========================================================
 # 🔐 TOKEN SERIALIZER
@@ -1481,6 +1483,25 @@ with app.app_context():
 
     db.create_all()
 
+# =========================================================
+# 🖼 FAVICON
+# =========================================================
+
+@app.route('/favicon.ico')
+def favicon():
+
+    return redirect(
+        url_for(
+            'static',
+            filename='images/icon.png'
+        )
+    )
+if __name__ == '__main__':
+
+    port = int(
+        os.environ.get("PORT", 5000)
+    )
+    
 # =========================================================
 # 🚀 RUN APP
 # =========================================================
