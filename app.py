@@ -18,7 +18,7 @@ app = Flask(__name__)
 
 app.config['SECRET_KEY'] = os.environ.get(
     'SECRET_KEY',
-    os.urandom(32)
+    'super-secret-key'
 )
 
 # =========================================================
@@ -867,19 +867,202 @@ def result():
 
         return redirect('/menu')
 
+    language = session.get('lang', 'en')
+
+    questions = load_questions(
+
+        session['folder'],
+
+        language,
+
+        f"{session['questions_file']}.json"
+    )
+
+    order = session.get('order', [])
+
+    answers = session.get('answers', [])
+
+    results = []
+
+    score = 0
+
+    total_questions = 0
+
+    for i, idx in enumerate(order):
+
+        q = questions[idx]
+
+        # =================================================
+        # 🏁 GROUP QUESTIONS
+        # =================================================
+
+        if 'items' in q:
+
+            if i >= len(answers):
+
+                continue
+
+            user_group_answers = answers[i]
+
+            for j, item in enumerate(q['items']):
+
+                total_questions += 1
+
+                user_answer = None
+
+                if j < len(user_group_answers):
+
+                    user_answer = (
+                        user_group_answers[j]
+                    )
+
+                correct = (
+
+                    (user_answer or '')
+                    .strip()
+                    .lower()
+
+                    ==
+
+                    item['answer']
+                    .strip()
+                    .lower()
+                )
+
+                if correct:
+
+                    score += 1
+
+                results.append({
+
+                    "question":
+                    item['question'],
+
+                    "your_answer":
+                    user_answer,
+
+                    "correct_answer":
+                    item['answer'],
+
+                    "explanation":
+                    item.get(
+                        'explanation',
+                        ''
+                    ),
+
+                    "is_correct":
+                    correct,
+
+                    "image":
+                    q.get("image")
+                })
+
+        # =================================================
+        # 📝 NORMAL QUESTIONS
+        # =================================================
+
+        else:
+
+            total_questions += 1
+
+            user_answer = None
+
+            if i < len(answers):
+
+                user_answer = answers[i]
+
+            correct = (
+
+                (user_answer or '')
+                .strip()
+                .lower()
+
+                ==
+
+                q['answer']
+                .strip()
+                .lower()
+            )
+
+            if correct:
+
+                score += 1
+
+            results.append({
+
+                "question":
+                q['question'],
+
+                "your_answer":
+                user_answer,
+
+                "correct_answer":
+                q['answer'],
+
+                "explanation":
+                q['explanation'],
+
+                "is_correct":
+                correct,
+
+                "image":
+                q.get("image")
+            })
+
+    session['last_score'] = score
+
+    session['last_total'] = total_questions
+
+    # =====================================================
+    # ✅ PASSING SCORE
+    # =====================================================
+
+    passing_score = int(
+        total_questions * 0.9
+    )
+
+    if session['mode'] == "honmen":
+
+        passing_score = 90
+
+    passed = score >= passing_score
+
+    # =====================================================
+    # 📊 DATABASE SCORE HISTORY
+    # =====================================================
+
+    if 'user_id' in session:
+
+        history = ScoreHistory(
+
+            user_id=session['user_id'],
+
+            mode=session['mode'],
+
+            score=score,
+
+            total=total_questions,
+
+            passed=passed
+        )
+
+        db.session.add(history)
+
+        db.session.commit()
+
     return render_template(
 
         'result.html',
 
-        score=0,
+        score=score,
 
-        total=0,
+        total=total_questions,
 
-        results=[],
+        results=results,
 
-        passed=False,
+        passed=passed,
 
-        passing_score=90,
+        passing_score=passing_score,
 
         ui=get_ui()
     )
