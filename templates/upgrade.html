@@ -1,343 +1,508 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
 
-    <meta charset="UTF-8">
+    <title>Upgrade to Premium</title>
 
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
 
-    <title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
 
-        Upgrade Premium
+<style>
 
-    </title>
+*{
+    box-sizing:border-box;
+}
 
-    <style>
+body{
 
-        body{
+    margin:0;
 
-            font-family:Arial, sans-serif;
+    font-family:'Inter', sans-serif;
 
-            padding:30px;
+    background:
+    linear-gradient(
+    180deg,
+    #eff6ff 0%,
+    #dbeafe 100%
+    );
 
-            background:#f3f4f6;
+    min-height:100vh;
 
-            margin:0;
-        }
+    padding:24px;
 
-        .container{
+    display:flex;
 
-            max-width:500px;
+    align-items:center;
 
-            margin:auto;
+    justify-content:center;
+}
 
-            background:white;
+.back-btn{
 
-            padding:30px;
+    position:fixed;
 
-            border-radius:30px;
+    top:22px;
 
-            box-shadow:0 10px 30px rgba(0,0,0,0.08);
-        }
+    left:22px;
 
-        h1{
+    text-decoration:none;
 
-            text-align:center;
+    background:white;
 
-            font-size:40px;
+    color:#111827;
 
-            margin-bottom:10px;
+    padding:12px 18px;
 
-            color:#111827;
-        }
+    border-radius:16px;
 
-        .subtitle{
+    font-weight:700;
 
-            text-align:center;
+    box-shadow:
+    0 8px 24px rgba(0,0,0,0.08);
 
-            color:#6b7280;
+    z-index:1000;
 
-            margin-bottom:35px;
+    transition:0.15s ease;
+}
 
-            line-height:1.7;
+.back-btn:hover{
 
-            font-size:18px;
-        }
+    transform:translateY(-1px);
+}
 
-        .premium-required{
+.container{
 
-            background:#fee2e2;
+    width:100%;
 
-            color:#991b1b;
+    max-width:460px;
+}
 
-            padding:20px;
+.card{
 
-            border-radius:20px;
+    background:white;
 
-            margin-bottom:30px;
+    border-radius:34px;
 
-            text-align:center;
+    padding:34px 28px;
 
-            font-size:20px;
+    box-shadow:
+    0 20px 50px rgba(37,99,235,0.15);
 
-            font-weight:bold;
-        }
+    text-align:center;
+}
 
-        .box{
+.badge{
 
-            background:#facc15;
+    display:inline-block;
 
-            padding:25px;
+    padding:10px 18px;
 
-            border-radius:20px;
+    border-radius:999px;
 
-            margin-bottom:20px;
+    background:
+    linear-gradient(
+    135deg,
+    #facc15,
+    #eab308
+    );
 
-            cursor:pointer;
+    color:#111827;
 
-            font-size:24px;
+    font-size:14px;
 
-            font-weight:bold;
+    font-weight:800;
 
-            transition:0.2s;
-        }
+    margin-bottom:22px;
+}
 
-        .box:hover{
+.title{
 
-            transform:scale(1.02);
-        }
+    font-size:36px;
 
-        .content{
+    font-weight:800;
 
-            display:none;
+    color:#0f172a;
 
-            background:white;
+    line-height:1.15;
 
-            padding:20px;
+    margin-bottom:16px;
+}
 
-            border-radius:20px;
+.subtitle{
 
-            margin-top:15px;
+    font-size:16px;
 
-            font-size:17px;
+    color:#475569;
 
-            color:#444;
+    line-height:1.7;
 
-            line-height:1.7;
+    margin-bottom:30px;
+}
 
-            box-shadow:0 5px 15px rgba(0,0,0,0.06);
-        }
+.pricing-wrapper{
 
-        .subscribe-btn{
+    display:flex;
 
-            display:block;
+    flex-direction:column;
 
-            width:100%;
+    gap:18px;
 
-            text-align:center;
+    margin-bottom:28px;
+}
 
-            background:#2563eb;
+.price-box{
 
-            color:white;
+    position:relative;
 
-            text-decoration:none;
+    background:
+    linear-gradient(
+    135deg,
+    #2563eb,
+    #1d4ed8
+    );
 
-            padding:22px;
+    color:white;
 
-            border-radius:22px;
+    border-radius:28px;
 
-            font-size:26px;
+    padding:26px;
+}
 
-            font-weight:bold;
+.yearly{
 
-            margin-top:35px;
+    background:
+    linear-gradient(
+    135deg,
+    #16a34a,
+    #15803d
+    );
+}
 
-            transition:0.2s;
-        }
+.save-badge{
 
-        .subscribe-btn:hover{
+    position:absolute;
 
-            transform:scale(1.02);
-        }
+    top:14px;
 
-        .small{
+    right:14px;
 
-            text-align:center;
+    background:white;
 
-            color:#6b7280;
+    color:#15803d;
 
-            margin-top:15px;
+    padding:6px 10px;
 
-            font-size:15px;
-        }
+    border-radius:999px;
 
-    </style>
+    font-size:12px;
+
+    font-weight:800;
+}
+
+.plan-name{
+
+    font-size:18px;
+
+    font-weight:700;
+
+    margin-bottom:12px;
+}
+
+.price{
+
+    font-size:54px;
+
+    font-weight:800;
+
+    margin-bottom:6px;
+}
+
+.per{
+
+    font-size:16px;
+
+    opacity:0.9;
+}
+
+.features{
+
+    text-align:left;
+
+    margin-top:28px;
+
+    margin-bottom:32px;
+}
+
+.feature{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    margin-bottom:18px;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    color:#334155;
+}
+
+.icon{
+
+    width:34px;
+
+    height:34px;
+
+    border-radius:12px;
+
+    background:#dbeafe;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    flex-shrink:0;
+}
+
+.upgrade-btn{
+
+    display:block;
+
+    text-decoration:none;
+
+    background:
+    linear-gradient(
+    135deg,
+    #2563eb,
+    #1d4ed8
+    );
+
+    color:white;
+
+    padding:18px;
+
+    border-radius:20px;
+
+    font-size:18px;
+
+    font-weight:800;
+
+    transition:0.15s ease;
+
+    box-shadow:
+    0 10px 24px rgba(37,99,235,0.25);
+}
+
+.upgrade-btn:hover{
+
+    transform:translateY(-2px);
+}
+
+.login-link{
+
+    display:block;
+
+    margin-top:18px;
+
+    color:#475569;
+
+    text-decoration:none;
+
+    font-weight:600;
+}
+
+.small{
+
+    margin-top:28px;
+
+    color:#64748b;
+
+    font-size:14px;
+
+    line-height:1.6;
+}
+
+</style>
 
 </head>
 
 <body>
 
-    <div class="container">
+<a href="/menu" class="back-btn">
 
-        <h1>
+    ← Back
 
-            ⭐ Premium Access
+</a>
 
-        </h1>
+<div class="container">
 
-        <p class="subtitle">
+    <div class="card">
 
-            Unlock all Karimen and Honmen exams,
-            premium reviewers, unlimited practice,
-            and advanced driving explanations.
+        <div class="badge">
 
-        </p>
-
-        <div class="premium-required">
-
-            🔒 This content requires Premium access.
+            ⭐ MOST POPULAR
 
         </div>
 
-        <!-- AI Tutor -->
+        <div class="title">
 
-        <div
-            class="box"
-            onclick="toggleBox('box1')"
-        >
+            Unlock Premium Access
 
-            ⭐ AI Tutor Unlimited
+        </div>
 
-            <div
-                id="box1"
-                class="content"
-            >
+        <div class="subtitle">
 
-                Get unlimited smart driving explanations
-                for road signs, hazard prediction,
-                pedestrian safety, and traffic laws.
+            Pass your Japan driving exam faster with
+            unlimited practice tests, reviewer access,
+            and advanced learning tools.
+
+        </div>
+
+        <div class="pricing-wrapper">
+
+            <!-- MONTHLY -->
+
+            <div class="price-box">
+
+                <div class="plan-name">
+
+                    Monthly Plan
+
+                </div>
+
+                <div class="price">
+
+                    ¥2000
+
+                </div>
+
+                <div class="per">
+
+                    per month
+
+                </div>
+
+            </div>
+
+            <!-- YEARLY -->
+
+            <div class="price-box yearly">
+
+                <div class="save-badge">
+
+                    SAVE 75%
+
+                </div>
+
+                <div class="plan-name">
+
+                    Yearly Plan
+
+                </div>
+
+                <div class="price">
+
+                    ¥6000
+
+                </div>
+
+                <div class="per">
+
+                    per year
+
+                </div>
 
             </div>
 
         </div>
 
-        <!-- Mock Exams -->
+        <div class="features">
 
-        <div
-            class="box"
-            onclick="toggleBox('box2')"
-        >
+            <div class="feature">
 
-            ⭐ Unlimited Mock Exams
+                <div class="icon">
+                    📘
+                </div>
 
-            <div
-                id="box2"
-                class="content"
-            >
+                Unlimited Reviewer Questions
 
-                Access all Karimen and Honmen
-                practice exams with randomized
-                questions and realistic exam simulation.
+            </div>
+
+            <div class="feature">
+
+                <div class="icon">
+                    📝
+                </div>
+
+                Full Karimen Mock Exams
+
+            </div>
+
+            <div class="feature">
+
+                <div class="icon">
+                    🚗
+                </div>
+
+                Honmen Master Access
+
+            </div>
+
+            <div class="feature">
+
+                <div class="icon">
+                    🤖
+                </div>
+
+                AI Tutor Assistance
+
+            </div>
+
+            <div class="feature">
+
+                <div class="icon">
+                    📊
+                </div>
+
+                Score Analytics & Tracking
 
             </div>
 
         </div>
 
-        <!-- Analytics -->
+        <a href="#"
+           class="upgrade-btn">
 
-        <div
-            class="box"
-            onclick="toggleBox('box3')"
-        >
+           🚀 Upgrade Now
 
-            ⭐ Advanced Analytics
+        </a>
 
-            <div
-                id="box3"
-                class="content"
-            >
+        <a href="/menu"
+           class="login-link">
 
-                Monitor weak areas, exam history,
-                passing trends, and performance
-                improvement over time.
-
-            </div>
-
-        </div>
-
-        <!-- Premium Features -->
-
-        <div
-            class="box"
-            onclick="toggleBox('box4')"
-        >
-
-            ⭐ Full Premium Features
-
-            <div
-                id="box4"
-                class="content"
-            >
-
-                ✅ Full Reviewer Access<br><br>
-
-                ✅ All Karimen Tests<br><br>
-
-                ✅ All Honmen Tests<br><br>
-
-                ✅ Unlimited Practice<br><br>
-
-                ✅ Smart Driving Explanations<br><br>
-
-                ✅ Future Premium Updates
-
-            </div>
-
-        </div>
-
-        <!-- Subscribe -->
-
-        <a
-            href="/subscribe"
-            class="subscribe-btn"
-        >
-
-            ⭐ Unlock Premium Now
+           Continue with Free Version
 
         </a>
 
         <div class="small">
 
-            Premium access is activated instantly
-            after subscription.
+            Thousands of learners are preparing for
+            the Japan driving test using our platform.
 
         </div>
 
     </div>
 
-    <script>
-
-        function toggleBox(id){
-
-            const box =
-                document.getElementById(id);
-
-            if(box.style.display === 'block'){
-
-                box.style.display = 'none';
-
-            }else{
-
-                box.style.display = 'block';
-
-            }
-        }
-
-    </script>
+</div>
 
 </body>
 
