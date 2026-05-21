@@ -2131,7 +2131,7 @@
   },
   {
     "question": "At the traffic signal shown, passenger cars and large trucks may make a right turn, but motorcycles are prohibited from turning right.",
-    "image": "gree_arrow_proceed.jpg",
+    "image": "green_arrow_proceed.jpg",
     "choices": [
       "True",
       "False"

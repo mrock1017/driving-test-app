@@ -806,15 +806,19 @@ button:disabled{
 
             </div>
 
-            {% if q.image %}
+        {% if q.get('image') %}
 
-                <img
-                    src="{{ url_for('static', filename='images/' ~ q.image) }}"
-                    loading="lazy"
-                    draggable="false"
-                >
+            <img
+                src="{{ url_for(
+                    'static',
+                    filename='images/' ~ q.get('image')
+                ) }}"
+                loading="lazy"
+                draggable="false"
+                onerror="this.style.display='none'"
+            >
 
-            {% endif %}
+        {% endif %}
 
             <form method="POST">
 
