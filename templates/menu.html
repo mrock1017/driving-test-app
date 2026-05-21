@@ -838,6 +838,56 @@ body.dark .settings-title{
 
         </div>
 
+        <!-- ⚙️ APP INFO -->
+
+        <div class="card">
+
+            <div class="section-title"
+                onclick="toggleMenu(this)">
+
+                <h2>⚙️ App Information</h2>
+
+                <span class="arrow">⌄</span>
+
+            </div>
+
+            <div class="menu-content">
+
+                {% if session.get('user_id') %}
+
+                    <a href="/history"
+                    class="menu-btn menu-btn-light">
+
+                    📊 Score History
+
+                    </a>
+
+                {% endif %}
+
+                <a href="/privacy"
+                class="menu-btn menu-btn-light">
+
+                🔒 Privacy Policy
+
+                </a>
+
+                <a href="/terms"
+                class="menu-btn menu-btn-light">
+
+                📄 Terms of Service
+
+                </a>
+
+                <a href="/contact"
+                class="menu-btn menu-btn-light">
+
+                ✉️ Contact Us
+
+                </a>
+
+            </div>
+
+        </div>
     </div>
 
 </div>
