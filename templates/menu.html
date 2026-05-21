@@ -774,6 +774,25 @@ body.dark .settings-title{
 
                 </a>
 
+                <a href="/set-language/vi"
+                    class="lang-btn
+                    {% if session.get('lang', 'en') == 'vi' %}
+                    active-lang
+                    {% endif %}">
+
+                    🇻🇳 Vietnamese
+
+                </a>
+
+                <a href="/set-language/pt"
+                    class="lang-btn
+                    {% if session.get('lang', 'en') == 'pt' %}
+                    active-lang
+                    {% endif %}">
+
+                    🇵🇹 Portuguese
+
+                </a>
             </div>
 
         </div>
@@ -980,21 +999,7 @@ body.dark .settings-title{
             <a href="/start/honmen/honmen_1"
                class="menu-btn menu-btn-secondary">
 
-               🛣 Honmen Test 1
-
-            </a>
-
-            <a href="/start/honmen/honmen_2"
-               class="menu-btn menu-btn-secondary">
-
-               🛣 Honmen Test 2
-
-            </a>
-
-            <a href="/start/honmen/honmen_3"
-               class="menu-btn menu-btn-secondary">
-
-               🛣 Honmen Test 3
+               🛣 Honmen Master
 
             </a>
 

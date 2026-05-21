@@ -7,7 +7,7 @@ from flask import (
     url_for
 )
 
-from flask_sqlalchemy import SQLAlchemy
+from models import db
 
 from flask_mail import (
     Mail,
@@ -23,6 +23,19 @@ from werkzeug.security import (
     check_password_hash
 )
 
+from extensions import (
+    mail,
+    serializer
+)
+
+from languages.ui import get_ui
+
+from routes.premium import premium
+from utils.questions import load_questions
+from routes.auth import auth
+from routes.tests import tests
+from config import Config
+
 import os
 import json
 import random
@@ -30,14 +43,10 @@ import time
 
 app = Flask(__name__)
 
-# =========================================================
-# ✅ SECRET KEY
-# =========================================================
-
-app.config['SECRET_KEY'] = os.environ.get(
-    'SECRET_KEY',
-    'super-secret-key'
-)
+app.register_blueprint(auth)
+app.register_blueprint(tests)
+app.register_blueprint(premium)
+app.config.from_object(Config)
 
 # =========================================================
 # ✅ DATABASE
@@ -67,7 +76,7 @@ app.config['SQLALCHEMY_DATABASE_URI'] = (
 
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
-db = SQLAlchemy(app)
+db.init_app(app)
 
 # =========================================================
 # 📧 EMAIL CONFIG
@@ -97,7 +106,7 @@ app.config['MAIL_DEFAULT_SENDER'] = os.environ.get(
 app.config['MAIL_DEFAULT_SENDER'] = (
     'rensasing143@gmail.com'
 )
-mail = Mail(app)
+mail.init_app(app)
 
 # =========================================================
 # 🔐 TOKEN SERIALIZER
@@ -117,203 +126,6 @@ app.config['DEBUG'] = False
 # =========================================================
 # 👤 USER MODEL
 # =========================================================
-
-class User(db.Model):
-
-    id = db.Column(
-        db.Integer,
-        primary_key=True
-    )
-
-    username = db.Column(
-        db.String(100),
-        unique=True,
-        nullable=False
-    )
-
-    email = db.Column(
-        db.String(120),
-        unique=True,
-        nullable=False
-    )
-
-    password = db.Column(
-        db.String(300),
-        nullable=False
-    )
-
-    is_premium = db.Column(
-        db.Boolean,
-        default=False
-    )
-
-    # ✅ EMAIL VERIFIED
-
-    is_verified = db.Column(
-        db.Boolean,
-        default=False
-    )
-
-    created_at = db.Column(
-        db.DateTime,
-        default=db.func.now()
-    )
-
-# =========================================================
-# 📊 SCORE HISTORY MODEL
-# =========================================================
-
-class ScoreHistory(db.Model):
-
-    id = db.Column(
-        db.Integer,
-        primary_key=True
-    )
-
-    user_id = db.Column(
-        db.Integer,
-        db.ForeignKey('user.id')
-    )
-
-    mode = db.Column(
-        db.String(100)
-    )
-
-    score = db.Column(
-        db.Integer
-    )
-
-    total = db.Column(
-        db.Integer
-    )
-
-    passed = db.Column(
-        db.Boolean
-    )
-
-    created_at = db.Column(
-        db.DateTime,
-        default=db.func.now()
-    )
-
-# =========================================================
-# 🌐 UI TRANSLATIONS
-# =========================================================
-
-UI_TEXT = {
-
-    "en": {
-
-        "study_mode": "🧠 Study Mode",
-        "reviewer_karimen": "🧠 Reviewer Karimen",
-        "reviewer_honmen": "🧠 Reviewer Honmen",
-
-        "karimen_mock": "📝 Karimen Mock Test",
-        "karimen_test_1": "📝 Karimen Test 1",
-        "karimen_test_2": "📝 Karimen Test 2",
-
-        "honmen_mock": "🏁 Honmen Mock Test",
-        "honmen_test_1": "🏁 Honmen Test 1",
-        "honmen_test_2": "🏁 Honmen Test 2",
-        "honmen_test_3": "🏁 Honmen Test 3",
-
-        "app_info": "⚙️ App Information",
-        "score_history": "📊 Score History",
-        "privacy": "🔒 Privacy Policy",
-        "terms": "📄 Terms of Use",
-        "contact": "✉️ Contact Us",
-
-        "dark_mode": "🌙 Dark Mode",
-
-        "login": "👤 Login",
-        "register": "📝 Register",
-        "logout": "🚪 Logout",
-        "welcome": "Welcome",
-
-        "ai_title": "🧠 AI Tutor",
-
-        "premium": "⭐ Premium User"
-    },
-
-    "tl": {
-
-        "study_mode": "🧠 Study Mode",
-        "reviewer_karimen": "🧠 Reviewer Karimen",
-        "reviewer_honmen": "🧠 Reviewer Honmen",
-
-        "karimen_mock": "📝 Karimen Mock Test",
-        "karimen_test_1": "📝 Karimen Test 1",
-        "karimen_test_2": "📝 Karimen Test 2",
-
-        "honmen_mock": "🏁 Honmen Mock Test",
-        "honmen_test_1": "🏁 Honmen Test 1",
-        "honmen_test_2": "🏁 Honmen Test 2",
-        "honmen_test_3": "🏁 Honmen Test 3",
-
-        "app_info": "⚙️ Impormasyon ng App",
-        "score_history": "📊 Kasaysayan ng Score",
-        "privacy": "🔒 Patakaran sa Privacy",
-        "terms": "📄 Mga Tuntunin ng Paggamit",
-        "contact": "✉️ Makipag-ugnayan",
-
-        "dark_mode": "🌙 Dark Mode",
-
-        "login": "👤 Login",
-        "register": "📝 Register",
-        "logout": "🚪 Logout",
-        "welcome": "Welcome",
-
-        "ai_title": "🧠 AI Tutor",
-
-        "premium": "⭐ Premium User"
-    },
-
-    "ne": {
-
-        "study_mode": "🧠 अध्ययन मोड",
-        "reviewer_karimen": "🧠 Reviewer Karimen",
-        "reviewer_honmen": "🧠 Reviewer Honmen",
-
-        "karimen_mock": "📝 Karimen Mock Test",
-        "karimen_test_1": "📝 Karimen Test 1",
-        "karimen_test_2": "📝 Karimen Test 2",
-
-        "honmen_mock": "🏁 Honmen Mock Test",
-        "honmen_test_1": "🏁 Honmen Test 1",
-        "honmen_test_2": "🏁 Honmen Test 2",
-        "honmen_test_3": "🏁 Honmen Test 3",
-
-        "app_info": "⚙️ एप जानकारी",
-        "score_history": "📊 स्कोर इतिहास",
-        "privacy": "🔒 गोपनीयता नीति",
-        "terms": "📄 प्रयोगका सर्तहरू",
-        "contact": "✉️ सम्पर्क गर्नुहोस्",
-
-        "dark_mode": "🌙 Dark Mode",
-
-        "login": "👤 Login",
-        "register": "📝 Register",
-        "logout": "🚪 Logout",
-        "welcome": "Welcome",
-
-        "ai_title": "🧠 AI Tutor",
-
-        "premium": "⭐ Premium User"
-    }
-}
-
-# =========================================================
-# 🌐 GET UI LANGUAGE
-# =========================================================
-
-def get_ui():
-
-    language = session.get('lang', 'en')
-
-    return UI_TEXT.get(
-        language,
-        UI_TEXT['en']
-    )
 
 # =========================================================
 # 🔐 LOGIN REQUIRED
@@ -383,47 +195,6 @@ def generate_ai_explanation(
     )
 
 # =========================================================
-# ✅ LOAD QUESTIONS
-# =========================================================
-
-def load_questions(folder, language, filename):
-
-    filepath = os.path.join(
-        "data",
-        folder,
-        language,
-        filename
-    )
-
-    if not os.path.exists(filepath):
-
-        filepath = os.path.join(
-            "data",
-            folder,
-            "en",
-            filename
-        )
-
-    if not os.path.exists(filepath):
-
-        return []
-
-    try:
-
-        with open(
-            filepath,
-            encoding='utf-8-sig'
-        ) as f:
-
-            return json.load(f)
-
-    except Exception as e:
-
-        print("JSON ERROR:", e)
-
-        return []
-
-# =========================================================
 # 🌐 SET LANGUAGE
 # =========================================================
 
@@ -442,101 +213,7 @@ def set_language(lang):
 
     return redirect('/menu')
 
-# =========================================================
-# 👤 REGISTER
-# =========================================================
 
-@app.route('/register', methods=['GET', 'POST'])
-def register():
-
-    ui = get_ui()
-
-    error = None
-
-    success = None
-
-    if request.method == 'POST':
-
-        username = (
-            request.form.get('username')
-            .strip()
-        )
-
-        email = (
-            request.form.get('email')
-            .strip()
-            .lower()
-        )
-
-        password = request.form.get(
-            'password'
-        )
-
-        existing_email = User.query.filter_by(
-            email=email
-        ).first()
-
-        if existing_email:
-
-            error = "Email already exists."
-
-        else:
-
-            existing_username = (
-                User.query.filter_by(
-                    username=username
-                ).first()
-            )
-
-            if existing_username:
-
-                error = "Username already taken."
-
-            elif len(password) < 6:
-
-                error = (
-                    "Password must be at least "
-                    "6 characters."
-                )
-
-            else:
-
-                hashed = generate_password_hash(
-                    password
-                )
-
-                new_user = User(
-
-                    username=username,
-
-                    email=email,
-
-                    password=hashed,
-
-                    is_verified=True
-                )
-
-                db.session.add(new_user)
-
-                db.session.commit()
-
-                print("AUTO VERIFIED USER")
-
-                success = (
-                    "Account created successfully. "
-                    "You can now login."
-                )
-
-    return render_template(
-
-        'register.html',
-
-        error=error,
-
-        success=success,
-
-        ui=ui
-    )
 # =========================================================
 # 📧 VERIFY EMAIL
 # =========================================================
@@ -577,80 +254,6 @@ def verify_email(token):
     return """
     <h1>Invalid or Expired Link</h1>
     """
-
-# =========================================================
-# 🔑 FORGOT PASSWORD
-# =========================================================
-
-@app.route(
-    '/forgot-password',
-    methods=['GET', 'POST']
-)
-def forgot_password():
-
-    message = None
-
-    if request.method == 'POST':
-
-        email = (
-            request.form.get('email')
-            .strip()
-            .lower()
-        )
-
-        user = User.query.filter_by(
-            email=email
-        ).first()
-
-        if user:
-
-            token = serializer.dumps(
-
-                email,
-
-                salt='reset-password'
-            )
-
-            reset_link = url_for(
-
-                'reset_password',
-
-                token=token,
-
-                _external=True
-            )
-
-            body = f"""
-Reset your password:
-
-{reset_link}
-
-If you did not request this,
-ignore this email.
-"""
-
-            send_email(
-
-                'Reset Password',
-
-                email,
-
-                body
-            )
-
-        message = (
-            "If the email exists, "
-            "a reset link was sent."
-        )
-
-    return render_template(
-
-        'forgot_password.html',
-
-        message=message,
-
-        ui=get_ui()
-    )
 
 # =========================================================
 # 🔑 RESET PASSWORD
@@ -728,97 +331,6 @@ def reset_password(token):
     )
 
 # =========================================================
-# 👤 LOGIN
-# =========================================================
-
-@app.route('/login', methods=['GET', 'POST'])
-def login():
-
-    ui = get_ui()
-
-    error = None
-
-    if request.method == 'POST':
-
-        email = (
-            request.form.get('email')
-            .strip()
-            .lower()
-        )
-
-        password = request.form.get(
-            'password'
-        )
-
-        user = User.query.filter_by(
-            email=email
-        ).first()
-
-        if user and check_password_hash(
-            user.password,
-            password
-        ):
-
-            # ✅ LOGIN USER
-
-            session['user_id'] = user.id
-
-            session['username'] = (
-                user.username
-            )
-
-            session['is_premium'] = (
-                user.is_premium
-            )
-
-            return redirect('/menu')
-
-        else:
-
-            error = (
-                "Invalid login credentials."
-            )
-
-    return render_template(
-
-        'login.html',
-
-        error=error,
-
-        ui=ui
-    )
-
-# =========================================================
-# 🚪 LOGOUT
-# =========================================================
-
-@app.route('/logout')
-def logout():
-
-    session.clear()
-
-    return redirect('/menu')
-
-# =========================================================
-# ✅ MENU
-# =========================================================
-
-@app.route('/')
-@app.route('/menu')
-def menu():
-
-    if 'lang' not in session:
-
-        session['lang'] = 'en'
-
-    return render_template(
-
-        'menu.html',
-
-        ui=get_ui()
-    )
-
-# =========================================================
 # ❌ QUIT EXAM
 # =========================================================
 
@@ -834,170 +346,6 @@ def quit_exam():
 
     return redirect('/menu')
 
-# =========================================================
-# 🚀 START MODE
-# =========================================================
-
-@app.route('/start/<mode>/<test>')
-def start_mode(mode, test):
-
-    language = session.get('lang', 'en')
-
-    is_premium = session.get(
-        'is_premium',
-        False
-    )
-
-    # =====================================================
-    # ✅ FREE ACCESS RULES
-    # =====================================================
-
-    free_access = [
-
-        ('karimen', 'mock'),
-
-        ('reviewer_karimen', 'reviewer'),
-
-    ]
-
-    # =====================================================
-    # 🔒 PREMIUM LOCK
-    # =====================================================
-
-    allowed = False
-
-    for free_mode, free_test in free_access:
-
-        if mode == free_mode:
-
-            allowed = True
-
-    if not is_premium and not allowed:
-
-        return redirect('/upgrade')
-
-    # =====================================================
-    # 📂 FOLDER
-    # =====================================================
-
-    if mode == "karimen":
-
-        folder = "karimen"
-
-    elif mode == "honmen":
-
-        folder = "honmen"
-
-    elif mode == "reviewer_karimen":
-
-        folder = "reviewer/karimen"
-
-    elif mode == "reviewer_honmen":
-
-        folder = "reviewer/honmen"
-
-    else:
-
-        return "Invalid mode"
-
-    questions = load_questions(
-
-        folder,
-
-        language,
-
-        f"{test}.json"
-    )
-
-    if len(questions) == 0:
-
-        return "No questions found."
-
-    session['folder'] = folder
-    session['questions_file'] = test
-    session['answers'] = []
-    session['current'] = 0
-    session['mode'] = mode
-
-    # =====================================================
-    # 🏁 HONMEN MODE
-    # =====================================================
-
-    if mode == "honmen":
-
-        normal_questions = []
-        grouped_questions = []
-
-        for i, q in enumerate(questions):
-
-            if "items" in q:
-
-                grouped_questions.append(i)
-
-            else:
-
-                normal_questions.append(i)
-
-        selected_normal = random.sample(
-
-            normal_questions,
-
-            min(90, len(normal_questions))
-        )
-
-        selected_grouped = random.sample(
-
-            grouped_questions,
-
-            min(5, len(grouped_questions))
-        )
-
-        order = (
-            selected_normal
-            +
-            selected_grouped
-        )
-
-        session['duration'] = 50 * 60
-
-    # =====================================================
-    # 📝 OTHER MODES
-    # =====================================================
-
-    else:
-
-        total_questions = 50
-
-        if len(questions) > total_questions:
-
-            order = random.sample(
-
-                range(len(questions)),
-
-                total_questions
-            )
-
-        else:
-
-            order = list(
-                range(len(questions))
-            )
-
-            random.shuffle(order)
-
-        if "reviewer" in mode:
-
-            session['duration'] = None
-
-        else:
-
-            session['duration'] = 30 * 60
-
-    session['order'] = order
-
-    session['start_time'] = int(time.time())
-
-    return redirect('/question')
 
 # =========================================================
 # ❓ QUESTION PAGE
@@ -1187,237 +535,6 @@ def next_question():
     return redirect('/question')
 
 # =========================================================
-# 🏆 RESULT PAGE
-# =========================================================
-
-@app.route('/result')
-def result():
-
-    if 'mode' not in session:
-
-        return redirect('/menu')
-
-    if "reviewer" in session['mode']:
-
-        return redirect('/menu')
-
-    language = session.get('lang', 'en')
-
-    questions = load_questions(
-
-        session['folder'],
-
-        language,
-
-        f"{session['questions_file']}.json"
-    )
-
-    order = session.get('order', [])
-
-    answers = session.get('answers', [])
-
-    results = []
-
-    score = 0
-
-    total_questions = 0
-
-    for i, idx in enumerate(order):
-
-        q = questions[idx]
-
-        if 'items' in q:
-
-            if i >= len(answers):
-
-                continue
-
-            user_group_answers = answers[i]
-
-            for j, item in enumerate(q['items']):
-
-                total_questions += 1
-
-                user_answer = None
-
-                if j < len(user_group_answers):
-
-                    user_answer = (
-                        user_group_answers[j]
-                    )
-
-                correct = (
-
-                    (user_answer or '')
-                    .strip()
-                    .lower()
-
-                    ==
-
-                    item['answer']
-                    .strip()
-                    .lower()
-                )
-
-                if correct:
-
-                    score += 1
-
-                results.append({
-
-                    "question":
-                    item['question'],
-
-                    "your_answer":
-                    user_answer,
-
-                    "correct_answer":
-                    item['answer'],
-
-                    "explanation":
-                    item.get(
-                        'explanation',
-                        ''
-                    ),
-
-                    "is_correct":
-                    correct,
-
-                    "image":
-                    q.get("image")
-                })
-
-        else:
-
-            total_questions += 1
-
-            user_answer = None
-
-            if i < len(answers):
-
-                user_answer = answers[i]
-
-            correct = (
-
-                (user_answer or '')
-                .strip()
-                .lower()
-
-                ==
-
-                q['answer']
-                .strip()
-                .lower()
-            )
-
-            if correct:
-
-                score += 1
-
-            results.append({
-
-                "question":
-                q['question'],
-
-                "your_answer":
-                user_answer,
-
-                "correct_answer":
-                q['answer'],
-
-                "explanation":
-                q['explanation'],
-
-                "is_correct":
-                correct,
-
-                "image":
-                q.get("image")
-            })
-
-    session['last_score'] = score
-
-    session['last_total'] = total_questions
-
-    passing_score = int(
-        total_questions * 0.9
-    )
-
-    if session['mode'] == "honmen":
-
-        passing_score = 90
-
-    passed = score >= passing_score
-
-    if 'user_id' in session:
-
-        history = ScoreHistory(
-
-            user_id=session['user_id'],
-
-            mode=session['mode'],
-
-            score=score,
-
-            total=total_questions,
-
-            passed=passed
-        )
-
-        db.session.add(history)
-
-        db.session.commit()
-
-    return render_template(
-
-        'result.html',
-
-        score=score,
-
-        total=total_questions,
-
-        results=results,
-
-        passed=passed,
-
-        passing_score=passing_score,
-
-        ui=get_ui()
-    )
-
-# =========================================================
-# 📊 HISTORY
-# =========================================================
-
-@app.route('/history')
-def history():
-
-    check = login_required()
-
-    if check:
-
-        return check
-
-    records = ScoreHistory.query.filter_by(
-
-        user_id=session['user_id']
-
-    ).order_by(
-
-        ScoreHistory.created_at.desc()
-
-    ).all()
-
-    return render_template(
-
-        'history.html',
-
-        history=records,
-
-        ui=get_ui()
-    )
-
-# =========================================================
 # 🔒 PRIVACY POLICY
 # =========================================================
 
@@ -1458,53 +575,6 @@ def contact():
 
         ui=get_ui()
     )
-
-# =========================================================
-# ⭐ UPGRADE PAGE
-# =========================================================
-
-@app.route('/upgrade')
-def upgrade():
-
-    return render_template(
-
-        'upgrade.html',
-
-        ui=get_ui()
-    )
-
-# =========================================================
-# ⭐ SUBSCRIBE
-# =========================================================
-
-@app.route('/subscribe')
-def subscribe():
-
-    # ✅ TEMPORARY PREMIUM ACCESS
-
-    if 'user_id' not in session:
-
-        return redirect('/login')
-
-    user = User.query.get(
-        session['user_id']
-    )
-
-    if not user:
-
-        return redirect('/login')
-
-    # ✅ MAKE USER PREMIUM
-
-    user.is_premium = True
-
-    db.session.commit()
-
-    # ✅ UPDATE SESSION
-
-    session['is_premium'] = True
-
-    return redirect('/menu')
 
 # =========================================================
 # ⚠ ERROR HANDLER
