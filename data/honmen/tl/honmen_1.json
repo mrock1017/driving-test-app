@@ -156,7 +156,7 @@
       "Tama",
       "Mali"
     ],
-    "answer": "False",
+    "answer": "Tama",
     "explanation": "Ang regular na driver’s license sa Japan ay karaniwang nagpapahintulot sa may hawak nito na magmaneho ng ordinaryong sasakyan pati na rin ng ilang mas maliliit na uri ng sasakyan, kabilang ang general mopeds at light special-purpose vehicles."
   },
   {
@@ -3251,6 +3251,746 @@
         ],
         "answer": "Mali",
         "explanation": "Hindi ka dapat umasa sa ibang drayber o rider upang makita ang mga panganib para sa iyo. Ang pagpapanatili ng bilis sa blind curve ay nagpapababa ng kakayahan mong umiwas sa biglaang panganib."
+      }
+    ]
+  },
+  {
+    "question_group": "new1",
+    "situation": "Ikaw ay nagmamaneho nang humigit-kumulang 70 km/h sa acceleration lane ng expressway. Mabigat ang trapiko sa main lane, at may malaking trak na papalapit mula sa likuran sa lane na balak mong pasukan.",
+    "image": "merge_epressway.jpg",
+    "items": [
+      {
+        "number": 1,
+        "question": "Dapat mong ayusin ang iyong bilis upang makapasok nang ligtas nang hindi pinipilit ang mga sasakyan sa main lane na biglang magpreno.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Kapag pumapasok sa expressway sa Japan, kailangang maayos at mahinahong mag-merge ang mga driver habang iniiwasang makaabala sa trapikong nasa main lane."
+      },
+      {
+        "number": 2,
+        "question": "Bago mag-merge, dapat mong kumpirmahin ang kaligtasan hindi lamang gamit ang mga salamin kundi pati sa direktang pagtingin sa blind spot.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Maaaring hindi makita sa salamin ang ibang sasakyan dahil sa blind spot. Kinakailangan ang direktang pagtingin bago magpalit ng lane."
+      },
+      {
+        "number": 3,
+        "question": "Kung mukhang bumabagal ang ibang driver para bigyan ka ng daan, maaari kang agad mag-merge nang hindi na muling nagkukumpirma.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Kahit mukhang nagbibigay-daan ang ibang sasakyan, kailangan mo pa ring bantayan ang paligid at mag-merge lamang kapag ganap nang ligtas."
+      }
+    ]
+  },
+  {
+    "question_group": "new2",
+    "situation": "Ikaw ay nagmamaneho sa isang makitid na residential road malapit sa school zone sa huling bahagi ng hapon. Maaaring biglang lumabas ang mga bata at bisikleta mula sa pagitan ng mga nakaparadang sasakyan.",
+    "image": "driving_through_school_zone.jpg",
+    "items": [
+      {
+        "number": 1,
+        "question": "Dapat mong bawasan ang bilis at maging handang huminto agad habang dumadaan sa lugar.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Kailangang maging mas maingat ang mga driver sa residential at school areas kung saan maaaring biglang pumasok sa kalsada ang mga pedestrian at bata."
+      },
+      {
+        "number": 2,
+        "question": "Kung walang nakikitang pedestrian sa kasalukuyan, katanggap-tanggap na panatilihin ang nakatakdang bilis nang hindi bumabagal.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Maaaring may nakatagong panganib sa likod ng mga nakaparadang sasakyan o kanto, kaya kailangang magmaneho nang maingat kahit mukhang malinaw ang daan."
+      },
+      {
+        "number": 3,
+        "question": "Ang paghahandang ilapit ang paa sa brake pedal ay makatutulong upang mapabilis ang reaksyon sa mapanganib na sitwasyon.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Ang pagtakip sa preno habang mabagal na nagmamaneho sa mapanganib na lugar ay tumutulong sa driver na makaresponde agad sa biglaang panganib."
+      }
+    ]
+  },
+  {
+    "question_group": "new3",
+    "situation": "Ikaw ay papalapit sa isang railway crossing sa gabi habang umuulan. Mahina ang visibility at mabagal ang galaw ng trapiko sa unahan.",
+    "image": "driving_through_railway_nighttime.jpg",
+    "items": [
+      {
+        "number": 1,
+        "question": "Kailangan mong huminto bago ang railway crossing at kumpirmahin ang kaligtasan sa pamamagitan ng pagtingin at pakikinig para sa paparating na tren.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Sa pangkalahatan, hinihingi ng batas trapiko sa Japan na huminto ang mga driver bago tumawid sa railway crossing at maingat na tingnan kung may tren."
+      },
+      {
+        "number": 2,
+        "question": "Kung hindi tumutunog ang warning alarm, maaari kang tumawid agad nang hindi tumitingin sa magkabilang direksyon.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Kailangan pa ring tiyakin ng driver ang kaligtasan gamit ang sariling paningin kahit walang alarm o barrier."
+      },
+      {
+        "number": 3,
+        "question": "Dapat mong iwasang pumasok sa crossing kung ang trapiko sa unahan ay maaaring magdulot na huminto ang iyong sasakyan sa ibabaw ng riles.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Napakapanganib at ipinagbabawal ang pagpasok sa railway crossing kung hindi mo ito agad malalagpasan."
+      }
+    ]
+  },
+  {
+    "question_group": "new4",
+    "situation": "Ikaw ay nakamotorsiklo pababa sa isang mountain road na may sunod-sunod na kurbada.",
+    "image": "winding_mountain_road.jpg",
+    "items": [
+      {
+        "number": 1,
+        "question": "Dapat mong gamitin ang engine braking kasama ng front at rear brakes upang makontrol nang ligtas ang bilis.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Ang paggamit ng engine braking ay nagpapabawas ng strain sa preno at tumutulong mapanatili ang stability ng sasakyan sa pababang kalsada."
+      },
+      {
+        "number": 2,
+        "question": "Ang biglaang paggamit lamang ng front brake habang nasa kurbada ay ang pinakaligtas na paraan ng pagpapabagal.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Ang biglaang pagpreno sa harap habang nasa kurbada ay maaaring magpawala ng balanse sa motorsiklo at magdulot ng pagdulas."
+      },
+      {
+        "number": 3,
+        "question": "Dapat mong bawasan ang bilis bago pumasok sa kurbada kaysa habang lumiliko mismo.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Ang pagbawas ng bilis bago pumasok sa kurbada ay nagbibigay ng mas maayos at ligtas na kontrol habang lumiliko."
+      }
+    ]
+  },
+  {
+    "question_group": "new5",
+    "situation": "Ikaw ay papalapit sa isang intersection na kontrolado ng traffic lights habang may emergency vehicle na may kumikislap na ilaw na paparating mula sa likuran.",
+    "image": "driving_with_an_emergency_vehicle_behind.jpg",
+    "items": [
+      {
+        "number": 1,
+        "question": "Kung maaari, dapat kang lumipat sa kaliwang bahagi ng kalsada at hayaang makadaan ang emergency vehicle.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Inaatasan ng batas trapiko sa Japan ang mga driver na bigyang-priyoridad ang emergency vehicles na gumagamit ng sirena at kumikislap na ilaw."
+      },
+      {
+        "number": 2,
+        "question": "Maaari kang magpatuloy nang normal sa intersection kung berde ang traffic signal mo.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Kailangang magbigay-daan ang mga driver sa emergency vehicles kahit sila ay may right-of-way signal."
+      },
+      {
+        "number": 3,
+        "question": "Dapat iwasan ang biglaang paghinto sa gitna ng intersection kung maaari itong makaabala sa trapiko o magdulot ng panganib.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Dapat kumilos nang ligtas at predictable ang mga driver habang nagbibigay-daan sa emergency vehicles."
+      }
+    ]
+  },
+  {
+    "question_group": "new6",
+    "situation": "Ikaw ay nagmamaneho sa gabi sa isang two-lane road habang bahagyang umuulan. May paparating na sasakyan na may maliwanag na headlights, at maaaring may bisikletang walang ilaw na bumibiyahe malapit sa kaliwang gilid ng daan sa unahan.",
+    "image": "dirving_with_front_car_bright_headlights.jpg",
+    "items": [
+      {
+        "number": 1,
+        "question": "Dahil mahina ang visibility, dapat mong bawasan ang bilis at palawakin ang pagmamasid sa paligid sa halip na tumuon lamang sa headlights ng kasalubong na sasakyan.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Sa gabi at habang umuulan, kailangang malawak ang pagmamasid ng mga driver para makita ang mga pedestrian at bisikletang maaaring mahirap makita."
+      },
+      {
+        "number": 2,
+        "question": "Ang direktang pagtingin sa headlights ng paparating na sasakyan ang pinakamahusay na paraan upang mapanatili ang tamang posisyon sa lane.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Ang direktang pagtingin sa maliwanag na headlights ay maaaring pansamantalang makabawas sa paningin. Sa halip, dapat tumingin nang bahagya sa kaliwang bahagi ng kalsada."
+      },
+      {
+        "number": 3,
+        "question": "Kahit mukhang malinaw ang daan sa unahan, dapat kang maging handa sa posibilidad na may biglang lumabas na bisikleta o pedestrian mula sa madilim na lugar.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Binibigyang-diin sa Japanese driving exams ang pag-anticipate sa mga nakatagong panganib, lalo na sa gabi o kapag mahina ang visibility."
+      }
+    ]
+  },
+  {
+    "question_group": "new7",
+    "situation": "Ikaw ay papalapit sa isang uncontrolled intersection kung saan natatakpan ng mga gusali at nakaparadang sasakyan ang visibility sa kaliwa at kanan.",
+    "image": "narrow_urban_intersection.jpg",
+    "items": [
+      {
+        "number": 1,
+        "question": "Kahit ikaw ay nasa mas malawak na kalsada, dapat mong bawasan ang bilis at maghanda para sa mga sasakyan o pedestrian na maaaring biglang lumabas mula sa mga nakatagong lugar.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Kailangang mag-ingat ang mga driver sa intersections na mahina ang visibility anuman ang lapad o priority ng kalsada."
+      },
+      {
+        "number": 2,
+        "question": "Kung walang stop sign, katanggap-tanggap na pumasok sa intersection sa normal na bilis.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Ang limitadong visibility ay nangangailangan ng pagbabawas ng bilis at pagkumpirma ng kaligtasan bago magpatuloy."
+      },
+      {
+        "number": 3,
+        "question": "Maaaring may motorsiklo o bisikletang biglang lumabas mula sa likod ng mga nakaparadang sasakyan, kaya kailangan ang maingat na pagmamasid bago pumasok sa intersection.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Ang mga nakatagong two-wheeled vehicle ay karaniwang panganib na binibigyang-diin sa Japanese license examinations."
+      }
+    ]
+  },
+  {
+    "question_group": "new8",
+    "situation": "Ikaw ay sumusunod sa isang malaking trak sa expressway habang may malakas na crosswinds malapit sa labasan ng tunnel.",
+    "image": "expressway_tunnel_exit.jpg",
+    "items": [
+      {
+        "number": 1,
+        "question": "Dapat kang magpanatili ng sapat na following distance dahil maaaring maapektuhan ng biglaang bugso ng hangin ang iyong sasakyan at ang trak sa unahan.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Ang crosswinds ay maaaring magpawala ng stability ng mga sasakyan, lalo na malapit sa tunnels at open bridges."
+      },
+      {
+        "number": 2,
+        "question": "Mas ligtas ang pagmamaneho nang dikit sa likod ng trak dahil hinaharangan nito ang hangin para sa iyong sasakyan.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Ang sobrang lapit sa sinusundang sasakyan ay nagpapababa ng visibility at reaction time at nagpapataas ng panganib kung biglang gumalaw ang trak."
+      },
+      {
+        "number": 3,
+        "question": "Dapat mong hawakang mabuti ang manibela at iwasan ang biglaang pagliko kapag naaapektuhan ng crosswinds.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Ang biglaang galaw ng manibela habang malakas ang hangin ay maaaring magdulot ng pagkawala ng kontrol."
+      }
+    ]
+  },
+  {
+    "question_group": "new9",
+    "situation": "Ikaw ay naghahandang lumiko pakanan sa isang abalang intersection habang may mga pedestrian na naghihintay malapit sa crosswalk at may mga motorsiklong paparating mula sa kasalubong na direksyon.",
+    "image": "busy_intersection_lane.jpg",
+    "items": [
+      {
+        "number": 1,
+        "question": "Bago lumiko pakanan, dapat mong maingat na tingnan ang mga motorsiklong maaaring natatakpan sa blind spot na dulot ng mga kasalubong na sasakyan.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Madaling matakpan ng malalaking sasakyan ang mga motorsiklo at isa ito sa pangunahing pokus ng Japanese driving safety training."
+      },
+      {
+        "number": 2,
+        "question": "Kung maging dilaw ang traffic signal habang naghihintay ka, maaari mong tapusin agad ang pagliko nang hindi na tinitingnan ang mga pedestrian.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Kailangang tiyakin palagi ang kaligtasan ng mga pedestrian bago tapusin ang pagliko."
+      },
+      {
+        "number": 3,
+        "question": "Kahit nagsimula ka nang lumiko pakanan, dapat mong ipagpatuloy ang pagmamasid sa mga pedestrian at kasalubong na trapiko hanggang matapos ang pagliko.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Ang hazard checks ay kailangang ipagpatuloy sa buong pagliko, hindi lamang bago ito simulan."
+      }
+    ]
+  },
+  {
+    "question_group": "new10",
+    "situation": "Ikaw ay nagmamaneho pababa sa isang maniyebeng kalsada kung saan maaaring may mga bahagi ng kalsada na nagyelo.",
+    "image": "driving_in_a_snowy_mountain.jpg",
+    "items": [
+      {
+        "number": 1,
+        "question": "Dapat mong iwasan ang biglaang pagpreno o biglaang pagliko dahil maaari itong magdulot ng pag-skid ng sasakyan.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Malaki ang ibinabawas ng niyebe at yelo sa kapit ng gulong, kaya mapanganib ang biglaang operasyon."
+      },
+      {
+        "number": 2,
+        "question": "Makakatulong ang engine braking upang mapanatili ang stability habang bumababa sa madulas na kalsada.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Binabawasan ng engine braking ang pagdepende sa wheel braking at tumutulong maiwasan ang pag-skid."
+      },
+      {
+        "number": 3,
+        "question": "Kung magsimulang mag-skid ang iyong sasakyan, ang biglaang pagliko ng manibela sa kabaligtarang direksyon ay palaging tamang tugon.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Ang sobrang steering correction ay maaaring lalong magpalala sa skid. Dapat dahan-dahan at kalmado ang pagmaniobra."
+      }
+    ]
+  },
+  {
+    "question_group": "new11",
+    "situation": "Ikaw ay nagmamaneho sa isang two-lane urban road sa gabi. May kasalubong na sasakyan na naghihintay lumiko pakanan, at maaaring may bisikletang walang ilaw na bumibiyahe malapit sa kaliwang gilid ng kalsada sa unahan.",
+    "image": "nighttime_urban_intersection.jpg",
+    "items": [
+      {
+        "number": 1,
+        "question": "Dahil nakahinto ang kasalubong na sasakyan, maaari kang magpatuloy sa parehong bilis sa intersection.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Maaaring natatakpan ng nakahintong sasakyan ang iyong paningin sa mga nakatagong bisikleta o pedestrian malapit sa intersection."
+      },
+      {
+        "number": 2,
+        "question": "Dapat kang maging lalong maingat sa mga bisikletang maaaring lumabas mula sa anino sa tabi ng nakahintong sasakyan.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Sa gabi, mahirap mapansin ang mga bisikletang walang ilaw at maaari silang biglang lumabas mula sa blind spots."
+      },
+      {
+        "number": 3,
+        "question": "Ang paulit-ulit na pag-flash ng high beams sa kasalubong na sasakyan ay nagbibigay sa iyo ng priyoridad na maunang dumaan.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Ang pag-flash ng headlights ay hindi awtomatikong nagbibigay ng right-of-way at maaaring makalito sa ibang driver."
+      }
+    ]
+  },
+  {
+    "question_group": "new12",
+    "situation": "Ikaw ay nagmamaneho sa likod ng isang bus na huminto sa bus stop sa isang makitid na kalsada kung saan madalas tumawid ang mga pedestrian sa harap ng bus.",
+    "image": "driving_behind_the_bus.jpg",
+    "items": [
+      {
+        "number": 1,
+        "question": "Maaari mong lampasan agad ang bus kung walang nakikitang pedestrian mula sa iyong posisyon.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Maaaring biglang lumabas ang mga pedestrian mula sa harap o likod ng bus kung saan limitado ang visibility."
+      },
+      {
+        "number": 2,
+        "question": "Ang pagbawas ng bilis at paghahandang huminto habang nilalampasan ang bus ay angkop.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Binibigyang-diin ng Japanese driving rules ang pag-iingat malapit sa mga nakahintong bus dahil madalas may natatagong pedestrian."
+      },
+      {
+        "number": 3,
+        "question": "Inirerekomenda ang tuloy-tuloy na pagbusina habang nilalampasan ang bus upang balaan ang mga pedestrian.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Dapat lamang gamitin ang busina kung kinakailangan upang maiwasan ang panganib, hindi nang tuloy-tuloy."
+      }
+    ]
+  },
+  {
+    "question_group": "new13",
+    "situation": "Ikaw ay nagmamaneho sa expressway at napansin mong may sasakyang sumusubok mag-merge mula sa acceleration lane habang may isa pang sasakyan na sumusunod nang malapit sa likod mo.",
+    "image": "expressway_merging_situation.jpg",
+    "items": [
+      {
+        "number": 1,
+        "question": "Dapat mong panatilihin ang kasalukuyang bilis anuman ang trapiko sa paligid dahil kailangang laging magbigay nang lubos ang mga nagme-merge na sasakyan.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Bagama’t kailangang magbigay-daan ang mga nagme-merge na sasakyan, ang kooperatibong pagmamaneho at tamang pag-adjust ng bilis ay nakatutulong upang maiwasan ang panganib."
+      },
+      {
+        "number": 2,
+        "question": "Sapat na ang pagtingin sa mga salamin bago magpalit ng lane upang gumawa ng espasyo para sa sasakyang magme-merge.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Kailangan ding direktang suriin ang blind spots bago magpalit ng lane."
+      },
+      {
+        "number": 3,
+        "question": "Kung pinapayagan ng sitwasyon, ang pag-adjust ng bilis o posisyon sa lane upang makatulong sa ligtas na pag-merge ay makatutulong sa maayos na daloy ng trapiko.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Hinihikayat ang ligtas at kooperatibong pagmamaneho sa Japanese expressways."
+      }
+    ]
+  },
+  {
+    "question_group": "new14",
+    "situation": "Ikaw ay papalapit sa isang railroad crossing kaagad matapos makatawid dito ang isa pang malaking sasakyan. Bahagyang natatakpan ang iyong visibility sa riles.",
+    "image": "approaching_a_railroad_crossing.jpg",
+    "items": [
+      {
+        "number": 1,
+        "question": "Kung tahimik ang crossing alarm, maaari kang magpatuloy nang hindi humihinto dahil ligtas nang nakatawid ang isa pang sasakyan.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Kailangang tiyakin ng bawat driver ang sariling kaligtasan bago tumawid sa riles."
+      },
+      {
+        "number": 2,
+        "question": "Kahit limitado ang visibility, dapat kang huminto at maingat na tingnan kung may paparating na tren.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Inaatasan ng Japanese traffic rules ang maingat na pagkumpirma ng kaligtasan sa railway crossings."
+      },
+      {
+        "number": 3,
+        "question": "Katanggap-tanggap na pumasok sa crossing habang nakahinto ang trapiko sa unahan kung bukas pa rin ang barriers.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Hindi dapat pumasok ang mga driver sa crossing maliban kung siguradong makakatawid nang buo sa riles."
+      }
+    ]
+  },
+  {
+    "question_group": "new15",
+    "situation": "Ikaw ay nakamotorsiklo pababa sa isang basang mountain road na may sunod-sunod na kurbada.",
+    "image": "motorcycle_navigating_curve.jpg",
+    "items": [
+      {
+        "number": 1,
+        "question": "Ang tuloy-tuloy na paggamit lamang ng rear brake ang pinakaligtas na paraan upang maiwasan ang pag-skid sa basang kalsada.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Mahalaga ang tamang balanse ng pagpreno at engine braking para sa stability ng motorsiklo."
+      },
+      {
+        "number": 2,
+        "question": "Mas ligtas ang pagbabawas ng bilis bago pumasok sa kurbada kaysa sa malakas na pagpreno habang lumiliko.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Ang biglaang pagpreno habang lumiliko ay maaaring magpawala ng balanse sa motorsiklo."
+      },
+      {
+        "number": 3,
+        "question": "Dahil mas magaan ang motorsiklo kaysa kotse, mas kaunti ang epekto ng kondisyon ng kalsada dito kapag umuulan.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Malaki ang epekto ng madulas na kalsada sa motorsiklo kaya kailangan ang dagdag na pag-iingat."
+      }
+    ]
+  },
+  {
+    "question_group": "new16",
+    "situation": "Ikaw ay nagmamaneho sa residential area kung saan may mga batang naglalaro malapit sa gilid ng kalsada at may bolang biglang gumulong papunta sa daan.",
+    "image": "children_playing_ball_roadside.jpg",
+    "items": [
+      {
+        "number": 1,
+        "question": "Dapat mong asahan na maaaring biglang tumakbo ang isang bata papunta sa kalsada upang habulin ang bola.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Kailangang asahan ng mga driver ang biglaang paggalaw ng mga pedestrian, lalo na ng mga bata."
+      },
+      {
+        "number": 2,
+        "question": "Kung hindi pa pumapasok sa kalsada ang bata, katanggap-tanggap na magpatuloy nang hindi bumabagal.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Dapat agad maghanda ang mga driver para sa posibleng panganib kapag may mga warning signs."
+      },
+      {
+        "number": 3,
+        "question": "Ang malakas at biglaang pagbusina nang malapitan ang pinakamainam na unang reaksyon sa sitwasyong ito.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Ang biglaang pagbusina malapit sa mga bata ay maaaring makagulat sa kanila at magdulot ng mas malaking panganib."
+      }
+    ]
+  },
+  {
+    "question_group": "new17",
+    "situation": "Ikaw ay bumibiyahe pababa sa isang makitid na mountain road sa likod ng mabagal na bus. Solid yellow ang center line at matalim ang kurbada sa unahan.",
+    "image": "mountain_road_downhill_curve.jpg",
+    "items": [
+      {
+        "number": 1,
+        "question": "Dahil mabagal ang takbo ng bus, katanggap-tanggap na mag-overtake sa solid center line kung walang agad nakikitang sasakyan.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Ipinagbabawal ang pagtawid sa solid yellow center line upang mag-overtake."
+      },
+      {
+        "number": 2,
+        "question": "Maaaring natatakpan ng bus ang mga kasalubong na motorsiklo o maliliit na sasakyan sa kurbada sa unahan.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Ang malalaking sasakyan ay lumilikha ng malalaking blind spots sa mountain roads."
+      },
+      {
+        "number": 3,
+        "question": "Inirerekomenda ang tuloy-tuloy na pagbusina habang sumusunod sa bus upang hikayatin itong tumabi.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Limitado ang paggamit ng busina sa pagbibigay-babala sa panganib o sa mga lugar na partikular na nangangailangan nito."
+      }
+    ]
+  },
+  {
+    "question_group": "new18",
+    "situation": "Ikaw ay nagmamaneho sa isang residential school zone sa maagang gabi. May bolang gumulong palabas mula sa pagitan ng dalawang nakaparadang sasakyan sa kaliwang bahagi ng kalsada.",
+    "image": "narrow_road_with_park_kei_cars.jpg",
+    "items": [
+      {
+        "number": 1,
+        "question": "Kung walang batang agad na lumabas kasunod ng bola, katanggap-tanggap na panatilihin ang kasalukuyang bilis.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Kailangang asahan ng mga driver na maaaring may batang biglang humabol sa bola."
+      },
+      {
+        "number": 2,
+        "question": "Mas ligtas na bahagyang lumipat sa gitna ng kalsada nang hindi tumitingin sa likuran dahil nadaragdagan nito ang distansya mula sa mga nakaparadang sasakyan.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Ang pagbabago ng posisyon sa lane ay nangangailangan ng wastong pagkumpirma ng kaligtasan upang maiwasan ang banggaan sa sumusunod na trapiko."
+      },
+      {
+        "number": 3,
+        "question": "Ang pagbawas ng bilis at paghahandang magpreno agad ang pinakaligtas na tugon.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Kailangan ng dagdag na pag-iingat sa school zones dahil maaaring kumilos nang hindi inaasahan ang mga bata."
+      }
+    ]
+  },
+  {
+    "question_group": "new19",
+    "situation": "Ikaw ay nagmamaneho sa isang maniyebeng expressway sa gabi. Naiipon ang niyebe malapit sa lane markings at mahina ang visibility dahil sa umiihip na niyebe.",
+    "image": "snowy_expressway.jpg",
+    "items": [
+      {
+        "number": 1,
+        "question": "Dahil ang expressways ay ginawa para sa high-speed travel, ang pagpapanatili ng normal na expressway speed ay angkop kung magaan ang trapiko.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Ang niyebe at mahinang visibility ay nangangailangan ng malaking pagbabawas ng bilis anuman ang dami ng trapiko."
+      },
+      {
+        "number": 2,
+        "question": "Ang biglaang paggalaw ng manibela ay maaaring magdulot ng pag-skid ng sasakyan sa compacted snow.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Mapanganib ang biglaang operasyon sa madulas na winter roads."
+      },
+      {
+        "number": 3,
+        "question": "Ang paggamit ng cruise control sa maniyebeng kalsada ay nagpapabuti ng stability ng sasakyan sa long-distance driving.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Maaaring mabawasan ng cruise control ang responsiveness ng traction control sa madulas na kalsada."
+      }
+    ]
+  },
+  {
+    "question_group": "new20",
+    "situation": "Ikaw ay nagmamaneho sa isang two-lane road habang umuulan sa gabi. Ang maliit na trak sa unahan mo ay biglang bumagal malapit sa pedestrian crossing kung saan bahagyang natatakpan ng mga puno sa gilid ng kalsada at mga nakaparadang sasakyan ang visibility.",
+    "image": "small_truck_ahead.jpg",
+    "items": [
+      {
+        "number": 1,
+        "question": "Dahil hindi naka-on ang hazard lights ng trak, maaari mo itong lampasan agad kung mukhang malinaw ang kasalubong na lane.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Maaaring bumabagal ang trak para sa mga pedestrian o bisikletang hindi mo nakikita malapit sa crossing."
+      },
+      {
+        "number": 2,
+        "question": "Dapat mong bawasan ang bilis at maghanda para sa mga pedestrian na maaaring tumawid mula sa likod ng trak.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Binibigyang-diin sa Japanese driving exams ang pag-anticipate sa mga nakatagong pedestrian sa paligid ng mga nakahinto o bumabagal na sasakyan."
+      },
+      {
+        "number": 3,
+        "question": "Kung walang nakikitang pedestrian signal, hindi maaaring legal na tumawid ang mga pedestrian sa lugar.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Maaari pa ring tumawid ang mga pedestrian sa o malapit sa crossing, at kailangang iwasan ng mga driver ang pagharang sa kanila."
       }
     ]
   }
