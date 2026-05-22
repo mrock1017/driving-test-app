@@ -362,7 +362,7 @@ def question():
 
             score = 0
 
-            for i, answer in enumerate(answers):
+            for i in range(min(len(answers), len(order))):
 
                 q = questions[order[i]]
 
@@ -373,7 +373,7 @@ def question():
                 )
 
                 user_answer = (
-                    (answer or '')
+                    (answers[i] or '')
                     .strip()
                     .lower()
                 )
@@ -461,16 +461,25 @@ def question():
                 correct_answer.strip().lower()
             )
 
-            # ✅ SAVE ANSWERS
+            # =================================================
+            # ✅ SAFE ANSWER SAVE
+            # =================================================
 
             answers = session.get('answers', [])
 
-            answers.append(answer)
+            if len(answers) <= current:
+
+                answers.append(answer)
+
+            else:
+
+                answers[current] = answer
 
             session['answers'] = answers
 
+            # =================================================
             # ❌ DO NOT INCREMENT HERE
-            # FIXES SKIPPING QUESTIONS
+            # =================================================
 
             return render_template(
 
@@ -479,6 +488,8 @@ def question():
                 q=q,
 
                 index=current + 1,
+
+                display_index=current + 1,
 
                 total=len(order),
 
@@ -526,9 +537,19 @@ def question():
 
                 group_answers.append(ans)
 
+            # =================================================
+            # ✅ SAFE SAVE
+            # =================================================
+
             answers = session.get('answers', [])
 
-            answers.append(group_answers)
+            if len(answers) <= current:
+
+                answers.append(group_answers)
+
+            else:
+
+                answers[current] = group_answers
 
             session['answers'] = answers
 
@@ -540,11 +561,25 @@ def question():
 
             answer = request.form.get('answer')
 
+            # =================================================
+            # ✅ SAFE SAVE
+            # =================================================
+
             answers = session.get('answers', [])
 
-            answers.append(answer)
+            if len(answers) <= current:
+
+                answers.append(answer)
+
+            else:
+
+                answers[current] = answer
 
             session['answers'] = answers
+
+        # =================================================
+        # ✅ NORMAL MODES INCREMENT HERE
+        # =================================================
 
         session['current'] = current + 1
 
@@ -561,6 +596,8 @@ def question():
         q=q,
 
         index=current + 1,
+
+        display_index=current + 1,
 
         total=len(order),
 
@@ -780,6 +817,41 @@ def result():
         passed=passed,
 
         passing_score=passing_score,
+
+        ui=get_ui()
+    )
+
+# =========================================================
+# 📊 SCORE HISTORY PAGE
+# =========================================================
+
+@tests.route('/score-history')
+def score_history():
+
+    if 'user_id' not in session:
+
+        return redirect('/login')
+
+    history = (
+
+        ScoreHistory.query
+
+        .filter_by(
+            user_id=session['user_id']
+        )
+
+        .order_by(
+            ScoreHistory.id.desc()
+        )
+
+        .all()
+    )
+
+    return render_template(
+
+        'score_history.html',
+
+        history=history,
 
         ui=get_ui()
     )

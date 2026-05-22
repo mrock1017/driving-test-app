@@ -874,10 +874,10 @@ body.dark .settings-title{
 
                 {% if session.get('user_id') %}
 
-                    <a href="/history"
-                    class="menu-btn menu-btn-light">
+                    <a href="{{ url_for('tests.score_history') }}"
+                        class="menu-btn menu-btn-light">
 
-                    📊 Score History
+                        📊 Score History
 
                     </a>
 

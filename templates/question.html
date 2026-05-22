@@ -142,12 +142,20 @@ body.dark .header{
     color:#475569;
 }
 
+body.dark .question-status{
+    color:#cbd5e1;
+}
+
 .progress-bar{
     height:10px;
     background:#dbe7f5;
     border-radius:999px;
     overflow:hidden;
     margin:12px 0 18px;
+}
+
+body.dark .progress-bar{
+    background:#334155;
 }
 
 .progress{
@@ -168,6 +176,10 @@ body.dark .header{
     font-size:16px;
 }
 
+body.dark .timer{
+    color:#e2e8f0;
+}
+
 .card{
     background:white;
     border:1px solid rgba(226,232,240,0.8);
@@ -178,6 +190,7 @@ body.dark .header{
 
 body.dark .card{
     background:#1e293b;
+    border:1px solid #334155;
 }
 
 .question-text{
@@ -208,6 +221,11 @@ img{
     border:1px solid #e2e8f0;
     background:white;
     cursor:pointer;
+    transition:0.2s ease;
+}
+
+.choice:hover{
+    transform:translateY(-1px);
 }
 
 body.dark .choice{
@@ -246,6 +264,11 @@ button,
     cursor:pointer;
 }
 
+button:disabled{
+    opacity:0.7;
+    cursor:not-allowed;
+}
+
 .correct{
     color:#16a34a;
     font-weight:700;
@@ -263,6 +286,11 @@ button,
     background:#eff6ff;
     border:1px solid #93c5fd;
     line-height:1.7;
+}
+
+body.dark .ai-box{
+    background:#0f172a;
+    border:1px solid #334155;
 }
 
 .group-question{
@@ -291,6 +319,41 @@ button,
     border-radius:20px;
     margin-bottom:22px;
     line-height:1.7;
+}
+
+body.dark .situation-box{
+    background:#0f172a;
+    border:1px solid #334155;
+}
+
+.feedback-box{
+    margin-top:20px;
+    line-height:1.8;
+}
+
+@media(max-width:640px){
+
+    .container{
+        padding:14px 12px 40px;
+    }
+
+    .card{
+        padding:20px 16px;
+        border-radius:24px;
+    }
+
+    .question-text{
+        font-size:18px;
+    }
+
+    .choice span{
+        font-size:16px;
+    }
+
+    button,
+    .next-btn{
+        font-size:17px;
+    }
 }
 
 </style>
@@ -352,22 +415,22 @@ button,
 
 <div class="container">
 
-{% if not is_reviewer %}
-
 <div class="question-status">
 
-    Question {{ index }} / {{ total }}
+    Question {{ display_index }} / {{ total }}
 
 </div>
 
 <div class="progress-bar">
 
     <div class="progress"
-         style="width: {{ (index / total) * 100 }}%;">
+         style="width: {{ (display_index / total) * 100 }}%;">
 
     </div>
 
 </div>
+
+{% if not is_reviewer %}
 
 <div class="timer">
 
@@ -478,9 +541,12 @@ button,
         filename='images/' ~ q.image
     ) }}"
     loading="lazy"
-    draggable="false">
+    draggable="false"
+    onerror="this.style.display='none'">
 
 {% endif %}
+
+<div class="feedback-box">
 
 <p class="{{ 'correct' if is_correct else 'incorrect' }}">
 
@@ -500,6 +566,8 @@ button,
     {{ explanation }}
 
 </p>
+
+</div>
 
 {% if ai_explanation %}
 
@@ -540,7 +608,8 @@ button,
         filename='images/' ~ q.image
     ) }}"
     loading="lazy"
-    draggable="false">
+    draggable="false"
+    onerror="this.style.display='none'">
 
 {% endif %}
 
@@ -594,13 +663,24 @@ let time = {{ remaining or 0 }};
 
 function updateTimer(){
 
+    if(time < 0){
+
+        return;
+    }
+
     let m = Math.floor(time / 60);
 
     let s = time % 60;
 
-    document.getElementById("timer").innerText =
+    const timer =
+        document.getElementById("timer");
 
-        m + ":" + (s < 10 ? "0" : "") + s;
+    if(timer){
+
+        timer.innerText =
+
+            m + ":" + (s < 10 ? "0" : "") + s;
+    }
 
     if(time <= 0){
 
