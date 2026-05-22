@@ -66,6 +66,20 @@ def set_language(lang):
     return redirect('/menu')
 
 # =========================================================
+# ✅ NEXT QUESTION ROUTE
+# FIXES SKIPPED QUESTIONS
+# =========================================================
+
+@tests.route('/next')
+def next_question():
+
+    if 'current' in session:
+
+        session['current'] += 1
+
+    return redirect('/question')
+
+# =========================================================
 # 🚀 START MODE
 # =========================================================
 
@@ -98,10 +112,22 @@ def start_mode(mode, test):
             return redirect('/upgrade')
 
     # =====================================================
-    # 🔒 FREE USER LIMITS
+    # 👤 GUEST USERS
     # =====================================================
 
-    if not is_premium:
+    if 'user_id' not in session:
+
+        # guests can ONLY access reviewer
+
+        if "reviewer" not in mode:
+
+            return redirect('/upgrade')
+
+    # =====================================================
+    # 🔒 FREE USERS
+    # =====================================================
+
+    elif not is_premium:
 
         if mode == "karimen":
 
@@ -207,36 +233,45 @@ def start_mode(mode, test):
 
     elif "reviewer" in mode:
 
-        clean_indexes = []
+        reviewer_indexes = []
 
-        # ✅ REMOVE GROUP QUESTIONS
+        # ✅ ONLY NORMAL QUESTIONS
 
         for i, q in enumerate(questions):
 
             if "items" not in q:
 
-                clean_indexes.append(i)
+                reviewer_indexes.append(i)
 
-        random.shuffle(clean_indexes)
+        random.shuffle(reviewer_indexes)
 
-        # 👤 GUEST USERS
+        # =================================================
+        # 👤 GUEST USERS = 10 QUESTIONS
+        # =================================================
 
         if 'user_id' not in session:
 
-            clean_indexes = clean_indexes[:10]
+            order = reviewer_indexes[:10]
 
-        # 🔒 FREE USERS
+        # =================================================
+        # 🔒 FREE USERS = 20 QUESTIONS
+        # =================================================
 
         elif not is_premium:
 
-            clean_indexes = clean_indexes[:20]
+            order = reviewer_indexes[:20]
 
-        # ✅ PREMIUM USERS
-        # unlimited reviewer questions
+        # =================================================
+        # ✅ PREMIUM USERS = UNLIMITED
+        # =================================================
 
-        order = clean_indexes
+        else:
 
+            order = reviewer_indexes
+
+        # =================================================
         # ✅ REVIEWER HAS NO TIMER
+        # =================================================
 
         session['duration'] = None
 
@@ -299,23 +334,6 @@ def question():
         f"{session['questions_file']}.json"
     )
 
-    # =====================================================
-    # 🧠 REVIEWER MODE
-    # REMOVE GROUP QUESTIONS
-    # =====================================================
-
-    if "reviewer" in session['mode']:
-
-        clean_questions = []
-
-        for q in questions:
-
-            if "items" not in q:
-
-                clean_questions.append(q)
-
-        questions = clean_questions
-
     order = session['order']
 
     current = session.get('current', 0)
@@ -326,7 +344,9 @@ def question():
 
     if current >= len(order):
 
+        # =================================================
         # 👤 GUEST REVIEWER RESULT
+        # =================================================
 
         if (
 
@@ -371,9 +391,15 @@ def question():
                 total=len(order)
             )
 
+        # =================================================
         # 🔒 FREE REVIEWER LIMIT
+        # =================================================
 
         if (
+
+            'user_id' in session
+
+            and
 
             not session.get('is_premium')
 
@@ -435,16 +461,16 @@ def question():
                 correct_answer.strip().lower()
             )
 
+            # ✅ SAVE ANSWERS
+
             answers = session.get('answers', [])
 
             answers.append(answer)
 
             session['answers'] = answers
 
-            # ✅ IMPORTANT
-            # ONLY INCREMENT ONCE
-
-            session['current'] = current + 1
+            # ❌ DO NOT INCREMENT HERE
+            # FIXES SKIPPING QUESTIONS
 
             return render_template(
 
