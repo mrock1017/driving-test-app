@@ -1,0 +1,1502 @@
+[
+  {
+    "question": "Bạn đang lái xe phía sau một xe khác. Người lái xe phía trước đưa cánh tay xuống dưới từ cửa sổ. Tín hiệu này có cho biết xe đó sắp giảm tốc độ hoặc dừng lại không?",
+    "image": "hands_down.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Tín hiệu tay hướng xuống được dùng để báo hiệu giảm tốc độ hoặc dừng lại. Người lái phía sau nên chuẩn bị giảm tốc."
+  },
+  {
+    "question": "Một người lái xe cho rằng được phép vượt xe khác ở gần hoặc trong phạm vi 30 mét trước vạch qua đường cho người đi bộ hoặc làn đường dành cho xe đạp. Điều này có đúng không?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Việc vượt hoặc đi qua xe khác gần khu vực dành cho người đi bộ hoặc xe đạp (đặc biệt trong phạm vi 30 mét) bị cấm do nguy cơ cao người đi bộ bất ngờ băng qua đường."
+  },
+  {
+    "question": "Một phương tiện đối diện với đèn tín hiệu giao thông này bằng cách dừng lại và quan sát giao thông.",
+    "image": "yellow_light.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Đèn vàng có nghĩa là “dừng lại nếu có thể thực hiện an toàn”, không chỉ đơn giản là “dừng và quan sát”."
+  },
+  {
+    "question": "Khi lái xe gần một xe buýt trường học đang dừng để đón hoặc trả trẻ em, người lái xe giảm tốc độ và kiểm tra an toàn. Điều này có đúng không?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Người lái xe phải giảm tốc độ và cẩn thận gần xe buýt trường học đang dừng vì trẻ em có thể bất ngờ chạy ra đường."
+  },
+  {
+    "question": "Khi rẽ phải tại giao lộ có mũi tên chỉ hướng được vẽ trên mặt đường, người lái xe đi theo các mũi tên đó. Điều này có đúng không?",
+    "image": "diamond.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Các mũi tên cho biết hướng rẽ bắt buộc, vì vậy người lái xe phải đi theo để đảm bảo lưu thông an toàn và có trật tự qua giao lộ."
+  },
+  {
+    "question": "Biển báo giao thông cho biết cấm vượt. Một người lái xe nghĩ rằng họ vẫn có thể vượt xe khác nếu đi chậm. Điều này có đúng không?",
+    "image": "oikoshi_kinshi.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Biển cấm vượt cấm vượt các phương tiện khác bất kể tốc độ."
+  },
+  {
+    "question": "Một con đường có giới hạn tốc độ là 30 km/h. Người lái xe cho rằng các phương tiện không được chạy ở tốc độ 30 km/h hoặc cao hơn. Điều này có đúng không?",
+    "image": "30.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Giới hạn tốc độ 30 km/h có nghĩa là bạn không được vượt quá 30 km/h. Chạy đúng 30 km/h là được phép. Câu này sai vì bao gồm “30 km/h hoặc cao hơn”."
+  },
+  {
+    "question": "Một người lái xe nhận thấy đèn tín hiệu cho đường giao nhau đang màu đỏ. Họ hiểu rằng điều này không nhất thiết có nghĩa là tín hiệu của mình đang màu xanh. Điều này có đúng không?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Ngay cả khi đèn cho đường giao nhau là màu đỏ, tín hiệu của bạn có thể là đỏ, vàng hoặc được điều khiển bởi giai đoạn khác (chẳng hạn như làn rẽ hoặc đèn dành cho người đi bộ)."
+  },
+  {
+    "question": "Một người lái xe nhìn thấy biển báo hình tam giác màu xanh có biểu tượng xe đạp và cho rằng điều đó có nghĩa là chỉ xe đạp được phép đi trên con đường đó. Điều này có đúng không?",
+    "image": "bicycle.png",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Biểu tượng xe đạp không phải lúc nào cũng có nghĩa là “chỉ dành cho xe đạp” — ý nghĩa chính xác còn phụ thuộc vào loại biển báo."
+  },
+  {
+    "question": "Một người lái xe nhìn thấy vạch kẻ đường như trong hình và hiểu rằng cả việc đỗ xe và dừng xe đều bị cấm tại khu vực đó. Điều này có đúng không?",
+    "image": "No_Parking.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Loại vạch kẻ đường này cho biết cả việc đỗ xe và dừng xe đều bị cấm, và người lái xe không được dừng hoặc đỗ trong khu vực đó."
+  },
+  {
+    "question": "Khi luyện lái xe với giấy phép học lái tạm thời, người lái xe gắn ký hiệu người mới lái ở cả phía trước và phía sau xe. Điều này có đúng không?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Người học lái xe bắt buộc phải gắn ký hiệu người mới lái ở cả phía trước và phía sau để những người tham gia giao thông khác dễ nhận biết."
+  },
+  {
+    "question": "Một người lái xe đi đến con đường có biển “徐行” (đi chậm) và giảm tốc độ xuống mức rất thấp để có thể dừng ngay lập tức nếu cần. Điều này có đúng không?",
+    "image": "yokei.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "“徐行” có nghĩa là lái xe với tốc độ rất chậm để có thể dừng ngay lập tức khi cần thiết. Chỉ giảm tốc nhẹ là không đủ."
+  },
+  {
+    "question": "Một người lái xe đã có bằng lái thông thường dưới một năm gắn biển “仮免許 練習中” (đang luyện lái với giấy phép tạm thời) lên xe của mình. Điều này có đúng không?",
+    "image": "karimen.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Biển “仮免許 練習中” dành cho người có giấy phép học lái tạm thời, không phải cho người đã có bằng lái chính thức. Người mới có bằng phải sử dụng ký hiệu người mới lái (初心者マーク)."
+  },
+  {
+    "question": "Việc đỗ xe và dừng xe bị cấm tại các vị trí sau. Một người lái xe cho rằng quy định này luôn áp dụng, ngay cả khi việc dừng xe là bắt buộc theo luật. Điều này có đúng không?",
+    "image": "prohibited.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Có những ngoại lệ. Nếu việc dừng xe là bắt buộc theo luật (ví dụ: tuân theo tín hiệu giao thông hoặc tránh nguy hiểm), lệnh cấm sẽ không áp dụng."
+  },
+  {
+    "question": "Một người có giấy phép lái xe gắn máy tin rằng họ được phép lái cả xe gắn máy và xe chuyên dụng hạng nhẹ. Điều này có đúng không?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Giấy phép xe gắn máy chỉ cho phép điều khiển xe gắn máy, không cho phép lái xe chuyên dụng hạng nhẹ. Mỗi loại xe yêu cầu giấy phép phù hợp."
+  },
+  {
+    "question": "Một người lái xe đang đi ở làn B trên con đường có vạch kẻ như hình và chuyển làn sang làn A. Điều này có được phép không?",
+    "image": "cannot_change.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Vạch kẻ đường có thể hạn chế việc chuyển làn tùy theo loại vạch (ví dụ: vạch liền). Trong trường hợp này, vạch kẻ cho biết không được phép chuyển từ làn B sang làn A."
+  },
+  {
+    "question": "Một xe ưu tiên đang tiến đến khi bạn đang lái xe trong làn đường được chỉ định. Bạn tránh sang bên hoặc chuyển làn để nhường đường cho xe đó đi qua. Điều này có đúng không?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Người lái xe phải nhường đường cho xe ưu tiên, ngay cả khi đang ở trong làn đường được chỉ định. Bạn phải tránh sang bên hoặc dừng lại để cho xe đi qua an toàn."
+  },
+  {
+    "question": "Bạn nhìn thấy biển báo chỉ cấm đỗ xe từ 8 đến 20 giờ. Bạn cho rằng được phép đỗ xe trong khoảng thời gian đó. Điều này có đúng không?",
+    "image": "time_restriction.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Biển báo này có nghĩa là cấm đỗ xe trong khoảng thời gian được chỉ định (8:00–20:00). Chỉ được phép đỗ ngoài khung giờ đó."
+  },
+  {
+    "question": "Bạn đến gần một giao lộ có tầm nhìn kém nhưng có đèn tín hiệu đang hoạt động. Bạn cho rằng trong tình huống này luôn phải đi chậm. Điều này có đúng không?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Nếu đèn tín hiệu đang hoạt động, bạn phải tuân theo tín hiệu đèn. Quy định yêu cầu đi chậm tại giao lộ có tầm nhìn kém thường áp dụng khi không có đèn tín hiệu."
+  },
+  {
+    "question": "Bạn nhìn thấy biển giới hạn tốc độ hình tròn ghi “50” và vạch kẻ đường có số “50” trên mặt đường. Bạn hiểu rằng cả hai đều chỉ cùng một giới hạn tốc độ. Điều này có đúng không?",
+    "image": "50.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Cả biển báo giao thông và vạch kẻ đường đều chỉ cùng một giới hạn tốc độ. Vạch kẻ đường giúp nhấn mạnh ý nghĩa của biển báo."
+  },
+  {
+    "question": "Khi lái xe số tự động, một người lái xe đạp mạnh chân ga đột ngột khiến xe tăng tốc nhanh. Điều này có dẫn đến tăng tốc đột ngột không?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Đạp mạnh chân ga đột ngột trên xe số tự động có thể khiến xe tăng tốc nhanh, điều này có thể nguy hiểm nếu không được kiểm soát đúng cách."
+  },
+  {
+    "question": "Tại giao lộ nơi các con đường có chiều rộng bằng nhau, xe A đi từ bên phải và xe B đi từ bên trái. Xe A đi tiếp mà không nhường xe B. Điều này có đúng không?",
+    "image": "hidari_B.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Tại các giao lộ không có tín hiệu và các con đường có chiều rộng bằng nhau, xe phải ưu tiên cho xe đến từ bên trái. Xe A không được cản trở xe B."
+  },
+  {
+    "question": "Một người lái xe đến gần xe buýt trường học đang dừng và sau khi xác nhận an toàn, tiếp tục đi mà không giảm tốc độ. Điều này có được phép không?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Người lái xe phải giảm tốc độ khi đi qua xe buýt trường học đang dừng, ngay cả khi họ cho rằng an toàn. Trẻ em có thể bất ngờ chạy ra đường."
+  },
+  {
+    "question": "Bạn nhìn thấy biển báo chỉ rẽ trái. Bạn cho rằng có thể rẽ trái tại giao lộ bất kể đèn tín hiệu giao thông. Điều này có đúng không?",
+    "image": "turn_left.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Biển báo chỉ hướng đi chứ không cho phép bỏ qua đèn tín hiệu giao thông. Người lái xe vẫn phải tuân theo đèn giao thông."
+  },
+  {
+    "question": "Một người lái xe tránh vượt hoặc đi qua các xe khác trong phạm vi 30 mét trước vạch qua đường hoặc làn đường dành cho xe đạp. Điều này có đúng không?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Việc vượt hoặc đi qua xe khác bị cấm trong phạm vi 30 mét trước khu vực dành cho người đi bộ hoặc xe đạp do nguy cơ mất an toàn."
+  },
+  {
+    "question": "Một con đường có làn đường được đánh dấu và gắn biển chỉ dành cho xe buýt. Người lái xe hiểu rằng các phương tiện khác, ngoại trừ xe gắn máy, xe chuyên dụng hạng nhẹ và xe hạng nhẹ, không được phép sử dụng làn đường này. Điều này có đúng không?",
+    "image": "bus_lane.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Làn đường dành riêng cho xe buýt hạn chế quyền sử dụng đối với một số loại phương tiện nhất định. Chỉ những ngoại lệ được liệt kê (như xe gắn máy và một số xe hạng nhẹ) mới được phép sử dụng làn này; các phương tiện khác bị cấm."
+  },
+  {
+    "question": "Tại con đường có biển dừng, người lái xe dừng ngay trước vạch dừng. Nếu không có vạch dừng, người lái xe dừng ngay trước giao lộ. Điều này có đúng không?",
+    "image": "stop_sign.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Người lái xe phải dừng tại vạch dừng được chỉ định. Nếu không có vạch, họ phải dừng trước khi đi vào giao lộ để kiểm tra an toàn."
+  },
+  {
+    "question": "Một người lái xe đến gần khu vực dành cho người đi bộ hoặc xe đạp và chỉ đi chậm khi có người hiện diện, nhưng không giảm tốc nếu không nhìn thấy ai. Điều này có đúng không?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Người lái xe phải đi cẩn thận (chậm) gần các khu vực qua đường ngay cả khi không nhìn thấy người đi bộ hoặc người đi xe đạp, vì có thể có người bất ngờ xuất hiện."
+  },
+  {
+    "question": "Tại giao lộ có vạch phân làn như hình, người lái xe ở làn A không chuyển làn và do đó không thể rẽ phải từ làn đó. Điều này có đúng không?",
+    "image": "change_lane.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Vạch phân làn chỉ hướng đi được phép. Nếu làn A không cho phép rẽ phải, người lái xe không được rẽ phải từ làn đó."
+  },
+  {
+    "question": "Khi đi qua một người sử dụng xe lăn, người lái xe bấm còi để cảnh báo và tiếp tục đi. Điều này có được xem là hành vi an toàn không?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Việc sử dụng còi gần những người tham gia giao thông dễ bị tổn thương có thể làm họ hoảng sợ và gây nguy hiểm. Người lái xe nên giảm tốc, giữ khoảng cách và đi qua cẩn thận mà không gây sợ hãi."
+  },
+  {
+    "question": "Một người lái xe nhìn thấy vạch kẻ đường này và hiểu rằng nó chỉ “khu vực cấm đi vào”. Điều này có đúng không?",
+    "image": "no_entry_zone.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Loại vạch này cho biết khu vực mà xe không được đi vào, giúp hướng dẫn lưu thông và ngăn ngừa nguy hiểm."
+  },
+  {
+    "question": "Bạn đang lái xe trên con đường không có vỉa hè hoặc khu vực dành riêng cho người đi bộ. Bạn tránh đi vào phần lề đường (khoảng 0,5 mét từ mép đường). Điều này có đúng không?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Người lái xe không nên đi vào phần lề đường ngoại trừ trong các tình huống đặc biệt (ví dụ: để tránh nguy hiểm). Khu vực này thường dành cho người đi bộ."
+  },
+  {
+    "question": "Tại nơi có biển “Cấm vượt”, người lái xe hiểu rằng việc vượt bằng cách đi sang làn đối diện là bị cấm, nhưng việc đi qua mà không đi sang bên phải đường vẫn được phép. Điều này có đúng không?",
+    "image": "no_overtaking.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "“Cấm vượt” cấm sử dụng làn đường đối diện để vượt. Tuy nhiên, việc đi qua mà không lấn sang làn đối diện có thể được phép nếu an toàn và hợp pháp."
+  },
+  {
+    "question": "Một người lái xe cho hành khách lên hoặc xuống xe mà không kiểm tra giao thông xung quanh. Điều này có chấp nhận được không?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Người lái xe luôn phải kiểm tra giao thông xung quanh để đảm bảo an toàn trước khi cho hành khách lên hoặc xuống xe."
+  },
+  {
+    "question": "Tại nơi có biển “Cấm rẽ phải” và “Cấm quay đầu”, người lái xe tránh cả việc rẽ và quay đầu xe. Điều này có đúng không?",
+    "image": "no_right_and_U_turn.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Các biển báo quy định này cấm rõ ràng các hành động được chỉ định. Người lái xe phải tuân theo và tránh thực hiện các thao tác bị cấm."
+  },
+  {
+    "question": "Khi đỗ xe số tự động trên dốc lên, người lái xe chuyển cần số sang “L” hoặc “1”. Điều này có đúng không?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Đối với xe số tự động, vị trí đúng khi đỗ xe thường là “P” (Park), cùng với việc sử dụng phanh tay đúng cách. “L” hoặc “1” không phù hợp để đỗ xe."
+  },
+  {
+    "question": "Trên con đường như trong hình, người lái xe đi sang phần bên phải của đường để vượt xe phía trước. Điều này có được phép không?",
+    "image": "white_centerline.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Người lái xe không được sử dụng phần bên phải (làn đối diện) của đường để vượt trừ khi được cho phép rõ ràng và an toàn. Trong tình huống này, điều đó không được phép."
+  },
+  {
+    "question": "Khi đi qua một xe đang đỗ, người lái xe giữ khoảng cách an toàn hoặc giảm tốc độ vì cửa xe có thể bất ngờ mở ra. Điều này có đúng không?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Xe đang đỗ có thể nguy hiểm do cửa xe mở bất ngờ. Người lái xe phải giảm tốc độ và giữ khoảng cách an toàn."
+  },
+  {
+    "question": "Một người lái xe nhìn thấy vạch kẻ đường này và cho rằng nó có nghĩa là phải nhường đường cho các xe phía trước. Điều này có đúng không?",
+    "image": "diamond_markings.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Vạch này không có nghĩa là “nhường đường cho xe phía trước”. Nó được dùng như một vạch cảnh báo/hướng dẫn (thường liên quan đến khu vực qua đường hoặc đường ưu tiên phía trước), không phải là chỉ dẫn nhường đường trực tiếp."
+  },
+  {
+    "question": "Khi đến gần một xe buýt trường học đang dừng để đón hoặc trả trẻ em, người lái xe giảm tốc độ và kiểm tra an toàn. Điều này có đúng không?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Người lái xe phải giảm tốc độ và quan sát cẩn thận vì trẻ em có thể bất ngờ chạy ra đường."
+  },
+  {
+    "question": "Một người lái xe nhìn thấy biển báo này và cho rằng nó có nghĩa là cấm đỗ cả ô tô và xe máy. Điều này có đúng không?",
+    "image": "car_motorcycle_no_entry.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Biển báo này không đơn giản có nghĩa là “cấm đỗ xe”. Nó cho biết hạn chế về việc đi vào/sử dụng của phương tiện (không phải quy định chỉ liên quan đến đỗ xe). Hiểu sai loại biển báo là lỗi phổ biến."
+  },
+  {
+    "question": "Trên đường một chiều, người lái xe sử dụng phần bên phải của mặt đường. Điều này có được phép không?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Trên đường một chiều, phương tiện có thể sử dụng cả hai bên của mặt đường trừ khi có quy định hạn chế khác."
+  },
+  {
+    "question": "Một cảnh sát đang ra tín hiệu tay như trong hình. Người lái xe cho rằng tín hiệu này có nghĩa giống đèn đỏ đối với hướng được chỉ bằng mũi tên. Điều này có đúng không?",
+    "image": "police_hand_signal.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Tín hiệu tay của cảnh sát phải được hiểu dựa trên vị trí và động tác của cảnh sát. Tín hiệu này không tương ứng với đèn đỏ cho hướng được chỉ định."
+  },
+  {
+    "question": "Khi rẽ phải tại giao lộ, người lái xe tránh cản trở các xe đối diện đi thẳng hoặc rẽ trái. Điều này có đúng không?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Khi rẽ phải, người lái xe phải nhường đường cho các phương tiện đối diện đi thẳng hoặc rẽ trái để đảm bảo lưu thông an toàn."
+  },
+  {
+    "question": "Một người lái xe nhìn thấy biển báo giao thông này và cho rằng nó có nghĩa là chỉ được phép đi thẳng. Điều này có đúng không?",
+    "image": "big_arrow_road_sign.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Biển báo này không hoàn toàn có nghĩa là “chỉ đi thẳng”. Nó cho biết bố trí đường hoặc hướng dẫn hướng đi cụ thể, không phải quy định hạn chế chỉ được đi thẳng."
+  },
+  {
+    "question": "Một người lái xe đi qua khu vực vỉa hè để vào hoặc ra khỏi một địa điểm, ngay cả khi không có người đi bộ. Điều này có được phép không?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Phương tiện có thể đi qua vỉa hè khi vào hoặc ra khỏi khu đất, nhưng luôn phải nhường đường cho người đi bộ và đi cẩn thận."
+  },
+  {
+    "question": "Các xe phía trước đang giảm tốc hoặc dừng gần giao lộ. Một người lái xe chen lên phía trước họ để đi trước. Điều này có được phép không?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Chen lên phía trước các xe đang dừng hoặc giảm tốc là nguy hiểm và không được phép. Người lái xe phải tuân theo thứ tự phù hợp và duy trì hành vi lái xe an toàn."
+  },
+  {
+    "question": "Tại giao lộ, một cảnh sát đang điều khiển giao thông với cả hai tay giơ thẳng lên. Người lái xe cho rằng tín hiệu này có nghĩa giống đèn vàng đối với dòng xe di chuyển song song với cảnh sát. Điều này có đúng không?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Tín hiệu tay của cảnh sát không phải lúc nào cũng tương ứng trực tiếp với ý nghĩa của đèn giao thông. Tín hiệu cụ thể này không đại diện cho đèn vàng đối với hướng đó."
+  },
+  {
+    "question": "Khi điều khiển xe số tự động, người lái xe sử dụng vị trí Drive để đi tới và vị trí Reverse để lùi xe. Điều này có đúng không?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Xe số tự động sử dụng “D” (Drive) để di chuyển về phía trước và “R” (Reverse) để lùi xe. Đây là cách vận hành đúng."
+  },
+  {
+    "question": "Người lái duy trì tư thế đúng khi điều khiển xe hai bánh để giữ thăng bằng và kiểm soát xe trong khi phanh. Điều này có đúng không?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Tư thế đúng giúp duy trì thăng bằng và ngăn người lái bị chúi về phía trước khi phanh gấp."
+  },
+  {
+    "question": "Trong khi lái xe, bạn đã sử dụng hệ thống dẫn đường và tìm kiếm tuyến đường vì bị lạc. Điều này có được chấp nhận không?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Việc thao tác hệ thống dẫn đường khi đang lái xe làm mất tập trung và rất nguy hiểm. Bạn phải dừng xe ở nơi an toàn trước khi điều chỉnh hoặc kiểm tra lộ trình."
+  },
+  {
+    "question": "Trong tình huống này, xe A không cần nhường đường cho xe B. Điều này có đúng không?",
+    "image": "hidari_yuusen.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Dựa trên quy tắc giao lộ được thể hiện, xe A có quyền ưu tiên và không cần nhường đường cho xe B."
+  },
+  {
+    "question": "Nếu xe được trang bị túi khí, thì không cần phải thắt dây an toàn. Điều này có đúng không?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Dây an toàn luôn là bắt buộc. Túi khí chỉ là thiết bị an toàn bổ sung và không thay thế cho dây an toàn."
+  },
+  {
+    "question": "Khi nhìn từ phía sau, nếu người lái xe đưa cánh tay chéo xuống dưới, điều đó cho biết xe đang giảm tốc độ hoặc sắp dừng lại. Điều này có đúng không?",
+    "image": "hands_down.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Tín hiệu tay này cho biết xe đang giảm tốc hoặc dừng lại khi đèn phanh không đủ rõ hoặc không nhìn thấy được."
+  },
+  {
+    "question": "Bạn luôn phải bấm còi khi đi qua giao lộ, khúc cua hoặc đỉnh dốc có tầm nhìn kém. Điều này có đúng không?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Còi chỉ được sử dụng khi cần thiết để đảm bảo an toàn. Không phải lúc nào cũng bắt buộc phải bấm còi trừ khi có chỉ dẫn cụ thể hoặc cần để tránh nguy hiểm."
+  },
+  {
+    "question": "Trên con đường có biển báo này, bạn phải dừng ngay trước vạch dừng. Nếu không có vạch dừng, bạn phải dừng ngay trước giao lộ. Điều này có đúng không?",
+    "image": "stop_sign.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Việc dừng hẳn là bắt buộc. Nếu không có vạch dừng, hãy dừng ở vị trí có thể kiểm tra giao thông an toàn."
+  },
+  {
+    "question": "Nếu bạn có thể xác nhận an toàn, bạn được phép đi qua xe buýt trường học đang dừng mà không cần giảm tốc độ. Điều này có đúng không?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Ngay cả khi đường có vẻ trống, xe buýt trường học đang dừng cho thấy có thể có trẻ em di chuyển. Trẻ em có thể:\n\n- Bất ngờ băng qua đường\n- Xuất hiện từ điểm mù"
+  },
+  {
+    "question": "Như trong hình, bạn không được đi sang phần bên phải của đường để vượt xe khác. Điều này có đúng không?",
+    "image": "white_centerline.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Nói chung, quy tắc vượt xe phụ thuộc vào vạch kẻ đường và điều kiện giao thông. Trong tình huống này:\n\n- Không có biển cấm hoặc vạch cấm vượt\n- Có thể sử dụng phần bên phải nếu an toàn"
+  },
+  {
+    "question": "9. Trên đường một chiều, phương tiện được phép sử dụng phần bên phải của mặt đường. Điều này có đúng không?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Vì tất cả phương tiện đều di chuyển cùng chiều, xe có thể sử dụng phần bên phải khi phù hợp. Tuy nhiên, người lái xe vẫn phải tuân theo vạch kẻ làn đường và lái xe an toàn."
+  },
+  {
+    "question": "Xe đang đi ở làn A có thể chuyển sang làn B. Điều này có đúng không?",
+    "image": "can_change.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Được phép chuyển làn nếu không có vạch cấm và bảo đảm an toàn. Người lái xe phải kiểm tra xung quanh và bật tín hiệu trước khi chuyển làn."
+  },
+  {
+    "question": "Vì bạn đã đi vào giao lộ, bạn có thể rẽ phải trước xe đối diện. Điều này có đúng không?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Việc đi vào giao lộ không cho bạn quyền ưu tiên trước xe đối diện. Bạn phải nhường cho các xe đi thẳng hoặc rẽ trái."
+  },
+  {
+    "question": "Trong tình huống này, xe A không thể chuyển làn hoặc rẽ phải tại giao lộ. Điều này có đúng không?",
+    "image": "change_lane.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Mũi tên và vạch kẻ làn đường giới hạn hướng đi được phép. Người lái xe phải tuân theo các chỉ dẫn này và không được tự ý chuyển làn hoặc rẽ."
+  },
+  {
+    "question": "Bạn được phép vượt các xe khác hoặc xe gắn máy trên đoạn đường dốc xuống nguy hiểm. Điều này có đúng không?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Đường dốc xuống làm tăng tốc độ và giảm khả năng kiểm soát, khiến việc vượt xe trở nên nguy hiểm. Vì an toàn, cần tránh vượt trong trường hợp này."
+  },
+  {
+    "question": "Biển báo giao thông này cho biết đường cấm xe cộ đi vào. Điều này có đúng không?",
+    "image": "no_vehicle_entry.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Biển báo này thường chỉ sự cấm đoán (như cấm vào hoặc hạn chế), nhưng không nhất thiết có nghĩa là toàn bộ con đường bị đóng cho tất cả các phương tiện. Câu này quá tuyệt đối."
+  },
+  {
+    "question": "Bạn được phép dừng xe trong “khu vực cấm dừng” trước đồn cảnh sát hoặc trạm cứu hỏa nếu không có xe khẩn cấp đi ra. Điều này có đúng không?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Việc dừng xe tại những khu vực này luôn bị cấm để đảm bảo xe khẩn cấp có thể ra vào ngay lập tức. Quy định này áp dụng dù có hay không có xe khẩn cấp."
+  },
+  {
+    "question": "Biển báo và vạch kẻ đường này cho biết làn đường chỉ dành cho xe buýt, và các phương tiện khác (ngoại trừ xe gắn máy, xe chuyên dụng hạng nhẹ và xe hạng nhẹ) không được phép sử dụng. Điều này có đúng không?",
+    "image": "bus_lane.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Làn đường dành cho xe buýt được dành riêng cho các loại xe nhất định, và các xe khác bị hạn chế ngoại trừ một số loại được phép. Người lái xe phải tuân theo biển báo và vạch kẻ chỉ định làn đường."
+  },
+  {
+    "question": "Nếu có xe đang dừng tại hoặc trước vạch qua đường, bạn phải dừng lại trước khi đi qua xe đó. Điều này có đúng không?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Xe đang dừng có thể đang nhường người đi bộ, vì vậy đi qua mà không dừng lại là nguy hiểm. Bạn phải dừng để kiểm tra người đi bộ trước khi tiếp tục."
+  },
+  {
+    "question": "Vạch kẻ đường này chỉ “khu vực cấm đi vào”. Điều này có đúng không?",
+    "image": "no_entry_zone.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Vạch này cho biết khu vực mà xe không được đi vào. Nó được dùng để điều tiết giao thông và ngăn ngừa di chuyển nguy hiểm."
+  },
+  {
+    "question": "Khi rẽ trái, bạn nên di chuyển sang bên trái của đường ngay trước khi rẽ. Điều này có đúng không?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Bạn nên đưa xe vào vị trí gần bên trái từ sớm, không chỉ ngay trước khi rẽ. Việc vào vị trí đúng phải được thực hiện sớm và nhẹ nhàng."
+  },
+  {
+    "question": "Biển báo này có nghĩa là tất cả phương tiện không được rẽ phải hoặc rẽ trái. Điều này có đúng không?",
+    "image": "direction_left_and_right.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Biển báo này cho biết phương tiện phải rẽ trái hoặc rẽ phải và không được đi thẳng. Câu này sai vì thực tế việc rẽ là bắt buộc."
+  },
+  {
+    "question": "Khi đi qua người sử dụng gậy trắng hoặc gậy vàng hoặc người ngồi xe lăn, bạn phải giảm tốc độ hoặc dừng lại để bảo đảm an toàn cho họ. Điều này có đúng không?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Những người này có thể bị hạn chế về khả năng di chuyển hoặc quan sát, vì vậy cần đặc biệt cẩn thận. Người lái xe phải giảm tốc độ hoặc dừng lại để họ đi qua an toàn."
+  },
+  {
+    "question": "Biển báo giao thông này và vạch kẻ đường có cùng ý nghĩa. Điều này có đúng không?",
+    "image": "50.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Cả biển báo hình tròn và vạch “50” đều chỉ tốc độ tối đa cho phép. Vạch kẻ đường nhấn mạnh cùng quy định được thể hiện trên biển báo."
+  },
+  {
+    "question": "Khi lùi xe trong trường hợp tầm nhìn phía sau kém hoặc lùi ra từ nơi chật hẹp, tốt hơn nên nhờ hành khách kiểm tra an toàn. Điều này có đúng không?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Hành khách có thể giúp kiểm tra các điểm mù mà người lái không nhìn thấy. Điều này giúp giảm nguy cơ va chạm với người đi bộ hoặc chướng ngại vật."
+  },
+  {
+    "question": "Khi xe khẩn cấp tiến đến trên con đường không phải đường một chiều, bạn phải tấp vào bên trái để nhường đường nếu không ở gần giao lộ. Điều này có đúng không?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Người lái xe phải di chuyển sang bên trái và dừng lại để xe khẩn cấp đi qua an toàn. Điều này giúp bảo đảm lộ trình nhanh chóng và thông thoáng cho xe khẩn cấp."
+  },
+  {
+    "question": "Khi đi qua con đường có biển báo này, bạn không cần giảm tốc độ nếu có thể quan sát hoàn toàn bên trái và bên phải. Điều này có đúng không?",
+    "image": "yokei.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Biển báo này yêu cầu bạn phải giảm tốc độ bất kể tầm nhìn thế nào. Bạn phải có khả năng dừng lại ngay lập tức nếu cần."
+  },
+  {
+    "question": "Tại nơi có biển báo này, bạn không được đi sang phần bên phải của đường để vượt xe. Điều này có đúng không?",
+    "image": "no_overtaking.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Biển báo này cấm vượt bằng cách đi sang phần bên phải của đường. Người lái xe phải giữ nguyên làn và tuân theo quy định."
+  },
+  {
+    "question": "Khi băng qua vỉa hè để vào bãi đỗ xe, bạn không cần dừng lại nếu có thể xác nhận an toàn. Điều này có đúng không?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Bạn phải dừng lại trước khi băng qua vỉa hè để kiểm tra người đi bộ. Người đi bộ luôn được ưu tiên trong tình huống này."
+  },
+  {
+    "question": "Khoảng cách dừng xe là quãng đường xe đi được sau khi người lái phản ứng và đạp phanh, cộng với quãng đường cần thiết để xe dừng hẳn. Điều này có đúng không?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Khoảng cách dừng xe bao gồm khoảng cách phản ứng và khoảng cách phanh cộng lại. Cả hai đều tăng theo tốc độ và điều kiện mặt đường."
+  },
+  {
+    "question": "Khi đi qua người đi bộ đang đi trên phần lề đường, bạn không cần giữ khoảng cách an toàn hoặc giảm tốc độ. Điều này có đúng không?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Người lái xe phải giữ khoảng cách an toàn và giảm tốc độ khi đi qua người đi bộ. Điều này giúp tránh tai nạn nếu người đi bộ bất ngờ di chuyển."
+  },
+  {
+    "question": "Khi đóng cửa xe, tốt hơn nên đóng mạnh mà không dừng nhẹ trước khi cửa khớp vào. Điều này có đúng không?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Cửa xe nên được đóng cẩn thận để bảo đảm đóng khít đúng cách mà không gây hư hỏng hoặc nguy hiểm. Đóng sầm cửa có thể gây thương tích hoặc hỏng hóc cơ khí."
+  },
+  {
+    "question": "Khi rẽ trái để rời khỏi đường, bạn nên di chuyển càng sát bên trái càng tốt và giảm tốc độ. Điều này có đúng không?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Việc đi sát bên trái giúp giảm cản trở giao thông khác và tăng độ an toàn. Giảm tốc độ giúp kiểm soát xe tốt hơn khi rẽ."
+  },
+  {
+    "question": "Trước khi khởi động xe số tự động, bạn nên xác nhận bằng mắt vị trí của chân phanh và chân ga để tránh đạp nhầm. Điều này có đúng không?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Xác nhận vị trí bàn đạp giúp tránh đạp nhầm chân ga hoặc chân phanh, điều có thể gây tăng tốc ngoài ý muốn. Điều này đặc biệt quan trọng trước khi khởi động động cơ."
+  },
+  {
+    "question": "Trong tình huống này, xe đi từ phía A phải giảm tốc độ. Điều này có đúng không?",
+    "image": "poor_visibility.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Xe trên đường ưu tiên không nhất thiết phải giảm tốc độ. Thay vào đó, xe từ phía không ưu tiên phải nhường đường."
+  },
+  {
+    "question": "Người học lái xe phải có người lái xe có kinh nghiệm ngồi ở ghế phụ, và không có yêu cầu cụ thể nào đối với người có kinh nghiệm đó. Điều này có đúng không?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Người đi cùng phải đáp ứng các yêu cầu cụ thể, chẳng hạn như có đủ kinh nghiệm lái xe. Không phải bất kỳ ai cũng có thể giám sát người học lái."
+  },
+  {
+    "question": "Biển báo này cho biết phía trước có trường học, mẫu giáo hoặc nhà trẻ. Điều này có đúng không?",
+    "image": "pedestrian.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Biển báo này cảnh báo có trẻ em ở gần, nhưng không nhất thiết có nghĩa là phía trước có trường học hoặc nhà trẻ. Người lái xe vẫn phải cẩn thận."
+  },
+  {
+    "question": "Trong tình huống này, xe được ký hiệu A đang đỗ xe trái phép. Điều này có đúng không?",
+    "image": "illegal_parking.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Biển báo được hiển thị cho biết khu vực đó có quy định cấm đỗ xe. Đỗ xe tại đó là vi phạm quy định và là trái phép."
+  },
+  {
+    "question": "Bạn phải tuân theo tất cả các điều kiện ghi trên bằng lái xe của mình (như giới hạn chỉ lái xe số tự động hoặc phải đeo kính). Điều này có đúng không?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Các điều kiện trên bằng lái có giá trị pháp lý và luôn phải được tuân thủ khi lái xe. Vi phạm các điều kiện này được xem là hành vi vi phạm luật."
+  },
+  {
+    "question": "Khi gặp đèn tín hiệu đỏ nhấp nháy, bạn phải dừng tại vạch dừng và không được cản trở giao thông khác. Điều này có đúng không?",
+    "image": "flashing_red_light.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Đèn đỏ nhấp nháy được xem giống như biển dừng. Bạn phải dừng hẳn và chỉ tiếp tục khi an toàn."
+  },
+  {
+    "question": "Biển báo này cho biết phía trước có nơi xe đạp băng qua đường. Điều này có đúng không?",
+    "image": "bicycle.png",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Biển báo cảnh báo người lái xe chú ý xe đạp băng qua đường. Người lái xe nên giảm tốc độ và chuẩn bị nhường đường."
+  },
+  {
+    "question": "Việc dừng xe bị cấm trên con đường có loại vạch kẻ này. Điều này có đúng không?",
+    "image": "stopping.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Loại vạch này thường chỉ các hạn chế liên quan đến dừng hoặc đỗ xe gần khu vực cụ thể, nhưng không phải lúc nào cũng có nghĩa là hoàn toàn cấm dừng xe. Quy định chính xác phụ thuộc vào vị trí và hoàn cảnh."
+  },
+  {
+    "question": "Biển báo này có nghĩa là đường cấm người đi bộ. Điều này có đúng không?",
+    "image": "oudan_kinshi.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Biển báo này cụ thể có nghĩa là “cấm băng qua đường đối với người đi bộ”, không phải cấm hoàn toàn người đi bộ trên con đường đó. Nó chỉ hạn chế việc băng qua tại vị trí đó."
+  },
+  {
+    "question": "Biển báo này không cấm xe gắn máy đi trên con đường này. Điều này có đúng không?",
+    "image": "moped_can_enter.png",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Biển báo cấm ô tô nhưng không bao gồm xe gắn máy trong phạm vi cấm. Vì vậy, xe gắn máy được phép đi trừ khi có quy định khác hạn chế."
+  },
+  {
+    "question": "Hai biển báo này có cùng ý nghĩa. Điều này có đúng không?",
+    "image": "slash_arrow_right.png",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Biển báo hình tròn cho biết kết thúc một hạn chế, trong khi bảng mũi tên chỉ hướng hoặc chỉ dẫn bổ sung. Chúng không có cùng ý nghĩa."
+  },
+  {
+    "question": "Nếu tín hiệu tay của cảnh sát mâu thuẫn với đèn giao thông, đèn giao thông sẽ được ưu tiên. Điều này có đúng không?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Chỉ dẫn của cảnh sát luôn được ưu tiên hơn đèn giao thông và biển báo. Người lái xe phải tuân theo tín hiệu của cảnh sát trước."
+  },
+  {
+    "question": "Người học lái xe phải gắn biển báo này ở vị trí quy định phía trước và phía sau xe trong khi luyện tập. Điều này có đúng không?",
+    "image": "karimen.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Người học lái xe theo luật bắt buộc phải gắn rõ biển báo ở cả phía trước và phía sau. Điều này giúp cảnh báo các tài xế khác và bảo đảm an toàn."
+  },
+  {
+    "question": "Khi đi qua đường ray xe lửa, bạn nên kiểm tra giao thông phía trước và xe ngược chiều để tránh dừng lại trên đường ray. Điều này có đúng không?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Người lái xe phải bảo đảm có đủ khoảng trống phía sau đường ray trước khi đi vào. Dừng trên đường ray cực kỳ nguy hiểm và bị cấm."
+  },
+  {
+    "question": "Tín hiệu tay của cảnh sát này có nghĩa là đèn đỏ (dừng lại) đối với hướng giao thông được chỉ bằng mũi tên. Điều này có đúng không?",
+    "image": "police_stop_hand_signal.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Khi cảnh sát giơ cả hai tay thẳng đứng, giao thông từ một số hướng nhất định phải dừng lại. Điều này hoạt động giống như tín hiệu đèn đỏ đối với các hướng đó."
+  },
+  {
+    "question": "Khi đến gần giao lộ và đèn chuyển sang vàng, bạn được phép đi tiếp nếu không thể dừng an toàn trước vạch dừng. Điều này có đúng không?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Đèn vàng có nghĩa là “dừng lại nếu có thể thực hiện an toàn”. Nếu việc dừng đột ngột gây nguy hiểm, bạn có thể tiếp tục qua giao lộ."
+  },
+  {
+    "question": "Trên con đường có biển báo này, các phương tiện bị cấm đi thẳng hoặc rẽ trái. Điều này có đúng không?",
+    "image": "no_crossing_sign.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Biển báo này chỉ cấm rẽ phải, không cấm đi thẳng hoặc rẽ trái. Người lái xe có thể đi thẳng hoặc rẽ trái trừ khi có hạn chế khác."
+  },
+  {
+    "question": "Người có bằng lái xe thông thường được phép lái mô tô thông thường. Điều này có đúng không?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Bằng lái xe thông thường không cho phép lái mô tô. Cần có giấy phép lái mô tô riêng."
+  },
+  {
+    "question": "Nếu tầm nhìn tại đường ray xe lửa thông thoáng, bạn có thể đi qua chỉ bằng cách giảm tốc độ và quan sát cả hai phía.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Người lái xe thường bắt buộc phải dừng lại trước khi băng qua đường ray và xác nhận không có tàu đang đến gần. Chỉ giảm tốc độ là không đủ trong điều kiện thông thường."
+  },
+  {
+    "question": "Khi người đi bộ tại vạch qua đường dừng lại sau khi nhận thấy xe của bạn, bạn có thể tiếp tục lái xe với cùng tốc độ.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Người lái xe vẫn phải giảm tốc độ hoặc dừng lại vì người đi bộ gần vạch qua đường. Người đi bộ có thể do dự hoặc tạm dừng, nhưng họ vẫn có quyền ưu tiên."
+  },
+  {
+    "question": "Tại giao lộ có đèn tín hiệu nhưng không có vạch dừng, bạn nên dừng xe ngay bên dưới đèn giao thông.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Khi không có vạch dừng, xe phải dừng ngay trước khi đi vào giao lộ, không phải ngay dưới đèn tín hiệu."
+  },
+  {
+    "question": "Tín hiệu tay được hiển thị từ phía sau cho biết người lái xe có ý định rẽ phải, quay đầu hoặc chuyển sang làn bên phải.",
+    "image": "hand_upward.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Tín hiệu tay này không cho biết rẽ phải hoặc chuyển làn sang phải. Đây là tín hiệu rẽ trái. Người lái xe phải hiểu chính xác tín hiệu tay để tránh nhầm lẫn và tai nạn."
+  },
+  {
+    "question": "Ngay cả khi hiện tại không nhìn thấy người đi bộ, người lái xe vẫn nên giảm tốc độ và cẩn thận khi đi qua khu vực an toàn.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Người đi bộ có thể bất ngờ xuất hiện từ phía sau chướng ngại vật hoặc bước ra lòng đường ngoài dự đoán. Giảm tốc độ gần khu vực an toàn giúp người lái xe phản ứng kịp thời."
+  },
+  {
+    "question": "Các phương tiện ngoài xe buýt và một số phương tiện được phép không được sử dụng làn đường dành riêng cho xe buýt, ngoại trừ khi rẽ hoặc trong trường hợp bất khả kháng.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Làn ưu tiên xe buýt chủ yếu dành cho các phương tiện được phép nhằm giúp giao thông công cộng lưu thông hiệu quả. Các xe khác chỉ được vào trong những trường hợp hạn chế như rẽ hoặc tránh chướng ngại vật."
+  },
+  {
+    "question": "Biển báo giao thông được hiển thị có nghĩa là hoàn toàn cấm vượt các phương tiện khác trong khu vực đó.",
+    "image": "no_overtaking.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Biển báo này cụ thể cấm vượt hoặc đi qua nguy hiểm theo một cách nhất định, chứ không phải mọi hình thức vượt trong mọi tình huống. Người lái xe cần hiểu chính xác ý nghĩa của biển báo trước khi hành động."
+  },
+  {
+    "question": "Trên con đường có ba làn cùng chiều, giao thông thường được tổ chức sao cho xe chậm đi bên trái còn xe nhanh sử dụng các làn xa hơn về bên phải.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Việc sử dụng làn đường được thiết kế để giao thông lưu thông trơn tru và an toàn. Xe chạy nhanh thường đi ở các làn bên phải hơn, trong khi xe chậm đi về phía bên trái."
+  },
+  {
+    "question": "Trên khúc cua gấp bên trái có ký hiệu đường này, người lái xe có thể sử dụng một phần phần đường đối diện nếu cần thiết, đồng thời chú ý kỹ xe đang tới.",
+    "image": "curve.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Trên những khúc cua hẹp hoặc gấp, đôi khi cần thêm không gian để quay đầu xe. Người lái xe vẫn phải đi cẩn thận và quan sát xe từ hướng ngược lại."
+  },
+  {
+    "question": "Ngay cả khi đang lái trong làn ưu tiên giao thông, bạn không cần nhường đường cho xe khẩn cấp đang đến gần giao lộ.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Xe khẩn cấp luôn được ưu tiên khi sử dụng còi và đèn cảnh báo. Người lái xe phải nhường đường an toàn bất kể làn đường hay quyền ưu tiên giao thông."
+  },
+  {
+    "question": "Bạn được phép cắt qua vạch vàng liền bất cứ khi nào rẽ trái hoặc rẽ phải.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Vạch vàng liền thường cấm chuyển làn hoặc cắt qua, ngoại trừ trong những trường hợp rất hạn chế. Người lái xe cần tuân thủ vạch kẻ đường để tránh thao tác nguy hiểm."
+  },
+  {
+    "question": "Nếu xe phía trước đang bật tín hiệu để chuyển sang làn khác nhằm rẽ, bạn nên tránh cản đường trừ khi việc tránh xe đột ngột đòi hỏi phanh hoặc đánh lái nguy hiểm.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Người lái xe nên hợp tác với các xe chuẩn bị rẽ bằng cách tạo điều kiện chuyển làn an toàn khi có thể. Lái xe ổn định và dễ đoán giúp ngăn ngừa va chạm."
+  },
+  {
+    "question": "Khi chuẩn bị rẽ trái tại giao lộ, bật tín hiệu khoảng ba giây trước khi rẽ là đủ.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Đèn tín hiệu rẽ phải được bật đủ sớm để thông báo rõ ý định của bạn cho giao thông xung quanh. Trong nhiều trường hợp, cần bật tín hiệu sớm hơn ba giây để bảo đảm an toàn."
+  },
+  {
+    "question": "Khi đi qua các xe đang đỗ hoặc dừng, người lái xe nên giảm tốc độ và cảnh giác với các nguy hiểm bất ngờ như cửa xe mở hoặc người đi bộ bước ra lòng đường.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Người đi bộ có thể bất ngờ xuất hiện từ phía sau xe đỗ và cửa xe có thể mở đột ngột. Giảm tốc độ giúp người lái xe có thêm thời gian phản ứng an toàn."
+  },
+  {
+    "question": "Ngay cả khi bạn vào giao lộ trước để rẽ phải, bạn vẫn phải tránh cản trở các xe đối diện đang đi thẳng.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Xe đi thẳng thường có quyền ưu tiên hơn xe rẽ phải. Người lái xe rẽ phải phải chờ đến khi an toàn và tránh cản trở giao thông đối diện."
+  },
+  {
+    "question": "Được phép vượt xe khác tại hoặc gần giao lộ khi đang đi trên đường ưu tiên giao thông.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Một số ngoại lệ cho phép vượt gần giao lộ trên đường ưu tiên nơi giao thông được kiểm soát và tầm nhìn đủ tốt. Người lái xe vẫn phải thực hiện thao tác an toàn."
+  },
+  {
+    "question": "Vạch kẻ đường được hiển thị cho biết khu vực đó cấm đỗ xe.",
+    "image": "no_entry_zone.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Vạch được hiển thị là khu vực “Cấm đi vào”. Người lái xe cần phân biệt rõ các vạch liên quan đến dừng xe, đỗ xe hoặc hướng dẫn giao thông."
+  },
+  {
+    "question": "Những con đường có biển báo này thường cấm xe thông thường đi vào. Tuy nhiên, xe có thể đi vào với tốc độ chậm để đến khu vực đỗ xe được phép nếu có sự cho phép đặc biệt của cảnh sát.",
+    "image": "reserved_for_pedestrians.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Loại đường này chủ yếu dành cho người đi bộ và bị hạn chế tiếp cận. Xe chỉ được phép đi vào trong những điều kiện được cho phép cụ thể và phải di chuyển cẩn thận."
+  },
+  {
+    "question": "Trong va chạm, phần dây ngang hông của dây an toàn có thể tạo lực mạnh lên vùng bụng, vì vậy nó nên được đặt thấp ngang hông hoặc xương chậu.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Dây an toàn được đeo đúng cách sẽ phân tán lực va chạm an toàn hơn lên các phần cứng chắc của cơ thể. Đeo dây ngang hông quá cao có thể làm tăng nguy cơ chấn thương."
+  },
+  {
+    "question": "Người lái xe nên điều khiển phương tiện với sự lịch sự và hợp tác đối với người đi bộ và những người tham gia giao thông khác thay vì hành xử ích kỷ.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Lái xe an toàn không chỉ phụ thuộc vào việc tuân thủ luật mà còn ở sự quan tâm đến người khác. Lái xe hợp tác giúp giảm tai nạn và các vấn đề giao thông."
+  },
+  {
+    "question": "Ngay cả khi việc quay đầu hoặc băng qua đường được pháp luật cho phép, bạn không được thực hiện nếu điều đó gây cản trở giao thông xung quanh.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Người lái xe luôn phải cân nhắc an toàn và lưu lượng giao thông trước khi thực hiện thao tác. Những hành động cản trở hoặc gây nguy hiểm cho người khác cần phải tránh."
+  },
+  {
+    "question": "Người lái xe luôn bắt buộc phải giảm tốc độ khi đi lên dốc.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Không phải lúc nào cũng bắt buộc phải giảm tốc độ khi lên dốc. Người lái xe nên điều chỉnh tốc độ phù hợp với điều kiện đường, giao thông và xe."
+  },
+  {
+    "question": "Biển báo được hiển thị cảnh báo người lái xe về khúc cua bên trái phía trước.",
+    "image": "right_direction.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Biển báo này không đơn thuần là biển cảnh báo khúc cua. Đây là biển chỉ hướng bắt buộc yêu cầu xe đi theo hướng được chỉ định."
+  },
+  {
+    "question": "Bất kỳ ai có bằng lái xe ô tô hoặc mô tô dưới một năm đều bắt buộc phải gắn biển người mới lái.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Quy định gắn biển người mới lái áp dụng cho một số loại bằng lái nhất định, chủ yếu là người lái ô tô thông thường, chứ không tự động áp dụng cho tất cả người có bằng mô tô."
+  },
+  {
+    "question": "Nếu đèn tín hiệu chuyển sang vàng khi bạn đã quá gần để dừng an toàn, bạn có thể tiếp tục đi qua giao lộ một cách cẩn thận.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Phanh gấp đột ngột có thể gây nguy hiểm cho giao thông xung quanh. Người lái xe có thể tiếp tục đi cẩn thận nếu không thể dừng an toàn trước vạch."
+  },
+  {
+    "question": "Sau khi vào giao lộ bằng đèn xanh để rẽ phải, tôi đã dừng bên trong giao lộ vì tín hiệu rẽ phải riêng biệt là màu đỏ.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Người lái xe phải tuân theo tín hiệu áp dụng trước khi vào giao lộ. Đi vào rồi dừng không đúng cách trong giao lộ có thể cản trở giao thông và gây nguy hiểm."
+  },
+  {
+    "question": "Biển cảnh báo được hiển thị có nghĩa là con đường phía trước là đường cụt.",
+    "image": "general_caution.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Biển báo này là biển cảnh báo chung dùng để báo hiệu có thể có nguy hiểm phía trước. Nó không cụ thể chỉ đường cụt."
+  },
+  {
+    "question": "Khi rẽ trái hoặc rẽ phải, bánh sau phía trong sẽ di chuyển ra ngoài xa hơn bánh trước phía trong.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Khi rẽ, bánh sau đi theo quỹ đạo gần phía trong khúc cua hơn bánh trước. Người lái xe cần chú ý sự khác biệt này, đặc biệt trên đường hẹp hoặc góc cua."
+  },
+  {
+    "question": "Trong tình huống minh họa, Xe A không được phép đi sang phần đường đối diện để vượt Xe B.",
+    "image": "solid_white_centerline.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Vạch trắng liền ở giữa đường cho biết cấm đi sang làn đối diện. Vì Xe A phải vượt qua vạch giữa đường để vượt Xe B nên việc vượt xe không được phép trong tình huống này."
+  },
+  {
+    "question": "Việc vượt xe khác bị cấm trên đường dốc xuống nguy hiểm, nhưng có thể được phép trên đoạn dốc lên nguy hiểm.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Đường dốc xuống nguy hiểm có thể làm giảm khả năng kiểm soát và tầm nhìn, khiến việc vượt xe đặc biệt nguy hiểm. Một số khu vực dốc lên có thể cho phép vượt nếu điều kiện an toàn và tầm nhìn phù hợp."
+  },
+  {
+    "question": "Ngay cả khi giới hạn tốc độ được đăng là 40 km/h, người điều khiển xe gắn máy thông thường không được vượt quá 30 km/h.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Một số loại phương tiện có giới hạn tốc độ pháp lý riêng bất kể giới hạn tốc độ của đường. Người lái xe phải tuân theo quy định áp dụng cho loại xe của mình."
+  },
+  {
+    "question": "Tín hiệu tay được hiển thị của cảnh sát có cùng ý nghĩa với đèn vàng đối với các xe đối diện cảnh sát.",
+    "image": "police_arms_raised.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Cử chỉ này thường có nghĩa là giao thông nên chuẩn bị dừng vì chu kỳ tín hiệu đang thay đổi. Xe chưa vào giao lộ phải dừng lại, còn xe đã ở trong giao lộ có thể tiếp tục cẩn thận để rời khỏi giao lộ."
+  },
+  {
+    "question": "Nếu không có người đi bộ ở gần, người lái xe không cần dừng ngắn trước khi băng qua vỉa hè hoặc phần lề đường khi ra vào khu vực ven đường.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Người lái xe bắt buộc phải kiểm tra an toàn cẩn thận trước khi băng qua vỉa hè hoặc lề đường, ngay cả khi không nhìn thấy người đi bộ ngay lập tức. Việc dừng ngắn giúp ngăn ngừa tai nạn."
+  },
+  {
+    "question": "Bất cứ khi nào có người đi bộ gần lề đường, người lái xe luôn phải di chuyển với tốc độ rất chậm.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Người lái xe nên điều chỉnh tốc độ phù hợp với tình huống và duy trì lái xe an toàn, nhưng pháp luật không phải lúc nào cũng yêu cầu chạy cực chậm trong mọi trường hợp. An toàn và sự cẩn thận phù hợp mới là yêu cầu chính."
+  },
+  {
+    "question": "Lái xe an toàn đơn giản chỉ là chạy đúng tốc độ giới hạn hoặc tốc độ tối đa theo luật.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Tốc độ an toàn phụ thuộc vào điều kiện đường, thời tiết, giao thông và tầm nhìn. Trong nhiều tình huống, cần lái xe dưới tốc độ tối đa để bảo đảm an toàn."
+  },
+  {
+    "question": "Vạch kẻ đường được hiển thị cho biết đoạn đường cấm quay đầu đã kết thúc.",
+    "image": "reversible_lane.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Vạch kẻ mặt đường này thông báo rằng quy định cấm quay đầu không còn áp dụng sau điểm đó. Người lái xe vẫn phải xác nhận việc quay đầu là an toàn và hợp pháp trước khi thực hiện."
+  },
+  {
+    "question": "Trên đường công cộng thông thường, tốc độ tối đa tiêu chuẩn cho xe chở khách là 60 km/h trừ khi có biển báo giới hạn tốc độ khác.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Tại Nhật Bản, đường thông thường nhìn chung có giới hạn tốc độ mặc định là 60 km/h đối với ô tô thông thường. Tuy nhiên, người lái xe luôn phải tuân theo các biển báo giới hạn tốc độ khác nếu có."
+  },
+  {
+    "question": "Khi nhường đường cho xe khẩn cấp, người lái xe luôn phải di chuyển sang bên trái đường, kể cả trên đường một chiều.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Trên đường một chiều ở Nhật Bản, xe có thể di chuyển sang bất kỳ bên nào nếu cần để mở đường an toàn cho xe khẩn cấp. Quy tắc quan trọng là không được cản trở đường đi của họ."
+  },
+  {
+    "question": "Biển cảnh báo được hiển thị cảnh báo người lái xe rằng số làn đường phía trước sẽ giảm.",
+    "image": "lane_decreased.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Biển báo này cảnh báo rằng một làn sẽ nhập hoặc biến mất phía trước, yêu cầu người lái xe chuẩn bị giảm làn. Người lái xe nên kiểm tra xung quanh sớm và nhập làn an toàn."
+  },
+  {
+    "question": "Dây an toàn là bắt buộc đối với hành khách ghế trước, nhưng hành khách ghế sau không cần phải thắt.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Tại Nhật Bản, hành khách ở cả ghế trước và ghế sau nhìn chung đều bắt buộc phải thắt dây an toàn. Thắt dây an toàn giúp giảm đáng kể nguy cơ chấn thương nghiêm trọng khi va chạm."
+  },
+  {
+    "question": "Nếu làn đường của bạn bị chặn bởi xe đỗ hoặc chướng ngại vật khác, bạn có thể giảm tốc độ hoặc dừng lại và nhường cho xe đối diện đi trước rồi mới tiếp tục.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Người lái xe phải tránh cản trở giao thông đối diện khi đi vòng qua chướng ngại vật. Nhường đường khi cần thiết giúp ngăn ngừa va chạm trên đường hẹp."
+  },
+  {
+    "question": "Thông thường, người đăng ký bằng lái xe cỡ lớn phải ít nhất 21 tuổi và có vài năm kinh nghiệm lái xe, nhưng có thể có ngoại lệ đối với những người hoàn thành chương trình đào tạo được phê duyệt.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Nhật Bản cho phép nới lỏng một số yêu cầu đối với những người hoàn thành khóa đào tạo lái xe được cấp phép đặc biệt. Những chương trình này có thể rút ngắn yêu cầu về độ tuổi và thời gian kinh nghiệm lái xe."
+  },
+  {
+    "question": "Khi xe khẩn cấp đến gần ở ngoài giao lộ, chỉ cần di chuyển sang bên trái đường và không phải lúc nào cũng cần dừng hẳn nếu xe khẩn cấp có thể đi qua an toàn.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Người lái xe phải nhanh chóng và an toàn nhường đường cho xe khẩn cấp. Ngoài giao lộ, việc tấp vào và giảm tốc hoặc dừng khi cần thường được chấp nhận nếu tạo được lối đi thông thoáng."
+  },
+  {
+    "question": "Để hợp pháp điều khiển ô tô hoặc xe gắn máy thông thường trên đường công cộng, bạn phải có giấy phép phù hợp với loại xe đó.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Người lái xe ở Nhật Bản bắt buộc phải có giấy phép hợp lệ phù hợp với loại xe đang điều khiển. Lái xe không có giấy phép phù hợp là vi phạm giao thông."
+  },
+  {
+    "question": "Sau khi hoàn thành chuyển làn, quay đầu hoặc lùi xe, bạn nên giữ tín hiệu rẽ thêm khoảng ba giây nữa trước khi tắt.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Đèn tín hiệu nên được tắt ngay sau khi thao tác hoàn thành an toàn. Để tín hiệu bật không cần thiết có thể gây nhầm lẫn cho người tham gia giao thông khác."
+  },
+  {
+    "question": "Biểu tượng được hiển thị có nghĩa là các phương tiện khác hoàn toàn bị cấm vượt hoặc đi qua xe du lịch thông thường đó.",
+    "image": "senior.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Biểu tượng Koreisha dùng để nhận biết người lái xe cao tuổi tại Nhật Bản. Những người lái khác nên cẩn thận và thông cảm, nhưng việc vượt xe không tự động bị cấm miễn là thực hiện an toàn và hợp pháp."
+  },
+  {
+    "question": "Khi đi qua xe buýt trường học hoặc xe buýt mẫu giáo đang đón hoặc trả trẻ, người lái xe luôn phải dừng hẳn trước khi tiếp tục.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Người lái xe bắt buộc phải giảm tốc độ cẩn thận và chú ý kỹ đến an toàn, nhưng không phải lúc nào cũng bắt buộc dừng hẳn trừ khi tình huống yêu cầu. Trẻ em có thể di chuyển khó đoán gần xe."
+  },
+  {
+    "question": "Được phép đi vào hoặc lái xe qua khu vực an toàn dành cho người đi bộ nếu không còn lối đi nào khác.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Khu vực an toàn được dành để bảo vệ người đi bộ và không được lái xe đi qua ngoại trừ trong những trường hợp hợp pháp rất hạn chế. Người lái xe nên tránh đi vào các khu vực này để bảo đảm an toàn cho người đi bộ."
+  },
+  {
+    "question": "Người chỉ có bằng lái xe cá nhân thông thường không được phép điều khiển taxi, ngay cả khi mục đích chỉ là đưa xe đến gara sửa chữa.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Người có bằng lái không chuyên vẫn có thể lái xe taxi nếu xe đó không được sử dụng cho dịch vụ chở khách. Quy định hạn chế chủ yếu áp dụng đối với việc vận hành xe như phương tiện kinh doanh vận tải hành khách."
+  },
+  {
+    "question": "Biển báo được hiển thị chỉ đường trung tâm, nhưng vạch giữa đường thực tế không phải lúc nào cũng nằm chính xác ở giữa mặt đường.",
+    "image": "chuo_sen.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Cấu trúc đường có thể khác nhau tùy theo độ rộng làn hoặc điều kiện đường, vì vậy vạch giữa đường có thể lệch khỏi trung tâm vật lý của con đường. Người lái xe nên tuân thủ cẩn thận các ranh giới làn được đánh dấu."
+  }
+]

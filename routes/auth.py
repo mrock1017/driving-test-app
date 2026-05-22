@@ -178,6 +178,16 @@ def register():
 
                 db.session.commit()
 
+                # ✅ AUTO LOGIN
+
+                session['user_id'] = new_user.id
+
+                session['username'] = new_user.username
+
+                session['is_premium'] = False
+
+                return redirect('/menu')
+                
                 print("AUTO VERIFIED USER")
 
                 success = (

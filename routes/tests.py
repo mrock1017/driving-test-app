@@ -52,6 +52,29 @@ def menu():
 
         ui=get_ui()
     )
+
+# =========================================================
+# 🌐 SET LANGUAGE
+# =========================================================
+
+@tests.route('/set-language/<lang>')
+def set_language(lang):
+
+    allowed_languages = [
+
+        'en',
+        'tl',
+        'ne',
+        'vi',
+        'pt'
+    ]
+
+    if lang in allowed_languages:
+
+        session['lang'] = lang
+
+    return redirect('/menu')
+
 # =========================================================
 # 🚀 START MODE
 # =========================================================
@@ -285,9 +308,9 @@ def question():
     # =====================================================
     # 🏁 TEST FINISHED
     # =====================================================
-
     if current >= len(order):
-            # 👤 GUEST USERS
+
+    # 👤 GUEST USERS
 
         if 'user_id' not in session:
 
@@ -323,33 +346,28 @@ def question():
 
                 total=len(order)
             )
-        
-        return redirect('/result')
 
+        # 🔒 FREE REVIEWER LIMIT REACHED
+
+        if (
+
+            not session.get('is_premium')
+
+            and
+
+            "reviewer" in session['mode']
+
+        ):
+
+            return redirect('/upgrade')
+
+        return redirect('/result')
+    
     # =====================================================
     # 📦 CURRENT QUESTION
     # =====================================================
 
     q = questions[order[current]]
-
-    # =====================================================
-    # 📝 SAVE ANSWER
-    # =====================================================
-
-    if request.method == 'POST':
-
-        answer = request.form.get('answer')
-
-        answers = session.get('answers', [])
-
-        answers.append(answer)
-
-        session['answers'] = answers
-
-        session['current'] = current + 1
-
-        return redirect('/question')
-
     # =====================================================
     # ⏱ TIMER
     # =====================================================
@@ -368,6 +386,93 @@ def question():
         )
 
     # =====================================================
+    # 📝 SAVE ANSWER
+    # =====================================================
+
+    if request.method == 'POST':
+
+    # =====================================================
+    # 🧠 REVIEWER MODE
+    # =====================================================
+
+        if "reviewer" in session['mode']:
+
+            answer = request.form.get('answer')
+
+            correct_answer = q['answer']
+
+            is_correct = (
+
+                (answer or '').strip().lower()
+
+                ==
+
+                correct_answer.strip().lower()
+            )
+            # ✅ SAVE ANSWER
+
+            answers = session.get('answers', [])
+
+            answers.append(answer)
+
+            session['answers'] = answers
+
+            # ✅ MOVE TO NEXT QUESTION
+
+            session['current'] = current + 1
+
+            return render_template(
+
+                'question.html',
+
+                q=q,
+
+                index=current + 1,
+
+                total=len(order),
+
+                remaining=remaining_time,
+
+                is_reviewer=True,
+
+                feedback=True,
+
+                is_correct=is_correct,
+
+                user_answer=answer,
+
+                correct_answer=correct_answer,
+
+                explanation=q.get(
+                    'explanation',
+                    ''
+                ),
+
+                ai_explanation=q.get(
+                    'ai_explanation',
+                    ''
+                ),
+
+                ui=get_ui()
+            )
+
+        # =====================================================
+        # 📝 NORMAL MODE
+        # =====================================================
+
+        answer = request.form.get('answer')
+
+        answers = session.get('answers', [])
+
+        answers.append(answer)
+
+        session['answers'] = answers
+
+        session['current'] = current + 1
+
+        return redirect('/question')
+    
+    # =====================================================
     # 🎨 RENDER
     # =====================================================
 
@@ -382,6 +487,8 @@ def question():
         total=len(order),
 
         remaining_time=remaining_time,
+
+        mode=session['mode'],
 
         ui=get_ui()
     )
