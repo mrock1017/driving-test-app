@@ -10,8 +10,6 @@ from utils.questions import load_questions
 
 from languages.ui import get_ui
 
-import os
-import json
 import random
 import time
 
@@ -26,14 +24,6 @@ tests = Blueprint(
     __name__
 )
 
-@tests.route('/test-page')
-def test_page():
-
-    return """
-    <h1>
-    ✅ Tests Blueprint Works
-    </h1>
-    """
 # =========================================================
 # ✅ MENU
 # =========================================================
@@ -82,6 +72,14 @@ def set_language(lang):
 @tests.route('/start/<mode>/<test>')
 def start_mode(mode, test):
 
+    # =====================================================
+    # 🧹 CLEAR OLD SESSION
+    # =====================================================
+
+    session.pop('order', None)
+    session.pop('answers', None)
+    session.pop('current', None)
+
     language = session.get('lang', 'en')
 
     is_premium = session.get(
@@ -93,15 +91,15 @@ def start_mode(mode, test):
     # 🔒 PREMIUM PROTECTION
     # =====================================================
 
-    # Honmen = Premium Only
-
     if mode == "honmen":
 
         if not is_premium:
 
             return redirect('/upgrade')
 
-    # Free users can only access Karimen Test 1
+    # =====================================================
+    # 🔒 FREE USER LIMITS
+    # =====================================================
 
     if not is_premium:
 
@@ -147,37 +145,6 @@ def start_mode(mode, test):
 
         f"{test}.json"
     )
-
-    # =====================================================
-    # 🔒 GUEST SAMPLE MODE
-    # =====================================================
-
-    # Guests only get 10 random questions
-
-    if 'user_id' not in session:
-
-        questions = random.sample(
-
-            questions,
-
-            min(10, len(questions))
-        )
-
-    # =====================================================
-    # 🔒 FREE REVIEWER LIMIT
-    # =====================================================
-
-    # Free accounts only get 20 reviewer questions
-
-    elif not is_premium:
-
-        if "reviewer" in mode:
-
-            questions = questions[:20]
-
-    # =====================================================
-    # ❌ NO QUESTIONS
-    # =====================================================
 
     if len(questions) == 0:
 
@@ -235,7 +202,46 @@ def start_mode(mode, test):
         session['duration'] = 50 * 60
 
     # =====================================================
-    # 📝 OTHER MODES
+    # 🧠 REVIEWER MODE
+    # =====================================================
+
+    elif "reviewer" in mode:
+
+        clean_indexes = []
+
+        # ✅ REMOVE GROUP QUESTIONS
+
+        for i, q in enumerate(questions):
+
+            if "items" not in q:
+
+                clean_indexes.append(i)
+
+        random.shuffle(clean_indexes)
+
+        # 👤 GUEST USERS
+
+        if 'user_id' not in session:
+
+            clean_indexes = clean_indexes[:10]
+
+        # 🔒 FREE USERS
+
+        elif not is_premium:
+
+            clean_indexes = clean_indexes[:20]
+
+        # ✅ PREMIUM USERS
+        # unlimited reviewer questions
+
+        order = clean_indexes
+
+        # ✅ REVIEWER HAS NO TIMER
+
+        session['duration'] = None
+
+    # =====================================================
+    # 📝 MOCK TEST MODES
     # =====================================================
 
     else:
@@ -259,15 +265,7 @@ def start_mode(mode, test):
 
             random.shuffle(order)
 
-        # Reviewer = No timer
-
-        if "reviewer" in mode:
-
-            session['duration'] = None
-
-        else:
-
-            session['duration'] = 30 * 60
+        session['duration'] = 30 * 60
 
     # =====================================================
     # ⏱ SESSION
@@ -301,18 +299,44 @@ def question():
         f"{session['questions_file']}.json"
     )
 
+    # =====================================================
+    # 🧠 REVIEWER MODE
+    # REMOVE GROUP QUESTIONS
+    # =====================================================
+
+    if "reviewer" in session['mode']:
+
+        clean_questions = []
+
+        for q in questions:
+
+            if "items" not in q:
+
+                clean_questions.append(q)
+
+        questions = clean_questions
+
     order = session['order']
 
     current = session.get('current', 0)
 
     # =====================================================
-    # 🏁 TEST FINISHED
+    # 🏁 FINISHED
     # =====================================================
+
     if current >= len(order):
 
-    # 👤 GUEST USERS
+        # 👤 GUEST REVIEWER RESULT
 
-        if 'user_id' not in session:
+        if (
+
+            'user_id' not in session
+
+            and
+
+            "reviewer" in session['mode']
+
+        ):
 
             answers = session.get('answers', [])
 
@@ -347,7 +371,7 @@ def question():
                 total=len(order)
             )
 
-        # 🔒 FREE REVIEWER LIMIT REACHED
+        # 🔒 FREE REVIEWER LIMIT
 
         if (
 
@@ -362,12 +386,13 @@ def question():
             return redirect('/upgrade')
 
         return redirect('/result')
-    
+
     # =====================================================
     # 📦 CURRENT QUESTION
     # =====================================================
 
     q = questions[order[current]]
+
     # =====================================================
     # ⏱ TIMER
     # =====================================================
@@ -391,9 +416,9 @@ def question():
 
     if request.method == 'POST':
 
-    # =====================================================
-    # 🧠 REVIEWER MODE
-    # =====================================================
+        # =================================================
+        # 🧠 REVIEWER MODE
+        # =================================================
 
         if "reviewer" in session['mode']:
 
@@ -409,7 +434,6 @@ def question():
 
                 correct_answer.strip().lower()
             )
-            # ✅ SAVE ANSWER
 
             answers = session.get('answers', [])
 
@@ -417,7 +441,8 @@ def question():
 
             session['answers'] = answers
 
-            # ✅ MOVE TO NEXT QUESTION
+            # ✅ IMPORTANT
+            # ONLY INCREMENT ONCE
 
             session['current'] = current + 1
 
@@ -453,25 +478,52 @@ def question():
                     ''
                 ),
 
+                mode=session['mode'],
+
                 ui=get_ui()
             )
 
-        # =====================================================
-        # 📝 NORMAL MODE
-        # =====================================================
+        # =================================================
+        # 📝 GROUP QUESTIONS
+        # =================================================
 
-        answer = request.form.get('answer')
+        if "items" in q:
 
-        answers = session.get('answers', [])
+            group_answers = []
 
-        answers.append(answer)
+            for item in q['items']:
 
-        session['answers'] = answers
+                ans = request.form.get(
+
+                    f"answer_{item['number']}"
+                )
+
+                group_answers.append(ans)
+
+            answers = session.get('answers', [])
+
+            answers.append(group_answers)
+
+            session['answers'] = answers
+
+        # =================================================
+        # 📝 NORMAL QUESTIONS
+        # =================================================
+
+        else:
+
+            answer = request.form.get('answer')
+
+            answers = session.get('answers', [])
+
+            answers.append(answer)
+
+            session['answers'] = answers
 
         session['current'] = current + 1
 
         return redirect('/question')
-    
+
     # =====================================================
     # 🎨 RENDER
     # =====================================================
@@ -486,12 +538,15 @@ def question():
 
         total=len(order),
 
-        remaining_time=remaining_time,
+        remaining=remaining_time,
+
+        is_reviewer="reviewer" in session['mode'],
 
         mode=session['mode'],
 
         ui=get_ui()
     )
+
 # =========================================================
 # 🏆 RESULT PAGE
 # =========================================================
@@ -531,6 +586,10 @@ def result():
     for i, idx in enumerate(order):
 
         q = questions[idx]
+
+        # =================================================
+        # 🧠 GROUP QUESTIONS
+        # =================================================
 
         if 'items' in q:
 
@@ -592,6 +651,10 @@ def result():
                     "image":
                     q.get("image")
                 })
+
+        # =================================================
+        # 📝 NORMAL QUESTIONS
+        # =================================================
 
         else:
 
@@ -655,6 +718,10 @@ def result():
 
     passed = score >= passing_score
 
+    # =====================================================
+    # 💾 SAVE HISTORY
+    # =====================================================
+
     if 'user_id' in session:
 
         history = ScoreHistory(
@@ -674,19 +741,6 @@ def result():
 
         db.session.commit()
 
-        # 🔒 GUEST RESULT PAGE
-
-    if 'user_id' not in session:
-
-        return render_template(
-
-            'guest_result.html',
-
-            score=score,
-
-            total=total_questions
-        )
-
     return render_template(
 
         'result.html',
@@ -700,38 +754,6 @@ def result():
         passed=passed,
 
         passing_score=passing_score,
-
-        ui=get_ui()
-    )
-
-# =========================================================
-# 📊 HISTORY
-# =========================================================
-
-@tests.route('/history')
-def history():
-
-    check = login_required()
-
-    if check:
-
-        return check
-
-    records = ScoreHistory.query.filter_by(
-
-        user_id=session['user_id']
-
-    ).order_by(
-
-        ScoreHistory.created_at.desc()
-
-    ).all()
-
-    return render_template(
-
-        'history.html',
-
-        history=records,
 
         ui=get_ui()
     )
