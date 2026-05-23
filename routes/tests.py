@@ -1063,6 +1063,8 @@ def payment_success():
 
             user.is_premium = True
 
+            session['is_premium'] = True
+
             user.stripe_customer_id = customer_id
 
             user.stripe_subscription_id = subscription_id
