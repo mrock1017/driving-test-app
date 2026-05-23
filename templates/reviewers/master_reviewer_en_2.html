@@ -1,0 +1,1094 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Japan Driving Test Reviewer</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        font-family: "Segoe UI", sans-serif;
+        background: #f4f9ff;
+        color: #1f2937;
+        line-height: 1.8;
+      }
+
+      .container {
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        padding: 18px;
+      }
+
+      .hero {
+        background: linear-gradient(135deg, #4ea6ff, #90d2ff);
+        color: white;
+        padding: 60px 25px;
+        border-radius: 32px;
+        text-align: center;
+        margin-bottom: 40px;
+        box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+      }
+
+      .hero h1 {
+        font-size: 2.8rem;
+        margin-bottom: 15px;
+      }
+
+      .hero p {
+        max-width: 760px;
+        margin: auto;
+        font-size: 1rem;
+        opacity: 0.96;
+      }
+
+      .quick-nav {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 14px;
+        margin-bottom: 40px;
+      }
+
+      .nav-item {
+        background: white;
+        border-radius: 18px;
+        padding: 16px;
+        text-align: center;
+        text-decoration: none;
+        color: #2563eb;
+        font-weight: 600;
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+        transition: 0.25s ease;
+      }
+
+      .nav-item:hover {
+        transform: translateY(-2px);
+        background: #eff6ff;
+      }
+
+      .section {
+        margin-bottom: 50px;
+      }
+
+      .section-title {
+        font-size: 2rem;
+        color: #2563eb;
+        margin-bottom: 24px;
+        padding-left: 15px;
+        border-left: 6px solid #60a5fa;
+      }
+
+      .sub-title {
+        color: #1d4ed8;
+        margin-bottom: 10px;
+        font-size: 1.15rem;
+      }
+
+      .cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 22px;
+      }
+
+      .card {
+        background: white;
+        border-radius: 24px;
+        padding: 24px;
+        box-shadow: 0 8px 22px rgba(0, 0, 0, 0.05);
+        transition: 0.25s ease;
+      }
+
+      .card:hover {
+        transform: translateY(-4px);
+      }
+
+      .card h3 {
+        color: #1d4ed8;
+        margin-bottom: 14px;
+        font-size: 1.2rem;
+      }
+
+      .card p {
+        margin-bottom: 14px;
+        color: #374151;
+      }
+
+      ul {
+        padding-left: 20px;
+      }
+
+      li {
+        margin-bottom: 8px;
+      }
+
+      .info-box {
+        background: #eff6ff;
+        border-left: 5px solid #3b82f6;
+        padding: 14px;
+        border-radius: 14px;
+        margin-top: 14px;
+        color: #1e3a8a;
+        font-size: 0.95rem;
+      }
+
+      .warning-box {
+        background: #fff4f4;
+        border-left: 5px solid #ef4444;
+        padding: 14px;
+        border-radius: 14px;
+        margin-top: 14px;
+        color: #991b1b;
+        font-size: 0.95rem;
+      }
+
+      .highlight-tags {
+        margin-top: 14px;
+      }
+
+      .highlight-tags span {
+        display: inline-block;
+        background: #dbeafe;
+        color: #1d4ed8;
+        padding: 7px 12px;
+        border-radius: 999px;
+        margin: 5px 5px 0 0;
+        font-size: 0.85rem;
+        font-weight: 600;
+      }
+
+      .checklist {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 20px;
+      }
+
+      .check-card {
+        background: white;
+        border-radius: 22px;
+        padding: 22px;
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+      }
+
+      .check-card h4 {
+        color: #2563eb;
+        margin-bottom: 12px;
+        font-size: 1.1rem;
+      }
+
+      .footer {
+        text-align: center;
+        padding: 40px 15px;
+        color: #6b7280;
+        font-size: 0.95rem;
+      }
+
+      @media (max-width: 768px) {
+        .container {
+          padding: 14px;
+        }
+
+        .hero {
+          padding: 45px 20px;
+          border-radius: 26px;
+        }
+
+        .hero h1 {
+          font-size: 2rem;
+        }
+
+        .section-title {
+          font-size: 1.55rem;
+        }
+
+        .card {
+          padding: 20px;
+        }
+
+        .nav-item {
+          padding: 15px;
+          font-size: 0.92rem;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- HERO -->
+
+      <div class="hero">
+        <h1>🇯🇵 Japan Driving Test Reviewer</h1>
+
+        <p>
+          Beginner-friendly study handbook for foreign learners preparing for the Japanese driving license examination.
+          Learn important traffic rules, safety habits, road signs, and practical driving knowledge commonly asked in
+          the Japanese driving test.
+        </p>
+      </div>
+
+      <!-- QUICK NAV -->
+
+      <div class="quick-nav">
+        <a href="#general" class="nav-item">🚘 General Driving</a>
+        <a href="#intersections" class="nav-item">🚦 Intersections</a>
+        <a href="#signs" class="nav-item">🚧 Road Signs</a>
+        <a href="#pedestrians" class="nav-item">🚶 Pedestrians</a>
+        <a href="#motorcycles" class="nav-item">🏍️ Motorcycles</a>
+        <a href="#parking" class="nav-item">🚗 Parking</a>
+        <a href="#weather" class="nav-item">🌧️ Weather</a>
+        <a href="#expressway" class="nav-item">🛣️ Expressways</a>
+        <a href="#railroad" class="nav-item">🚄 Railroad Crossings</a>
+        <a href="#emergency" class="nav-item">🚑 Emergencies</a>
+      </div>
+
+      <!-- GENERAL DRIVING -->
+
+      <section class="section" id="general">
+        <h2 class="section-title">🚘 General Driving &amp; Vehicle Control</h2>
+
+        <div class="cards">
+          <div class="card">
+            <h3>⚡ Speed, Braking Distance &amp; Centrifugal Force</h3>
+
+            <p>Higher speed greatly increases stopping distance and accident severity.</p>
+
+            <ul>
+              <li>Fast driving reduces reaction time.</li>
+              <li>Curves become more dangerous at higher speeds.</li>
+              <li>Centrifugal force becomes stronger during turns.</li>
+              <li>Safe speed control is essential for accident prevention.</li>
+            </ul>
+
+            <div class="warning-box">
+              Excessive speed narrows your field of vision and makes hazards harder to detect.
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>🌀 Safe Curve &amp; Turning Techniques</h3>
+
+            <p>Drivers should reduce speed before entering curves or making turns.</p>
+
+            <ul>
+              <li>Brake before the curve, not during it.</li>
+              <li>Accelerate gradually after exiting.</li>
+              <li>Maintain stable steering control.</li>
+              <li>Avoid sudden steering or braking.</li>
+            </ul>
+
+            <div class="highlight-tags">
+              <span>Slow Before Curves</span>
+              <span>Smooth Steering</span>
+              <span>Stable Control</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>⛰️ Downhill Driving &amp; Engine Braking</h3>
+
+            <p>Lower gears provide stronger engine braking and help control vehicle speed safely downhill.</p>
+
+            <ul>
+              <li>Use lower gears like “2,” “1,” or “L” on steep slopes.</li>
+              <li>Reduces brake overheating.</li>
+              <li>Improves downhill stability.</li>
+              <li>Helps prevent brake failure.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>🧍 Proper Driving Posture</h3>
+
+            <p>Good driving posture improves control, comfort, and emergency response ability.</p>
+
+            <ul>
+              <li>Keep both hands ready on the steering wheel.</li>
+              <li>Sit upright with relaxed shoulders.</li>
+              <li>Keep knees slightly bent.</li>
+              <li>Adjust mirrors and seating properly.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>😴 Fatigue &amp; Long-Distance Driving</h3>
+
+            <p>Driver fatigue reduces concentration, steering ability, and reaction time.</p>
+
+            <ul>
+              <li>Take breaks approximately every 2 hours.</li>
+              <li>Do not continue driving while sleepy.</li>
+              <li>Fatigue increases accident risk significantly.</li>
+            </ul>
+
+            <div class="info-box">Long periods of high-speed driving may distort a driver’s sense of speed.</div>
+          </div>
+
+          <div class="card">
+            <h3>👀 Wide Observation &amp; Hazard Awareness</h3>
+
+            <p>Safe drivers observe the road broadly instead of focusing on only one point.</p>
+
+            <ul>
+              <li>Watch intersections, mirrors, and sidewalks.</li>
+              <li>Detect hazards earlier.</li>
+              <li>Stay aware of changing traffic conditions.</li>
+              <li>Never assume other drivers will stop.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- INTERSECTIONS -->
+
+      <section class="section" id="intersections">
+        <h2 class="section-title">🚦 Intersections &amp; Right-of-Way Rules</h2>
+
+        <div class="cards">
+          <div class="card">
+            <h3>🛑 Unsignalized &amp; Uncontrolled Intersections</h3>
+
+            <p>Drivers must slow down and confirm safety carefully even when intersections appear clear.</p>
+
+            <ul>
+              <li>Vehicles from the right often have priority.</li>
+              <li>Wider roads generally have priority over narrower roads.</li>
+              <li>Check carefully for hidden vehicles, pedestrians, and bicycles.</li>
+            </ul>
+
+            <div class="warning-box">Never assume another vehicle will stop automatically.</div>
+          </div>
+
+          <div class="card">
+            <h3>🚦 Green Lights &amp; Green Arrow Signals</h3>
+
+            <p>A green light does not guarantee it is safe to proceed.</p>
+
+            <ul>
+              <li>Do not enter intersections if congestion may trap your vehicle.</li>
+              <li>Arrow signals allow movement only in the shown direction.</li>
+              <li>Always check pedestrians and bicycles first.</li>
+            </ul>
+
+            <div class="info-box">Directional arrows may allow movement even if the main signal is red.</div>
+          </div>
+
+          <div class="card">
+            <h3>👮 Police Officer Instructions</h3>
+
+            <p>Police officer hand signals and traffic controllers take priority over traffic lights and signs.</p>
+
+            <ul>
+              <li>Obey directions immediately.</li>
+              <li>Watch carefully during congestion or emergencies.</li>
+              <li>Stay calm and cooperative.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>👀 Blind Spots While Turning</h3>
+
+            <p>Blind spots become especially dangerous during right and left turns.</p>
+
+            <ul>
+              <li>Motorcycles may be hidden behind vehicles.</li>
+              <li>Pedestrians may suddenly appear.</li>
+              <li>Always check mirrors and blind spots carefully.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>🚘 Merging &amp; Lane Changes</h3>
+
+            <p>Vehicles entering traffic must merge smoothly and safely.</p>
+
+            <ul>
+              <li>Main-lane traffic generally has priority.</li>
+              <li>Signal before changing lanes.</li>
+              <li>Check mirrors and blind spots carefully.</li>
+              <li>Do not force entry into traffic.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>🏍️ Two-Stage Right Turns</h3>
+
+            <p>Ordinary motorized bicycles usually perform two-stage right turns at large intersections.</p>
+
+            <ul>
+              <li>Cross straight first.</li>
+              <li>Stop safely near the center.</li>
+              <li>Complete the turn when permitted.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- ROAD SIGNS -->
+
+      <section class="section" id="signs">
+        <h2 class="section-title">🚧 Road Signs &amp; Traffic Signs</h2>
+
+        <div class="cards">
+          <div class="card">
+            <h3>🚫 Restriction &amp; Prohibition Signs</h3>
+
+            <p>Restriction signs prohibit certain movements, vehicles, or actions.</p>
+
+            <ul>
+              <li>Do not enter prohibited roads or lanes.</li>
+              <li>Some roads prohibit motorcycles or small vehicles.</li>
+              <li>No stopping signs prohibit even temporary stopping.</li>
+              <li>Always follow lane restrictions carefully.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>↔️ Mandatory Direction Signs</h3>
+
+            <p>Blue directional signs instruct drivers to move only in the indicated direction.</p>
+
+            <ul>
+              <li>These are instructions, not suggestions.</li>
+              <li>Follow arrows and lane markings carefully.</li>
+              <li>Check surrounding traffic before moving.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>🔔 Sound Horn Signs</h3>
+
+            <p>Sound horn signs appear in low-visibility areas such as blind curves and mountain roads.</p>
+
+            <ul>
+              <li>Warns approaching traffic.</li>
+              <li>Use the horn briefly and responsibly.</li>
+              <li>Avoid unnecessary horn use.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>🏫 School Zones &amp; Pedestrian Areas</h3>
+
+            <p>School zones and pedestrian-only roads require extra caution.</p>
+
+            <ul>
+              <li>Reduce speed immediately.</li>
+              <li>Watch carefully for children.</li>
+              <li>Pedestrian safety always has priority.</li>
+            </ul>
+
+            <div class="warning-box">Children may suddenly enter the roadway without warning.</div>
+          </div>
+
+          <div class="card">
+            <h3>🚧 Warning Signs</h3>
+
+            <p>Warning signs alert drivers to dangerous road conditions ahead.</p>
+
+            <ul>
+              <li>Lane reduction signs warn that lanes will decrease.</li>
+              <li>Strong wind signs warn about dangerous crosswinds.</li>
+              <li>Falling rock signs appear in mountainous areas.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- PEDESTRIANS -->
+
+      <section class="section" id="pedestrians">
+        <h2 class="section-title">🚶 Pedestrians &amp; Bicycle Safety</h2>
+
+        <div class="cards">
+          <div class="card">
+            <h3>🚸 Pedestrians Near Intersections</h3>
+
+            <p>Drivers must protect pedestrians even when no marked crosswalk exists.</p>
+
+            <ul>
+              <li>Reduce speed near intersections.</li>
+              <li>Prepare to stop at any time.</li>
+              <li>Never interfere with pedestrian movement.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>🚲 Bicycle Safety &amp; Passing Distance</h3>
+
+            <p>Cyclists are vulnerable road users and may move unpredictably.</p>
+
+            <ul>
+              <li>Leave enough space when passing bicycles.</li>
+              <li>Reduce speed near bicycle crossings.</li>
+              <li>Watch for hidden cyclists near stopped vehicles.</li>
+            </ul>
+
+            <div class="info-box">Cyclists may suddenly avoid obstacles or wobble unexpectedly.</div>
+          </div>
+
+          <div class="card">
+            <h3>🚋 Streetcars, Bus Stops &amp; Public Transport Areas</h3>
+
+            <p>Drivers should use extra caution near public transportation areas.</p>
+
+            <ul>
+              <li>Passengers may suddenly enter the roadway.</li>
+              <li>Slow down near safety zones.</li>
+              <li>Do not block buses or passengers.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>🧍 Sidewalks &amp; Pedestrian Areas</h3>
+
+            <p>Sidewalks must remain safe and accessible for pedestrians.</p>
+
+            <ul>
+              <li>Do not block sidewalks.</li>
+              <li>Avoid placing tires onto pedestrian paths.</li>
+              <li>Check carefully when entering or leaving parking areas.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>🏍️ Pushing a Motorcycle</h3>
+
+            <p>A person pushing a motorcycle with the engine off is generally treated similarly to a pedestrian.</p>
+
+            <ul>
+              <li>Sidewalk use may be allowed when done safely.</li>
+              <li>Do not obstruct pedestrians.</li>
+              <li>Move carefully in crowded areas.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- MOTORCYCLES -->
+
+      <section class="section" id="motorcycles">
+        <h2 class="section-title">🏍️ Motorcycle Safety &amp; Riding Techniques</h2>
+
+        <div class="cards">
+          <div class="card">
+            <h3>🛡️ Protective Equipment</h3>
+
+            <p>Motorcycle riders should wear approved helmets and protective clothing at all times.</p>
+
+            <ul>
+              <li>Use PS(C) or JIS approved helmets.</li>
+              <li>Wear gloves and protective clothing.</li>
+              <li>Protect exposed skin even during summer.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>🧍 Proper Riding Posture</h3>
+
+            <p>Stable posture improves motorcycle balance and control.</p>
+
+            <ul>
+              <li>Grip the fuel tank with both knees.</li>
+              <li>Hold handlebars lightly but firmly.</li>
+              <li>Keep wrists angled naturally downward.</li>
+              <li>Reduce unnecessary body movement.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>🛑 Motorcycle Braking &amp; Throttle Control</h3>
+
+            <p>Riders should brake smoothly while maintaining balance and stable posture.</p>
+
+            <ul>
+              <li>Use both front and rear brakes together.</li>
+              <li>Use engine braking when appropriate.</li>
+              <li>Avoid abrupt braking during curves.</li>
+              <li>Accelerate gently after turning.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>👥 Passenger Restrictions</h3>
+
+            <p>Passengers may only ride on motorcycles designed for passenger transport.</p>
+
+            <ul>
+              <li>Ordinary mopeds cannot carry passengers.</li>
+              <li>New riders have additional restrictions.</li>
+              <li>Passengers affect balance and braking performance.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>⚠️ Motorcycle Visibility &amp; Blind Spots</h3>
+
+            <p>Motorcycles are smaller and harder for automobile drivers to notice.</p>
+
+            <ul>
+              <li>Avoid staying beside larger vehicles.</li>
+              <li>Stay visible whenever possible.</li>
+              <li>Never assume drivers can always see you.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>🚦 Motorized Bicycle Rules</h3>
+
+            <p>Ordinary motorized bicycles follow special rules in Japan.</p>
+
+            <ul>
+              <li>Usually limited to 30 km/h.</li>
+              <li>Two-stage right turns may be required.</li>
+              <li>Always follow posted restrictions carefully.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- PARKING -->
+
+      <section class="section" id="parking">
+        <h2 class="section-title">🚗 Parking &amp; Stopping Rules</h2>
+
+        <div class="cards">
+          <div class="card">
+            <h3>🚫 Parking Near Crossings &amp; Safety Zones</h3>
+
+            <p>Parking or stopping near crosswalks, bicycle crossings, and safety zones is prohibited.</p>
+
+            <ul>
+              <li>Crossing visibility must remain clear.</li>
+              <li>Restrictions often apply within several meters.</li>
+              <li>Hidden pedestrians create serious danger.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>🅿️ Parking Near Entrances &amp; Fire Hydrants</h3>
+
+            <p>Vehicles must not block entrances or emergency equipment.</p>
+
+            <ul>
+              <li>Parking within 3 meters of entrances is prohibited.</li>
+              <li>Do not block garages or parking access points.</li>
+              <li>Fire hydrants must remain accessible.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>🚫 Illegal Parking &amp; Waiting</h3>
+
+            <p>Waiting for someone may still count as illegal parking.</p>
+
+            <ul>
+              <li>Applies even if the driver remains inside.</li>
+              <li>Always obey posted restrictions.</li>
+              <li>Illegal parking notices must be handled properly.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>🚗 Proper Parking Procedures</h3>
+
+            <p>Vehicles should park according to road direction and local rules.</p>
+
+            <ul>
+              <li>Use the parking brake properly.</li>
+              <li>Manual vehicles should not rely only on gear position.</li>
+              <li>Unsafe parking increases accident risk.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- WEATHER -->
+
+      <section class="section" id="weather">
+        <h2 class="section-title">🌧️ Weather &amp; Night Driving</h2>
+
+        <div class="cards">
+          <div class="card">
+            <h3>🌙 Night Driving Safety</h3>
+
+            <p>Visibility becomes shorter at night, making hazards harder to notice.</p>
+
+            <ul>
+              <li>Reduce speed at night.</li>
+              <li>Increase following distance.</li>
+              <li>Watch carefully for pedestrians and bicycles.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>💡 Headlight Usage &amp; Glare</h3>
+
+            <p>Proper headlight usage improves visibility and prevents glare for other drivers.</p>
+
+            <ul>
+              <li>Use low beams when following vehicles closely.</li>
+              <li>Avoid staring into oncoming headlights.</li>
+              <li>Looking slightly left may reduce glare.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>💦 Rain &amp; Hydroplaning</h3>
+
+            <p>Rain greatly reduces tire grip and increases stopping distance.</p>
+
+            <ul>
+              <li>Hydroplaning weakens steering and braking control.</li>
+              <li>Reduce speed during rain.</li>
+              <li>Avoid sudden steering or braking.</li>
+            </ul>
+
+            <div class="warning-box">Roads become especially slippery when rain first begins.</div>
+          </div>
+
+          <div class="card">
+            <h3>❄️ Snow, Ice &amp; Crosswinds</h3>
+
+            <p>Snowy roads and strong winds require extra caution.</p>
+
+            <ul>
+              <li>Use winter tires or tire chains.</li>
+              <li>Increase following distance.</li>
+              <li>Keep both hands firmly on the wheel during strong winds.</li>
+              <li>Avoid sudden steering corrections.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- EXPRESSWAY -->
+
+      <section class="section" id="expressway">
+        <h2 class="section-title">🛣️ Expressway Driving</h2>
+
+        <div class="cards">
+          <div class="card">
+            <h3>🚘 Safe Expressway Driving</h3>
+
+            <p>Expressway driving requires higher awareness because vehicles travel at high speeds.</p>
+
+            <ul>
+              <li>Maintain enough following distance.</li>
+              <li>Avoid abrupt braking or steering.</li>
+              <li>Drive smoothly and predictably.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>🚗 Lane Usage &amp; Overtaking</h3>
+
+            <p>Multi-lane roads use different lanes according to traffic speed.</p>
+
+            <ul>
+              <li>Slower vehicles should keep left.</li>
+              <li>Right lanes are mainly for overtaking.</li>
+              <li>Follow lane discipline carefully.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>🛠️ Disabled Vehicles &amp; Emergency Stops</h3>
+
+            <p>Disabled vehicles should move safely to the shoulder whenever possible.</p>
+
+            <ul>
+              <li>Use hazard lights immediately.</li>
+              <li>Avoid blocking traffic lanes.</li>
+              <li>Place warning devices properly.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>🚚 Towing Rules</h3>
+
+            <p>Expressway towing requires proper equipment and safe procedures.</p>
+
+            <ul>
+              <li>Unsafe towing is prohibited.</li>
+              <li>Both vehicles must meet safety standards.</li>
+              <li>Improper towing creates serious accident risk.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- RAILROAD -->
+
+      <section class="section" id="railroad">
+        <h2 class="section-title">🚄 Railroad Crossing Safety</h2>
+
+        <div class="cards">
+          <div class="card">
+            <h3>🛑 Railroad Crossing Procedures</h3>
+
+            <p>Most railroad crossings require careful confirmation and complete stops.</p>
+
+            <ul>
+              <li>Check signals, barriers, and warning lights.</li>
+              <li>Never rush through crossings.</li>
+              <li>Cross only when the road ahead is clear.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>🚫 Never Block Railroad Tracks</h3>
+
+            <p>Drivers must never enter crossings if congestion may trap the vehicle on the tracks.</p>
+
+            <ul>
+              <li>Confirm traffic flow before entering.</li>
+              <li>Trains cannot stop quickly.</li>
+              <li>Blocking tracks creates extreme danger.</li>
+            </ul>
+
+            <div class="warning-box">
+              Even a few seconds of poor judgment at railroad crossings can cause fatal accidents.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- EMERGENCY -->
+
+      <section class="section" id="emergency">
+        <h2 class="section-title">🚑 Emergency Situations &amp; Legal Responsibility</h2>
+
+        <div class="cards">
+          <div class="card">
+            <h3>🚨 Emergency Vehicles</h3>
+
+            <p>Drivers must yield properly when emergency vehicles approach.</p>
+
+            <ul>
+              <li>Clear intersections safely first if already inside.</li>
+              <li>Move aside calmly and carefully.</li>
+              <li>Do not block emergency routes.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>🚧 After Traffic Accidents</h3>
+
+            <p>Drivers must respond responsibly after accidents.</p>
+
+            <ul>
+              <li>Stop the engine if possible.</li>
+              <li>Move vehicles safely when appropriate.</li>
+              <li>Prevent secondary accidents.</li>
+              <li>Report accidents to police.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>🛠️ Brake Failure &amp; Sudden Emergencies</h3>
+
+            <p>Sudden braking should only be used during emergencies or unavoidable danger.</p>
+
+            <ul>
+              <li>Use escape areas or barriers if brakes fail downhill.</li>
+              <li>Reduce impact safely whenever possible.</li>
+              <li>Brake problems require immediate inspection.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>🚨 Emergency Equipment</h3>
+
+            <p>Drivers should prepare emergency equipment before accidents occur.</p>
+
+            <ul>
+              <li>Warning flares</li>
+              <li>Emergency triangles</li>
+              <li>Flashlights and safety tools</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- VEHICLE MANAGEMENT -->
+
+      <section class="section">
+        <h2 class="section-title">🔧 Vehicle Inspection &amp; Maintenance</h2>
+
+        <div class="cards">
+          <div class="card">
+            <h3>🛑 Brake Inspection</h3>
+
+            <p>Brake problems should be inspected immediately.</p>
+
+            <ul>
+              <li>A sinking brake pedal may indicate hydraulic failure.</li>
+              <li>Brake failure creates serious danger.</li>
+              <li>Never ignore warning signs.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>🛞 Tire Inspection</h3>
+
+            <p>Tire condition greatly affects braking and steering safety.</p>
+
+            <ul>
+              <li>Check tread wear indicators regularly.</li>
+              <li>Worn tires reduce traction.</li>
+              <li>Rain and snow increase danger further.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>📋 Legal Vehicle Responsibilities</h3>
+
+            <p>Drivers must follow Japanese vehicle management and licensing regulations.</p>
+
+            <ul>
+              <li>Display required parking registration stickers properly.</li>
+              <li>Follow legal inspection schedules.</li>
+              <li>Learner drivers require proper supervision.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- OVERTAKING -->
+
+      <section class="section">
+        <h2 class="section-title">🚘 Overtaking &amp; Passing Rules</h2>
+
+        <div class="cards">
+          <div class="card">
+            <h3>🚧 Safe Overtaking Procedures</h3>
+
+            <p>Overtaking requires careful judgment and proper observation.</p>
+
+            <ul>
+              <li>Check mirrors and blind spots first.</li>
+              <li>Confirm enough passing space exists.</li>
+              <li>Signal only after confirming safety.</li>
+              <li>Do not force dangerous overtaking maneuvers.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>🚫 Overtaking Restrictions</h3>
+
+            <p>Overtaking is prohibited in many dangerous areas.</p>
+
+            <ul>
+              <li>Follow lane markings and road signs carefully.</li>
+              <li>Passing on the left is usually prohibited.</li>
+              <li>Tunnel overtaking depends on lane conditions and signs.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- FINAL TAKEAWAYS -->
+
+      <section class="section">
+        <h2 class="section-title">✅ Key Takeaways</h2>
+
+        <div class="checklist">
+          <div class="check-card">
+            <h4>🚘 General Driving</h4>
+
+            <ul>
+              <li>Control speed carefully</li>
+              <li>Slow down before curves</li>
+              <li>Use engine braking downhill</li>
+            </ul>
+          </div>
+
+          <div class="check-card">
+            <h4>🚦 Intersections</h4>
+
+            <ul>
+              <li>Never rush intersections</li>
+              <li>Watch for hidden motorcycles</li>
+              <li>Follow police instructions immediately</li>
+            </ul>
+          </div>
+
+          <div class="check-card">
+            <h4>🚶 Pedestrian Safety</h4>
+
+            <ul>
+              <li>Protect pedestrians at all times</li>
+              <li>Reduce speed near schools</li>
+              <li>Watch carefully for cyclists</li>
+            </ul>
+          </div>
+
+          <div class="check-card">
+            <h4>🏍️ Motorcycle Safety</h4>
+
+            <ul>
+              <li>Wear approved helmets</li>
+              <li>Use smooth braking and throttle control</li>
+              <li>Avoid vehicle blind spots</li>
+            </ul>
+          </div>
+
+          <div class="check-card">
+            <h4>🌧️ Weather &amp; Night Driving</h4>
+
+            <ul>
+              <li>Reduce speed in rain and snow</li>
+              <li>Increase following distance</li>
+              <li>Use headlights properly</li>
+            </ul>
+          </div>
+
+          <div class="check-card">
+            <h4>🚗 Parking Rules</h4>
+
+            <ul>
+              <li>Avoid parking near crossings</li>
+              <li>Do not block sidewalks or entrances</li>
+              <li>Follow all parking restrictions</li>
+            </ul>
+          </div>
+
+          <div class="check-card">
+            <h4>🛣️ Expressway Driving</h4>
+
+            <ul>
+              <li>Maintain safe following distance</li>
+              <li>Drive smoothly at high speed</li>
+              <li>Use shoulders safely during emergencies</li>
+            </ul>
+          </div>
+
+          <div class="check-card">
+            <h4>🚑 Emergency Preparedness</h4>
+
+            <ul>
+              <li>Yield to emergency vehicles</li>
+              <li>Carry emergency equipment</li>
+              <li>Respond calmly after accidents</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- FOOTER -->
+
+      <div class="footer">🇯🇵 Japan Driving Test Study Reviewer • Study Smart • Drive Safely • Protect Others</div>
+    </div>
+  </body>
+</html>

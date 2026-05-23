@@ -1236,3 +1236,59 @@ def customer_portal():
     except Exception as e:
 
         return str(e)
+
+# =========================================================
+# 📚 REVIEWER PAGE
+# =========================================================
+
+@tests.route('/reviewer/<reviewer_id>')
+def reviewer(reviewer_id):
+
+    language = session.get(
+        'lang',
+        'en'
+    )
+
+    allowed_languages = [
+
+        'en',
+        'tl',
+        'ne',
+        'vi',
+        'pt'
+    ]
+
+    if language not in allowed_languages:
+
+        language = 'en'
+
+    allowed_reviewers = [
+
+        '1',
+        '2'
+    ]
+
+    if reviewer_id not in allowed_reviewers:
+
+        return redirect('/menu')
+
+    template = (
+
+        f"reviewers/"
+        f"master_reviewer_{language}_{reviewer_id}.html"
+    )
+
+    return render_template(
+        template
+    )
+
+# =========================================================
+# 📚 REVIEWER HUB
+# =========================================================
+
+@tests.route('/reviewers')
+def reviewers():
+
+    return render_template(
+        'reviewer_hub.html'
+    )

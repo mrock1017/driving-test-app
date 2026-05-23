@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="tl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reviewer para sa Driving Test sa Japan</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        font-family: "Segoe UI", sans-serif;
+        background: #f3f8ff;
+        color: #1f2937;
+        line-height: 1.75;
+      }
+
+      .container {
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        padding: 18px;
+      }
+
+      .hero {
+        background: linear-gradient(135deg, #4da3ff, #8ec9ff);
+        border-radius: 28px;
+        padding: 55px 28px;
+        text-align: center;
+        color: white;
+        margin-bottom: 35px;
+        box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+      }
+
+      .hero h1 {
+        font-size: 2.7rem;
+        margin-bottom: 14px;
+        line-height: 1.2;
+      }
+
+      .hero p {
+        max-width: 760px;
+        margin: auto;
+        font-size: 1rem;
+        opacity: 0.96;
+      }
+
+      .quick-nav {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 14px;
+        margin-bottom: 35px;
+      }
+
+      .nav-card {
+        background: white;
+        border-radius: 18px;
+        padding: 18px;
+        text-decoration: none;
+        color: #2563eb;
+        font-weight: 600;
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+        transition: 0.25s ease;
+        text-align: center;
+      }
+
+      .nav-card:hover {
+        transform: translateY(-2px);
+        background: #eff6ff;
+      }
+
+      .section {
+        margin-bottom: 45px;
+      }
+
+      .section-title {
+        font-size: 2rem;
+        color: #2563eb;
+        margin-bottom: 22px;
+        border-left: 6px solid #60a5fa;
+        padding-left: 14px;
+      }
+
+      .subsection-title {
+        font-size: 1.25rem;
+        color: #1d4ed8;
+        margin-bottom: 16px;
+      }
+
+      .cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+      }
+
+      .card {
+        background: white;
+        border-radius: 22px;
+        padding: 24px;
+        box-shadow: 0 8px 22px rgba(0, 0, 0, 0.05);
+        transition: 0.25s ease;
+      }
+
+      .card:hover {
+        transform: translateY(-3px);
+      }
+
+      .card h3 {
+        color: #1d4ed8;
+        margin-bottom: 14px;
+        font-size: 1.18rem;
+        line-height: 1.4;
+      }
+
+      .card p {
+        margin-bottom: 14px;
+        color: #374151;
+      }
+
+      ul {
+        padding-left: 20px;
+      }
+
+      li {
+        margin-bottom: 8px;
+      }
+
+      .info-box {
+        background: #eff6ff;
+        border-left: 5px solid #3b82f6;
+        padding: 14px;
+        border-radius: 12px;
+        margin-top: 14px;
+        color: #1e3a8a;
+        font-size: 0.95rem;
+      }
+
+      .warning-box {
+        background: #fff4f4;
+        border-left: 5px solid #ef4444;
+        padding: 14px;
+        border-radius: 12px;
+        margin-top: 14px;
+        color: #991b1b;
+        font-size: 0.95rem;
+      }
+
+      .keypoints {
+        margin-top: 12px;
+      }
+
+      .keypoints span {
+        display: inline-block;
+        background: #dbeafe;
+        color: #1d4ed8;
+        padding: 8px 12px;
+        border-radius: 999px;
+        margin: 5px 5px 0 0;
+        font-size: 0.88rem;
+        font-weight: 600;
+      }
+
+      .takeaways {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 20px;
+      }
+
+      .takeaway-card {
+        background: white;
+        border-radius: 22px;
+        padding: 22px;
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+      }
+
+      .takeaway-card h4 {
+        color: #2563eb;
+        margin-bottom: 12px;
+        font-size: 1.08rem;
+      }
+
+      .footer {
+        text-align: center;
+        padding: 40px 15px;
+        color: #6b7280;
+        font-size: 0.95rem;
+      }
+
+      @media (max-width: 768px) {
+        body {
+          line-height: 1.8;
+        }
+
+        .container {
+          padding: 14px;
+        }
+
+        .hero {
+          padding: 42px 20px;
+          border-radius: 24px;
+        }
+
+        .hero h1 {
+          font-size: 2rem;
+        }
+
+        .hero p {
+          font-size: 0.95rem;
+        }
+
+        .section-title {
+          font-size: 1.55rem;
+        }
+
+        .card {
+          padding: 20px;
+        }
+
+        .nav-card {
+          padding: 16px;
+          font-size: 0.95rem;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- HERO -->
+      <div class="hero">
+        <h1>🇯🇵 Reviewer para sa Driving Test sa Japan</h1>
+        <p>
+          Beginner-friendly na handbook sa pag-aaral para sa mga dayuhang nag-aaral na naghahanda para sa pagsusulit ng
+          lisensya sa pagmamaneho sa Japan. Alamin ang mahahalagang batas trapiko, mga ugali sa kaligtasan, mga road
+          sign, at kaalamang pangmamaneho na nakatuon sa pagsusulit sa simple at organisadong paraan.
+        </p>
+      </div>
+
+      <!-- QUICK NAV -->
+      <div class="quick-nav">
+        <a href="#roadsigns" class="nav-card">🚧 Mga Road Sign</a>
+        <a href="#intersections" class="nav-card">🚦 Mga Interseksyon</a>
+        <a href="#pedestrians" class="nav-card">🚶 Mga Pedestrian</a>
+        <a href="#parking" class="nav-card">🚗 Mga Patakaran sa Parking</a>
+        <a href="#motorcycles" class="nav-card">🏍️ Mga Motorsiklo</a>
+        <a href="#expressway" class="nav-card">🛣️ Mga Expressway</a>
+        <a href="#weather" class="nav-card">🌧️ Kaligtasan sa Panahon</a>
+        <a href="#emergency" class="nav-card">🚑 Mga Emergency</a>
+      </div>
+      <!-- ROAD SIGNS -->
+      <section class="section" id="roadsigns">
+        <h2 class="section-title">🚧 Mga Road Sign at Marka sa Kalsada</h2>
+
+        <div class="cards">
+          <div class="card">
+            <h3>🚫 Mga Sign na Bawal Pumasok at Mga Restriksyon sa Sasakyan</h3>
+
+            <p>
+              Ang mga restriction sign ay nagbabawal sa ilang galaw o uri ng sasakyan na pumasok sa partikular na mga
+              kalsada o lane.
+            </p>
+
+            <ul>
+              <li>Laging suriing mabuti ang direksyon ng sign.</li>
+              <li>Huwag pumasok sa mga ipinagbabawal na kalsada o lane.</li>
+              <li>May ilang kalsada na may restriksyon para sa mga motorsiklo, moped, o maliliit na sasakyan.</li>
+              <li>Sundin ang lahat ng nakapaskil na instruksyon sa lane.</li>
+            </ul>
+
+            <div class="warning-box">
+              Huwag kailanman ipagpalagay na bukas ang isang kalsada dahil lamang ginagamit ito ng ibang sasakyan.
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>🚫 Mga Lugar na Bawal Mag-Overtake</h3>
+
+            <p>Ang mga sign at marka ng bawal mag-overtake ay ganap na nagbabawal sa paglampas sa ibang sasakyan.</p>
+
+            <ul>
+              <li>Maaaring ilegal pa rin ang pag-overtake kahit hindi tatawid sa center line.</li>
+              <li>Magbagal at manatiling matiyaga.</li>
+              <li>Magmasid nang mabuti sa mga kurbada, pedestrian, at bisikleta.</li>
+            </ul>
+
+            <div class="info-box">
+              Karaniwang ginagamit ang mga restriksyon sa pag-overtake sa mga mapanganib na lugar na may limitadong
+              visibility.
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>🔔 Mga Lugar na Kailangang Gumamit ng Busina</h3>
+
+            <p>
+              Ang mga sign na kailangang gumamit ng busina ay karaniwang makikita malapit sa mga blind curve at mga
+              kalsadang bundok na mahina ang visibility.
+            </p>
+
+            <ul>
+              <li>Maikling bumusina upang bigyang babala ang paparating na trapiko.</li>
+              <li>Gamitin ang busina nang maingat at responsable.</li>
+              <li>Manatiling alerto sa mga nakatagong sasakyan o pedestrian.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>🚲 Mga Bicycle Lane at Tawiran ng Bisikleta</h3>
+
+            <p>
+              Kailangang maunawaan ng mga driver ang mga marka sa kalsada na may kaugnayan sa bisikleta at igalang ang
+              mga lugar na prayoridad ng mga siklista.
+            </p>
+
+            <ul>
+              <li>Huwag huminto o mag-park sa mga bicycle lane.</li>
+              <li>Magbagal malapit sa mga tawiran ng bisikleta.</li>
+              <li>Magmasid sa mga siklistang papalapit mula sa likod bago lumiko.</li>
+              <li>Magbigay ng sapat na espasyo kapag lumalampas sa mga bisikleta.</li>
+            </ul>
+
+            <div class="keypoints">
+              <span>Suriin ang Blind Spot</span>
+              <span>Magbigay-Daan sa mga Siklista</span>
+              <span>Magbagal</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>⚠️ Mga Warning Sign</h3>
+
+            <p>
+              Ang mga warning sign ay nagbababala sa mga driver tungkol sa mapanganib na kondisyon ng kalsada sa unahan.
+            </p>
+
+            <ul>
+              <li>Ang mga sign ng lane reduction ay nagbababala na mababawasan ang lane sa unahan.</li>
+              <li>Ang mga sign ng falling rock ay makikita sa mga bulubunduking lugar.</li>
+              <li>Ang mga construction sign ay nangangailangan ng mas mabagal at mas maingat na pagmamaneho.</li>
+              <li>Ipinapakita ng mga speed limit sign ang legal na maximum speed.</li>
+            </ul>
+
+            <div class="info-box">Magbagal nang maaga kapag papalapit sa mga warning sign.</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- INTERSECTIONS -->
+      <section class="section" id="intersections">
+        <h2 class="section-title">🚦 Mga Interseksyon, Signal at Mga Patakaran sa Pagliko</h2>
+
+        <div class="cards">
+          <div class="card">
+            <h3>🟢 Green Light at Ligtas na Pagpasok</h3>
+
+            <p>Ang green signal ay hindi palaging nangangahulugang ligtas nang pumasok sa interseksyon.</p>
+
+            <ul>
+              <li>Huwag pumasok kung maaaring maipit ang iyong sasakyan dahil sa trapiko.</li>
+              <li>Huwag kailanman harangan ang mga tawiran o railroad crossing.</li>
+              <li>Tiyaking may sapat na espasyo sa unahan bago umusad.</li>
+            </ul>
+
+            <div class="warning-box">
+              Ang pagharang sa mga interseksyon ay nagdudulot ng panganib sa lahat ng gumagamit ng kalsada.
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>➡️ Mga Arrow Signal at Espesyal na Pahintulot sa Pagliko</h3>
+
+            <p>Ang mga arrow signal ay nagpapahintulot lamang ng paggalaw sa mga direksyong ipinapakita.</p>
+
+            <ul>
+              <li>Hintayin ang tamang arrow bago lumiko.</li>
+              <li>
+                May ilang interseksyon na nagpapahintulot ng pagliko habang pula o dilaw ang signal gamit ang mga
+                espesyal na sign.
+              </li>
+              <li>Laging suriin muna ang mga pedestrian at bisikleta.</li>
+            </ul>
+
+            <div class="info-box">Ang kaligtasan ng pedestrian ay laging may prayoridad habang lumiliko.</div>
+          </div>
+
+          <div class="card">
+            <h3>🔴 Kumikislap na Pulang Signal at Proseso ng Paghinto</h3>
+
+            <p>
+              Ang mga kumikislap na pulang signal ay nangangailangan ng ganap na paghinto bago ligtas na magpatuloy.
+            </p>
+
+            <ul>
+              <li>Tratuhin ang kumikislap na pulang ilaw tulad ng stop sign.</li>
+              <li>Huminto sa lugar na may pinakamagandang visibility kung walang stop line.</li>
+              <li>Suriing mabuti ang magkabilang direksyon bago umusad.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>🚗 Kaligtasan sa Pagliko at Pagpalit ng Lane</h3>
+
+            <p>Ang ligtas na pagliko at pagpalit ng lane ay nangangailangan ng tamang pagmamasid at pagsesenyas.</p>
+
+            <ul>
+              <li>Suriin ang mga salamin at blind spot bago gumalaw.</li>
+              <li>Mag-signal bago magpalit ng lane o lumiko.</li>
+              <li>Panatilihing naka-signal hanggang matapos ang maneuver.</li>
+              <li>Mas masikip ang sinusundan ng likurang gulong habang lumiliko.</li>
+            </ul>
+
+            <div class="warning-box">
+              Ang sobrang talim na pagliko ay maaaring magdulot ng pagbangga ng gulong sa bangketa o pedestrian.
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>🚓 Mga Instruksyon ng Pulis</h3>
+
+            <p>Ang mga direksyon ng pulis ay may mas mataas na prioridad kaysa sa traffic light at sign.</p>
+
+            <ul>
+              <li>Sundin agad ang mga hand signal.</li>
+              <li>Manatiling kalmado habang may trapiko o emergency.</li>
+              <li>Magmasid nang mabuti sa paligid na trapiko.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>🚗 Mga Priority Road</h3>
+
+            <p>
+              Ang mga sasakyan sa pangunahing kalsada ay karaniwang may prayoridad kaysa sa mga sasakyang pumapasok mula
+              sa side road.
+            </p>
+
+            <ul>
+              <li>Magbagal bago pumasok sa mga interseksyon.</li>
+              <li>Maingat na magbigay-daan kapag limitado ang visibility.</li>
+              <li>Magmasid sa mga nakatagong motorsiklo at bisikleta.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- PEDESTRIANS -->
+      <section class="section" id="pedestrians">
+        <h2 class="section-title">🚶 Mga Pedestrian, Siklista at School Zone</h2>
+
+        <div class="cards">
+          <div class="card">
+            <h3>🚸 Mga Bata at Lugar ng Paaralan</h3>
+
+            <p>
+              Ang mga lugar malapit sa mga paaralan, parke, at residential zone ay nangangailangan ng dagdag na
+              pag-iingat.
+            </p>
+
+            <ul>
+              <li>Maaaring biglang tumakbo ang mga bata papunta sa kalsada.</li>
+              <li>Magbagal at maging handang huminto.</li>
+              <li>Magmasid nang mabuti sa pagitan ng mga nakaparadang sasakyan.</li>
+            </ul>
+
+            <div class="warning-box">
+              Karaniwan ang mga nakatagong panganib na may kinalaman sa bata sa mga residential neighborhood.
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>🚲 Kaligtasan sa Bisikleta</h3>
+
+            <p>Ang mga siklista ay vulnerable na gumagamit ng kalsada at maaaring gumalaw nang hindi inaasahan.</p>
+
+            <ul>
+              <li>Magbigay ng sapat na side distance kapag lumalampas.</li>
+              <li>Huwag pilitin ang pagliko sa harap ng mga bisikleta.</li>
+              <li>Magmasid nang mabuti sa mga siklistang papalapit mula sa likod.</li>
+            </ul>
+
+            <div class="info-box">
+              Maaaring biglang umiwas ang mga siklista sa mga hadlang o mawalan ng balanse nang hindi inaasahan.
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>🚶 Mga Sidewalk at Lugar na Tumatawid sa Sidewalk</h3>
+
+            <p>
+              Ang mga driver na pumapasok o lumalabas sa parking area ay kailangang maingat na suriin ang mga sidewalk.
+            </p>
+
+            <ul>
+              <li>Huminto bago tumawid sa sidewalk kung kinakailangan.</li>
+              <li>Suriin kung may mga pedestrian at bisikleta.</li>
+              <li>Huwag kailanman ilagay ang mga gulong ng sasakyan sa sidewalk maliban kung pinapayagan.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>🚸 Mga Safety Zone</h3>
+
+            <p>Ang mga safety zone ay nagpoprotekta sa mga pedestrian at tumutulong sa maayos na daloy ng trapiko.</p>
+
+            <ul>
+              <li>Magbagal malapit sa mga safety zone.</li>
+              <li>Huwag mag-park, huminto, o humarang sa mga lugar na ito.</li>
+              <li>Magmasid nang mabuti sa mga pedestrian na tumatawid sa malapit.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- PARKING -->
+      <section class="section" id="parking">
+        <h2 class="section-title">🚗 Mga Patakaran sa Parking at Paghinto</h2>
+
+        <div class="cards">
+          <div class="card">
+            <h3>🚫 Mga Lugar na Bawal Mag-Park at Bawal Huminto</h3>
+
+            <p>
+              Mahigpit na kinokontrol ng batas trapiko sa Japan kung saan maaaring mag-park o huminto ang mga driver.
+            </p>
+
+            <ul>
+              <li>Huwag mag-park malapit sa mga tawiran o bicycle crossing.</li>
+              <li>Bawal ang pag-park malapit sa mga safety zone.</li>
+              <li>Dapat manatiling maluwag ang mga pasukan ng garahe.</li>
+              <li>Ang paghihintay sa isang tao ay maaari pa ring maituring na parking.</li>
+            </ul>
+
+            <div class="warning-box">
+              Ang ilegal na parking ay maaaring humarang sa visibility at magpataas ng panganib ng aksidente.
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>🚫 Double Parking</h3>
+
+            <p>Ang paghinto sa tabi ng isa pang nakaparadang sasakyan ay karaniwang ipinagbabawal.</p>
+
+            <ul>
+              <li>Hinaharangan nito ang daloy ng trapiko.</li>
+              <li>Nagdudulot ito ng panganib sa mga siklista.</li>
+              <li>Binabawasan nito ang visibility ng trapiko sa paligid.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>🚌 Mga Bus Stop at Pampublikong Lugar</h3>
+
+            <p>
+              Madalas na may mga restriksyon sa parking malapit sa mga bus stop at lugar ng pampublikong transportasyon.
+            </p>
+
+            <ul>
+              <li>Laging sundin ang mga nakapaskil na sign at marka.</li>
+              <li>Huwag harangan ang mga bus o pasahero.</li>
+              <li>Maingat na suriin ang mga kondisyon ng operasyon.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>🅿️ Tamang Responsibilidad sa Parking</h3>
+
+            <p>Dapat tiyakin ng mga may-ari ng sasakyan na may legal na parking space sa labas ng kalsada.</p>
+
+            <ul>
+              <li>Nakakatulong ito upang mabawasan ang pagsisikip sa gilid ng kalsada.</li>
+              <li>Pinapabuti nito ang kaligtasan ng komunidad.</li>
+              <li>Sinusuportahan nito ang mas maayos na daloy ng trapiko.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- MOTORCYCLES -->
+      <section class="section" id="motorcycles">
+        <h2 class="section-title">🏍️ Kaligtasan sa Motorsiklo at Mga Teknik sa Pagmamaneho</h2>
+
+        <div class="cards">
+          <div class="card">
+            <h3>🪖 Protective Equipment</h3>
+
+            <p>Dapat magsuot ang mga rider ng motorsiklo ng tamang protective equipment sa lahat ng oras.</p>
+
+            <ul>
+              <li>Gumamit ng certified helmet na may PS(C) o JIS mark.</li>
+              <li>Magsuot ng long sleeves, guwantes, at protective clothing.</li>
+              <li>Protektahan ang nakalantad na balat kahit tag-init.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>🧍 Tamang Riding Position</h3>
+
+            <p>Ang matatag na postura ay nagpapabuti sa balanse at kontrol ng motorsiklo.</p>
+
+            <ul>
+              <li>Pigain ang fuel tank gamit ang dalawang tuhod.</li>
+              <li>Panatilihing nakaturo paloob o pasulong ang mga daliri sa paa.</li>
+              <li>Hawakan ang handlebars nang mahinahon ngunit matatag.</li>
+              <li>Bawasan ang hindi kinakailangang galaw ng katawan.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>🛑 Mga Teknik sa Pagpreno</h3>
+
+            <p>Dapat gamitin ng mga rider ang parehong front at rear brake nang sabay at maayos.</p>
+
+            <ul>
+              <li>Panatilihing balanse ang motorsiklo habang nagpepreno.</li>
+              <li>Iwasan ang biglaang pagpreno sa madulas na kalsada.</li>
+              <li>Dahan-dahang magpreno upang maiwasan ang pag-slide.</li>
+            </ul>
+
+            <div class="info-box">Ang balanseng pagpreno ay nagpapabuti sa kontrol at stability sa paghinto.</div>
+          </div>
+
+          <div class="card">
+            <h3>👥 Mga Patakaran sa Pasahero at Kargamento</h3>
+
+            <p>Ang mga pasahero at kargamento ay kailangang dalhin nang ligtas at legal.</p>
+
+            <ul>
+              <li>Pinapayagan lamang ang mga pasahero sa mga angkop na motorsiklo.</li>
+              <li>Hindi maaaring magsakay ng pasahero ang ordinaryong moped.</li>
+              <li>Siguraduhing maayos ang pagkakakabit ng kargamento.</li>
+              <li>Hindi dapat sobrang nakausli ang kargamento sa gilid.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>↪️ Two-Stage Right Turn</h3>
+
+            <p>
+              Ang ilang motorized bicycle ay kailangang magsagawa ng two-stage right turn sa malalaking interseksyon.
+            </p>
+
+            <ul>
+              <li>Maingat na sundin ang mga marka sa kalsada.</li>
+              <li>Sundin ang mga sign at signal ng interseksyon.</li>
+              <li>Maingat na gumalaw sa bawat yugto.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- EXPRESSWAY -->
+      <section class="section" id="expressway">
+        <h2 class="section-title">🛣️ Pagmamaneho sa Expressway</h2>
+
+        <div class="cards">
+          <div class="card">
+            <h3>🔧 Pagsusuri ng Sasakyan Bago Magmaneho</h3>
+
+            <p>Bago pumasok sa expressway, maingat na suriin ang iyong sasakyan.</p>
+
+            <ul>
+              <li>Suriin ang antas ng gasolina.</li>
+              <li>Suriin ang mga gulong, preno, at ilaw.</li>
+              <li>Suriin ang engine oil at coolant.</li>
+              <li>Tiyakin ang sapat na washer fluid.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>🚘 Ligtas na Pag-merge at Paglabas</h3>
+
+            <p>Gamitin nang tama ang acceleration at deceleration lane.</p>
+
+            <ul>
+              <li>Itugma ang bilis ng trapiko bago mag-merge.</li>
+              <li>Suriin nang mabuti ang mga salamin at blind spot.</li>
+              <li>Magbagal lamang pagkatapos makapasok sa deceleration lane.</li>
+            </ul>
+
+            <div class="warning-box">
+              Ang masyadong maagang pagbagal sa pangunahing lane ay maaaring magdulot ng rear-end collision.
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>🛑 Paghinto sa Expressway</h3>
+
+            <p>Ang paghinto o pag-park sa expressway ay karaniwang ipinagbabawal maliban sa mga emergency.</p>
+
+            <ul>
+              <li>Pagkasira ng sasakyan</li>
+              <li>Mga aksidente sa trapiko</li>
+              <li>Mga instruksyon ng pulis</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>📻 Impormasyon sa Trapiko at Panahon</h3>
+
+            <p>Mangalap ng impormasyon tungkol sa trapiko at panahon bago bumiyahe sa expressway.</p>
+
+            <ul>
+              <li>Suriin ang mga ulat sa trapiko sa radyo.</li>
+              <li>Iwasan ang mapanganib na kondisyon ng panahon.</li>
+              <li>Magplano ng mga pahingahan sa mahahabang biyahe.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>🚫 Hindi Ligtas na Paghila</h3>
+
+            <p>
+              Ang paghila gamit ang lubid o cable sa expressway ay karaniwang ipinagbabawal dahil mapanganib ito sa
+              mataas na bilis.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- WEATHER -->
+      <section class="section" id="weather">
+        <h2 class="section-title">🌧️ Panahon, Mga Kurbada at Pagmamaneho sa Gabi</h2>
+
+        <div class="cards">
+          <div class="card">
+            <h3>🌧️ Maulang Panahon at Hydroplaning</h3>
+
+            <p>Ang basang kalsada ay nagpapababa ng kapit ng gulong at nagpapahaba ng stopping distance.</p>
+
+            <ul>
+              <li>Magbagal kapag umuulan.</li>
+              <li>Dagdagan ang following distance.</li>
+              <li>Magpreno nang maaga at dahan-dahan.</li>
+              <li>Iwasan ang biglaang pagliko ng manibela.</li>
+            </ul>
+
+            <div class="warning-box">Lalong madulas ang mga kalsada kapag bagong umpisa ang ulan.</div>
+          </div>
+
+          <div class="card">
+            <h3>❄️ Kaligtasan sa Niyebe at Yelo</h3>
+
+            <p>
+              Ang mga kalsadang may niyebe at yelo ay lubhang mapanganib at nangangailangan ng espesyal na pag-iingat.
+            </p>
+
+            <ul>
+              <li>Gumamit ng winter tires o tire chains.</li>
+              <li>Iwasan ang biglaang pagpreno.</li>
+              <li>Dahan-dahang mag-accelerate at lumiko.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>🌙 Pagmamaneho sa Gabi</h3>
+
+            <p>Humihina ang visibility sa gabi, kaya tumataas ang panganib ng aksidente.</p>
+
+            <ul>
+              <li>Magbagal sa gabi.</li>
+              <li>Gumamit ng low beam sa mataong lugar.</li>
+              <li>Iwasang direktang tumingin sa headlights.</li>
+              <li>Magmasid nang mabuti sa mga pedestrian at bisikleta.</li>
+            </ul>
+
+            <div class="info-box">
+              Nangangailangan ng oras ang mga mata upang maka-adjust mula sa maliwanag na lugar patungo sa madilim.
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>🌪️ Mga Kurbada at Centrifugal Force</h3>
+
+            <p>Ang mas mataas na bilis at mas matarik na kurbada ay nagpapalakas ng outward force habang lumiliko.</p>
+
+            <ul>
+              <li>Magbagal bago pumasok sa mga kurbada.</li>
+              <li>Iwasan ang biglaang pagliko ng manibela.</li>
+              <li>Panatilihin ang matatag na kontrol ng sasakyan.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- RAILROAD -->
+      <section class="section">
+        <h2 class="section-title">🚄 Kaligtasan sa Railroad Crossing</h2>
+
+        <div class="cards">
+          <div class="card">
+            <h3>🚉 Ligtas na Proseso sa Railroad Crossing</h3>
+
+            <p>Ang mga railroad crossing ay nangangailangan ng maingat na pagmamasid at pag-iingat.</p>
+
+            <ul>
+              <li>Huwag kailanman huminto sa riles ng tren.</li>
+              <li>Suriin ang mga signal, harang, at warning light.</li>
+              <li>Maging handang huminto agad kung may panganib.</li>
+              <li>Maaaring tumawid sa mga signal-controlled crossing ayon sa indikasyon ng signal.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>🚗 Sasakyang Naipit sa Riles</h3>
+
+            <p>Kapag naipit ang iyong sasakyan sa riles ng tren:</p>
+
+            <ul>
+              <li>Agad na bigyang babala ang railway personnel.</li>
+              <li>Ilipat ang sasakyan kung posible.</li>
+              <li>Tumakas nang ligtas kung kinakailangan.</li>
+            </ul>
+
+            <div class="warning-box">Huwag manatili sa loob ng sasakyan kung may paparating na tren.</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- EMERGENCY -->
+      <section class="section" id="emergency">
+        <h2 class="section-title">🚑 Mga Emergency na Sitwasyon at Legal na Responsibilidad</h2>
+
+        <div class="cards">
+          <div class="card">
+            <h3>🚨 Mga Emergency Vehicle</h3>
+
+            <p>Kailangang ligtas na magbigay-daan ang mga driver kapag may paparating na emergency vehicle.</p>
+
+            <ul>
+              <li>Ligtas na tumabi sa daan.</li>
+              <li>Huwag harangan ang mga interseksyon.</li>
+              <li>Sa one-way road, maaaring gamitin ang alinmang gilid kung mas ligtas.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>🌏 Mga Lindol at Kalamidad</h3>
+
+            <p>Sa panahon ng lindol o malalaking kalamidad:</p>
+
+            <ul>
+              <li>Iwasan ang biglaang pagpreno.</li>
+              <li>Ligtas na huminto pagkatapos suriin ang paligid.</li>
+              <li>Panatilihing maluwag ang mga emergency route.</li>
+              <li>Huwag harangan ang mga emergency responder.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>🩹 Mga Aksidente at First Aid</h3>
+
+            <p>Kailangang tumugon nang responsable ang mga driver pagkatapos ng aksidente.</p>
+
+            <ul>
+              <li>Tulungan nang maingat ang mga nasugatan.</li>
+              <li>Iwasang galawin ang mga taong may injury sa leeg maliban kung kinakailangan.</li>
+              <li>Agad na tumawag sa pulis at emergency services.</li>
+              <li>Kahit maliit na aksidente ay kailangang i-report sa pulis.</li>
+            </ul>
+
+            <div class="info-box">
+              Kinakailangan ang opisyal na police report para sa legal at insurance procedures.
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>😴 Pagkapagod at Tamang Pag-iisip sa Pagmamaneho</h3>
+
+            <p>Ang ligtas na pagmamaneho ay nakasalalay sa pasensya, awareness, at pisikal na kondisyon.</p>
+
+            <ul>
+              <li>Huwag magmaneho kapag pagod.</li>
+              <li>Panatilihin ang ligtas na following distance.</li>
+              <li>Magmaneho nang may respeto at pakikipagkapwa.</li>
+              <li>Iwasan ang reckless o selfish na pag-uugali.</li>
+            </ul>
+
+            <div class="warning-box">Ang pagkapagod ay lubhang nagpapabagal sa reaction time at concentration.</div>
+          </div>
+
+          <div class="card">
+            <h3>⚙️ Engine Braking at Kaligtasan sa Pababang Kalsada</h3>
+
+            <p>Ang engine braking ay tumutulong upang ligtas na makontrol ang bilis ng sasakyan sa pababang kalsada.</p>
+
+            <ul>
+              <li>Ang mas mababang gear ay nagbibigay ng mas malakas na engine braking.</li>
+              <li>Nakakatulong ito upang maiwasan ang sobrang init ng preno.</li>
+              <li>Tumutulong ito upang mapanatili ang mas ligtas na kontrol sa bilis.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- FINAL TAKEAWAYS -->
+      <section class="section">
+        <h2 class="section-title">✅ Mahahalagang Dapat Tandaan</h2>
+
+        <div class="takeaways">
+          <div class="takeaway-card">
+            <h4>🚦 Mga Interseksyon at Signal</h4>
+
+            <ul>
+              <li>Hindi garantiya ng kaligtasan ang green light.</li>
+              <li>Laging suriin ang mga pedestrian at bisikleta bago lumiko.</li>
+              <li>Agad na sundin ang mga instruksyon ng pulis.</li>
+            </ul>
+          </div>
+
+          <div class="takeaway-card">
+            <h4>🚶 Kaligtasan ng Pedestrian at Bisikleta</h4>
+
+            <ul>
+              <li>Magbagal malapit sa mga paaralan at residential area.</li>
+              <li>Magbigay ng sapat na espasyo kapag lumalampas sa mga siklista.</li>
+              <li>Huwag kailanman harangan ang mga tawiran o bicycle crossing.</li>
+            </ul>
+          </div>
+
+          <div class="takeaway-card">
+            <h4>🏍️ Kaligtasan sa Motorsiklo</h4>
+
+            <ul>
+              <li>Magsuot ng certified helmet at protective gear.</li>
+              <li>Gamitin nang maayos ang parehong preno.</li>
+              <li>Panatilihin ang tamang riding posture.</li>
+            </ul>
+          </div>
+
+          <div class="takeaway-card">
+            <h4>🛣️ Pagmamaneho sa Expressway</h4>
+
+            <ul>
+              <li>Suriin ang sasakyan bago bumiyahe nang malayo.</li>
+              <li>Gamitin nang tama ang acceleration at deceleration lane.</li>
+              <li>Huminto lamang sa panahon ng emergency.</li>
+            </ul>
+          </div>
+
+          <div class="takeaway-card">
+            <h4>🌧️ Panahon at Pagmamaneho sa Gabi</h4>
+
+            <ul>
+              <li>Magbagal sa ulan, niyebe, at dilim.</li>
+              <li>Iwasan ang biglaang pagliko at pagpreno.</li>
+              <li>Dagdagan ang following distance sa madulas na kalsada.</li>
+            </ul>
+          </div>
+
+          <div class="takeaway-card">
+            <h4>🚑 Kahandaan sa Emergency</h4>
+
+            <ul>
+              <li>Agad na magbigay-daan sa mga emergency vehicle.</li>
+              <li>I-report ang mga aksidente sa pulis.</li>
+              <li>Manatiling kalmado sa panahon ng emergency at kalamidad.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- FOOTER -->
+      <div class="footer">
+        🇯🇵 Reviewer sa Pag-aaral para sa Driving Test sa Japan • Mag-aral nang Mabuti • Magmaneho nang Ligtas •
+        Protektahan ang Iba
+      </div>
+    </div>
+  </body>
+</html>

@@ -842,6 +842,12 @@ body.dark .settings-title{
 
                     </div>
 
+                    <a href="/customer-portal"
+                        class="auth-btn">
+
+                        💳 Manage Subscription
+
+                    </a>
                 {% else %}
 
                     <a href="/upgrade"
@@ -929,7 +935,13 @@ body.dark .settings-title{
         </div>
 
         <div class="menu-content">
+            
+            <a href="/reviewers"
+               class="menu-btn">
 
+               📚 Reviewers
+
+            </a>
             <a href="/start/reviewer_karimen/reviewer_karimen"
                class="menu-btn menu-btn-green">
 
@@ -1062,6 +1074,7 @@ body.dark .settings-title{
 
 </div>
 
+
 <!-- ⚙️ SCRIPTS -->
 
 <script>
@@ -1122,12 +1135,6 @@ if(
 
 <script>
 
-if('serviceWorker' in navigator){
-
-    navigator.serviceWorker.register(
-        '/static/service-worker.js'
-    );
-}
 
 </script>
 

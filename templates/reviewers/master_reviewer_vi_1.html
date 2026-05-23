@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tài Liệu Ôn Thi Bằng Lái Xe Nhật Bản</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        font-family: "Segoe UI", sans-serif;
+        background: #f3f8ff;
+        color: #1f2937;
+        line-height: 1.75;
+      }
+
+      .container {
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        padding: 18px;
+      }
+
+      .hero {
+        background: linear-gradient(135deg, #4da3ff, #8ec9ff);
+        border-radius: 28px;
+        padding: 55px 28px;
+        text-align: center;
+        color: white;
+        margin-bottom: 35px;
+        box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+      }
+
+      .hero h1 {
+        font-size: 2.7rem;
+        margin-bottom: 14px;
+        line-height: 1.2;
+      }
+
+      .hero p {
+        max-width: 760px;
+        margin: auto;
+        font-size: 1rem;
+        opacity: 0.96;
+      }
+
+      .quick-nav {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 14px;
+        margin-bottom: 35px;
+      }
+
+      .nav-card {
+        background: white;
+        border-radius: 18px;
+        padding: 18px;
+        text-decoration: none;
+        color: #2563eb;
+        font-weight: 600;
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+        transition: 0.25s ease;
+        text-align: center;
+      }
+
+      .nav-card:hover {
+        transform: translateY(-2px);
+        background: #eff6ff;
+      }
+
+      .section {
+        margin-bottom: 45px;
+      }
+
+      .section-title {
+        font-size: 2rem;
+        color: #2563eb;
+        margin-bottom: 22px;
+        border-left: 6px solid #60a5fa;
+        padding-left: 14px;
+      }
+
+      .subsection-title {
+        font-size: 1.25rem;
+        color: #1d4ed8;
+        margin-bottom: 16px;
+      }
+
+      .cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+      }
+
+      .card {
+        background: white;
+        border-radius: 22px;
+        padding: 24px;
+        box-shadow: 0 8px 22px rgba(0, 0, 0, 0.05);
+        transition: 0.25s ease;
+      }
+
+      .card:hover {
+        transform: translateY(-3px);
+      }
+
+      .card h3 {
+        color: #1d4ed8;
+        margin-bottom: 14px;
+        font-size: 1.18rem;
+        line-height: 1.4;
+      }
+
+      .card p {
+        margin-bottom: 14px;
+        color: #374151;
+      }
+
+      ul {
+        padding-left: 20px;
+      }
+
+      li {
+        margin-bottom: 8px;
+      }
+
+      .info-box {
+        background: #eff6ff;
+        border-left: 5px solid #3b82f6;
+        padding: 14px;
+        border-radius: 12px;
+        margin-top: 14px;
+        color: #1e3a8a;
+        font-size: 0.95rem;
+      }
+
+      .warning-box {
+        background: #fff4f4;
+        border-left: 5px solid #ef4444;
+        padding: 14px;
+        border-radius: 12px;
+        margin-top: 14px;
+        color: #991b1b;
+        font-size: 0.95rem;
+      }
+
+      .keypoints {
+        margin-top: 12px;
+      }
+
+      .keypoints span {
+        display: inline-block;
+        background: #dbeafe;
+        color: #1d4ed8;
+        padding: 8px 12px;
+        border-radius: 999px;
+        margin: 5px 5px 0 0;
+        font-size: 0.88rem;
+        font-weight: 600;
+      }
+
+      .takeaways {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 20px;
+      }
+
+      .takeaway-card {
+        background: white;
+        border-radius: 22px;
+        padding: 22px;
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+      }
+
+      .takeaway-card h4 {
+        color: #2563eb;
+        margin-bottom: 12px;
+        font-size: 1.08rem;
+      }
+
+      .footer {
+        text-align: center;
+        padding: 40px 15px;
+        color: #6b7280;
+        font-size: 0.95rem;
+      }
+
+      @media (max-width: 768px) {
+        body {
+          line-height: 1.8;
+        }
+
+        .container {
+          padding: 14px;
+        }
+
+        .hero {
+          padding: 42px 20px;
+          border-radius: 24px;
+        }
+
+        .hero h1 {
+          font-size: 2rem;
+        }
+
+        .hero p {
+          font-size: 0.95rem;
+        }
+
+        .section-title {
+          font-size: 1.55rem;
+        }
+
+        .card {
+          padding: 20px;
+        }
+
+        .nav-card {
+          padding: 16px;
+          font-size: 0.95rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- HERO -->
+      <div class="hero">
+        <h1>🇯🇵 Tài Liệu Ôn Thi Bằng Lái Xe Nhật Bản</h1>
+        <p>
+          Sổ tay học tập thân thiện cho người mới bắt đầu dành cho người nước ngoài đang chuẩn bị thi bằng lái xe tại
+          Nhật Bản. Học các quy tắc giao thông quan trọng, thói quen an toàn, biển báo giao thông và kiến thức lái xe
+          trọng tâm cho kỳ thi theo cách đơn giản và có tổ chức.
+        </p>
+      </div>
+      <!-- QUICK NAV -->
+      <div class="quick-nav">
+        <a href="#roadsigns" class="nav-card">🚧 Biển Báo Giao Thông</a>
+        <a href="#intersections" class="nav-card">🚦 Giao Lộ</a>
+        <a href="#pedestrians" class="nav-card">🚶 Người Đi Bộ</a>
+        <a href="#parking" class="nav-card">🚗 Quy Tắc Đỗ Xe</a>
+        <a href="#motorcycles" class="nav-card">🏍️ Xe Máy</a>
+        <a href="#expressway" class="nav-card">🛣️ Đường Cao Tốc</a>
+        <a href="#weather" class="nav-card">🌧️ An Toàn Thời Tiết</a>
+        <a href="#emergency" class="nav-card">🚑 Tình Huống Khẩn Cấp</a>
+      </div>
+
+      <!-- ROAD SIGNS -->
+      <section class="section" id="roadsigns">
+        <h2 class="section-title">🚧 Biển Báo Giao Thông &amp; Vạch Kẻ Đường</h2>
+
+        <div class="cards">
+          <div class="card">
+            <h3>🚫 Biển Cấm Đi Vào &amp; Hạn Chế Phương Tiện</h3>
+
+            <p>
+              Biển hạn chế cấm một số hướng di chuyển hoặc loại phương tiện đi vào các con đường hoặc làn đường cụ thể.
+            </p>
+
+            <ul>
+              <li>Luôn kiểm tra kỹ hướng của biển báo.</li>
+              <li>Không đi vào đường hoặc làn đường bị cấm.</li>
+              <li>Một số tuyến đường hạn chế xe máy, xe gắn máy hoặc xe nhỏ.</li>
+              <li>Tuân thủ tất cả hướng dẫn làn đường được đăng.</li>
+            </ul>
+
+            <div class="warning-box">
+              Không bao giờ cho rằng một con đường được phép đi chỉ vì các xe khác đang sử dụng nó.
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>🚫 Khu Vực Cấm Vượt</h3>
+
+            <p>Biển báo và vạch cấm vượt hoàn toàn cấm vượt qua phương tiện khác.</p>
+
+            <ul>
+              <li>Việc vượt xe vẫn có thể bất hợp pháp ngay cả khi không cắt qua vạch giữa đường.</li>
+              <li>Giảm tốc độ và kiên nhẫn.</li>
+              <li>Quan sát cẩn thận các khúc cua, người đi bộ và xe đạp.</li>
+            </ul>
+
+            <div class="info-box">
+              Các khu vực cấm vượt thường được sử dụng ở những nơi nguy hiểm có tầm nhìn hạn chế.
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>🔔 Khu Vực Bắt Buộc Bấm Còi</h3>
+
+            <p>Biển báo bắt buộc bấm còi thường được đặt gần các khúc cua khuất và đường núi có tầm nhìn kém.</p>
+
+            <ul>
+              <li>Bấm còi ngắn để cảnh báo xe đang đến gần.</li>
+              <li>Sử dụng còi cẩn thận và có trách nhiệm.</li>
+              <li>Luôn cảnh giác với phương tiện hoặc người đi bộ bị khuất.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>🚲 Làn Xe Đạp &amp; Khu Băng Qua Cho Xe Đạp</h3>
+
+            <p>
+              Tài xế phải hiểu các vạch đường liên quan đến xe đạp và tôn trọng khu vực ưu tiên của người đi xe đạp.
+            </p>
+
+            <ul>
+              <li>Không dừng hoặc đỗ xe trên làn xe đạp.</li>
+              <li>Giảm tốc độ gần khu băng qua cho xe đạp.</li>
+              <li>Quan sát người đi xe đạp đang đến từ phía sau trước khi rẽ.</li>
+              <li>Giữ khoảng cách đủ rộng khi vượt xe đạp.</li>
+            </ul>
+
+            <div class="keypoints">
+              <span>Kiểm Tra Điểm Mù</span>
+              <span>Nhường Đường Cho Xe Đạp</span>
+              <span>Giảm Tốc Độ</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>⚠️ Biển Báo Cảnh Báo</h3>
+
+            <p>Biển báo cảnh báo thông báo cho tài xế về điều kiện đường nguy hiểm phía trước.</p>
+
+            <ul>
+              <li>Biển thu hẹp làn cảnh báo rằng số làn đường sẽ giảm phía trước.</li>
+              <li>Biển đá rơi xuất hiện ở khu vực miền núi.</li>
+              <li>Biển công trình yêu cầu lái xe chậm hơn và cẩn thận hơn.</li>
+              <li>Biển giới hạn tốc độ hiển thị tốc độ tối đa hợp pháp.</li>
+            </ul>
+
+            <div class="info-box">Giảm tốc độ sớm khi tiếp cận biển cảnh báo.</div>
+          </div>
+        </div>
+      </section>
+    <!-- INTERSECTIONS -->
+    <section class="section" id="intersections">
+      <h2 class="section-title">🚦 Giao Lộ, Tín Hiệu &amp; Quy Tắc Rẽ</h2>
+
+      <div class="cards">
+        <div class="card">
+          <h3>🟢 Đèn Xanh &amp; Vào Giao Lộ An Toàn</h3>
+
+          <p>Đèn xanh không phải lúc nào cũng có nghĩa là an toàn để đi vào giao lộ.</p>
+
+          <ul>
+            <li>Không đi vào nếu ùn tắc giao thông có thể làm xe của bạn bị kẹt.</li>
+            <li>Không bao giờ chặn lối sang đường hoặc đường ray xe lửa.</li>
+            <li>Xác nhận có đủ khoảng trống phía trước trước khi di chuyển.</li>
+          </ul>
+
+          <div class="warning-box">Chặn giao lộ gây nguy hiểm cho tất cả người tham gia giao thông.</div>
+        </div>
+
+        <div class="card">
+          <h3>➡️ Tín Hiệu Mũi Tên &amp; Quyền Rẽ Đặc Biệt</h3>
+
+          <p>Tín hiệu mũi tên chỉ cho phép di chuyển theo hướng được hiển thị.</p>
+
+          <ul>
+            <li>Chờ đúng mũi tên trước khi rẽ.</li>
+            <li>Một số giao lộ cho phép rẽ khi đèn đỏ hoặc vàng với biển báo đặc biệt.</li>
+            <li>Luôn kiểm tra người đi bộ và xe đạp trước tiên.</li>
+          </ul>
+
+          <div class="info-box">An toàn của người đi bộ luôn được ưu tiên khi rẽ.</div>
+        </div>
+
+        <div class="card">
+          <h3>🔴 Đèn Đỏ Nhấp Nháy &amp; Quy Trình Dừng</h3>
+
+          <p>Đèn đỏ nhấp nháy yêu cầu dừng hoàn toàn trước khi tiếp tục một cách an toàn.</p>
+
+          <ul>
+            <li>Xem đèn đỏ nhấp nháy như biển dừng.</li>
+            <li>Dừng ở nơi có tầm nhìn an toàn nhất nếu không có vạch dừng.</li>
+            <li>Quan sát cẩn thận cả hai hướng trước khi di chuyển.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>🚗 An Toàn Khi Rẽ &amp; Chuyển Làn</h3>
+
+          <p>Rẽ và chuyển làn an toàn cần quan sát và bật tín hiệu đúng cách.</p>
+
+          <ul>
+            <li>Kiểm tra gương và điểm mù trước khi di chuyển.</li>
+            <li>Bật tín hiệu trước khi chuyển làn hoặc rẽ.</li>
+            <li>Giữ tín hiệu cho đến khi hoàn thành thao tác.</li>
+            <li>Bánh sau sẽ đi theo quỹ đạo hẹp hơn khi rẽ.</li>
+          </ul>
+
+          <div class="warning-box">Rẽ quá gấp có thể khiến bánh xe va vào lề đường hoặc người đi bộ.</div>
+        </div>
+
+        <div class="card">
+          <h3>🚓 Hướng Dẫn Của Cảnh Sát</h3>
+
+          <p>Chỉ dẫn của cảnh sát có ưu tiên cao hơn đèn giao thông và biển báo.</p>
+
+          <ul>
+            <li>Tuân theo tín hiệu tay ngay lập tức.</li>
+            <li>Giữ bình tĩnh khi tắc đường hoặc khẩn cấp.</li>
+            <li>Quan sát cẩn thận giao thông xung quanh.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>🚗 Đường Ưu Tiên</h3>
+
+          <p>Xe trên đường chính thường có quyền ưu tiên hơn xe đi từ đường phụ vào.</p>
+
+          <ul>
+            <li>Giảm tốc độ trước khi vào giao lộ.</li>
+            <li>Nhường đường cẩn thận khi tầm nhìn hạn chế.</li>
+            <li>Quan sát xe máy và xe đạp bị khuất.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- PEDESTRIANS -->
+    <section class="section" id="pedestrians">
+      <h2 class="section-title">🚶 Người Đi Bộ, Người Đi Xe Đạp &amp; Khu Vực Trường Học</h2>
+
+      <div class="cards">
+        <div class="card">
+          <h3>🚸 Trẻ Em &amp; Khu Vực Trường Học</h3>
+
+          <p>Các khu vực gần trường học, công viên và khu dân cư cần đặc biệt cẩn thận.</p>
+
+          <ul>
+            <li>Trẻ em có thể đột ngột chạy ra đường.</li>
+            <li>Giảm tốc độ và chuẩn bị dừng lại.</li>
+            <li>Quan sát cẩn thận giữa các xe đang đỗ.</li>
+          </ul>
+
+          <div class="warning-box">Nguy hiểm từ trẻ em bị khuất thường xảy ra trong khu dân cư.</div>
+        </div>
+
+        <div class="card">
+          <h3>🚲 An Toàn Xe Đạp</h3>
+
+          <p>Người đi xe đạp là đối tượng dễ bị tổn thương và có thể di chuyển khó đoán.</p>
+
+          <ul>
+            <li>Giữ khoảng cách bên hông đủ rộng khi vượt.</li>
+            <li>Không ép rẽ trước đầu xe đạp.</li>
+            <li>Quan sát cẩn thận xe đạp đang đến từ phía sau.</li>
+          </ul>
+
+          <div class="info-box">Người đi xe đạp có thể đột ngột tránh chướng ngại vật hoặc lạng tay lái bất ngờ.</div>
+        </div>
+
+        <div class="card">
+          <h3>🚶 Vỉa Hè &amp; Khu Băng Qua Vỉa Hè</h3>
+
+          <p>Tài xế ra vào khu đỗ xe phải kiểm tra vỉa hè cẩn thận.</p>
+
+          <ul>
+            <li>Dừng trước khi cắt ngang vỉa hè nếu cần.</li>
+            <li>Kiểm tra người đi bộ và xe đạp.</li>
+            <li>Không bao giờ cho bánh xe leo lên vỉa hè trừ khi được phép.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>🚸 Khu Vực An Toàn</h3>
+
+          <p>Khu vực an toàn bảo vệ người đi bộ và giúp tổ chức luồng giao thông.</p>
+
+          <ul>
+            <li>Giảm tốc độ gần khu vực an toàn.</li>
+            <li>Không đỗ xe, dừng xe hoặc chặn các khu vực này.</li>
+            <li>Quan sát cẩn thận người đi bộ băng qua gần đó.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- PARKING -->
+    <section class="section" id="parking">
+      <h2 class="section-title">🚗 Quy Tắc Đỗ Xe &amp; Dừng Xe</h2>
+
+      <div class="cards">
+        <div class="card">
+          <h3>🚫 Khu Vực Cấm Đỗ Xe &amp; Cấm Dừng Xe</h3>
+
+          <p>Luật giao thông Nhật Bản quy định nghiêm ngặt nơi tài xế được phép đỗ hoặc dừng xe.</p>
+
+          <ul>
+            <li>Không đỗ xe gần lối sang đường hoặc nơi băng qua xe đạp.</li>
+            <li>Cấm đỗ xe gần khu vực an toàn.</li>
+            <li>Lối vào gara phải luôn thông thoáng.</li>
+            <li>Chờ ai đó vẫn có thể được xem là đỗ xe.</li>
+          </ul>
+
+          <div class="warning-box">Đỗ xe trái phép có thể che khuất tầm nhìn và làm tăng nguy cơ tai nạn.</div>
+        </div>
+
+        <div class="card">
+          <h3>🚫 Đỗ Xe Hai Hàng</h3>
+
+          <p>Dừng xe bên cạnh một xe đang đỗ thường bị cấm.</p>
+
+          <ul>
+            <li>Cản trở lưu thông giao thông.</li>
+            <li>Gây nguy hiểm cho người đi xe đạp.</li>
+            <li>Làm giảm tầm nhìn của giao thông xung quanh.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>🚌 Trạm Xe Buýt &amp; Khu Vực Công Cộng</h3>
+
+          <p>Các hạn chế đỗ xe thường áp dụng gần trạm xe buýt và khu vực giao thông công cộng.</p>
+
+          <ul>
+            <li>Luôn tuân thủ biển báo và vạch kẻ đường.</li>
+            <li>Không cản trở xe buýt hoặc hành khách.</li>
+            <li>Kiểm tra kỹ các điều kiện hoạt động.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>🅿️ Trách Nhiệm Đỗ Xe Đúng Quy Định</h3>
+
+          <p>Chủ phương tiện phải đảm bảo có chỗ đỗ xe hợp pháp ngoài đường.</p>
+
+          <ul>
+            <li>Giúp giảm ùn tắc ven đường.</li>
+            <li>Cải thiện an toàn khu dân cư.</li>
+            <li>Hỗ trợ lưu thông giao thông trôi chảy hơn.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- MOTORCYCLES -->
+    <section class="section" id="motorcycles">
+      <h2 class="section-title">🏍️ An Toàn Xe Máy &amp; Kỹ Thuật Lái Xe</h2>
+
+      <div class="cards">
+        <div class="card">
+          <h3>🪖 Trang Bị Bảo Hộ</h3>
+
+          <p>Người lái xe máy phải luôn mang trang bị bảo hộ phù hợp.</p>
+
+          <ul>
+            <li>Sử dụng mũ bảo hiểm được chứng nhận có dấu PS(C) hoặc JIS.</li>
+            <li>Mặc áo dài tay, găng tay và quần áo bảo hộ.</li>
+            <li>Bảo vệ vùng da hở ngay cả trong mùa hè.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>🧍 Tư Thế Lái Xe Đúng</h3>
+
+          <p>Tư thế ổn định giúp cải thiện khả năng giữ thăng bằng và điều khiển xe máy.</p>
+
+          <ul>
+            <li>Kẹp bình xăng bằng cả hai đầu gối.</li>
+            <li>Giữ mũi chân hướng vào trong hoặc hướng về phía trước.</li>
+            <li>Nắm tay lái nhẹ nhàng nhưng chắc chắn.</li>
+            <li>Giảm các chuyển động cơ thể không cần thiết.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>🛑 Kỹ Thuật Phanh</h3>
+
+          <p>Người lái nên sử dụng đồng thời cả phanh trước và phanh sau một cách mượt mà.</p>
+
+          <ul>
+            <li>Giữ xe máy cân bằng khi phanh.</li>
+            <li>Tránh phanh gấp trên đường trơn trượt.</li>
+            <li>Phanh nhẹ nhàng để tránh trượt bánh.</li>
+          </ul>
+
+          <div class="info-box">Phanh cân bằng giúp cải thiện khả năng kiểm soát và ổn định khi dừng.</div>
+        </div>
+
+        <div class="card">
+          <h3>👥 Quy Tắc Chở Người &amp; Hàng Hóa</h3>
+
+          <p>Người và hàng hóa phải được chở an toàn và hợp pháp.</p>
+
+          <ul>
+            <li>Chỉ những xe máy phù hợp mới được chở người.</li>
+            <li>Xe gắn máy thông thường không được chở người.</li>
+            <li>Cố định hàng hóa đúng cách.</li>
+            <li>Hàng hóa không được nhô ra quá nhiều hai bên.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>↪️ Rẽ Phải Hai Giai Đoạn</h3>
+
+          <p>Một số xe đạp máy phải thực hiện rẽ phải hai giai đoạn tại các giao lộ lớn.</p>
+
+          <ul>
+            <li>Tuân theo vạch kẻ đường cẩn thận.</li>
+            <li>Tuân thủ biển báo và tín hiệu giao lộ.</li>
+            <li>Di chuyển cẩn thận qua từng giai đoạn.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPRESSWAY -->
+    <section class="section" id="expressway">
+      <h2 class="section-title">🛣️ Lái Xe Trên Đường Cao Tốc</h2>
+
+      <div class="cards">
+        <div class="card">
+          <h3>🔧 Kiểm Tra Xe Trước Khi Lái</h3>
+
+          <p>Trước khi vào đường cao tốc, hãy kiểm tra xe cẩn thận.</p>
+
+          <ul>
+            <li>Kiểm tra mức nhiên liệu.</li>
+            <li>Kiểm tra lốp xe, phanh và đèn.</li>
+            <li>Kiểm tra dầu động cơ và nước làm mát.</li>
+            <li>Xác nhận mức nước rửa kính.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>🚘 Nhập Làn &amp; Ra Làn An Toàn</h3>
+
+          <p>Sử dụng đúng làn tăng tốc và giảm tốc.</p>
+
+          <ul>
+            <li>Điều chỉnh tốc độ phù hợp với dòng xe trước khi nhập làn.</li>
+            <li>Kiểm tra gương và điểm mù cẩn thận.</li>
+            <li>Chỉ giảm tốc sau khi đã vào làn giảm tốc.</li>
+          </ul>
+
+          <div class="warning-box">Giảm tốc quá sớm ở làn chính có thể gây va chạm từ phía sau.</div>
+        </div>
+
+        <div class="card">
+          <h3>🛑 Dừng Xe Trên Đường Cao Tốc</h3>
+
+          <p>Việc dừng hoặc đỗ xe trên đường cao tốc thường bị cấm trừ trường hợp khẩn cấp.</p>
+
+          <ul>
+            <li>Xe bị hỏng</li>
+            <li>Tai nạn giao thông</li>
+            <li>Hướng dẫn của cảnh sát</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>📻 Thông Tin Giao Thông &amp; Thời Tiết</h3>
+
+          <p>Thu thập thông tin giao thông và thời tiết trước khi lái xe trên đường cao tốc.</p>
+
+          <ul>
+            <li>Kiểm tra bản tin giao thông trên radio.</li>
+            <li>Tránh điều kiện thời tiết nguy hiểm.</li>
+            <li>Lên kế hoạch nghỉ ngơi trong các chuyến đi dài.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>🚫 Kéo Xe Không An Toàn</h3>
+
+          <p>Việc kéo xe bằng dây hoặc cáp trên đường cao tốc thường bị cấm vì rất nguy hiểm ở tốc độ cao.</p>
+        </div>
+      </div>
+    </section>
+    <!-- WEATHER -->
+    <section class="section" id="weather">
+      <h2 class="section-title">🌧️ Thời Tiết, Khúc Cua &amp; Lái Xe Ban Đêm</h2>
+
+      <div class="cards">
+        <div class="card">
+          <h3>🌧️ Trời Mưa &amp; Hiện Tượng Trượt Nước</h3>
+
+          <p>Đường ướt làm giảm độ bám của lốp và tăng quãng đường phanh.</p>
+
+          <ul>
+            <li>Giảm tốc độ khi trời mưa.</li>
+            <li>Tăng khoảng cách bám theo.</li>
+            <li>Phanh sớm và nhẹ nhàng.</li>
+            <li>Tránh đánh lái đột ngột.</li>
+          </ul>
+
+          <div class="warning-box">Đường đặc biệt trơn trượt khi mưa mới bắt đầu.</div>
+        </div>
+
+        <div class="card">
+          <h3>❄️ An Toàn Khi Có Tuyết &amp; Băng</h3>
+
+          <p>Đường phủ tuyết và băng rất nguy hiểm và cần đặc biệt cẩn thận.</p>
+
+          <ul>
+            <li>Sử dụng lốp mùa đông hoặc dây xích lốp.</li>
+            <li>Tránh phanh đột ngột.</li>
+            <li>Tăng tốc và rẽ nhẹ nhàng.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>🌙 Lái Xe Ban Đêm</h3>
+
+          <p>Tầm nhìn giảm vào ban đêm, làm tăng nguy cơ tai nạn.</p>
+
+          <ul>
+            <li>Giảm tốc độ vào ban đêm.</li>
+            <li>Sử dụng đèn cos ở khu vực đông đúc.</li>
+            <li>Không nhìn trực tiếp vào đèn pha xe đối diện.</li>
+            <li>Quan sát cẩn thận người đi bộ và xe đạp.</li>
+          </ul>
+
+          <div class="info-box">Mắt cần thời gian để thích nghi khi chuyển từ khu vực sáng sang tối.</div>
+        </div>
+
+        <div class="card">
+          <h3>🌪️ Khúc Cua &amp; Lực Ly Tâm</h3>
+
+          <p>Tốc độ cao và khúc cua gắt làm tăng lực hướng ra ngoài khi rẽ.</p>
+
+          <ul>
+            <li>Giảm tốc độ trước khi vào cua.</li>
+            <li>Tránh đánh lái đột ngột.</li>
+            <li>Giữ xe ổn định và kiểm soát tốt.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- RAILROAD -->
+    <section class="section">
+      <h2 class="section-title">🚄 An Toàn Khi Qua Đường Ray</h2>
+
+      <div class="cards">
+        <div class="card">
+          <h3>🚉 Quy Trình Qua Đường Ray An Toàn</h3>
+
+          <p>Đường ray xe lửa cần sự quan sát và chú ý cẩn thận.</p>
+
+          <ul>
+            <li>Không bao giờ dừng xe trên đường ray.</li>
+            <li>Kiểm tra tín hiệu, thanh chắn và đèn cảnh báo.</li>
+            <li>Sẵn sàng dừng ngay nếu có nguy hiểm.</li>
+            <li>Có thể đi qua giao cắt có tín hiệu theo chỉ dẫn đèn tín hiệu.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>🚗 Xe Bị Kẹt Trên Đường Ray</h3>
+
+          <p>Nếu xe của bạn bị kẹt trên đường ray:</p>
+
+          <ul>
+            <li>Lập tức thông báo cho nhân viên đường sắt.</li>
+            <li>Di chuyển xe nếu có thể.</li>
+            <li>Rời khỏi xe an toàn nếu cần.</li>
+          </ul>
+
+          <div class="warning-box">Không ở lại trong xe nếu tàu đang đến gần.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EMERGENCY -->
+    <section class="section" id="emergency">
+      <h2 class="section-title">🚑 Tình Huống Khẩn Cấp &amp; Trách Nhiệm Pháp Lý</h2>
+
+      <div class="cards">
+        <div class="card">
+          <h3>🚨 Xe Khẩn Cấp</h3>
+
+          <p>Tài xế phải nhường đường an toàn cho xe khẩn cấp đang đến gần.</p>
+
+          <ul>
+            <li>Di chuyển vào lề đường một cách an toàn.</li>
+            <li>Không chặn giao lộ.</li>
+            <li>Trên đường một chiều, có thể dùng bất kỳ bên nào nếu an toàn.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>🌏 Động Đất &amp; Thảm Họa</h3>
+
+          <p>Trong lúc xảy ra động đất hoặc thảm họa lớn:</p>
+
+          <ul>
+            <li>Tránh phanh gấp.</li>
+            <li>Dừng xe an toàn sau khi kiểm tra xung quanh.</li>
+            <li>Giữ thông thoáng các tuyến đường khẩn cấp.</li>
+            <li>Không cản trở nhân viên cứu hộ.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>🩹 Tai Nạn &amp; Sơ Cứu</h3>
+
+          <p>Tài xế phải phản ứng có trách nhiệm sau tai nạn.</p>
+
+          <ul>
+            <li>Hỗ trợ người bị thương cẩn thận.</li>
+            <li>Không di chuyển người bị chấn thương cổ trừ khi cần thiết.</li>
+            <li>Liên hệ cảnh sát và cấp cứu ngay lập tức.</li>
+            <li>Ngay cả tai nạn nhỏ cũng phải báo cảnh sát.</li>
+          </ul>
+
+          <div class="info-box">Báo cáo chính thức của cảnh sát là cần thiết cho thủ tục pháp lý và bảo hiểm.</div>
+        </div>
+
+        <div class="card">
+          <h3>😴 Mệt Mỏi &amp; Tinh Thần Lái Xe Đúng Đắn</h3>
+
+          <p>Lái xe an toàn phụ thuộc vào sự kiên nhẫn, tỉnh táo và thể trạng tốt.</p>
+
+          <ul>
+            <li>Không lái xe khi mệt mỏi.</li>
+            <li>Giữ khoảng cách an toàn.</li>
+            <li>Lái xe với sự tôn trọng và quan tâm.</li>
+            <li>Tránh hành vi bất cẩn hoặc ích kỷ.</li>
+          </ul>
+
+          <div class="warning-box">Mệt mỏi làm giảm nghiêm trọng thời gian phản ứng và khả năng tập trung.</div>
+        </div>
+
+        <div class="card">
+          <h3>⚙️ Phanh Động Cơ &amp; An Toàn Khi Xuống Dốc</h3>
+
+          <p>Phanh động cơ giúp kiểm soát tốc độ xe an toàn khi xuống dốc.</p>
+
+          <ul>
+            <li>Số thấp tạo lực phanh động cơ mạnh hơn.</li>
+            <li>Giúp tránh quá nhiệt phanh.</li>
+            <li>Giúp duy trì kiểm soát tốc độ an toàn hơn.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- FINAL TAKEAWAYS -->
+    <section class="section">
+      <h2 class="section-title">✅ Những Điều Quan Trọng Cần Ghi Nhớ</h2>
+
+      <div class="takeaways">
+        <div class="takeaway-card">
+          <h4>🚦 Giao Lộ &amp; Tín Hiệu</h4>
+
+          <ul>
+            <li>Đèn xanh không đảm bảo an toàn tuyệt đối.</li>
+            <li>Luôn kiểm tra người đi bộ và xe đạp trước khi rẽ.</li>
+            <li>Tuân theo chỉ dẫn của cảnh sát ngay lập tức.</li>
+          </ul>
+        </div>
+
+        <div class="takeaway-card">
+          <h4>🚶 An Toàn Cho Người Đi Bộ &amp; Xe Đạp</h4>
+
+          <ul>
+            <li>Giảm tốc độ gần trường học và khu dân cư.</li>
+            <li>Chừa đủ khoảng cách khi vượt xe đạp.</li>
+            <li>Không bao giờ chặn lối sang đường hoặc nơi băng qua xe đạp.</li>
+          </ul>
+        </div>
+
+        <div class="takeaway-card">
+          <h4>🏍️ An Toàn Xe Máy</h4>
+
+          <ul>
+            <li>Sử dụng mũ bảo hiểm và đồ bảo hộ đạt chuẩn.</li>
+            <li>Sử dụng đúng cả hai phanh.</li>
+            <li>Giữ tư thế lái đúng.</li>
+          </ul>
+        </div>
+
+        <div class="takeaway-card">
+          <h4>🛣️ Lái Xe Trên Đường Cao Tốc</h4>
+
+          <ul>
+            <li>Kiểm tra xe trước các chuyến đi dài.</li>
+            <li>Sử dụng đúng làn tăng tốc và giảm tốc.</li>
+            <li>Chỉ dừng xe trong trường hợp khẩn cấp.</li>
+          </ul>
+        </div>
+
+        <div class="takeaway-card">
+          <h4>🌧️ Thời Tiết &amp; Lái Xe Ban Đêm</h4>
+
+          <ul>
+            <li>Giảm tốc độ khi trời mưa, tuyết và trời tối.</li>
+            <li>Tránh rẽ và phanh đột ngột.</li>
+            <li>Tăng khoảng cách bám theo trên đường trơn trượt.</li>
+          </ul>
+        </div>
+
+        <div class="takeaway-card">
+          <h4>🚑 Chuẩn Bị Khẩn Cấp</h4>
+
+          <ul>
+            <li>Nhường đường ngay cho xe khẩn cấp.</li>
+            <li>Báo cảnh sát khi xảy ra tai nạn.</li>
+            <li>Giữ bình tĩnh trong các tình huống khẩn cấp và thảm họa.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <div class="footer">
+      🇯🇵 Tài Liệu Ôn Thi Bằng Lái Xe Nhật Bản • Học Thông Minh • Lái Xe An Toàn • Bảo Vệ Mọi Người
+    </div>
+    </div>
+  </body>
+</html>
