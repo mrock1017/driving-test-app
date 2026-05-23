@@ -30,6 +30,12 @@ auth = Blueprint(
     __name__
 )
 
+import uuid
+from flask import make_response
+from models import UserDevice
+
+MAX_PREMIUM_DEVICES = 3
+
 @auth.route('/test-auth')
 def test_auth():
 
@@ -71,7 +77,76 @@ def login():
             password
         ):
 
+            # =====================================================
+            # 📱 DEVICE LIMIT CHECK
+            # =====================================================
+
+            device_token = request.cookies.get(
+                'device_token'
+            )
+
+            if not device_token:
+
+                device_token = str(uuid.uuid4())
+
+            existing_device = UserDevice.query.filter_by(
+
+                user_id=user.id,
+
+                device_token=device_token
+
+            ).first()
+
+            if not existing_device:
+
+                device_count = UserDevice.query.filter_by(
+
+                    user_id=user.id
+
+                ).count()
+
+                # =================================================
+                # 🔒 PREMIUM DEVICE LIMIT
+                # =================================================
+
+                if user.is_premium:
+
+                    if device_count >= MAX_PREMIUM_DEVICES:
+
+                        return render_template(
+
+                            'login.html',
+
+                            error=(
+                                "Maximum premium devices reached. "
+                                "Please logout from another device first."
+                            ),
+
+                            ui=ui
+                        )
+
+                # =================================================
+                # 💾 SAVE DEVICE
+                # =================================================
+
+                new_device = UserDevice(
+
+                    user_id=user.id,
+
+                    device_token=device_token,
+
+                    user_agent=request.headers.get(
+                        'User-Agent'
+                    )
+                )
+
+                db.session.add(new_device)
+
+                db.session.commit()
+
+            # =====================================================
             # ✅ LOGIN USER
+            # =====================================================
 
             session['user_id'] = user.id
 
@@ -87,7 +162,25 @@ def login():
                 user.subscription_status
             )
 
-            return redirect('/menu')
+            # =====================================================
+            # 🍪 SAVE DEVICE COOKIE
+            # =====================================================
+
+            response = make_response(
+
+                redirect('/menu')
+            )
+
+            response.set_cookie(
+
+                'device_token',
+
+                device_token,
+
+                max_age=60 * 60 * 24 * 365
+            )
+
+            return response
 
         else:
 
@@ -103,6 +196,61 @@ def login():
 
         ui=ui
     )
+
+# =========================================================
+# 📱 MANAGE DEVICES
+# =========================================================
+
+@auth.route('/devices')
+def devices():
+
+    if 'user_id' not in session:
+
+        return redirect('/login')
+
+    devices = UserDevice.query.filter_by(
+
+        user_id=session['user_id']
+
+    ).order_by(
+
+        UserDevice.created_at.desc()
+
+    ).all()
+
+    return render_template(
+
+        'devices.html',
+
+        devices=devices
+    )
+
+# =========================================================
+# ❌ REMOVE DEVICE
+# =========================================================
+
+@auth.route('/remove-device/<int:device_id>')
+def remove_device(device_id):
+
+    if 'user_id' not in session:
+
+        return redirect('/login')
+
+    device = UserDevice.query.filter_by(
+
+        id=device_id,
+
+        user_id=session['user_id']
+
+    ).first()
+
+    if device:
+
+        db.session.delete(device)
+
+        db.session.commit()
+
+    return redirect('/devices')
 
 # =========================================================
 # 👤 REGISTER
@@ -190,14 +338,38 @@ def register():
 
                 session['is_premium'] = False
 
-                return redirect('/menu')
+                device_token = str(uuid.uuid4())
 
-                print("AUTO VERIFIED USER")
+                new_device = UserDevice(
 
-                success = (
-                    "Account created successfully. "
-                    "You can now login."
+                    user_id=new_user.id,
+
+                    device_token=device_token,
+
+                    user_agent=request.headers.get(
+                        'User-Agent'
+                    )
                 )
+
+                db.session.add(new_device)
+
+                db.session.commit()
+
+                response = make_response(
+
+                    redirect('/menu')
+                )
+
+                response.set_cookie(
+
+                    'device_token',
+
+                    device_token,
+
+                    max_age=60 * 60 * 24 * 365
+                )
+
+                return response
 
     return render_template(
 

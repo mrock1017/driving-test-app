@@ -32,6 +32,21 @@ class User(db.Model):
         default=False
     )
 
+    stripe_customer_id = db.Column(
+    db.String(200),
+    nullable=True
+    )
+
+    stripe_subscription_id = db.Column(
+        db.String(200),
+        nullable=True
+    )
+
+    subscription_status = db.Column(
+        db.String(50),
+        default='inactive'
+    )
+
 # =========================================================
 # 📊 SCORE HISTORY MODEL
 # =========================================================
@@ -62,6 +77,31 @@ class ScoreHistory(db.Model):
 
     passed = db.Column(
         db.Boolean
+    )
+
+    created_at = db.Column(
+        db.DateTime,
+        default=db.func.now()
+    )
+
+class UserDevice(db.Model):
+
+    id = db.Column(
+        db.Integer,
+        primary_key=True
+    )
+
+    user_id = db.Column(
+        db.Integer,
+        db.ForeignKey('user.id')
+    )
+
+    device_token = db.Column(
+        db.String(300)
+    )
+
+    user_agent = db.Column(
+        db.String(500)
     )
 
     created_at = db.Column(
