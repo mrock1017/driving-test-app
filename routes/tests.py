@@ -14,6 +14,11 @@ import random
 import time
 import stripe
 import os
+
+stripe.api_key = os.getenv(
+    "STRIPE_SECRET_KEY"
+)
+
 from models import (
     User,
     ScoreHistory,
@@ -25,10 +30,7 @@ tests = Blueprint(
     __name__
 )
 
-stripe.api_key = os.getenv(
-    "STRIPE_SECRET_KEY"
-)
-
+QUESTION_CACHE = {}
 
 # =========================================================
 # ✅ MENU
@@ -178,21 +180,31 @@ def start_mode(mode, test):
         return "Invalid mode"
 
     # =====================================================
-    # ✅ LOAD QUESTIONS
+    # ✅ LOAD QUESTIONS WITH CACHE
     # =====================================================
 
-    questions = load_questions(
+    cache_key = f"{folder}_{language}_{test}"
 
-        folder,
+    if cache_key not in QUESTION_CACHE:
 
-        language,
+        QUESTION_CACHE[cache_key] = load_questions(
 
-        f"{test}.json"
-    )
+            folder,
+
+            language,
+
+            f"{test}.json"
+        )
+
+    questions = QUESTION_CACHE[cache_key]
 
     if len(questions) == 0:
 
         return "No questions found."
+
+        if len(questions) == 0:
+
+            return "No questions found."
 
     # =====================================================
     # 💾 SAVE SESSION
