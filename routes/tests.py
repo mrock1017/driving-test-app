@@ -1012,7 +1012,7 @@ def create_checkout_session(plan):
         }],
 
         success_url=request.host_url +
-        'payment-success',
+        'payment-success?session_id={CHECKOUT_SESSION_ID}',
 
         cancel_url=request.host_url +
         'upgrade',
@@ -1036,18 +1036,46 @@ def payment_success():
 
         return redirect('/login')
 
-    user = User.query.get(
-        session['user_id']
+    checkout_session_id = request.args.get(
+        'session_id'
     )
 
-    if user:
+    if not checkout_session_id:
 
-        user.is_premium = True
+        return redirect('/menu')
 
-        db.session.commit()
+    try:
 
-        session['is_premium'] = True
+        checkout_session = stripe.checkout.Session.retrieve(
+
+            checkout_session_id
+        )
+
+        customer_id = checkout_session.customer
+
+        subscription_id = checkout_session.subscription
+
+        user = User.query.get(
+            session['user_id']
+        )
+
+        if user:
+
+            user.is_premium = True
+
+            user.stripe_customer_id = customer_id
+
+            user.stripe_subscription_id = subscription_id
+
+            user.subscription_status = 'active'
+
+            db.session.commit()
+
+    except Exception as e:
+
+        return str(e)
 
     return render_template(
+
         'payment_success.html'
     )
