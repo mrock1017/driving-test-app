@@ -12,7 +12,8 @@ from languages.ui import get_ui
 
 import random
 import time
-
+import stripe
+import os
 from models import (
     User,
     ScoreHistory,
@@ -23,6 +24,11 @@ tests = Blueprint(
     'tests',
     __name__
 )
+
+stripe.api_key = os.getenv(
+    "STRIPE_SECRET_KEY"
+)
+
 
 # =========================================================
 # ✅ MENU
@@ -107,6 +113,18 @@ def start_mode(mode, test):
 
     if mode == "honmen":
 
+        # =================================================
+        # 👤 GUEST USERS
+        # =================================================
+
+        if 'user_id' not in session:
+
+            return redirect('/register')
+
+        # =================================================
+        # 🔒 FREE USERS
+        # =================================================
+
         if not is_premium:
 
             return redirect('/upgrade')
@@ -121,7 +139,7 @@ def start_mode(mode, test):
 
         if "reviewer" not in mode:
 
-            return redirect('/upgrade')
+            return redirect('/register')
 
     # =====================================================
     # 🔒 FREE USERS
@@ -233,6 +251,38 @@ def start_mode(mode, test):
 
     elif "reviewer" in mode:
 
+                # =================================================
+        # 🚫 GUEST REVIEWER LIMIT
+        # =================================================
+
+        if 'user_id' not in session:
+
+            if session.get('guest_reviewer_done'):
+
+                return redirect('/register')
+
+        # =================================================
+        # 🚫 FREE ACCOUNT REVIEWER LIMIT
+        # =================================================
+
+        elif not is_premium:
+
+            existing_attempt = (
+
+                ScoreHistory.query
+
+                .filter_by(
+                    user_id=session['user_id'],
+                    mode=mode
+                )
+
+                .first()
+            )
+
+            if existing_attempt:
+
+                return redirect('/upgrade')
+
         reviewer_indexes = []
 
         # ✅ ONLY NORMAL QUESTIONS
@@ -251,7 +301,7 @@ def start_mode(mode, test):
 
         if 'user_id' not in session:
 
-            order = reviewer_indexes[:10]
+            order = reviewer_indexes[:20]
 
         # =================================================
         # 🔒 FREE USERS = 20 QUESTIONS
@@ -382,6 +432,8 @@ def question():
 
                     score += 1
 
+            session['guest_reviewer_done'] = True
+
             return render_template(
 
                 'guest_result.html',
@@ -391,7 +443,7 @@ def question():
                 total=len(order)
             )
 
-        # =================================================
+                # =================================================
         # 🔒 FREE REVIEWER LIMIT
         # =================================================
 
@@ -409,9 +461,52 @@ def question():
 
         ):
 
-            return redirect('/upgrade')
+            answers = session.get('answers', [])
 
-        return redirect('/result')
+            score = 0
+
+            for i in range(min(len(answers), len(order))):
+
+                q = questions[order[i]]
+
+                correct_answer = (
+                    q['answer']
+                    .strip()
+                    .lower()
+                )
+
+                user_answer = (
+                    (answers[i] or '')
+                    .strip()
+                    .lower()
+                )
+
+                if user_answer == correct_answer:
+
+                    score += 1
+
+            # =============================================
+            # 💾 SAVE HISTORY
+            # =============================================
+
+            history = ScoreHistory(
+
+                user_id=session['user_id'],
+
+                mode=session['mode'],
+
+                score=score,
+
+                total=len(order),
+
+                passed=False
+            )
+
+            db.session.add(history)
+
+            db.session.commit()
+
+            return redirect('/upgrade')
 
     # =====================================================
     # 📦 CURRENT QUESTION
@@ -854,4 +949,93 @@ def score_history():
         history=history,
 
         ui=get_ui()
+    )
+
+# =========================================================
+# 💳 STRIPE CHECKOUT
+# =========================================================
+
+@tests.route('/create-checkout-session/<plan>')
+def create_checkout_session(plan):
+
+    # =====================================================
+    # 👤 LOGIN REQUIRED
+    # =====================================================
+
+    if 'user_id' not in session:
+
+        return redirect('/register')
+
+    # =====================================================
+    # 💳 SELECT PRICE ID
+    # =====================================================
+
+    if plan == "yearly":
+
+        price_id = os.getenv(
+            "STRIPE_YEARLY_PRICE_ID"
+        )
+
+    else:
+
+        price_id = os.getenv(
+            "STRIPE_MONTHLY_PRICE_ID"
+        )
+
+    # =====================================================
+    # 🚀 CREATE STRIPE SESSION
+    # =====================================================
+
+    checkout_session = stripe.checkout.Session.create(
+
+        payment_method_types=['card'],
+
+        mode='subscription',
+
+        line_items=[{
+
+            'price': price_id,
+
+            'quantity': 1,
+        }],
+
+        success_url=request.host_url +
+        'payment-success',
+
+        cancel_url=request.host_url +
+        'upgrade',
+    )
+
+    return redirect(
+
+        checkout_session.url,
+
+        code=303
+    )
+
+# =========================================================
+# ✅ PAYMENT SUCCESS
+# =========================================================
+
+@tests.route('/payment-success')
+def payment_success():
+
+    if 'user_id' not in session:
+
+        return redirect('/login')
+
+    user = User.query.get(
+        session['user_id']
+    )
+
+    if user:
+
+        user.is_premium = True
+
+        db.session.commit()
+
+        session['is_premium'] = True
+
+    return render_template(
+        'payment_success.html'
     )

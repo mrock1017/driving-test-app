@@ -417,7 +417,15 @@ body.dark .situation-box{
 
 <div class="question-status">
 
-    Question {{ display_index }} / {{ total }}
+    {% if is_reviewer %}
+
+        Review Question {{ display_index }}
+
+    {% else %}
+
+        Question {{ display_index }} / {{ total }}
+
+    {% endif %}
 
 </div>
 

@@ -307,6 +307,21 @@ body{
     transform:translateY(-2px);
 }
 
+.yearly-btn{
+
+    margin-top:14px;
+
+    background:
+    linear-gradient(
+    135deg,
+    #16a34a,
+    #15803d
+    );
+
+    box-shadow:
+    0 10px 24px rgba(22,163,74,0.25);
+}
+
 .login-link{
 
     display:block;
@@ -329,6 +344,24 @@ body{
     font-size:14px;
 
     line-height:1.6;
+}
+
+@media(max-width:600px){
+
+    .title{
+
+        font-size:30px;
+    }
+
+    .price{
+
+        font-size:46px;
+    }
+
+    .upgrade-btn{
+
+        font-size:16px;
+    }
 }
 
 </style>
@@ -479,10 +512,19 @@ body{
 
         </div>
 
-        <a href="#"
+        <!-- 💳 STRIPE BUTTONS -->
+
+        <a href="/create-checkout-session/monthly"
            class="upgrade-btn">
 
-           🚀 Upgrade Now
+           🚀 Upgrade Monthly
+
+        </a>
+
+        <a href="/create-checkout-session/yearly"
+           class="upgrade-btn yearly-btn">
+
+           ⭐ Upgrade Yearly
 
         </a>
 

@@ -8,10 +8,28 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0">
 
+    <link rel="apple-touch-icon"
+          href="/static/images/icon.png?v=2">
+
+    <meta name="theme-color"
+          content="#2563eb">
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
           rel="stylesheet">
 
 <style>
+
+*{
+    box-sizing:border-box;
+    -webkit-tap-highlight-color:transparent;
+}
 
 body{
 
@@ -20,8 +38,8 @@ body{
     background:
     linear-gradient(
     180deg,
-    #eff6ff,
-    #dbeafe
+    #eff6ff 0%,
+    #dbeafe 100%
     );
 
     margin:0;
@@ -41,40 +59,66 @@ body{
 
     background:white;
 
-    max-width:420px;
+    max-width:440px;
 
     width:100%;
 
-    border-radius:30px;
+    border-radius:32px;
 
-    padding:36px 28px;
+    padding:40px 30px;
 
     text-align:center;
 
     box-shadow:
-    0 14px 40px rgba(0,0,0,0.08);
+    0 16px 50px rgba(37,99,235,0.12);
+
+    animation:fadeUp 0.35s ease;
+}
+
+@keyframes fadeUp{
+
+    from{
+
+        opacity:0;
+        transform:translateY(18px);
+    }
+
+    to{
+
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+.emoji{
+
+    font-size:58px;
+
+    margin-bottom:12px;
 }
 
 .score{
 
-    font-size:64px;
+    font-size:68px;
 
     font-weight:800;
 
     color:#2563eb;
 
     margin-bottom:10px;
+
+    letter-spacing:-2px;
 }
 
 .title{
 
-    font-size:28px;
+    font-size:30px;
 
     font-weight:800;
 
     color:#111827;
 
-    margin-bottom:14px;
+    margin-bottom:16px;
 }
 
 .desc{
@@ -83,7 +127,7 @@ body{
 
     font-size:16px;
 
-    line-height:1.6;
+    line-height:1.7;
 
     margin-bottom:28px;
 }
@@ -92,39 +136,65 @@ body{
 
     background:#f8fafc;
 
-    border-radius:18px;
+    border:1px solid #e2e8f0;
 
-    padding:18px;
+    border-radius:22px;
 
-    margin-bottom:24px;
+    padding:20px;
+
+    margin-bottom:28px;
 
     text-align:left;
 }
 
 .feature{
 
-    margin-bottom:12px;
+    margin-bottom:14px;
 
     font-weight:600;
 
     color:#334155;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    line-height:1.5;
+}
+
+.feature:last-child{
+
+    margin-bottom:0;
 }
 
 .btn{
 
-    display:block;
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
 
     text-decoration:none;
 
-    padding:16px;
+    padding:18px;
 
-    border-radius:18px;
+    border-radius:20px;
 
-    font-weight:700;
+    font-weight:800;
+
+    font-size:16px;
 
     margin-top:14px;
 
-    transition:0.15s ease;
+    transition:0.18s ease;
+}
+
+.btn:hover{
+
+    transform:translateY(-2px);
 }
 
 .btn-register{
@@ -137,6 +207,9 @@ body{
     );
 
     color:white;
+
+    box-shadow:
+    0 10px 24px rgba(37,99,235,0.22);
 }
 
 .btn-login{
@@ -148,18 +221,45 @@ body{
     color:#334155;
 }
 
-.btn:hover{
-
-    transform:translateY(-1px);
-}
-
 .small{
 
-    margin-top:22px;
+    margin-top:26px;
 
     font-size:14px;
 
     color:#64748b;
+
+    line-height:1.6;
+}
+
+.highlight{
+
+    color:#2563eb;
+
+    font-weight:800;
+}
+
+@media(max-width:480px){
+
+    .card{
+
+        padding:34px 22px;
+    }
+
+    .score{
+
+        font-size:56px;
+    }
+
+    .title{
+
+        font-size:26px;
+    }
+
+    .desc{
+
+        font-size:15px;
+    }
 }
 
 </style>
@@ -170,6 +270,12 @@ body{
 
 <div class="card">
 
+    <div class="emoji">
+
+        🎉
+
+    </div>
+
     <div class="score">
 
         {{ score }}/{{ total }}
@@ -178,35 +284,49 @@ body{
 
     <div class="title">
 
-        🎉 Great Start!
+        Great Start!
 
     </div>
 
     <div class="desc">
 
-        You completed your free sample test.
+        You completed your free reviewer challenge.
 
         Create a free account to continue practicing
-        and unlock more driving exam questions.
+        and access more Japan driving test features.
 
     </div>
 
     <div class="feature-box">
 
         <div class="feature">
-            ✅ 20 Reviewer Questions
+
+            ✅ Continue your progress anytime
+
         </div>
 
         <div class="feature">
-            ✅ Free Karimen Test
+
+            ✅ 20 Free Reviewer Questions
+
         </div>
 
         <div class="feature">
-            ⭐ Premium Honmen Access
+
+            ✅ Access Karimen mock tests
+
         </div>
 
         <div class="feature">
-            ⭐ Unlimited Practice
+
+            ⭐ Unlock full Honmen practice with Premium
+
+        </div>
+
+        <div class="feature">
+
+            ⭐ AI explanations and unlimited learning
+
         </div>
 
     </div>
@@ -221,14 +341,21 @@ body{
     <a href="/login"
        class="btn btn-login">
 
-       👤 Login
+       👤 Already Have an Account?
 
     </a>
 
     <div class="small">
 
-        Join thousands of learners preparing
-        for the Japan driving test.
+        Join thousands of learners preparing for the
+
+        <span class="highlight">
+
+            Japan Driving Test
+
+        </span>
+
+        🇯🇵
 
     </div>
 
