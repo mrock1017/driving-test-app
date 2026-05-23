@@ -8,7 +8,7 @@ from flask import (
 )
 
 from models import db
-
+from models import User
 from flask_mail import (
     Mail,
     Message
@@ -43,10 +43,40 @@ import time
 
 app = Flask(__name__)
 
+app.config.from_object(Config)
+
+# =========================================================
+# 🔄 AUTO PREMIUM SESSION SYNC
+# =========================================================
+
+@app.before_request
+def sync_premium_session():
+
+    if 'user_id' not in session:
+
+        return
+
+    user = User.query.get(
+        session['user_id']
+    )
+
+    if not user:
+
+        session.clear()
+
+        return
+
+    session['is_premium'] = (
+        user.is_premium
+    )
+
+    session['subscription_status'] = (
+        user.subscription_status
+    )
+
 app.register_blueprint(auth)
 app.register_blueprint(tests)
 app.register_blueprint(premium)
-app.config.from_object(Config)
 
 # =========================================================
 # ✅ DATABASE

@@ -83,6 +83,10 @@ def login():
                 user.is_premium
             )
 
+            session['subscription_status'] = (
+                user.subscription_status
+            )
+
             return redirect('/menu')
 
         else:
@@ -187,7 +191,7 @@ def register():
                 session['is_premium'] = False
 
                 return redirect('/menu')
-                
+
                 print("AUTO VERIFIED USER")
 
                 success = (

@@ -1081,3 +1081,158 @@ def payment_success():
 
         'payment_success.html'
     )
+
+# =========================================================
+# 🔔 STRIPE WEBHOOK
+# =========================================================
+
+@tests.route('/stripe-webhook', methods=['POST'])
+def stripe_webhook():
+
+    payload = request.data
+
+    sig_header = request.headers.get(
+        'Stripe-Signature'
+    )
+
+    webhook_secret = os.getenv(
+        "STRIPE_WEBHOOK_SECRET"
+    )
+
+    try:
+
+        event = stripe.Webhook.construct_event(
+
+            payload,
+
+            sig_header,
+
+            webhook_secret
+        )
+
+    except Exception as e:
+
+        return str(e), 400
+
+    # =====================================================
+    # ✅ PAYMENT SUCCESS
+    # =====================================================
+
+    if event['type'] == 'checkout.session.completed':
+
+        session_data = event['data']['object']
+
+        customer_id = session_data.get('customer')
+
+        subscription_id = session_data.get(
+            'subscription'
+        )
+
+        user = User.query.filter_by(
+
+            stripe_customer_id=customer_id
+
+        ).first()
+
+        if user:
+
+            user.is_premium = True
+
+            user.subscription_status = 'active'
+
+            user.stripe_subscription_id = subscription_id
+
+            db.session.commit()
+
+    # =====================================================
+    # ❌ SUBSCRIPTION CANCELLED
+    # =====================================================
+
+    elif event['type'] == 'customer.subscription.deleted':
+
+        subscription = event['data']['object']
+
+        subscription_id = subscription.get('id')
+
+        user = User.query.filter_by(
+
+            stripe_subscription_id=subscription_id
+
+        ).first()
+
+        if user:
+
+            user.is_premium = False
+
+            user.subscription_status = 'cancelled'
+
+            db.session.commit()
+
+    # =====================================================
+    # ❌ PAYMENT FAILED
+    # =====================================================
+
+    elif event['type'] == 'invoice.payment_failed':
+
+        invoice = event['data']['object']
+
+        customer_id = invoice.get('customer')
+
+        user = User.query.filter_by(
+
+            stripe_customer_id=customer_id
+
+        ).first()
+
+        if user:
+
+            user.is_premium = False
+
+            user.subscription_status = 'payment_failed'
+
+            db.session.commit()
+
+    return '', 200
+
+# =========================================================
+# 👤 STRIPE CUSTOMER PORTAL
+# =========================================================
+
+@tests.route('/customer-portal')
+def customer_portal():
+
+    if 'user_id' not in session:
+
+        return redirect('/login')
+
+    user = User.query.get(
+        session['user_id']
+    )
+
+    if not user:
+
+        return redirect('/menu')
+
+    if not user.stripe_customer_id:
+
+        return redirect('/upgrade')
+
+    try:
+
+        portal_session = stripe.billing_portal.Session.create(
+
+            customer=user.stripe_customer_id,
+
+            return_url=request.host_url + 'menu'
+        )
+
+        return redirect(
+
+            portal_session.url,
+
+            code=303
+        )
+
+    except Exception as e:
+
+        return str(e)
