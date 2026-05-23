@@ -35,6 +35,7 @@ from utils.questions import load_questions
 from routes.auth import auth
 from routes.tests import tests
 from config import Config
+from models import db
 
 import os
 import json
@@ -45,11 +46,6 @@ app = Flask(__name__)
 
 app.config.from_object(Config)
 
-with app.app_context():
-
-        db.drop_all()
-
-        db.create_all()
 # =========================================================
 # 🔄 AUTO PREMIUM SESSION SYNC
 # =========================================================
