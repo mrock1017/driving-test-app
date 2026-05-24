@@ -1,13 +1,13 @@
 [
   {
-    "question": "1. Ikaw ay nagmamaneho sa likod ng ibang sasakyan. Nagbigay ang drayber ng hand signal tulad ng ipinapakita, at nauunawaan mong maaaring bumagal o magpatuloy sa pag-andar ang sasakyan. Tama ba ito?",
+    "question": "1. Ikaw ay nagmamaneho sa likod ng isa pang sasakyan. Ang drayber ay nagbigay ng hand signal tulad ng nasa larawan, at naintindihan mo na ito ay nangangahulugang babagal o hihinto ang sasakyan. Tama ba ito?",
     "image": "hand_sideward.jpg",
     "choices": [
       "Tama",
       "Mali"
     ],
-    "answer": "Tama",
-    "explanation": "Ang ilang hand signal ay nagpapahiwatig ng pagbabago sa bilis o galaw, kabilang ang pagbawas ng bilis o pagpapatuloy sa pag-usad. Dapat itong maingat na obserbahan ng mga drayber at tumugon nang ligtas."
+    "answer": "Mali",
+    "explanation": "Ang hand signal na ipinapakita sa larawan ay nangangahulugang kakanan ang sasakyan, hindi babagal o didiretso lamang. Ang pag-unat ng kanang braso nang diretso palabas ay karaniwang hand signal para sa pagliko sa kanan."
   },
   {
     "question": "2. Lumalapit ang isang drayber sa dilaw na traffic light at naniniwalang kailangan niyang palaging huminto at suriin ang trapiko. Tama ba ito?",

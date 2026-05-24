@@ -133,6 +133,17 @@ body.dark .menu-btn-light{
     1px solid #334155;
 }
 
+.premium-btn{
+
+    background:linear-gradient(
+        135deg,
+        #f59e0b,
+        #f97316
+    ) !important;
+
+    color:white !important;
+}
+
 body.dark .user-mini{
 
     color:white;
@@ -687,11 +698,21 @@ body.dark .settings-title{
 
                     {% if session.get('is_premium') %}
 
-                        <span class="premium-mini">
+                    <a href="/reviewers"
+                        class="menu-btn">
 
-                            ⭐ Premium
+                        📚 Reviewers
 
-                        </span>
+                    </a>
+
+                    {% else %}
+
+                    <a href="/reviewers"
+                        class="menu-btn premium-btn">
+
+                        🔒 Premium Reviewers
+
+                    </a>
 
                     {% endif %}
 
@@ -937,9 +958,9 @@ body.dark .settings-title{
         <div class="menu-content">
             
             <a href="/reviewers"
-               class="menu-btn">
+                class="menu-btn premium-btn">
 
-               📚 Reviewers
+                🔒 Premium Reviewers
 
             </a>
             <a href="/start/reviewer_karimen/reviewer_karimen"

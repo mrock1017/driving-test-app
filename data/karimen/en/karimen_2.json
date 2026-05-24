@@ -1,13 +1,13 @@
 [
   {
-    "question": "You are driving behind another vehicle. The driver gives a hand signal as shown, and you understand that it indicates the vehicle may slow down or proceed forward. Is this correct?",
+    "question": "You are driving behind another vehicle. The driver gives a hand signal as shown, and you understand that it indicates the vehicle will slow down or stop. Is this correct?",
     "image": "hand_sideward.jpg",
     "choices": [
       "True",
       "False"
     ],
-    "answer": "True",
-    "explanation": "Certain hand signals indicate changes in speed or movement, including slowing down or continuing forward. Drivers must observe carefully and respond safely."
+    "answer": "False",
+    "explanation": "The hand signal shown indicates that the driver intends to turn right, not slow down or continue straight. A right arm extended horizontally outward is the standard hand signal used to indicate a right turn."
   },
   {
     "question": "A driver approaches a yellow traffic light and believes they must always stop and check for traffic. Is this correct?",

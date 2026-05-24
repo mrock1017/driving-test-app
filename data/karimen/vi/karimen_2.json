@@ -1,13 +1,13 @@
 [
   {
-    "question": "Bạn đang lái xe phía sau một xe khác. Người lái xe ra tín hiệu tay như hình, và bạn hiểu rằng điều đó cho biết xe có thể giảm tốc độ hoặc tiếp tục đi thẳng. Điều này có đúng không?",
+    "question": "Bạn đang lái xe phía sau một xe khác. Người lái xe phía trước ra tín hiệu tay như trong hình, và bạn hiểu rằng tín hiệu đó có nghĩa là xe sẽ giảm tốc độ hoặc dừng lại. Điều này có đúng không?",
     "image": "hand_sideward.jpg",
     "choices": [
       "True",
       "False"
     ],
-    "answer": "True",
-    "explanation": "Một số tín hiệu tay cho biết sự thay đổi về tốc độ hoặc chuyển động, bao gồm giảm tốc hoặc tiếp tục đi thẳng. Người lái xe phải quan sát cẩn thận và phản ứng an toàn."
+    "answer": "False",
+    "explanation": "Tín hiệu tay trong hình cho biết người lái xe sẽ rẽ phải, không phải giảm tốc độ hoặc đi thẳng. Việc đưa thẳng cánh tay phải ra ngoài là tín hiệu tay tiêu chuẩn để báo rẽ phải."
   },
   {
     "question": "Một người lái xe đến gần đèn tín hiệu màu vàng và cho rằng họ luôn phải dừng lại và kiểm tra giao thông. Điều này có đúng không?",

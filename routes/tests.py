@@ -1244,6 +1244,22 @@ def customer_portal():
 @tests.route('/reviewer/<reviewer_id>')
 def reviewer(reviewer_id):
 
+    # =====================================================
+    # 👤 LOGIN REQUIRED
+    # =====================================================
+
+    if 'user_id' not in session:
+
+        return redirect('/register')
+
+    # =====================================================
+    # ⭐ PREMIUM REQUIRED
+    # =====================================================
+
+    if not session.get('is_premium'):
+
+        return redirect('/upgrade')
+
     language = session.get(
         'lang',
         'en'
@@ -1288,6 +1304,22 @@ def reviewer(reviewer_id):
 
 @tests.route('/reviewers')
 def reviewers():
+
+    # =====================================================
+    # 👤 LOGIN REQUIRED
+    # =====================================================
+
+    if 'user_id' not in session:
+
+        return redirect('/register')
+
+    # =====================================================
+    # ⭐ PREMIUM REQUIRED
+    # =====================================================
+
+    if not session.get('is_premium'):
+
+        return redirect('/upgrade')
 
     return render_template(
         'reviewer_hub.html'
