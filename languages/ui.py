@@ -14,7 +14,13 @@ from flask import session
 
 UI_TEXT = {
     "en": {
-
+        "premium_reviewers": "🔒 Premium Reviewers",
+        "premium_features": "⭐ Premium Features",
+        "unlock_premium": "🔒 Unlock Premium",
+        "premium_active": "✅ Premium Active",
+        "manage_subscription": "💳 Manage Subscription",
+        "upgrade": "⭐ Upgrade",
+        "honmen_master": "🛣 Honmen Master",
         "study_mode": "🧠 Study Mode",
         "reviewer_karimen": "🧠 Reviewer Karimen",
         "reviewer_honmen": "🧠 Reviewer Honmen",
@@ -84,7 +90,19 @@ UI_TEXT = {
     },
 
     "ne": {
+        "premium_reviewers": "🔒 प्रिमियम रिभ्युअर",
 
+        "premium_features": "⭐ प्रिमियम सुविधाहरू",
+
+        "unlock_premium": "🔒 प्रिमियम अनलक गर्नुहोस्",
+
+        "premium_active": "✅ प्रिमियम सक्रिय",
+
+        "manage_subscription": "💳 सदस्यता व्यवस्थापन",
+
+        "upgrade": "⭐ अपग्रेड गर्नुहोस्",
+
+        "honmen_master": "🛣 होनमेन मास्टर",
         "study_mode": "🧠 अध्ययन मोड",
 
         "reviewer_karimen": "🧠 करिमेन रिभ्युअर",
@@ -133,7 +151,19 @@ UI_TEXT = {
     },
 
     "vi": {
+        "premium_reviewers": "🔒 Ôn Tập Premium",
 
+        "premium_features": "⭐ Tính Năng Premium",
+
+        "unlock_premium": "🔒 Mở Khóa Premium",
+
+        "premium_active": "✅ Premium Đang Hoạt Động",
+
+        "manage_subscription": "💳 Quản Lý Gói Đăng Ký",
+
+        "upgrade": "⭐ Nâng Cấp",
+
+        "honmen_master": "🛣 Honmen Master",
         "study_mode": "🧠 Chế Độ Học",
 
         "reviewer_karimen": "🧠 Ôn Tập Karimen",
@@ -182,7 +212,19 @@ UI_TEXT = {
     },
 
     "pt": {
+        "premium_reviewers": "🔒 Revisões Premium",
 
+        "premium_features": "⭐ Recursos Premium",
+
+        "unlock_premium": "🔒 Desbloquear Premium",
+
+        "premium_active": "✅ Premium Ativo",
+
+        "manage_subscription": "💳 Gerenciar Assinatura",
+
+        "upgrade": "⭐ Atualizar",
+
+        "honmen_master": "🛣 Honmen Master",
         "study_mode": "🧠 Modo de Estudo",
 
         "reviewer_karimen": "🧠 Revisão Karimen",
