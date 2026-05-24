@@ -1099,54 +1099,25 @@ def stripe_webhook():
         "STRIPE_WEBHOOK_SECRET"
     )
 
-    # =====================================================
-    # 🔍 DEBUG START
-    # =====================================================
+    try:
 
-    print("WEBHOOK RECEIVED")
+        event = stripe.Webhook.construct_event(
 
-    print(payload)
+            payload,
 
-    # =====================================================
-    # ✅ VERIFY STRIPE EVENT
-    # =====================================================
+            sig_header,
 
-    event = stripe.Webhook.construct_event(
+            webhook_secret
+        )
 
-        payload,
+    except Exception as e:
 
-        sig_header,
+        import traceback
 
-        webhook_secret
-    )
+        traceback.print_exc()
 
-    print("EVENT VERIFIED")
+        return str(e), 400
 
-    print(event)
-
-    # =====================================================
-    # 📦 EVENT TYPE
-    # =====================================================
-
-    event_type = event['type']
-
-    print("EVENT TYPE:")
-
-    print(event_type)
-
-    # =====================================================
-    # ✅ HANDLE CHECKOUT SUCCESS
-    # =====================================================
-
-    if event_type == 'checkout.session.completed':
-
-        session_data = event['data']['object']
-
-        print("SESSION DATA:")
-
-        print(session_data)
-
-    return '', 200
     # =====================================================
     # ✅ PAYMENT SUCCESS
     # =====================================================
@@ -1155,15 +1126,26 @@ def stripe_webhook():
 
         session_data = event['data']['object']
 
-        customer_id = session_data.get('customer')
+        customer_id = session_data.get(
+            'customer'
+        )
 
         subscription_id = session_data.get(
             'subscription'
         )
 
+        customer_email = (
+
+            session_data
+
+            .get('customer_details', {})
+
+            .get('email')
+        )
+
         user = User.query.filter_by(
 
-            stripe_customer_id=customer_id
+            email=customer_email
 
         ).first()
 
@@ -1172,6 +1154,8 @@ def stripe_webhook():
             user.is_premium = True
 
             user.subscription_status = 'active'
+
+            user.stripe_customer_id = customer_id
 
             user.stripe_subscription_id = subscription_id
 
