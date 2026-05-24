@@ -79,17 +79,24 @@ UI_TEXT = {
     "ne": {
 
         "study_mode": "🧠 अध्ययन मोड",
-        "reviewer_karimen": "🧠 Reviewer Karimen",
-        "reviewer_honmen": "🧠 Reviewer Honmen",
 
-        "karimen_mock": "📝 Karimen Mock Test",
-        "karimen_test_1": "📝 Karimen Test 1",
-        "karimen_test_2": "📝 Karimen Test 2",
+        "reviewer_karimen": "🧠 करिमेन रिभ्युअर",
 
-        "honmen_mock": "🏁 Honmen Mock Test",
-        "honmen_test_1": "🏁 Honmen Test 1",
-        "honmen_test_2": "🏁 Honmen Test 2",
-        "honmen_test_3": "🏁 Honmen Test 3",
+        "reviewer_honmen": "🧠 होनमेन रिभ्युअर",
+
+        "karimen_mock": "📝 करिमेन मोक टेस्ट",
+
+        "karimen_test_1": "📝 करिमेन परीक्षा १",
+
+        "karimen_test_2": "📝 करिमेन परीक्षा २",
+
+        "honmen_mock": "🏁 होनमेन मोक टेस्ट",
+
+        "honmen_test_1": "🏁 होनमेन परीक्षा १",
+
+        "honmen_test_2": "🏁 होनमेन परीक्षा २",
+
+        "honmen_test_3": "🏁 होनमेन परीक्षा ३",
 
         "app_info": "⚙️ एप जानकारी",
         "score_history": "📊 स्कोर इतिहास",
@@ -112,6 +119,16 @@ UI_TEXT = {
     },
 
         "vi": {
+
+        "karimen_test_1": "Bài Thi Karimen 1",
+
+        "karimen_test_2": "Bài Thi Karimen 2",
+
+        "honmen_test_1": "Bài Thi Honmen 1",
+
+        "honmen_test_2": "Bài Thi Honmen 2",
+
+        "honmen_test_3": "Bài Thi Honmen 3",
 
         "study_mode": "Chế Độ Học",
 
@@ -150,6 +167,16 @@ UI_TEXT = {
     },
 
         "pt": {
+
+        "karimen_test_1": "Teste Karimen 1",
+
+        "karimen_test_2": "Teste Karimen 2",
+
+        "honmen_test_1": "Teste Honmen 1",
+
+        "honmen_test_2": "Teste Honmen 2",
+
+        "honmen_test_3": "Teste Honmen 3",
 
         "study_mode": "Modo de Estudo",
 
