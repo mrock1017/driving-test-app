@@ -44,6 +44,15 @@ import time
 
 app = Flask(__name__)
 
+import traceback
+
+@app.errorhandler(Exception)
+def handle_exception(e):
+
+    traceback.print_exc()
+
+    return str(e), 500
+
 app.config.from_object(Config)
 app.config['PROPAGATE_EXCEPTIONS'] = True
 # =========================================================
