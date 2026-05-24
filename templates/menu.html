@@ -198,7 +198,9 @@ body.dark .settings-title{
 
     justify-content:space-between;
 
-    align-items:center;
+    align-items:flex-start;
+
+    gap:16px;
 }
 
 .logo{
@@ -219,6 +221,10 @@ body.dark .settings-title{
     flex-direction:column;
 
     gap:12px;
+
+    flex:1;
+
+    min-width:0;
 }
 
 /* 🌐 LANGUAGE DROPDOWN */
@@ -228,6 +234,8 @@ body.dark .settings-title{
     position:relative;
 
     width:220px;
+
+    z-index:200;
 }
 
 .language-btn{
@@ -260,6 +268,10 @@ body.dark .settings-title{
 }
 
 .language-menu{
+    .show-language-menu{
+
+    display:block;
+}
 
     display:none;
 
@@ -304,11 +316,6 @@ body.dark .settings-title{
     background:#f8fafc;
 }
 
-.language-dropdown:hover .language-menu{
-
-    display:block;
-}
-
 /* 🌙 DARK MODE */
 
 body.dark .language-menu{
@@ -347,6 +354,12 @@ body.dark .language-menu a:hover{
 
     box-shadow:
     0 6px 18px rgba(15,23,42,0.08);
+
+    flex-shrink:0;
+
+    position:relative;
+
+    z-index:300;
 }
 
 /* ⚙️ SETTINGS PANEL */
@@ -737,62 +750,70 @@ body.dark .language-menu a:hover{
 <!-- 🔝 HEADER -->
 
 <div class="header">
->
+
+    <div class="topbar">
+
         <div class="logo-area">
 
-        <div class="logo">
+            <div class="logo">
 
-            🇯🇵 Japan Driving Test Master
+                🇯🇵 Japan Driving Test Master
 
-        </div>
+            </div>
 
-        <!-- 🌐 LANGUAGE -->
+            <!-- 🌐 LANGUAGE -->
 
-        <div class="language-dropdown">
+            <div class="language-dropdown">
 
-            <button class="language-btn">
+                <button
+                    class="language-btn"
+                    onclick="toggleLanguageMenu(event)"
+                >
 
-                🌐 Select Language
+                    🌐 Select Language
 
-            </button>
+                </button>
 
-            <div class="language-menu">
+                <div
+                    id="languageMenu"
+                    class="language-menu"
+                >
 
-                <a href="/set-language/en">
+                    <a href="/set-language/en">
 
-                    🇺🇸 English
+                        🇺🇸 English
 
-                </a>
+                    </a>
 
-                <a href="/set-language/tl">
+                    <a href="/set-language/tl">
 
-                    🇵🇭 Tagalog
+                        🇵🇭 Tagalog
 
-                </a>
+                    </a>
 
-                <a href="/set-language/ne">
+                    <a href="/set-language/ne">
 
-                    🇳🇵 Nepali
+                        🇳🇵 Nepali
 
-                </a>
+                    </a>
 
-                <a href="/set-language/vi">
+                    <a href="/set-language/vi">
 
-                    🇻🇳 Vietnamese
+                        🇻🇳 Vietnamese
 
-                </a>
+                    </a>
 
-                <a href="/set-language/pt">
+                    <a href="/set-language/pt">
 
-                    🇵🇹 Portuguese
+                        🇵🇹 Portuguese
 
-                </a>
+                    </a>
+
+                </div>
 
             </div>
 
         </div>
-
-    </div>
 
         <button
             class="menu-toggle"
@@ -1189,32 +1210,43 @@ function toggleSettings(){
     );
 }
 
+/* 🌐 LANGUAGE MENU */
+
+function toggleLanguageMenu(event){
+
+    event.stopPropagation();
+
+    const menu = document.getElementById(
+        "languageMenu"
+    );
+
+    menu.classList.toggle(
+        "show-language-menu"
+    );
+}
+
+document.addEventListener(
+
+    "click",
+
+    function(){
+
+        const menu = document.getElementById(
+            "languageMenu"
+        );
+
+        menu.classList.remove(
+            "show-language-menu"
+        );
+    }
+);
+
 function toggleDarkMode(){
 
     document.body.classList.toggle(
         "dark"
     );
 
-    localStorage.setItem(
-
-        "darkMode",
-
-        document.body.classList.contains(
-            "dark"
-        )
-    );
-}
-
-if(
-
-    localStorage.getItem(
-        "darkMode"
-    ) === "true"
-){
-
-    document.body.classList.add(
-        "dark"
-    );
 }
 
 </script>
