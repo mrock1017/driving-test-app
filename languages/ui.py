@@ -37,6 +37,8 @@ UI_TEXT = {
         "ai_title": "🧠 AI Tutor",
 
         "premium": "⭐ Premium User"
+
+        "select_language": "Select Language"
     },
 
     "tl": {
@@ -70,6 +72,8 @@ UI_TEXT = {
         "ai_title": "🧠 AI Tutor",
 
         "premium": "⭐ Premium User"
+
+        "select_language": "Pumili ng Wika"
     },
 
     "ne": {
@@ -103,6 +107,8 @@ UI_TEXT = {
         "ai_title": "🧠 AI Tutor",
 
         "premium": "⭐ Premium User"
+
+        "select_language": "भाषा चयन गर्नुहोस्"
     },
 
         "vi": {
@@ -130,6 +136,8 @@ UI_TEXT = {
         "welcome": "Xin chào",
 
         "premium": "⭐ Premium",
+
+        "select_language": "Chọn ngôn ngữ"
 
         "privacy": "Chính Sách Riêng Tư",
 
@@ -166,6 +174,8 @@ UI_TEXT = {
         "welcome": "Bem-vindo",
 
         "premium": "⭐ Premium",
+
+        "select_language": "Selecionar idioma"
 
         "privacy": "Política de Privacidade",
 
