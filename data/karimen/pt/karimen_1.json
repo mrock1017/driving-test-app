@@ -1,0 +1,1502 @@
+[
+  {
+    "question": "Você está dirigindo atrás de outro veículo. O motorista estende o braço para baixo pela janela. Esse sinal indica que o veículo está prestes a reduzir a velocidade ou parar?",
+    "image": "hands_down.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Um sinal manual com o braço apontando para baixo é usado para indicar redução de velocidade ou parada. Os motoristas atrás devem se preparar para diminuir a velocidade."
+  },
+  {
+    "question": "Um motorista acredita que é permitido ultrapassar outro veículo perto ou dentro de 30 metros antes de uma faixa de pedestres ou de bicicletas. Isso está correto?",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Ultrapassar próximo de faixas de pedestres ou bicicletas (especialmente dentro de 30 metros) é proibido devido ao alto risco de pedestres atravessarem repentinamente."
+  },
+  {
+    "question": "Um veículo diante deste semáforo deve parar e observar o trânsito.",
+    "image": "yellow_light.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "A luz amarela significa “pare se puder fazer isso com segurança”, e não apenas “pare e observe”."
+  },
+  {
+    "question": "Ao dirigir perto de um ônibus escolar parado para embarque ou desembarque de crianças, o motorista reduz a velocidade e verifica a segurança. Isso está correto?",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Os motoristas devem reduzir a velocidade e ter cautela perto de ônibus escolares parados, pois crianças podem entrar repentinamente na via."
+  },
+  {
+    "question": "Ao virar à direita em um cruzamento com setas direcionais marcadas na pista, o motorista segue as setas mostradas. Isso está correto?",
+    "image": "diamond.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "As setas mostram o trajeto obrigatório da conversão, portanto os motoristas devem segui-las para garantir um movimento seguro e organizado no cruzamento."
+  },
+  {
+    "question": "Uma placa de trânsito indica que ultrapassar é proibido. Um motorista acha que ainda pode passar outro veículo lentamente. Isso está correto?",
+    "image": "oikoshi_kinshi.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Uma placa de proibição de ultrapassagem proíbe passar outros veículos independentemente da velocidade."
+  },
+  {
+    "question": "Uma via tem limite de velocidade de 30 km/h. Um motorista acredita que os veículos não devem trafegar a 30 km/h ou mais. Isso está correto?",
+    "image": "30.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Um limite de velocidade de 30 km/h significa que você não deve exceder 30 km/h. Dirigir exatamente a 30 km/h é permitido. A afirmação está incorreta porque inclui “30 km/h ou mais”."
+  },
+  {
+    "question": "Um motorista percebe que o semáforo da via cruzada está vermelho. Ele entende que isso não significa necessariamente que o próprio sinal esteja verde. Isso está correto?",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Mesmo que o sinal da via cruzada esteja vermelho, o seu sinal pode estar vermelho, amarelo ou controlado por uma fase diferente (como faixas de conversão ou travessias de pedestres)."
+  },
+  {
+    "question": "Um motorista vê uma placa triangular azul com o símbolo de bicicleta e acredita que isso significa que apenas bicicletas são permitidas naquela via. Isso está correto?",
+    "image": "bicycle.png",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "O símbolo de bicicleta nem sempre significa “somente bicicletas” — o significado exato depende do tipo de placa."
+  },
+  {
+    "question": "Um motorista vê a marcação viária mostrada e entende que tanto estacionar quanto parar são proibidos naquela área. Isso está correto?",
+    "image": "No_Parking.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Esse tipo de marcação viária indica que tanto estacionar quanto parar são proibidos, e os motoristas não devem parar nem estacionar naquela área."
+  },
+  {
+    "question": "Ao praticar direção com uma permissão de aprendiz, o motorista coloca marcas de iniciante na frente e na traseira do veículo. Isso está correto?",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Motoristas aprendizes são obrigados a exibir marcas de iniciante na frente e na traseira para que outros usuários da via possam reconhecê-los facilmente."
+  },
+  {
+    "question": "Um motorista se aproxima de uma via com uma placa “徐行” (devagar) e reduz a velocidade para um nível muito baixo, permitindo parar imediatamente se necessário. Isso está correto?",
+    "image": "yokei.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "“徐行” significa dirigir em velocidade muito baixa para que o veículo possa parar imediatamente quando necessário. Apenas reduzir um pouco a velocidade não é suficiente."
+  },
+  {
+    "question": "Um motorista que possui carteira de habilitação regular há menos de um ano coloca uma placa “仮免許 練習中” (permissão de aprendiz em treinamento) no veículo. Isso está correto?",
+    "image": "karimen.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "A placa “仮免許 練習中” é para motoristas com permissão de aprendiz, não para aqueles que já possuem habilitação regular. Motoristas recém-habilitados devem usar a marca de iniciante (初心者マーク)."
+  },
+  {
+    "question": "Parar e estacionar são proibidos nos seguintes locais. Um motorista acredita que essa regra sempre se aplica, mesmo quando parar é exigido por lei. Isso está correto?",
+    "image": "prohibited.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Existem exceções. Se parar for exigido por lei (por exemplo, obedecer um sinal ou evitar perigo), a proibição não se aplica."
+  },
+  {
+    "question": "Uma pessoa que possui licença para ciclomotores acredita que pode dirigir tanto um ciclomotor quanto um veículo especial leve. Isso está correto?",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Uma licença para ciclomotor permite apenas a condução de ciclomotores, não de veículos especiais leves. Cada tipo de veículo exige a habilitação apropriada."
+  },
+  {
+    "question": "Um motorista está trafegando na faixa B em uma via com a marcação mostrada e muda para a faixa A. Isso é permitido?",
+    "image": "cannot_change.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "As marcações viárias podem restringir mudanças de faixa dependendo do tipo de linha (por exemplo, linhas contínuas). Neste caso, a marcação indica que mudar da faixa B para a faixa A não é permitido."
+  },
+  {
+    "question": "Um veículo de emergência se aproxima enquanto você dirige em uma faixa designada. Você sai do caminho ou muda de faixa para deixá-lo passar. Isso está correto?",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Os motoristas devem dar passagem aos veículos de emergência, mesmo quando estiverem em uma faixa designada. Você deve sair do caminho ou parar para permitir passagem segura."
+  },
+  {
+    "question": "Você vê uma placa indicando restrição de estacionamento das 8 às 20 horas. Você acredita que estacionar é permitido durante esse período. Isso está correto?",
+    "image": "time_restriction.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Essa placa significa que estacionar é proibido durante o horário indicado (8:00–20:00). Estacionar é permitido apenas fora desses horários."
+  },
+  {
+    "question": "Você se aproxima de um cruzamento com pouca visibilidade, mas há um semáforo instalado e funcionando. Você acredita que deve sempre avançar devagar nessa situação. Isso está correto?",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Se houver um semáforo funcionando, você deve seguir o sinal. A regra de avançar devagar em cruzamentos com pouca visibilidade geralmente se aplica quando não há controle por semáforo."
+  },
+  {
+    "question": "Você vê uma placa circular de limite de velocidade mostrando “50” e uma marcação “50” pintada na pista. Você entende que ambas indicam o mesmo limite de velocidade. Isso está correto?",
+    "image": "50.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Tanto a placa de trânsito quanto a marcação na pista indicam o mesmo limite de velocidade. As marcações viárias reforçam o significado das placas."
+  },
+  {
+    "question": "Enquanto dirige um carro automático, um motorista pressiona fortemente o acelerador de repente, fazendo o veículo acelerar rapidamente. Isso resulta em aceleração repentina?",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Pressionar o acelerador repentinamente em um veículo automático pode causar aceleração rápida, o que pode ser perigoso se não for controlado adequadamente."
+  },
+  {
+    "question": "Em um cruzamento onde as vias têm a mesma largura, o carro A se aproxima pela direita e o carro B pela esquerda. O carro A segue sem dar preferência ao carro B. Isso está correto?",
+    "image": "hidari_B.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Em cruzamentos sem semáforo e com vias de mesma largura, os veículos devem dar prioridade aos veículos vindos da esquerda. O carro A não deve obstruir o carro B."
+  },
+  {
+    "question": "Um motorista se aproxima de um ônibus escolar parado e, após confirmar a segurança, segue sem reduzir a velocidade. Isso é permitido?",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Os motoristas devem reduzir a velocidade ao passar por um ônibus escolar parado, mesmo que acreditem ser seguro. Crianças podem entrar repentinamente na via."
+  },
+  {
+    "question": "Você vê uma placa indicando conversão à esquerda. Você acredita que pode virar à esquerda no cruzamento independentemente do semáforo. Isso está correto?",
+    "image": "turn_left.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "A placa indica direção, não permissão para ignorar sinais de trânsito. Os motoristas ainda devem obedecer ao semáforo."
+  },
+  {
+    "question": "Um motorista evita ultrapassar ou passar outros veículos dentro de 30 metros antes de uma faixa de pedestres ou ciclovia. Isso está correto?",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Ultrapassar ou passar é proibido dentro de 30 metros antes de uma faixa de pedestres ou ciclovia devido aos riscos de segurança."
+  },
+  {
+    "question": "Uma via possui uma faixa marcada e sinalizada apenas para ônibus. Um motorista entende que outros veículos, exceto ciclomotores, veículos leves especiais e veículos leves, não podem usar essa faixa. Isso está correto?",
+    "image": "bus_lane.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Faixas exclusivas para ônibus restringem o acesso a tipos específicos de veículos. Apenas as exceções listadas (como ciclomotores e certos veículos leves) podem usar a faixa; outros veículos são proibidos."
+  },
+  {
+    "question": "Em uma via com placa de parada obrigatória, o motorista para logo antes da linha de parada. Se não houver linha de parada, ele para logo antes do cruzamento. Isso está correto?",
+    "image": "stop_sign.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Os motoristas devem parar na linha de parada designada. Se não houver linha, devem parar antes de entrar no cruzamento para verificar a segurança."
+  },
+  {
+    "question": "Um motorista se aproxima de uma faixa de pedestres ou ciclovia e segue devagar apenas quando há pessoas presentes, mas não reduz a velocidade se ninguém estiver visível. Isso está correto?",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Os motoristas devem avançar com cautela (devagar) perto de travessias mesmo que nenhum pedestre ou ciclista esteja visível imediatamente, pois alguém pode aparecer repentinamente."
+  },
+  {
+    "question": "Em um cruzamento com marcações de faixa como mostrado, um motorista na faixa A não muda de faixa e, portanto, não pode virar à direita daquela faixa. Isso está correto?",
+    "image": "change_lane.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "As marcações de faixa indicam as direções permitidas. Se a faixa A não permite conversão à direita, o motorista não deve virar à direita daquela faixa."
+  },
+  {
+    "question": "Ao passar por uma pessoa em cadeira de rodas, um motorista usa a buzina para avisá-la e segue em frente. Isso é considerado um comportamento seguro?",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Usar a buzina perto de usuários vulneráveis da via pode assustá-los e criar perigo. Os motoristas devem reduzir a velocidade, manter distância e passar cuidadosamente sem causar medo."
+  },
+  {
+    "question": "Um motorista vê a marcação viária mostrada e entende que ela indica uma “zona de entrada proibida”. Isso está correto?",
+    "image": "no_entry_zone.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Esse tipo de marcação indica uma área onde os veículos não devem entrar, ajudando a orientar o fluxo do trânsito e prevenir perigos."
+  },
+  {
+    "question": "Você está dirigindo em uma via sem calçadas ou áreas designadas para pedestres. Você evita entrar na faixa lateral (cerca de 0,5 metro da borda da via). Isso está correto?",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Os motoristas não devem entrar na faixa lateral, exceto em situações específicas (por exemplo, para evitar perigo). Essa área geralmente é reservada para pedestres."
+  },
+  {
+    "question": "Em um local com placa de “Proibido Ultrapassar”, um motorista entende que ultrapassar entrando na faixa oposta é proibido, mas passar sem entrar no lado direito da via ainda é permitido. Isso está correto?",
+    "image": "no_overtaking.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "“Proibido ultrapassar” proíbe usar a faixa oposta para passar. No entanto, passar sem cruzar para a faixa contrária pode ser permitido se for seguro e legal."
+  },
+  {
+    "question": "Um motorista permite que um passageiro entre ou saia do veículo sem verificar o trânsito ao redor. Isso é aceitável?",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Os motoristas devem sempre verificar o trânsito ao redor para garantir que seja seguro antes de permitir que passageiros entrem ou saiam do veículo."
+  },
+  {
+    "question": "Em um local onde placas de “Proibido virar à direita” e “Proibido retorno” estão instaladas, um motorista evita tanto virar quanto fazer retorno. Isso está correto?",
+    "image": "no_right_and_U_turn.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Essas placas regulamentares proíbem claramente os movimentos indicados. Os motoristas devem obedecê-las e evitar ações restritas."
+  },
+  {
+    "question": "Ao estacionar um veículo automático em uma subida, o motorista coloca a marcha em “L” ou “1”. Isso está correto?",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Para veículos automáticos, a posição correta ao estacionar normalmente é “P” (Park), juntamente com o uso adequado do freio de estacionamento. “L” ou “1” não são apropriados para estacionar."
+  },
+  {
+    "question": "Em uma via como a mostrada, um motorista entra no lado direito da via para ultrapassar um veículo à frente. Isso é permitido?",
+    "image": "white_centerline.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Os motoristas não devem usar o lado direito (oposto) da via para ultrapassar, a menos que isso seja claramente permitido e seguro. Nesta situação, não é permitido."
+  },
+  {
+    "question": "Ao passar por um veículo estacionado, um motorista mantém distância segura ou reduz a velocidade porque uma porta pode abrir repentinamente. Isso está correto?",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Veículos estacionados podem ser perigosos devido à abertura repentina de portas. Os motoristas devem reduzir a velocidade e manter distância segura."
+  },
+  {
+    "question": "Um motorista vê esta marcação viária e acredita que ela significa que deve dar passagem aos veículos à frente. Isso está correto?",
+    "image": "diamond_markings.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Essa marcação não significa “dar passagem aos veículos à frente”. Ela é usada como marcação de aviso/orientação (comumente relacionada a travessias próximas ou vias prioritárias), não como instrução direta de preferência."
+  },
+  {
+    "question": "Ao se aproximar de um ônibus escolar parado para embarque ou desembarque de crianças, um motorista reduz a velocidade e verifica a segurança. Isso está correto?",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Os motoristas devem reduzir a velocidade e observar cuidadosamente porque crianças podem entrar repentinamente na pista."
+  },
+  {
+    "question": "Um motorista vê esta placa e acredita que ela significa que o estacionamento de carros e motocicletas é proibido. Isso está correto?",
+    "image": "car_motorcycle_no_entry.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Essa placa não significa simplesmente “estacionamento proibido”. Ela indica uma restrição de entrada/uso de veículos (não especificamente uma regra apenas de estacionamento). Interpretar incorretamente categorias de placas é um erro comum."
+  },
+  {
+    "question": "Em uma via de mão única, um motorista usa o lado direito da pista. Isso é permitido?",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Em vias de mão única, os veículos podem usar qualquer lado da pista, salvo restrições específicas."
+  },
+  {
+    "question": "Um policial está fazendo um sinal manual como mostrado. Um motorista acredita que esse sinal indica luz vermelha para a direção mostrada pela seta. Isso está correto?",
+    "image": "police_hand_signal.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Os sinais manuais dos policiais devem ser interpretados com base na posição e nos gestos do agente. Esse sinal não corresponde a luz vermelha para a direção indicada."
+  },
+  {
+    "question": "Ao virar à direita em um cruzamento, um motorista evita obstruir veículos que vêm em sentido contrário seguindo em frente ou virando à esquerda. Isso está correto?",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Ao virar à direita, os motoristas devem dar preferência ao trânsito em sentido contrário que segue em frente ou vira à esquerda para garantir passagem segura."
+  },
+  {
+    "question": "Um motorista vê esta placa de trânsito e acredita que ela significa que só pode seguir em frente. Isso está correto?",
+    "image": "big_arrow_road_sign.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Essa placa não significa estritamente “somente seguir em frente”. Ela indica um layout específico da via ou orientação de direção, não uma restrição limitando o movimento apenas para frente."
+  },
+  {
+    "question": "Um motorista atravessa uma área de calçada para entrar ou sair de um local, mesmo quando não há pedestres presentes. Isso é permitido?",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Os veículos podem atravessar calçadas ao entrar ou sair de propriedades, mas devem sempre dar preferência aos pedestres e avançar com cuidado."
+  },
+  {
+    "question": "Os veículos à frente estão reduzindo a velocidade ou parados perto de um cruzamento. Um motorista corta a frente deles para seguir primeiro. Isso é permitido?",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Cortar a frente de veículos parados ou reduzindo a velocidade é perigoso e não é permitido. Os motoristas devem seguir a ordem correta e manter uma condução segura."
+  },
+  {
+    "question": "Em um cruzamento, um policial está controlando o trânsito com ambos os braços erguidos verticalmente. Um motorista acredita que esse sinal tem o mesmo significado de uma luz amarela para o tráfego que se move paralelo ao policial. Isso está correto?",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Os sinais manuais dos policiais nem sempre correspondem diretamente aos significados dos semáforos. Esse sinal específico não representa uma luz amarela para essa direção."
+  },
+  {
+    "question": "Ao operar um veículo com transmissão automática, o motorista usa a posição drive para mover-se para frente e a posição reverse para mover-se para trás. Isso está correto?",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Veículos automáticos usam “D” (Drive) para movimento para frente e “R” (Reverse) para movimento para trás. Essa é a operação correta."
+  },
+  {
+    "question": "Um condutor mantém postura adequada ao operar um veículo de duas rodas para manter equilíbrio e controle durante a frenagem. Isso está correto?",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "A postura adequada ajuda a manter o equilíbrio e evita que o condutor seja lançado para frente durante uma frenagem brusca."
+  },
+  {
+    "question": "Enquanto dirigia, você operou o sistema de navegação e procurou uma rota porque estava perdido. Isso é aceitável?",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Operar um sistema de navegação enquanto dirige distrai a atenção e é perigoso. Você deve parar em um local seguro antes de ajustar ou verificar rotas."
+  },
+  {
+    "question": "Nesta situação, o carro A não precisa dar passagem ao carro B. Isso está correto?",
+    "image": "hidari_yuusen.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Com base na regra do cruzamento mostrada, o carro A tem prioridade e não precisa dar passagem ao carro B."
+  },
+  {
+    "question": "Se um veículo estiver equipado com airbags, não é necessário usar cinto de segurança. Isso está correto?",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "O uso do cinto de segurança é sempre obrigatório. Os airbags são dispositivos de segurança suplementares e não substituem os cintos."
+  },
+  {
+    "question": "Visto por trás, quando um motorista estende o braço diagonalmente para baixo, isso indica que o veículo está reduzindo a velocidade ou parando. Isso está correto?",
+    "image": "hands_down.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Esse sinal manual indica desaceleração ou parada quando as luzes de freio não são suficientes ou visíveis."
+  },
+  {
+    "question": "Você deve sempre usar a buzina ao passar por um cruzamento, curva ou topo de colina onde a visibilidade é ruim. Isso está correto?",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "A buzina deve ser usada apenas quando necessário para a segurança. Ela nem sempre é obrigatória, a menos que seja especificamente indicada ou necessária para evitar perigo."
+  },
+  {
+    "question": "Em uma via com esta placa, você deve parar logo antes da linha de parada. Se não houver linha de parada, deve parar logo antes do cruzamento. Isso está correto?",
+    "image": "stop_sign.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Uma parada completa é obrigatória. Se não houver linha, pare em uma posição onde possa verificar o trânsito com segurança."
+  },
+  {
+    "question": "Se você puder confirmar a segurança, poderá passar por um ônibus escolar parado sem reduzir a velocidade. Isso está correto?",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Mesmo que a via pareça livre, um ônibus escolar parado indica possível movimentação de crianças. As crianças podem:\n\n- Atravessar a via repentinamente\n- Aparecer em pontos cegos"
+  },
+  {
+    "question": "Como mostrado na imagem, você não pode entrar no lado direito da via para ultrapassar outro veículo. Isso está correto?",
+    "image": "white_centerline.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Em geral, as regras de ultrapassagem dependem das marcações viárias e das condições da estrada. Nesta situação:\n\n- Não há proibição mostrada (como linha contínua ou placa)\n- O lado direito pode ser usado se for seguro"
+  },
+  {
+    "question": "9. Em uma via de mão única, um veículo pode usar o lado direito da pista. Isso está correto?",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Como todo o tráfego flui na mesma direção, os veículos podem usar o lado direito quando apropriado. Os motoristas ainda devem seguir as marcações de faixa e dirigir com segurança."
+  },
+  {
+    "question": "O veículo que trafega na faixa A pode mudar sua trajetória para a faixa B. Isso está correto?",
+    "image": "can_change.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Mudanças de faixa são permitidas se não houver marcações proibitivas e se for seguro. Os motoristas devem verificar os arredores e sinalizar antes de mudar de faixa."
+  },
+  {
+    "question": "Porque você entrou no cruzamento, pode virar à direita antes de um veículo que vem em sentido contrário. Isso está correto?",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Entrar no cruzamento não lhe dá prioridade sobre o tráfego em sentido contrário. Você deve dar passagem aos veículos que seguem em frente ou viram à esquerda."
+  },
+  {
+    "question": "Nesta situação, o veículo A não pode mudar de faixa nem virar à direita no cruzamento. Isso está correto?",
+    "image": "change_lane.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "As setas e marcações de faixa restringem a direção permitida de circulação. Os motoristas devem seguir essas instruções e não podem mudar de faixa ou virar livremente."
+  },
+  {
+    "question": "Você pode ultrapassar outros veículos ou ciclomotores em uma descida íngreme. Isso está correto?",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Descidas íngremes aumentam a velocidade e reduzem o controle, tornando a ultrapassagem perigosa. Isso deve ser evitado por segurança."
+  },
+  {
+    "question": "Esta placa de trânsito indica que a via está fechada para veículos. Isso está correto?",
+    "image": "no_vehicle_entry.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Esta placa geralmente indica uma proibição (como entrada proibida ou restrição), mas não necessariamente que toda a via está fechada para todos os veículos. A afirmação é muito absoluta."
+  },
+  {
+    "question": "Você pode parar seu veículo em uma “zona de proibição de parada” em frente a uma delegacia de polícia ou quartel de bombeiros se nenhum veículo de emergência estiver saindo. Isso está correto?",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Parar é proibido nessas áreas o tempo todo para garantir que veículos de emergência possam sair imediatamente. A regra se aplica independentemente de haver ou não um veículo de emergência presente."
+  },
+  {
+    "question": "A placa e a marcação viária indicam uma faixa exclusiva para ônibus, e outros veículos (exceto ciclomotores, veículos especiais leves e veículos leves) não podem usá-la. Isso está correto?",
+    "image": "bus_lane.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "As faixas de ônibus são reservadas para veículos específicos, e outros veículos são restritos, exceto certas categorias permitidas. Os motoristas devem seguir as placas e marcações de designação da faixa."
+  },
+  {
+    "question": "Se um veículo estiver parado em ou antes de uma faixa de pedestres, você deve parar antes de passar por ele. Isso está correto?",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Um veículo parado pode estar dando passagem aos pedestres, então passar sem parar é perigoso. Você deve parar para verificar se há pedestres antes de seguir."
+  },
+  {
+    "question": "Esta marcação viária indica uma “zona de entrada proibida”. Isso está correto?",
+    "image": "no_entry_zone.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "A marcação mostra uma área onde os veículos não devem entrar. Ela é usada para controlar o fluxo do trânsito e evitar movimentos inseguros."
+  },
+  {
+    "question": "Ao fazer uma conversão à esquerda, você deve mover-se para o lado esquerdo da via logo antes de virar. Isso está correto?",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Você deve posicionar seu veículo em direção ao lado esquerdo com antecedência, não apenas imediatamente antes da conversão. O posicionamento correto deve ser feito cedo e suavemente."
+  },
+  {
+    "question": "Esta placa significa que todos os veículos não podem virar nem à direita nem à esquerda. Isso está correto?",
+    "image": "direction_left_and_right.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "A placa indica que os veículos devem virar à esquerda ou à direita e não podem seguir em frente. A afirmação está incorreta porque virar é, na verdade, obrigatório."
+  },
+  {
+    "question": "Ao passar por uma pessoa usando bengala branca ou amarela, ou uma pessoa em cadeira de rodas, você deve reduzir a velocidade ou parar para garantir a segurança dela. Isso está correto?",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Essas pessoas podem ter mobilidade ou visibilidade limitada, portanto é necessário cuidado extra. Os motoristas devem reduzir a velocidade ou parar para permitir passagem segura."
+  },
+  {
+    "question": "Esta placa de trânsito e a marcação viária indicam o mesmo significado. Isso está correto?",
+    "image": "50.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Tanto a placa circular quanto a marcação “50” indicam o limite máximo de velocidade. As marcações viárias reforçam a mesma regulamentação mostrada pela placa."
+  },
+  {
+    "question": "Ao dar marcha à ré com pouca visibilidade traseira ou ao sair de um local estreito, é melhor pedir a um passageiro que verifique a segurança. Isso está correto?",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Um passageiro pode ajudar a verificar pontos cegos que o motorista não consegue ver. Isso reduz o risco de atingir pedestres ou obstáculos."
+  },
+  {
+    "question": "Quando um veículo de emergência se aproxima em uma via que não seja de mão única, você deve encostar no lado esquerdo da via para dar passagem se não estiver perto de um cruzamento. Isso está correto?",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Os motoristas devem mover-se para a esquerda e parar para permitir que os veículos de emergência passem com segurança. Isso garante uma rota livre e rápida para resposta de emergência."
+  },
+  {
+    "question": "Ao passar por uma via com esta placa, você não precisa reduzir a velocidade se puder verificar completamente os lados esquerdo e direito. Isso está correto?",
+    "image": "yokei.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Esta placa exige que você reduza a velocidade independentemente da visibilidade. Você deve ser capaz de parar imediatamente se necessário."
+  },
+  {
+    "question": "Onde esta placa estiver presente, você não deve entrar no lado direito da via para ultrapassar. Isso está correto?",
+    "image": "no_overtaking.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Esta placa proíbe ultrapassagem entrando no lado direito da via. Os motoristas devem permanecer em sua faixa e seguir a restrição."
+  },
+  {
+    "question": "Ao atravessar uma calçada para entrar em uma área de estacionamento, você não precisa parar se puder confirmar a segurança. Isso está correto?",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Você deve parar antes de atravessar uma calçada para verificar se há pedestres. Os pedestres sempre têm prioridade nessa situação."
+  },
+  {
+    "question": "A distância de parada é a distância percorrida após o motorista reagir e frear, mais a distância necessária para o veículo parar. Isso está correto?",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "A distância de parada consiste na distância de reação e na distância de frenagem combinadas. Ambos os fatores aumentam com a velocidade e as condições da via."
+  },
+  {
+    "question": "Ao passar por um pedestre caminhando na faixa lateral, você não precisa manter distância segura nem reduzir a velocidade. Isso está correto?",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Os motoristas devem manter distância segura e reduzir a velocidade ao passar por pedestres. Isso evita acidentes caso o pedestre se mova repentinamente."
+  },
+  {
+    "question": "Ao fechar a porta do veículo, é melhor fechá-la com força sem diminuir o movimento logo antes de travar. Isso está correto?",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "As portas devem ser fechadas cuidadosamente para garantir o travamento adequado sem causar danos ou perigo. Bater a porta com força pode causar ferimentos ou problemas mecânicos."
+  },
+  {
+    "question": "Ao fazer uma conversão à esquerda para sair da via, você deve aproximar-se o máximo possível do lado esquerdo e reduzir a velocidade. Isso está correto?",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Posicionar-se próximo ao lado esquerdo reduz a interferência com outros veículos e melhora a segurança. Reduzir a velocidade permite melhor controle durante a conversão."
+  },
+  {
+    "question": "Antes de ligar um veículo com transmissão automática, você deve confirmar visualmente as posições dos pedais de freio e acelerador para evitar pressionar o pedal errado. Isso está correto?",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Confirmar as posições dos pedais ajuda a evitar erros ao pressionar os pedais, o que pode causar aceleração repentina não intencional. Isso é especialmente importante antes de ligar o motor."
+  },
+  {
+    "question": "Nesta situação, o veículo que se aproxima do lado A deve reduzir a velocidade. Isso está correto?",
+    "image": "poor_visibility.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "O veículo na via prioritária não precisa necessariamente reduzir a velocidade. Os motoristas do lado não prioritário devem dar passagem."
+  },
+  {
+    "question": "Um motorista aprendiz deve ter um motorista experiente no banco do passageiro, e não há requisitos específicos para esse motorista experiente. Isso está correto?",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "O motorista acompanhante deve cumprir requisitos específicos, como possuir experiência suficiente de direção. Não é qualquer pessoa que pode supervisionar um aprendiz."
+  },
+  {
+    "question": "Esta placa indica que há escolas, jardins de infância ou creches à frente. Isso está correto?",
+    "image": "pedestrian.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Esta placa alerta sobre crianças nas proximidades, mas não significa especificamente que haja uma escola ou creche à frente. Os motoristas ainda devem prosseguir com cautela."
+  },
+  {
+    "question": "Nesta situação, o veículo identificado como A está estacionado ilegalmente. Isso está correto?",
+    "image": "illegal_parking.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "A placa mostrada indica uma restrição de estacionamento naquela área. Estacionar ali viola a regulamentação, tornando-o ilegal."
+  },
+  {
+    "question": "Você deve seguir todas as condições escritas na sua carteira de motorista (como restrição para automático ou uso de óculos). Isso está correto?",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "As condições da habilitação são legalmente obrigatórias e devem sempre ser seguidas ao dirigir. Ignorá-las é considerado infração."
+  },
+  {
+    "question": "Ao enfrentar um semáforo vermelho piscando, você deve parar na linha de parada e não deve interferir no outro tráfego. Isso está correto?",
+    "image": "flashing_red_light.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Uma luz vermelha piscando é tratada da mesma forma que uma placa de parada obrigatória. Você deve parar completamente e seguir apenas quando for seguro."
+  },
+  {
+    "question": "Esta placa indica que há uma travessia de bicicletas à frente. Isso está correto?",
+    "image": "bicycle.png",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "A placa alerta os motoristas para observarem bicicletas atravessando a via. Os motoristas devem reduzir a velocidade e estar preparados para dar passagem."
+  },
+  {
+    "question": "Parar é proibido em uma via marcada com este tipo de marcação. Isso está correto?",
+    "image": "stopping.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Essa marcação normalmente indica restrições relacionadas à parada ou estacionamento perto de áreas específicas, mas nem sempre significa que parar é completamente proibido. A regra exata depende do local e do contexto."
+  },
+  {
+    "question": "Esta placa significa que a via está fechada para pedestres. Isso está correto?",
+    "image": "oudan_kinshi.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Esta placa significa especificamente “travessia de pedestres proibida”, e não que os pedestres estejam completamente proibidos na via. Ela apenas restringe a travessia naquele local."
+  },
+  {
+    "question": "Esta placa não proíbe ciclomotores de trafegar nesta via. Isso está correto?",
+    "image": "moped_can_enter.png",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "A placa proíbe automóveis, mas não inclui ciclomotores na restrição. Portanto, ciclomotores são permitidos, a menos que outra regra os restrinja."
+  },
+  {
+    "question": "Estas duas placas indicam o mesmo significado. Isso está correto?",
+    "image": "slash_arrow_right.png",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "A placa circular indica o fim de uma restrição, enquanto a placa com seta apenas mostra uma direção ou instrução complementar. Elas não têm o mesmo significado."
+  },
+  {
+    "question": "Se os sinais manuais de um policial entrarem em conflito com um semáforo, o semáforo tem prioridade. Isso está correto?",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "As instruções dos policiais sempre têm prioridade sobre semáforos e placas de trânsito. Os motoristas devem seguir primeiro os sinais do policial."
+  },
+  {
+    "question": "Um motorista aprendiz deve exibir esta placa nas posições designadas na frente e na traseira do veículo enquanto pratica. Isso está correto?",
+    "image": "karimen.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Motoristas aprendizes são legalmente obrigados a exibir a placa claramente na frente e na traseira. Isso alerta outros motoristas e garante a segurança."
+  },
+  {
+    "question": "Ao passar por uma passagem de nível ferroviária, você deve verificar o trânsito à frente e o tráfego em sentido contrário para evitar parar sobre os trilhos. Isso está correto?",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Os motoristas devem garantir que haja espaço suficiente além da passagem antes de entrar. Parar sobre os trilhos é extremamente perigoso e proibido."
+  },
+  {
+    "question": "Este sinal manual de policial significa luz vermelha (pare) para o tráfego indicado pela seta. Isso está correto?",
+    "image": "police_stop_hand_signal.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Quando um policial levanta ambos os braços verticalmente, o tráfego que se aproxima de certas direções deve parar. Isso funciona como um sinal vermelho para essas direções."
+  },
+  {
+    "question": "Ao se aproximar de um cruzamento e o sinal ficar amarelo, você pode seguir se não for possível parar com segurança antes da linha de parada. Isso está correto?",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Amarelo significa “pare se puder fazer isso com segurança”. Se parar repentinamente for perigoso, você pode continuar atravessando o cruzamento."
+  },
+  {
+    "question": "Em uma via com esta placa, os veículos estão proibidos de seguir em frente ou virar à esquerda. Isso está correto?",
+    "image": "no_crossing_sign.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Esta placa proíbe apenas a conversão à direita, não o movimento em frente ou as conversões à esquerda. Os motoristas podem seguir em frente ou virar à esquerda, salvo outras restrições."
+  },
+  {
+    "question": "Um titular de carteira de motorista comum tem permissão para conduzir uma motocicleta comum. Isso está correto?",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Uma carteira de motorista comum não permite conduzir motocicletas. É necessária uma habilitação separada para motocicletas."
+  },
+  {
+    "question": "Se a visibilidade estiver clara em uma passagem de nível ferroviária, você pode atravessar apenas reduzindo a velocidade e verificando ambos os lados.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Os motoristas geralmente são obrigados a parar antes de atravessar trilhos ferroviários e confirmar que nenhum trem está se aproximando. Apenas reduzir a velocidade não é suficiente em situações normais."
+  },
+  {
+    "question": "Quando pedestres em uma faixa de pedestres param de andar após perceberem seu veículo, você pode continuar dirigindo na mesma velocidade.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Os motoristas ainda devem reduzir a velocidade ou parar para pedestres próximos à faixa. Os pedestres podem hesitar ou parar temporariamente, mas ainda têm prioridade."
+  },
+  {
+    "question": "Em um cruzamento com semáforo sem linha de parada, você deve parar diretamente abaixo do semáforo.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Quando não há linha de parada marcada, os veículos devem parar logo antes de entrar no cruzamento, e não diretamente abaixo do semáforo."
+  },
+  {
+    "question": "O sinal manual mostrado por trás indica que o motorista pretende virar à direita, fazer um retorno ou mover-se para a faixa da direita.",
+    "image": "hand_upward.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Esse sinal manual não indica conversão à direita nem mudança para a faixa da direita. É um sinal de conversão à esquerda. Os motoristas devem compreender corretamente os sinais manuais para evitar confusão e acidentes."
+  },
+  {
+    "question": "Mesmo que nenhum pedestre esteja visível no momento, os motoristas ainda devem reduzir a velocidade e manter cautela ao passar por uma zona de segurança.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Pedestres podem aparecer repentinamente por trás de obstáculos ou entrar inesperadamente na pista. Reduzir a velocidade perto de zonas de segurança ajuda os motoristas a reagirem com segurança a tempo."
+  },
+  {
+    "question": "Veículos além de ônibus e certos veículos autorizados não podem usar uma faixa exclusiva para ônibus, exceto ao virar ou quando condições inevitáveis exigirem isso.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "As faixas prioritárias para ônibus são reservadas principalmente para veículos autorizados a fim de ajudar o transporte público a circular com eficiência. Outros veículos podem entrar apenas em situações limitadas, como ao fazer uma conversão ou evitar uma obstrução."
+  },
+  {
+    "question": "A placa de trânsito exibida significa que ultrapassar outros veículos é completamente proibido naquela área.",
+    "image": "no_overtaking.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "A placa proíbe especificamente ultrapassagens perigosas ou em determinada forma, e não todos os tipos de ultrapassagem em todas as situações. Os motoristas devem entender o significado exato das placas antes de agir."
+  },
+  {
+    "question": "Em uma via com três faixas no mesmo sentido, o fluxo de tráfego geralmente é organizado para que veículos mais lentos mantenham-se à esquerda, enquanto veículos mais rápidos utilizam as faixas mais à direita.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "O uso das faixas é projetado para manter o tráfego fluindo de forma suave e segura. Veículos mais rápidos normalmente trafegam nas faixas mais à direita, enquanto veículos mais lentos permanecem à esquerda."
+  },
+  {
+    "question": "Em uma curva fechada à esquerda marcada com esta indicação viária, os motoristas podem usar parcialmente o lado oposto da via se necessário, prestando muita atenção ao tráfego que se aproxima.",
+    "image": "curve.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Em curvas estreitas ou fechadas, às vezes pode ser necessário mais espaço para a conversão. Os motoristas ainda devem prosseguir cuidadosamente e observar veículos vindos na direção oposta."
+  },
+  {
+    "question": "Mesmo dirigindo em uma faixa com prioridade de tráfego, você não precisa dar passagem a um veículo de emergência que se aproxima de um cruzamento.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Veículos de emergência sempre têm prioridade quando utilizam sirenes e luzes de advertência. Os motoristas devem dar passagem com segurança independentemente da designação da faixa ou prioridade do tráfego."
+  },
+  {
+    "question": "Você pode cruzar uma linha amarela contínua sempre que fizer uma conversão à esquerda ou à direita.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Linhas amarelas contínuas geralmente proíbem mudanças de faixa ou cruzamentos, exceto em situações muito limitadas. Os motoristas devem seguir cuidadosamente as marcações viárias para evitar manobras inseguras."
+  },
+  {
+    "question": "Se um veículo à frente estiver sinalizando para entrar em outra faixa para fazer uma conversão, você deve evitar bloqueá-lo, a menos que evitar o veículo repentinamente exija frenagem ou direção perigosas.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Os motoristas devem cooperar com veículos que se preparam para virar, permitindo mudanças de faixa seguras sempre que possível. Uma condução suave e previsível ajuda a prevenir colisões."
+  },
+  {
+    "question": "Ao preparar-se para virar à esquerda em um cruzamento, sinalizar cerca de três segundos antes da conversão é suficiente.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Os sinais de direção devem ser acionados cedo o suficiente para informar claramente o tráfego ao redor sobre sua intenção. Em muitos casos, sinalizar com mais antecedência do que três segundos é necessário para segurança."
+  },
+  {
+    "question": "Ao passar por veículos estacionados ou parados, os motoristas devem reduzir a velocidade e ficar atentos a perigos repentinos, como portas abrindo ou pedestres entrando na pista.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Pessoas podem aparecer inesperadamente por trás de veículos estacionados, e portas podem abrir repentinamente. Reduzir a velocidade dá aos motoristas mais tempo para reagir com segurança."
+  },
+  {
+    "question": "Mesmo que você tenha entrado primeiro no cruzamento para virar à direita, ainda deve evitar bloquear veículos em sentido contrário que seguem em frente.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Veículos que seguem em frente geralmente têm prioridade sobre veículos que fazem conversão. Motoristas virando à direita devem esperar até que seja seguro e evitar interferir no tráfego oposto."
+  },
+  {
+    "question": "Ultrapassar outro veículo em ou perto de um cruzamento é permitido quando se trafega em uma via com prioridade de tráfego.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Certas exceções permitem ultrapassagens perto de cruzamentos em vias prioritárias, onde o fluxo de tráfego é controlado e a visibilidade é suficiente. Os motoristas ainda devem realizar a manobra com segurança."
+  },
+  {
+    "question": "A marcação viária mostrada indica que estacionar é proibido naquela área.",
+    "image": "no_entry_zone.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "A marcação mostrada é uma área de “Zona de Entrada Proibida”. Os motoristas devem distinguir cuidadosamente entre marcações relacionadas a parada, estacionamento ou orientação de tráfego."
+  },
+  {
+    "question": "Vias marcadas com a placa exibida geralmente são fechadas ao tráfego regular de veículos. No entanto, um veículo pode entrar em baixa velocidade para alcançar uma área de estacionamento autorizada se houver permissão especial concedida pela polícia.",
+    "image": "reserved_for_pedestrians.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Esse tipo de via é reservado principalmente para pedestres e acesso restrito. Veículos só podem entrar sob condições autorizadas específicas e devem prosseguir cuidadosamente."
+  },
+  {
+    "question": "Durante uma colisão, a parte abdominal do cinto de segurança pode exercer forte pressão sobre a região do estômago, portanto deve ser posicionada baixa sobre os quadris ou ossos pélvicos.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Um cinto de segurança usado corretamente distribui a força do impacto de forma mais segura sobre partes fortes do corpo. Usar a faixa abdominal muito alta pode aumentar o risco de lesões."
+  },
+  {
+    "question": "Os motoristas devem conduzir veículos com cortesia e cooperação em relação aos pedestres e outros usuários da via, em vez de agir de forma egoísta.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Dirigir com segurança depende não apenas de seguir regras, mas também de demonstrar consideração pelos outros. Uma condução cooperativa ajuda a reduzir acidentes e problemas de trânsito."
+  },
+  {
+    "question": "Mesmo que fazer um retorno ou atravessar a via seja legalmente permitido, você não deve fazê-lo quando isso interferir no tráfego ao redor.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Os motoristas devem sempre considerar a segurança e o fluxo do trânsito antes de realizar uma manobra. Ações que obstruam ou coloquem outros usuários da via em perigo devem ser evitadas."
+  },
+  {
+    "question": "Os motoristas são sempre obrigados a reduzir a velocidade ao subir uma ladeira.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Reduzir a velocidade em subidas não é automaticamente obrigatório em todas as situações. Os motoristas devem ajustar a velocidade de acordo com as condições da via, do trânsito e do veículo."
+  },
+  {
+    "question": "A placa mostrada alerta os motoristas sobre uma curva à esquerda à frente.",
+    "image": "right_direction.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "A placa não é simplesmente um aviso de curva. É uma placa de direção obrigatória instruindo os veículos a seguir na direção indicada."
+  },
+  {
+    "question": "Qualquer pessoa que tenha uma habilitação comum ou de motocicleta há menos de um ano é obrigada a exibir a marca de motorista iniciante.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "A exigência da marca de iniciante aplica-se a certos titulares de habilitação, principalmente motoristas de veículos comuns, e não automaticamente a todos os titulares de habilitação para motocicletas."
+  },
+  {
+    "question": "Se um semáforo mudar para amarelo quando você já estiver muito próximo para parar com segurança, poderá continuar atravessando o cruzamento cuidadosamente.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Uma frenagem brusca repentina pode criar perigo para o tráfego ao redor. Os motoristas podem prosseguir cautelosamente se não for possível parar com segurança antes da linha."
+  },
+  {
+    "question": "Depois de entrar em um cruzamento com sinal verde para virar à direita, parei dentro do cruzamento porque o sinal separado para conversão à direita estava vermelho.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Os motoristas devem seguir o sinal aplicável antes de entrar no cruzamento. Entrar e parar inadequadamente dentro do cruzamento pode obstruir o trânsito e criar perigo."
+  },
+  {
+    "question": "A placa de advertência mostrada significa que a via à frente termina em um beco sem saída.",
+    "image": "general_caution.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "A placa é uma advertência ou aviso geral usada para alertar os motoristas sobre possíveis perigos à frente. Ela não indica especificamente uma via sem saída."
+  },
+  {
+    "question": "Durante uma conversão à esquerda ou à direita, a roda traseira interna percorre uma trajetória mais externa do que a roda dianteira interna.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Ao virar, as rodas traseiras seguem uma trajetória mais próxima da parte interna da curva do que as rodas dianteiras. Os motoristas devem estar cientes dessa diferença, especialmente em vias estreitas ou esquinas."
+  },
+  {
+    "question": "Na situação ilustrada, o Veículo A não pode mover-se para o lado oposto da via para ultrapassar o Veículo B.",
+    "image": "solid_white_centerline.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "A linha central branca contínua indica que cruzar para a faixa oposta é proibido. Como o Veículo A precisaria cruzar a linha central para ultrapassar o Veículo B, a ultrapassagem não é permitida nesta situação."
+  },
+  {
+    "question": "Ultrapassar outro veículo é proibido em descidas íngremes, mas pode ser permitido em subidas íngremes.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Descidas íngremes podem reduzir o controle e a visibilidade, tornando a ultrapassagem especialmente perigosa. Certas áreas de subida podem permitir ultrapassagem se a visibilidade e as condições de segurança forem adequadas."
+  },
+  {
+    "question": "Mesmo que o limite de velocidade indicado seja 40 km/h, operadores de bicicletas motorizadas comuns não devem exceder 30 km/h.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Algumas categorias de veículos possuem seus próprios limites máximos legais de velocidade, independentemente do limite indicado na via. Motoristas e condutores devem seguir a regra aplicável especificamente ao seu tipo de veículo."
+  },
+  {
+    "question": "O sinal manual mostrado pelo policial tem o mesmo significado de um sinal amarelo para os veículos de frente para o policial.",
+    "image": "police_arms_raised.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Esse gesto geralmente significa que o tráfego deve preparar-se para parar porque a fase do sinal está mudando. Veículos que ainda não entraram no cruzamento devem parar, enquanto veículos já dentro do cruzamento podem continuar cuidadosamente para liberá-lo."
+  },
+  {
+    "question": "Se não houver pedestres por perto, os motoristas não precisam parar brevemente antes de atravessar uma calçada ou faixa lateral ao entrar ou sair de uma área à beira da via.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Os motoristas são obrigados a verificar cuidadosamente a segurança antes de atravessar calçadas ou faixas laterais, mesmo que pedestres não estejam imediatamente visíveis. Uma breve parada ajuda a prevenir acidentes."
+  },
+  {
+    "question": "Sempre que houver pedestres caminhando perto da beira da via, os motoristas devem trafegar sempre em velocidade muito baixa.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Os motoristas devem ajustar a velocidade de acordo com a situação e manter uma condução segura, mas a lei nem sempre exige velocidade extremamente baixa em todos os casos. Segurança e cautela adequada são os principais requisitos."
+  },
+  {
+    "question": "Dirigir com segurança significa simplesmente trafegar no limite de velocidade indicado ou na velocidade máxima legal.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Uma velocidade segura depende das condições da via, do clima, do trânsito e da visibilidade. Em muitas situações, dirigir abaixo do limite máximo de velocidade é necessário para segurança."
+  },
+  {
+    "question": "A marcação viária mostrada indica que a seção onde retornos eram proibidos terminou.",
+    "image": "reversible_lane.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Essa marcação no pavimento informa aos motoristas que a restrição de retorno não se aplica mais além daquele ponto. Os motoristas ainda devem confirmar que fazer um retorno é seguro e legal antes de virar."
+  },
+  {
+    "question": "Em vias públicas comuns, a velocidade máxima padrão para veículos de passageiros é 60 km/h, salvo indicação de outro limite.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "No Japão, vias comuns geralmente possuem limite padrão de 60 km/h para automóveis comuns. No entanto, os motoristas devem sempre obedecer às placas que indiquem um limite diferente."
+  },
+  {
+    "question": "Ao dar passagem a um veículo de emergência, os motoristas devem sempre mover-se para o lado esquerdo da via, inclusive em vias de mão única.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Em vias de mão única no Japão, os veículos podem mover-se para qualquer lado, se necessário, para liberar a passagem de veículos de emergência com segurança. A regra importante é evitar obstruir sua passagem."
+  },
+  {
+    "question": "A placa de advertência mostrada alerta os motoristas que o número de faixas à frente diminuirá.",
+    "image": "lane_decreased.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Essa placa alerta que uma faixa irá se unir ou desaparecer à frente, exigindo que os motoristas se preparem para a redução de faixas. Os motoristas devem verificar os arredores cedo e entrar na faixa com segurança."
+  },
+  {
+    "question": "O uso do cinto de segurança é obrigatório para passageiros dos bancos dianteiros, mas passageiros dos bancos traseiros não precisam usá-lo.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "No Japão, passageiros tanto dos bancos dianteiros quanto traseiros geralmente são obrigados a usar cintos de segurança. O uso do cinto reduz significativamente o risco de ferimentos graves durante uma colisão."
+  },
+  {
+    "question": "Se sua faixa estiver bloqueada por um veículo estacionado ou outro obstáculo, você pode reduzir a velocidade ou parar e permitir que veículos que se aproximam passem primeiro antes de prosseguir.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Os motoristas devem evitar interferir no tráfego em sentido contrário ao contornar obstáculos. Dar passagem quando necessário ajuda a prevenir colisões em vias estreitas."
+  },
+  {
+    "question": "Normalmente, uma pessoa que solicita habilitação para veículos grandes deve ter pelo menos 21 anos e vários anos de experiência de direção, mas exceções podem aplicar-se para aqueles que completam programas de treinamento aprovados.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "O Japão permite certos requisitos flexibilizados para candidatos que completam cursos de treinamento de motoristas especialmente autorizados. Esses programas podem reduzir a idade exigida e o período de experiência de direção."
+  },
+  {
+    "question": "Quando um veículo de emergência se aproxima longe de um cruzamento, mover-se para o lado esquerdo da via pode ser suficiente, e parar nem sempre é obrigatório se o veículo puder passar com segurança.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Os motoristas devem dar passagem a veículos de emergência prontamente e com segurança. Fora dos cruzamentos, simplesmente encostar e reduzir a velocidade ou parar conforme necessário geralmente é aceitável se permitir passagem livre."
+  },
+  {
+    "question": "Para operar legalmente um carro ou bicicleta motorizada comum em vias públicas, você deve possuir a habilitação apropriada para essa categoria de veículo.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Os motoristas no Japão são obrigados a possuir uma habilitação válida correspondente ao tipo de veículo que estão operando. Dirigir sem a habilitação correta é uma infração de trânsito."
+  },
+  {
+    "question": "Depois de completar uma mudança de faixa, retorno ou manobra de marcha à ré, você deve manter a seta ligada por cerca de mais três segundos antes de desligá-la.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Os sinais de direção devem ser desligados assim que a manobra tiver sido concluída com segurança. Deixar a seta ligada desnecessariamente pode confundir outros usuários da via."
+  },
+  {
+    "question": "A marca mostrada significa que outros veículos estão completamente proibidos de ultrapassar ou passar aquele carro de passeio comum.",
+    "image": "senior.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "A Marca Koreisha identifica motoristas idosos no Japão. Outros motoristas devem demonstrar cautela e consideração, mas ultrapassar não é automaticamente proibido desde que possa ser feito de maneira segura e legal."
+  },
+  {
+    "question": "Ao passar por um ônibus escolar ou ônibus de jardim de infância que esteja embarcando ou desembarcando crianças, os motoristas devem sempre parar completamente antes de continuar.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Os motoristas são obrigados a reduzir cuidadosamente a velocidade e prestar muita atenção à segurança, mas uma parada completa nem sempre é obrigatória, a menos que as condições tornem isso necessário. Crianças podem mover-se de forma imprevisível perto do veículo."
+  },
+  {
+    "question": "Entrar ou dirigir através de uma zona de segurança para pedestres é permitido se não houver outra rota possível.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Zonas de segurança são reservadas para proteger pedestres e não devem ser atravessadas por veículos, exceto em circunstâncias legais muito limitadas. Os motoristas devem evitar entrar nessas áreas para manter a segurança dos pedestres."
+  },
+  {
+    "question": "Uma pessoa que possui apenas uma habilitação comum particular não tem permissão para dirigir um táxi, mesmo que o objetivo seja apenas levar o veículo a uma oficina mecânica.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Uma pessoa com habilitação não profissional pode dirigir um táxi se ele não estiver sendo usado para serviço de transporte de passageiros. A restrição aplica-se principalmente à operação como veículo comercial de passageiros."
+  },
+  {
+    "question": "A placa mostrada indica uma linha central, mas a linha central real na via nem sempre pode estar localizada exatamente no meio da pista.",
+    "image": "chuo_sen.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Os layouts das vias podem variar dependendo da largura das faixas ou das condições da estrada, portanto a linha central pintada pode estar deslocada do centro físico da via. Os motoristas devem seguir cuidadosamente os limites de faixa marcados."
+  }
+]
