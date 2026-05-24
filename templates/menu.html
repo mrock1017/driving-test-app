@@ -210,6 +210,125 @@ body.dark .settings-title{
     letter-spacing:-1px;
 }
 
+/* 🌐 LOGO AREA */
+
+.logo-area{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:12px;
+}
+
+/* 🌐 LANGUAGE DROPDOWN */
+
+.language-dropdown{
+
+    position:relative;
+
+    width:220px;
+}
+
+.language-btn{
+
+    width:100%;
+
+    border:none;
+
+    padding:12px 16px;
+
+    border-radius:14px;
+
+    font-size:14px;
+
+    font-weight:700;
+
+    background:
+    linear-gradient(
+    135deg,
+    #3b82f6,
+    #2563eb
+    );
+
+    color:white;
+
+    cursor:pointer;
+
+    box-shadow:
+    0 8px 20px rgba(37,99,235,0.18);
+}
+
+.language-menu{
+
+    display:none;
+
+    position:absolute;
+
+    top:54px;
+
+    left:0;
+
+    width:100%;
+
+    background:white;
+
+    border-radius:16px;
+
+    overflow:hidden;
+
+    box-shadow:
+    0 10px 24px rgba(15,23,42,0.12);
+
+    z-index:999;
+}
+
+.language-menu a{
+
+    display:block;
+
+    padding:14px 16px;
+
+    text-decoration:none;
+
+    color:#334155;
+
+    font-weight:600;
+
+    border-bottom:
+    1px solid #f1f5f9;
+}
+
+.language-menu a:hover{
+
+    background:#f8fafc;
+}
+
+.language-dropdown:hover .language-menu{
+
+    display:block;
+}
+
+/* 🌙 DARK MODE */
+
+body.dark .language-menu{
+
+    background:#1e293b;
+}
+
+body.dark .language-menu a{
+
+    color:white;
+
+    border-bottom:
+    1px solid #334155;
+}
+
+body.dark .language-menu a:hover{
+
+    background:#334155;
+}
+
 .menu-toggle{
 
     border:none;
@@ -327,59 +446,24 @@ body.dark .settings-title{
     display:inline-block;
 }
 
-/* 🌐 LANGUAGE */
+/* 🌙 DARK MODE */
 
-.language-switcher{
+body.dark .language-menu{
 
-    display:flex;
-
-    gap:12px;
-
-    flex-wrap:wrap;
+    background:#1e293b;
 }
 
-.lang-btn{
-
-    text-decoration:none;
-
-    padding:12px 18px;
-
-    border-radius:999px;
-
-    font-size:14px;
-
-    font-weight:700;
-
-    color:#334155;
-
-    background:white;
-
-    border:
-    1px solid rgba(255,255,255,0.6);
-
-    box-shadow:
-    0 6px 16px rgba(15,23,42,0.05);
-
-    transition:all 0.2s ease;
-
-    cursor:pointer;
-}
-
-.lang-btn:hover{
-
-    transform:translateY(-1px);
-}
-
-.active-lang{
-
-    background:
-    linear-gradient(
-    135deg,
-    #3b82f6,
-    #2563eb
-    );
+body.dark .language-menu a{
 
     color:white;
+
+    border-bottom:
+    1px solid #334155;
+}
+
+body.dark .language-menu a:hover{
+
+    background:#334155;
 }
 
 /* ⚙️ SETTINGS ACTIONS */
@@ -653,14 +737,62 @@ body.dark .settings-title{
 <!-- 🔝 HEADER -->
 
 <div class="header">
-
-    <div class="topbar">
+>
+        <div class="logo-area">
 
         <div class="logo">
 
             🇯🇵 Japan Driving Test Master
 
         </div>
+
+        <!-- 🌐 LANGUAGE -->
+
+        <div class="language-dropdown">
+
+            <button class="language-btn">
+
+                🌐 Select Language
+
+            </button>
+
+            <div class="language-menu">
+
+                <a href="/set-language/en">
+
+                    🇺🇸 English
+
+                </a>
+
+                <a href="/set-language/tl">
+
+                    🇵🇭 Tagalog
+
+                </a>
+
+                <a href="/set-language/ne">
+
+                    🇳🇵 Nepali
+
+                </a>
+
+                <a href="/set-language/vi">
+
+                    🇻🇳 Vietnamese
+
+                </a>
+
+                <a href="/set-language/pt">
+
+                    🇵🇹 Portuguese
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
 
         <button
             class="menu-toggle"
@@ -750,71 +882,6 @@ body.dark .settings-title{
                 </div>
 
             {% endif %}
-
-        </div>
-
-        <!-- 🌐 LANGUAGE -->
-
-        <div class="settings-group">
-
-            <div class="settings-title">
-
-                🌐 Language
-
-            </div>
-
-            <div class="language-switcher">
-
-                <a href="/set-language/en"
-                   class="lang-btn
-                   {% if session.get('lang', 'en') == 'en' %}
-                   active-lang
-                   {% endif %}">
-
-                   🇺🇸 English
-
-                </a>
-
-                <a href="/set-language/tl"
-                   class="lang-btn
-                   {% if session.get('lang', 'en') == 'tl' %}
-                   active-lang
-                   {% endif %}">
-
-                   🇵🇭 Tagalog
-
-                </a>
-
-                <a href="/set-language/ne"
-                   class="lang-btn
-                   {% if session.get('lang', 'en') == 'ne' %}
-                   active-lang
-                   {% endif %}">
-
-                   🇳🇵 Nepali
-
-                </a>
-
-                <a href="/set-language/vi"
-                    class="lang-btn
-                    {% if session.get('lang', 'en') == 'vi' %}
-                    active-lang
-                    {% endif %}">
-
-                    🇻🇳 Vietnamese
-
-                </a>
-
-                <a href="/set-language/pt"
-                    class="lang-btn
-                    {% if session.get('lang', 'en') == 'pt' %}
-                    active-lang
-                    {% endif %}">
-
-                    🇵🇹 Portuguese
-
-                </a>
-            </div>
 
         </div>
 
