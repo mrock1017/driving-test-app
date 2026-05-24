@@ -47,6 +47,16 @@ class User(db.Model):
         default='inactive'
     )
 
+    failed_login_attempts = db.Column(
+    db.Integer,
+    default=0
+    )
+
+    locked_until = db.Column(
+        db.DateTime,
+        nullable=True
+    )
+
 # =========================================================
 # 📊 SCORE HISTORY MODEL
 # =========================================================

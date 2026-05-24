@@ -30,6 +30,11 @@ auth = Blueprint(
     __name__
 )
 
+from datetime import (
+    datetime,
+    timedelta
+)
+
 import uuid
 from flask import make_response
 from models import UserDevice
@@ -72,10 +77,40 @@ def login():
             email=email
         ).first()
 
+        # =====================================================
+        # 🔒 ACCOUNT LOCK CHECK
+        # =====================================================
+
+        if user and user.locked_until:
+
+            if datetime.utcnow() < user.locked_until:
+
+                error = (
+                    "Too many failed login attempts. "
+                    "Please try again later."
+                )
+
+                return render_template(
+
+                    'login.html',
+
+                    error=error,
+
+                    ui=ui
+                )
         if user and check_password_hash(
             user.password,
             password
         ):
+            # =====================================================
+            # ✅ RESET FAILED ATTEMPTS
+            # =====================================================
+
+            user.failed_login_attempts = 0
+
+            user.locked_until = None
+
+            db.session.commit()
 
             # =====================================================
             # 📱 DEVICE LIMIT CHECK
@@ -183,6 +218,29 @@ def login():
             return response
 
         else:
+
+        # =================================================
+        # ❌ FAILED LOGIN TRACKING
+        # =================================================
+
+            if user:
+
+                user.failed_login_attempts += 1
+
+                # =============================================
+                # 🔒 LOCK AFTER 10 ATTEMPTS
+                # =============================================
+
+                if user.failed_login_attempts >= 10:
+
+                    user.locked_until = (
+
+                        datetime.utcnow()
+
+                        + timedelta(minutes=15)
+                    )
+
+                db.session.commit()
 
             error = (
                 "Invalid login credentials."
