@@ -1099,21 +1099,54 @@ def stripe_webhook():
         "STRIPE_WEBHOOK_SECRET"
     )
 
-    try:
+    # =====================================================
+    # 🔍 DEBUG START
+    # =====================================================
 
-        event = stripe.Webhook.construct_event(
+    print("WEBHOOK RECEIVED")
 
-            payload,
+    print(payload)
 
-            sig_header,
+    # =====================================================
+    # ✅ VERIFY STRIPE EVENT
+    # =====================================================
 
-            webhook_secret
-        )
+    event = stripe.Webhook.construct_event(
 
-    except Exception as e:
+        payload,
 
-        raise e
+        sig_header,
 
+        webhook_secret
+    )
+
+    print("EVENT VERIFIED")
+
+    print(event)
+
+    # =====================================================
+    # 📦 EVENT TYPE
+    # =====================================================
+
+    event_type = event['type']
+
+    print("EVENT TYPE:")
+
+    print(event_type)
+
+    # =====================================================
+    # ✅ HANDLE CHECKOUT SUCCESS
+    # =====================================================
+
+    if event_type == 'checkout.session.completed':
+
+        session_data = event['data']['object']
+
+        print("SESSION DATA:")
+
+        print(session_data)
+
+    return '', 200
     # =====================================================
     # ✅ PAYMENT SUCCESS
     # =====================================================
