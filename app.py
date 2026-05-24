@@ -200,9 +200,11 @@ def send_email(subject, recipient, body):
 
     except Exception as e:
 
-        print("EMAIL ERROR:", str(e))
+        import traceback
 
-        return False
+        traceback.print_exc()
+
+        raise e
 
 # =========================================================
 # 🤖 AI EXPLANATION
@@ -289,11 +291,11 @@ def verify_email(token):
 
     except Exception as e:
 
-        print(e)
+        import traceback
 
-    return """
-    <h1>Invalid or Expired Link</h1>
-    """
+        traceback.print_exc()
+
+        raise e
 
 # =========================================================
 # 🔑 RESET PASSWORD

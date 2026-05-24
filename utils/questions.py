@@ -38,6 +38,8 @@ def load_questions(folder, language, filename):
 
     except Exception as e:
 
-        print("JSON ERROR:", e)
+        import traceback
 
-        return []
+        traceback.print_exc()
+
+        raise e
