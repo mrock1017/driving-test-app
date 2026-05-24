@@ -1112,7 +1112,7 @@ def stripe_webhook():
 
     except Exception as e:
 
-        return str(e), 400
+        raise e
 
     # =====================================================
     # ✅ PAYMENT SUCCESS
@@ -1235,7 +1235,7 @@ def customer_portal():
 
     except Exception as e:
 
-        return str(e)
+        raise e
 
 # =========================================================
 # 📚 REVIEWER PAGE
