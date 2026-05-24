@@ -38,8 +38,6 @@ def load_questions(folder, language, filename):
 
     except Exception as e:
 
-        import traceback
+        print(e)
 
-        traceback.print_exc()
-
-        raise e
+        return redirect('/menu')

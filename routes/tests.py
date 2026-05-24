@@ -1093,7 +1093,9 @@ def payment_success():
 
     except Exception as e:
 
-           raise e
+        print(e)
+
+        return redirect('/menu')
 
     return render_template(
 

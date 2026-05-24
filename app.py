@@ -44,17 +44,8 @@ import time
 
 app = Flask(__name__)
 
-import traceback
-
-@app.errorhandler(Exception)
-def handle_exception(e):
-
-    traceback.print_exc()
-
-    return str(e), 500
-
 app.config.from_object(Config)
-app.config['PROPAGATE_EXCEPTIONS'] = True
+
 # =========================================================
 # 🔄 AUTO PREMIUM SESSION SYNC
 # =========================================================
@@ -200,12 +191,9 @@ def send_email(subject, recipient, body):
 
     except Exception as e:
 
-        import traceback
+        print(e)
 
-        traceback.print_exc()
-
-        raise e
-
+        return redirect('/menu')
 # =========================================================
 # 🤖 AI EXPLANATION
 # =========================================================
