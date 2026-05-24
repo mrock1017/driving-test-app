@@ -1075,7 +1075,7 @@ def payment_success():
 
     except Exception as e:
 
-        return str(e)
+           raise e
 
     return render_template(
 
