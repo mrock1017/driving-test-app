@@ -524,7 +524,17 @@ def question():
     # 📦 CURRENT QUESTION
     # =====================================================
 
-    q = questions[order[current]]
+    if current >= len(order):
+
+        return redirect('/result')
+
+    question_index = order[current]
+
+    if question_index >= len(questions):
+
+        return redirect('/menu')
+
+    q = questions[question_index]
 
     # =====================================================
     # ⏱ TIMER
@@ -754,6 +764,14 @@ def result():
     total_questions = 0
 
     for i, idx in enumerate(order):
+
+        # =============================================
+        # ✅ SAFE INDEX CHECK
+        # =============================================
+
+        if idx >= len(questions):
+
+            continue
 
         q = questions[idx]
 
