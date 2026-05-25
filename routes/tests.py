@@ -779,6 +779,7 @@ def result():
 
         # =================================================
         # 🧠 GROUP QUESTIONS
+        # JAPANESE EXAM LOGIC
         # =================================================
 
         if 'items' in q:
@@ -789,9 +790,11 @@ def result():
 
             user_group_answers = answers[i]
 
-            for j, item in enumerate(q['items']):
+            total_questions += 2
 
-                total_questions += 1
+            all_correct = True
+
+            for j, item in enumerate(q['items']):
 
                 user_answer = None
 
@@ -814,9 +817,9 @@ def result():
                     .lower()
                 )
 
-                if correct:
+                if not correct:
 
-                    score += 1
+                    all_correct = False
 
                 results.append({
 
@@ -842,6 +845,11 @@ def result():
                     q.get("image")
                 })
 
+            # ✅ ALL 3 MUST BE CORRECT
+
+            if all_correct:
+
+                score += 2
         # =================================================
         # 📝 NORMAL QUESTIONS
         # =================================================
