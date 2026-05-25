@@ -64,7 +64,9 @@ def set_language(lang):
         'tl',
         'ne',
         'vi',
-        'pt'
+        'pt',
+        'id',
+        'ar'
     ]
 
     if lang in allowed_languages:

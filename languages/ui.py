@@ -272,6 +272,67 @@ UI_TEXT = {
         "select_language": "Selecionar idioma"
     },
 
+    "id": {
+
+        "study_mode": "🧠 Mode Belajar",
+
+        "reviewer_karimen": "🧠 Reviewer Karimen",
+
+        "reviewer_honmen": "🧠 Reviewer Honmen",
+
+        "karimen_mock": "📝 Tes Karimen",
+
+        "karimen_test_1": "📝 Tes Karimen 1",
+
+        "karimen_test_2": "📝 Tes Karimen 2",
+
+        "honmen_mock": "🏁 Tes Honmen",
+
+        "honmen_test_1": "🛣 Honmen Master",
+
+        "honmen_test_2": "🏁 Tes Honmen 2",
+
+        "honmen_test_3": "🏁 Tes Honmen 3",
+
+        "app_info": "⚙️ Informasi Aplikasi",
+
+        "score_history": "📊 Riwayat Skor",
+
+        "privacy": "🔒 Kebijakan Privasi",
+
+        "terms": "📄 Syarat Penggunaan",
+
+        "contact": "✉️ Hubungi Kami",
+
+        "dark_mode": "🌙 Mode Gelap",
+
+        "login": "👤 Masuk",
+
+        "register": "📝 Daftar",
+
+        "logout": "🚪 Keluar",
+
+        "welcome": "Selamat Datang",
+
+        "ai_title": "🧠 Tutor AI",
+
+        "premium": "⭐ Pengguna Premium",
+
+        "select_language": "Pilih Bahasa",
+
+        "premium_reviewers": "🔒 Reviewer Premium",
+
+        "premium_features": "⭐ Fitur Premium",
+
+        "unlock_premium": "🔒 Buka Premium",
+
+        "premium_active": "✅ Premium Aktif",
+
+        "manage_subscription": "💳 Kelola Langganan",
+
+        "upgrade": "⭐ Upgrade"
+    },
+
     }
 
 

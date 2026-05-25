@@ -812,6 +812,18 @@ body.dark .language-menu a:hover{
 
                     </a>
 
+                    <a href="/set-language/id">
+
+                        🇮🇩 Indonesian
+
+                    </a>
+
+                    <a href="/set-language/ar">
+
+                        🇸🇦 العربية
+
+                    </a>
+
                 </div>
 
             </div>
@@ -879,7 +891,7 @@ body.dark .language-menu a:hover{
                     <a href="/logout"
                        class="auth-btn">
 
-                       🚪 Logout
+                       {{ ui.logout }}
 
                     </a>
 
@@ -892,14 +904,14 @@ body.dark .language-menu a:hover{
                     <a href="/login"
                        class="auth-btn">
 
-                       👤 Login
+                       {{ ui.login }}
 
                     </a>
 
                     <a href="/register"
                        class="auth-btn">
 
-                       📝 Register
+                       {{ ui.register }}
 
                     </a>
 
@@ -950,14 +962,14 @@ body.dark .language-menu a:hover{
 
                     <div class="premium-status">
 
-                        ✅ Premium Active
+                        {{ ui.premium_active }}
 
                     </div>
 
                     <a href="/customer-portal"
                         class="auth-btn">
 
-                        💳 Manage Subscription
+                        {{ ui.manage_subscription }}
 
                     </a>
                 {% else %}
@@ -965,7 +977,7 @@ body.dark .language-menu a:hover{
                     <a href="/upgrade"
                        class="auth-btn">
 
-                       ⭐ Upgrade
+                       {{ ui.upgrade }}
 
                     </a>
 
@@ -982,7 +994,7 @@ body.dark .language-menu a:hover{
             <div class="section-title"
                 onclick="toggleMenu(this)">
 
-                <h2>⚙️ App Information</h2>
+                <h2>{{ ui.app_info }}</h2>
 
                 <span class="arrow">⌄</span>
 
@@ -995,7 +1007,7 @@ body.dark .language-menu a:hover{
                     <a href="{{ url_for('tests.score_history') }}"
                         class="menu-btn menu-btn-light">
 
-                        📊 Score History
+                        {{ ui.score_history }}
 
                     </a>
 
@@ -1004,21 +1016,21 @@ body.dark .language-menu a:hover{
                 <a href="/privacy"
                 class="menu-btn menu-btn-light">
 
-                🔒 Privacy Policy
+                {{ ui.privacy }}
 
                 </a>
 
                 <a href="/terms"
                 class="menu-btn menu-btn-light">
 
-                📄 Terms of Service
+                {{ ui.terms }}
 
                 </a>
 
                 <a href="/contact"
                 class="menu-btn menu-btn-light">
 
-                ✉️ Contact Us
+                {{ ui.contact }}
 
                 </a>
 
@@ -1051,7 +1063,7 @@ body.dark .language-menu a:hover{
             <a href="/reviewers"
                 class="menu-btn premium-btn">
 
-                🔒 Premium Reviewers
+                {{ ui.premium_reviewers }}
 
             </a>
             <a href="/start/reviewer_karimen/reviewer_karimen"
@@ -1090,14 +1102,14 @@ body.dark .language-menu a:hover{
             <a href="/start/karimen/karimen_1"
                class="menu-btn">
 
-               🚗 Karimen Test 1
+               {{ ui.karimen_test_1 }}
 
             </a>
 
             <a href="/start/karimen/karimen_2"
                class="menu-btn">
 
-               🚙 Karimen Test 2
+               {{ ui.karimen_test_2 }}
 
             </a>
 
@@ -1112,7 +1124,7 @@ body.dark .language-menu a:hover{
         <div class="section-title"
              onclick="toggleMenu(this)">
 
-            <h2>🏁 Honmen Mock Tests</h2>
+            <h2>{{ ui.honmen_mock }}</h2>
 
             <span class="arrow">⌄</span>
 
@@ -1123,7 +1135,7 @@ body.dark .language-menu a:hover{
             <a href="/start/honmen/honmen_1"
                class="menu-btn menu-btn-secondary">
 
-               🛣 Honmen Master
+               {{ ui.honmen_test_1 }}
 
             </a>
 
@@ -1138,7 +1150,7 @@ body.dark .language-menu a:hover{
         <div class="section-title"
              onclick="toggleMenu(this)">
 
-            <h2>⭐ Premium Features</h2>
+            <h2>{{ ui.premium_features }}</h2>
 
             <span class="arrow">⌄</span>
 
@@ -1174,7 +1186,7 @@ body.dark .language-menu a:hover{
                 <a href="/upgrade"
                    class="menu-btn menu-btn-gold">
 
-                   🔒 Unlock Premium
+                   {{ ui.unlock_premium }}
 
                 </a>
 

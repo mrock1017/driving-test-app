@@ -1,0 +1,3997 @@
+[
+  {
+    "question": "Saat bersiap untuk belok kiri di persimpangan, saya melihat sebuah sepeda mendekat dengan cepat dari belakang di sisi kiri. Karena merasa ada kemungkinan bahaya, saya membunyikan klakson dan segera menyelesaikan belok kiri di depan sepeda tersebut.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Pengemudi tidak boleh memaksa belok kiri di depan sepeda yang sedang mendekat, meskipun sudah membunyikan klakson. Tindakan yang lebih aman adalah memperlambat kendaraan atau menunggu sampai sepeda lewat dengan aman sebelum berbelok."
+  },
+  {
+    "question": "Di persimpangan tempat rambu berikut dipasang, pengemudi boleh melanjutkan dengan hati-hati ke arah yang ditunjukkan setelah memeriksa pejalan kaki dan lalu lintas sekitar, meskipun lampu lalu lintas berwarna merah atau kuning.",
+    "image": "turn_left.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Beberapa rambu lalu lintas mengizinkan kendaraan bergerak ke arah tertentu meskipun lampu lalu lintas menunjukkan larangan normal. Namun, pengemudi tetap harus mengutamakan keselamatan dan memberi jalan kepada pejalan kaki serta pengguna jalan lainnya."
+  },
+  {
+    "question": "Rambu lalu lintas di bawah ini berarti moped biasa tidak diwajibkan melakukan belok kanan dua tahap di persimpangan.",
+    "image": "no_moped.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Rambu ini menunjukkan pengecualian terhadap aturan normal belok kanan dua tahap untuk moped biasa. Pengendara dapat melakukan belok kanan biasa sambil tetap memperhatikan kondisi lalu lintas dengan hati-hati."
+  },
+  {
+    "question": "Seseorang yang mendorong sepeda motor dengan mesin dimatikan pada umumnya dianggap sebagai pejalan kaki menurut peraturan lalu lintas.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Ketika sepeda motor didorong dengan tangan dan tidak dikendarai secara normal, orang yang menanganinya biasanya diperlakukan seperti pejalan kaki. Mereka harus mengikuti aturan lalu lintas yang berlaku bagi pejalan kaki."
+  },
+  {
+    "question": "Jika pedal rem terasa lembek atau empuk saat diinjak kuat, itu berarti sistem pengereman bekerja dengan sangat baik.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Pedal rem yang terasa lembek atau empuk dapat menunjukkan adanya udara di saluran rem atau masalah lain pada sistem rem. Kendaraan harus segera diperiksa untuk memastikan pengoperasian yang aman."
+  },
+  {
+    "question": "Jika rem gagal saat menuruni jalan dan pengereman mesin atau rem parkir tidak dapat menghentikan kendaraan, menggunakan kerikil di pinggir jalan, pembatas, atau parit untuk memperlambat kendaraan dapat membantu mencegah kecelakaan yang lebih serius.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Dalam keadaan darurat kegagalan rem, mengurangi kecepatan dengan menggunakan hambatan aman di pinggir jalan dapat mengurangi tingkat keparahan kecelakaan. Melindungi nyawa manusia adalah prioritas utama."
+  },
+  {
+    "question": "Jalan yang dikhususkan hanya untuk pejalan kaki dapat digunakan secara bebas oleh kendaraan khusus ringan, moped, dan kendaraan kecil kapan saja.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Jalan khusus pejalan kaki umumnya melarang kendaraan masuk kecuali ada izin khusus atau pengecualian tertentu. Pengemudi harus mematuhi pembatasan yang dipasang dengan cermat."
+  },
+  {
+    "question": "Saat mengendarai sepeda motor, Anda harus meletakkan kaki di pijakan dengan jari kaki mengarah ke luar.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Pengendara sepeda motor harus menjaga jari kaki mengarah ke dalam atau lurus untuk mempertahankan keseimbangan dan kendali yang baik. Mengarahkan jari kaki ke luar dapat meningkatkan risiko menyentuh permukaan jalan atau benda lain."
+  },
+  {
+    "question": "Pengendara sepeda motor harus mengenakan pakaian yang mengurangi area tubuh yang terbuka, bahkan saat cuaca panas.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Pakaian pelindung membantu mengurangi cedera jika terjadi kecelakaan. Bahkan saat musim panas, pengendara tetap harus memakai perlengkapan yang melindungi lengan, kaki, dan bagian tubuh lainnya yang terbuka."
+  },
+  {
+    "question": "Karena sertifikat pemeriksaan kendaraan adalah dokumen penting, diperbolehkan hanya menyimpan fotokopi di dalam kendaraan sementara dokumen asli disimpan dengan aman di rumah.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Sertifikat pemeriksaan kendaraan asli harus disimpan di dalam kendaraan saat berkendara. Salinan saja tidak dianggap cukup secara hukum."
+  },
+  {
+    "question": "Rambu lalu lintas ini berarti kendaraan dilarang masuk dari arah ini, meskipun kendaraan dapat masuk ke jalan tersebut dari pintu masuk lain setelah rambu.",
+    "image": "no_entry.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Rambu “Dilarang Masuk” hanya melarang masuk dari arah yang menghadap rambu tersebut. Kendaraan masih dapat mengakses jalan itu secara legal dari arah lain yang diizinkan."
+  },
+  {
+    "question": "Parkir atau berhenti dilarang dalam jarak 5 meter dari tepi area penyeberangan sepeda.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Kendaraan tidak boleh berhenti atau parkir terlalu dekat dengan penyeberangan sepeda karena dapat menghalangi pandangan dan membahayakan pesepeda serta pengguna jalan lainnya."
+  },
+  {
+    "question": "Di sisi kiri zona keselamatan dan dalam jarak 10 meter dari tepinya, parkir dilarang tetapi berhenti sementara diperbolehkan.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Baik parkir maupun berhenti dilarang di dekat zona keselamatan dalam jarak yang ditentukan. Pembatasan ini membantu melindungi pejalan kaki dan menjaga jarak pandang yang aman di sekitar area tersebut."
+  },
+  {
+    "question": "Saat mendekati rambu peringatan berikut, pengemudi diwajibkan membunyikan klakson sambil terus melanjutkan perjalanan melalui area tersebut.",
+    "image": "winding_road.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Rambu peringatan seperti ini hanya memberi tahu pengemudi tentang kondisi jalan di depan, seperti tikungan atau jalan berkelok. Pengemudi tidak diwajibkan menggunakan klakson kecuali ada rambu klakson terpisah atau situasi darurat."
+  },
+  {
+    "question": "Saat memberi jalan kepada kendaraan darurat, pengemudi harus selalu menepi ke sisi kiri jalan, termasuk di jalan satu arah.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Di jalan satu arah, kendaraan dapat menepi ke salah satu sisi jika diperlukan agar kendaraan darurat dapat lewat dengan aman. Pengemudi harus memilih posisi yang paling aman sesuai kondisi jalan."
+  },
+  {
+    "question": "Seseorang yang memiliki SIM kendaraan biasa diperbolehkan mengoperasikan kendaraan khusus ringan dan moped standar selain mobil biasa.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "SIM biasa di Jepang pada umumnya memungkinkan pemegangnya mengemudikan mobil biasa serta beberapa kategori kendaraan kecil tertentu, termasuk moped umum dan kendaraan khusus ringan."
+  },
+  {
+    "question": "Ketika marka jalan berikut ada, pengemudi boleh bebas berpindah jalur melewati garis tengah ke arah yang ditunjukkan oleh panah.",
+    "image": "cannot_change_to_center.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Melewati garis tengah yang utuh umumnya dilarang meskipun ilustrasi tampak menunjukkan perpindahan jalur. Pengemudi harus mengikuti marka jalur dan menghindari melintasi garis yang membatasi perpindahan jalur."
+  },
+  {
+    "question": "Pengendara sepeda motor diwajibkan menggunakan helm yang memiliki standar keselamatan yang disetujui seperti tanda PS(C) atau sertifikasi JIS.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Helm yang disetujui dirancang untuk memenuhi standar keselamatan yang membantu mengurangi cedera kepala saat kecelakaan. Pengendara harus selalu menggunakan perlengkapan pelindung yang bersertifikat dengan benar."
+  },
+  {
+    "question": "Tetap berhenti di area larangan parkir selama sekitar lima menit sambil menunggu teman di dalam kendaraan masih dapat dianggap sebagai pelanggaran parkir.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Meskipun pengemudi tetap berada di dalam kendaraan, menunggu seseorang di area terlarang dapat dianggap sebagai parkir. Aturan lalu lintas mempertimbangkan tujuan dan lamanya kendaraan berhenti."
+  },
+  {
+    "question": "Kursi pengemudi harus disetel sehingga kaki pengemudi menjadi lurus sepenuhnya ketika pedal kopling ditekan penuh.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Lutut pengemudi seharusnya tetap sedikit menekuk saat menekan kopling sepenuhnya. Posisi ini memungkinkan kendali yang lebih baik dan mengurangi kelelahan saat berkendara."
+  },
+  {
+    "question": "Lampu lalu lintas hijau tidak otomatis menjamin perjalanan aman, sehingga pengemudi harus menghindari memasuki persimpangan, penyeberangan, atau perlintasan kereta jika kemacetan dapat membuat kendaraan terjebak di sana.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Pengemudi harus memastikan ada ruang yang cukup di depan sebelum melanjutkan perjalanan, bahkan saat lampu hijau. Menghalangi persimpangan atau penyeberangan menciptakan bahaya dan mengganggu arus lalu lintas."
+  },
+  {
+    "question": "Saat berhenti atau parkir di jalan yang memiliki trotoar, disarankan untuk menempatkan sebagian ban kendaraan di atas trotoar agar tersedia lebih banyak ruang di jalan raya.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Kendaraan tidak boleh memasuki atau menghalangi trotoar kecuali secara khusus diizinkan. Trotoar terutama diperuntukkan bagi penggunaan dan keselamatan pejalan kaki."
+  },
+  {
+    "question": "Untuk tujuan menentukan kapasitas penumpang kendaraan, dua anak di bawah usia 12 tahun dihitung sebagai satu orang dewasa.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Di Jepang, secara umum tiga anak di bawah usia 12 tahun dihitung sebagai dua orang dewasa dalam perhitungan kapasitas penumpang. Pengemudi tidak boleh melebihi batas tempat duduk yang sah."
+  },
+  {
+    "question": "Saat melewati tikungan, roda depan dan roda belakang mengikuti jalur belok yang berbeda terlepas dari kecepatan kendaraan.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Karena roda depan dan belakang tidak bergerak tepat pada jalur yang sama saat berbelok, pengemudi harus menyediakan ruang yang cukup ketika menikung, terutama di jalan sempit."
+  },
+  {
+    "question": "Mengemudi secara sembrono atau tidak mempertimbangkan pengguna jalan lain tidak hanya mengganggu orang lain, tetapi juga dapat menjadi penyebab langsung kecelakaan lalu lintas.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Perilaku mengemudi yang tidak aman meningkatkan stres dan kebingungan di antara pengemudi serta pejalan kaki. Hal ini juga meningkatkan risiko tabrakan dan situasi berbahaya di jalan."
+  },
+  {
+    "question": "Pengendara sepeda motor harus memegang setang dengan pergelangan tangan sedikit mengarah ke bawah sambil memegang setang dengan lembut namun mantap.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Pegangan setang yang tepat membantu pengendara menjaga keseimbangan dan mengendalikan sepeda motor dengan lebih halus. Memegang setang terlalu kuat dapat mengurangi fleksibilitas kemudi."
+  },
+  {
+    "question": "Sebelum belok kanan, pengemudi harus selalu bergerak mendekati tengah jalan tepat sebelum memasuki persimpangan.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Pengemudi harus memosisikan kendaraan dengan tepat sesuai marka jalan, struktur jalur, dan kondisi lalu lintas. Bergerak ke tengah jalan tanpa perlu dapat menimbulkan bahaya atau kebingungan."
+  },
+  {
+    "question": "Kekuatan tabrakan dengan dinding beton pada kecepatan 60 km/jam kira-kira setara dengan jatuh dari gedung sekitar lima lantai.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Tabrakan berkecepatan tinggi menghasilkan gaya benturan yang sangat kuat dan dapat menyebabkan cedera serius atau kematian. Perbandingan ini menekankan pentingnya berkendara dengan kecepatan aman."
+  },
+  {
+    "question": "Pengemudi harus selalu menunjukkan perhatian kepada pejalan kaki dan pengendara lain sambil menjaga sikap kooperatif di jalan.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Kelancaran lalu lintas yang aman bergantung pada rasa saling menghormati dan kerja sama antara semua pengguna jalan. Mengemudi dengan penuh perhatian membantu mencegah kecelakaan dan mengurangi masalah lalu lintas."
+  },
+  {
+    "question": "Karena jarak pandang menjadi jauh lebih buruk pada malam hari, pengemudi mungkin melihat pejalan kaki atau sepeda lebih lambat dibandingkan siang hari, sehingga lebih aman mengurangi kecepatan saat berkendara di malam hari.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Kegelapan membatasi jarak pandang dan membuat lebih sulit menilai jarak serta pergerakan. Mengemudi lebih lambat pada malam hari memberi lebih banyak waktu untuk bereaksi terhadap bahaya yang tidak terduga."
+  },
+  {
+    "question": "Rambu peringatan berikut memperingatkan pengemudi tentang area di depan yang mungkin terjadi batu jatuh atau longsor, sehingga diperlukan kehati-hatian ekstra saat berkendara.",
+    "image": "falling_rocks_hazzard_sign.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Rambu peringatan ini digunakan di daerah pegunungan atau area tidak stabil tempat batu dapat jatuh ke jalan. Pengemudi harus mengurangi kecepatan dan tetap waspada saat melewati zona tersebut."
+  },
+  {
+    "question": "Karena kecelakaan lebih mungkin terjadi setelah matahari terbenam, pengemudi sebaiknya menyalakan lampu depan lebih awal agar kendaraan lebih mudah terlihat oleh orang lain.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Lampu depan tidak hanya membantu pengemudi melihat jalan di depan, tetapi juga membuat kendaraan lebih terlihat oleh pejalan kaki dan pengendara lain. Penggunaan lampu depan lebih awal meningkatkan keselamatan jalan secara keseluruhan."
+  },
+  {
+    "question": "Sebelum berkendara di jalan tol, pengemudi harus memeriksa dengan cermat bahan bakar, oli mesin, dan cairan pendingin untuk membantu mencegah kerusakan kendaraan atau kecelakaan selama perjalanan.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Masalah mekanis di jalan tol bisa sangat berbahaya karena lalu lintas berkecepatan tinggi. Pemeriksaan kendaraan yang tepat mengurangi risiko masalah tak terduga saat berkendara."
+  },
+  {
+    "question": "Sebelum memasuki jalan tol, disarankan untuk memperoleh informasi lalu lintas dan cuaca melalui siaran radio atau Japan Traffic Information Center.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Memeriksa kondisi jalan, kecelakaan, atau kemungkinan penutupan jalan sebelumnya membantu pengemudi merencanakan perjalanan dengan aman dan menghindari rute berbahaya atau macet."
+  },
+  {
+    "question": "Untuk menjadi pengemudi yang aman, lebih baik mengemudi dengan hati-hati dan membuat lebih sedikit kesalahan daripada terburu-buru dan membuat lebih banyak kesalahan berkendara.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Keselamatan berkendara lebih bergantung pada penilaian yang benar dan pengoperasian yang hati-hati daripada kecepatan. Berkendara dengan tenang dan tepat sangat mengurangi kemungkinan kecelakaan."
+  },
+  {
+    "question": "Saat melewati tikungan kiri dengan pandangan terhalang, lebih aman berkendara dekat garis tengah untuk memperbaiki pandangan terhadap kendaraan dari arah berlawanan.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Pengemudi harus menghindari bergerak terlalu dekat ke garis tengah di tikungan buta karena kendaraan dari arah berlawanan dapat muncul tiba-tiba. Mempertahankan posisi jalur yang aman membantu mencegah tabrakan frontal."
+  },
+  {
+    "question": "Pengendara yang belum memiliki SIM sepeda motor standar selama setidaknya satu tahun dilarang membawa penumpang di jalan umum.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Di Jepang, pengendara sepeda motor harus memenuhi persyaratan pengalaman tertentu sebelum membawa penumpang. Aturan ini dimaksudkan untuk mengurangi kecelakaan yang melibatkan pengendara kurang berpengalaman."
+  },
+  {
+    "question": "Jika kendaraan mogok di rel kereta api, pengemudi harus segera memperingatkan petugas kereta api dan mencoba memindahkan kendaraan dari perlintasan secepat mungkin.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Kendaraan yang mogok di rel kereta menciptakan situasi yang sangat berbahaya. Tindakan cepat dapat membantu mencegah tabrakan serius dengan kereta yang mendekat."
+  },
+  {
+    "question": "Pengemudi tidak boleh berpindah jalur jika tindakan tersebut memaksa kendaraan di belakang untuk mengerem mendadak atau membelok demi menghindari bahaya.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Perpindahan jalur yang aman memerlukan ruang yang cukup dan waktu yang tepat. Perpindahan jalur mendadak yang mengganggu lalu lintas sekitar sangat meningkatkan risiko kecelakaan."
+  },
+  {
+    "question": "Jika kendaraan darurat mendekat saat Anda berada di dekat atau di dalam persimpangan, Anda harus segera berhenti tepat di tempat Anda berada.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Pengemudi harus menghindari berhenti dengan cara yang menghalangi persimpangan. Sebaliknya, mereka harus bergerak dengan aman menepi dan memberi jalan dengan tepat agar kendaraan darurat dapat lewat."
+  },
+  {
+    "question": "Di jalan yang ditandai dengan rambu jalan prioritas berikut, pengemudi diperbolehkan menyalip mobil lain atau moped standar di dekat atau di dalam persimpangan dengan berpindah jalur.",
+    "image": "big_arrow_road_sign.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Di jalan prioritas, beberapa pembatasan menyalip di dekat persimpangan mungkin tidak berlaku sama seperti di jalan biasa. Pengemudi tetap harus memastikan bahwa menyalip dapat dilakukan dengan aman."
+  },
+  {
+    "question": "Mobil penumpang diperbolehkan menggunakan jalan tol saat menarik kendaraan rusak dengan tali atau kabel.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Menarik kendaraan dengan tali atau kabel umumnya dilarang di jalan tol karena berbahaya pada kecepatan tinggi. Metode penarikan yang lebih aman dengan peralatan yang tepat diperlukan."
+  },
+  {
+    "question": "Pengemudi boleh menyalip dengan sebagian melewati garis tengah ke jalur berlawanan jika jalan cukup lebar, pandangan jelas, dan tidak mengganggu lalu lintas dari arah berlawanan.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Meskipun jarak pandang dan lebar jalan tampak cukup, menyalip dengan memasuki jalur berlawanan tetap dapat dilarang tergantung marka jalan dan aturan lalu lintas. Pengemudi harus mematuhi pembatasan jalur dengan cermat."
+  },
+  {
+    "question": "Ketika kendaraan rusak ditarik oleh mobil derek dengan roda depan atau belakang terangkat dari permukaan jalan, tidak diperlukan pengemudi untuk tetap berada di dalam kendaraan rusak tersebut.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Dalam metode penarikan seperti ini, mobil derek mengendalikan pergerakan kendaraan rusak. Oleh karena itu, pengemudi di dalam kendaraan rusak umumnya tidak diperlukan."
+  },
+  {
+    "question": "Kendaraan dilarang baik parkir maupun berhenti sementara dalam jarak 5 meter dari area pekerjaan konstruksi jalan.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Parkir umumnya dilarang di dekat zona konstruksi jalan, tetapi berhenti sementara mungkin diperbolehkan tergantung situasi dan apakah hal tersebut mengganggu lalu lintas atau operasi keselamatan."
+  },
+  {
+    "question": "Truk ukuran sedang selalu dibatasi pada kecepatan maksimum 80 km/jam saat berkendara di jalur utama jalan tol nasional.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Batas kecepatan untuk truk ukuran sedang dapat berbeda tergantung rambu jalan, kondisi jalan, dan peraturan hukum. Pengemudi harus mengikuti batas kecepatan yang dipasang untuk ruas jalan tertentu."
+  },
+  {
+    "question": "Pemilik atau pengelola garasi diperbolehkan memarkir kendaraan bahkan dalam jarak 3 meter dari pintu masuk garasi.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Parkir di dekat pintu masuk garasi dapat menghalangi akses kendaraan, bahkan bagi pemilik atau pengelolanya. Peraturan lalu lintas umumnya melarang parkir terlalu dekat dengan pintu masuk dan keluar."
+  },
+  {
+    "question": "Parkir di sisi kiri jalan diperbolehkan selama masih ada ruang minimal 2,5 meter di sisi kanan kendaraan yang diparkir.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Di jalan biasa di Jepang, kendaraan umumnya diwajibkan parkir di tepi kiri menghadap arah lalu lintas, dan aturan jarak bebas tertentu tetap harus dipatuhi. Hanya menyisakan ruang 2,5 meter tidak otomatis membuat parkir menjadi legal."
+  },
+  {
+    "question": "Di jalan yang dipasang rambu berikut, menyalip diperbolehkan selama pengemudi tidak melewati garis tengah ke jalur berlawanan.",
+    "image": "oikoshi_kinshi.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Rambu ini menunjukkan bahwa tindakan menyalip itu sendiri dilarang, bukan hanya melintasi garis tengah. Pengemudi tidak boleh melewati kendaraan lain di area yang ditentukan."
+  },
+  {
+    "question": "Untuk memastikan lampu mundur berfungsi dengan baik, pindahkan transmisi ke gigi mundur dan periksa apakah lampu mundur menyala.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Lampu mundur adalah fitur keselamatan penting karena memberi tahu orang dan kendaraan di sekitar bahwa mobil sedang mundur. Pemeriksaan rutin membantu memastikan pengoperasian yang aman."
+  },
+  {
+    "question": "Saat mengerem sepeda motor, pengendara harus menggunakan rem depan dan belakang secara bersamaan sambil menjaga sepeda motor tetap stabil dan setang tetap lurus.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Menggunakan kedua rem secara bersamaan meningkatkan keseimbangan dan kendali saat berhenti. Miring secara tiba-tiba atau menggerakkan setang secara tidak perlu saat mengerem dapat meningkatkan risiko tergelincir."
+  },
+  {
+    "question": "Siapa pun yang telah memiliki SIM kendaraan biasa atau SIM sepeda motor kurang dari satu tahun diwajibkan memasang tanda pengemudi pemula.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Kewajiban memasang tanda pengemudi pemula terutama berlaku bagi pemegang baru SIM kendaraan biasa. Pemegang SIM sepeda motor saja tidak otomatis diwajibkan memasang tanda tersebut."
+  },
+  {
+    "question": "Pada kendaraan dengan setir kanan, isyarat tangan untuk belok kiri dilakukan dengan menjulurkan lengan kanan ke luar dan menekuk lengan bawah ke atas secara vertikal.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Isyarat tangan ini diakui secara internasional sebagai tanda belok kiri. Pengemudi dapat menggunakan isyarat tangan jika lampu sein tidak dapat digunakan dengan benar."
+  },
+  {
+    "question": "Berhenti atau parkir di jalan tol dilarang dalam segala keadaan.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Meskipun berhenti di jalan tol umumnya dilarang, ada pengecualian untuk keadaan darurat seperti kendaraan mogok, kecelakaan, atau instruksi polisi."
+  },
+  {
+    "question": "Pengendara sepeda motor dapat meningkatkan stabilitas dan keseimbangan dengan menjepit tangki bahan bakar dengan kuat menggunakan kedua lutut saat berkendara.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Menjepit tangki dengan lutut membantu menstabilkan posisi tubuh pengendara dan mengurangi gerakan tubuh bagian atas yang tidak perlu. Teknik ini meningkatkan kendali sepeda motor secara keseluruhan."
+  },
+  {
+    "question": "Setelah memasuki persimpangan dengan lampu hijau untuk belok kanan, saya berhenti di dalam persimpangan karena lampu khusus belok kanan berubah menjadi merah.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Setelah pengemudi memasuki persimpangan secara sah, mereka harus menyelesaikan belokan dengan aman bila memungkinkan. Berhenti tanpa perlu di dalam persimpangan dapat menghambat lalu lintas dan menimbulkan bahaya."
+  },
+  {
+    "question": "Saat berkendara malam hari di area kota yang ramai dengan lalu lintas padat, diperbolehkan terus menggunakan lampu jauh untuk meningkatkan jarak pandang.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Lampu jauh dapat menyilaukan atau mengganggu pengemudi dan pejalan kaki lain di area ramai. Pengemudi harus beralih ke lampu dekat ketika ada lalu lintas di sekitar."
+  },
+  {
+    "question": "58. Sebelum menjalankan kendaraan transmisi otomatis, pengemudi harus menginjak pedal rem untuk memastikan posisinya dan memeriksa secara visual letak pedal akselerator.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Memastikan posisi pedal sebelum menyalakan mesin membantu mencegah akselerasi yang tidak disengaja. Ini adalah kebiasaan keselamatan yang penting, terutama pada kendaraan otomatis."
+  },
+  {
+    "question": "Di persimpangan yang dikendalikan lampu lalu lintas tanpa garis berhenti, pengemudi harus berhenti tepat di bawah lampu lalu lintas.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Jika tidak ada garis berhenti, pengemudi harus berhenti di posisi yang memungkinkan mereka memeriksa kondisi lalu lintas dengan aman dan tidak mengganggu pejalan kaki atau lalu lintas silang. Berhenti tepat di bawah lampu lalu lintas tidak selalu tepat."
+  },
+  {
+    "question": "Saat memasuki jalur utama jalan tol dari jalur percepatan, pengemudi harus memperhatikan dengan cermat kendaraan yang mendekat dari belakang di jalur utama.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Kendaraan yang sudah berada di jalur utama biasanya memiliki prioritas. Pengemudi yang bergabung ke jalan tol harus menilai kecepatan dan posisi lalu lintas sekitar dengan hati-hati."
+  },
+  {
+    "question": "Saat hujan, jarak reaksi menjadi lebih panjang, tetapi jarak pengereman tetap sama seperti di jalan kering.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Jalan basah mengurangi daya cengkeram ban dan meningkatkan jarak pengereman secara signifikan. Baik jarak reaksi maupun jarak berhenti dapat menjadi lebih panjang saat hujan."
+  },
+  {
+    "question": "Pengemudi harus menyesuaikan kecepatan dan menjaga jarak aman karena kendaraan tidak dapat berhenti seketika dalam keadaan darurat.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Jarak aman memberi cukup waktu untuk bereaksi dan mengerem dengan aman. Mengemudi terlalu dekat meningkatkan risiko tabrakan dari belakang."
+  },
+  {
+    "question": "Parkir atau berhenti dalam jarak 10 meter dari tanda halte bus diperbolehkan ketika bus tidak sedang beroperasi di area tersebut.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Pembatasan di dekat halte bus terutama berlaku selama jam operasional ketika bus menggunakan halte tersebut. Pengemudi tetap harus memeriksa peraturan yang dipasang dan menghindari menghalangi akses bus."
+  },
+  {
+    "question": "Garis pembatas tengah di jalan tidak selalu ditempatkan tepat di tengah jalan di semua lokasi.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Struktur jalan dan lebar jalur dapat berbeda tergantung kondisi lalu lintas atau desain jalan. Karena itu, garis tengah terkadang tidak berada tepat di tengah jalan."
+  },
+  {
+    "question": "Rambu peringatan di bawah ini menunjukkan bahwa jumlah jalur lalu lintas di depan akan berkurang.",
+    "image": "lane_decreased.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Rambu ini memperingatkan pengemudi bahwa jalur akan menyempit atau bergabung di depan. Pengemudi harus memeriksa lalu lintas sekitar dengan hati-hati dan bergabung dengan aman."
+  },
+  {
+    "question": "Setiap kali ada pejalan kaki berjalan di tepi jalan, pengemudi harus selalu mengurangi kecepatan tanpa mempedulikan kondisi lalu lintas atau jalan di sekitarnya.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Pengemudi harus mengurangi kecepatan bila diperlukan untuk menjamin keselamatan pejalan kaki, tetapi penyesuaian kecepatan tergantung pada situasi jalan dan lalu lintas tertentu. Yang terpenting adalah mengemudi dengan aman dan menghindari bahaya."
+  },
+  {
+    "question": "Jika seorang pesepeda sedang menyeberang di jalur penyeberangan sepeda, pengemudi harus berhenti dengan cara yang memungkinkan pesepeda melanjutkan perjalanan dengan aman tanpa gangguan yang tidak perlu.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Pengemudi diwajibkan memberikan prioritas yang tepat kepada pesepeda di penyeberangan yang ditentukan. Berhenti dengan mulus dan aman membantu mencegah kebingungan dan kecelakaan."
+  },
+  {
+    "question": "Pengereman mesin menjadi lebih efektif saat berkendara dengan gigi lebih tinggi dibandingkan dengan gigi lebih rendah.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Gigi rendah menghasilkan efek pengereman mesin yang lebih kuat karena mesin berputar pada RPM yang lebih tinggi. Pengemudi sering menggunakan gigi rendah di jalan menurun untuk membantu mengendalikan kecepatan dengan aman."
+  },
+  {
+    "question": "Di persimpangan yang ditunjukkan pada ilustrasi, Kendaraan A dan Kendaraan B sama-sama memiliki jarak pandang terbatas karena halangan di sekitar. Oleh karena itu, masing-masing pengemudi harus memperlambat kendaraan dan melanjutkan dengan hati-hati.",
+    "image": "mitoshi_with_shop.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Ketika jarak pandang di persimpangan terhalang, pengemudi mungkin tidak langsung melihat kendaraan, sepeda, atau pejalan kaki yang mendekat. Mengurangi kecepatan membantu mencegah tabrakan dan memberi lebih banyak waktu untuk bereaksi."
+  },
+  {
+    "question": "Saat membawa penumpang dengan sepeda motor, lebih aman menggunakan sepeda motor standar atau besar yang dilengkapi kursi penumpang yang cukup besar.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Sepeda motor yang dirancang untuk dua orang memberikan keseimbangan, stabilitas, dan kenyamanan yang lebih baik. Tempat duduk yang tepat juga meningkatkan keselamatan bagi pengendara dan penumpang."
+  },
+  {
+    "question": "Rambu peringatan berikut memberi tahu pengemudi agar lebih berhati-hati karena anak-anak dapat tiba-tiba masuk atau menyeberang jalan di dekat area tersebut.",
+    "image": "childrens_crossing.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Rambu ini biasanya dipasang di dekat sekolah, taman, atau area permukiman tempat anak-anak dapat muncul secara tiba-tiba. Pengemudi harus mengurangi kecepatan dan tetap waspada terhadap gerakan mendadak."
+  },
+  {
+    "question": "Membawa penumpang dilarang pada sepeda motor standar yang tidak dilengkapi kursi penumpang, وكذلك pada moped biasa.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Kendaraan yang dirancang hanya untuk satu pengendara tidak boleh digunakan untuk berboncengan. Perlengkapan penumpang yang sesuai diperlukan untuk memastikan pengoperasian yang aman dan legal."
+  },
+  {
+    "question": "Jalan dapat menjadi sangat licin saat turun salju atau cuaca membeku, sehingga pengemudi harus menggunakan rantai ban, ban musim dingin, atau ban salju tanpa paku untuk mengurangi risiko tergelincir.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Salju dan es sangat mengurangi daya cengkeram ban dan kemampuan pengereman. Perlengkapan musim dingin yang sesuai membantu meningkatkan traksi dan kendali kendaraan."
+  },
+  {
+    "question": "Ketika kendaraan yang berhenti mulai bergerak dari sisi kiri jalan, pengemudi dapat menggunakan lampu sein yang sama seperti saat berpindah atau berganti jalur ke kanan.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Kendaraan yang bergerak keluar dari tepi kiri jalan harus memberi isyarat niatnya untuk masuk ke arus lalu lintas. Hal ini memberi tahu pengemudi lain di sekitar dan membantu mencegah tabrakan."
+  },
+  {
+    "question": "Bus sekolah yang berhenti untuk menaikkan atau menurunkan anak-anak TK atau sekolah harus menyalakan lampu hazard.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Lampu hazard memperingatkan lalu lintas di sekitar bahwa anak-anak mungkin sedang naik atau turun dari kendaraan. Pengemudi di sekitar harus melanjutkan dengan hati-hati dan tetap waspada."
+  },
+  {
+    "question": "Jika jarak pandang terhalang di perlintasan kereta api, pengemudi harus terus maju mendekati rel sampai dapat memastikan tidak ada kereta yang mendekat.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Pengemudi harus berhenti di posisi aman dan memeriksa kedua arah dengan hati-hati sebelum melintas. Bergerak terlalu dekat ke rel tanpa konfirmasi yang tepat bisa sangat berbahaya."
+  },
+  {
+    "question": "Di jalan yang menampilkan rambu batas kecepatan berikut, pengemudi dilarang mengoperasikan kendaraan dengan kecepatan lebih dari 30 km/jam.",
+    "image": "30_sign.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Rambu batas kecepatan menunjukkan kecepatan maksimum yang diizinkan secara hukum pada ruas jalan tersebut. Pengemudi harus menyesuaikan kecepatan agar tetap berada dalam batas yang ditentukan."
+  },
+  {
+    "question": "Kendaraan kecil, moped biasa, dan sepeda motor standar dengan mesin 125cc atau kurang tidak diperbolehkan melintas di jalan yang ditandai dengan rambu berikut.",
+    "image": "designated_lane_automobiles.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Beberapa jalan membatasi kendaraan kecil dan sepeda motor berkapasitas mesin rendah demi alasan keselamatan dan kelancaran lalu lintas. Pengemudi harus mematuhi pembatasan kendaraan yang dipasang."
+  },
+  {
+    "question": "Di jalan dengan trotoar di sisi kiri, pengemudi boleh berhenti tetapi tidak boleh parkir di sisi kanan kendaraan lain yang sedang berhenti atau parkir.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Berhenti di samping kendaraan lain yang parkir dapat menghalangi lalu lintas dan menimbulkan bahaya bagi pengguna jalan lainnya. Parkir ganda umumnya dilarang kecuali dalam situasi khusus."
+  },
+  {
+    "question": "Di lokasi tempat rambu berikut dipasang, pengemudi diwajibkan membunyikan klakson saat melewati area tersebut.",
+    "image": "horn_sign.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Rambu ini menunjukkan zona wajib klakson, yang sering digunakan di area dengan jarak pandang buruk seperti jalan pegunungan atau tikungan buta. Membunyikan klakson membantu memperingatkan kendaraan atau pejalan kaki yang mendekat."
+  },
+  {
+    "question": "Meskipun penumpang kursi depan diwajibkan memakai sabuk pengaman, penumpang yang duduk di belakang tidak diwajibkan secara hukum untuk memakainya.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Penggunaan sabuk pengaman juga diwajibkan bagi penumpang kursi belakang. Mengenakan sabuk pengaman sangat mengurangi risiko cedera serius saat kecelakaan."
+  },
+  {
+    "question": "Saat membantu orang yang terluka setelah kecelakaan lalu lintas, pertolongan pertama harus diberikan bila memungkinkan, tetapi orang yang diduga mengalami cedera kepala hanya boleh dipindahkan jika benar-benar diperlukan.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Memindahkan orang dengan cedera kepala atau leher secara tidak tepat dapat memperburuk kondisinya. Bantuan darurat harus diberikan dengan hati-hati sampai bantuan profesional tiba."
+  },
+  {
+    "question": "Bahkan saat berkendara dengan kecepatan yang sama, pengemudi sering merasa seolah-olah mereka bergerak lebih lambat pada malam hari dibandingkan siang hari.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Berkurangnya jarak pandang dan referensi visual pada malam hari dapat memengaruhi persepsi kecepatan pengemudi. Hal ini dapat menyebabkan pengemudi tanpa sadar melaju lebih cepat dari yang dimaksudkan."
+  },
+  {
+    "question": "Jika gempa besar terjadi saat berkendara, Anda harus segera menepi ke sisi kiri jalan, menutup semua jendela, dan mengunci pintu untuk mencegah pencurian.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Saat terjadi gempa besar, pengemudi harus menghindari pengereman mendadak dan berhenti dengan aman setelah memeriksa kondisi sekitar. Prioritas utamanya adalah kesiapan evakuasi dan akses darurat, bukan pencegahan pencurian."
+  },
+  {
+    "question": "Saat menarik kendaraan mogok, memasang kain merah minimal 30 cm² pada tali penarik sudah cukup.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Kain atau penanda peringatan yang dipasang pada tali penarik harus memenuhi standar visibilitas tertentu dan umumnya lebih besar dari 30 cm². Penandaan yang tepat membantu pengemudi lain melihat sambungan penarik dengan aman."
+  },
+  {
+    "question": "Pemeriksaan kendaraan harian diwajibkan bagi operator atau pengguna taksi, kendaraan sewa, kendaraan pribadi besar, kendaraan khusus berat, dan kendaraan lain untuk penggunaan bisnis.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Pemeriksaan rutin sebelum berkendara membantu mendeteksi masalah mekanis sebelum kendaraan digunakan. Hal ini meningkatkan keselamatan dan membantu mencegah kecelakaan akibat kerusakan kendaraan."
+  },
+  {
+    "question": "Kendaraan dapat menjadi tidak stabil dan mungkin terguling jika muatan ditumpuk terlalu tinggi atau dimuat tidak merata. Demi keselamatan, barang bawaan harus ditempatkan serendah mungkin dan dibagi merata di kedua sisi.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Muatan yang tinggi atau tidak merata meningkatkan titik berat kendaraan sehingga lebih mudah kehilangan keseimbangan. Muatan yang seimbang meningkatkan stabilitas saat berbelok dan melakukan gerakan mendadak."
+  },
+  {
+    "question": "Jika mobil Anda menerima pemberitahuan kendaraan parkir ilegal, Anda harus menghubungi polisi agar stiker dilepas secara langsung setelah memindahkan kendaraan ke tempat parkir yang legal.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Pengemudi atau pengguna kendaraan dapat melepas pemberitahuan tersebut sendiri setelah menangani pelanggaran dengan benar. Tidak perlu menunggu polisi untuk melepasnya."
+  },
+  {
+    "question": "Saat menghadapi kendaraan dari arah berlawanan dengan lampu depan yang sangat terang pada malam hari, lebih aman mengarahkan pandangan sedikit ke sisi kiri jalan sambil terus berkendara dengan hati-hati.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Melihat sedikit ke kiri membantu mengurangi silau dari lampu kendaraan yang mendekat dan memungkinkan Anda tetap menyadari posisi jalur. Menatap langsung ke lampu terang dapat sementara mengurangi jarak pandang."
+  },
+  {
+    "question": "Rambu yang dipasang berarti pengemudi dilarang baik berhenti maupun parkir di area yang ditentukan.",
+    "image": "time_restriction.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Rambu ini menunjukkan “Dilarang Parkir,” yang masih mengizinkan berhenti sementara dalam kondisi tertentu. Rambu terpisah digunakan ketika berhenti dan parkir sama-sama dilarang."
+  },
+  {
+    "question": "Jika Anda mengantuk atau mobil mengalami masalah mekanis saat menggunakan jalan tol, Anda diperbolehkan berhenti atau parkir dengan bebas di bahu jalan.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Berhenti atau parkir di bahu jalan tol hanya diperbolehkan dalam keadaan darurat atau situasi yang tidak dapat dihindari. Pengemudi biasanya harus menggunakan area istirahat atau area parkir untuk beristirahat."
+  },
+  {
+    "question": "Ketika sebuah jalan melewati persimpangan secara lurus sebagai jalur lalu lintas utama, kendaraan yang melintas di jalan tersebut umumnya memiliki prioritas dibanding kendaraan yang masuk dari jalan samping.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Jalan prioritas dirancang untuk menjaga kelancaran arus lalu lintas. Pengemudi yang datang dari jalan kecil biasanya harus memberi jalan kepada kendaraan yang sudah melaju di jalan utama."
+  },
+  {
+    "question": "Rambu lalu lintas yang ditunjukkan menunjukkan bahwa beberapa sepeda bermotor diwajibkan belok kanan dengan cara yang sama seperti mobil biasa.",
+    "image": "no_moped.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Beberapa persimpangan mengharuskan sepeda bermotor biasa menggunakan cara belok kanan seperti mobil, bukan belok dua tahap. Pengemudi dan pengendara harus mematuhi petunjuk lalu lintas yang dipasang."
+  },
+  {
+    "question": "Selama truk membawa muatan, berapa pun jumlah orang diperbolehkan naik di bak belakang selama pengangkutan.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Penumpang umumnya dilarang naik di bak truk kecuali dalam situasi terbatas yang diizinkan secara hukum. Area muatan tidak dirancang untuk membawa penumpang dengan aman."
+  },
+  {
+    "question": "Di jalan tol, jalur lambat tidak dianggap sebagai bagian dari jalur utama lalu lintas.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Jalur utama adalah jalur yang dimaksudkan untuk perjalanan terus-menerus, sedangkan jalur lambat terutama digunakan oleh kendaraan yang bergerak lebih lambat dan kendaraan yang sedang bergabung."
+  },
+  {
+    "question": "Berhenti atau parkir dilarang di jalan menanjak curam maupun di jalan menurun curam.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Kendaraan yang diparkir di lereng curam dapat menciptakan situasi berbahaya karena berkurangnya jarak pandang atau kemungkinan kendaraan bergerak sendiri. Area ini dianggap berbahaya untuk berhenti."
+  },
+  {
+    "question": "Saat keluar dari jalan tol, Anda harus memperlambat kendaraan sepenuhnya sebelum memasuki jalur perlambatan.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Pengemudi harus terlebih dahulu masuk ke jalur perlambatan lalu secara bertahap mengurangi kecepatan di sana. Memperlambat terlalu awal di jalur utama dapat mengganggu arus lalu lintas dan menimbulkan bahaya."
+  },
+  {
+    "question": "Parkir atau berhenti dilarang di penyeberangan pejalan kaki, penyeberangan sepeda, dan dalam jarak 5 meter sebelum atau sesudah area tersebut.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Pembatasan ini membantu menjaga jarak pandang dan melindungi pejalan kaki serta pesepeda. Kendaraan yang berhenti terlalu dekat dengan penyeberangan dapat menghalangi pandangan dan meningkatkan risiko kecelakaan."
+  },
+  {
+    "question": "Untuk mencegah tergelincir di jalan bersalju, rantai ban harus dipasang pada roda yang bukan roda penggerak kendaraan.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Rantai ban umumnya harus dipasang pada roda penggerak untuk meningkatkan traksi dan kendali kendaraan. Memasangnya pada roda non-penggerak mengurangi efektivitasnya."
+  },
+  {
+    "question": "Menyalip kendaraan lain di dalam terowongan selalu dilarang, meskipun marka jalan memungkinkan beberapa jalur lalu lintas.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Menyalip tidak otomatis dilarang di semua terowongan. Pada terowongan dengan jalur yang ditandai dan kondisi lalu lintas aman, menyalip mungkin diperbolehkan kecuali dilarang oleh rambu atau marka."
+  },
+  {
+    "question": "Saat berkendara malam hari di area perkotaan yang ramai, diperbolehkan menggunakan lampu jauh secara terus-menerus untuk meningkatkan jarak pandang.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Lampu jauh dapat menyilaukan sementara pengemudi dan pejalan kaki lain di area dengan lalu lintas padat. Lampu dekat sebaiknya digunakan di lingkungan perkotaan."
+  },
+  {
+    "question": "Sebelum berpindah jalur, berputar arah, atau mundur, Anda harus terlebih dahulu memeriksa kaca spion dan lalu lintas sekitar demi keamanan, lalu tetap menyalakan lampu sein hingga manuver selesai.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Pengemudi harus memastikan keamanan sebelum menggerakkan kendaraan dan menggunakan lampu sein dengan benar untuk memberi tahu pengguna jalan lainnya. Tetap menyalakan sein selama manuver membantu mencegah kebingungan dan kecelakaan."
+  },
+  {
+    "question": "Marka jalan yang ditunjukkan menunjukkan bahwa sepeda dilarang memasuki area persimpangan.",
+    "image": "no_entry_of_bicycles_into_the_intersections.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Marka dan simbol jalan digunakan untuk mengatur pergerakan sepeda di persimpangan. Pesepeda harus mematuhi marka tersebut untuk menjaga kelancaran lalu lintas yang aman."
+  },
+  {
+    "question": "Di tempat rambu klakson ini dipasang, pengemudi diwajibkan membunyikan klakson sebagai peringatan karena area tersebut mungkin memiliki bahaya tersembunyi seperti tikungan buta atau jarak pandang terbatas.",
+    "image": "horn_sign.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Rambu klakson biasanya dipasang di lokasi dengan jarak pandang buruk dan penting untuk memperingatkan lalu lintas di sekitar demi keselamatan. Pengemudi harus menggunakan klakson dengan tepat di area yang ditentukan tersebut."
+  },
+  {
+    "question": "Saat memberi jalan kepada kendaraan darurat, pengemudi harus selalu menepi ke sisi kiri jalan, termasuk di jalan satu arah.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Di jalan satu arah, kendaraan dapat menepi ke salah satu sisi jika diperlukan agar kendaraan darurat dapat lewat dengan aman. Pengemudi harus memilih posisi paling aman sesuai kondisi jalan."
+  },
+  {
+    "question": "Kelelahan pengemudi terutama hanya memengaruhi konsentrasi dan memiliki sedikit pengaruh terhadap kemampuan mengerem atau membelok dengan cepat dalam situasi berbahaya.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Kelelahan memperlambat waktu reaksi dan mengurangi koordinasi fisik. Pengemudi yang lelah mungkin tidak dapat mengerem, membelok, atau bereaksi cukup cepat untuk menghindari kecelakaan."
+  },
+  {
+    "question": "Pada lampu lalu lintas yang ditunjukkan, kendaraan boleh melaju lurus atau belok kiri, tetapi kendaraan yang ingin belok kanan harus menunggu di garis berhenti sampai lampu panah belok kanan menyala.",
+    "image": "arrow_direction_light.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Lampu panah mengatur arah mana yang diperbolehkan di persimpangan. Pengemudi yang akan belok kanan harus tetap berhenti sampai lampu khusus mengizinkan pergerakan tersebut."
+  },
+  {
+    "question": "Karena sepeda bermotor biasa umumnya melaju di dekat sisi kiri jalan, mereka juga harus menyalip kendaraan lain hanya dari sisi kiri.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Aturan menyalip bergantung pada hukum lalu lintas dan kondisi jalan, bukan hanya posisi jalur normal. Menyalip dari sisi yang salah dapat menciptakan situasi berbahaya."
+  },
+  {
+    "question": "Meskipun seorang polisi sedang mengatur lalu lintas secara manual saat kemacetan atau keadaan darurat, pengemudi boleh mengabaikan instruksi polisi selama tetap mengikuti aturan lalu lintas biasa.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Instruksi yang diberikan polisi yang mengatur lalu lintas wajib dipatuhi. Arahan mereka memiliki prioritas lebih tinggi daripada aturan dan lampu lalu lintas biasa saat mengendalikan arus lalu lintas."
+  },
+  {
+    "question": "Pengendara sepeda motor dapat meningkatkan stabilitas dan keseimbangan dengan menjepit tangki bahan bakar dengan kuat menggunakan kedua lutut saat berkendara.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Menjepit tangki dengan lutut membantu menstabilkan tubuh pengendara dan meningkatkan kendali sepeda motor. Teknik ini juga mengurangi gerakan tubuh bagian atas yang tidak perlu."
+  },
+  {
+    "question": "Adaptasi cahaya berarti mata langsung menyesuaikan diri saat berpindah dari tempat terang ke lingkungan gelap tanpa kehilangan penglihatan sementara.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Saat memasuki area gelap dari tempat terang, penglihatan sementara menjadi lebih lemah sebelum perlahan menyesuaikan diri. Pengemudi harus berhati-hati karena jarak pandang dapat berkurang selama periode ini."
+  },
+  {
+    "question": "Hydroplaning terjadi ketika air terkumpul di antara ban dan permukaan jalan saat hujan, menyebabkan ban kehilangan daya cengkeram dan mengurangi kendali kemudi atau pengereman.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Hydroplaning berbahaya karena ban mungkin tidak lagi mencengkeram jalan dengan baik. Mengurangi kecepatan saat kondisi basah membantu menurunkan risiko."
+  },
+  {
+    "question": "Ketika seorang polisi merentangkan kedua lengan secara horizontal, lalu lintas yang datang dari depan dan belakang polisi harus berhenti, mirip dengan lampu lalu lintas merah.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Isyarat tangan ini menunjukkan instruksi berhenti bagi kendaraan yang datang dari arah depan dan belakang polisi. Pengemudi harus mengikuti isyarat tangan polisi dengan hati-hati di persimpangan."
+  },
+  {
+    "question": "Selama pemeriksaan sistem cairan pembersih kaca depan, Anda harus memeriksa apakah cairan cukup dan memastikan semprotan mencapai kaca depan dengan benar.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Sistem pembersih kaca yang berfungsi dengan baik membantu menjaga jarak pandang tetap jelas saat berkendara. Pengemudi harus rutin memeriksa level cairan dan arah semprotan demi keselamatan."
+  },
+  {
+    "question": "Pada malam hari, saat mendekati tikungan atau persimpangan dengan jarak pandang buruk, diperbolehkan menyalakan lampu depan secara singkat untuk memperingatkan pejalan kaki dan kendaraan yang mendekat tentang keberadaan Anda.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Menyalakan lampu depan secara singkat dapat membantu memperingatkan orang lain tentang kedatangan Anda di area dengan jarak pandang rendah. Namun, pengemudi harus menghindari penggunaan berlebihan yang dapat membingungkan atau mengganggu orang lain."
+  },
+  {
+    "question": "Rambu lalu lintas yang ditampilkan berarti terdapat area penyeberangan sepeda di depan.",
+    "image": "Japanese_bicycle_sign.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Rambu lingkaran biru ini menunjukkan jalur atau rute khusus sepeda, bukan secara khusus penyeberangan sepeda. Pengemudi harus memahami perbedaan antara rambu petunjuk dan rambu penyeberangan."
+  },
+  {
+    "question": "Kecuali rambu lalu lintas atau marka jalan secara khusus mengizinkannya, pengemudi harus menghindari melintasi jalan atau berputar arah jika hal tersebut akan mengganggu pejalan kaki atau lalu lintas lainnya.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Pengemudi harus selalu mempertimbangkan keselamatan dan pergerakan lalu lintas di sekitar sebelum berbelok atau melintasi jalur. Putar balik atau penyeberangan yang tidak aman dapat dengan mudah menyebabkan kecelakaan atau kemacetan."
+  },
+  {
+    "question": "Pengereman mesin menjadi lebih efektif saat berkendara dengan gigi lebih tinggi dibandingkan dengan gigi lebih rendah.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Pengereman mesin bekerja lebih kuat pada gigi rendah karena mesin berputar pada RPM yang lebih tinggi. Pengemudi sering menurunkan gigi saat menuruni jalan curam untuk pengendalian kecepatan yang lebih baik."
+  },
+  {
+    "question": "Saat melewati pesepeda yang berkendara di jalur samping atau bahu jalan, pengemudi tidak perlu mengurangi kecepatan atau memberi jarak tambahan.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Pengemudi harus mengurangi kecepatan dan menjaga jarak aman dari sepeda. Pesepeda dapat tiba-tiba oleng atau menghindari rintangan, sehingga kehati-hatian ekstra diperlukan."
+  },
+  {
+    "question": "Membawa penumpang dengan sepeda motor tanpa kursi penumpang yang sesuai, atau dengan sepeda bermotor yang tidak dirancang untuk penumpang, dilarang.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Sepeda motor dan sepeda bermotor harus dilengkapi dengan benar untuk mengangkut penumpang. Membawa penumpang pada kendaraan yang tidak sesuai menimbulkan risiko keselamatan yang serius."
+  },
+  {
+    "question": "Parkir dilarang di sisi kiri zona keselamatan dan dalam jarak 10 meter dari tepinya, meskipun berhenti sementara masih diperbolehkan.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Zona keselamatan dimaksudkan untuk melindungi pejalan kaki dan menjaga jarak pandang. Parkir jangka panjang di dekat area ini dapat menghalangi lalu lintas dan mengurangi keselamatan."
+  },
+  {
+    "question": "Untuk berkendara dengan penumpang, lebih aman menggunakan sepeda motor standar atau besar yang dilengkapi kursi penumpang yang cukup besar.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Sepeda motor yang lebih besar dengan tempat duduk yang sesuai memberikan stabilitas dan kenyamanan yang lebih baik untuk dua pengendara. Dukungan penumpang yang tepat juga meningkatkan kendali kendaraan secara keseluruhan."
+  },
+  {
+    "question": "Di jalan yang ditandai dengan garis tengah utuh seperti pada ilustrasi, pengemudi bebas berpindah jalur kapan pun diperlukan untuk bersiap belok kiri atau kanan.",
+    "image": "centerline_roadsign.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Garis tengah utuh umumnya membatasi penyeberangan atau perpindahan jalur kecuali dalam situasi terbatas yang diizinkan oleh aturan lalu lintas. Pengemudi harus menghindari melintasi marka tersebut kecuali jelas diperbolehkan."
+  },
+  {
+    "question": "Pengemudi biasanya diwajibkan berhenti sebelum melintasi rel kereta api, tetapi jika perlintasan dikendalikan oleh lampu lalu lintas, mereka dapat melanjutkan sesuai petunjuk lampu.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Lampu lalu lintas yang dipasang di perlintasan kereta membantu mengatur pergerakan kendaraan dengan aman. Pengemudi tetap harus waspada terhadap kereta dan mematuhi peringatan atau palang tambahan."
+  },
+  {
+    "question": "Muatan yang dibawa pada sepeda motor tidak boleh menonjol lebih dari 15 sentimeter di luar kedua sisi tempat barang.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Menjaga barang bawaan dalam batas lebar yang diizinkan membantu menjaga keseimbangan sepeda motor dan mencegah benturan dengan kendaraan atau rintangan di sekitar. Muatan yang terikat dengan benar juga meningkatkan keselamatan berkendara."
+  },
+  {
+    "question": "Rambu batas kecepatan yang ditampilkan dan marka jalan yang dicat keduanya menunjukkan peraturan batas kecepatan maksimum yang sama.",
+    "image": "50.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Marka jalan dapat memperkuat arti rambu lalu lintas di sekitarnya. Pengemudi harus mengikuti baik rambu maupun marka jalan yang menunjukkan batas kecepatan."
+  },
+  {
+    "question": "Menggunakan tali untuk menarik kendaraan mogok dilarang di jalan tol dan jalan berkecepatan tinggi serupa.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Jalan tol memerlukan metode penarikan yang lebih aman karena kecepatan kendaraan dan arus lalu lintas yang tinggi. Penarikan dengan tali dapat tidak stabil dan berbahaya dalam kondisi tersebut."
+  },
+  {
+    "question": "Permukaan jalan dapat menjadi sangat licin segera setelah hujan mulai turun karena debu dan minyak bercampur dengan air, sehingga pengemudi harus ekstra hati-hati.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Hujan pertama sering kali sangat mengurangi daya cengkeram ban. Pengemudi harus mengurangi kecepatan dan menghindari pengereman atau gerakan setir mendadak."
+  },
+  {
+    "question": "Saat masuk atau keluar dari properti yang terhubung dengan jalan, pengemudi tidak perlu berhenti sebelum melintasi trotoar jika tidak ada pejalan kaki yang terlihat.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Pengemudi harus berhenti sejenak dan memeriksa dengan hati-hati apakah ada pejalan kaki atau sepeda sebelum melintasi trotoar atau bahu jalan. Seseorang dapat muncul tiba-tiba dari titik buta."
+  },
+  {
+    "question": "Pengemudi yang melaju di jalur B yang ditunjukkan pada marka jalan boleh bebas berpindah ke jalur lain untuk belok kiri atau kanan.",
+    "image": "B_cannot_change_lane.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Marka arah jalur menunjukkan arah perjalanan yang diperbolehkan untuk setiap jalur. Kendaraan di jalur lurus saja harus terus lurus kecuali marka atau rambu mengizinkan perpindahan jalur sebelumnya."
+  },
+  {
+    "question": "Jika kendaraan darurat mendekat saat Anda berada jauh dari persimpangan, Anda boleh menepi ke sisi kiri jalan tanpa harus berhenti sepenuhnya, selama Anda memungkinkan kendaraan tersebut lewat dengan aman.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Pengemudi harus memberi jalan kepada kendaraan darurat dengan cepat dan aman. Dalam beberapa situasi, memperlambat dan menepi mungkin sudah cukup jika tidak menghalangi kendaraan darurat."
+  },
+  {
+    "question": "Gaya sentrifugal menjadi lebih kuat seiring meningkatnya kecepatan kendaraan, dan juga meningkat saat berbelok pada tikungan yang lebih tajam dengan radius lebih kecil.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Kecepatan yang lebih tinggi dan tikungan yang lebih tajam memberikan gaya keluar yang lebih besar pada kendaraan. Pengemudi harus mengurangi kecepatan sebelum memasuki tikungan untuk menjaga stabilitas dan traksi."
+  },
+  {
+    "question": "Pengemudi yang bertindak egois atau mengabaikan orang lain di jalan menempatkan orang lain dan diri mereka sendiri pada risiko kecelakaan yang lebih besar.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Mengemudi dengan aman bergantung pada kerja sama, kesadaran, dan perhatian terhadap orang lain. Perilaku ceroboh atau mementingkan diri sendiri sering menyebabkan situasi berbahaya bagi semua orang di sekitar."
+  },
+  {
+    "question": "Jika Anda harus meninggalkan kendaraan di jalan saat gempa besar, Anda harus menutup jendela, membawa kunci kontak, dan mengunci pintu sebelum pergi.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Saat bencana besar, petugas darurat mungkin perlu memindahkan kendaraan yang ditinggalkan dengan cepat. Pengemudi umumnya disarankan meninggalkan kunci agar mudah diakses dan tidak mengunci kendaraan."
+  },
+  {
+    "question": "Pengemudi harus menjaga jarak yang sama dengan kendaraan di depan tanpa mempedulikan hujan, kabut, lalu lintas, atau kondisi permukaan jalan.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Jarak aman harus disesuaikan dengan kecepatan, cuaca, jarak pandang, dan kondisi jalan. Kondisi buruk memerlukan jarak yang lebih besar untuk berhenti dengan aman."
+  },
+  {
+    "question": "Pengemudi boleh terus melaju normal saat mendekati jalan menanjak curam, tetapi harus mengurangi kecepatan saat mendekati jalan menurun curam.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Berkendara menurun secara alami meningkatkan kecepatan kendaraan dan dapat mengurangi efektivitas pengereman. Pengemudi harus mengurangi kecepatan lebih awal dan menggunakan pengaturan gigi yang tepat di turunan curam."
+  },
+  {
+    "question": "Pemilik mobil, kecuali sepeda motor, diwajibkan menyediakan tempat parkir di luar jalan dalam jarak 5 kilometer dari tempat utama penggunaan kendaraan.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Peraturan tempat parkir umumnya mengharuskan lokasi parkir jauh lebih dekat daripada 5 kilometer dari tempat utama penggunaan. Pengaturan parkir yang tepat membantu mencegah parkir liar di tepi jalan."
+  },
+  {
+    "question": "Jika kecelakaan lalu lintas hanya menyebabkan cedera ringan dan kedua pihak mencapai kesepakatan, melaporkan kejadian tersebut kepada polisi tidak diperlukan.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Kecelakaan lalu lintas tetap harus dilaporkan kepada polisi meskipun cedera tampak ringan atau para pihak menyelesaikannya secara pribadi. Pelaporan resmi penting untuk keperluan hukum dan asuransi."
+  },
+  {
+    "question": "Di jalan yang menampilkan rambu berikut, menyalip diperbolehkan selama pengemudi tidak melintasi garis tengah ke jalur berlawanan.",
+    "image": "oikoshi_kinshi.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Rambu ini menunjukkan bahwa menyalip itu sendiri dilarang, bukan hanya melintasi garis tengah. Pengemudi tidak boleh melewati kendaraan lain di area yang ditentukan."
+  },
+  {
+    "question": "Jika pekerjaan jalan menutup sebagian sisi kiri jalan sementara kendaraan datang dari arah berlawanan, Anda harus segera bergerak sebagian ke jalur lawan sambil memberi tahu kendaraan yang datang tentang keberadaan Anda.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Pengemudi tidak boleh memasuki jalur lawan kecuali benar-benar aman dan diizinkan. Memperlambat dan mengalah bila perlu lebih aman daripada memaksa lewat di area sempit."
+  },
+  {
+    "question": "Ketika lampu lalu lintas berkedip merah, pengemudi harus berhenti di garis berhenti dan melanjutkan hanya setelah memastikan aman.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Lampu merah berkedip diperlakukan mirip dengan rambu berhenti. Pengemudi harus berhenti sepenuhnya dan memeriksa lalu lintas sekitar dengan hati-hati sebelum melanjutkan."
+  },
+  {
+    "question": "Meskipun parkir dilarang, pengemudi boleh berhenti di sisi kanan kendaraan lain yang berhenti atau parkir di sepanjang trotoar di sisi kiri jalan.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Berhenti di samping kendaraan lain yang parkir dapat menghalangi lalu lintas dan menciptakan kondisi berbahaya. Pengemudi harus menghindari berhenti dengan cara yang menghalangi arus kendaraan normal."
+  },
+  {
+    "question": "Rambu jalan yang ditampilkan menunjukkan adanya zona keselamatan untuk pejalan kaki atau perlindungan lalu lintas.",
+    "image": "safety_zone.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Rambu zona keselamatan menunjukkan area yang dimaksudkan untuk meningkatkan keselamatan pejalan kaki dan mengatur pergerakan lalu lintas. Pengemudi harus mendekati area ini dengan hati-hati dan menghindari menghalanginya."
+  },
+  {
+    "question": "Diperbolehkan tiba-tiba memotong ke depan kendaraan yang menampilkan tanda latihan pengemudi jika instruktur mengemudi bersertifikat berada bersama pengemudi pemula tersebut.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Pengemudi harus menghindari memotong di depan kendaraan latihan karena pengemudi yang belum berpengalaman mungkin bereaksi lambat atau tidak terduga. Kesabaran dan jarak ekstra harus selalu diberikan kepada kendaraan latihan."
+  },
+  {
+    "question": "Kecuali ada rambu khusus yang menunjukkan sebaliknya, pengendara sepeda bermotor biasa di persimpangan dengan dua jalur di setiap arah harus mendekati dekat tengah jalan sebelum belok kanan menggunakan metode hook-turn.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Beberapa sepeda motor kecil dan sepeda bermotor diwajibkan melakukan belok kanan dua tahap di persimpangan besar. Metode ini meningkatkan keselamatan dengan mengurangi konflik dengan lalu lintas lain."
+  },
+  {
+    "question": "Jika isyarat tangan polisi bertentangan dengan lampu lalu lintas atau rambu, pengemudi harus mengikuti arahan polisi.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Polisi yang mengatur lalu lintas memiliki prioritas lebih tinggi daripada lampu lalu lintas biasa. Pengemudi harus mematuhi instruksi polisi dengan hati-hati untuk menjaga kelancaran lalu lintas yang aman."
+  },
+  {
+    "question": "Pengemudi harus mempersiapkan kemungkinan kecelakaan dengan memiliki asuransi, mempelajari pertolongan pertama dasar, dan menyimpan perlengkapan darurat seperti kotak P3K di kendaraan.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Kesiapan menghadapi keadaan darurat dapat mengurangi cedera dan meningkatkan respons saat kecelakaan. Pengemudi yang bertanggung jawab harus memahami prosedur keselamatan dasar dan membawa perlengkapan penting."
+  },
+  {
+    "question": "Salah satu cara memeriksa apakah rem hidrolik berfungsi dengan baik adalah dengan menginjak pedal rem dengan kuat; jika pedal perlahan turun, hal itu mungkin menunjukkan kebocoran cairan rem.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Pedal rem yang perlahan turun saat ditekan dapat menandakan masalah hidrolik atau kebocoran cairan. Pemeriksaan rem secara rutin penting untuk keselamatan kendaraan."
+  },
+  {
+    "question": "Saat mengendarai sepeda motor, Anda harus menjaga jari kaki mengarah ke luar saat meletakkan kaki di pedal rem dan kontrol kaki.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Pengendara sepeda motor harus menjaga posisi kaki dengan benar di pijakan kaki dengan jari kaki mengarah ke depan untuk keseimbangan dan kendali yang lebih baik. Posisi kaki yang salah dapat mengganggu pengereman dan perpindahan gigi yang aman."
+  },
+  {
+    "question": "Saat berbelok, roda belakang bagian dalam kendaraan bergerak pada jalur yang lebih lebar daripada roda depan bagian dalam.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Roda belakang bagian dalam sebenarnya mengikuti jalur yang lebih sempit daripada roda depan saat berbelok. Pengemudi harus mengingat hal ini saat berbelok dekat trotoar atau rintangan."
+  },
+  {
+    "question": "Pengemudi tidak perlu memperlambat atau berhenti untuk pejalan kaki yang menyeberang di dekat persimpangan tanpa zebra cross karena kendaraan memiliki prioritas.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Pejalan kaki tetap memiliki perlindungan penting meskipun tidak ada marka penyeberangan. Pengemudi harus tetap waspada dan mengalah bila diperlukan untuk menghindari kecelakaan."
+  },
+  {
+    "question": "Saat mendekati tikungan buta ke kiri, lebih aman bergerak mendekati garis tengah jalan untuk meningkatkan jarak pandang di tikungan.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Berkendara terlalu dekat dengan garis tengah di tikungan buta meningkatkan risiko tabrakan frontal. Pengemudi harus menjaga posisi jalur yang aman dan mengurangi kecepatan sebelum memasuki tikungan."
+  },
+  {
+    "question": "Saat mengendarai sepeda motor melewati tikungan, mengatur gas dengan halus di tengah tikungan dapat membantu mengontrol kecepatan dan menjaga stabilitas.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Pengendalian gas yang tepat penting untuk keseimbangan dan kemampuan menikung sepeda motor. Akselerasi atau pengereman mendadak saat menikung dapat mengurangi stabilitas."
+  },
+  {
+    "question": "Karena sepeda motor relatif sederhana dan praktis digunakan, kendaraan ini memerlukan keterampilan dan perhatian berkendara yang lebih sedikit dibanding mobil.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Sepeda motor memerlukan keseimbangan, koordinasi, dan kewaspadaan terhadap bahaya yang lebih tinggi. Pengendara lebih rentan terhadap bahaya dan harus berkendara dengan keterampilan serta kehati-hatian ekstra."
+  },
+  {
+    "question": "Jika kendaraan Anda menerima pemberitahuan parkir ilegal, Anda harus meminta polisi untuk secara langsung melepas stiker tersebut setelah memindahkan kendaraan ke tempat parkir yang sah.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Pengemudi umumnya diperbolehkan melepas sendiri pemberitahuan tersebut setelah menangani pelanggaran parkir dengan benar. Hal terpenting adalah mematuhi prosedur dan aturan parkir yang berlaku."
+  },
+  {
+    "question": "Saat berkendara di jalan bersalju atau beku, menggunakan gerakan setir mendadak atau pengereman tiba-tiba adalah cara yang efektif untuk mempertahankan kendali kendaraan.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Gerakan setir atau pengereman mendadak di jalan licin dapat dengan mudah menyebabkan selip. Pengemudi harus melakukan gerakan yang halus dan lembut untuk menjaga traksi dan stabilitas."
+  },
+  {
+    "question": "Di persimpangan tanpa lampu lalu lintas, pengemudi boleh langsung melaju tanpa memperlambat kendaraan jika merasa tidak ada kendaraan lain yang mendekat.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Pengemudi harus mengurangi kecepatan dan memeriksa lalu lintas serta pejalan kaki dengan hati-hati bahkan di persimpangan yang tampak kosong. Bahaya tersembunyi tetap dapat ada."
+  },
+  {
+    "question": "Saat mengikuti kendaraan lain pada malam hari, diperbolehkan terus menggunakan lampu jauh jika jarak antar kendaraan dekat.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Lampu jauh dapat memantul ke kaca spion dan mengganggu penglihatan pengemudi di depan. Lampu dekat harus digunakan saat mengikuti kendaraan lain dari jarak dekat."
+  },
+  {
+    "question": "Contoh ilustrasi menunjukkan cara yang benar melewati tikungan dengan mengurangi kecepatan sebelum masuk, menjaga kecepatan terkendali saat berbelok, dan berakselerasi secara bertahap setelah keluar dari tikungan.",
+    "image": "curving_proper_way.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Pengemudi harus mengurangi kecepatan sebelum memasuki tikungan untuk menjaga traksi dan stabilitas. Berakselerasi dengan halus setelah tikungan membantu menjaga kendaraan tetap terkendali."
+  },
+  {
+    "question": "Kendaraan penumpang pribadi diwajibkan menjalani pemeriksaan kendaraan rutin setiap enam bulan.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Kendaraan pribadi biasa umumnya tidak diperiksa setiap enam bulan. Jadwal pemeriksaan tergantung pada kategori kendaraan dan peraturan yang berlaku."
+  },
+  {
+    "question": "Posisi mengemudi yang benar mencakup lutut yang sedikit menekuk saat mengoperasikan pedal dan lengan yang rileks dengan siku sedikit menekuk saat memegang setir.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Posisi duduk yang benar meningkatkan kendali kendaraan dan mengurangi kelelahan pengemudi. Posisi yang rileks namun stabil juga membantu pengemudi bereaksi lebih cepat dalam keadaan darurat."
+  },
+  {
+    "question": "Rambu lalu lintas yang ditampilkan berarti “Area Sekolah, TK, atau Tempat Penitipan Anak,” dan pengemudi tidak diwajibkan berhati-hati ekstra saat melewati area tersebut.",
+    "image": "pedestrian.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Jenis rambu ini memperingatkan pengemudi bahwa pejalan kaki mungkin berada di sekitar. Pengemudi harus mengurangi kecepatan dan memperhatikan aktivitas pejalan kaki serta penyeberangan dengan saksama."
+  },
+  {
+    "question": "Seseorang yang mendorong sepeda motor dengan tangan boleh menggunakan trotoar atau jalur tepi jalan selama mesin dimatikan dan sepeda motor diperlakukan seperti objek pejalan kaki.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Saat sepeda motor didorong secara manual dengan mesin mati, kendaraan tersebut umumnya diperlakukan berbeda dari kendaraan yang berjalan. Namun, tetap harus berhati-hati agar tidak menghalangi pejalan kaki."
+  },
+  {
+    "question": "Seorang pelajar yang berlatih mengemudi dengan mobil penumpang standar harus diawasi oleh orang yang memenuhi syarat, seperti seseorang dengan pengalaman mengemudi yang cukup atau instruktur berlisensi yang sesuai.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Latihan mengemudi dengan pengawasan membantu memastikan keselamatan dan instruksi yang tepat. Orang yang mendampingi harus memenuhi kualifikasi hukum untuk mengawasi pengemudi pemula."
+  },
+  {
+    "question": "Kecuali ada batas kecepatan lain yang dipasang, batas kecepatan maksimum standar untuk kendaraan barang biasa di jalan umum adalah 60 km/jam.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Batas kecepatan umum berlaku kecuali rambu lalu lintas menunjukkan sebaliknya. Pengemudi harus selalu mematuhi batas yang dipasang dan menyesuaikan kecepatan dengan kondisi jalan."
+  },
+  {
+    "question": "Dalam situasi di mana jalur masuk bergabung dengan jalur lalu lintas utama, kendaraan yang sudah berada di jalur utama harus selalu memberikan prioritas kepada kendaraan yang masuk dari jalur gabung.",
+    "image": "merging_vehicle.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Kendaraan yang masuk dari jalur gabung biasanya harus menyesuaikan kecepatan dan bergabung dengan aman ke lalu lintas yang sudah ada. Pengemudi di jalur utama tetap harus berhati-hati dan bekerja sama bila memungkinkan."
+  },
+  {
+    "question": "Kendaraan yang tidak diizinkan menggunakan jalur bus prioritas tetap boleh memasuki jalur tersebut saat lalu lintas macet jika tidak ada bus di dekatnya.",
+    "image": "senyou_lane.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Jalur khusus dibatasi hanya untuk kendaraan yang ditentukan. Kendaraan lain tidak diperbolehkan menggunakannya hanya karena jalur terlihat kosong."
+  },
+  {
+    "question": "Sebelum menyalip kendaraan lain, Anda harus menyalakan lampu sein terlebih dahulu lalu memeriksa setelahnya apakah aman untuk berpindah jalur.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Pengemudi harus terlebih dahulu memastikan bahwa menyalip dapat dilakukan dengan aman sebelum memberi sinyal dan berpindah posisi. Pengamatan yang tepat membantu mencegah tabrakan."
+  },
+  {
+    "question": "Mengemudi saat SIM Anda ditangguhkan diperlakukan sama seperti lupa membawa SIM saat mengemudi.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Mengoperasikan kendaraan dengan SIM yang ditangguhkan merupakan pelanggaran yang jauh lebih serius daripada sekadar tidak membawa kartu SIM yang masih berlaku."
+  },
+  {
+    "question": "Saat parkir di samping trotoar, diperbolehkan meletakkan sebagian kendaraan di atas trotoar untuk memberi lebih banyak ruang bagi lalu lintas jalan.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Kendaraan tidak boleh menghalangi atau memasuki trotoar karena pejalan kaki harus dapat lewat dengan aman. Aturan parkir yang benar harus selalu dipatuhi."
+  },
+  {
+    "question": "Sebelum masuk ke kendaraan, cukup memeriksa sisi dan belakang kendaraan tanpa melihat ke bawah kendaraan.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Pengemudi juga harus memeriksa bagian bawah kendaraan bila memungkinkan, terutama di area permukiman atau ramai. Anak-anak, hewan, atau rintangan mungkin tersembunyi dari pandangan."
+  },
+  {
+    "question": "Anda boleh berhenti sementara dalam jarak 1 meter dari alarm kebakaran atau area hidran kebakaran, tetapi parkir di sana dilarang.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Berhenti singkat mungkin diperbolehkan dalam situasi tertentu, tetapi parkir di dekat peralatan darurat dapat mengganggu operasi pemadaman kebakaran dan dibatasi."
+  },
+  {
+    "question": "Saat menghadapi kendaraan dari arah berlawanan dengan lampu depan yang sangat terang di malam hari, sedikit mengalihkan pandangan ke sisi kiri jalan dapat membantu mengurangi silau.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Melihat sedikit menjauh dari lampu depan langsung membantu mengurangi kebutaan sementara akibat silau. Pengemudi tetap harus terus memantau jalan dengan hati-hati."
+  },
+  {
+    "question": "Di perlintasan kereta api yang dikendalikan lampu lalu lintas, Anda boleh melanjutkan tanpa berhenti penuh jika lampu mengizinkan lewat dan Anda memastikan tidak ada kereta yang mendekat.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Perlintasan yang dikendalikan lampu lalu lintas dapat mengizinkan kendaraan melintas sesuai sinyal. Pengemudi tetap harus memeriksa dengan hati-hati keberadaan kereta dan memastikan perlintasan aman."
+  },
+  {
+    "question": "Jika kendaraan darurat mendekat di dekat persimpangan, Anda harus bergerak ke sisi kiri jalan sambil terus melewati persimpangan secara perlahan.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Pengemudi harus menghindari menghalangi persimpangan bagi kendaraan darurat. Penting untuk berhenti di tempat yang aman dan memberi jalan dengan benar sesuai kondisi lalu lintas."
+  },
+  {
+    "question": "Saat menarik kendaraan mogok menggunakan tali atau kabel, panjang total dari bagian depan kendaraan penarik hingga bagian belakang kendaraan yang ditarik harus tetap dalam batas hukum 25 meter.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Batas panjang penarikan ditetapkan untuk menjaga kendali kendaraan dan keselamatan jalan. Panjang penarikan yang berlebihan dapat meningkatkan risiko kecelakaan."
+  },
+  {
+    "question": "Pengendara sepeda motor harus mengenakan pakaian yang menutupi sebanyak mungkin bagian tubuh, bahkan saat cuaca panas.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Pakaian pelindung membantu mengurangi cedera jika terjadi jatuh atau tabrakan. Perlengkapan berkendara yang tepat juga memberikan perlindungan dari angin, serpihan, dan kondisi cuaca."
+  },
+  {
+    "question": "Parkir dilarang dalam jarak 3 meter dari pintu masuk atau keluar area parkir, garasi, atau titik akses kendaraan serupa.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Menjaga pintu masuk dan keluar tetap kosong memungkinkan kendaraan masuk dan keluar dengan aman. Menghalangi area ini dapat menciptakan bahaya lalu lintas dan mengganggu jarak pandang."
+  },
+  {
+    "question": "Ketika halte trem atau tram dilengkapi zona keselamatan khusus penumpang, kendaraan boleh terus melintas tanpa mengurangi kecepatan.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Pengemudi tetap harus memperlambat kendaraan dan waspada terhadap pejalan kaki yang masuk atau keluar dari zona keselamatan. Keselamatan penumpang harus selalu diprioritaskan di dekat halte trem."
+  },
+  {
+    "question": "Mengemudi dengan kecepatan tinggi dalam waktu lama dapat membuat pengemudi kurang menyadari kecepatan sebenarnya, sehingga penting untuk sering memeriksa speedometer.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Perjalanan lama dengan kecepatan tinggi dapat mengganggu persepsi pengemudi terhadap gerakan dan kecepatan. Sering memeriksa speedometer membantu menjaga kecepatan tetap aman dan sesuai hukum."
+  },
+  {
+    "question": "Berhenti atau memarkir kendaraan dalam jarak 5 meter dari area pekerjaan jalan tidak diperbolehkan.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Menurut peraturan lalu lintas Jepang, parkir atau berhenti dilarang dalam jarak 5 meter dari sisi area pekerjaan jalan, tetapi beberapa pemberhentian sementara mungkin masih diperbolehkan tergantung situasi. Pernyataan ini tidak sepenuhnya akurat sebagaimana ditulis."
+  },
+  {
+    "question": "Rambu yang ditunjukkan menunjukkan area “Bunyikan Klakson”, artinya pengemudi diwajibkan menggunakan klakson meskipun tidak ada bahaya langsung yang terlihat.",
+    "image": "horn_sign.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Di Jepang, rambu biru “Bunyikan Klakson” mewajibkan pengemudi membunyikan klakson di lokasi tertentu seperti jalan pegunungan atau area dengan jarak pandang buruk, bahkan ketika belum ada bahaya yang terlihat."
+  },
+  {
+    "question": "Pengendara sepeda motor diwajibkan menggunakan helm yang memiliki tanda sertifikasi keselamatan yang disetujui seperti PS(C) atau JIS.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Hukum Jepang mengharuskan helm sepeda motor memenuhi standar keselamatan yang disetujui. Helm dengan tanda PS(C) atau JIS menunjukkan kepatuhan terhadap persyaratan keselamatan yang diakui."
+  },
+  {
+    "question": "Saat menarik kendaraan mogok dengan tali, memasang kain merah dengan luas minimal 30 cm² pada tali sudah cukup.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Pernyataan ini sebagian tidak benar. Meskipun persyaratan ukuran kain benar, hukum lalu lintas Jepang mengharuskan penggunaan kain putih, bukan merah."
+  },
+  {
+    "question": "Jika kendaraan Anda mogok di jalan tol dan tidak dapat melaju normal, Anda harus mencoba memindahkannya ke bahu jalan atau tepi jalan dengan menggunakan tenaga starter mesin saat gigi berada di gigi satu atau dua. Cara ini tidak berlaku untuk kendaraan otomatis atau mobil yang dilengkapi sistem keamanan starter kopling.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Di jalan tol Jepang, pengemudi harus memindahkan kendaraan mogok ke lokasi aman bila memungkinkan. Menggunakan motor starter pada gigi rendah dapat membantu memindahkan beberapa kendaraan manual dalam jarak pendek saat darurat."
+  },
+  {
+    "question": "Pengemudi yang melewati di samping zona keselamatan selalu diwajibkan melaju perlahan, bahkan ketika tidak ada pejalan kaki di dekatnya.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Menurut aturan lalu lintas Jepang, pengendara hanya wajib memperlambat kendaraan di dekat zona keselamatan ketika pejalan kaki mungkin berada di sana atau bila diperlukan demi keselamatan. Hal itu tidak otomatis diwajibkan dalam setiap situasi."
+  },
+  {
+    "question": "Pengereman mendadak boleh dilakukan bila diperlukan untuk menghindari bahaya langsung atau keadaan darurat lain yang tidak dapat dihindari.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Hukum lalu lintas Jepang umumnya melarang pengereman mendadak kecuali ada alasan keselamatan yang sah. Situasi darurat menjadi pengecualian ketika pengereman cepat diperlukan untuk mencegah kecelakaan."
+  },
+  {
+    "question": "Saat berkendara bersama kendaraan lain, pengemudi harus menghindari tindakan berbahaya seperti zigzag atau manuver sembrono yang dapat mengganggu lalu lintas sekitar.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Peraturan jalan Jepang melarang perilaku berkendara tidak aman yang dapat membahayakan lalu lintas atau mengganggu pengguna jalan lain. Berkendara zigzag dan berkendara kelompok secara sembrono sangat dilarang."
+  },
+  {
+    "question": "Berhenti selama 5 menit di area larangan parkir sambil menunggu seseorang di dalam kendaraan dianggap sebagai parkir ilegal.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Di Jepang, kendaraan yang berhenti terus-menerus untuk tujuan seperti menunggu seseorang dapat dianggap parkir, meskipun pengemudi tetap berada di dalam kendaraan. Hal ini dapat melanggar aturan parkir."
+  },
+  {
+    "question": "Stiker kendaraan parkir ilegal hanya boleh dilepas oleh pengguna kendaraan, pengemudi, atau orang lain yang bertanggung jawab mengelola kendaraan tersebut.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Di Jepang, Stiker Pelanggaran Parkir Ilegal dimaksudkan tetap terpasang kecuali dilepas oleh orang yang berwenang terkait kendaraan tersebut. Pelepasan tanpa izin tidak diperbolehkan."
+  },
+  {
+    "question": "Di jalan tol, pengemudi boleh berhenti atau parkir di bahu jalan hanya karena lelah atau ingin beristirahat, selain untuk masalah kendaraan.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Jalan tol Jepang melarang berhenti atau parkir yang tidak perlu di bahu jalan. Pengemudi harus menggunakan area layanan atau area parkir untuk beristirahat, sedangkan berhenti darurat hanya diperbolehkan untuk situasi yang tidak dapat dihindari seperti kendaraan mogok."
+  },
+  {
+    "question": "Jika angin samping yang kuat di dekat pintu keluar terowongan atau jalan terbuka memengaruhi kendali kemudi, pengemudi harus segera memutar setir dengan tajam sambil melaju dengan kecepatan tinggi.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Gerakan setir mendadak pada kecepatan tinggi berbahaya dan dapat menyebabkan kehilangan kendali kendaraan. Praktik berkendara aman di Jepang mengharuskan pengemudi mengurangi kecepatan secara bertahap dan menjaga gerakan kemudi tetap stabil saat angin kencang."
+  },
+  {
+    "question": "Rambu yang ditunjukkan berarti belok kiri dan belok kanan sama-sama dilarang di persimpangan.",
+    "image": "direction_left_and_right.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Rambu arah wajib berwarna biru ini menunjukkan bahwa kendaraan boleh melaju ke kiri atau ke kanan. Rambu ini tidak melarang belok, melainkan mewajibkan pengemudi bergerak hanya ke arah yang ditunjukkan."
+  },
+  {
+    "question": "Jalur yang ditandai dengan rambu yang ditampilkan dapat digunakan oleh kendaraan ringan, sepeda bermotor, dan kendaraan tujuan khusus kecil.",
+    "image": "senyou_lane.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Rambu ini menunjukkan jalur khusus bus, tetapi menurut peraturan lalu lintas Jepang, beberapa kategori kendaraan kecil seperti sepeda bermotor dan kendaraan khusus ringan juga dapat diizinkan tergantung kondisi jalan dan aturan setempat."
+  },
+  {
+    "question": "Jika lalu lintas macet di sisi kiri jalan, pengemudi boleh sebagian melintasi garis tengah ke jalur berlawanan untuk melewati kemacetan.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Di Jepang, melintasi garis tengah ke jalur lalu lintas berlawanan umumnya dilarang kecuali secara khusus diizinkan atau tidak dapat dihindari demi keselamatan. Pengemudi tidak boleh memasuki jalur kanan hanya untuk menghindari kemacetan."
+  },
+  {
+    "question": "Membawa penumpang pada sepeda motor tanpa kursi penumpang, atau pada sepeda bermotor biasa, dilarang oleh hukum.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Hukum Jepang mengharuskan sepeda motor yang membawa penumpang dilengkapi tempat duduk penumpang yang sesuai. Sepeda bermotor biasa umumnya tidak diperbolehkan membawa penumpang."
+  },
+  {
+    "question": "Di perlintasan kereta api dengan jarak pandang baik, pengemudi boleh melintas hanya dengan memperlambat kendaraan dan memeriksa kedua arah.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Aturan lalu lintas Jepang mewajibkan kendaraan berhenti sebelum melintasi sebagian besar perlintasan kereta api, bahkan ketika jarak pandang jelas. Pengemudi harus memastikan keamanan sebelum melanjutkan."
+  },
+  {
+    "question": "Orang yang diperlukan untuk memuat atau membongkar barang diperbolehkan naik di area muatan tanpa memandang berapa banyak orang yang diperlukan.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Peraturan Jepang hanya mengizinkan jumlah minimum orang yang diperlukan untuk pekerjaan bongkar muat naik di area muatan. Membawa penumpang yang tidak perlu di area muatan tidak diperbolehkan."
+  },
+  {
+    "question": "Di jalan pegunungan sempit, kendaraan yang melaju menanjak harus memberi prioritas kepada kendaraan yang turun.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Menurut aturan berkendara Jepang, kendaraan yang menurun umumnya diharapkan mengalah kepada kendaraan yang menanjak karena memulai kembali di tanjakan lebih sulit bagi kendaraan yang naik."
+  },
+  {
+    "question": "Rambu peringatan yang ditunjukkan dipasang di dekat pintu keluar terowongan atau bagian jalan terbuka untuk memperingatkan pengemudi tentang kemungkinan angin samping yang kuat.",
+    "image": "strong_wind_sign.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Rambu peringatan Jepang ini menunjukkan area di mana angin samping yang kuat dapat memengaruhi stabilitas kendaraan. Pengemudi harus memegang setir dengan kuat dan mengurangi kecepatan saat mendekati lokasi tersebut."
+  },
+  {
+    "question": "Jika kecepatan kendaraan menjadi dua kali lebih cepat, jarak pengereman dan gaya sentrifugal saat berbelok juga hanya akan meningkat dua kali lipat.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Jarak pengereman dan gaya sentrifugal sebenarnya meningkat empat kali lipat, bukan dua kali, ketika kecepatan kendaraan menjadi dua kali lebih tinggi."
+  },
+  {
+    "question": "Karena jarak pandang berkurang pada malam hari dan pejalan kaki atau sepeda lebih sulit terlihat, pengemudi sebaiknya berkendara lebih lambat dibandingkan saat siang hari.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Aturan berkendara aman di Jepang menekankan pengurangan kecepatan pada malam hari karena jarak pandang yang lebih pendek dan keterlambatan mengenali bahaya. Berkendara lebih lambat meningkatkan waktu reaksi dan keselamatan."
+  },
+  {
+    "question": "Untuk perjalanan jarak jauh, disarankan membuat rencana berkendara yang mencakup istirahat rutin, seperti berhenti setiap dua jam.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Panduan keselamatan lalu lintas Jepang merekomendasikan istirahat berkala selama perjalanan panjang untuk mencegah kelelahan dan menjaga konsentrasi. Beristirahat secara teratur membantu mengurangi risiko kecelakaan."
+  },
+  {
+    "question": "Di persimpangan dengan rambu yang ditunjukkan, pengendara sepeda bermotor biasa harus terlebih dahulu bergerak menuju tengah jalan sebelum memasuki persimpangan lalu menyelesaikan belok kanan secara perlahan di dekat tengah persimpangan.",
+    "image": "no_moped.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Rambu ini menunjukkan bahwa belok kanan dua tahap dilarang untuk sepeda bermotor biasa. Oleh karena itu, pengendara harus melakukan belok kanan biasa dari dekat tengah jalan sesuai aturan lalu lintas Jepang."
+  },
+  {
+    "question": "Saat menuruni jalan curam dengan kendaraan transmisi otomatis, pengemudi harus menggunakan pengereman mesin dengan memindahkan gigi ke posisi rendah seperti “2,” “1,” atau “L,” sambil menggunakan pedal rem bila diperlukan.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Panduan mengemudi Jepang merekomendasikan menggabungkan pengereman mesin dengan pengereman kaki di jalan menurun yang curam. Hal ini membantu mencegah rem menjadi terlalu panas dan meningkatkan kendali kendaraan."
+  },
+  {
+    "question": "Pengemudi tidak boleh memasuki perlintasan kereta api jika kemacetan di seberang perlintasan dapat menyebabkan kendaraan terjebak di rel.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Menurut hukum lalu lintas Jepang, pengemudi dilarang memasuki perlintasan kereta api kecuali dapat melintasinya sepenuhnya dengan aman. Menghalangi rel akibat kemacetan berbahaya dan melanggar hukum."
+  },
+  {
+    "question": "Ketika seorang polisi mengangkat kedua lengannya ke samping secara horizontal, sinyal tersebut memiliki arti yang sama seperti lampu merah bagi kendaraan yang mendekati dari depan polisi.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Dalam sinyal tangan polisi Jepang, lalu lintas yang menghadap polisi harus berhenti ketika kedua lengan direntangkan ke samping. Sinyal ini berfungsi sama seperti lampu merah bagi kendaraan yang mendekat dari depan dan belakang."
+  },
+  {
+    "question": "Saat menunggu di persimpangan untuk belok kanan, area buta yang disebabkan oleh kendaraan dari arah berlawanan yang melaju lurus atau belok kanan menjadi lebih luas ketika kendaraan tersebut semakin dekat.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Saat kendaraan dari arah berlawanan mendekat, kendaraan tersebut dapat menutupi lebih banyak bidang pandang pengemudi sehingga lebih sulit melihat sepeda motor, sepeda, atau pejalan kaki. Pendidikan keselamatan berkendara Jepang menekankan kehati-hatian ekstra dalam situasi seperti ini."
+  },
+  {
+    "question": "Di persimpangan, pengemudi tidak boleh terus melaju dengan kecepatan yang sama hanya karena menganggap kendaraan dari arah berlawanan yang akan belok kanan akan berhenti.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Aturan keselamatan lalu lintas Jepang mengharuskan pengemudi bersiap menghadapi tindakan tak terduga dari pengguna jalan lain. Menganggap kendaraan lain akan berhenti dapat menyebabkan tabrakan serius."
+  },
+  {
+    "question": "Hydroplaning terjadi saat hujan ketika air terbentuk di antara ban dan permukaan jalan, menyebabkan kendaraan kehilangan cengkeraman serta mengurangi kendali kemudi dan pengereman.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Hydroplaning adalah kondisi berbahaya yang sering terjadi pada kecepatan tinggi di jalan basah. Panduan berkendara Jepang menyarankan mengurangi kecepatan dan menghindari gerakan setir atau pengereman mendadak saat hujan deras."
+  },
+  {
+    "question": "Setelah kecelakaan lalu lintas, pengemudi harus memindahkan kendaraan ke tempat aman dan mematikan mesin untuk menghindari menghalangi lalu lintas atau menyebabkan kecelakaan lain.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Hukum lalu lintas Jepang mewajibkan pengemudi yang terlibat kecelakaan untuk mencegah bahaya tambahan bila memungkinkan. Memindahkan kendaraan dengan aman dan mematikan mesin membantu mengurangi risiko kecelakaan lanjutan."
+  },
+  {
+    "question": "Marka jalan yang ditunjukkan menunjukkan area di mana berhenti diperbolehkan, tetapi parkir dilarang.",
+    "image": "No_Parking.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Marka ini menunjukkan zona di mana parkir dan berhenti sama-sama dibatasi menurut peraturan lalu lintas Jepang. Pengemudi tidak boleh berhenti atau parkir di area tersebut kecuali dalam situasi yang diizinkan secara hukum."
+  },
+  {
+    "question": "Seseorang yang memiliki SIM sepeda motor standar kurang dari satu tahun tidak diperbolehkan membawa penumpang di jalan biasa.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Hukum lalu lintas Jepang membatasi pengendara sepeda motor pemula untuk membawa penumpang sampai mereka memiliki SIM sepeda motor yang sesuai setidaknya selama satu tahun."
+  },
+  {
+    "question": "Pada lampu lalu lintas yang ditunjukkan, mobil penumpang dan truk besar boleh belok kanan, tetapi sepeda motor dilarang belok kanan.",
+    "image": "green_arrow_proceed.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Sinyal panah biru mengizinkan lalu lintas bergerak ke arah yang ditunjukkan tanpa memandang jenis kendaraan kecuali ada pembatasan khusus. Sepeda motor juga diperbolehkan belok kanan ketika sinyal panah mengizinkan pergerakan tersebut."
+  },
+  {
+    "question": "Parkir atau berhenti dalam jarak 10 meter dari rambu halte bus diperbolehkan ketika bus tidak beroperasi di lokasi tersebut.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Menurut peraturan lalu lintas Jepang, larangan berhenti atau parkir di dekat halte bus terutama berlaku selama jam operasional bus. Di luar jam tersebut, pembatasan mungkin tidak berlaku."
+  },
+  {
+    "question": "Gaya sentrifugal yang bekerja pada kendaraan bergerak meningkat sesuai kuadrat kecepatan dan juga menjadi lebih besar ketika radius tikungan semakin besar.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Meskipun gaya sentrifugal meningkat sesuai kuadrat kecepatan, gaya tersebut menjadi lebih kuat ketika radius tikungan lebih kecil, bukan lebih besar. Tikungan tajam menciptakan gaya keluar yang lebih besar."
+  },
+  {
+    "question": "Jika kendaraan darurat mendekat dari belakang saat Anda sudah berada di dalam persimpangan, Anda harus segera berhenti tepat di tempat Anda berada.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Aturan lalu lintas Jepang mengharuskan pengemudi menghindari menghalangi persimpangan. Jika sudah berada di dalam persimpangan, pengemudi harus terlebih dahulu keluar dengan aman sebelum memberi jalan kepada kendaraan darurat."
+  },
+  {
+    "question": "Kendaraan bermotor biasa diperbolehkan menarik sebanyak dua kendaraan mogok menggunakan tali.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Peraturan Jepang mengizinkan kendaraan bermotor tertentu menarik hingga dua kendaraan mogok dengan tali apabila persyaratan penarikan yang sah dan kondisi keselamatan dipenuhi dengan benar."
+  },
+  {
+    "question": "Meskipun rambu batas kecepatan menunjukkan 40 km/jam, pengendara sepeda bermotor biasa tidak boleh melebihi 30 km/jam.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Di Jepang, sepeda bermotor biasa dikenakan batas kecepatan maksimum legal 30 km/jam kecuali secara khusus diizinkan sebaliknya. Batas kecepatan umum jalan tidak mengesampingkan pembatasan ini."
+  },
+  {
+    "question": "Pengemudi harus selalu mematuhi lampu lalu lintas, tetapi tidak wajib mengikuti isyarat tangan dari polisi atau pengatur lalu lintas.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Di Jepang, pengemudi diwajibkan secara hukum mematuhi lampu lalu lintas serta instruksi dari polisi atau petugas pengatur lalu lintas yang berwenang. Isyarat tangan polisi memiliki prioritas saat mengatur lalu lintas."
+  },
+  {
+    "question": "Saat berkendara di jalan tol, pengemudi harus menghindari pengereman mendadak atau gerakan setir tajam serta menjaga jarak yang cukup dari kendaraan di depan.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Aturan keselamatan jalan tol Jepang menekankan berkendara dengan halus dan menjaga jarak aman untuk mengurangi risiko tabrakan pada kecepatan tinggi."
+  },
+  {
+    "question": "Karena sepeda motor murah dan mudah dikendalikan, mengendarainya tidak memerlukan keterampilan atau kewaspadaan lebih dibandingkan mengemudikan kendaraan roda empat.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Mengendarai sepeda motor memerlukan keseimbangan, kewaspadaan terhadap bahaya, dan keterampilan pengendalian kendaraan yang lebih tinggi. Pendidikan mengemudi Jepang menganggap sepeda motor memerlukan kehati-hatian dan teknik khusus."
+  },
+  {
+    "question": "Kendaraan dilarang berhenti atau parkir di penyeberangan pejalan kaki, penyeberangan sepeda, atau dalam jarak 5 meter sebelum maupun sesudah area tersebut.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Hukum lalu lintas Jepang membatasi berhenti dan parkir di dekat zebra cross dan penyeberangan sepeda untuk melindungi jarak pandang dan keselamatan pejalan kaki."
+  },
+  {
+    "question": "Jika dua kendaraan mencapai persimpangan tanpa pengaturan dengan jalan yang lebarnya sama pada waktu yang sama, kendaraan di sebelah kiri memiliki prioritas dibanding kendaraan di sebelah kanan.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Penjelasan: Di Jepang, pada persimpangan tanpa lampu atau rambu dengan jalan yang lebarnya sama, kendaraan yang datang dari sebelah kanan umumnya memiliki hak jalan."
+  },
+  {
+    "question": "Saat memarkir kendaraan transmisi manual di jalan datar, penggunaan rem parkir tidak diperlukan jika gigi dipindahkan ke posisi mundur.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Praktik berkendara aman di Jepang mengharuskan rem parkir digunakan setiap kali meninggalkan kendaraan dalam keadaan parkir. Mengandalkan posisi gigi saja tidak dianggap cukup aman."
+  },
+  {
+    "question": "Truk ukuran sedang selalu dibatasi pada kecepatan maksimum 80 km/jam saat melaju di jalur utama jalan tol nasional.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Batas kecepatan di jalan tol Jepang dapat berbeda tergantung rambu jalan, peraturan lalu lintas, cuaca, dan kondisi jalan. Kecepatan maksimum untuk truk ukuran sedang tidak selalu tetap 80 km/jam."
+  },
+  {
+    "question": "Rambu peringatan yang ditunjukkan menunjukkan bahwa jumlah jalur di depan akan berkurang, dan kendaraan di jalur kiri harus bersiap bergabung ke kanan.",
+    "image": "lane_decreased.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Rambu peringatan Jepang ini memberi tahu pengemudi bahwa jalur kiri akan berakhir di depan. Pengemudi di jalur tersebut harus bergabung ke kanan dengan aman sambil memperhatikan lalu lintas sekitar."
+  },
+  {
+    "question": "Aturan mengenai ukuran muatan dan cara memuatnya ada karena muatan yang dibawa secara tidak benar dapat menimbulkan bahaya dan mengganggu keselamatan lalu lintas.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Peraturan lalu lintas Jepang membatasi dimensi muatan dan cara pemuatan untuk mencegah barang jatuh, kendaraan tidak stabil, dan kecelakaan lalu lintas."
+  },
+  {
+    "question": "Batas kecepatan legal standar untuk mobil di jalan biasa selalu 60 km/jam.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Di Jepang, batas kecepatan maksimum umum untuk mobil penumpang biasa di jalan umum biasanya 60 km/jam kecuali ada batas kecepatan berbeda yang ditunjukkan oleh rambu."
+  },
+  {
+    "question": "Saat berkendara pada malam hari, pengemudi boleh menyalakan lampu depan berkedip sebentar sebelum memasuki persimpangan atau tikungan buta untuk memperingatkan pejalan kaki dan kendaraan yang mendekat tentang keberadaan kendaraan.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Praktik berkendara Jepang mengizinkan penggunaan lampu depan berkedip sebagai sinyal peringatan di area dengan jarak pandang buruk. Hal ini membantu mencegah tabrakan di tikungan dan persimpangan pada malam hari."
+  },
+  {
+    "question": "SIM Jepang dibagi menjadi tiga kategori: SIM kelas satu, SIM kelas dua, dan izin belajar mengemudi.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Sistem perizinan Jepang mencakup SIM kelas satu biasa, SIM kelas dua untuk transportasi penumpang profesional, dan izin belajar mengemudi untuk latihan berkendara."
+  },
+  {
+    "question": "Sebelum berpindah ke jalur di sebelah kanan, pengemudi diwajibkan menyalakan lampu sein setidaknya 30 meter sebelum berpindah jalur.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Di Jepang, lampu sein untuk berpindah jalur umumnya harus dinyalakan setidaknya 3 detik sebelum melakukan perpindahan, bukan berdasarkan jarak tetap 30 meter. Aturan jarak terutama berlaku untuk belokan di persimpangan."
+  },
+  {
+    "question": "Menyalip dilarang di dan dalam jarak 30 meter sebelum penyeberangan pejalan kaki atau penyeberangan sepeda, tetapi hanya melewati kendaraan lain tetap diperbolehkan di sana.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Hukum lalu lintas Jepang membatasi menyalip di dekat zebra cross dan penyeberangan sepeda karena bahaya terhadap pejalan kaki dan pengendara sepeda. Melewati kendaraan lain dengan cara yang dianggap menyalip juga dilarang di area tersebut."
+  },
+  {
+    "question": "Bahkan di area dengan rambu yang ditunjukkan, yang berarti “Dilarang Berhenti atau Parkir,” kendaraan boleh berhenti sementara selama tidak diparkir.",
+    "image": "can_stop_but_cant_park.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Rambu Jepang ini menunjukkan area larangan parkir di mana parkir tidak diperbolehkan, tetapi berhenti singkat dalam kondisi yang diizinkan mungkin masih diperbolehkan tergantung situasinya."
+  },
+  {
+    "question": "Jika lampu lalu lintas menunjukkan panah hijau untuk belok kanan sementara lampu lurus tetap merah, hanya kendaraan ringan yang diizinkan bergerak ke arah panah tersebut.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Di Jepang, sinyal panah hijau mengizinkan semua kendaraan yang diperbolehkan bergerak ke arah tersebut kecuali ada pembatasan lain yang secara khusus membatasi jenis kendaraan tertentu."
+  },
+  {
+    "question": "Jika kendaraan berhenti tepat sebelum penyeberangan sepeda, pengemudi boleh dengan hati-hati melewati kendaraan tersebut dan terus maju dengan kecepatan rendah.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Aturan lalu lintas Jepang mengharuskan pengemudi sangat berhati-hati di dekat penyeberangan sepeda karena pejalan kaki atau pengendara sepeda mungkin tersembunyi oleh kendaraan yang berhenti. Melewati dalam situasi ini dapat dilarang atau berbahaya."
+  },
+  {
+    "question": "Stiker Lokasi Penyimpanan Kendaraan yang diterbitkan untuk kendaraan harus ditempel pada kaca belakang mobil.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Stiker Lokasi Penyimpanan Kendaraan yang diterbitkan untuk kendaraan harus ditempel pada kaca belakang mobil."
+  },
+  {
+    "question": "Truk besar, kendaraan ukuran sedang, truk semi-menengah, dan mobil penumpang biasa diwajibkan membawa peralatan darurat seperti suar, sinyal asap, atau senter.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Peraturan keselamatan kendaraan Jepang mewajibkan banyak jenis kendaraan membawa perangkat peringatan darurat untuk digunakan saat mogok atau keadaan darurat di jalan."
+  },
+  {
+    "question": "Pengendara sepeda motor boleh mendorong sepeda motor di trotoar atau jalur tepi jalan jika mesin dimatikan.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Menurut aturan lalu lintas Jepang, sepeda motor yang didorong dengan mesin mati umumnya diperlakukan mirip aktivitas pejalan kaki sehingga boleh menggunakan trotoar bila dilakukan dengan aman."
+  },
+  {
+    "question": "Pengemudi harus mengurangi kecepatan setiap kali akan belok kiri atau kanan.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Aturan berkendara aman Jepang mengharuskan pengemudi berbelok dengan hati-hati pada kecepatan rendah untuk menjaga kendali dan melindungi pejalan kaki, pengendara sepeda, serta lalu lintas sekitar."
+  },
+  {
+    "question": "Pengemudi boleh melewati kendaraan lain dari sisi kiri maupun kanan tergantung sisi mana yang lebih mudah digunakan.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Di Jepang, menyalip umumnya harus dilakukan dari sisi kanan kecuali dalam situasi tertentu yang diizinkan secara hukum. Melewati dari kiri dapat berbahaya dan melanggar hukum."
+  },
+  {
+    "question": "Jika pejalan kaki sedang menyeberang atau akan menyeberang di dekat persimpangan tanpa zebra cross, pengemudi harus memperlambat atau berhenti agar tidak mengganggu pergerakan pejalan kaki.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Hukum lalu lintas Jepang mengharuskan pengemudi memprioritaskan keselamatan pejalan kaki di dekat persimpangan, bahkan ketika tidak ada zebra cross yang dicat."
+  },
+  {
+    "question": "Jika rem gagal saat menuruni jalan dan pengereman mesin serta rem parkir tidak dapat menghentikan kendaraan, pengemudi harus menggunakan pembatas jalan, kerikil, atau parit di tepi jalan untuk membantu menghentikan kendaraan.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Panduan darurat berkendara Jepang mengizinkan pengemudi menggunakan rintangan tepi jalan atau area penyelamat yang lebih aman untuk mengurangi kerusakan dan mencegah kecelakaan yang lebih serius ketika sistem pengereman gagal."
+  },
+  {
+    "question": "Pengemudi harus memperlambat kendaraan saat mendekati tikungan, terlepas dari apakah jalan di depan terlihat jelas atau tidak.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Tikungan meningkatkan risiko selip dan mengurangi stabilitas kendaraan. Aturan berkendara Jepang menekankan pengurangan kecepatan sebelum memasuki tikungan untuk menjaga kendali kendaraan."
+  },
+  {
+    "question": "Kendaraan dengan izin khusus boleh memasuki jalan yang ditandai dengan rambu yang ditampilkan jika melaju dengan hati-hati dan memperhatikan pejalan kaki dengan saksama, tetapi mereka tidak diwajibkan memperlambat kendaraan ketika tidak ada pejalan kaki di dekatnya.",
+    "image": "reserved_for_pedestrians.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Rambu tersebut menunjukkan jalan khusus pejalan kaki. Bahkan kendaraan yang diizinkan harus melaju dengan kecepatan sangat rendah dan selalu sangat berhati-hati, terlepas dari apakah pejalan kaki terlihat atau tidak."
+  },
+  {
+    "question": "Pengendara yang mendorong sepeda motor dengan mesin mati dianggap sebagai pejalan kaki menurut aturan lalu lintas Jepang.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Di Jepang, seseorang yang berjalan sambil mendorong sepeda motor dengan mesin mati umumnya diperlakukan sebagai pejalan kaki dan harus mengikuti aturan lalu lintas yang berlaku bagi pejalan kaki."
+  },
+  {
+    "question": "Jika lampu depan kendaraan yang mendekat terlalu terang pada malam hari, pengemudi harus menjaga pandangan sedikit ke arah sisi kiri sambil terus berkendara.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Melihat sedikit ke kiri membantu mengurangi silau dari lampu depan kendaraan yang datang dari arah berlawanan dan memungkinkan pengemudi tetap menyadari tepi jalan dengan aman."
+  },
+  {
+    "question": "Parkir di sisi kiri jalan diperbolehkan selama masih tersisa ruang setidaknya 2,5 meter di sisi kanan kendaraan yang diparkir.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Aturan parkir Jepang umumnya mengharuskan kendaraan parkir di sisi kiri menghadap arah lalu lintas. Posisi parkir dan ruang jalan yang tersisa harus memenuhi kondisi hukum tertentu, dan pernyataan ini tidak benar sebagaimana ditulis."
+  },
+  {
+    "question": "Di persimpangan yang ditunjukkan dalam ilustrasi, baik Kendaraan A maupun Kendaraan B memiliki jarak pandang terbatas karena halangan di sekitarnya. Oleh karena itu, masing-masing pengemudi harus memperlambat kendaraan dan melaju dengan hati-hati.",
+    "image": "motorcycle_not_allowed.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Rambu peraturan Jepang ini melarang akses sepeda motor, termasuk sepeda bermotor biasa. Kendaraan yang termasuk dalam pembatasan tersebut tidak boleh melanjutkan perjalanan melewati rambu."
+  },
+  {
+    "question": "Pengendara sepeda motor harus memegang setang dengan pergelangan tangan sedikit mengarah ke bawah sambil memegang setang dengan ringan.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Posisi berkendara sepeda motor yang benar dalam pelatihan keselamatan Jepang mencakup pegangan yang rileks dan posisi pergelangan tangan alami untuk meningkatkan kendali kemudi dan mengurangi kelelahan pengendara."
+  },
+  {
+    "question": "Di persimpangan tanpa lampu lalu lintas, pengemudi yang memasuki jalan yang lebih lebar daripada jalan saat ini harus memperlambat kendaraan dan tidak mengganggu lalu lintas yang sudah menggunakan jalan yang lebih lebar tersebut.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Aturan hak jalan di Jepang umumnya memberikan prioritas kepada lalu lintas yang berjalan di jalan yang lebih lebar pada persimpangan tanpa pengaturan. Pengemudi yang masuk dari jalan yang lebih sempit harus melaju dengan hati-hati."
+  },
+  {
+    "question": "Di jalan tol nasional, hanya kendaraan yang dilengkapi dengan tepat untuk menarik dan kendaraan yang dirancang dengan benar untuk ditarik yang boleh melakukan operasi penarikan.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Peraturan jalan tol Jepang mengharuskan baik kendaraan penarik maupun kendaraan yang ditarik memenuhi persyaratan struktur dan keselamatan tertentu sebelum penarikan diperbolehkan."
+  },
+  {
+    "question": "Saat memperlambat atau menghentikan sepeda motor, pengendara harus menggunakan pengereman mesin bersama rem depan dan belakang sambil menjaga sepeda motor tetap tegak dan roda depan tetap lurus.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Instruksi keselamatan sepeda motor di Jepang merekomendasikan pengereman yang seimbang dan posisi berkendara yang stabil untuk mencegah selip dan menjaga kendali saat mengerem."
+  },
+  {
+    "question": "Ketika rambu panah biru belok kiri dengan latar putih ditampilkan di samping lampu lalu lintas atau di tepi jalan, pengemudi boleh belok kiri setelah memeriksa pejalan kaki dan lalu lintas sekitar meskipun lampu utama berwarna merah atau kuning.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Di Jepang, sinyal panah arah memungkinkan kendaraan bergerak ke arah yang ditunjukkan meskipun warna lampu biasa berbeda, asalkan aman untuk dilakukan."
+  },
+  {
+    "question": "Melewati kendaraan lain di dalam terowongan dilarang meskipun terowongan memiliki beberapa jalur dengan arah yang sama.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Hukum lalu lintas Jepang umumnya melarang menyalip di terowongan tanpa pemisahan jalur, tetapi menyalip dapat diperbolehkan di terowongan yang memiliki beberapa jalur dengan marka jelas ke arah yang sama."
+  },
+  {
+    "question": "Parkir dilarang dalam jarak 3 meter dari pintu masuk atau keluar area parkir, garasi, atau akses kendaraan serupa.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Peraturan parkir Jepang membatasi parkir di dekat pintu masuk dan keluar untuk memastikan kendaraan dapat masuk dan keluar dengan aman tanpa hambatan."
+  },
+  {
+    "question": "Istilah “jalan tol” mencakup jalan tol nasional dan jalan kendaraan bermotor.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Menurut klasifikasi jalan di Jepang, jalan tol secara umum mencakup jalan tol nasional dan jalan kendaraan bermotor berkecepatan tinggi lainnya yang dirancang untuk kelancaran lalu lintas cepat."
+  },
+  {
+    "question": "Saat kondisi jalan bersalju atau licin karena es, pengemudi harus menggunakan rantai ban, ban salju, atau ban musim dingin tanpa paku untuk mengurangi risiko tergelincir.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Panduan keselamatan berkendara musim dingin di Jepang merekomendasikan perlengkapan musim dingin yang tepat karena salju dan es sangat mengurangi daya cengkeram ban dan meningkatkan jarak berhenti."
+  },
+  {
+    "question": "Kecuali ada rambu lalu lintas yang memberikan instruksi berbeda untuk sepeda bermotor biasa di persimpangan dengan dua jalur di setiap arah, pengendara harus bergerak menuju tengah jalan sebelum belok kanan dan menyelesaikan belokan secara perlahan di dekat tengah persimpangan.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Aturan lalu lintas Jepang umumnya mengharuskan sepeda bermotor biasa melakukan belok kanan dua tahap di persimpangan besar kecuali ada rambu yang secara khusus mengizinkan metode belok lain."
+  },
+  {
+    "question": "Pengemudi boleh membunyikan klakson ketika benar-benar diperlukan untuk mencegah bahaya atau kecelakaan yang akan segera terjadi.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Di Jepang, penggunaan klakson yang tidak perlu tidak dianjurkan, tetapi penggunaan klakson diperbolehkan bila diperlukan untuk memperingatkan orang lain dan menghindari bahaya."
+  },
+  {
+    "question": "Mengemudi dengan kecepatan berlebihan membuat pengemudi lebih mudah melewatkan bahaya atau menyadarinya terlalu terlambat.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Kecepatan yang lebih tinggi mengurangi waktu reaksi dan mempersempit bidang pandang efektif pengemudi, sehingga meningkatkan risiko mengabaikan bahaya."
+  },
+  {
+    "question": "Meskipun pedal rem tenggelam sepenuhnya hingga menyentuh lantai, Anda masih boleh terus mengemudi selama rem tampaknya masih berfungsi normal.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Pedal rem yang turun sepenuhnya hingga ke lantai dapat menunjukkan masalah serius pada sistem rem. Aturan keselamatan kendaraan di Jepang mengharuskan kendaraan segera diperiksa dan diperbaiki."
+  },
+  {
+    "question": "Indikator keausan tapak ban harus diperiksa untuk menentukan apakah ban sudah aus melebihi batas aman.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Standar perawatan kendaraan Jepang mengharuskan pengemudi memantau kondisi ban secara teratur. Indikator keausan tapak membantu menentukan kapan ban perlu diganti."
+  },
+  {
+    "question": "Di jalan dengan tiga jalur ke arah yang sama, arus lalu lintas umumnya menjadi lebih cepat dari kiri ke kanan, dengan jalur paling kanan terutama digunakan untuk menyalip.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Aturan penggunaan jalur di Jepang umumnya mencadangkan jalur kanan untuk menyalip dan kendaraan yang bergerak lebih cepat, sementara kendaraan yang lebih lambat sebaiknya tetap di kiri bila memungkinkan."
+  },
+  {
+    "question": "Pengemudi harus memperhatikan jalan di depan secara luas daripada memusatkan pandangan hanya pada satu titik tetap.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Instruksi berkendara aman di Jepang mengajarkan pengemudi untuk mempertahankan bidang pandang yang luas agar dapat mendeteksi bahaya, pejalan kaki, dan perubahan lalu lintas dengan lebih cepat."
+  },
+  {
+    "question": "Saat mengendarai sepeda motor melalui tikungan, throttle dapat digunakan di tengah belokan untuk membantu mengontrol kecepatan dengan halus.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Penanganan sepeda motor yang benar di Jepang mencakup pengendalian throttle yang halus saat menikung untuk menjaga keseimbangan dan stabilitas kendaraan. Pengereman mendadak di tikungan bisa berbahaya."
+  },
+  {
+    "question": "Meskipun terdapat rambu yang ditampilkan yang melarang belok kanan, pengemudi tetap boleh belok kanan untuk masuk atau keluar dari garasi yang berada di tepi jalan.",
+    "image": "no_crossing_sign.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Rambu peraturan Jepang ini melarang belok kanan di lokasi tersebut. Pengemudi harus mematuhi larangan tersebut bahkan saat masuk atau keluar dari properti pribadi di dekatnya kecuali ada pengecualian yang secara khusus diizinkan."
+  },
+  {
+    "question": "Jika mobil Anda menerima pemberitahuan parkir ilegal, Anda harus menghubungi petugas polisi untuk secara langsung melepas stiker tersebut setelah memindahkan kendaraan ke area parkir yang legal.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Pengemudi atau pengguna kendaraan dapat melepas pemberitahuan tersebut sendiri setelah menangani pelanggaran dengan benar. Tidak perlu menunggu petugas polisi untuk melepasnya."
+  },
+  {
+    "question": "Pengendara sepeda motor tidak perlu terlalu berhati-hati saat melaju di samping kendaraan roda empat karena pengemudi mobil selalu menyadari lalu lintas di sekitarnya.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Sepeda motor lebih sulit terlihat oleh pengemudi lain karena titik buta dan ukurannya yang lebih kecil. Panduan keselamatan sepeda motor di Jepang menekankan kehati-hatian ekstra di sekitar kendaraan yang lebih besar."
+  },
+  {
+    "question": "Sebelum melewati kendaraan lain, pengemudi harus terlebih dahulu menyalakan lampu sein lalu memeriksa apakah kondisi lalu lintas di depan dan belakang aman.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Sebelum melewati kendaraan lain, pengemudi harus terlebih dahulu memastikan bahwa kondisi lalu lintas di depan dan belakang aman sebelum menyalakan lampu sein dan melakukan perpindahan."
+  },
+  {
+    "question_group": "'",
+    "situation": "Anda sedang menunggu untuk belok kanan di sebuah persimpangan. Sebuah truk besar dari arah berlawanan berhenti dan mengedipkan lampu depannya. Apa yang harus Anda perhatikan dalam situasi ini?",
+    "image": "making_a_right_turn_flasing_light.jpg",
+    "items": [
+      {
+        "number": 1,
+        "question": "Kedipan lampu truk berarti aman untuk segera belok, jadi Anda harus segera menyelesaikan belokan kanan agar tidak menghambat truk.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Kedipan lampu depan tidak selalu menjamin bahwa jalan sepenuhnya aman. Anda harus memastikan sendiri kondisi lalu lintas sebelum berbelok."
+      },
+      {
+        "number": 2,
+        "question": "Karena truk besar menghalangi sebagian pandangan Anda, Anda harus dengan hati-hati memeriksa area penyeberangan dan trotoar di sisi kanan untuk memastikan tidak ada pejalan kaki sebelum berbelok.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Kendaraan besar dapat menciptakan titik buta yang menyembunyikan pejalan kaki atau pesepeda. Selalu perlambat kendaraan dan pastikan penyeberangan aman sebelum melanjutkan."
+      },
+      {
+        "number": 3,
+        "question": "Anda harus memperkirakan bahwa sepeda motor atau sepeda dapat muncul dari belakang truk yang berhenti dan hanya melanjutkan belokan setelah memeriksa area yang tersembunyi dengan hati-hati.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Sepeda motor dan sepeda sering kali sulit terlihat ketika tersembunyi di belakang kendaraan besar. Pengamatan yang hati-hati membantu mencegah tabrakan saat berbelok."
+      }
+    ]
+  },
+  {
+    "question_group": "'",
+    "situation": "Anda sedang berkendara sekitar 20 km/jam melalui jalan pertokoan yang ramai dengan pejalan kaki, kendaraan parkir, dan kemungkinan bahaya di sekitar. Apa yang harus Anda perhatikan dalam situasi ini?",
+    "image": "shopping_district_safety.jpg",
+    "items": [
+      {
+        "number": 1,
+        "question": "Selama Anda memperhatikan lampu rem kendaraan di depan dan menjaga kecepatan yang memungkinkan berhenti dengan cepat, tidak perlu terlalu memperhatikan pejalan kaki di sekitar.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Pengemudi di area pertokoan harus terus memperhatikan pejalan kaki, sepeda, dan bahaya yang muncul tiba-tiba. Hanya fokus pada kendaraan di depan sangat berbahaya."
+      },
+      {
+        "number": 2,
+        "question": "Karena hewan atau pejalan kaki dapat tiba-tiba masuk ke jalan, Anda harus tetap berkendara dengan kecepatan yang memungkinkan Anda berhenti segera bila diperlukan.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Jalan pertokoan sering memiliki pergerakan orang dan hewan yang tidak dapat diprediksi. Menjaga kecepatan rendah dan tetap waspada membantu mencegah kecelakaan."
+      },
+      {
+        "number": 3,
+        "question": "Karena kendaraan di depan bisa berhenti mendadak, Anda harus mengurangi kecepatan, menjaga jarak yang cukup, dan juga memperhatikan kondisi lebih jauh di depan kendaraan tersebut.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Memperhatikan area di luar kendaraan di depan meningkatkan kesadaran terhadap bahaya dan memberi Anda lebih banyak waktu untuk bereaksi dengan aman."
+      }
+    ]
+  },
+  {
+    "question_group": "'",
+    "situation": "Hujan mulai turun saat Anda berkendara sekitar 40 km/jam di dekat persimpangan dengan pejalan kaki di sekitar. Tindakan pencegahan apa yang harus Anda lakukan dalam situasi ini?",
+    "image": "rainy_intersection_pedestrian.jpg",
+    "items": [
+      {
+        "number": 1,
+        "question": "Permukaan jalan menjadi licin segera setelah hujan mulai turun, jadi Anda harus mengurangi kecepatan sebelum memasuki persimpangan dan bersiap menghadapi pejalan kaki yang mungkin tiba-tiba menyeberang.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Hujan mengurangi daya cengkeram ban dan meningkatkan jarak berhenti. Pengemudi harus mengurangi kecepatan lebih awal dan tetap waspada terhadap pejalan kaki yang visibilitasnya juga mungkin berkurang."
+      },
+      {
+        "number": 2,
+        "question": "Anda boleh tetap melaju dengan kecepatan yang sama selama Anda yakin dapat berhenti dengan cepat jika pejalan kaki tiba-tiba menyeberang jalan.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Mempertahankan kecepatan yang sama saat hujan berbahaya karena jalan basah membuat pengereman kurang efektif dan waktu reaksi menjadi lebih penting."
+      },
+      {
+        "number": 3,
+        "question": "Jika pejalan kaki muncul tiba-tiba dari sisi kiri, diperbolehkan untuk sedikit masuk ke jalur lawan saat melewati persimpangan.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Masuk ke jalur berlawanan di persimpangan menciptakan risiko tabrakan yang serius. Pengemudi sebaiknya memperlambat kendaraan dan mempertahankan posisi jalur yang benar."
+      }
+    ]
+  },
+  {
+    "question_group": "'",
+    "situation": "Anda sedang berkendara sekitar 30 km/jam di jalan sempit dengan pejalan kaki berjalan di depan dan kendaraan dari arah berlawanan mendekat. Apa yang harus Anda perhatikan dalam situasi ini?",
+    "image": "narrow_road_pedestrian_oncoming_car.jpg",
+    "items": [
+      {
+        "number": 1,
+        "question": "Anda harus mempercepat dan melewati pejalan kaki sebelum kendaraan yang mendekat mencapai posisi Anda.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Mempercepat di area sempit dengan pejalan kaki dan lalu lintas berlawanan sangat berbahaya. Pengemudi harus memprioritaskan keselamatan dan menjaga kendali kendaraan dengan baik."
+      },
+      {
+        "number": 2,
+        "question": "Jika pejalan kaki tampaknya tidak menyadari kendaraan Anda, Anda harus membunyikan klakson dan terus berkendara dengan kecepatan yang sama.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Pengemudi harus mengurangi kecepatan dan bersiap untuk berhenti saat ada pejalan kaki di dekatnya. Membunyikan klakson saja tidak menjamin keselamatan."
+      },
+      {
+        "number": 3,
+        "question": "Karena mungkin lebih aman menunggu sampai kendaraan dari arah berlawanan lewat sebelum melewati pejalan kaki, Anda harus menepi dan berhenti jika diperlukan.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Mengalah dan menunggu saat ruang terbatas membantu menghindari situasi berbahaya yang melibatkan pejalan kaki dan kendaraan yang mendekat."
+      }
+    ]
+  },
+  {
+    "question_group": "'",
+    "situation": "Anda sedang berkendara sekitar 80 km/jam di jalur utama jalan tol sementara kendaraan lain mendekat dari jalur percepatan. Apa yang harus Anda perhatikan dalam situasi ini?",
+    "image": "expressway_merging_vehicle.jpg",
+    "items": [
+      {
+        "number": 1,
+        "question": "Karena kendaraan di jalur percepatan mungkin bergabung secara tiba-tiba, Anda harus mengurangi kecepatan bila perlu untuk membantu menciptakan ruang masuk yang aman.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Pengemudi di jalan tol harus bekerja sama dengan kendaraan yang akan bergabung jika aman untuk dilakukan. Menyesuaikan kecepatan dapat membantu mencegah situasi berbahaya."
+      },
+      {
+        "number": 2,
+        "question": "Jika aman setelah memeriksa kaca spion dan lalu lintas sekitar, Anda boleh pindah ke jalur lain untuk memberikan lebih banyak ruang bagi kendaraan yang akan bergabung.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Berpindah jalur dengan aman dapat mengurangi konflik dengan kendaraan yang masuk dari jalur percepatan dan meningkatkan kelancaran lalu lintas secara keseluruhan."
+      },
+      {
+        "number": 3,
+        "question": "Anda tidak perlu mengambil tindakan pencegahan apa pun karena kendaraan di jalur percepatan akan selalu menunggu dan menghindari bergabung di dekat kendaraan Anda.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Pengemudi tidak boleh berasumsi bahwa kendaraan lain selalu bertindak dapat diprediksi. Tetap waspada terhadap kendaraan yang tiba-tiba bergabung sangat penting di jalan tol."
+      }
+    ]
+  },
+  {
+    "question_group": "'",
+    "situation": "Anda sedang berkendara sekitar 40 km/jam di dekat pulau keselamatan trem di area perkotaan. Apa yang harus Anda perhatikan dalam situasi ini?",
+    "image": "city_drive_on_a_city_island.jpg",
+    "items": [
+      {
+        "number": 1,
+        "question": "Karena tidak ada trem yang sedang berhenti di pulau keselamatan dan tidak ada pejalan kaki yang tampak siap menyeberang, Anda boleh terus berkendara tanpa mengurangi kecepatan.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Meskipun tidak ada trem, pejalan kaki di dekat zona keselamatan dapat tiba-tiba menyeberang jalan. Pengemudi harus tetap berhati-hati dan memperlambat kendaraan saat mendekati area tersebut."
+      },
+      {
+        "number": 2,
+        "question": "Pejalan kaki di sisi kiri bisa melangkah menuju pulau keselamatan dan masuk ke jalur Anda. Namun, Anda boleh mempertahankan kecepatan saat ini jika sedikit bergerak ke sisi kanan jalur.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Mengubah posisi di dalam jalur tidak menghilangkan kebutuhan untuk memperlambat kendaraan. Pengemudi harus mengurangi kecepatan dan bersiap berhenti kapan pun pejalan kaki mungkin menyeberang secara tiba-tiba."
+      },
+      {
+        "number": 3,
+        "question": "Pejalan kaki di sisi kiri mungkin bergerak menuju pulau keselamatan dan menyeberang di depan kendaraan Anda, jadi Anda harus mengurangi kecepatan sebelum melewati area tersebut.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Zona keselamatan memerlukan perhatian ekstra karena pejalan kaki dapat tiba-tiba masuk ke jalan. Mengurangi kecepatan membantu memastikan cukup waktu reaksi untuk menghindari kecelakaan."
+      }
+    ]
+  },
+  {
+    "question_group": "'",
+    "situation": "Anda sedang berkendara sekitar 30 km/jam di jalan berkelok, dan kendaraan di belakang tampaknya mencoba menyalip. Apa yang harus Anda ingat dalam situasi ini?",
+    "image": "driving_through_greenhills.jpg",
+    "items": [
+      {
+        "number": 1,
+        "question": "Karena kendaraan di belakang mencoba menyalip, Anda harus menginjak rem dengan kuat dan segera memperlambat kendaraan agar kendaraan tersebut dapat menyalip lebih cepat.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Pengereman mendadak dapat mengejutkan pengemudi di belakang dan menciptakan bahaya. Jika kendaraan lain sedang menyalip, Anda harus tetap tenang dan menghindari tindakan tiba-tiba."
+      },
+      {
+        "number": 2,
+        "question": "Karena mobil di belakang mencoba menyalip, Anda harus mempercepat agar pengemudi lain tidak perlu lagi menyalip Anda.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Menambah kecepatan saat sedang disalip tidak aman dan dapat menyebabkan tabrakan. Pengemudi yang sedang disalip sebaiknya mempertahankan atau sedikit mengurangi kecepatan, bukan mempercepat."
+      },
+      {
+        "number": 3,
+        "question": "Jika kendaraan di belakang mulai menyalip, Anda harus melepas pedal gas dan tetap sedekat mungkin ke sisi kiri dengan aman untuk memberikan ruang yang cukup.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Memberikan ruang yang cukup membantu kendaraan yang menyalip melintas dengan lebih aman. Mengurangi kecepatan secara halus tanpa pengereman mendadak mengurangi risiko kecelakaan di jalan berkelok."
+      }
+    ]
+  },
+  {
+    "question_group": "'",
+    "situation": "Anda sedang mengendarai sepeda motor sekitar 10 km/jam saat mendekati persimpangan di samping truk besar. Bahaya apa yang harus Anda waspadai sebelum melanjutkan?",
+    "image": "motorcycle_on_chuo_dori_street.jpg",
+    "items": [
+      {
+        "number": 1,
+        "question": "Karena lampu lalu lintas berwarna hijau dan jalur Anda tampak kosong, Anda boleh terus melewati persimpangan tanpa memberi perhatian khusus pada kendaraan di sekitar.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Lampu hijau tidak menjamin keselamatan sepenuhnya di persimpangan. Pengemudi dan pengendara tetap harus memperhatikan kendaraan tersembunyi, lalu lintas yang berbelok, dan pergerakan mendadak di sekitar."
+      },
+      {
+        "number": 2,
+        "question": "Anda harus memperhatikan truk dengan hati-hati karena truk tersebut bisa tiba-tiba belok kiri dan masuk ke jalur Anda.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Truk besar sering membutuhkan ruang tambahan saat berbelok dan dapat bergerak masuk ke jalur di dekatnya. Pengendara sepeda motor harus tetap waspada dan menghindari berkendara di titik buta dekat persimpangan."
+      },
+      {
+        "number": 3,
+        "question": "Kendaraan dari arah berlawanan yang akan belok kanan mungkin tersembunyi di belakang truk, jadi Anda harus mengurangi kecepatan dan memeriksa dengan hati-hati sebelum melaju.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Kendaraan besar dapat menghalangi pandangan Anda terhadap lalu lintas yang mendekat. Mengurangi kecepatan dan memeriksa dengan teliti membantu mencegah tabrakan dengan kendaraan yang tersembunyi di belakang truk."
+      }
+    ]
+  },
+  {
+    "question_group": "'",
+    "situation": "Anda sedang berkendara sekitar 30 km/jam dan mendekati area konstruksi jalan di mana jalur lalu lintas sementara menyempit. Ada juga kendaraan dari arah berlawanan di depan. Apa yang harus Anda perhatikan?",
+    "image": "coastal_drive_with_construction.jpg",
+    "items": [
+      {
+        "number": 1,
+        "question": "Karena kendaraan dari arah berlawanan sedang mendekat, Anda harus berhenti sebelum memasuki bagian konstruksi yang menyempit dan melanjutkan hanya setelah kendaraan lawan lewat.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Di zona konstruksi jalan dengan ruang terbatas, mengalah kepada lalu lintas dari arah berlawanan mungkin diperlukan untuk menghindari bahaya. Berhenti dan memastikan keamanan membantu mencegah tabrakan di bagian sempit."
+      },
+      {
+        "number": 2,
+        "question": "Karena kendaraan lawan masih agak jauh dan ada mobil di belakang Anda, Anda harus mempercepat dan melewati area konstruksi dengan cepat sebelum kendaraan lawan tiba.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Mempercepat di jalan yang menyempit sangat berisiko dan dapat menyebabkan hilangnya kendali atau jarak lewat yang tidak aman. Pengemudi harus melaju dengan hati-hati daripada terburu-buru melewati zona konstruksi."
+      },
+      {
+        "number": 3,
+        "question": "Jika kendaraan di belakang mungkin tidak menyadari perlambatan mendadak Anda di dekat zona konstruksi, lebih aman untuk mengerem secara bertahap atau mengetuk rem beberapa kali saat berhenti.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Menggunakan rem secara bertahap dapat memperingatkan pengemudi di belakang melalui lampu rem Anda. Hal ini mengurangi kemungkinan tabrakan dari belakang ketika kondisi lalu lintas berubah tiba-tiba."
+      }
+    ]
+  },
+  {
+    "question_group": "'",
+    "situation": "Anda sedang mengendarai sepeda motor sekitar 80 km/jam di jalan tol dan akan keluar dari terowongan. Bahaya apa yang harus Anda antisipasi?",
+    "image": "motorcycle_on_expressway.jpg",
+    "items": [
+      {
+        "number": 1,
+        "question": "Angin samping yang kuat sering terjadi di dekat pintu keluar terowongan, jadi Anda harus memegang setang dengan kuat dan mengurangi kecepatan sebelum keluar dari terowongan.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Angin silang yang tiba-tiba dapat memengaruhi stabilitas kendaraan saat keluar dari terowongan. Mengurangi kecepatan dan mempertahankan kendali yang kuat membantu mencegah kendaraan menyimpang atau kehilangan keseimbangan."
+      },
+      {
+        "number": 2,
+        "question": "Angin silang di pintu keluar terowongan dapat mendorong sepeda motor Anda ke sisi kanan jalan, jadi Anda harus mengurangi kecepatan dan tetap berada di sisi kiri jalur Anda.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Posisi yang aman di dalam jalur memberi Anda lebih banyak ruang untuk bereaksi jika tekanan angin mendorong kendaraan ke samping. Mengurangi kecepatan juga meningkatkan stabilitas dan kendali."
+      },
+      {
+        "number": 3,
+        "question": "Mobil penumpang di sebelah kanan Anda mungkin tiba-tiba berpindah ke jalur Anda, jadi Anda harus mengurangi kecepatan dan tetap siap menghadapi perpindahan jalur yang tidak terduga.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Pengemudi di dekat pintu keluar terowongan mungkin bereaksi tidak terduga karena perubahan visibilitas atau kondisi angin. Tetap waspada dan menjaga jarak yang cukup membantu menghindari tabrakan."
+      }
+    ]
+  },
+  {
+    "question_group": "'",
+    "situation": "Anda sedang melaju di jalur masuk jalan tol sekitar 60 km/jam dan bersiap untuk bergabung ke jalur utama lalu lintas. Hal apa yang harus Anda ingat saat bergabung dengan arus lalu lintas?",
+    "image": "60_kph_expressway.jpg",
+    "items": [
+      {
+        "number": 1,
+        "question": "Jika ada kendaraan mendekat dari belakang di jalur utama jalan tol, Anda harus membiarkannya lewat terlebih dahulu lalu bergabung di belakangnya setelah memastikan aman.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Kendaraan yang sudah berada di jalur utama memiliki prioritas. Pengemudi yang masuk dari jalur percepatan harus bergabung dengan lancar tanpa memaksa kendaraan lain mengerem atau berpindah jalur secara tiba-tiba."
+      },
+      {
+        "number": 2,
+        "question": "Saat berpindah dari jalur percepatan ke jalur jalan tol, Anda harus memeriksa langsung kondisi di sekitar kendaraan selain menggunakan kaca spion karena kendaraan lain mungkin tersembunyi di titik buta.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Kaca spion saja tidak dapat sepenuhnya menunjukkan kondisi lalu lintas di sekitar. Menoleh sebentar untuk memeriksa titik buta membantu mencegah tabrakan saat bergabung."
+      },
+      {
+        "number": 3,
+        "question": "Jika tampaknya kendaraan di belakang Anda di jalur utama melambat untuk memberi Anda jalan masuk, Anda harus segera bergabung tanpa pemeriksaan lebih lanjut.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Pengemudi harus selalu memastikan keamanan sebelum bergabung. Meskipun pengemudi lain tampak memberi jalan, Anda tetap perlu memeriksa lalu lintas sekitar dan titik buta dengan hati-hati."
+      }
+    ]
+  },
+  {
+    "question_group": "'",
+    "situation": "Anda sedang berkendara sekitar 80 km/jam di jalan tol ketika kendaraan di depan tiba-tiba menyalakan lampu hazard. Tindakan pencegahan dan tindakan apa yang harus Anda pertimbangkan dalam situasi ini?",
+    "image": "vehicle_ahead_hazard.jpg",
+    "items": [
+      {
+        "number": 1,
+        "question": "Jika kendaraan di depan mungkin melambat secara tiba-tiba, Anda harus segera menginjak rem sekuat mungkin untuk menghindari tabrakan.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Pengereman mendadak di jalan tol dapat menciptakan risiko tabrakan dari belakang. Pengemudi harus memperlambat kendaraan dengan halus sambil memeriksa kondisi lalu lintas di sekitar."
+      },
+      {
+        "number": 2,
+        "question": "Anda harus menganggap kendaraan di depan akan pindah ke bahu jalan dan berhenti, jadi Anda harus segera berpindah ke jalur paling kanan.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Pengemudi tidak boleh melakukan perpindahan jalur secara tiba-tiba berdasarkan asumsi. Anda harus terlebih dahulu memastikan keamanan, lalu lintas sekitar, dan kondisi jalan sebelum berpindah jalur."
+      },
+      {
+        "number": 3,
+        "question": "Karena kendaraan di belakang mungkin tidak mengantisipasi perlambatan mendadak, lebih aman untuk memperingatkan lalu lintas di belakang dengan menggunakan lampu hazard dan menginjak rem ringan beberapa kali.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Di jalan tol Jepang, lampu hazard dan pengereman bertahap umum digunakan untuk memperingatkan pengemudi di belakang tentang lalu lintas yang melambat atau bahaya di depan. Hal ini membantu mengurangi kemungkinan tabrakan dari belakang."
+      }
+    ]
+  },
+  {
+    "question_group": "'",
+    "situation": "Anda sedang mengendarai sepeda motor sekitar 70 km/jam dan akan keluar dari terowongan. Bahaya dan tindakan pencegahan apa yang harus Anda perhatikan dalam situasi ini?",
+    "image": "tunnel_exit.jpg",
+    "items": [
+      {
+        "number": 1,
+        "question": "Karena mata Anda mungkin memerlukan waktu untuk menyesuaikan diri saat tiba-tiba berpindah dari terowongan gelap ke cahaya terang, Anda harus mengurangi kecepatan sebelum keluar dari terowongan.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Cahaya terang yang tiba-tiba dapat sementara mengurangi visibilitas dan membuat lebih sulit menilai kondisi jalan. Mengurangi kecepatan membantu menjaga kendali dan meningkatkan keselamatan."
+      },
+      {
+        "number": 2,
+        "question": "Angin samping yang kuat di dekat pintu keluar terowongan dapat menyebabkan sepeda motor Anda terdorong ke samping, jadi Anda harus mengurangi kecepatan dan menstabilkan posisi berkendara sebelum keluar dari terowongan.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Pintu keluar terowongan dapat membuat sepeda motor terkena angin silang mendadak, terutama di area terbuka. Mengurangi kecepatan dan menjaga posisi berkendara yang stabil membantu mencegah kehilangan keseimbangan."
+      },
+      {
+        "number": 3,
+        "question": "Karena terowongan adalah area berbahaya, Anda harus mempertahankan kecepatan yang sama di dalam terowongan dan mempercepat tajam begitu keluar.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Percepatan mendadak saat keluar dari terowongan dapat berbahaya karena perubahan visibilitas dan kondisi angin. Pengemudi dan pengendara harus tetap berkendara dengan halus dan hati-hati."
+      }
+    ]
+  },
+  {
+    "question_group": "'",
+    "situation": "Anda sedang berkendara sekitar 5 km/jam dan bersiap untuk belok kanan di sebuah persimpangan. Sebuah truk dari arah berlawanan juga akan belok kanan. Apa yang harus Anda perhatikan dalam situasi ini?",
+    "image": "truck_turn_right.jpg",
+    "items": [
+      {
+        "number": 1,
+        "question": "Karena kedua kendaraan sama-sama akan belok kanan, Anda boleh langsung menyelesaikan belokan pada saat yang sama dengan truk tanpa perlu khawatir terhadap lalu lintas lain.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Truk dari arah berlawanan dapat menghalangi pandangan Anda terhadap pejalan kaki, sepeda, atau kendaraan lain. Pengemudi tidak boleh menganggap situasi aman hanya karena kedua kendaraan sama-sama berbelok."
+      },
+      {
+        "number": 2,
+        "question": "Karena kendaraan lain dari arah berlawanan mungkin tersembunyi di belakang truk dan belum memasuki persimpangan, Anda harus segera belok kanan sebelum mereka muncul.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Berbelok dengan cepat tanpa memeriksa persimpangan sepenuhnya sangat berbahaya. Kendaraan, sepeda motor, atau pejalan kaki yang tersembunyi dapat tiba-tiba muncul dari belakang truk."
+      },
+      {
+        "number": 3,
+        "question": "Karena Anda tidak dapat melihat dengan jelas apa yang ada di belakang truk dari arah berlawanan, Anda harus menunggu sampai truk selesai berbelok dan memastikan persimpangan aman sebelum belok kanan.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Kendaraan besar sering menciptakan titik buta di persimpangan. Menunggu sampai pandangan membaik membantu mencegah tabrakan dengan lalu lintas atau pejalan kaki yang tersembunyi."
+      }
+    ]
+  },
+  {
+    "question_group": "'",
+    "situation": "Anda sedang berkendara sekitar 50 km/jam di jalan berliku sambil mengikuti sepeda motor melalui tikungan tajam. Apa yang harus Anda perhatikan dalam situasi ini?",
+    "image": "motorcycle_ahead.jpg",
+    "items": [
+      {
+        "number": 1,
+        "question": "Karena sepeda motor mungkin kesulitan melewati tikungan tajam pada kecepatan ini dan bisa kehilangan keseimbangan atau terjatuh, Anda harus mengurangi kecepatan dan menjaga jarak aman.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Sepeda motor lebih tidak stabil di tikungan dibanding mobil, terutama pada kecepatan tinggi. Menjaga jarak aman memberi Anda lebih banyak waktu untuk bereaksi jika pengendara kehilangan kendali."
+      },
+      {
+        "number": 2,
+        "question": "Karena jarak pandang di tikungan terbatas, Anda harus bergerak lebih dekat ke garis tengah jalan dan tetap mengikuti sepeda motor dengan kecepatan yang sama untuk memperbaiki pandangan ke depan.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Bergerak mendekati garis tengah di tikungan berbahaya karena kendaraan dari arah berlawanan dapat muncul tiba-tiba. Pengemudi harus mengurangi kecepatan dan tetap berada di jalur dengan benar."
+      },
+      {
+        "number": 3,
+        "question": "Meskipun kendaraan dari arah berlawanan masuk ke jalur Anda, sepeda motor di depan kemungkinan akan lebih dulu menyadarinya, jadi Anda boleh tetap melaju dengan kecepatan yang sama di belakang sepeda motor.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Anda tidak boleh bergantung pada pengemudi atau pengendara lain untuk mendeteksi bahaya bagi Anda. Mempertahankan kecepatan di tikungan dengan pandangan terbatas mengurangi kemampuan Anda menghindari bahaya mendadak."
+      }
+    ]
+  },
+  {
+    "question_group": "'",
+    "situation": "Anda sedang berkendara sekitar 70 km/jam di jalur percepatan jalan tol. Lalu lintas di jalur utama padat, dan sebuah truk besar mendekat dari belakang di jalur yang ingin Anda masuki.",
+    "image": "merge_epressway.jpg",
+    "items": [
+      {
+        "number": 1,
+        "question": "Anda harus menyesuaikan kecepatan untuk bergabung dengan aman tanpa memaksa kendaraan di jalur utama mengerem mendadak.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Saat memasuki jalan tol di Jepang, pengemudi harus bergabung dengan lancar sambil menghindari mengganggu lalu lintas yang sudah berada di jalur utama."
+      },
+      {
+        "number": 2,
+        "question": "Sebelum bergabung, Anda harus memastikan keamanan tidak hanya melalui kaca spion tetapi juga dengan memeriksa titik buta secara langsung.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Kendaraan mungkin tidak terlihat di kaca spion karena titik buta. Pemeriksaan langsung sangat diperlukan sebelum berpindah jalur."
+      },
+      {
+        "number": 3,
+        "question": "Jika pengemudi lain tampak melambat untuk memberi jalan kepada Anda, Anda boleh langsung bergabung tanpa pemeriksaan lebih lanjut.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Meskipun kendaraan lain tampak mengalah, Anda harus tetap memeriksa lalu lintas sekitar dan hanya bergabung ketika benar-benar aman."
+      }
+    ]
+  },
+  {
+    "question_group": "'",
+    "situation": "Anda sedang berkendara di jalan perumahan sempit dekat zona sekolah pada sore hari. Anak-anak dan sepeda mungkin tiba-tiba muncul dari antara kendaraan yang diparkir.",
+    "image": "driving_through_school_zone.jpg",
+    "items": [
+      {
+        "number": 1,
+        "question": "Anda harus mengurangi kecepatan dan bersiap untuk berhenti dengan cepat saat melewati area tersebut.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Pengemudi harus ekstra hati-hati di area perumahan dan sekolah di mana pejalan kaki dan anak-anak dapat tiba-tiba masuk ke jalan."
+      },
+      {
+        "number": 2,
+        "question": "Jika saat ini tidak ada pejalan kaki yang terlihat, mempertahankan kecepatan sesuai batas tanpa memperlambat kendaraan dapat diterima.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Bahaya tersembunyi mungkin ada di balik mobil parkir atau tikungan, sehingga pengemudi harus tetap berhati-hati meskipun jalan tampak kosong."
+      },
+      {
+        "number": 3,
+        "question": "Menyiapkan kaki dekat pedal rem dapat membantu memperpendek waktu reaksi dalam situasi berbahaya.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Menjaga kaki siap di rem saat berkendara pelan di area berbahaya membantu pengemudi merespons lebih cepat terhadap bahaya mendadak."
+      }
+    ]
+  },
+  {
+    "question_group": "'",
+    "situation": "Anda sedang mendekati perlintasan kereta api pada malam hari saat hujan. Jarak pandang terbatas, dan lalu lintas di depan bergerak lambat.",
+    "image": "driving_through_railway_nighttime.jpg",
+    "items": [
+      {
+        "number": 1,
+        "question": "Anda harus berhenti sebelum perlintasan kereta api dan memastikan keamanan dengan melihat serta mendengarkan kereta yang mendekat.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Hukum lalu lintas Jepang umumnya mengharuskan pengemudi berhenti sebelum perlintasan kereta api dan memeriksa dengan hati-hati adanya kereta."
+      },
+      {
+        "number": 2,
+        "question": "Jika alarm peringatan tidak berbunyi, Anda boleh langsung melintas tanpa memeriksa kedua arah.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Pengemudi tetap harus memastikan keamanan secara visual meskipun tidak ada alarm atau palang yang aktif."
+      },
+      {
+        "number": 3,
+        "question": "Anda harus menghindari memasuki perlintasan jika kemacetan di depan dapat menyebabkan kendaraan Anda berhenti di atas rel.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Memasuki perlintasan kereta api saat tidak dapat melewatinya sepenuhnya sangat berbahaya dan dilarang."
+      }
+    ]
+  },
+  {
+    "question_group": "'",
+    "situation": "Anda sedang mengendarai sepeda motor menuruni jalan pegunungan dengan beberapa tikungan berkelanjutan.",
+    "image": "winding_mountain_road.jpg",
+    "items": [
+      {
+        "number": 1,
+        "question": "Anda harus menggunakan pengereman mesin bersama rem depan dan belakang untuk mengendalikan kecepatan dengan aman.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Menggunakan pengereman mesin mengurangi beban pada rem dan membantu menjaga stabilitas kendaraan di jalan menurun."
+      },
+      {
+        "number": 2,
+        "question": "Menggunakan hanya rem depan secara mendadak saat menikung adalah cara paling aman untuk memperlambat kendaraan.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Pengereman depan mendadak saat menikung dapat membuat sepeda motor tidak stabil dan meningkatkan risiko tergelincir."
+      },
+      {
+        "number": 3,
+        "question": "Anda harus mengurangi kecepatan sebelum memasuki tikungan daripada saat sedang berbelok.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Mengurangi kecepatan sebelum memasuki tikungan memungkinkan pengendalian saat menikung menjadi lebih halus dan aman."
+      }
+    ]
+  },
+  {
+    "question_group": "'",
+    "situation": "Anda sedang berkendara menuju persimpangan yang dikendalikan lampu lalu lintas sementara kendaraan darurat dengan lampu berkedip mendekat dari belakang.",
+    "image": "driving_with_an_emergency_vehicle_behind.jpg",
+    "items": [
+      {
+        "number": 1,
+        "question": "Jika memungkinkan, Anda harus menepi ke sisi kiri jalan dan memberi jalan kepada kendaraan darurat untuk lewat.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Hukum lalu lintas Jepang mengharuskan pengemudi memberi prioritas kepada kendaraan darurat yang menggunakan sirene dan lampu berkedip."
+      },
+      {
+        "number": 2,
+        "question": "Anda boleh terus melewati persimpangan seperti biasa jika lampu lalu lintas Anda berwarna hijau.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Pengemudi harus memberi jalan kepada kendaraan darurat meskipun memiliki hak jalan berdasarkan sinyal lalu lintas."
+      },
+      {
+        "number": 3,
+        "question": "Berhenti mendadak di tengah persimpangan harus dihindari jika dapat menghalangi lalu lintas atau menciptakan bahaya.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Pengemudi harus bergerak dengan aman dan dapat diprediksi saat memberi jalan kepada kendaraan darurat."
+      }
+    ]
+  },
+  {
+    "question_group": "'",
+    "situation": "Anda sedang berkendara pada malam hari di jalan dua jalur saat hujan ringan. Kendaraan dari arah berlawanan mendekat dengan lampu depan yang terang, dan sepeda tanpa lampu mungkin melaju di dekat sisi kiri jalan di depan.",
+    "image": "dirving_with_front_car_bright_headlights.jpg",
+    "items": [
+      {
+        "number": 1,
+        "question": "Karena jarak pandang buruk, Anda harus mengurangi kecepatan dan memperluas pengamatan daripada hanya fokus pada lampu depan kendaraan dari arah berlawanan.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Pada malam hari dan saat hujan, pengemudi harus mengamati secara luas untuk pejalan kaki dan sepeda yang mungkin sulit terlihat."
+      },
+      {
+        "number": 2,
+        "question": "Melihat langsung ke lampu depan kendaraan yang mendekat adalah cara terbaik untuk mempertahankan posisi jalur.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Melihat langsung ke lampu depan yang terang dapat sementara mengurangi penglihatan. Pengemudi sebaiknya melihat sedikit ke arah sisi kiri jalan."
+      },
+      {
+        "number": 3,
+        "question": "Meskipun jalan di depan tampak kosong, Anda harus siap menghadapi sepeda tanpa lampu atau pejalan kaki yang tiba-tiba muncul dari area gelap.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Ujian mengemudi Jepang menekankan pentingnya mengantisipasi bahaya tersembunyi, terutama pada malam hari atau dalam kondisi jarak pandang buruk."
+      }
+    ]
+  },
+  {
+    "question_group": "'",
+    "situation": "Anda sedang mendekati persimpangan tanpa pengaturan lampu lalu lintas di mana pandangan ke kiri dan kanan terhalang oleh bangunan dan kendaraan parkir.",
+    "image": "narrow_urban_intersection.jpg",
+    "items": [
+      {
+        "number": 1,
+        "question": "Meskipun Anda sedang melaju di jalan yang lebih lebar, Anda harus mengurangi kecepatan dan bersiap menghadapi kendaraan atau pejalan kaki yang tiba-tiba muncul dari area tersembunyi.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Pengemudi harus berhati-hati di persimpangan dengan jarak pandang buruk tanpa memandang lebar jalan atau prioritas jalan."
+      },
+      {
+        "number": 2,
+        "question": "Jika tidak ada rambu berhenti, memasuki persimpangan dengan kecepatan normal dapat diterima.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Jarak pandang terbatas mengharuskan pengemudi mengurangi kecepatan dan memastikan keamanan sebelum melanjutkan."
+      },
+      {
+        "number": 3,
+        "question": "Sepeda motor atau sepeda dapat tiba-tiba muncul dari belakang kendaraan parkir, jadi pengamatan yang hati-hati diperlukan sebelum memasuki persimpangan.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Kendaraan roda dua yang tersembunyi adalah bahaya umum yang sering ditekankan dalam ujian SIM Jepang."
+      }
+    ]
+  },
+  {
+    "question_group": "'",
+    "situation": "Anda sedang mengikuti sebuah truk besar di jalan tol saat angin samping kencang bertiup di dekat pintu keluar terowongan.",
+    "image": "expressway_tunnel_exit.jpg",
+    "items": [
+      {
+        "number": 1,
+        "question": "Anda harus menjaga jarak aman yang cukup karena hembusan angin mendadak dapat memengaruhi kendaraan Anda maupun truk di depan.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Angin samping dapat membuat kendaraan tidak stabil, terutama di dekat terowongan dan jembatan terbuka."
+      },
+      {
+        "number": 2,
+        "question": "Berkendara sangat dekat di belakang truk lebih aman karena truk tersebut menghalangi angin untuk kendaraan Anda.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Mengikuti terlalu dekat mengurangi jarak pandang dan waktu reaksi serta meningkatkan bahaya jika truk bergerak tiba-tiba."
+      },
+      {
+        "number": 3,
+        "question": "Anda harus memegang kemudi dengan kuat dan menghindari koreksi setir secara mendadak saat terkena angin samping.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Gerakan setir mendadak saat angin kencang dapat menyebabkan kehilangan kendali."
+      }
+    ]
+  },
+  {
+    "question_group": "'",
+    "situation": "Anda sedang bersiap untuk belok kanan di persimpangan yang ramai sementara pejalan kaki menunggu di dekat penyeberangan dan sepeda motor mendekat dari arah berlawanan.",
+    "image": "busy_intersection_lane.jpg",
+    "items": [
+      {
+        "number": 1,
+        "question": "Sebelum belok kanan, Anda harus memeriksa dengan hati-hati adanya sepeda motor yang mungkin tersembunyi di titik buta akibat kendaraan dari arah berlawanan.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Sepeda motor mudah tersembunyi di belakang kendaraan besar dan menjadi fokus utama dalam pelatihan keselamatan berkendara di Jepang."
+      },
+      {
+        "number": 2,
+        "question": "Jika lampu lalu lintas berubah menjadi kuning saat Anda menunggu, Anda boleh langsung menyelesaikan belokan tanpa memeriksa pejalan kaki.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Keselamatan pejalan kaki harus selalu dipastikan sebelum menyelesaikan belokan."
+      },
+      {
+        "number": 3,
+        "question": "Bahkan setelah mulai belok kanan, Anda harus terus memantau pejalan kaki dan lalu lintas dari arah berlawanan sampai manuver selesai.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Pemeriksaan bahaya harus terus dilakukan selama proses belok, bukan hanya sebelum mulai berbelok."
+      }
+    ]
+  },
+  {
+    "question_group": "'",
+    "situation": "Anda sedang berkendara menuruni jalan bersalju yang permukaannya mungkin sebagian membeku.",
+    "image": "driving_in_a_snowy_mountain.jpg",
+    "items": [
+      {
+        "number": 1,
+        "question": "Anda harus menghindari pengereman atau gerakan setir mendadak karena dapat menyebabkan kendaraan tergelincir.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Salju dan es sangat mengurangi daya cengkeram ban sehingga pengoperasian mendadak menjadi berbahaya."
+      },
+      {
+        "number": 2,
+        "question": "Menggunakan pengereman mesin dapat membantu menjaga stabilitas saat menuruni jalan licin.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Pengereman mesin mengurangi ketergantungan pada rem roda dan membantu mencegah tergelincir."
+      },
+      {
+        "number": 3,
+        "question": "Jika kendaraan mulai tergelincir, memutar setir dengan tajam ke arah berlawanan secara langsung selalu merupakan respons yang benar.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Koreksi setir yang berlebihan dapat memperburuk selip. Pengemudi harus mengemudi dengan halus dan tetap tenang."
+      }
+    ]
+  },
+  {
+    "question_group": "'",
+    "situation": "Anda sedang berkendara di jalan kota dua jalur pada malam hari. Kendaraan dari arah berlawanan sedang menunggu untuk belok kanan, dan sepeda tanpa lampu mungkin melaju di dekat sisi kiri jalan di depan.",
+    "image": "nighttime_urban_intersection.jpg",
+    "items": [
+      {
+        "number": 1,
+        "question": "Karena kendaraan dari arah berlawanan berhenti, Anda boleh terus melaju dengan kecepatan yang sama melewati persimpangan.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Kendaraan yang berhenti dapat menghalangi pandangan Anda terhadap sepeda atau pejalan kaki yang tersembunyi di dekat persimpangan."
+      },
+      {
+        "number": 2,
+        "question": "Anda harus sangat berhati-hati terhadap sepeda yang mungkin muncul dari bayangan di samping kendaraan yang berhenti.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Pada malam hari, sepeda tanpa lampu sulit terlihat dan dapat tiba-tiba muncul dari titik buta."
+      },
+      {
+        "number": 3,
+        "question": "Mengedipkan lampu jauh berulang kali kepada kendaraan dari arah berlawanan memberi Anda prioritas untuk melaju lebih dulu.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Kedipan lampu depan tidak secara otomatis menentukan hak jalan dan dapat membingungkan pengemudi lain."
+      }
+    ]
+  },
+  {
+    "question_group": "'",
+    "situation": "Anda sedang berkendara di belakang bus yang berhenti di halte pada jalan sempit tempat pejalan kaki sering menyeberang di depan bus.",
+    "image": "driving_behind_the_bus.jpg",
+    "items": [
+      {
+        "number": 1,
+        "question": "Anda boleh langsung melewati bus jika tidak ada pejalan kaki yang terlihat dari posisi Anda.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Pejalan kaki dapat tiba-tiba muncul dari depan atau belakang bus di area yang tertutup pandangan."
+      },
+      {
+        "number": 2,
+        "question": "Mengurangi kecepatan dan bersiap untuk berhenti saat melewati bus adalah tindakan yang tepat.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Peraturan mengemudi di Jepang menekankan kehati-hatian di dekat bus yang berhenti karena pejalan kaki sering tersembunyi."
+      },
+      {
+        "number": 3,
+        "question": "Membunyikan klakson terus-menerus saat melewati bus disarankan untuk memperingatkan pejalan kaki.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Klakson hanya boleh digunakan bila diperlukan untuk mencegah bahaya, bukan secara terus-menerus."
+      }
+    ]
+  },
+  {
+    "question_group": "'",
+    "situation": "Anda sedang berkendara di jalan tol dan melihat sebuah kendaraan mencoba bergabung dari jalur percepatan di depan sementara mobil lain mengikuti sangat dekat di belakang Anda.",
+    "image": "expressway_merging_situation.jpg",
+    "items": [
+      {
+        "number": 1,
+        "question": "Anda harus mempertahankan kecepatan saat ini tanpa memedulikan lalu lintas sekitar karena kendaraan yang bergabung selalu harus mengalah sepenuhnya.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Meskipun kendaraan yang bergabung harus mengalah, mengemudi secara kooperatif dan menyesuaikan kecepatan dengan aman membantu mencegah bahaya."
+      },
+      {
+        "number": 2,
+        "question": "Memeriksa kaca spion saja sudah cukup sebelum berpindah jalur untuk memberi ruang bagi kendaraan yang bergabung.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Titik buta juga harus diperiksa secara langsung sebelum berpindah jalur."
+      },
+      {
+        "number": 3,
+        "question": "Jika kondisi memungkinkan, menyesuaikan kecepatan atau posisi jalur untuk membantu kendaraan bergabung dengan aman dapat membantu kelancaran lalu lintas.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Mengemudi dengan aman dan kooperatif dianjurkan di jalan tol Jepang."
+      }
+    ]
+  },
+  {
+    "question_group": "'",
+    "situation": "Anda sedang mendekati perlintasan kereta api tepat setelah kendaraan besar lain melewatinya. Pandangan Anda terhadap rel sebagian terhalang.",
+    "image": "approaching_a_railroad_crossing.jpg",
+    "items": [
+      {
+        "number": 1,
+        "question": "Jika alarm perlintasan tidak berbunyi, Anda boleh melanjutkan tanpa berhenti karena kendaraan lain sudah melintas dengan aman.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Setiap pengemudi harus memastikan keselamatan secara mandiri sebelum melintasi rel kereta."
+      },
+      {
+        "number": 2,
+        "question": "Meskipun jarak pandang terbatas, Anda harus berhenti dan memeriksa dengan hati-hati adanya kereta yang mendekat.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Peraturan lalu lintas Jepang mengharuskan pemeriksaan yang cermat di perlintasan kereta api."
+      },
+      {
+        "number": 3,
+        "question": "Memasuki perlintasan saat lalu lintas di depan berhenti dapat diterima selama palang masih terbuka.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Pengemudi tidak boleh memasuki perlintasan kecuali mereka dapat sepenuhnya melewati rel."
+      }
+    ]
+  },
+  {
+    "question_group": "'",
+    "situation": "Anda sedang mengendarai sepeda motor menuruni jalan pegunungan basah dengan beberapa tikungan berurutan.",
+    "image": "motorcycle_navigating_curve.jpg",
+    "items": [
+      {
+        "number": 1,
+        "question": "Menggunakan hanya rem belakang secara terus-menerus adalah cara paling aman untuk menghindari tergelincir di jalan basah.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Keseimbangan pengereman yang tepat dan pengereman mesin penting untuk stabilitas sepeda motor."
+      },
+      {
+        "number": 2,
+        "question": "Mengurangi kecepatan sebelum memasuki tikungan lebih aman daripada mengerem keras saat sedang berbelok.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Pengereman mendadak saat menikung dapat membuat sepeda motor tidak stabil."
+      },
+      {
+        "number": 3,
+        "question": "Karena sepeda motor lebih ringan daripada mobil, kondisi permukaan jalan lebih sedikit memengaruhinya saat hujan.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Sepeda motor sangat terpengaruh oleh kondisi jalan licin dan memerlukan kehati-hatian ekstra."
+      }
+    ]
+  },
+  {
+    "question_group": "'",
+    "situation": "Anda sedang berkendara melalui area perumahan di mana anak-anak bermain di dekat pinggir jalan dan sebuah bola tiba-tiba menggelinding ke jalan.",
+    "image": "children_playing_ball_roadside.jpg",
+    "items": [
+      {
+        "number": 1,
+        "question": "Anda harus memperkirakan bahwa seorang anak mungkin tiba-tiba berlari ke jalan mengejar bola tersebut.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Pengemudi harus mengantisipasi pergerakan pejalan kaki secara mendadak, terutama yang melibatkan anak-anak."
+      },
+      {
+        "number": 2,
+        "question": "Jika anak tersebut belum memasuki jalan, melanjutkan tanpa memperlambat kendaraan dapat diterima.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Pengemudi harus segera bersiap menghadapi kemungkinan bahaya ketika tanda peringatan muncul."
+      },
+      {
+        "number": 3,
+        "question": "Membunyikan klakson keras dari jarak dekat adalah respons pertama yang paling dianjurkan dalam situasi ini.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Penggunaan klakson secara mendadak di dekat anak-anak dapat mengejutkan mereka dan meningkatkan bahaya."
+      }
+    ]
+  },
+  {
+    "question_group": "'",
+    "situation": "Anda sedang melaju menuruni jalan pegunungan sempit di belakang bus yang bergerak lambat. Garis tengah jalan berwarna kuning utuh, dan jalan menikung tajam di depan.",
+    "image": "mountain_road_downhill_curve.jpg",
+    "items": [
+      {
+        "number": 1,
+        "question": "Karena bus bergerak lambat, menyalip melewati garis tengah utuh diperbolehkan jika tidak ada kendaraan yang langsung terlihat.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Melewati garis tengah kuning utuh untuk menyalip adalah dilarang."
+      },
+      {
+        "number": 2,
+        "question": "Bus tersebut dapat menghalangi pandangan terhadap sepeda motor atau kendaraan kecil dari arah berlawanan di tikungan depan.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Kendaraan besar menciptakan titik buta yang besar di jalan pegunungan."
+      },
+      {
+        "number": 3,
+        "question": "Membunyikan klakson terus-menerus saat mengikuti bus dianjurkan agar bus menepi.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Penggunaan klakson dibatasi hanya untuk memperingatkan bahaya atau di lokasi yang memang mengharuskannya."
+      }
+    ]
+  },
+  {
+    "question_group": "'",
+    "situation": "Anda sedang berkendara melalui zona sekolah perumahan pada sore hari. Sebuah bola menggelinding keluar dari antara dua mobil parkir di sisi kiri jalan.",
+    "image": "narrow_road_with_park_kei_cars.jpg",
+    "items": [
+      {
+        "number": 1,
+        "question": "Jika tidak ada anak yang langsung muncul setelah bola tersebut, mempertahankan kecepatan saat ini dapat diterima.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Pengemudi harus mengantisipasi bahwa seorang anak mungkin tiba-tiba mengejar bola tersebut."
+      },
+      {
+        "number": 2,
+        "question": "Bergerak sedikit ke tengah jalan tanpa memeriksa kondisi belakang lebih aman karena meningkatkan jarak dari mobil parkir.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Perubahan posisi jalur memerlukan pemeriksaan keamanan yang tepat untuk menghindari tabrakan dengan lalu lintas di belakang."
+      },
+      {
+        "number": 3,
+        "question": "Mengurangi kecepatan dan bersiap untuk segera mengerem adalah respons paling aman.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Zona sekolah memerlukan kehati-hatian ekstra karena anak-anak dapat bertindak tidak terduga."
+      }
+    ]
+  },
+  {
+    "question_group": "'",
+    "situation": "Anda sedang berkendara di jalan tol bersalju pada malam hari. Salju menumpuk di dekat marka jalur, dan jarak pandang berkurang karena salju yang tertiup angin.",
+    "image": "snowy_expressway.jpg",
+    "items": [
+      {
+        "number": 1,
+        "question": "Karena jalan tol dirancang untuk perjalanan berkecepatan tinggi, mempertahankan kecepatan normal jalan tol sesuai jika lalu lintas sepi.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Salju dan jarak pandang buruk mengharuskan pengurangan kecepatan secara signifikan tanpa memandang volume lalu lintas."
+      },
+      {
+        "number": 2,
+        "question": "Koreksi setir secara mendadak dapat menyebabkan kendaraan tergelincir di atas salju yang padat.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Pengoperasian mendadak sangat berbahaya di jalan musim dingin yang licin."
+      },
+      {
+        "number": 3,
+        "question": "Menggunakan cruise control di jalan bersalju meningkatkan stabilitas kendaraan selama perjalanan jarak jauh.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Cruise control dapat mengurangi respons sistem kontrol traksi pada permukaan yang licin."
+      }
+    ]
+  },
+  {
+    "question_group": "'",
+    "situation": "Anda sedang berkendara di jalan dua jalur saat hujan pada malam hari. Sebuah truk kecil di depan Anda tiba-tiba melambat di dekat penyeberangan pejalan kaki yang pandangannya sebagian terhalang oleh pepohonan di pinggir jalan dan kendaraan parkir.",
+    "image": "small_truck_ahead.jpg",
+    "items": [
+      {
+        "number": 1,
+        "question": "Karena truk tersebut belum menyalakan lampu hazard, Anda boleh langsung menyalipnya jika jalur berlawanan tampak kosong.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Truk tersebut mungkin melambat karena pejalan kaki atau sepeda yang tersembunyi dari pandangan Anda di dekat penyeberangan."
+      },
+      {
+        "number": 2,
+        "question": "Anda harus mengurangi kecepatan dan bersiap menghadapi pejalan kaki yang menyeberang dari belakang truk.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "True",
+        "explanation": "Ujian mengemudi Jepang menekankan pentingnya mengantisipasi pejalan kaki yang tersembunyi di sekitar kendaraan yang berhenti atau melambat."
+      },
+      {
+        "number": 3,
+        "question": "Jika tidak terlihat sinyal pejalan kaki, pejalan kaki tidak boleh menyeberang secara sah di area tersebut.",
+        "choices": [
+          "True",
+          "False"
+        ],
+        "answer": "False",
+        "explanation": "Pejalan kaki tetap dapat menyeberang di atau dekat penyeberangan, dan pengemudi harus menghindari menghalangi mereka."
+      }
+    ]
+  }
+]

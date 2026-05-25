@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reviewer Tes Mengemudi Jepang</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: "Segoe UI", sans-serif;
+            background: #f3f8ff;
+            color: #1f2937;
+            line-height: 1.75;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: auto;
+            padding: 18px;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #4da3ff, #8ec9ff);
+            border-radius: 28px;
+            padding: 55px 28px;
+            text-align: center;
+            color: white;
+            margin-bottom: 35px;
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+        }
+
+        .hero h1 {
+            font-size: 2.7rem;
+            margin-bottom: 14px;
+            line-height: 1.2;
+        }
+
+        .hero p {
+            max-width: 760px;
+            margin: auto;
+            font-size: 1rem;
+            opacity: 0.96;
+        }
+
+        .quick-nav {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 14px;
+            margin-bottom: 35px;
+        }
+
+        .nav-card {
+            background: white;
+            border-radius: 18px;
+            padding: 18px;
+            text-decoration: none;
+            color: #2563eb;
+            font-weight: 600;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+            transition: 0.25s ease;
+            text-align: center;
+        }
+
+        .nav-card:hover {
+            transform: translateY(-2px);
+            background: #eff6ff;
+        }
+
+        .section {
+            margin-bottom: 45px;
+        }
+
+        .section-title {
+            font-size: 2rem;
+            color: #2563eb;
+            margin-bottom: 22px;
+            border-left: 6px solid #60a5fa;
+            padding-left: 14px;
+        }
+
+        .subsection-title {
+            font-size: 1.25rem;
+            color: #1d4ed8;
+            margin-bottom: 16px;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 22px;
+            padding: 24px;
+            box-shadow: 0 8px 22px rgba(0, 0, 0, 0.05);
+            transition: 0.25s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-3px);
+        }
+
+        .card h3 {
+            color: #1d4ed8;
+            margin-bottom: 14px;
+            font-size: 1.18rem;
+            line-height: 1.4;
+        }
+
+        .card p {
+            margin-bottom: 14px;
+            color: #374151;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .info-box {
+            background: #eff6ff;
+            border-left: 5px solid #3b82f6;
+            padding: 14px;
+            border-radius: 12px;
+            margin-top: 14px;
+            color: #1e3a8a;
+            font-size: 0.95rem;
+        }
+
+        .warning-box {
+            background: #fff4f4;
+            border-left: 5px solid #ef4444;
+            padding: 14px;
+            border-radius: 12px;
+            margin-top: 14px;
+            color: #991b1b;
+            font-size: 0.95rem;
+        }
+
+        .keypoints {
+            margin-top: 12px;
+        }
+
+        .keypoints span {
+            display: inline-block;
+            background: #dbeafe;
+            color: #1d4ed8;
+            padding: 8px 12px;
+            border-radius: 999px;
+            margin: 5px 5px 0 0;
+            font-size: 0.88rem;
+            font-weight: 600;
+        }
+
+        .takeaways {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 20px;
+        }
+
+        .takeaway-card {
+            background: white;
+            border-radius: 22px;
+            padding: 22px;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+        }
+
+        .takeaway-card h4 {
+            color: #2563eb;
+            margin-bottom: 12px;
+            font-size: 1.08rem;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 40px 15px;
+            color: #6b7280;
+            font-size: 0.95rem;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                line-height: 1.8;
+            }
+
+            .container {
+                padding: 14px;
+            }
+
+            .hero {
+                padding: 42px 20px;
+                border-radius: 24px;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .hero p {
+                font-size: 0.95rem;
+            }
+
+            .section-title {
+                font-size: 1.55rem;
+            }
+
+            .card {
+                padding: 20px;
+            }
+
+            .nav-card {
+                padding: 16px;
+                font-size: 0.95rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div style="padding:20px;">
+        <a href="/reviewers" style="
+   text-decoration:none;
+   font-weight:700;
+   color:#2563eb;
+   font-size:16px;">
+
+            ← Kembali ke Reviewer
+
+        </a>
+    </div>
+    <div class="container"> <!-- HERO -->
+        <div class="hero">
+            <h1>🇯🇵 Reviewer Tes Mengemudi Jepang</h1>
+            <p> Buku panduan belajar yang ramah bagi pemula untuk pelajar asing yang sedang mempersiapkan ujian SIM Jepang. Pelajari peraturan lalu lintas penting, kebiasaan keselamatan, rambu jalan, dan pengetahuan mengemudi yang berfokus pada ujian dengan cara yang sederhana dan teratur. </p>
+        </div>
+        <!-- QUICK NAV -->
+        <div class="quick-nav">
+            <a href="#roadsigns" class="nav-card">🚧 Rambu Jalan</a>
+            <a href="#intersections" class="nav-card">🚦 Persimpangan</a>
+            <a href="#pedestrians" class="nav-card">🚶 Pejalan Kaki</a>
+            <a href="#parking" class="nav-card">🚗 Aturan Parkir</a>
+            <a href="#motorcycles" class="nav-card">🏍️ Sepeda Motor</a>
+            <a href="#expressway" class="nav-card">🛣️ Jalan Tol</a>
+            <a href="#weather" class="nav-card">🌧️ Keselamatan Cuaca</a>
+            <a href="#emergency" class="nav-card">🚑 Keadaan Darurat</a>
+        </div>
+
+        <!-- ROAD SIGNS -->
+        <section class="section" id="roadsigns">
+            <h2 class="section-title">🚧 Rambu Jalan &amp; Marka Jalan</h2>
+
+            <div class="cards">
+                <div class="card">
+                    <h3>🚫 Rambu Dilarang Masuk &amp; Pembatasan Kendaraan</h3>
+
+                    <p>Rambu pembatasan melarang gerakan tertentu atau jenis kendaraan tertentu memasuki jalan atau jalur tertentu.</p>
+
+                    <ul>
+                        <li>Selalu periksa arah rambu dengan hati-hati.</li>
+                        <li>Jangan memasuki jalan atau jalur yang dilarang.</li>
+                        <li>Beberapa jalan membatasi sepeda motor, moped, atau kendaraan kecil.</li>
+                        <li>Ikuti semua petunjuk jalur yang dipasang.</li>
+                    </ul>
+
+                    <div class="warning-box">Jangan pernah menganggap jalan terbuka hanya karena kendaraan lain menggunakannya.</div>
+                </div>
+
+                <div class="card">
+                    <h3>🚫 Zona Dilarang Mendahului</h3>
+
+                    <p>Rambu dan marka dilarang mendahului sepenuhnya melarang melewati kendaraan lain.</p>
+
+                    <ul>
+                        <li>Mendahului tetap bisa ilegal meskipun tidak melewati garis tengah.</li>
+                        <li>Kurangi kecepatan dan tetap sabar.</li>
+                        <li>Perhatikan tikungan, pejalan kaki, dan sepeda dengan hati-hati.</li>
+                    </ul>
+
+                    <div class="info-box">
+                        Pembatasan mendahului biasanya digunakan di area berbahaya dengan jarak pandang terbatas.
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>🔔 Zona Wajib Klakson</h3>
+
+                    <p>Rambu wajib klakson biasanya dipasang di dekat tikungan buta dan jalan pegunungan dengan jarak pandang buruk.</p>
+
+                    <ul>
+                        <li>Bunyikan klakson sebentar untuk memperingatkan lalu lintas yang mendekat.</li>
+                        <li>Gunakan klakson dengan hati-hati dan bertanggung jawab.</li>
+                        <li>Tetap waspada terhadap kendaraan atau pejalan kaki yang tersembunyi.</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>🚲 Jalur Sepeda &amp; Penyeberangan Sepeda</h3>
+
+                    <p>Pengemudi harus memahami marka jalan terkait sepeda dan menghormati area prioritas pesepeda.</p>
+
+                    <ul>
+                        <li>Jangan berhenti atau parkir di jalur sepeda.</li>
+                        <li>Kurangi kecepatan di dekat penyeberangan sepeda.</li>
+                        <li>Perhatikan pesepeda yang datang dari belakang sebelum berbelok.</li>
+                        <li>Berikan ruang yang cukup saat melewati sepeda.</li>
+                    </ul>
+
+                    <div class="keypoints">
+                        <span>Periksa Titik Buta</span>
+                        <span>Dahulukan Pesepeda</span>
+                        <span>Kurangi Kecepatan</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>⚠️ Rambu Peringatan</h3>
+
+                    <p>Rambu peringatan memberi tahu pengemudi tentang kondisi jalan berbahaya di depan.</p>
+
+                    <ul>
+                        <li>Rambu pengurangan jalur memperingatkan bahwa jalur akan berkurang di depan.</li>
+                        <li>Rambu batu jatuh muncul di daerah pegunungan.</li>
+                        <li>Rambu konstruksi mengharuskan berkendara lebih lambat dan lebih hati-hati.</li>
+                        <li>Rambu batas kecepatan menunjukkan batas kecepatan maksimum yang legal.</li>
+                    </ul>
+
+                    <div class="info-box">Kurangi kecepatan lebih awal saat mendekati rambu peringatan.</div>
+                </div>
+            </div>
+        </section>
+          <!-- INTERSECTIONS -->
+      <section class="section" id="intersections">
+        <h2 class="section-title">🚦 Persimpangan, Lampu Lalu Lintas &amp; Aturan Belok</h2>
+
+        <div class="cards">
+          <div class="card">
+            <h3>🟢 Lampu Hijau &amp; Masuk dengan Aman</h3>
+
+            <p>Lampu hijau tidak selalu berarti aman untuk memasuki persimpangan.</p>
+
+            <ul>
+              <li>Jangan masuk jika kemacetan dapat membuat kendaraan Anda terjebak.</li>
+              <li>Jangan pernah menghalangi zebra cross atau perlintasan kereta.</li>
+              <li>Pastikan ada cukup ruang di depan sebelum bergerak.</li>
+            </ul>
+
+            <div class="warning-box">Menghalangi persimpangan menciptakan bahaya bagi semua pengguna jalan.</div>
+          </div>
+
+          <div class="card">
+            <h3>➡️ Lampu Panah &amp; Izin Belok Khusus</h3>
+
+            <p>Lampu panah hanya mengizinkan pergerakan ke arah yang ditunjukkan.</p>
+
+            <ul>
+              <li>Tunggu panah yang benar sebelum berbelok.</li>
+              <li>Beberapa persimpangan mengizinkan belok saat lampu merah atau kuning dengan rambu khusus.</li>
+              <li>Selalu periksa pejalan kaki dan sepeda terlebih dahulu.</li>
+            </ul>
+
+            <div class="info-box">Keselamatan pejalan kaki selalu menjadi prioritas saat berbelok.</div>
+          </div>
+
+          <div class="card">
+            <h3>🔴 Lampu Merah Berkedip &amp; Prosedur Berhenti</h3>
+
+            <p>Lampu merah berkedip mengharuskan berhenti sepenuhnya sebelum melanjutkan dengan aman.</p>
+
+            <ul>
+              <li>Perlakukan lampu merah berkedip seperti rambu berhenti.</li>
+              <li>Berhenti di tempat dengan jarak pandang paling aman jika tidak ada garis berhenti.</li>
+              <li>Periksa kedua arah dengan hati-hati sebelum bergerak.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>🚗 Keselamatan Saat Belok &amp; Pindah Jalur</h3>
+
+            <p>Belok dan pindah jalur dengan aman memerlukan pengamatan dan pemberian sinyal yang tepat.</p>
+
+            <ul>
+              <li>Periksa kaca spion dan titik buta sebelum bergerak.</li>
+              <li>Nyalakan lampu sein sebelum pindah jalur atau berbelok.</li>
+              <li>Tetap gunakan lampu sein sampai manuver selesai.</li>
+              <li>Roda belakang mengikuti jalur yang lebih sempit saat berbelok.</li>
+            </ul>
+
+            <div class="warning-box">Berbelok terlalu tajam dapat menyebabkan roda menabrak trotoar atau pejalan kaki.</div>
+          </div>
+
+          <div class="card">
+            <h3>🚓 Instruksi Polisi</h3>
+
+            <p>Arahan polisi memiliki prioritas lebih tinggi daripada lampu lalu lintas dan rambu jalan.</p>
+
+            <ul>
+              <li>Ikuti isyarat tangan segera.</li>
+              <li>Tetap tenang selama kemacetan atau keadaan darurat.</li>
+              <li>Perhatikan lalu lintas sekitar dengan hati-hati.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>🚗 Jalan Prioritas</h3>
+
+            <p>Kendaraan di jalan utama umumnya memiliki prioritas dibanding kendaraan yang masuk dari jalan samping.</p>
+
+            <ul>
+              <li>Kurangi kecepatan sebelum memasuki persimpangan.</li>
+              <li>Mengalah dengan hati-hati saat jarak pandang terbatas.</li>
+              <li>Perhatikan sepeda motor dan sepeda yang tersembunyi.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- PEDESTRIANS -->
+      <section class="section" id="pedestrians">
+        <h2 class="section-title">🚶 Pejalan Kaki, Pesepeda &amp; Zona Sekolah</h2>
+
+        <div class="cards">
+          <div class="card">
+            <h3>🚸 Anak-anak &amp; Area Sekolah</h3>
+
+            <p>Area dekat sekolah, taman, dan zona perumahan memerlukan perhatian ekstra.</p>
+
+            <ul>
+              <li>Anak-anak dapat tiba-tiba berlari ke jalan.</li>
+              <li>Kurangi kecepatan dan bersiap untuk berhenti.</li>
+              <li>Perhatikan dengan hati-hati di antara kendaraan yang parkir.</li>
+            </ul>
+
+            <div class="warning-box">Bahaya anak tersembunyi sering terjadi di lingkungan perumahan.</div>
+          </div>
+
+          <div class="card">
+            <h3>🚲 Keselamatan Sepeda</h3>
+
+            <p>Pesepeda adalah pengguna jalan yang rentan dan dapat bergerak tidak terduga.</p>
+
+            <ul>
+              <li>Berikan jarak samping yang cukup saat melewati.</li>
+              <li>Jangan memaksa berbelok di depan sepeda.</li>
+              <li>Perhatikan dengan hati-hati pesepeda yang datang dari belakang.</li>
+            </ul>
+
+            <div class="info-box">Pesepeda dapat tiba-tiba menghindari rintangan atau oleng tanpa diduga.</div>
+          </div>
+
+          <div class="card">
+            <h3>🚶 Trotoar &amp; Area Penyeberangan Trotoar</h3>
+
+            <p>Pengemudi yang masuk atau keluar area parkir harus memeriksa trotoar dengan hati-hati.</p>
+
+            <ul>
+              <li>Berhenti sebelum melintasi trotoar jika diperlukan.</li>
+              <li>Periksa pejalan kaki dan sepeda.</li>
+              <li>Jangan pernah menaikkan ban kendaraan ke trotoar kecuali diizinkan.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>🚸 Zona Keselamatan</h3>
+
+            <p>Zona keselamatan melindungi pejalan kaki dan mengatur arus lalu lintas.</p>
+
+            <ul>
+              <li>Kurangi kecepatan di dekat zona keselamatan.</li>
+              <li>Jangan parkir, berhenti, atau menghalangi area ini.</li>
+              <li>Perhatikan dengan hati-hati pejalan kaki yang menyeberang di dekatnya.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+            <!-- PARKING -->
+      <section class="section" id="parking">
+        <h2 class="section-title">🚗 Aturan Parkir &amp; Berhenti</h2>
+
+        <div class="cards">
+          <div class="card">
+            <h3>🚫 Zona Dilarang Parkir &amp; Berhenti</h3>
+
+            <p>Undang-undang lalu lintas Jepang mengatur dengan ketat tempat pengemudi boleh parkir atau berhenti.</p>
+
+            <ul>
+              <li>Jangan parkir dekat zebra cross atau penyeberangan sepeda.</li>
+              <li>Parkir dilarang dekat zona keselamatan.</li>
+              <li>Pintu masuk garasi harus tetap terbuka.</li>
+              <li>Menunggu seseorang masih dapat dianggap sebagai parkir.</li>
+            </ul>
+
+            <div class="warning-box">Parkir ilegal dapat menghalangi pandangan dan meningkatkan risiko kecelakaan.</div>
+          </div>
+
+          <div class="card">
+            <h3>🚫 Parkir Berlapis</h3>
+
+            <p>Berhenti di samping kendaraan yang sudah parkir umumnya dilarang.</p>
+
+            <ul>
+              <li>Menghalangi arus lalu lintas.</li>
+              <li>Menciptakan bahaya bagi pesepeda.</li>
+              <li>Mengurangi jarak pandang lalu lintas sekitar.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>🚌 Halte Bus &amp; Area Umum</h3>
+
+            <p>Pembatasan parkir sering berlaku di dekat halte bus dan area transportasi umum.</p>
+
+            <ul>
+              <li>Selalu ikuti rambu dan marka jalan.</li>
+              <li>Jangan menghalangi bus atau penumpang.</li>
+              <li>Periksa kondisi operasional dengan hati-hati.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>🅿️ Tanggung Jawab Parkir yang Benar</h3>
+
+            <p>Pemilik kendaraan harus memastikan parkir legal di luar jalan.</p>
+
+            <ul>
+              <li>Membantu mengurangi kemacetan jalan.</li>
+              <li>Meningkatkan keselamatan lingkungan.</li>
+              <li>Mendukung arus lalu lintas yang lebih lancar.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- MOTORCYCLES -->
+      <section class="section" id="motorcycles">
+        <h2 class="section-title">🏍️ Keselamatan Sepeda Motor &amp; Teknik Berkendara</h2>
+
+        <div class="cards">
+          <div class="card">
+            <h3>🪖 Perlengkapan Pelindung</h3>
+
+            <p>Pengendara sepeda motor harus selalu memakai perlengkapan pelindung yang tepat.</p>
+
+            <ul>
+              <li>Gunakan helm yang disetujui dengan tanda PS(C) atau JIS.</li>
+              <li>Pakai lengan panjang, sarung tangan, dan pakaian pelindung.</li>
+              <li>Lindungi kulit yang terbuka bahkan saat musim panas.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>🧍 Posisi Berkendara yang Benar</h3>
+
+            <p>Posisi berkendara yang stabil meningkatkan keseimbangan dan kontrol sepeda motor.</p>
+
+            <ul>
+              <li>Jepit tangki bahan bakar dengan kedua lutut.</li>
+              <li>Jaga ujung kaki mengarah ke dalam atau ke depan.</li>
+              <li>Pegang setang dengan ringan namun kuat.</li>
+              <li>Kurangi gerakan tubuh yang tidak perlu.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>🛑 Teknik Pengereman</h3>
+
+            <p>Pengendara sepeda motor harus menggunakan rem depan dan belakang bersama-sama dengan halus.</p>
+
+            <ul>
+              <li>Jaga keseimbangan sepeda motor saat mengerem.</li>
+              <li>Hindari pengereman mendadak di jalan licin.</li>
+              <li>Rem secara bertahap untuk mencegah selip.</li>
+            </ul>
+
+            <div class="info-box">Pengereman yang seimbang meningkatkan kontrol dan stabilitas saat berhenti.</div>
+          </div>
+
+          <div class="card">
+            <h3>👥 Aturan Penumpang &amp; Muatan</h3>
+
+            <p>Penumpang dan muatan harus dibawa dengan aman dan legal.</p>
+
+            <ul>
+              <li>Hanya sepeda motor yang sesuai yang boleh membawa penumpang.</li>
+              <li>Moped biasa tidak boleh membawa penumpang.</li>
+              <li>Ikat muatan dengan benar.</li>
+              <li>Muatan tidak boleh terlalu menonjol ke samping.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>↪️ Belok Kanan Dua Tahap</h3>
+
+            <p>Beberapa moped harus melakukan belok kanan dua tahap di persimpangan besar.</p>
+
+            <ul>
+              <li>Ikuti marka jalan dengan hati-hati.</li>
+              <li>Patuhi rambu dan sinyal persimpangan.</li>
+              <li>Bergerak dengan hati-hati di setiap tahap.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+            <!-- EXPRESSWAY -->
+      <section class="section" id="expressway">
+        <h2 class="section-title">🛣️ Berkendara di Jalan Tol</h2>
+
+        <div class="cards">
+          <div class="card">
+            <h3>🔧 Pemeriksaan Kendaraan Sebelum Berkendara</h3>
+
+            <p>Sebelum memasuki jalan tol, pengemudi harus memeriksa kendaraan dengan hati-hati.</p>
+
+            <ul>
+              <li>Periksa tingkat bahan bakar.</li>
+              <li>Periksa ban, rem, dan lampu.</li>
+              <li>Periksa oli mesin dan cairan pendingin.</li>
+              <li>Pastikan cairan pembersih kaca cukup.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>🚘 Masuk &amp; Keluar Jalan Tol dengan Aman</h3>
+
+            <p>Gunakan jalur percepatan dan perlambatan dengan benar.</p>
+
+            <ul>
+              <li>Sesuaikan kecepatan dengan arus lalu lintas sebelum masuk.</li>
+              <li>Periksa kaca spion dan titik buta dengan hati-hati.</li>
+              <li>Kurangi kecepatan hanya setelah masuk ke jalur perlambatan.</li>
+            </ul>
+
+            <div class="warning-box">Mengurangi kecepatan terlalu awal di jalur utama dapat menyebabkan tabrakan dari belakang.</div>
+          </div>
+
+          <div class="card">
+            <h3>🛑 Berhenti di Jalan Tol</h3>
+
+            <p>Berhenti atau parkir di jalan tol umumnya dilarang kecuali dalam keadaan darurat.</p>
+
+            <ul>
+              <li>Kendaraan mogok</li>
+              <li>Kecelakaan lalu lintas</li>
+              <li>Instruksi polisi</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>📻 Informasi Lalu Lintas &amp; Cuaca</h3>
+
+            <p>Dapatkan informasi lalu lintas dan cuaca sebelum berkendara di jalan tol.</p>
+
+            <ul>
+              <li>Periksa laporan lalu lintas melalui radio.</li>
+              <li>Hindari kondisi cuaca berbahaya.</li>
+              <li>Rencanakan istirahat untuk perjalanan jauh.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>🚫 Penarikan Kendaraan yang Tidak Aman</h3>
+
+            <p>
+              Menarik kendaraan dengan tali atau kabel di jalan tol umumnya dilarang karena berbahaya pada kecepatan tinggi.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- WEATHER -->
+      <section class="section" id="weather">
+        <h2 class="section-title">🌧️ Cuaca, Tikungan &amp; Berkendara Malam Hari</h2>
+
+        <div class="cards">
+          <div class="card">
+            <h3>🌧️ Hujan &amp; Aquaplaning</h3>
+
+            <p>Jalan basah mengurangi cengkeraman ban dan meningkatkan jarak pengereman.</p>
+
+            <ul>
+              <li>Kurangi kecepatan saat hujan.</li>
+              <li>Tingkatkan jarak mengikuti kendaraan.</li>
+              <li>Rem lebih awal dan perlahan.</li>
+              <li>Hindari gerakan setir mendadak.</li>
+            </ul>
+
+            <div class="warning-box">Jalan menjadi sangat licin saat hujan baru mulai turun.</div>
+          </div>
+
+          <div class="card">
+            <h3>❄️ Keselamatan di Salju &amp; Es</h3>
+
+            <p>Jalan bersalju dan beres sangat berbahaya dan memerlukan perhatian ekstra.</p>
+
+            <ul>
+              <li>Gunakan ban musim dingin atau rantai.</li>
+              <li>Hindari pengereman mendadak.</li>
+              <li>Percepat dan belok secara perlahan.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>🌙 Berkendara di Malam Hari</h3>
+
+            <p>Jarak pandang berkurang pada malam hari sehingga meningkatkan risiko kecelakaan.</p>
+
+            <ul>
+              <li>Kurangi kecepatan pada malam hari.</li>
+              <li>Gunakan lampu dekat di area ramai.</li>
+              <li>Hindari melihat langsung ke lampu kendaraan dari arah berlawanan.</li>
+              <li>Perhatikan pejalan kaki dan sepeda dengan hati-hati.</li>
+            </ul>
+
+            <div class="info-box">
+              Mata membutuhkan waktu untuk menyesuaikan diri saat berpindah dari area terang ke gelap.
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>🌪️ Tikungan &amp; Gaya Sentrifugal</h3>
+
+            <p>Kecepatan tinggi dan tikungan tajam meningkatkan gaya keluar saat berbelok.</p>
+
+            <ul>
+              <li>Kurangi kecepatan sebelum memasuki tikungan.</li>
+              <li>Hindari gerakan setir mendadak.</li>
+              <li>Jaga kendaraan tetap stabil dan terkendali.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+            <!-- RAILROAD -->
+      <section class="section">
+        <h2 class="section-title">🚄 Keselamatan Perlintasan Kereta</h2>
+
+        <div class="cards">
+          <div class="card">
+            <h3>🚉 Prosedur Aman di Perlintasan Kereta</h3>
+
+            <p>Perlintasan kereta memerlukan pengamatan dan perhatian yang hati-hati.</p>
+
+            <ul>
+              <li>Jangan pernah berhenti di atas rel.</li>
+              <li>Periksa sinyal, palang pintu, dan lampu peringatan.</li>
+              <li>Siap berhenti segera jika ada bahaya.</li>
+              <li>Perlintasan dengan sinyal dapat dilalui sesuai izin sinyal.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>🚗 Kendaraan Terjebak di Rel</h3>
+
+            <p>Jika kendaraan Anda terjebak di rel:</p>
+
+            <ul>
+              <li>Segera beri tahu petugas kereta.</li>
+              <li>Pindahkan kendaraan jika memungkinkan.</li>
+              <li>Keluar dari kendaraan dengan aman jika diperlukan.</li>
+            </ul>
+
+            <div class="warning-box">Jangan tetap berada di dalam kendaraan jika kereta mendekat.</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- EMERGENCY -->
+      <section class="section" id="emergency">
+        <h2 class="section-title">🚑 Keadaan Darurat &amp; Tanggung Jawab Hukum</h2>
+
+        <div class="cards">
+          <div class="card">
+            <h3>🚨 Kendaraan Darurat</h3>
+
+            <p>Pengemudi harus memberikan jalan dengan aman kepada kendaraan darurat yang mendekat.</p>
+
+            <ul>
+              <li>Menepilah ke sisi jalan dengan aman.</li>
+              <li>Jangan menghalangi persimpangan.</li>
+              <li>Di jalan satu arah, sisi mana pun dapat digunakan jika aman.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>🌏 Gempa Bumi &amp; Bencana</h3>
+
+            <p>Selama gempa bumi atau bencana besar:</p>
+
+            <ul>
+              <li>Hindari pengereman mendadak.</li>
+              <li>Berhenti dengan aman setelah memeriksa sekitar.</li>
+              <li>Jaga jalur darurat tetap terbuka.</li>
+              <li>Jangan menghalangi tim penyelamat.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>🩹 Kecelakaan &amp; Pertolongan Pertama</h3>
+
+            <p>Pengemudi harus bertindak dengan tanggung jawab setelah kecelakaan.</p>
+
+            <ul>
+              <li>Bantu orang yang terluka dengan hati-hati.</li>
+              <li>Jangan memindahkan orang dengan cedera leher kecuali diperlukan.</li>
+              <li>Segera hubungi polisi dan layanan darurat.</li>
+              <li>Bahkan kecelakaan kecil harus dilaporkan ke polisi.</li>
+            </ul>
+
+            <div class="info-box">
+              Laporan resmi polisi diperlukan untuk proses hukum dan asuransi.
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>😴 Kelelahan &amp; Sikap Berkendara yang Benar</h3>
+
+            <p>Berkendara yang aman bergantung pada kesabaran, perhatian, dan kondisi fisik yang baik.</p>
+
+            <ul>
+              <li>Jangan mengemudi saat lelah.</li>
+              <li>Jaga jarak aman.</li>
+              <li>Mengemudilah dengan hormat dan penuh perhatian.</li>
+              <li>Hindari perilaku sembrono atau egois.</li>
+            </ul>
+
+            <div class="warning-box">
+              Kelelahan secara serius mengurangi waktu reaksi dan konsentrasi.
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>⚙️ Engine Brake &amp; Keselamatan di Turunan</h3>
+
+            <p>Engine brake membantu mengontrol kecepatan kendaraan dengan aman di jalan menurun.</p>
+
+            <ul>
+              <li>Gigi rendah menghasilkan engine brake yang lebih kuat.</li>
+              <li>Membantu mencegah rem menjadi terlalu panas.</li>
+              <li>Membantu menjaga kontrol kecepatan yang lebih aman.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- FINAL TAKEAWAYS -->
+      <section class="section">
+        <h2 class="section-title">✅ Poin Penting yang Harus Diingat</h2>
+
+        <div class="takeaways">
+          <div class="takeaway-card">
+            <h4>🚦 Persimpangan &amp; Lampu Lalu Lintas</h4>
+
+            <ul>
+              <li>Lampu hijau tidak menjamin keselamatan sepenuhnya.</li>
+              <li>Selalu periksa pejalan kaki dan sepeda sebelum berbelok.</li>
+              <li>Ikuti instruksi polisi segera.</li>
+            </ul>
+          </div>
+
+          <div class="takeaway-card">
+            <h4>🚶 Keselamatan Pejalan Kaki &amp; Sepeda</h4>
+
+            <ul>
+              <li>Kurangi kecepatan dekat sekolah dan area perumahan.</li>
+              <li>Berikan ruang yang cukup saat melewati sepeda.</li>
+              <li>Jangan pernah menghalangi zebra cross atau penyeberangan sepeda.</li>
+            </ul>
+          </div>
+
+          <div class="takeaway-card">
+            <h4>🏍️ Keselamatan Sepeda Motor</h4>
+
+            <ul>
+              <li>Gunakan helm yang disetujui dan perlengkapan pelindung.</li>
+              <li>Gunakan kedua rem dengan benar.</li>
+              <li>Pertahankan posisi berkendara yang tepat.</li>
+            </ul>
+          </div>
+
+          <div class="takeaway-card">
+            <h4>🛣️ Berkendara di Jalan Tol</h4>
+
+            <ul>
+              <li>Periksa kendaraan sebelum perjalanan jauh.</li>
+              <li>Gunakan jalur percepatan dan perlambatan dengan benar.</li>
+              <li>Berhenti hanya dalam keadaan darurat.</li>
+            </ul>
+          </div>
+
+          <div class="takeaway-card">
+            <h4>🌧️ Cuaca &amp; Berkendara Malam Hari</h4>
+
+            <ul>
+              <li>Kurangi kecepatan saat hujan, salju, dan gelap.</li>
+              <li>Hindari tikungan dan pengereman mendadak.</li>
+              <li>Tingkatkan jarak mengikuti di jalan licin.</li>
+            </ul>
+          </div>
+
+          <div class="takeaway-card">
+            <h4>🚑 Kesiapan Darurat</h4>
+
+            <ul>
+              <li>Berikan jalan segera kepada kendaraan darurat.</li>
+              <li>Laporkan kecelakaan kepada polisi.</li>
+              <li>Tetap tenang selama keadaan darurat dan bencana.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- FOOTER -->
+      <div class="footer">
+        🇯🇵 Reviewer Tes Mengemudi Jepang • Belajar dengan Cerdas • Berkendara dengan Aman • Jaga Keselamatan Semua Orang
+      </div>
+    </div>
+  </body>
+</html>
