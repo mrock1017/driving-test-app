@@ -57,36 +57,82 @@ UI_TEXT = {
     "tl": {
 
         "study_mode": "🧠 Study Mode",
+
         "reviewer_karimen": "🧠 Reviewer Karimen",
+
         "reviewer_honmen": "🧠 Reviewer Honmen",
 
         "karimen_mock": "📝 Karimen Mock Test",
+
         "karimen_test_1": "📝 Karimen Test 1",
+
         "karimen_test_2": "📝 Karimen Test 2",
 
         "honmen_mock": "🏁 Honmen Mock Test",
+
         "honmen_test_1": "🛣 Honmen Master",
+
         "honmen_test_2": "🏁 Honmen Test 2",
+
         "honmen_test_3": "🏁 Honmen Test 3",
 
         "app_info": "⚙️ Impormasyon ng App",
+
         "score_history": "📊 Kasaysayan ng Score",
+
         "privacy": "🔒 Patakaran sa Privacy",
+
         "terms": "📄 Mga Tuntunin ng Paggamit",
+
         "contact": "✉️ Makipag-ugnayan",
 
         "dark_mode": "🌙 Dark Mode",
 
-        "login": "👤 Login",
-        "register": "📝 Register",
-        "logout": "🚪 Logout",
-        "welcome": "Welcome",
+        "login": "👤 Mag Login",
+
+        "register": "📝 Mag Register",
+
+        "logout": "🚪 Mag Logout",
+
+        "welcome": "Maligayang Pagdating",
 
         "ai_title": "🧠 AI Tutor",
 
         "premium": "⭐ Premium User",
 
-        "select_language": "Pumili ng Wika"
+        "premium_reviewers": "🔒 Premium Reviewers",
+
+        "premium_active": "✅ Aktibo ang Premium",
+
+        "manage_subscription": "💳 Pamahalaan ang Subscription",
+
+        "upgrade": "⭐ Mag Upgrade",
+
+        "premium_features": "⭐ Mga Premium Feature",
+
+        "unlock_premium": "🔒 I-unlock ang Premium",
+
+        "unlimited_mock_exams": "⭐ Walang Limit na Mock Exams",
+
+        "advanced_analytics": "⭐ Advanced Analytics",
+
+        "ai_tutor_unlimited": "⭐ Walang Limit na AI Tutor",
+
+        "reviewers": "📚 Reviewers",
+
+        "settings": "⚙️ Settings",
+
+        "account": "👤 Account",
+
+        "language": "🌐 Wika",
+
+        "select_language": "Pumili ng Wika",
+
+        "mock_tests": "📝 Mock Tests",
+
+        "study_reviewer": "📘 Study Reviewer",
+
+        "customer_portal": "💳 Customer Portal"
     },
 
     "ne": {
