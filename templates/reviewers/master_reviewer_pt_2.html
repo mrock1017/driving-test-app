@@ -1,0 +1,1131 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Revisor do Teste de Direção do Japão</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: "Segoe UI", sans-serif;
+            background: #f4f9ff;
+            color: #1f2937;
+            line-height: 1.8;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: auto;
+            padding: 18px;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #4ea6ff, #90d2ff);
+            color: white;
+            padding: 60px 25px;
+            border-radius: 32px;
+            text-align: center;
+            margin-bottom: 40px;
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+        }
+
+        .hero h1 {
+            font-size: 2.8rem;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            max-width: 760px;
+            margin: auto;
+            font-size: 1rem;
+            opacity: 0.96;
+        }
+
+        .quick-nav {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 14px;
+            margin-bottom: 40px;
+        }
+
+        .nav-item {
+            background: white;
+            border-radius: 18px;
+            padding: 16px;
+            text-align: center;
+            text-decoration: none;
+            color: #2563eb;
+            font-weight: 600;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+            transition: 0.25s ease;
+        }
+
+        .nav-item:hover {
+            transform: translateY(-2px);
+            background: #eff6ff;
+        }
+
+        .section {
+            margin-bottom: 50px;
+        }
+
+        .section-title {
+            font-size: 2rem;
+            color: #2563eb;
+            margin-bottom: 24px;
+            padding-left: 15px;
+            border-left: 6px solid #60a5fa;
+        }
+
+        .sub-title {
+            color: #1d4ed8;
+            margin-bottom: 10px;
+            font-size: 1.15rem;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 22px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 24px;
+            padding: 24px;
+            box-shadow: 0 8px 22px rgba(0, 0, 0, 0.05);
+            transition: 0.25s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+        }
+
+        .card h3 {
+            color: #1d4ed8;
+            margin-bottom: 14px;
+            font-size: 1.2rem;
+        }
+
+        .card p {
+            margin-bottom: 14px;
+            color: #374151;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .info-box {
+            background: #eff6ff;
+            border-left: 5px solid #3b82f6;
+            padding: 14px;
+            border-radius: 14px;
+            margin-top: 14px;
+            color: #1e3a8a;
+            font-size: 0.95rem;
+        }
+
+        .warning-box {
+            background: #fff4f4;
+            border-left: 5px solid #ef4444;
+            padding: 14px;
+            border-radius: 14px;
+            margin-top: 14px;
+            color: #991b1b;
+            font-size: 0.95rem;
+        }
+
+        .highlight-tags {
+            margin-top: 14px;
+        }
+
+        .highlight-tags span {
+            display: inline-block;
+            background: #dbeafe;
+            color: #1d4ed8;
+            padding: 7px 12px;
+            border-radius: 999px;
+            margin: 5px 5px 0 0;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        .checklist {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 20px;
+        }
+
+        .check-card {
+            background: white;
+            border-radius: 22px;
+            padding: 22px;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+        }
+
+        .check-card h4 {
+            color: #2563eb;
+            margin-bottom: 12px;
+            font-size: 1.1rem;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 40px 15px;
+            color: #6b7280;
+            font-size: 0.95rem;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 14px;
+            }
+
+            .hero {
+                padding: 45px 20px;
+                border-radius: 26px;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .section-title {
+                font-size: 1.55rem;
+            }
+
+            .card {
+                padding: 20px;
+            }
+
+            .nav-item {
+                padding: 15px;
+                font-size: 0.92rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div style="padding:20px;">
+        <a href="/reviewers" style="
+   text-decoration:none;
+   font-weight:700;
+   color:#2563eb;
+   font-size:16px;">
+
+            ← Voltar para os Revisores
+
+        </a>
+    </div>
+    <div class="container"> <!-- HERO -->
+        <div class="hero">
+            <h1>🇯🇵 Revisor do Teste de Direção do Japão</h1>
+
+            <p>
+                Manual de estudo amigável para iniciantes destinado a estrangeiros que estão se preparando para o exame da carteira de motorista japonesa.
+                Aprenda regras importantes de trânsito, hábitos de segurança, sinais de trânsito e conhecimentos práticos de direção comumente cobrados
+                no teste de direção japonês.
+            </p>
+        </div>
+
+        <!-- QUICK NAV -->
+
+        <div class="quick-nav">
+            <a href="#general" class="nav-item">🚘 Direção Geral</a>
+            <a href="#intersections" class="nav-item">🚦 Interseções</a>
+            <a href="#signs" class="nav-item">🚧 Sinais de Trânsito</a>
+            <a href="#pedestrians" class="nav-item">🚶 Pedestres</a>
+            <a href="#motorcycles" class="nav-item">🏍️ Motocicletas</a>
+            <a href="#parking" class="nav-item">🚗 Estacionamento</a>
+            <a href="#weather" class="nav-item">🌧️ Clima</a>
+            <a href="#expressway" class="nav-item">🛣️ Rodovias Expressas</a>
+            <a href="#railroad" class="nav-item">🚄 Cruzamentos Ferroviários</a>
+            <a href="#emergency" class="nav-item">🚑 Emergências</a>
+        </div>
+
+        <!-- GENERAL DRIVING -->
+
+        <section class="section" id="general">
+            <h2 class="section-title">🚘 Direção Geral &amp; Controle do Veículo</h2>
+
+            <div class="cards">
+                <div class="card">
+                    <h3>⚡ Velocidade, Distância de Frenagem &amp; Força Centrífuga</h3>
+
+                    <p>Velocidades mais altas aumentam muito a distância de parada e a gravidade dos acidentes.</p>
+
+                    <ul>
+                        <li>Dirigir rápido reduz o tempo de reação.</li>
+                        <li>Curvas se tornam mais perigosas em velocidades mais altas.</li>
+                        <li>A força centrífuga fica mais forte durante as curvas.</li>
+                        <li>O controle seguro da velocidade é essencial para prevenir acidentes.</li>
+                    </ul>
+
+                    <div class="warning-box">
+                        O excesso de velocidade reduz seu campo de visão e torna os perigos mais difíceis de perceber.
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>🌀 Técnicas Seguras em Curvas &amp; Conversões</h3>
+
+                    <p>Os motoristas devem reduzir a velocidade antes de entrar em curvas ou fazer conversões.</p>
+
+                    <ul>
+                        <li>Freie antes da curva, não durante ela.</li>
+                        <li>Acelere gradualmente após sair da curva.</li>
+                        <li>Mantenha o controle estável da direção.</li>
+                        <li>Evite movimentos bruscos no volante ou nos freios.</li>
+                    </ul>
+
+                    <div class="highlight-tags">
+                        <span>Reduza Antes das Curvas</span>
+                        <span>Direção Suave</span>
+                        <span>Controle Estável</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>⛰️ Direção em Descidas &amp; Freio Motor</h3>
+
+                    <p>Marchas baixas fornecem um freio motor mais forte e ajudam a controlar a velocidade do veículo com segurança em descidas.</p>
+
+                    <ul>
+                        <li>Use marchas baixas como “2”, “1” ou “L” em descidas íngremes.</li>
+                        <li>Reduz o superaquecimento dos freios.</li>
+                        <li>Melhora a estabilidade em descidas.</li>
+                        <li>Ajuda a evitar falhas nos freios.</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>🧍 Postura Correta ao Dirigir</h3>
+
+                    <p>Uma boa postura ao dirigir melhora o controle, o conforto e a capacidade de reação em emergências.</p>
+
+                    <ul>
+                        <li>Mantenha ambas as mãos prontas no volante.</li>
+                        <li>Sente-se ereto com os ombros relaxados.</li>
+                        <li>Mantenha os joelhos levemente dobrados.</li>
+                        <li>Ajuste corretamente os espelhos e o banco.</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>😴 Fadiga &amp; Direção de Longa Distância</h3>
+
+                    <p>A fadiga do motorista reduz a concentração, a capacidade de dirigir e o tempo de reação.</p>
+
+                    <ul>
+                        <li>Faça pausas aproximadamente a cada 2 horas.</li>
+                        <li>Não continue dirigindo com sono.</li>
+                        <li>A fadiga aumenta significativamente o risco de acidentes.</li>
+                    </ul>
+
+                    <div class="info-box">Longos períodos dirigindo em alta velocidade podem distorcer a percepção de velocidade do motorista.</div>
+                </div>
+
+                <div class="card">
+                    <h3>👀 Observação Ampla &amp; Percepção de Perigos</h3>
+
+                    <p>Motoristas seguros observam a estrada amplamente em vez de focar apenas em um único ponto.</p>
+
+                    <ul>
+                        <li>Observe interseções, espelhos e calçadas.</li>
+                        <li>Perceba os perigos mais cedo.</li>
+                        <li>Mantenha-se atento às mudanças nas condições do trânsito.</li>
+                        <li>Nunca presuma que outros motoristas irão parar.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- INTERSECTIONS -->
+
+        <section class="section" id="intersections">
+            <h2 class="section-title">🚦 Interseções &amp; Regras de Prioridade</h2>
+
+            <div class="cards">
+                <div class="card">
+                    <h3>🛑 Interseções Sem Sinalização &amp; Sem Controle</h3>
+
+                    <p>Os motoristas devem reduzir a velocidade e confirmar a segurança cuidadosamente mesmo quando as interseções parecem livres.</p>
+
+                    <ul>
+                        <li>Veículos vindos da direita geralmente têm prioridade.</li>
+                        <li>Estradas mais largas geralmente têm prioridade sobre estradas mais estreitas.</li>
+                        <li>Verifique cuidadosamente veículos escondidos, pedestres e bicicletas.</li>
+                    </ul>
+
+                    <div class="warning-box">Nunca presuma que outro veículo irá parar automaticamente.</div>
+                </div>
+
+                <div class="card">
+                    <h3>🚦 Luzes Verdes &amp; Sinais de Seta Verde</h3>
+
+                    <p>Uma luz verde não garante que é seguro prosseguir.</p>
+
+                    <ul>
+                        <li>Não entre em interseções se o congestionamento puder prender seu veículo.</li>
+                        <li>Sinais de seta permitem movimento apenas na direção indicada.</li>
+                        <li>Sempre verifique primeiro pedestres e bicicletas.</li>
+                    </ul>
+
+                    <div class="info-box">Setas direcionais podem permitir movimento mesmo que o sinal principal esteja vermelho.</div>
+                </div>
+
+                <div class="card">
+                    <h3>👮 Instruções de Policiais</h3>
+
+                    <p>Sinais manuais de policiais e controladores de trânsito têm prioridade sobre semáforos e placas.</p>
+
+                    <ul>
+                        <li>Obedeça imediatamente às instruções.</li>
+                        <li>Observe cuidadosamente durante congestionamentos ou emergências.</li>
+                        <li>Mantenha a calma e coopere.</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>👀 Pontos Cegos Durante Conversões</h3>
+
+                    <p>Pontos cegos se tornam especialmente perigosos durante conversões à direita e à esquerda.</p>
+
+                    <ul>
+                        <li>Motocicletas podem estar escondidas atrás de veículos.</li>
+                        <li>Pedestres podem aparecer repentinamente.</li>
+                        <li>Sempre verifique cuidadosamente os espelhos e os pontos cegos.</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>🚘 Entrada no Trânsito &amp; Mudanças de Faixa</h3>
+
+                    <p>Veículos entrando no trânsito devem se integrar de forma suave e segura.</p>
+
+                    <ul>
+                        <li>O trânsito na faixa principal geralmente tem prioridade.</li>
+                        <li>Sinalize antes de mudar de faixa.</li>
+                        <li>Verifique cuidadosamente espelhos e pontos cegos.</li>
+                        <li>Não force a entrada no trânsito.</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>🏍️ Conversões à Direita em Dois Estágios</h3>
+
+                    <p>Bicicletas motorizadas comuns geralmente realizam conversões à direita em dois estágios em grandes interseções.</p>
+
+                    <ul>
+                        <li>Atravesse em linha reta primeiro.</li>
+                        <li>Pare com segurança próximo ao centro.</li>
+                        <li>Complete a conversão quando permitido.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- ROAD SIGNS -->
+
+        <section class="section" id="signs">
+            <h2 class="section-title">🚧 Sinais de Trânsito &amp; Placas de Trânsito</h2>
+
+            <div class="cards">
+                <div class="card">
+                    <h3>🚫 Sinais de Restrição &amp; Proibição</h3>
+
+                    <p>Sinais de restrição proíbem certos movimentos, veículos ou ações.</p>
+
+                    <ul>
+                        <li>Não entre em estradas ou faixas proibidas.</li>
+                        <li>Algumas estradas proíbem motocicletas ou veículos pequenos.</li>
+                        <li>Sinais de proibido parar proíbem até mesmo paradas temporárias.</li>
+                        <li>Sempre siga cuidadosamente as restrições de faixa.</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>↔️ Sinais Obrigatórios de Direção</h3>
+
+                    <p>Placas azuis direcionais instruem os motoristas a se moverem apenas na direção indicada.</p>
+
+                    <ul>
+                        <li>Estas são instruções, não sugestões.</li>
+                        <li>Siga cuidadosamente as setas e marcações de faixa.</li>
+                        <li>Verifique o trânsito ao redor antes de se mover.</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>🔔 Sinais de Uso da Buzina</h3>
+
+                    <p>Sinais de uso da buzina aparecem em áreas de baixa visibilidade, como curvas cegas e estradas montanhosas.</p>
+
+                    <ul>
+                        <li>Alertam o trânsito que se aproxima.</li>
+                        <li>Use a buzina de forma breve e responsável.</li>
+                        <li>Evite o uso desnecessário da buzina.</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>🏫 Zonas Escolares &amp; Áreas de Pedestres</h3>
+
+                    <p>Zonas escolares e estradas exclusivas para pedestres exigem cautela extra.</p>
+
+                    <ul>
+                        <li>Reduza a velocidade imediatamente.</li>
+                        <li>Observe cuidadosamente as crianças.</li>
+                        <li>A segurança dos pedestres sempre tem prioridade.</li>
+                    </ul>
+
+                    <div class="warning-box">Crianças podem entrar repentinamente na via sem aviso.</div>
+                </div>
+
+                <div class="card">
+                    <h3>🚧 Sinais de Advertência</h3>
+
+                    <p>Sinais de advertência alertam os motoristas sobre condições perigosas da estrada à frente.</p>
+
+                    <ul>
+                        <li>Sinais de redução de faixa avisam que as faixas irão diminuir.</li>
+                        <li>Sinais de vento forte alertam sobre ventos laterais perigosos.</li>
+                        <li>Sinais de queda de pedras aparecem em áreas montanhosas.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- PEDESTRIANS -->
+
+        <section class="section" id="pedestrians">
+            <h2 class="section-title">🚶 Pedestres, Bicicletas &amp; Segurança Infantil</h2>
+
+            <div class="cards">
+                <div class="card">
+                    <h3>🚸 Crianças &amp; Áreas Residenciais</h3>
+
+                    <p>Crianças podem se mover de forma imprevisível e correr repentinamente para a estrada.</p>
+
+                    <ul>
+                        <li>Reduza a velocidade perto de escolas, parques e áreas residenciais.</li>
+                        <li>Observe cuidadosamente entre veículos estacionados.</li>
+                        <li>Esteja sempre preparado para parar.</li>
+                    </ul>
+
+                    <div class="warning-box">
+                        Crianças são menores que adultos e mais difíceis de ver.
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>🚲 Bicicletas &amp; Travessias de Bicicleta</h3>
+
+                    <p>
+                        Ciclistas são usuários vulneráveis da via e precisam de espaço suficiente e atenção cuidadosa.
+                    </p>
+
+                    <ul>
+                        <li>Deixe espaço lateral suficiente ao ultrapassar.</li>
+                        <li>Não corte a frente das bicicletas ao virar.</li>
+                        <li>Verifique cuidadosamente os pontos cegos antes de virar.</li>
+                        <li>Reduza a velocidade perto de travessias de bicicleta.</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>🚶 Faixas de Pedestres</h3>
+
+                    <p>
+                        Os motoristas devem dar preferência aos pedestres que estão atravessando ou prestes a atravessar em faixas de pedestres.
+                    </p>
+
+                    <ul>
+                        <li>Reduza a velocidade ao se aproximar das faixas.</li>
+                        <li>Pare se houver pedestres esperando.</li>
+                        <li>Não ultrapasse veículos perto das faixas de pedestres.</li>
+                    </ul>
+
+                    <div class="info-box">
+                        Faixas de pedestres são áreas de alto risco de acidentes.
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>🧑‍🦯 Idosos &amp; Pessoas com Deficiência</h3>
+
+                    <p>
+                        Idosos e pessoas com deficiência podem precisar de mais tempo e consideração especial.
+                    </p>
+
+                    <ul>
+                        <li>Mostre paciência e cuidado.</li>
+                        <li>Dê espaço e tempo suficientes.</li>
+                        <li>Esteja preparado para parar completamente.</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>🚗 Segurança ao Abrir Portas</h3>
+
+                    <p>Abrir portas de veículos sem verificar ao redor pode causar acidentes.</p>
+
+                    <ul>
+                        <li>Verifique atrás antes de abrir as portas.</li>
+                        <li>Observe bicicletas e motocicletas.</li>
+                        <li>Abra as portas lentamente.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- MOTORCYCLES -->
+
+        <section class="section" id="motorcycles">
+            <h2 class="section-title">🏍️ Motocicletas &amp; Ciclomotores</h2>
+
+            <div class="cards">
+                <div class="card">
+                    <h3>🪖 Capacetes &amp; Equipamentos de Segurança</h3>
+
+                    <p>
+                        Os motociclistas devem usar equipamentos de proteção adequados para reduzir lesões graves.
+                    </p>
+
+                    <ul>
+                        <li>Use capacetes aprovados.</li>
+                        <li>Use luvas, mangas compridas e roupas de proteção.</li>
+                        <li>Evite deixar a pele exposta durante a pilotagem.</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>🛞 Frenagem Segura em Motocicletas</h3>
+
+                    <p>
+                        Os motociclistas devem usar os freios dianteiro e traseiro corretamente e de forma equilibrada.
+                    </p>
+
+                    <ul>
+                        <li>Evite frenagens bruscas.</li>
+                        <li>Freie suavemente em estradas molhadas.</li>
+                        <li>Mantenha o equilíbrio estável durante as paradas.</li>
+                    </ul>
+
+                    <div class="info-box">
+                        O uso incorreto do freio dianteiro pode causar derrapagens ou quedas.
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>👥 Passageiros &amp; Cargas</h3>
+
+                    <p>Passageiros e cargas devem ser transportados de forma segura e legal.</p>
+
+                    <ul>
+                        <li>Ciclomotores comuns não podem transportar passageiros.</li>
+                        <li>Certifique-se de que as cargas estejam bem presas.</li>
+                        <li>Não exceda os limites legais de tamanho.</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>🌧️ Perigos Climáticos para Motocicletas</h3>
+
+                    <p>
+                        Motocicletas são mais afetadas por vento, chuva e superfícies escorregadias.
+                    </p>
+
+                    <ul>
+                        <li>Reduza a velocidade em condições climáticas ruins.</li>
+                        <li>Evite linhas pintadas molhadas e tampas metálicas.</li>
+                        <li>Mantenha distâncias de seguimento maiores.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- PARKING -->
+
+        <section class="section" id="parking">
+            <h2 class="section-title">🚗 Regras de Estacionamento, Parada &amp; Responsabilidade na Estrada</h2>
+
+            <div class="cards">
+                <div class="card">
+                    <h3>🚫 Zonas Proibidas para Estacionamento</h3>
+
+                    <p>
+                        Certas áreas proíbem estritamente o estacionamento para manter a segurança e o fluxo suave do trânsito.
+                    </p>
+
+                    <ul>
+                        <li>Não estacione perto de interseções.</li>
+                        <li>Não estacione perto de faixas de pedestres.</li>
+                        <li>Não bloqueie pontos de ônibus ou rotas de emergência.</li>
+                        <li>Mantenha a visibilidade livre para outros motoristas.</li>
+                    </ul>
+
+                    <div class="warning-box">
+                        Estacionamento ilegal pode causar acidentes graves e congestionamentos.
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>🛑 Zonas Proibidas para Parada</h3>
+
+                    <p>
+                        Até mesmo paradas temporárias são proibidas em certos locais perigosos.
+                    </p>
+
+                    <ul>
+                        <li>Inclui faixas de pedestres e cruzamentos ferroviários.</li>
+                        <li>Não pare dentro das interseções.</li>
+                        <li>Não bloqueie veículos de emergência.</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>🚘 Estacionamento Seguro</h3>
+
+                    <p>
+                        Os motoristas devem estacionar os veículos de forma segura e adequada antes de sair deles.
+                    </p>
+
+                    <ul>
+                        <li>Desligue o motor quando necessário.</li>
+                        <li>Use o freio de estacionamento.</li>
+                        <li>Tranque o veículo corretamente.</li>
+                        <li>Não deixe as janelas abertas.</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>🅿️ Responsabilidade do Proprietário do Veículo</h3>
+
+                    <p>
+                        Proprietários de veículos no Japão devem garantir estacionamento legal fora da rua.
+                    </p>
+
+                    <ul>
+                        <li>Ajuda a reduzir congestionamentos nas ruas.</li>
+                        <li>Melhora a segurança da comunidade.</li>
+                        <li>Apoia um fluxo de trânsito mais tranquilo.</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>🚪 Segurança ao Entrar &amp; Sair do Veículo</h3>
+
+                    <p>
+                        Motoristas e passageiros devem verificar ao redor antes de abrir as portas do veículo.
+                    </p>
+
+                    <ul>
+                        <li>Observe bicicletas e motocicletas.</li>
+                        <li>Não abra as portas repentinamente.</li>
+                        <li>Saia do veículo cuidadosamente voltado para o trânsito.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- WEATHER -->
+
+        <section class="section" id="weather">
+            <h2 class="section-title">🌧️ Clima &amp; Condições Perigosas da Estrada</h2>
+
+            <div class="cards">
+                <div class="card">
+                    <h3>🌧️ Chuva &amp; Estradas Molhadas</h3>
+
+                    <p>
+                        A chuva torna as estradas mais escorregadias e aumenta as distâncias de frenagem.
+                    </p>
+
+                    <ul>
+                        <li>Reduza a velocidade em estradas molhadas.</li>
+                        <li>Aumente a distância de seguimento.</li>
+                        <li>Evite frenagens e curvas bruscas.</li>
+                        <li>Use os faróis quando necessário.</li>
+                    </ul>
+
+                    <div class="warning-box">
+                        As superfícies da estrada ficam mais escorregadias quando a chuva começa.
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>❄️ Neve &amp; Gelo</h3>
+
+                    <p>
+                        Estradas cobertas de neve e gelo são extremamente perigosas e exigem cuidado extra.
+                    </p>
+
+                    <ul>
+                        <li>Use pneus de inverno ou correntes.</li>
+                        <li>Acelere e freie suavemente.</li>
+                        <li>Evite movimentos rápidos no volante.</li>
+                        <li>Mantenha distâncias maiores de seguimento.</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>🌫️ Nevoeiro &amp; Baixa Visibilidade</h3>
+
+                    <p>
+                        Nevoeiro e chuva forte reduzem a visibilidade e dificultam perceber perigos.
+                    </p>
+
+                    <ul>
+                        <li>Use faróis baixos.</li>
+                        <li>Reduza a velocidade e permaneça alerta.</li>
+                        <li>Evite dirigir muito perto de outros veículos.</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>🌙 Direção Noturna</h3>
+
+                    <p>
+                        Pedestres, bicicletas e obstáculos são mais difíceis de ver durante a noite.
+                    </p>
+
+                    <ul>
+                        <li>Observe cuidadosamente as laterais da estrada.</li>
+                        <li>Use faróis altos quando for seguro e permitido.</li>
+                        <li>Evite olhar diretamente para os faróis dos veículos que vêm em sentido contrário.</li>
+                    </ul>
+
+                    <div class="info-box">
+                        Os olhos precisam de tempo para se adaptar à escuridão.
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- EXPRESSWAY -->
+
+        <section class="section" id="expressway">
+            <h2 class="section-title">🛣️ Direção em Rodovias Expressas</h2>
+
+            <div class="cards">
+                <div class="card">
+                    <h3>🚘 Entrada &amp; Saída de Rodovias Expressas</h3>
+
+                    <p>
+                        Os motoristas devem usar cuidadosamente as faixas de aceleração e desaceleração ao entrar ou sair de rodovias expressas.
+                    </p>
+
+                    <ul>
+                        <li>Ajuste a velocidade ao fluxo do trânsito antes de entrar.</li>
+                        <li>Verifique cuidadosamente os espelhos e pontos cegos.</li>
+                        <li>Reduza a velocidade somente após entrar na faixa de desaceleração.</li>
+                    </ul>
+
+                    <div class="warning-box">
+                        Reduzir a velocidade na faixa principal pode causar acidentes perigosos.
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>🛑 Regras de Parada &amp; Estacionamento em Rodovias Expressas</h3>
+
+                    <p>
+                        Parar ou estacionar em rodovias expressas geralmente é proibido, exceto em emergências.
+                    </p>
+
+                    <ul>
+                        <li>Pane no veículo</li>
+                        <li>Acidentes de trânsito</li>
+                        <li>Instruções da polícia</li>
+                        <li>Emergências graves</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>📻 Informações de Trânsito &amp; Planejamento de Viagem</h3>
+
+                    <p>
+                        Os motoristas devem verificar informações de trânsito e clima antes de viagens longas.
+                    </p>
+
+                    <ul>
+                        <li>Ouça transmissões de informações de trânsito.</li>
+                        <li>Verifique as condições climáticas.</li>
+                        <li>Planeje pausas de descanso para viagens longas.</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>😴 Fadiga &amp; Sonolência ao Dirigir</h3>
+
+                    <p>
+                        Dirigir cansado ou sonolento é especialmente perigoso em rodovias expressas.
+                    </p>
+
+                    <ul>
+                        <li>Faça pausas frequentes.</li>
+                        <li>Não force a continuação da direção quando estiver sonolento.</li>
+                        <li>Use áreas de descanso e estacionamentos quando necessário.</li>
+                    </ul>
+
+                    <div class="warning-box">
+                        A sonolência reduz o tempo de reação e aumenta o risco de acidentes graves.
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>🚗 Distância de Seguimento</h3>
+
+                    <p>
+                        Manter uma distância segura de seguimento é extremamente importante em altas velocidades.
+                    </p>
+
+                    <ul>
+                        <li>Mantenha bastante espaço em relação ao veículo da frente.</li>
+                        <li>Aumente a distância durante chuva ou nevoeiro.</li>
+                        <li>Evite seguir veículos muito de perto.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- RAILROAD -->
+
+        <section class="section" id="railroad">
+            <h2 class="section-title">🚄 Cruzamentos Ferroviários &amp; Segurança Ferroviária</h2>
+
+            <div class="cards">
+                <div class="card">
+                    <h3>🚉 Procedimentos Corretos em Cruzamentos Ferroviários</h3>
+
+                    <p>
+                        Cruzamentos ferroviários exigem observação cuidadosa e muita atenção.
+                    </p>
+
+                    <ul>
+                        <li>Reduza a velocidade ao se aproximar dos trilhos.</li>
+                        <li>Verifique luzes de advertência e cancelas.</li>
+                        <li>Nunca pare sobre os trilhos.</li>
+                        <li>Prossiga somente quando for seguro.</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>🚫 Perigos em Cruzamentos Ferroviários</h3>
+
+                    <p>
+                        Cruzamentos ferroviários podem ser extremamente perigosos porque os trens viajam rapidamente e precisam de longas distâncias para parar.
+                    </p>
+
+                    <ul>
+                        <li>Nunca tente atravessar quando um trem estiver se aproximando.</li>
+                        <li>Não entre se houver risco de ficar preso no congestionamento.</li>
+                        <li>Sempre priorize a segurança em vez da pressa.</li>
+                    </ul>
+
+                    <div class="warning-box">
+                        Trens precisam de uma distância muito longa para parar completamente.
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>🚗 Veículo Preso nos Trilhos</h3>
+
+                    <p>
+                        Se o seu veículo ficar preso nos trilhos, aja imediatamente para evitar um acidente.
+                    </p>
+
+                    <ul>
+                        <li>Saia do veículo imediatamente se necessário.</li>
+                        <li>Use o botão de emergência para alertar os funcionários da ferrovia.</li>
+                        <li>Tente mover o veículo se isso puder ser feito com segurança.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- EMERGENCY -->
+
+        <section class="section" id="emergency">
+            <h2 class="section-title">🚑 Emergências, Acidentes &amp; Responsabilidades do Motorista</h2>
+
+            <div class="cards">
+                <div class="card">
+                    <h3>🚨 Veículos de Emergência</h3>
+
+                    <p>
+                        Os motoristas devem dar passagem imediatamente e com segurança aos veículos de emergência.
+                    </p>
+
+                    <ul>
+                        <li>Mova-se para o lado esquerdo da via, se possível.</li>
+                        <li>Não bloqueie interseções.</li>
+                        <li>Mantenha as rotas livres para os serviços de emergência.</li>
+                    </ul>
+
+                    <div class="warning-box">
+                        Não entre em pânico nem faça movimentos bruscos perigosos quando veículos de emergência estiverem se aproximando.
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>🩹 Acidentes de Trânsito &amp; Primeiros Socorros</h3>
+
+                    <p>
+                        Após acidentes, os motoristas devem reagir com responsabilidade e manter a calma.
+                    </p>
+
+                    <ul>
+                        <li>Ajude pessoas feridas se for seguro fazê-lo.</li>
+                        <li>Contate imediatamente a polícia e os serviços de emergência.</li>
+                        <li>Não saia do local do acidente.</li>
+                        <li>Use dispositivos de advertência quando necessário.</li>
+                    </ul>
+
+                    <div class="info-box">
+                        Relatórios policiais são necessários para procedimentos legais e de seguro.
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>🌏 Terremotos &amp; Resposta a Desastres</h3>
+
+                    <p>
+                        Os motoristas devem permanecer calmos e seguros durante terremotos ou grandes desastres.
+                    </p>
+
+                    <ul>
+                        <li>Evite frenagens bruscas.</li>
+                        <li>Pare cuidadosamente em um local seguro.</li>
+                        <li>Ouça informações e instruções de emergência.</li>
+                        <li>Não bloqueie rotas de emergência.</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>😴 Fadiga &amp; Emoções ao Dirigir</h3>
+
+                    <p>
+                        Cansaço, raiva e estresse podem afetar seriamente a direção segura.
+                    </p>
+
+                    <ul>
+                        <li>Não dirija quando estiver excessivamente cansado.</li>
+                        <li>Mantenha a calma enquanto dirige.</li>
+                        <li>Evite direção agressiva e egoísta.</li>
+                        <li>Descanse quando necessário.</li>
+                    </ul>
+
+                    <div class="warning-box">
+                        Fadiga e estresse emocional reduzem a concentração e o tempo de reação.
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>⚖️ Responsabilidade &amp; Atitude do Motorista</h3>
+
+                    <p>
+                        Os motoristas devem sempre dirigir com responsabilidade, educação e consideração pelos outros.
+                    </p>
+
+                    <ul>
+                        <li>Siga as leis de trânsito e os sinais viários.</li>
+                        <li>Proteja pedestres e usuários vulneráveis da via.</li>
+                        <li>Mantenha paciência e autocontrole.</li>
+                        <li>Priorize a segurança em vez da pressa.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- FINAL REVIEW -->
+
+        <section class="section">
+            <h2 class="section-title">✅ Pontos-Chave para o Exame</h2>
+
+            <div class="checklist">
+                <div class="check-card">
+                    <h4>🚦 Interseções</h4>
+
+                    <ul>
+                        <li>Uma luz verde não garante segurança completa.</li>
+                        <li>Sempre verifique os pontos cegos antes de virar.</li>
+                        <li>Dê prioridade a pedestres e bicicletas.</li>
+                    </ul>
+                </div>
+
+                <div class="check-card">
+                    <h4>🚶 Pedestres</h4>
+
+                    <ul>
+                        <li>Dê passagem aos pedestres nas faixas.</li>
+                        <li>Reduza a velocidade perto de escolas e áreas residenciais.</li>
+                        <li>Tenha cuidado com crianças que possam entrar repentinamente na rua.</li>
+                    </ul>
+                </div>
+
+                <div class="check-card">
+                    <h4>🏍️ Motocicletas</h4>
+
+                    <ul>
+                        <li>Use capacetes e equipamentos de proteção adequados.</li>
+                        <li>Freie de forma equilibrada e correta.</li>
+                        <li>Tenha cuidado em estradas escorregadias e com vento.</li>
+                    </ul>
+                </div>
+
+                <div class="check-card">
+                    <h4>🌧️ Clima</h4>
+
+                    <ul>
+                        <li>Aumente a distância de seguimento durante chuva e neve.</li>
+                        <li>Reduza a velocidade em estradas escorregadias.</li>
+                        <li>Use iluminação adequada à noite e em condições de nevoeiro.</li>
+                    </ul>
+                </div>
+
+                <div class="check-card">
+                    <h4>🛣️ Rodovias Expressas</h4>
+
+                    <ul>
+                        <li>Use corretamente as faixas de aceleração.</li>
+                        <li>Mantenha distâncias seguras de seguimento.</li>
+                        <li>Pare apenas em emergências.</li>
+                    </ul>
+                </div>
+
+                <div class="check-card">
+                    <h4>🚑 Emergências</h4>
+
+                    <ul>
+                        <li>Dê passagem imediatamente aos veículos de emergência.</li>
+                        <li>Reporte acidentes imediatamente.</li>
+                        <li>Mantenha a calma durante emergências.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+
+        <div class="footer">
+            🇯🇵 Revisor do Teste de Direção do Japão • Estude com Inteligência • Dirija com Segurança • Mantenha Todos Seguros
+        </div>
+    </div>
+</body>
+
+</html>
