@@ -1310,7 +1310,9 @@ def reviewer(reviewer_id):
         'tl',
         'ne',
         'vi',
-        'pt'
+        'pt',
+        'id',
+        'ar'
     ]
 
     if language not in allowed_languages:

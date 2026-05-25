@@ -30,7 +30,7 @@ UI_TEXT = {
         "karimen_test_2": "📝 Karimen Test 2",
 
         "honmen_mock": "🏁 Honmen Mock Test",
-        "honmen_test_1": "🏁 Honmen Test 1",
+        "honmen_test_1": "🛣 Honmen Master",
         "honmen_test_2": "🏁 Honmen Test 2",
         "honmen_test_3": "🏁 Honmen Test 3",
 
@@ -65,7 +65,7 @@ UI_TEXT = {
         "karimen_test_2": "📝 Karimen Test 2",
 
         "honmen_mock": "🏁 Honmen Mock Test",
-        "honmen_test_1": "🏁 Honmen Test 1",
+        "honmen_test_1": "🛣 Honmen Master",
         "honmen_test_2": "🏁 Honmen Test 2",
         "honmen_test_3": "🏁 Honmen Test 3",
 
@@ -117,7 +117,7 @@ UI_TEXT = {
 
         "honmen_mock": "🏁 होनमेन मोक टेस्ट",
 
-        "honmen_test_1": "🏁 होनमेन परीक्षा १",
+        "honmen_test_1": "🛣 होनमेन मास्टर",
 
         "honmen_test_2": "🏁 होनमेन परीक्षा २",
 
@@ -178,7 +178,7 @@ UI_TEXT = {
 
         "honmen_mock": "🏁 Bài Thi Honmen",
 
-        "honmen_test_1": "🏁 Bài Thi Honmen 1",
+        "honmen_test_1": "🛣 Honmen Master",
 
         "honmen_test_2": "🏁 Bài Thi Honmen 2",
 
@@ -239,7 +239,7 @@ UI_TEXT = {
 
         "honmen_mock": "🏁 Teste Honmen",
 
-        "honmen_test_1": "🏁 Teste Honmen 1",
+        "honmen_test_1": "🛣 Honmen Master",
 
         "honmen_test_2": "🏁 Teste Honmen 2",
 
@@ -331,6 +331,67 @@ UI_TEXT = {
         "manage_subscription": "💳 Kelola Langganan",
 
         "upgrade": "⭐ Upgrade"
+    },
+
+    "ar": {
+
+        "study_mode": "🧠 وضع الدراسة",
+
+        "reviewer_karimen": "🧠 مراجعة كاريمين",
+
+        "reviewer_honmen": "🧠 مراجعة هونمن",
+
+        "karimen_mock": "📝 اختبار كاريمين",
+
+        "karimen_test_1": "📝 اختبار كاريمين 1",
+
+        "karimen_test_2": "📝 اختبار كاريمين 2",
+
+        "honmen_mock": "🏁 اختبار هونمن",
+
+        "honmen_test_1": "🛣 هونمن ماستر",
+
+        "honmen_test_2": "🏁 اختبار هونمن 2",
+
+        "honmen_test_3": "🏁 اختبار هونمن 3",
+
+        "app_info": "⚙️ معلومات التطبيق",
+
+        "score_history": "📊 سجل الدرجات",
+
+        "privacy": "🔒 سياسة الخصوصية",
+
+        "terms": "📄 شروط الاستخدام",
+
+        "contact": "✉️ اتصل بنا",
+
+        "dark_mode": "🌙 الوضع الداكن",
+
+        "login": "👤 تسجيل الدخول",
+
+        "register": "📝 إنشاء حساب",
+
+        "logout": "🚪 تسجيل الخروج",
+
+        "welcome": "مرحبًا",
+
+        "ai_title": "🧠 مدرس الذكاء الاصطناعي",
+
+        "premium": "⭐ مستخدم بريميوم",
+
+        "select_language": "اختر اللغة",
+
+        "premium_reviewers": "🔒 مراجعات بريميوم",
+
+        "premium_features": "⭐ ميزات بريميوم",
+
+        "unlock_premium": "🔒 فتح بريميوم",
+
+        "premium_active": "✅ البريميوم مفعل",
+
+        "manage_subscription": "💳 إدارة الاشتراك",
+
+        "upgrade": "⭐ ترقية"
     },
 
     }
