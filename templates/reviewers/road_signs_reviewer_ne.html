@@ -1,0 +1,2818 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- ======================================================
+       META
+  ====================================================== -->
+
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>
+        Japan Driving Test Master
+    </title>
+
+    <!-- ======================================================
+       GOOGLE FONT
+  ====================================================== -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- ======================================================
+       CSS
+  ====================================================== -->
+
+    <style>
+        /* ======================================================
+       RESET
+    ====================================================== */
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+
+            font-family: 'Inter', sans-serif;
+
+            background:
+                radial-gradient(circle at top left, #1d4ed8 0%, transparent 25%),
+                radial-gradient(circle at top right, #7c3aed 0%, transparent 25%),
+                linear-gradient(180deg, #071120 0%, #0d1728 100%);
+
+            color: #fff;
+
+            min-height: 100vh;
+
+            overflow-x: hidden;
+
+            transition: 0.35s ease;
+        }
+
+        body.light-mode {
+
+            background:
+                radial-gradient(circle at top left, #dbeafe 0%, transparent 25%),
+                radial-gradient(circle at top right, #ede9fe 0%, transparent 25%),
+                linear-gradient(180deg, #f8fbff 0%, #eef2ff 100%);
+
+            color: #111827;
+        }
+
+        img {
+            display: block;
+            max-width: 100%;
+        }
+
+        button {
+            border: none;
+            outline: none;
+            cursor: pointer;
+            font-family: inherit;
+        }
+
+        /* ======================================================
+       APP
+    ====================================================== */
+
+        .app {
+            width: 100%;
+            max-width: 1500px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        /* ======================================================
+       HERO
+    ====================================================== */
+
+        .hero {
+
+            position: relative;
+
+            overflow: hidden;
+
+            border-radius: 34px;
+
+            padding: 34px 26px;
+
+            margin-bottom: 24px;
+
+            background: rgba(255, 255, 255, 0.08);
+
+            backdrop-filter: blur(18px);
+
+            border: 1px solid rgba(255, 255, 255, 0.12);
+
+            box-shadow:
+                0 12px 40px rgba(0, 0, 0, 0.28),
+                inset 0 1px 1px rgba(255, 255, 255, 0.08);
+        }
+
+        body.light-mode .hero {
+            background: rgba(255, 255, 255, 0.78);
+        }
+
+        .hero-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .hero-title {
+
+            font-size:
+                clamp(2.2rem, 5vw, 4.6rem);
+
+            line-height: 1.05;
+
+            font-weight: 800;
+
+            margin-bottom: 14px;
+        }
+
+        .hero-description {
+
+            max-width: 760px;
+
+            line-height: 1.9;
+
+            opacity: 0.92;
+
+            font-size: 1rem;
+        }
+
+        /* ======================================================
+       THEME BUTTON
+    ====================================================== */
+
+        .theme-btn {
+
+            width: 58px;
+            height: 58px;
+
+            border-radius: 18px;
+
+            background: rgba(255, 255, 255, 0.1);
+
+            backdrop-filter: blur(12px);
+
+            border: 1px solid rgba(255, 255, 255, 0.12);
+
+            color: #fff;
+
+            font-size: 1.2rem;
+
+            transition: 0.3s ease;
+        }
+
+        body.light-mode .theme-btn {
+            background: #fff;
+            color: #111827;
+        }
+
+        .theme-btn:hover {
+            transform: translateY(-3px);
+        }
+
+        .back-btn {
+
+            padding: 14px 20px;
+
+            border-radius: 18px;
+
+            background: rgba(255, 255, 255, 0.1);
+
+            backdrop-filter: blur(12px);
+
+            border: 1px solid rgba(255, 255, 255, 0.12);
+
+            color: #fff;
+
+            font-weight: 700;
+
+            transition: 0.3s ease;
+        }
+
+        .back-btn:hover {
+            transform: translateY(-3px);
+        }
+
+        body.light-mode .back-btn {
+            background: #fff;
+            color: #111827;
+        }
+
+        /* ======================================================
+       SEARCH
+    ====================================================== */
+
+        .search-wrapper {
+            position: relative;
+            margin-top: 28px;
+        }
+
+        .search-input {
+
+            width: 100%;
+
+            padding: 18px 20px 18px 58px;
+
+            border-radius: 22px;
+
+            border: none;
+            outline: none;
+
+            background: rgba(255, 255, 255, 0.08);
+
+            backdrop-filter: blur(12px);
+
+            border: 1px solid rgba(255, 255, 255, 0.12);
+
+            color: #fff;
+
+            font-size: 1rem;
+        }
+
+        body.light-mode .search-input {
+            background: #fff;
+            color: #111827;
+        }
+
+        .search-icon {
+
+            position: absolute;
+
+            left: 20px;
+            top: 50%;
+
+            transform: translateY(-50%);
+
+            opacity: 0.75;
+        }
+
+        /* ======================================================
+       CATEGORY NAVIGATION
+    ====================================================== */
+
+        .sticky-nav {
+
+            position: sticky;
+
+            top: 0;
+
+            z-index: 100;
+
+            padding: 14px 0;
+
+            backdrop-filter: blur(18px);
+        }
+
+        .tabs {
+
+            display: flex;
+
+            gap: 12px;
+
+            overflow-x: auto;
+
+            scrollbar-width: none;
+        }
+
+        .tabs::-webkit-scrollbar {
+            display: none;
+        }
+
+        .tab {
+
+            white-space: nowrap;
+
+            padding: 12px 20px;
+
+            border-radius: 999px;
+
+            background: rgba(255, 255, 255, 0.08);
+
+            border: 1px solid rgba(255, 255, 255, 0.12);
+
+            color: #fff;
+
+            font-weight: 700;
+
+            transition: 0.3s ease;
+        }
+
+        body.light-mode .tab {
+            background: #fff;
+            color: #111827;
+        }
+
+        .tab.active {
+
+            background:
+                linear-gradient(135deg,
+                    #2563eb,
+                    #7c3aed);
+
+            border: none;
+        }
+
+        /* ======================================================
+       GRID
+    ====================================================== */
+
+        .grid {
+
+            display: grid;
+
+            grid-template-columns:
+                repeat(auto-fit, minmax(270px, 1fr));
+
+            gap: 22px;
+
+            margin-top: 24px;
+        }
+
+        /* ======================================================
+       CARD
+    ====================================================== */
+
+        .card {
+
+            position: relative;
+
+            overflow: hidden;
+
+            border-radius: 30px;
+
+            background: rgba(255, 255, 255, 0.08);
+
+            backdrop-filter: blur(18px);
+
+            border: 1px solid rgba(255, 255, 255, 0.12);
+
+            box-shadow:
+                0 12px 35px rgba(0, 0, 0, 0.22);
+
+            transition: 0.35s ease;
+
+            animation: fadeIn 0.35s ease;
+        }
+
+        body.light-mode .card {
+            background: rgba(255, 255, 255, 0.78);
+        }
+
+        .card:hover {
+
+            transform: translateY(-6px);
+
+            box-shadow:
+                0 25px 45px rgba(0, 0, 0, 0.25);
+        }
+
+        .card,
+        .expand-btn,
+        .theme-btn,
+        .back-btn,
+        .scroll-top {
+          will-change: transform;
+        }
+
+        /* ======================================================
+       CARD TOP
+    ====================================================== */
+
+        .card-top {
+
+            min-height: 190px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            padding: 24px;
+
+            background:
+                linear-gradient(135deg,
+                    rgba(255, 255, 255, 0.08),
+                    rgba(255, 255, 255, 0.03));
+        }
+
+        .card-top img {
+
+            width: 115px;
+            height: 115px;
+
+            object-fit: contain;
+
+            transition: 0.3s ease;
+        }
+
+        .card:hover img {
+            transform: scale(1.06);
+        }
+
+        /* ======================================================
+       CARD BODY
+    ====================================================== */
+
+        .card-body {
+            padding: 22px;
+        }
+
+        .category {
+
+            display: inline-flex;
+
+            align-items: center;
+
+            padding: 8px 13px;
+
+            border-radius: 999px;
+
+            background: rgba(59, 130, 246, 0.2);
+
+            color: #93c5fd;
+
+            font-size: 0.76rem;
+
+            font-weight: 700;
+
+            margin-bottom: 14px;
+        }
+
+        body.light-mode .category {
+            background: #dbeafe;
+            color: #1d4ed8;
+        }
+
+        .sign-title {
+            font-size: 1.1rem;
+            font-weight: 800;
+            margin-bottom: 6px;
+        }
+
+        .sign-jp {
+            opacity: 0.75;
+            margin-bottom: 14px;
+        }
+
+        .description {
+            line-height: 1.7;
+            opacity: 0.92;
+            font-size: 0.95rem;
+        }
+
+        /* ======================================================
+       EXPAND BUTTON
+    ====================================================== */
+
+        .expand-btn {
+
+            width: 100%;
+
+            margin-top: 18px;
+
+            padding: 13px;
+
+            border-radius: 18px;
+
+            background:
+                linear-gradient(135deg,
+                    #2563eb,
+                    #7c3aed);
+
+            color: #fff;
+
+            font-weight: 700;
+
+            transition: 0.3s ease;
+        }
+
+        .expand-btn:hover {
+            transform: translateY(-2px);
+        }
+
+        /* ======================================================
+       LEARN MORE
+    ====================================================== */
+
+        .extra {
+
+            max-height: 0;
+
+            overflow: hidden;
+
+            transition: max-height 0.45s ease;
+        }
+
+        .extra.open {
+            max-height: 1600px;
+        }
+
+        .learn-box {
+
+            margin-top: 18px;
+
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+
+        .learn-section {
+
+            padding: 15px;
+
+            border-radius: 20px;
+
+            background: rgba(255, 255, 255, 0.06);
+
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        body.light-mode .learn-section {
+            background: rgba(255, 255, 255, 0.85);
+        }
+
+        .learn-section h4 {
+
+            margin-bottom: 8px;
+
+            font-size: 0.92rem;
+
+            font-weight: 700;
+        }
+
+        .learn-section p {
+
+            line-height: 1.75;
+
+            font-size: 0.92rem;
+
+            opacity: 0.9;
+        }
+
+        /* ======================================================
+       LISTS
+    ====================================================== */
+
+        .learn-list {
+
+            margin-top: 12px;
+
+            padding-left: 18px;
+
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .learn-list li {
+
+            line-height: 1.7;
+
+            font-size: 0.9rem;
+
+            opacity: 0.9;
+        }
+
+        /* ======================================================
+       QUIZ BOX
+    ====================================================== */
+
+        .quiz-box {
+
+            margin-top: 12px;
+
+            padding: 14px;
+
+            border-radius: 18px;
+
+            background:
+                linear-gradient(135deg,
+                    rgba(37, 99, 235, 0.18),
+                    rgba(124, 58, 237, 0.18));
+
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        .quiz-question {
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .quiz-answer {
+            opacity: 0.9;
+            line-height: 1.7;
+        }
+
+        /* ======================================================
+       MEMORY TIP
+    ====================================================== */
+
+        .memory-tip {
+
+            margin-top: 12px;
+
+            padding: 14px;
+
+            border-radius: 16px;
+
+            background: rgba(255, 255, 255, 0.08);
+
+            text-align: center;
+
+            font-size: 0.95rem;
+        }
+
+        /* ======================================================
+       RELATED BADGES
+    ====================================================== */
+
+        .related-signs {
+
+            display: flex;
+
+            flex-wrap: wrap;
+
+            gap: 10px;
+
+            margin-top: 12px;
+        }
+
+        .related-badge {
+
+            padding: 10px 14px;
+
+            border-radius: 999px;
+
+            background: rgba(255, 255, 255, 0.08);
+
+            border: 1px solid rgba(255, 255, 255, 0.08);
+
+            font-size: 0.82rem;
+
+            font-weight: 600;
+        }
+
+        body.light-mode .related-badge {
+            background: #f3f4f6;
+        }
+
+        /* ======================================================
+       EMPTY
+    ====================================================== */
+
+        .empty {
+
+            display: none;
+
+            text-align: center;
+
+            padding: 80px 20px;
+
+            opacity: 0.7;
+        }
+
+        /* ======================================================
+       FAB
+    ====================================================== */
+
+        .scroll-top {
+
+            position: fixed;
+
+            right: 20px;
+            bottom: 20px;
+
+            width: 62px;
+            height: 62px;
+
+            border-radius: 50%;
+
+            background:
+                linear-gradient(135deg,
+                    #2563eb,
+                    #7c3aed);
+
+            color: #fff;
+
+            font-size: 1.3rem;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            box-shadow:
+                0 15px 35px rgba(37, 99, 235, 0.4);
+
+            z-index: 999;
+
+            transition: 0.3s ease;
+        }
+
+        .scroll-top:hover {
+            transform: translateY(-4px);
+        }
+
+        /* ======================================================
+       ANIMATION
+    ====================================================== */
+
+        @keyframes fadeIn {
+
+            from {
+                opacity: 0;
+                transform: translateY(12px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+
+        }
+
+        /* ======================================================
+       MOBILE
+    ====================================================== */
+
+        @media(max-width:768px) {
+
+            .hero {
+                padding: 28px 20px;
+            }
+
+            .grid {
+                grid-template-columns: 1fr;
+            }
+
+            .card-top {
+                min-height: 160px;
+            }
+
+            .card-top img {
+                width: 95px;
+                height: 95px;
+            }
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="app">
+        <!-- ======================================================
+     HERO
+====================================================== -->
+
+        <section class="hero">
+
+            <div class="hero-top">
+
+                <button class="back-btn" onclick="window.location.href='/reviewers'">
+                    ← फिर्ता
+                </button>
+
+                <div>
+
+                    <h1 class="hero-title">
+                        🇯🇵 जापानी सडक चिन्ह पुनरावलोकन
+                    </h1>
+
+                    <p class="hero-description">
+                        अन्तरक्रियात्मक प्रिमियम फ्ल्यासकार्ड शैलीको पुनरावलोकनमार्फत जापानी सडक चिन्हहरू सिक्नुहोस्।
+                        जापानी ड्राइभिङ परीक्षा तयारी गर्ने विद्यार्थीहरूका लागि उपयुक्त।
+                    </p>
+
+                </div>
+
+                <button class="theme-btn" id="themeToggle">
+                    🌙
+                </button>
+
+            </div>
+
+            <!-- SEARCH -->
+
+            <div class="search-wrapper">
+
+                <span class="search-icon">
+                    🔍
+                </span>
+
+                <input type="text" class="search-input" id="searchInput" placeholder="जापानी सडक चिन्हहरू खोज्नुहोस्...">
+
+            </div>
+
+        </section>
+
+        <!-- ======================================================
+     CATEGORY NAVIGATION
+====================================================== -->
+
+        <div class="sticky-nav">
+
+            <div class="tabs">
+
+                <button class="tab active" data-category="All">
+                    सबै
+                </button>
+
+                <button class="tab" data-category="Regulatory Signs">
+                    नियामक
+                </button>
+
+                <button class="tab" data-category="Warning Signs">
+                    चेतावनी
+                </button>
+
+                <button class="tab" data-category="Mandatory Signs">
+                    अनिवार्य
+                </button>
+
+                <button class="tab" data-category="Prohibition Signs">
+                    निषेध
+                </button>
+
+                <button class="tab" data-category="Parking & Stopping Signs">
+                    पार्किङ
+                </button>
+
+                <button class="tab" data-category="Guide Signs">
+                    मार्गदर्शन
+                </button>
+
+                <button class="tab" data-category="Expressway Signs">
+                    एक्सप्रेसवे
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- ======================================================
+     GRID
+====================================================== -->
+
+        <div class="grid" id="signGrid"></div>
+
+        <!-- EMPTY -->
+
+        <div class="empty" id="emptyState">
+            <h2>
+                कुनै सडक चिन्ह फेला परेन।
+            </h2>
+        </div>
+    </div> <!-- ====================================================== FLOATING BUTTON ====================================================== -->
+
+    <button class="scroll-top" id="scrollTopBtn" ↑ </button> <!-- ====================================================== JAVASCRIPT ====================================================== -->
+        <script>
+            /* ====================================================== ROAD SIGN DATASET ====================================================== */
+            const roadSigns = [{
+                name_en: "रोक्नुहोस्",
+                name_jp: "止まれ",
+                image: "/static/images/signs/stop.png",
+                explanation: "अगाडि बढ्नु अघि चालकले पूर्ण रूपमा रोक्नुपर्छ।",
+                category: "Regulatory Signs",
+                learn_more: {
+                    meaning: "यो चिन्हले चालकलाई चौराहामा प्रवेश गर्नु अघि पूर्ण रूपमा रोक्न आवश्यक भएको जनाउँछ।",
+                    driver_action: "चालकले स्टप लाइन पछाडि पूर्ण रूपमा रोक्नुपर्छ र अगाडि बढ्नु अघि दुवै दिशा सावधानीपूर्वक जाँच गर्नुपर्छ।",
+                    exam_tip: "चलिरहेको अवस्थामा मात्र ढिलो गर्नु सामान्यतया जापानी ड्राइभिङ परीक्षामा ठूलो अंक कटौतीको कारण बन्छ।",
+                    safety: "ठीकसँग नरोक्दा सवारी साधन, साइकल वा पैदलयात्रीसँग ठोक्किने जोखिम हुन्छ।",
+                    real_world: "सामान्यतया आवासीय सडक, चौराहा र रेल क्रसिङमा देखिन्छ।",
+                    memory_tip: "रातो उल्टो त्रिकोणले तुरुन्त ध्यान र रोक्नुपर्ने जनाउँछ।"
+                }
+            }, {
+                name_en: "प्रवेश निषेध",
+                name_jp: "進入禁止",
+                image: "/static/images/signs/no_entry.png",
+                explanation: "यस दिशाबाट सवारी साधन प्रवेश गर्न निषेध गरिएको छ।",
+                category: "Prohibition Signs",
+                learn_more: {
+                    meaning: "यस दिशाबाट सवारी साधन प्रवेश गर्न पाइँदैन।",
+                    driver_action: "चालकले तुरुन्तै यो सडकमा प्रवेश गर्नबाट जोगिनुपर्छ।",
+                    exam_tip: "जापानी लिखित ड्राइभिङ परीक्षामा बारम्बार देखिन्छ।",
+                    safety: "यो चिन्ह बेवास्ता गर्दा आमनेसामने ठक्कर हुन सक्छ।",
+                    real_world: "सामान्यतया एकतर्फी सडक र एक्सप्रेसवे निकासमा देखिन्छ।",
+                    memory_tip: "सेतो केन्द्र भएको रातो घेराले अवरुद्ध प्रवेश जनाउँछ।"
+                }
+            }, {
+                name_en: "गति सीमा 40",
+                name_jp: "最高速度40",
+                image: "/static/images/signs/speed_40.png",
+                explanation: "अधिकतम कानुनी गति 40 किमी/घण्टा हो।",
+                category: "Regulatory Signs",
+                learn_more: {
+                    meaning: "चालकले प्रति घण्टा 40 किलोमिटर भन्दा बढी गति गर्न पाउँदैन।",
+                    driver_action: "तोकिएको गति सीमा भन्दा तल गति कायम राख्नुहोस्।",
+                    exam_tip: "गति सीमा चिन्हहरू लिखित परीक्षामा अत्यन्त सामान्य हुन्छन्।",
+                    safety: "तीव्र गतिले रोक्ने दूरी र दुर्घटनाको जोखिम बढाउँछ।",
+                    real_world: "प्रायः सहरी सडक र आवासीय क्षेत्रमा देखिन्छ।",
+                    memory_tip: "रातो किनारा भएका सेता घेराहरूले सामान्यतया नियमहरू जनाउँछन्।"
+                }
+            }, {
+                name_en: "पार्किङ निषेध",
+                name_jp: "駐車禁止",
+                image: "/static/images/signs/no_parking.png",
+                explanation: "यस क्षेत्रमा पार्किङ गर्न निषेध गरिएको छ।",
+                category: "Parking & Stopping Signs",
+                learn_more: {
+                    meaning: "यस क्षेत्रमा सवारी साधन पार्क गर्न पाइँदैन।",
+                    driver_action: "चालकले छोटो समयका लागि रोक्न सक्छन् तर सवारी पार्क गरेर छोड्न पाउँदैनन्।",
+                    exam_tip: "प्रश्नहरूमा पार्किङ निषेध र रोक्न निषेध बीचको फरक सोधिन सक्छ।",
+                    safety: "अवैध पार्किङले ट्राफिक र आपतकालीन सवारी साधन अवरुद्ध गर्न सक्छ।",
+                    real_world: "साँघुरा जापानी सडकहरूमा धेरै सामान्य।",
+                    memory_tip: "एउटा रातो रेखाले पार्किङ प्रतिबन्ध जनाउँछ।"
+                }
+            }, {
+                name_en: "रोक्न निषेध",
+                name_jp: "駐停車禁止",
+                image: "/static/images/signs/no_stopping.png",
+                explanation: "रोक्न र पार्किङ गर्न निषेध गरिएको छ।",
+                category: "Parking & Stopping Signs",
+                learn_more: {
+                    meaning: "यहाँ सवारी साधन रोक्न वा पार्क गर्न पाइँदैन।",
+                    driver_action: "आपतकालीन अवस्था नभएसम्म चालकले चलिरहनुपर्छ।",
+                    exam_tip: "यो चिन्हले पार्किङ निषेध भन्दा कडा नियम जनाउँछ।",
+                    safety: "यहाँ रोक्दा खतरनाक ट्राफिक अवरोध सिर्जना हुन सक्छ।",
+                    real_world: "सामान्यतया चौराहा र व्यस्त सडक नजिक देखिन्छ।",
+                    memory_tip: "दुई रातो रेखाले अझ कडा प्रतिबन्ध जनाउँछ।"
+                }
+            }, /* ====================================================== ADDITIONAL PREMIUM JAPANESE ROAD SIGNS CONTINUE ADDING INSIDE roadSigns ARRAY ====================================================== */ {
+                name_en: "अगाडि पैदलयात्री क्रसिङ",
+                name_jp: "横断歩道あり",
+                image: "/static/images/signs/pedestrian_crossing_ahead.png",
+                explanation: "अगाडि पैदलयात्री क्रसिङ छ।",
+                category: "Warning Signs",
+                learn_more: {
+                    meaning: "यो चिन्हले अगाडि पैदलयात्री क्रसिङ रहेको चेतावनी दिन्छ।",
+                    driver_action: "चालकले गति घटाउनुपर्छ र पैदलयात्रीका लागि रोक्न तयार हुनुपर्छ।",
+                    exam_tip: "जापानी परीक्षामा प्रायः पैदलयात्रीको प्राथमिकता सम्बन्धी नियमहरू सोधिन्छ।",
+                    safety: "पैदलयात्रीका लागि नरोक्दा गम्भीर दुर्घटना हुन सक्छ।",
+                    real_world: "विद्यालय, स्टेशन र चौराहा नजिक धेरै सामान्य।",
+                    memory_tip: "हिँडिरहेको चिन्ह भएका नीलो संकेतहरू सामान्यतया पैदलयात्रीसँग सम्बन्धित हुन्छन्।"
+                }
+            }, {
+                name_en: "विद्यालय क्षेत्र",
+                name_jp: "学校あり",
+                image: "/static/images/signs/school_zone.png",
+                explanation: "अगाडि विद्यालय क्षेत्र छ।",
+                category: "Warning Signs",
+                learn_more: {
+                    meaning: "बालबालिकाहरू अचानक सडक पार गर्न वा सडक नजिक देखिन सक्छन्।",
+                    driver_action: "चालकले गति घटाउनुपर्छ र सतर्क रहनुपर्छ।",
+                    exam_tip: "बालबालिकासँग सम्बन्धित लुकेका पैदलयात्री प्रश्नहरूमा ध्यान दिनुहोस्।",
+                    safety: "बालबालिकाहरू अप्रत्याशित हुन्छन् र अचानक सडक पार गर्न सक्छन्।",
+                    real_world: "प्राथमिक विद्यालय र आवासीय क्षेत्र नजिक सामान्य।",
+                    memory_tip: "पहेंलो चिन्हमा बालबालिकाको चित्रले विद्यालय वरपर सावधानी जनाउँछ।"
+                }
+            },
+        {
+      name_en:"रेलवे क्रसिङ",
+      name_jp:"踏切あり",
+      image:"/static/images/signs/railroad_crossing.png",
+      explanation:"अगाडि रेलवे क्रसिङ छ।",
+      category:"Warning Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "अगाडि रेलवे क्रसिङ आउँदैछ।",
+    
+        driver_action:
+        "चालकले गति घटाउनुपर्छ र रेलका लागि सावधानीपूर्वक जाँच गर्नुपर्छ।",
+    
+        exam_tip:
+        "जापानी व्यावहारिक परीक्षामा रेलवे क्रसिङ व्यवहारलाई धेरै महत्त्व दिइन्छ।",
+    
+        safety:
+        "रेलवे क्रसिङ नियम बेवास्ता गर्दा घातक दुर्घटना हुन सक्छ।",
+    
+        real_world:
+        "जापानका उपनगरीय र ग्रामीण क्षेत्रमा धेरै सामान्य।",
+    
+        memory_tip:
+        "रेलको चिन्ह भएका पहेंलो चेतावनी संकेतहरूले रेलवे क्रसिङ जनाउँछन्।"
+      }
+    },
+    
+    {
+      name_en:"अगाडि ट्राफिक संकेत",
+      name_jp:"信号機あり",
+      image:"/static/images/signs/traffic_signals.png",
+      explanation:"अगाडि ट्राफिक बत्तीहरू छन्।",
+      category:"Warning Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "चालकहरू संकेतद्वारा नियन्त्रित चौराहातर्फ जाँदैछन्।",
+    
+        driver_action:
+        "ट्राफिक संकेत परिवर्तन अनुसार रोक्न तयार हुनुहोस्।",
+    
+        exam_tip:
+        "प्रश्नहरूमा पहेंलो बत्तीको निर्णय समय समावेश हुन सक्छ।",
+    
+        safety:
+        "संकेतप्रति ढिलो प्रतिक्रिया हुँदा ठक्कर हुन सक्छ।",
+    
+        real_world:
+        "व्यस्त चौराहा र क्रसिङ अघि पाइन्छ।",
+    
+        memory_tip:
+        "संकेतका चित्रहरूले अगाडि ट्राफिक बत्ती भएको जनाउँछन्।"
+      }
+    },
+    
+    {
+      name_en:"सडक साँघुरो हुन्छ",
+      name_jp:"幅員減少",
+      image:"/static/images/signs/road_narrows.png",
+      explanation:"अगाडि सडक साँघुरो हुन्छ।",
+      category:"Warning Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "अगाडि सडकको चौडाइ घट्छ।",
+    
+        driver_action:
+        "गति घटाउनुहोस् र साँघुरो ट्राफिक अवस्थाका लागि तयार हुनुहोस्।",
+    
+        exam_tip:
+        "चालकले सुरक्षित साइड दूरी कायम राख्नुपर्छ।",
+    
+        safety:
+        "साँघुरा सडकहरूले ठक्करको जोखिम बढाउँछन्।",
+    
+        real_world:
+        "पुराना जापानी आवासीय सडकहरूमा सामान्य।",
+    
+        memory_tip:
+        "एकआपसमा नजिकिने रेखाहरूले साँघुरो सडक जनाउँछन्।"
+      }
+    },
+    
+    {
+      name_en:"चिप्लो सडक",
+      name_jp:"すべりやすい",
+      image:"/static/images/signs/slippery_road.png",
+      explanation:"सडक चिप्लो हुन सक्छ।",
+      category:"Warning Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "सडकको अवस्थाले टायरको पकड कम गर्न सक्छ।",
+    
+        driver_action:
+        "चालकले गति घटाउनुपर्छ र अचानक स्टेयरिङ गर्नबाट बच्नुपर्छ।",
+    
+        exam_tip:
+        "सुरक्षित ब्रेक दूरी सम्बन्धी प्रश्नहरू सामान्य हुन्छन्।",
+    
+        safety:
+        "चिप्लो सडकले गाडी चिप्लिने जोखिम बढाउँछ।",
+    
+        real_world:
+        "वर्षा वा हिउँ पर्ने समयमा प्रायः देखिन्छ।",
+    
+        memory_tip:
+        "चिप्लिरहेको सवारीको चिन्हले चिप्लो सतह जनाउँछ।"
+      }
+    },
+    
+    {
+      name_en:"खस्ने ढुङ्गा",
+      name_jp:"落石のおそれあり",
+      image:"/static/images/signs/falling_rocks.png",
+      explanation:"खस्ने ढुङ्गाबाट सावधान रहनुहोस्।",
+      category:"Warning Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "नजिकका भीर वा पहाडबाट ढुङ्गा खस्न सक्छ।",
+    
+        driver_action:
+        "चालकले सावधानीपूर्वक अगाडि बढ्नुपर्छ र नजिकै रोक्नबाट बच्नुपर्छ।",
+    
+        exam_tip:
+        "पहाडी सडकका जोखिमहरू लिखित परीक्षामा आउन सक्छन्।",
+    
+        safety:
+        "खस्ने ढुङ्गाले सवारी साधनलाई गम्भीर क्षति पुर्‍याउन सक्छ।",
+    
+        real_world:
+        "जापानका पहाडी क्षेत्रमा सामान्य।",
+    
+        memory_tip:
+        "तल खसिरहेको ढुङ्गाको चिन्हले ढुङ्गा खस्ने खतरा जनाउँछ।"
+      }
+    },
+    
+    {
+      name_en:"जनावर पार गर्ने क्षेत्र",
+      name_jp:"動物注意",
+      image:"/static/images/signs/animal_crossing.png",
+      explanation:"अगाडि जनावरहरूले सडक पार गर्न सक्छन्।",
+      category:"Warning Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "जंगली जनावरहरूले अचानक सडक पार गर्न सक्छन्।",
+    
+        driver_action:
+        "गति घटाउनुहोस् र सडक किनार ध्यानपूर्वक हेर्नुहोस्।",
+    
+        exam_tip:
+        "जोखिम पहिचान प्रश्नहरूमा जनावरहरू समावेश हुन सक्छन्।",
+    
+        safety:
+        "जनावरसँगको ठक्करले गम्भीर दुर्घटना गराउन सक्छ।",
+    
+        real_world:
+        "जंगल र पहाडी सडकहरूमा देखिन्छ।",
+    
+        memory_tip:
+        "जनावरको छायाचित्रले वन्यजन्तु सावधानी जनाउँछ।"
+      }
+    },
+    
+    {
+      name_en:"यू-टर्न निषेध",
+      name_jp:"転回禁止",
+      image:"/static/images/signs/no_uturn.png",
+      explanation:"यू-टर्न गर्न निषेध गरिएको छ।",
+      category:"Prohibition Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "यहाँ सवारी साधनले यू-टर्न गर्न पाउँदैन।",
+    
+        driver_action:
+        "सिधै अगाडि जानुहोस् र कानुनी रूपमा मोड्न मिल्ने स्थान खोज्नुहोस्।",
+    
+        exam_tip:
+        "यू-टर्न प्रतिबन्ध सम्बन्धी प्रश्नहरू बारम्बार आउँछन्।",
+    
+        safety:
+        "अवैध यू-टर्नले ट्राफिक प्रवाह अवरुद्ध गर्न सक्छ।",
+    
+        real_world:
+        "व्यस्त सहरी सडकहरूमा सामान्य।",
+    
+        memory_tip:
+        "क्रस गरिएको बाण भएको रातो घेराले निषेधित कार्य जनाउँछ।"
+      }
+    },
+    
+    {
+      name_en:"ओभरटेक निषेध",
+      name_jp:"追い越し禁止",
+      image:"/static/images/signs/no_overtaking.png",
+      explanation:"अन्य सवारी साधनलाई उछिनेर जान निषेध गरिएको छ।",
+      category:"Prohibition Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "चालकले अगाडिका सवारी साधनलाई उछिनेर जान पाउँदैन।",
+    
+        driver_action:
+        "प्रतिबन्ध समाप्त नभएसम्म ढिलो ट्राफिकको पछाडि बस्नुहोस्।",
+    
+        exam_tip:
+        "परीक्षामा केन्द्र रेखासम्बन्धी नियम सोधिन सक्छ।",
+    
+        safety:
+        "असुरक्षित ओभरटेक गर्दा आमनेसामने ठक्कर हुन सक्छ।",
+    
+        real_world:
+        "घुमाउरो र साँघुरा सडकहरूमा सामान्य।",
+    
+        memory_tip:
+        "दुई सवारी साधनका चिन्हहरूले सामान्यतया ओभरटेकसँग सम्बन्ध जनाउँछन्।"
+      }
+    },
+    
+    {
+      name_en:"एकतर्फी सडक",
+      name_jp:"一方通行",
+      image:"/static/images/signs/one_way.png",
+      explanation:"ट्राफिक केवल एक दिशामा बग्छ।",
+      category:"Regulatory Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "सवारी साधनले केवल देखाइएको दिशामा मात्र यात्रा गर्न सक्छ।",
+    
+        driver_action:
+        "अनुमति दिइएको दिशा सावधानीपूर्वक पालना गर्नुहोस्।",
+    
+        exam_tip:
+        "एकतर्फी सडक सम्बन्धी प्रश्नहरू परीक्षामा सामान्य हुन्छन्।",
+    
+        safety:
+        "ट्राफिकको विपरीत दिशामा चलाउनु अत्यन्त खतरनाक हुन्छ।",
+    
+        real_world:
+        "जापानी शहरका सडकहरूमा धेरै सामान्य।",
+    
+        memory_tip:
+        "दिशात्मक बाणहरूले अनुमति प्राप्त यात्रा दिशा जनाउँछन्।"
+      }
+    },
+    {
+      name_en:"एक्सप्रेसवे",
+      name_jp:"高速道路",
+      image:"/static/images/signs/expressway.png",
+      explanation:"अगाडि एक्सप्रेसवे सुरु हुन्छ।",
+      category:"Expressway Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "चालकहरू एक्सप्रेसवेमा प्रवेश गर्दैछन्।",
+    
+        driver_action:
+        "सुरक्षित रूपमा गति बढाउनुहोस् र सही तरिकाले मर्ज गर्नुहोस्।",
+    
+        exam_tip:
+        "एक्सप्रेसवे मर्ज गर्ने नियमहरू परीक्षामा महत्त्वपूर्ण हुन्छन्।",
+    
+        safety:
+        "गलत मर्जिङले उच्च गतिका दुर्घटना गराउन सक्छ।",
+    
+        real_world:
+        "एक्सप्रेसवे प्रवेशद्वारमा देखिन्छ।",
+    
+        memory_tip:
+        "हरियो चिन्हहरू सामान्यतया एक्सप्रेसवेसँग सम्बन्धित हुन्छन्।"
+      }
+    },
+    
+    {
+      name_en:"एक्सप्रेसवे निकास",
+      name_jp:"出口",
+      image:"/static/images/signs/expressway_exit.png",
+      explanation:"अगाडि एक्सप्रेसवे निकास छ।",
+      category:"Expressway Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "चालकहरू एक्सप्रेसवे निकासतर्फ जाँदैछन्।",
+    
+        driver_action:
+        "चाँडै सही निकास लेनमा जानुहोस्।",
+    
+        exam_tip:
+        "व्यावहारिक परीक्षामा लेनको सही स्थिति महत्त्वपूर्ण हुन्छ।",
+    
+        safety:
+        "ढिलो लेन परिवर्तन खतरनाक हुन सक्छ।",
+    
+        real_world:
+        "जापानी एक्सप्रेसवेभरि पाइन्छ।",
+    
+        memory_tip:
+        "निकास बाणहरूले एक्सप्रेसवे छोड्ने जनाउँछन्।"
+      }
+    },
+    
+    {
+      name_en:"पार्किङ क्षेत्र",
+      name_jp:"駐車場",
+      image:"/static/images/signs/parking_area.png",
+      explanation:"नजिकै पार्किङ क्षेत्र छ।",
+      category:"Guide Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "नजिकै पार्किङ सुविधा उपलब्ध छ।",
+    
+        driver_action:
+        "चालकहरूले केवल तोकिएको क्षेत्रमा मात्र पार्क गर्नुपर्छ।",
+    
+        exam_tip:
+        "व्यावहारिक ड्राइभिङ परीक्षामा पार्किङ नियमहरू महत्त्वपूर्ण हुन्छन्।",
+    
+        safety:
+        "गलत पार्किङले सडक र आपतकालीन पहुँच अवरुद्ध गर्न सक्छ।",
+    
+        real_world:
+        "किनमेल क्षेत्र र स्टेशन नजिक सामान्य।",
+    
+        memory_tip:
+        "P चिन्ह भएका नीलो संकेतहरूले पार्किङ जनाउँछन्।"
+      }
+    },
+    
+        /* ======================================================
+       ADDITIONAL UNIQUE JAPANESE ROAD SIGNS
+       NO DUPLICATES
+       ADD BELOW YOUR EXISTING roadSigns ARRAY
+    ====================================================== */
+    
+    {
+      name_en:"बायाँतर्फ जानुहोस्",
+      name_jp:"左側通行",
+      image:"/static/images/signs/keep_left.png",
+      explanation:"चालकहरूले सडकको बायाँतर्फ चलाउनुपर्छ।",
+      category:"Mandatory Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "सवारी साधनहरूले सडकको बायाँतर्फ यात्रा गर्नुपर्छ।",
+    
+        driver_action:
+        "चालकले बायाँतर्फ रहनुपर्छ र विपरीत लेनमा जानबाट बच्नुपर्छ।",
+    
+        exam_tip:
+        "जापानमा बायाँतर्फ गाडी चलाइन्छ, र यो सामान्यतया परीक्षामा सोधिन्छ।",
+    
+        safety:
+        "गलत लेन स्थितिले आमनेसामने ठक्कर गराउन सक्छ।",
+    
+        real_world:
+        "सडक विभाजक र साँघुरा सडक नजिक सामान्य।",
+    
+        memory_tip:
+        "नीलो गोलाकार चिन्हहरूले सामान्यतया अनिवार्य कार्य जनाउँछन्।"
+      }
+    },
+    
+    {
+      name_en:"दायाँतर्फ जानुहोस्",
+      name_jp:"右側通行",
+      image:"/static/images/signs/keep_right.png",
+      explanation:"चालकहरूले सडकको दायाँतर्फ चलाउनुपर्छ।",
+      category:"Mandatory Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "चालकहरूले अवरोधको दायाँतर्फबाट जानुपर्छ वा यात्रा गर्नुपर्छ।",
+    
+        driver_action:
+        "निर्देशन दिइए अनुसार सावधानीपूर्वक दायाँतर्फ जानुहोस्।",
+    
+        exam_tip:
+        "प्रायः लेन नियन्त्रण सम्बन्धी प्रश्नहरूमा देखिन्छ।",
+    
+        safety:
+        "दिशात्मक चिन्ह बेवास्ता गर्दा ट्राफिक प्रवाह अवरुद्ध हुन सक्छ।",
+    
+        real_world:
+        "निर्माण क्षेत्र र सडकको बीच भाग नजिक देखिन्छ।",
+    
+        memory_tip:
+        "दिशात्मक बाणहरूले आवश्यक सवारी चाल जनाउँछन्।"
+      }
+    },
+    
+    {
+      name_en:"सिधै अगाडि मात्र",
+      name_jp:"直進のみ",
+      image:"/static/images/signs/straight_only.png",
+      explanation:"सवारी साधनले सिधै अगाडि बढ्नुपर्छ।",
+      category:"Mandatory Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "मोड्न निषेध गरिएको छ र चालकले सिधै अगाडि जानुपर्छ।",
+    
+        driver_action:
+        "हालको लेनमै रहनुहोस् र केवल अगाडि बढ्नुहोस्।",
+    
+        exam_tip:
+        "दिशा प्रतिबन्ध सम्बन्धी प्रश्नहरू परीक्षामा सामान्य हुन्छन्।",
+    
+        safety:
+        "अप्रत्याशित मोडले नजिकको ट्राफिकसँग दुर्घटना गराउन सक्छ।",
+    
+        real_world:
+        "प्रायः व्यस्त चौराहामा पाइन्छ।",
+    
+        memory_tip:
+        "माथितर्फको बाणले केवल अगाडि जाने जनाउँछ।"
+      }
+    },
+    
+    {
+      name_en:"पैदलयात्री मात्र",
+      name_jp:"歩行者専用",
+      image:"/static/images/signs/pedestrian_only.png",
+      explanation:"यो सडक केवल पैदलयात्रीका लागि आरक्षित छ।",
+      category:"Mandatory Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "यस क्षेत्रमा केवल पैदलयात्री मात्र प्रवेश गर्न सक्छन्।",
+    
+        driver_action:
+        "चालकले पैदलयात्री मात्र क्षेत्रभित्र प्रवेश गर्नबाट बच्नुपर्छ।",
+    
+        exam_tip:
+        "पैदलयात्री सुरक्षा नियमहरूमा ध्यान दिनुहोस्।",
+    
+        safety:
+        "सवारी प्रवेशले पैदलयात्रीलाई जोखिममा पार्न सक्छ।",
+    
+        real_world:
+        "किनमेल सडक र स्टेशन नजिक सामान्य।",
+    
+        memory_tip:
+        "हिँडिरहेको व्यक्तिको चिन्हले पैदलयात्री क्षेत्र जनाउँछ।"
+      }
+    },
+    
+    {
+      name_en:"साइकल लेन",
+      name_jp:"自転車専用",
+      image:"/static/images/signs/bicycle_lane.png",
+      explanation:"यो लेन साइकलका लागि आरक्षित छ।",
+      category:"Mandatory Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "यो लेन केवल साइकलका लागि मात्र आरक्षित छ।",
+    
+        driver_action:
+        "चालकले साइकल लेनमा प्रवेश गर्न वा अवरोध गर्न पाउँदैन।",
+    
+        exam_tip:
+        "प्रश्नहरूमा साइकल लेन सुरक्षासम्बन्धी विषय आउन सक्छ।",
+    
+        safety:
+        "साइकल लेन अवरुद्ध गर्दा साइकल चालकहरू जोखिममा पर्छन्।",
+    
+        real_world:
+        "सहरी सडक र विद्यालय क्षेत्रहरूमा सामान्य।",
+    
+        memory_tip:
+        "साइकल चिन्हहरूले साइकल चालकको प्राथमिकता जनाउँछन्।"
+      }
+    },
+    
+    {
+      name_en:"साझा बाटो",
+      name_jp:"歩行者自転車専用",
+      image:"/static/images/signs/shared_path.png",
+      explanation:"साइकल र पैदलयात्रीका लागि साझा बाटो।",
+      category:"Mandatory Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "पैदलयात्री र साइकल चालकहरूले यो बाटो साझा गर्छन्।",
+    
+        driver_action:
+        "सवारी साधनले यस क्षेत्रमा प्रवेश गर्नबाट बच्नुपर्छ।",
+    
+        exam_tip:
+        "लिखित परीक्षामा साझा बाटो चिन्हहरूमा ध्यान दिनुहोस्।",
+    
+        safety:
+        "चालकले मिश्रित प्रयोग हुने बाटो नजिक सावधानी अपनाउनुपर्छ।",
+    
+        real_world:
+        "प्रायः पार्क र नदी किनार नजिक पाइन्छ।",
+    
+        memory_tip:
+        "पैदलयात्री र साइकलको संयुक्त चिन्हले साझा प्रयोग जनाउँछ।"
+      }
+    },
+    
+    {
+      name_en:"राउन्डअबाउट",
+      name_jp:"環状交差点",
+      image:"/static/images/signs/roundabout.png",
+      explanation:"सवारी साधन राउन्डअबाउट वरिपरि घुम्छन्।",
+      category:"Mandatory Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "चालकहरूले चौराहाको वरिपरि गोलाकार दिशामा यात्रा गर्नुपर्छ।",
+    
+        driver_action:
+        "सही रूपमा बाटो दिनुहोस् र राउन्डअबाउटको प्रवाह पालना गर्नुहोस्।",
+    
+        exam_tip:
+        "राउन्डअबाउट नियमहरू बढ्दो रूपमा परीक्षामा समावेश भइरहेका छन्।",
+    
+        safety:
+        "गलत प्रवेशले साइड ठक्कर गराउन सक्छ।",
+    
+        real_world:
+        "जापानभरका आधुनिक चौराहाहरूमा पाइन्छ।",
+    
+        memory_tip:
+        "गोलाकार बाणहरूले निरन्तर गोलाकार चाल जनाउँछन्।"
+      }
+    },
+    {
+      name_en:"न्यूनतम गति",
+      name_jp:"最低速度",
+      image:"/static/images/signs/minimum_speed.png",
+      explanation:"चालकहरूले कम्तीमा तोकिएको गति कायम राख्नुपर्छ।",
+      category:"Regulatory Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "सवारी साधनले देखाइएको गति भन्दा कम गतिमा चलाउन पाउँदैन।",
+    
+        driver_action:
+        "अत्यधिक ढिलो नचलाई ट्राफिक प्रवाह कायम राख्नुहोस्।",
+    
+        exam_tip:
+        "न्यूनतम गति चिन्हहरू एक्सप्रेसवेमा सामान्य हुन्छन्।",
+    
+        safety:
+        "अत्यधिक ढिलो चलाउँदा ट्राफिक अवरोध हुन सक्छ र ठक्करको जोखिम बढ्छ।",
+    
+        real_world:
+        "मुख्यतः एक्सप्रेसवेमा देखिन्छ।",
+    
+        memory_tip:
+        "संख्या भएका नीलो गोलाकार चिन्हहरूले सामान्यतया न्यूनतम आवश्यकताहरू जनाउँछन्।"
+      }
+    },
+    
+    {
+      name_en:"बाटो दिनुहोस्",
+      name_jp:"徐行・譲れ",
+      image:"/static/images/signs/yield.png",
+      explanation:"चालकहरूले अन्य ट्राफिकलाई प्राथमिकता दिनुपर्छ।",
+      category:"Regulatory Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "चालकले गति घटाएर क्रस हुने ट्राफिकलाई बाटो दिनुपर्छ।",
+    
+        driver_action:
+        "आवश्यक परे रोक्न तयार हुनुहोस् र सावधानीपूर्वक जाँच गर्नुहोस्।",
+    
+        exam_tip:
+        "व्यावहारिक परीक्षामा बाटो दिने व्यवहारलाई ध्यानपूर्वक जाँच गरिन्छ।",
+    
+        safety:
+        "बाटो नदिँदा चौराहामा दुर्घटना हुन सक्छ।",
+    
+        real_world:
+        "प्रायः साना चौराहाहरूमा पाइन्छ।",
+    
+        memory_tip:
+        "उल्टो त्रिकोण चिन्हहरूले सामान्यतया सावधानी वा बाटो दिनुहोस् भन्ने जनाउँछन्।"
+      }
+    },
+    
+    {
+      name_en:"सुरुङ",
+      name_jp:"トンネル",
+      image:"/static/images/signs/tunnel.png",
+      explanation:"अगाडि सुरुङ छ।",
+      category:"Guide Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "चालकहरू सुरुङ क्षेत्रमा प्रवेश गर्न लागिरहेका छन्।",
+    
+        driver_action:
+        "आवश्यक परे हेडलाइट बाल्नुहोस् र सुरक्षित दूरी कायम राख्नुहोस्।",
+    
+        exam_tip:
+        "सुरुङ सुरक्षा सम्बन्धी प्रश्नहरू परीक्षामा आउन सक्छन्।",
+    
+        safety:
+        "सुरुङमा प्रवेश गर्दा दृश्यता छिट्टै परिवर्तन हुन्छ।",
+    
+        real_world:
+        "जापानका पहाडी क्षेत्रमा सामान्य।",
+    
+        memory_tip:
+        "सुरुङ आकारका चिन्हहरूले बन्द सडक खण्ड जनाउँछन्।"
+      }
+    },
+    
+    {
+      name_en:"अस्पताल",
+      name_jp:"病院",
+      image:"/static/images/signs/hospital.png",
+      explanation:"नजिकै अस्पताल छ।",
+      category:"Guide Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "नजिकै स्वास्थ्य सेवा सुविधा उपलब्ध छ।",
+    
+        driver_action:
+        "सावधानीपूर्वक चलाउनुहोस् र एम्बुलेन्स वा पैदलयात्रीका लागि ध्यान दिनुहोस्।",
+    
+        exam_tip:
+        "आपतकालीन सवारी साधनबारे सचेत रहनु परीक्षामा महत्त्वपूर्ण हुन्छ।",
+    
+        safety:
+        "अस्पताल क्षेत्रमा प्रायः धेरै पैदलयात्री गतिविधि हुन्छ।",
+    
+        real_world:
+        "सहरी र उपनगरीय क्षेत्रमा सामान्य।",
+    
+        memory_tip:
+        "H चिन्हले सामान्यतया अस्पताल जनाउँछ।"
+      }
+    },
+    
+    {
+      name_en:"पेट्रोल पम्प",
+      name_jp:"ガソリンスタンド",
+      image:"/static/images/signs/gas_station.png",
+      explanation:"नजिकै इन्धन स्टेशन छ।",
+      category:"Guide Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "नजिकै इन्धन सेवा उपलब्ध छ।",
+    
+        driver_action:
+        "चालकहरूले इन्धन भर्ने तयारी गर्न सक्छन्।",
+    
+        exam_tip:
+        "मार्गदर्शन चिन्हहरूले चालकलाई प्रभावकारी रूपमा मार्गनिर्देशन गर्न मद्दत गर्छन्।",
+    
+        safety:
+        "इन्धन स्टेशनमा प्रवेश र बाहिर निस्कँदा सावधानी अपनाउनुहोस्।",
+    
+        real_world:
+        "राजमार्ग र शहरका सडकहरूमा धेरै सामान्य।",
+    
+        memory_tip:
+        "इन्धन पम्पका चिन्हहरूले पेट्रोल स्टेशन जनाउँछन्।"
+      }
+    },
+    
+    {
+      name_en:"रेस्टुरेन्ट",
+      name_jp:"レストラン",
+      image:"/static/images/signs/restaurant.png",
+      explanation:"नजिकै रेस्टुरेन्ट छ।",
+      category:"Guide Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "नजिकै खाना र भोजन सेवा उपलब्ध छ।",
+    
+        driver_action:
+        "चालकहरूले खाना वा विश्रामका लागि सुरक्षित रूपमा रोक्न सक्छन्।",
+    
+        exam_tip:
+        "मार्गदर्शन चिन्ह पहिचान नेभिगेसन प्रश्नहरूमा उपयोगी हुन्छ।",
+    
+        safety:
+        "रेस्टुरेन्ट खोज्दा ध्यान भंग हुने गरी गाडी नचलाउनुहोस्।",
+    
+        real_world:
+        "प्रायः एक्सप्रेसवे र पर्यटक क्षेत्र नजिक पाइन्छ।",
+    
+        memory_tip:
+        "काँटा र चम्चाका चिन्हहरूले भोजन सुविधा जनाउँछन्।"
+      }
+    },
+    
+    {
+      name_en:"होटल",
+      name_jp:"ホテル",
+      image:"/static/images/signs/hotel.png",
+      explanation:"नजिकै होटल छ।",
+      category:"Guide Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "नजिकै बसोबास सुविधा उपलब्ध छ।",
+    
+        driver_action:
+        "लामो यात्राका क्रममा चालकहरूले विश्रामका लागि होटल प्रयोग गर्न सक्छन्।",
+    
+        exam_tip:
+        "मार्गदर्शन चिन्हका प्रकारहरू वर्गीकरण प्रश्नहरूमा आउन सक्छन्।",
+    
+        safety:
+        "थकित चालकहरूले विश्राम लिन विचार गर्नुपर्छ।",
+    
+        real_world:
+        "पर्यटक गन्तव्य नजिक प्रायः पाइन्छ।",
+    
+        memory_tip:
+        "ओछ्यानका चिन्हहरूले सामान्यतया बसोबास सुविधा जनाउँछन्।"
+      }
+    },
+        /* ======================================================
+       ADDITIONAL COMMONLY SEEN JAPANESE ROAD SIGNS
+       NO DUPLICATES
+       ADD BELOW YOUR EXISTING roadSigns ARRAY
+    ====================================================== */
+    
+    {
+      name_en:"पैदलयात्री निषेध",
+      name_jp:"歩行者通行止め",
+      image:"/static/images/signs/no_pedestrians.png",
+      explanation:"पैदलयात्रीलाई प्रवेश गर्न निषेध गरिएको छ।",
+      category:"Prohibition Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "यस क्षेत्रमा पैदलयात्रीलाई अनुमति छैन।",
+    
+        driver_action:
+        "चालकहरूले प्रतिबन्धित प्रवेश क्षेत्रहरूबारे सतर्क रहनुपर्छ।",
+    
+        exam_tip:
+        "प्रश्नहरूले कसलाई प्रवेश गर्न निषेध गरिएको छ भनेर सोध्न सक्छ।",
+    
+        safety:
+        "प्रतिबन्धित पैदलयात्री क्षेत्रहरूले दुर्घटना रोक्न मद्दत गर्छन्।",
+    
+        real_world:
+        "प्रायः एक्सप्रेसवे र सवारी साधन मात्र प्रयोग हुने सडकहरूमा पाइन्छ।",
+    
+        memory_tip:
+        "मानिसको चिन्ह भएका रातो घेराहरूले सामान्यतया पैदलयात्री प्रतिबन्ध जनाउँछन्।"
+      }
+    },
+    
+    {
+      name_en:"मोटरसाइकल निषेध",
+      name_jp:"二輪車通行止め",
+      image:"/static/images/signs/no_motorcycles.png",
+      explanation:"मोटरसाइकललाई प्रवेश गर्न निषेध गरिएको छ।",
+      category:"Prohibition Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "मोटरसाइकलहरूले यो सडक प्रयोग गर्न पाउँदैनन्।",
+    
+        driver_action:
+        "सवारहरूले अर्को अनुमति प्राप्त मार्ग खोज्नुपर्छ।",
+    
+        exam_tip:
+        "सवारी वर्गीकरण चिन्हहरू सामान्यतया परीक्षामा देखिन्छन्।",
+    
+        safety:
+        "खतरनाक सडक अवस्थाका कारण प्रतिबन्ध हुन सक्छ।",
+    
+        real_world:
+        "सुरुङ र आवासीय क्षेत्रमा सामान्य।",
+    
+        memory_tip:
+        "रातो घेराभित्रको मोटरसाइकल चिन्हले निषेध जनाउँछ।"
+      }
+    },
+    
+    {
+      name_en:"दायाँ मोड निषेध",
+      name_jp:"右折禁止",
+      image:"/static/images/signs/no_right_turn.png",
+      explanation:"दायाँ मोड्न निषेध गरिएको छ।",
+      category:"Prohibition Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "यस स्थानमा सवारी साधनले दायाँ मोड्न पाउँदैन।",
+    
+        driver_action:
+        "चालकले सिधै अगाडि जानुपर्छ वा वैकल्पिक मार्ग प्रयोग गर्नुपर्छ।",
+    
+        exam_tip:
+        "दिशा प्रतिबन्ध सम्बन्धी प्रश्नहरू लिखित परीक्षामा सामान्य हुन्छन्।",
+    
+        safety:
+        "अवैध मोडले ट्राफिक प्रवाह अवरोध गर्न सक्छ र ठक्कर गराउन सक्छ।",
+    
+        real_world:
+        "व्यस्त चौराहाहरूमा प्रायः पाइन्छ।",
+    
+        memory_tip:
+        "बाणमाथिको रातो रेखाले निषेधित दिशा जनाउँछ।"
+      }
+    },
+    
+    {
+      name_en:"बायाँ मोड निषेध",
+      name_jp:"左折禁止",
+      image:"/static/images/signs/no_left_turn.png",
+      explanation:"बायाँ मोड्न निषेध गरिएको छ।",
+      category:"Prohibition Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "यस स्थानमा सवारी साधनले बायाँ मोड्न पाउँदैन।",
+    
+        driver_action:
+        "सिधै अगाडि जानुहोस् वा अर्को कानुनी मोड्ने स्थान प्रयोग गर्नुहोस्।",
+    
+        exam_tip:
+        "दिशात्मक बाण प्रतिबन्धहरू सावधानीपूर्वक हेर्नुहोस्।",
+    
+        safety:
+        "गलत मोडले खतरनाक क्रसिङ द्वन्द्व सिर्जना गर्न सक्छ।",
+    
+        real_world:
+        "साँघुरा शहरका सडकहरूमा सामान्य।",
+    
+        memory_tip:
+        "क्रस गरिएको दिशात्मक बाणले निषेधित चाल जनाउँछ।"
+      }
+    },
+    {
+      name_en:"बालबालिका पार गर्ने क्षेत्र",
+      name_jp:"児童横断",
+      image:"/static/images/signs/children_crossing.png",
+      explanation:"अगाडि बालबालिकाहरूले सडक पार गर्न सक्छन्।",
+      category:"Warning Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "नजिकै बालबालिकाहरूले सडक पार गर्ने सम्भावना छ।",
+    
+        driver_action:
+        "गति घटाउनुहोस् र तुरुन्त रोक्न तयार हुनुहोस्।",
+    
+        exam_tip:
+        "व्यावहारिक परीक्षामा बाल सुरक्षा नियमहरू महत्त्वपूर्ण हुन्छन्।",
+    
+        safety:
+        "बालबालिकाहरू सडक नजिक अप्रत्याशित रूपमा चल्न सक्छन्।",
+    
+        real_world:
+        "सामान्यतया विद्यालय र पार्क नजिक पाइन्छ।",
+    
+        memory_tip:
+        "चेतावनी चिन्हमा बालबालिकाको चित्रले विद्यालय सम्बन्धी सावधानी जनाउँछ।"
+      }
+    },
+    
+    {
+      name_en:"चौराहा",
+      name_jp:"交差点あり",
+      image:"/static/images/signs/crossroads.png",
+      explanation:"अगाडि चौराहा छ।",
+      category:"Warning Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "अगाडि चौराहा आउँदैछ।",
+    
+        driver_action:
+        "प्रवेश गर्नु अघि सबै दिशा सावधानीपूर्वक जाँच गर्नुहोस्।",
+    
+        exam_tip:
+        "चौराहा सुरक्षा कडाइका साथ परीक्षामा समावेश हुन्छ।",
+    
+        safety:
+        "धेरै दुर्घटनाहरू चौराहामा हुन्छन्।",
+    
+        real_world:
+        "जापानी सडकहरूमा अत्यन्त सामान्य।",
+    
+        memory_tip:
+        "क्रस आकारका चिन्हहरूले एकअर्कालाई काट्ने सडकहरू जनाउँछन्।"
+      }
+    },
+    
+    {
+      name_en:"बायाँ घुमाउरो",
+      name_jp:"左方屈曲あり",
+      image:"/static/images/signs/curve_left.png",
+      explanation:"अगाडि तीव्र बायाँ मोड छ।",
+      category:"Warning Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "अगाडि सडक तीव्र रूपमा बायाँ मोडिन्छ।",
+    
+        driver_action:
+        "मोडमा प्रवेश गर्नु अघि गति घटाउनुहोस्।",
+    
+        exam_tip:
+        "घुमाउरो सडक सञ्चालन सुरक्षा जोखिम सम्बन्धी प्रश्नहरूमा आउँछ।",
+    
+        safety:
+        "अत्यधिक गतिले नियन्त्रण गुम्न सक्छ।",
+    
+        real_world:
+        "पहाडी सडकहरूमा सामान्य।",
+    
+        memory_tip:
+        "घुमाउरो बाणहरूले अगाडिको सडक मोड जनाउँछन्।"
+      }
+    },
+    
+    {
+      name_en:"दायाँ घुमाउरो",
+      name_jp:"右方屈曲あり",
+      image:"/static/images/signs/curve_right.png",
+      explanation:"अगाडि तीव्र दायाँ मोड छ।",
+      category:"Warning Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "अगाडि सडक तीव्र रूपमा दायाँ मोडिन्छ।",
+    
+        driver_action:
+        "पहिले नै ब्रेक लगाउनुहोस् र सहज रूपमा स्टेयरिङ गर्नुहोस्।",
+    
+        exam_tip:
+        "चालकहरूले मोडमा अचानक ब्रेक लगाउनबाट बच्नुपर्छ।",
+    
+        safety:
+        "तीव्र मोडले दृश्यता घटाउन सक्छ।",
+    
+        real_world:
+        "ग्रामीण सडकहरूमा प्रायः पाइन्छ।",
+    
+        memory_tip:
+        "दिशात्मक घुमाउरोहरूले सडकको दिशा परिवर्तन जनाउँछन्।"
+      }
+    },
+    {
+      name_en:"दुईतर्फी ट्राफिक",
+      name_jp:"対面通行",
+      image:"/static/images/signs/two_way_traffic.png",
+      explanation:"ट्राफिक दुवै दिशामा बग्छ।",
+      category:"Warning Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "अगाडि विपरीत दिशाबाट आउने ट्राफिक लेनहरू छन्।",
+    
+        driver_action:
+        "लेन चिन्हहरूभित्र सावधानीपूर्वक रहनुहोस्।",
+    
+        exam_tip:
+        "व्यावहारिक परीक्षामा केन्द्र रेखा सम्बन्धी सचेतना महत्त्वपूर्ण हुन्छ।",
+    
+        safety:
+        "विपरीत लेनमा प्रवेश गर्नु अत्यन्त खतरनाक हुन्छ।",
+    
+        real_world:
+        "एकतर्फी सडक खण्ड वा निर्माण क्षेत्रपछि सामान्यतया देखिन्छ।",
+    
+        memory_tip:
+        "विपरीत दिशाका बाणहरूले दुईतर्फी ट्राफिक जनाउँछन्।"
+      }
+    },
+    
+    {
+      name_en:"ठाडो उकालो/ओरालो",
+      name_jp:"急勾配あり",
+      image:"/static/images/signs/steep_hill.png",
+      explanation:"अगाडि ठाडो उकालो वा ओरालो छ।",
+      category:"Warning Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "चालकहरू ठाडो उकालो वा ओरालोतर्फ जाँदैछन्।",
+    
+        driver_action:
+        "उचित ब्रेक र गियर नियन्त्रण प्रयोग गर्नुहोस्।",
+    
+        exam_tip:
+        "व्यावहारिक परीक्षामा पहाडमा गाडी सुरु गर्ने प्रविधि परीक्षण गरिन्छ।",
+    
+        safety:
+        "गलत ब्रेक प्रयोगले नियन्त्रण गुम्न सक्छ।",
+    
+        real_world:
+        "जापानका पहाडी क्षेत्रमा सामान्य।",
+    
+        memory_tip:
+        "ढल्किएको सडक चिन्हहरूले ठाडो भूभाग जनाउँछन्।"
+      }
+    },
+    
+    {
+      name_en:"सडक निर्माण कार्य",
+      name_jp:"道路工事中",
+      image:"/static/images/signs/road_work.png",
+      explanation:"अगाडि सडक निर्माण कार्य भइरहेको छ।",
+      category:"Warning Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "अगाडि निर्माण वा मर्मत कार्य भइरहेको छ।",
+    
+        driver_action:
+        "गति घटाउनुहोस् र अस्थायी ट्राफिक निर्देशन पालना गर्नुहोस्।",
+    
+        exam_tip:
+        "अस्थायी ट्राफिक नियन्त्रण चिन्हहरू परीक्षामा आउन सक्छन्।",
+    
+        safety:
+        "निर्माण क्षेत्रमा अचानक लेन परिवर्तन हुन सक्छ।",
+    
+        real_world:
+        "सहरी सडक मर्मतमा धेरै सामान्य।",
+    
+        memory_tip:
+        "कामदारको चिन्हले निर्माण गतिविधि जनाउँछ।"
+      }
+    },
+    
+    {
+      name_en:"खतरा",
+      name_jp:"危険",
+      image:"/static/images/signs/danger.png",
+      explanation:"सामान्य खतरा चेतावनी।",
+      category:"Warning Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "चालकहरूले अगाडि असामान्य जोखिमहरूको तयारी गर्नुपर्छ।",
+    
+        driver_action:
+        "सचेतना बढाउनुहोस् र तुरुन्त गति घटाउनुहोस्।",
+    
+        exam_tip:
+        "ड्राइभिङ परीक्षामा सामान्य जोखिम सचेतना अत्यन्त महत्त्वपूर्ण हुन्छ।",
+    
+        safety:
+        "खतरा चिन्हहरूले दुर्घटनाको जोखिम बढेको जनाउँछन्।",
+    
+        real_world:
+        "अस्थायी वा जोखिमपूर्ण क्षेत्रमा प्रयोग गरिन्छ।",
+    
+        memory_tip:
+        "पहेंलो चेतावनी चिन्हहरूले सामान्यतया सावधानी जनाउँछन्।"
+      }
+    },
+    
+    {
+      name_en:"एक्सप्रेसवे पार्किङ क्षेत्र",
+      name_jp:"パーキングエリア",
+      image:"/static/images/signs/parking_area.png",
+      explanation:"अगाडि एक्सप्रेसवे पार्किङ क्षेत्र छ।",
+      category:"Expressway Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "चालकहरूले अगाडि विश्राम वा अस्थायी पार्किङ गर्न सक्छन्।",
+    
+        driver_action:
+        "विश्रामका लागि पार्किङ क्षेत्र सुरक्षित रूपमा प्रयोग गर्नुहोस्।",
+    
+        exam_tip:
+        "लामो दूरी ड्राइभिङका समयमा विश्राम व्यवस्थापन महत्त्वपूर्ण हुन्छ।",
+    
+        safety:
+        "थकित अवस्थामा गाडी चलाउँदा दुर्घटनाको जोखिम बढ्छ।",
+    
+        real_world:
+        "जापानी एक्सप्रेसवेभरि सामान्य।",
+    
+        memory_tip:
+        "नीलो P चिन्हहरूले पार्किङ सुविधा जनाउँछन्।"
+      }
+    },
+    
+    {
+      name_en:"सेवा क्षेत्र",
+      name_jp:"サービスエリア",
+      image:"/static/images/signs/service_area.png",
+      explanation:"अगाडि सेवा क्षेत्र छ।",
+      category:"Expressway Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "अगाडि खाना, इन्धन र विश्राम सुविधा उपलब्ध छन्।",
+    
+        driver_action:
+        "चालकहरूले विश्राम र सेवाका लागि सुरक्षित रूपमा रोक्न सक्छन्।",
+    
+        exam_tip:
+        "एक्सप्रेसवे सुविधा चिन्हहरू नेभिगेसन प्रश्नहरूमा आउन सक्छन्।",
+    
+        safety:
+        "नियमित विश्रामले चालकको थकान रोक्न मद्दत गर्छ।",
+    
+        real_world:
+        "एक्सप्रेसवेहरूमा नियमित रूपमा पाइन्छ।",
+    
+        memory_tip:
+        "हरियो एक्सप्रेसवे चिन्हहरूले सामान्यतया राजमार्ग सुविधा जनाउँछन्।"
+      }
+    },
+        /* ======================================================
+       ADDITIONAL IMPORTANT JAPANESE TRAFFIC SIGNS
+       SIGNALS & SPECIAL RULES
+       NO DUPLICATES
+    ====================================================== */
+    
+    {
+      name_en:"रातो झिम्किने संकेत",
+      name_jp:"赤色点滅信号",
+      image:"/static/images/signs/red_flashing_signal.png",
+      explanation:"अगाडि बढ्नु अघि चालकले पूर्ण रूपमा रोक्नुपर्छ।",
+      category:"Regulatory Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "झिम्किने रातो संकेतले चालकलाई चौराहामा प्रवेश गर्नु अघि पूर्ण रूपमा रोक्न आवश्यक भएको जनाउँछ। जापानमा यसको अर्थ स्टप चिन्हसरह हुन्छ।",
+    
+        driver_action:
+        "चालकले स्टप लाइन पछाडि पूर्ण रूपमा रोक्नुपर्छ, बायाँ र दायाँ सावधानीपूर्वक जाँच गर्नुपर्छ, सुरक्षा सुनिश्चित गर्नुपर्छ, र बाटो खाली भएमा बिस्तारै अगाडि बढ्नुपर्छ।",
+    
+        exam_tip:
+        "जापानी ड्राइभिङ परीक्षामा प्रायः झिम्किने रातो र झिम्किने पहेंलो बत्ती तुलना गरिन्छ। झिम्किने रातो बत्तीमा सधैं पूर्ण रूपमा रोक्नुपर्छ।",
+    
+        safety:
+        "झिम्किने रातो संकेत बेवास्ता गर्दा चौराहामा गम्भीर साइड ठक्कर हुन सक्छ।",
+    
+        real_world:
+        "प्रायः रातको समयमा वा कम ट्राफिक भएका चौराहाहरूमा प्रयोग गरिन्छ।",
+    
+        memory_tip:
+        "झिम्किने रातो भनेको अगाडि बढ्नु अघि पूर्ण रूपमा रोक्नु हो।"
+      }
+    },
+    
+    {
+      name_en:"पहेंलो झिम्किने संकेत",
+      name_jp:"黄色点滅信号",
+      image:"/static/images/signs/yellow_flashing_signal.png",
+      explanation:"चालकहरूले सावधानीपूर्वक अगाडि बढ्न सक्छन्।",
+      category:"Warning Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "झिम्किने पहेंलो संकेतले चालकलाई सावधानीपूर्वक अगाडि बढ्न र क्रस हुने ट्राफिक तथा पैदलयात्रीप्रति सतर्क रहन चेतावनी दिन्छ।",
+    
+        driver_action:
+        "चालकहरूले अगाडि बढ्न सक्छन् तर गति घटाएर वरिपरिको ट्राफिक अवस्था सावधानीपूर्वक जाँच गर्नुपर्छ।",
+    
+        exam_tip:
+        "लिखित परीक्षामा प्रायः झिम्किने पहेंलो संकेत र सामान्य पहेंलो ट्राफिक बत्तीबीचको फरक सोधिन्छ।",
+    
+        safety:
+        "चौराहामा प्रवेश गर्नु अघि सुरक्षा सुनिश्चित गर्ने जिम्मेवारी अझै चालककै हुन्छ।",
+    
+        real_world:
+        "राति ट्राफिक संकेत झिम्किने मोडमा परिवर्तन हुँदा सामान्यतया देखिन्छ।",
+    
+        memory_tip:
+        "झिम्किने पहेंलो भनेको सावधानी — गति घटाउनुहोस् तर आवश्यक नभएसम्म नरोक्नुहोस्।"
+      }
+    },
+    
+    {
+      name_en:"ट्रक निषेध",
+      name_jp:"大型貨物自動車通行止め",
+      image:"/static/images/signs/truck_prohibited.png",
+      explanation:"ठूला ट्रकहरूलाई प्रवेश गर्न निषेध गरिएको छ।",
+      category:"Prohibition Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "ठूला मालवाहक ट्रक र भारी सवारी साधनहरूले यो सडक वा क्षेत्र प्रयोग गर्न पाउँदैनन्।",
+    
+        driver_action:
+        "ट्रक चालकहरूले तुरुन्त वैकल्पिक वा अनुमति प्राप्त मार्ग प्रयोग गर्नुपर्छ।",
+    
+        exam_tip:
+        "सवारी साधन प्रतिबन्ध चिन्हहरू जापानी लर्नर परमिट परीक्षामा सामान्यतया समावेश हुन्छन्।",
+    
+        safety:
+        "ठूला ट्रकहरू साँघुरा सडक, विद्यालय क्षेत्र वा आवासीय सडकमा असुरक्षित हुन सक्छन्।",
+    
+        real_world:
+        "आवासीय क्षेत्र, विद्यालय र साना सहरी सडकहरू नजिक प्रायः पाइन्छ।",
+    
+        memory_tip:
+        "रातो घेराभित्रको ट्रक चिन्हले ट्रक प्रतिबन्ध जनाउँछ।"
+      }
+    },
+    
+    {
+      name_en:"मोटरसाइकल निषेध",
+      name_jp:"二輪車通行止め",
+      image:"/static/images/signs/motorcycle_prohibited.png",
+      explanation:"मोटरसाइकललाई प्रवेश गर्न निषेध गरिएको छ।",
+      category:"Prohibition Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "मोटरसाइकल, स्कुटर र अन्य दुई पाङ्ग्रे मोटर सवारी साधनहरूले यो सडकमा प्रवेश गर्न पाउँदैनन्।",
+    
+        driver_action:
+        "मोटरसाइकल चालकहरूले तुरुन्त अर्को अनुमति प्राप्त मार्ग खोज्नुपर्छ।",
+    
+        exam_tip:
+        "जापानी परीक्षामा यो चिन्हले कुन सवारी साधनलाई प्रतिबन्ध लगाउँछ भनेर सोधिन सक्छ।",
+    
+        safety:
+        "मोटरसाइकललाई बढी जोखिम हुने सडकहरूमा प्रायः यस्तो प्रतिबन्ध प्रयोग गरिन्छ।",
+    
+        real_world:
+        "सुरुङ, एक्सप्रेसवे, पुल र शान्त आवासीय क्षेत्रमा सामान्य।",
+    
+        memory_tip:
+        "रातो निषेध घेराभित्रको मोटरसाइकल चिन्हले मोटरसाइकललाई अनुमति छैन भन्ने जनाउँछ।"
+      }
+    },
+    
+    {
+      name_en:"दायाँ मोड निषेध",
+      name_jp:"右折禁止",
+      image:"/static/images/signs/no_right_turn.png",
+      explanation:"यस स्थानमा दायाँ मोड्न निषेध गरिएको छ।",
+      category:"Prohibition Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "यस चौराहा वा सडकमा चालकहरूले दायाँ मोड्न पाउँदैनन्।",
+    
+        driver_action:
+        "सिधै अगाडि जानुहोस् वा दिशा परिवर्तन गर्न अर्को कानुनी मार्ग प्रयोग गर्नुहोस्।",
+    
+        exam_tip:
+        "दिशा प्रतिबन्ध चिन्हहरू जापानी लिखित परीक्षामा धेरै सामान्य हुन्छन्।",
+    
+        safety:
+        "अवैध दायाँ मोडले क्रस हुने सवारी, साइकल र पैदलयात्रीलाई अवरोध गर्न सक्छ।",
+    
+        real_world:
+        "व्यस्त चौराहा र साँघुरा सडकहरूमा धेरै सामान्य।",
+    
+        memory_tip:
+        "बाणमाथिको रातो रेखाले सधैं निषेधित दिशा जनाउँछ।"
+      }
+    },
+    
+    {
+      name_en:"बायाँ मोड निषेध",
+      name_jp:"左折禁止",
+      image:"/static/images/signs/no_left_turn.png",
+      explanation:"यस स्थानमा बायाँ मोड्न निषेध गरिएको छ।",
+      category:"Prohibition Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "यस सडक खण्ड वा चौराहामा चालकहरूले बायाँ मोड्न पाउँदैनन्।",
+    
+        driver_action:
+        "अनुमति दिइएको दिशा पालना गर्नुहोस् र पछि अर्को कानुनी मोड्ने स्थान प्रयोग गर्नुहोस्।",
+    
+        exam_tip:
+        "परीक्षाका क्रममा लेन-विशेष दिशा प्रतिबन्धहरू सावधानीपूर्वक हेर्नुहोस्।",
+    
+        safety:
+        "अवैध बायाँ मोडले नजिकको ट्राफिकलाई भ्रमित पार्न सक्छ र दुर्घटनाको जोखिम बढाउँछ।",
+    
+        real_world:
+        "सहरी ट्राफिक नियन्त्रण र साँघुरा चौराहाहरूमा प्रायः प्रयोग गरिन्छ।",
+    
+        memory_tip:
+        "रातो निषेध रेखा भएको बाणले निषेधित चाल जनाउँछ।"
+      }
+    },
+    {
+      name_en:"हात संकेत आवश्यक",
+      name_jp:"手信号",
+      image:"/static/images/signs/hand_signal.png",
+      explanation:"टर्न संकेत खराब भएमा चालकहरूले हात संकेत प्रयोग गर्नुपर्ने हुन सक्छ।",
+      category:"Regulatory Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "आपतकालीन अवस्था वा उपकरण बिग्रिएको समयमा प्रयोग हुने आधिकारिक जापानी हात संकेतहरू चालकहरूले बुझ्नुपर्छ।",
+    
+        driver_action:
+        "इलेक्ट्रोनिक संकेतक वा ब्रेक बत्तीले काम नगरेमा सही हात संकेत प्रयोग गर्नुहोस्।",
+    
+        exam_tip:
+        "जापानी ड्राइभिङ परीक्षामा मोटरसाइकल, साइकल र आपतकालीन हात संकेतहरूबारे प्रश्न आउन सक्छ।",
+    
+        safety:
+        "सही हात संकेतले वरिपरिका चालकहरूलाई तपाईंको उद्देश्य स्पष्ट रूपमा बुझ्न मद्दत गर्छ।",
+    
+        real_world:
+        "मोटरसाइकल, साइकल, आपतकालीन अवस्था र संकेत खराबीका समयमा महत्त्वपूर्ण हुन्छ।",
+    
+        memory_tip:
+        "सामान्य सवारी संकेत काम नगर्दा हात संकेतले वैकल्पिक सञ्चारको काम गर्छ।"
+      }
+    },
+    {
+      name_en:"दायाँ मोडको हात संकेत",
+      name_jp:"右折の手信号",
+      image:"/static/images/signs/right_turn_hand_signal.png",
+      explanation:"दायाँ मोड संकेत गर्न प्रयोग हुने हात संकेत।",
+      category:"Regulatory Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "चालकहरूले दायाँ मोड संकेत गर्न दायाँ हात सिधा फैलाउँछन् वा बायाँ हात माथितर्फ मोड्छन्।",
+    
+        driver_action:
+        "नजिकका सवारी साधनहरूले चालकले गति घटाएर दायाँ मोड्ने तयारी गर्नुपर्छ।",
+    
+        exam_tip:
+        "मोटरसाइकल र साइकलका हात संकेतहरू लिखित परीक्षामा आउन सक्छन्।",
+    
+        safety:
+        "स्पष्ट संकेतले भ्रम र साइड ठक्कर कम गर्छ।",
+    
+        real_world:
+        "मुख्य रूपमा टर्न संकेत खराब हुँदा वा साइकल चलाउँदा प्रयोग गरिन्छ।",
+    
+        memory_tip:
+        "दायाँतर्फ देखाइएको हातले सवारी दायाँ मोड्ने संकेत गर्छ।"
+      }
+    },
+    
+    {
+      name_en:"बायाँ मोडको हात संकेत",
+      name_jp:"左折の手信号",
+      image:"/static/images/signs/left_turn_hand_signal.png",
+      explanation:"बायाँ मोड संकेत गर्न प्रयोग हुने हात संकेत।",
+      category:"Regulatory Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "चालकहरूले बायाँ मोड संकेत गर्न बायाँ हात सिधा फैलाउँछन्।",
+    
+        driver_action:
+        "वरिपरिको ट्राफिकले मोडिने चालका लागि तयारी गर्नुपर्छ।",
+    
+        exam_tip:
+        "यो ड्राइभिङ विद्यालयहरूमा सबैभन्दा धेरै सिकाइने हात संकेतहरूमध्ये एक हो।",
+    
+        safety:
+        "चाँडो संकेत दिनाले चालकहरूको सचेतना बढ्छ र दुर्घटना घट्छ।",
+    
+        real_world:
+        "सामान्यतया साइकल र मोटरसाइकलका लागि सिकाइन्छ।",
+    
+        memory_tip:
+        "सिधा फैलाइएको बायाँ हातले बायाँ मोड्ने जनाउँछ।"
+      }
+    },
+    
+    {
+      name_en:"रोक्ने हात संकेत",
+      name_jp:"停止の手信号",
+      image:"/static/images/signs/stop_hand_signal.png",
+      explanation:"रोक्ने वा गति घटाउने संकेत दिने हात संकेत।",
+      category:"Regulatory Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "चालकहरूले रोक्ने वा गति घटाउने संकेत गर्न हात तलतर्फ देखाउँछन्।",
+    
+        driver_action:
+        "पछाडि आउने चालकहरूले सुरक्षित रूपमा ब्रेक लगाउन तयारी गर्नुपर्छ।",
+    
+        exam_tip:
+        "रोक्ने हात संकेतहरू साइकल र मोटरसाइकलका लागि महत्त्वपूर्ण हुन्छन्।",
+    
+        safety:
+        "यो संकेतले पछाडिबाट हुने ठक्कर रोक्न मद्दत गर्छ।",
+    
+        real_world:
+        "आपतकालीन अवस्था वा ब्रेक बत्ती खराब हुँदा प्रयोग गरिन्छ।",
+    
+        memory_tip:
+        "तलतर्फको हात चालले रोक्ने वा गति घटाउने जनाउँछ।"
+      }
+    },
+    
+    ];
+    /* ======================================================
+       DUPLICATE FOR DEMO
+    ====================================================== */
+
+    const fullSigns = [...roadSigns];
+
+    /* ======================================================
+       ELEMENTS
+    ====================================================== */
+
+    const signGrid =
+      document.getElementById("signGrid");
+
+    const searchInput =
+      document.getElementById("searchInput");
+
+    const tabs =
+      document.querySelectorAll(".tab");
+
+    const emptyState =
+      document.getElementById("emptyState");
+
+    let currentCategory = "All";
+
+    /* ======================================================
+       EDUCATIONAL CONTENT
+    ====================================================== */
+
+    function generateEducationalContent(sign){
+
+      const info =
+        sign.learn_more || {};
+
+      return `
+
+        <div class="learn-box">
+
+          <div class="learn-section">
+
+            <h4>
+              📘 Sign Meaning
+            </h4>
+
+            <p>
+              ${info.meaning || sign.explanation}
+            </p>
+
+          </div>
+
+          <div class="learn-section">
+
+            <h4>
+              🚗 Driver Action
+            </h4>
+
+            <p>
+              ${info.driver_action || "Drivers should carefully follow this sign."}
+            </p>
+
+          </div>
+
+          <div class="learn-section">
+
+            <h4>
+              🧠 Driving Test Tip
+            </h4>
+
+            <p>
+              ${info.exam_tip || "This sign may appear during Japanese driving exams."}
+            </p>
+
+          </div>
+
+          <div class="learn-section">
+
+            <h4>
+              ⚠️ Safety Reminder
+            </h4>
+
+            <p>
+              ${info.safety || "Ignoring this sign may create dangerous situations."}
+            </p>
+
+          </div>
+
+          <div class="learn-section">
+
+            <h4>
+              🌏 Real Driving Situation
+            </h4>
+
+            <p>
+              ${info.real_world || "This sign commonly appears on Japanese roads."}
+            </p>
+
+          </div>
+
+          <div class="learn-section">
+
+            <h4>
+              💡 Memory Tip
+            </h4>
+
+            <p>
+              ${info.memory_tip || "Try remembering the shape and color of the sign."}
+            </p>
+
+          </div>
+
+          <div class="learn-section">
+
+            <h4>
+              📝 Common Exam Question
+            </h4>
+
+            <div class="quiz-box">
+
+              <p class="quiz-question">
+                “What should the driver do when seeing this sign?”
+              </p>
+
+              <p class="quiz-answer">
+                The driver must correctly follow the rule,
+                instruction, or warning indicated by the sign.
+              </p>
+
+            </div>
+
+          </div>
+
+          <div class="learn-section">
+
+            <h4>
+              🔗 Related Topics
+            </h4>
+
+            <div class="related-signs">
+
+              <span class="related-badge">
+                Japanese Driving Test
+              </span>
+
+              <span class="related-badge">
+                Traffic Rules
+              </span>
+
+              <span class="related-badge">
+                Road Safety
+              </span>
+
+              <span class="related-badge">
+                Driving Awareness
+              </span>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      `;
+
+    }
+
+    /* ======================================================
+       RENDER
+    ====================================================== */
+
+    function renderSigns(){
+
+      const search =
+        searchInput.value.toLowerCase();
+
+      const filtered = fullSigns.filter(sign => {
+
+        const matchesCategory =
+
+          currentCategory === "All" ||
+
+          sign.category === currentCategory;
+
+        const matchesSearch =
+
+          sign.name_en.toLowerCase().includes(search) ||
+
+          sign.name_jp.includes(search) ||
+
+          sign.explanation.toLowerCase().includes(search);
+
+        return matchesCategory && matchesSearch;
+
+      });
+
+      signGrid.innerHTML = "";
+
+      if(filtered.length === 0){
+
+        emptyState.style.display = "block";
+
+      }else{
+
+        emptyState.style.display = "none";
+
+      }
+
+      filtered.forEach(sign => {
+
+        const card =
+          document.createElement("div");
+
+        card.className = "card";
+
+        card.innerHTML = `
+
+          <div class="card-top">
+
+            <img
+                src="${sign.image}"
+                alt="${sign.name_en}"
+                loading="lazy"
+                onerror="this.src='/static/images/signs/placeholder.png'"
+            />
+
+          </div>
+
+          <div class="card-body">
+
+            <div class="category">
+              ${sign.category}
+            </div>
+
+            <h3 class="sign-title">
+              ${sign.name_en}
+            </h3>
+
+            <div class="sign-jp">
+              ${sign.name_jp}
+            </div>
+
+            <p class="description">
+              ${sign.explanation}
+            </p>
+
+            <button class="expand-btn">
+              Learn More
+            </button>
+
+            <div class="extra">
+
+              ${generateEducationalContent(sign)}
+
+            </div>
+
+          </div>
+
+        `;
+
+        const expandBtn =
+          card.querySelector(".expand-btn");
+
+        const extra =
+          card.querySelector(".extra");
+
+        expandBtn.addEventListener("click", () => {
+
+          extra.classList.toggle("open");
+
+          expandBtn.innerText =
+
+            extra.classList.contains("open")
+
+            ? "Hide Details"
+
+            : "Learn More";
+
+        });
+
+        signGrid.appendChild(card);
+
+      });
+
+    }
+
+    /* ======================================================
+       SEARCH
+    ====================================================== */
+
+    searchInput.addEventListener(
+      "input",
+      renderSigns
+    );
+
+    /* ======================================================
+       FILTER TABS
+    ====================================================== */
+
+    tabs.forEach(tab => {
+
+      tab.addEventListener("click", () => {
+
+        tabs.forEach(t =>
+          t.classList.remove("active")
+        );
+
+        tab.classList.add("active");
+
+        currentCategory =
+          tab.dataset.category;
+
+        renderSigns();
+
+      });
+
+    });
+
+    /* ======================================================
+       DARK MODE
+    ====================================================== */
+
+    const themeToggle =
+      document.getElementById("themeToggle");
+
+    themeToggle.addEventListener("click", () => {
+
+      document.body.classList.toggle(
+        "light-mode"
+      );
+
+      if(
+        document.body.classList.contains(
+          "light-mode"
+        )
+      ){
+
+        themeToggle.innerHTML = "☀️";
+
+      }else{
+
+        themeToggle.innerHTML = "🌙";
+
+      }
+
+    });
+
+    /* ======================================================
+       SCROLL TO TOP
+    ====================================================== */
+
+    const scrollTopBtn =
+      document.getElementById("scrollTopBtn");
+
+    scrollTopBtn.addEventListener("click", () => {
+
+      window.scrollTo({
+        top:0,
+        behavior:"smooth"
+      });
+
+    });
+
+    /* ======================================================
+       INITIAL RENDER
+    ====================================================== */
+
+    renderSigns();
+
+  </script>
+
+</body>
+</html>
