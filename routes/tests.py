@@ -1373,3 +1373,56 @@ def reviewers():
     return render_template(
         'reviewer_hub.html'
     )
+
+# =========================================================
+# 🚧 ROAD SIGNS REVIEWER
+# =========================================================
+
+@tests.route('/road-signs-reviewer')
+def road_signs_reviewer():
+
+    # =============================================
+    # 👤 LOGIN REQUIRED
+    # =============================================
+
+    if 'user_id' not in session:
+
+        return redirect('/register')
+
+    # =============================================
+    # ⭐ PREMIUM REQUIRED
+    # =============================================
+
+    if not session.get('is_premium'):
+
+        return redirect('/upgrade')
+
+    language = session.get(
+        'lang',
+        'en'
+    )
+
+    allowed_languages = [
+
+        'en',
+        'tl',
+        'ne',
+        'vi',
+        'pt',
+        'id',
+        'ar'
+    ]
+
+    if language not in allowed_languages:
+
+        language = 'en'
+
+    template = (
+
+        f"reviewers/"
+        f"road_signs_reviewer_{language}.html"
+    )
+
+    return render_template(
+        template
+    )

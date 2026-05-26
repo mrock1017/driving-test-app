@@ -1,0 +1,2901 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- ======================================================
+       META
+  ====================================================== -->
+
+  <meta charset="UTF-8" />
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+
+  <title>
+    Japan Driving Test Master
+  </title>
+
+  <!-- ======================================================
+       GOOGLE FONT
+  ====================================================== -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  >
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- ======================================================
+       CSS
+  ====================================================== -->
+
+  <style>
+
+    /* ======================================================
+       RESET
+    ====================================================== */
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+
+    html{
+      scroll-behavior:smooth;
+    }
+
+    body{
+
+      font-family:'Inter',sans-serif;
+
+      background:
+        radial-gradient(circle at top left,#1d4ed8 0%,transparent 25%),
+        radial-gradient(circle at top right,#7c3aed 0%,transparent 25%),
+        linear-gradient(180deg,#071120 0%,#0d1728 100%);
+
+      color:#fff;
+
+      min-height:100vh;
+
+      overflow-x:hidden;
+
+      transition:0.35s ease;
+    }
+
+    body.light-mode{
+
+      background:
+        radial-gradient(circle at top left,#dbeafe 0%,transparent 25%),
+        radial-gradient(circle at top right,#ede9fe 0%,transparent 25%),
+        linear-gradient(180deg,#f8fbff 0%,#eef2ff 100%);
+
+      color:#111827;
+    }
+
+    img{
+      display:block;
+      max-width:100%;
+    }
+
+    button{
+      border:none;
+      outline:none;
+      cursor:pointer;
+      font-family:inherit;
+    }
+
+    /* ======================================================
+       APP
+    ====================================================== */
+
+    .app{
+      width:100%;
+      max-width:1500px;
+      margin:auto;
+      padding:20px;
+    }
+
+    /* ======================================================
+       HERO
+    ====================================================== */
+
+    .hero{
+
+      position:relative;
+
+      overflow:hidden;
+
+      border-radius:34px;
+
+      padding:34px 26px;
+
+      margin-bottom:24px;
+
+      background:rgba(255,255,255,0.08);
+
+      backdrop-filter:blur(18px);
+
+      border:1px solid rgba(255,255,255,0.12);
+
+      box-shadow:
+        0 12px 40px rgba(0,0,0,0.28),
+        inset 0 1px 1px rgba(255,255,255,0.08);
+    }
+
+    body.light-mode .hero{
+      background:rgba(255,255,255,0.78);
+    }
+
+    .hero-top{
+      display:flex;
+      justify-content:space-between;
+      align-items:flex-start;
+      gap:20px;
+      flex-wrap:wrap;
+    }
+
+    .hero-title{
+
+      font-size:
+        clamp(2.2rem,5vw,4.6rem);
+
+      line-height:1.05;
+
+      font-weight:800;
+
+      margin-bottom:14px;
+    }
+
+    .hero-description{
+
+      max-width:760px;
+
+      line-height:1.9;
+
+      opacity:0.92;
+
+      font-size:1rem;
+    }
+
+    /* ======================================================
+       THEME BUTTON
+    ====================================================== */
+
+    .theme-btn{
+
+      width:58px;
+      height:58px;
+
+      border-radius:18px;
+
+      background:rgba(255,255,255,0.1);
+
+      backdrop-filter:blur(12px);
+
+      border:1px solid rgba(255,255,255,0.12);
+
+      color:#fff;
+
+      font-size:1.2rem;
+
+      transition:0.3s ease;
+    }
+
+    body.light-mode .theme-btn{
+      background:#fff;
+      color:#111827;
+    }
+
+    .theme-btn:hover{
+      transform:translateY(-3px);
+    }
+
+    /* ======================================================
+       SEARCH
+    ====================================================== */
+
+    .search-wrapper{
+      position:relative;
+      margin-top:28px;
+    }
+
+    .search-input{
+
+      width:100%;
+
+      padding:18px 20px 18px 58px;
+
+      border-radius:22px;
+
+      border:none;
+      outline:none;
+
+      background:rgba(255,255,255,0.08);
+
+      backdrop-filter:blur(12px);
+
+      border:1px solid rgba(255,255,255,0.12);
+
+      color:#fff;
+
+      font-size:1rem;
+    }
+
+    body.light-mode .search-input{
+      background:#fff;
+      color:#111827;
+    }
+
+    .search-icon{
+
+      position:absolute;
+
+      left:20px;
+      top:50%;
+
+      transform:translateY(-50%);
+
+      opacity:0.75;
+    }
+
+    /* ======================================================
+       CATEGORY NAVIGATION
+    ====================================================== */
+
+    .sticky-nav{
+
+      position:sticky;
+
+      top:0;
+
+      z-index:100;
+
+      padding:14px 0;
+
+      backdrop-filter:blur(18px);
+    }
+
+    .tabs{
+
+      display:flex;
+
+      gap:12px;
+
+      overflow-x:auto;
+
+      scrollbar-width:none;
+    }
+
+    .tabs::-webkit-scrollbar{
+      display:none;
+    }
+
+    .tab{
+
+      white-space:nowrap;
+
+      padding:12px 20px;
+
+      border-radius:999px;
+
+      background:rgba(255,255,255,0.08);
+
+      border:1px solid rgba(255,255,255,0.12);
+
+      color:#fff;
+
+      font-weight:700;
+
+      transition:0.3s ease;
+    }
+
+    body.light-mode .tab{
+      background:#fff;
+      color:#111827;
+    }
+
+    .tab.active{
+
+      background:
+        linear-gradient(
+          135deg,
+          #2563eb,
+          #7c3aed
+        );
+
+      border:none;
+    }
+
+    /* ======================================================
+       GRID
+    ====================================================== */
+
+    .grid{
+
+      display:grid;
+
+      grid-template-columns:
+        repeat(auto-fit,minmax(270px,1fr));
+
+      gap:22px;
+
+      margin-top:24px;
+    }
+
+    /* ======================================================
+       CARD
+    ====================================================== */
+
+    .card{
+
+      position:relative;
+
+      overflow:hidden;
+
+      border-radius:30px;
+
+      background:rgba(255,255,255,0.08);
+
+      backdrop-filter:blur(18px);
+
+      border:1px solid rgba(255,255,255,0.12);
+
+      box-shadow:
+        0 12px 35px rgba(0,0,0,0.22);
+
+      transition:0.35s ease;
+
+      animation:fadeIn 0.35s ease;
+    }
+
+    body.light-mode .card{
+      background:rgba(255,255,255,0.78);
+    }
+
+    .card:hover{
+
+      transform:translateY(-6px);
+
+      box-shadow:
+        0 25px 45px rgba(0,0,0,0.25);
+    }
+
+    .card,
+    .expand-btn,
+    .theme-btn{
+    will-change:transform;
+    }
+
+    /* ======================================================
+       CARD TOP
+    ====================================================== */
+
+    .card-top{
+
+      min-height:190px;
+
+      display:flex;
+      justify-content:center;
+      align-items:center;
+
+      padding:24px;
+
+      background:
+        linear-gradient(
+          135deg,
+          rgba(255,255,255,0.08),
+          rgba(255,255,255,0.03)
+        );
+    }
+
+    .card-top img{
+
+      width:115px;
+      height:115px;
+
+      object-fit:contain;
+
+      transition:0.3s ease;
+    }
+
+    .card:hover img{
+      transform:scale(1.06);
+    }
+
+    /* ======================================================
+       CARD BODY
+    ====================================================== */
+
+    .card-body{
+      padding:22px;
+    }
+
+    .category{
+
+      display:inline-flex;
+
+      align-items:center;
+
+      padding:8px 13px;
+
+      border-radius:999px;
+
+      background:rgba(59,130,246,0.2);
+
+      color:#93c5fd;
+
+      font-size:0.76rem;
+
+      font-weight:700;
+
+      margin-bottom:14px;
+    }
+
+    body.light-mode .category{
+      background:#dbeafe;
+      color:#1d4ed8;
+    }
+
+    .sign-title{
+      font-size:1.1rem;
+      font-weight:800;
+      margin-bottom:6px;
+    }
+
+    .sign-jp{
+      opacity:0.75;
+      margin-bottom:14px;
+    }
+
+    .description{
+      line-height:1.7;
+      opacity:0.92;
+      font-size:0.95rem;
+    }
+
+    /* ======================================================
+       EXPAND BUTTON
+    ====================================================== */
+
+    .expand-btn{
+
+      width:100%;
+
+      margin-top:18px;
+
+      padding:13px;
+
+      border-radius:18px;
+
+      background:
+        linear-gradient(
+          135deg,
+          #2563eb,
+          #7c3aed
+        );
+
+      color:#fff;
+
+      font-weight:700;
+
+      transition:0.3s ease;
+    }
+
+    .expand-btn:hover{
+      transform:translateY(-2px);
+    }
+
+    /* ======================================================
+       LEARN MORE
+    ====================================================== */
+
+    .extra{
+
+      max-height:0;
+
+      overflow:hidden;
+
+      transition:max-height 0.45s ease;
+    }
+
+    .extra.open{
+      max-height:1600px;
+    }
+
+    .learn-box{
+
+      margin-top:18px;
+
+      display:flex;
+      flex-direction:column;
+      gap:14px;
+    }
+
+    .learn-section{
+
+      padding:15px;
+
+      border-radius:20px;
+
+      background:rgba(255,255,255,0.06);
+
+      border:1px solid rgba(255,255,255,0.08);
+    }
+
+    body.light-mode .learn-section{
+      background:rgba(255,255,255,0.85);
+    }
+
+    .learn-section h4{
+
+      margin-bottom:8px;
+
+      font-size:0.92rem;
+
+      font-weight:700;
+    }
+
+    .learn-section p{
+
+      line-height:1.75;
+
+      font-size:0.92rem;
+
+      opacity:0.9;
+    }
+
+    /* ======================================================
+       LISTS
+    ====================================================== */
+
+    .learn-list{
+
+      margin-top:12px;
+
+      padding-left:18px;
+
+      display:flex;
+      flex-direction:column;
+      gap:8px;
+    }
+
+    .learn-list li{
+
+      line-height:1.7;
+
+      font-size:0.9rem;
+
+      opacity:0.9;
+    }
+
+    /* ======================================================
+       QUIZ BOX
+    ====================================================== */
+
+    .quiz-box{
+
+      margin-top:12px;
+
+      padding:14px;
+
+      border-radius:18px;
+
+      background:
+        linear-gradient(
+          135deg,
+          rgba(37,99,235,0.18),
+          rgba(124,58,237,0.18)
+        );
+
+      border:1px solid rgba(255,255,255,0.08);
+    }
+
+    .quiz-question{
+      font-weight:700;
+      margin-bottom:10px;
+    }
+
+    .quiz-answer{
+      opacity:0.9;
+      line-height:1.7;
+    }
+
+    /* ======================================================
+       MEMORY TIP
+    ====================================================== */
+
+    .memory-tip{
+
+      margin-top:12px;
+
+      padding:14px;
+
+      border-radius:16px;
+
+      background:rgba(255,255,255,0.08);
+
+      text-align:center;
+
+      font-size:0.95rem;
+    }
+
+    /* ======================================================
+       RELATED BADGES
+    ====================================================== */
+
+    .related-signs{
+
+      display:flex;
+
+      flex-wrap:wrap;
+
+      gap:10px;
+
+      margin-top:12px;
+    }
+
+    .related-badge{
+
+      padding:10px 14px;
+
+      border-radius:999px;
+
+      background:rgba(255,255,255,0.08);
+
+      border:1px solid rgba(255,255,255,0.08);
+
+      font-size:0.82rem;
+
+      font-weight:600;
+    }
+
+    body.light-mode .related-badge{
+      background:#f3f4f6;
+    }
+
+    /* ======================================================
+       EMPTY
+    ====================================================== */
+
+    .empty{
+
+      display:none;
+
+      text-align:center;
+
+      padding:80px 20px;
+
+      opacity:0.7;
+    }
+
+    /* ======================================================
+       FAB
+    ====================================================== */
+
+    .scroll-top{
+
+      position:fixed;
+
+      right:20px;
+      bottom:20px;
+
+      width:62px;
+      height:62px;
+
+      border-radius:50%;
+
+      background:
+        linear-gradient(
+          135deg,
+          #2563eb,
+          #7c3aed
+        );
+
+      color:#fff;
+
+      font-size:1.3rem;
+
+      display:flex;
+      justify-content:center;
+      align-items:center;
+
+      box-shadow:
+        0 15px 35px rgba(37,99,235,0.4);
+
+      z-index:999;
+
+      transition:0.3s ease;
+    }
+
+    .scroll-top:hover{
+      transform:translateY(-4px);
+    }
+
+    /* ======================================================
+       ANIMATION
+    ====================================================== */
+
+    @keyframes fadeIn{
+
+      from{
+        opacity:0;
+        transform:translateY(12px);
+      }
+
+      to{
+        opacity:1;
+        transform:translateY(0);
+      }
+
+    }
+
+    /* ======================================================
+       MOBILE
+    ====================================================== */
+
+    @media(max-width:768px){
+
+      .hero{
+        padding:28px 20px;
+      }
+
+      .grid{
+        grid-template-columns:1fr;
+      }
+
+      .card-top{
+        min-height:160px;
+      }
+
+      .card-top img{
+        width:95px;
+        height:95px;
+      }
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <div class="app">
+
+    <!-- ======================================================
+         HERO
+    ====================================================== -->
+
+    <section class="hero">
+
+      <div class="hero-top">
+
+        <div>
+
+          <h1 class="hero-title">
+            🇯🇵 Japanese Road Signs Reviewer
+          </h1>
+
+          <p class="hero-description">
+            Learn Japanese road signs with interactive premium flashcard-style reviewing.
+            Perfect for learners preparing for the Japanese driving test.
+          </p>
+
+        </div>
+
+        <button
+          class="theme-btn"
+          id="themeToggle"
+        >
+          🌙
+        </button>
+
+      </div>
+
+      <!-- SEARCH -->
+
+      <div class="search-wrapper">
+
+        <span class="search-icon">
+          🔍
+        </span>
+
+        <input
+          type="text"
+          class="search-input"
+          id="searchInput"
+          placeholder="Search Japanese road signs..."
+        >
+
+      </div>
+
+    </section>
+
+    <!-- ======================================================
+         CATEGORY NAVIGATION
+    ====================================================== -->
+
+    <div class="sticky-nav">
+
+      <div class="tabs">
+
+        <button class="tab active" data-category="All">
+          All
+        </button>
+
+        <button class="tab" data-category="Regulatory Signs">
+          Regulatory
+        </button>
+
+        <button class="tab" data-category="Warning Signs">
+          Warning
+        </button>
+
+        <button class="tab" data-category="Mandatory Signs">
+          Mandatory
+        </button>
+
+        <button class="tab" data-category="Prohibition Signs">
+          Prohibition
+        </button>
+
+        <button class="tab" data-category="Parking & Stopping Signs">
+          Parking
+        </button>
+
+        <button class="tab" data-category="Guide Signs">
+          Guide
+        </button>
+
+        <button class="tab" data-category="Expressway Signs">
+          Expressway
+        </button>
+
+      </div>
+
+    </div>
+
+    <!-- ======================================================
+         GRID
+    ====================================================== -->
+
+    <div
+      class="grid"
+      id="signGrid"
+    ></div>
+
+    <!-- EMPTY -->
+
+    <div
+      class="empty"
+      id="emptyState"
+    >
+      <h2>
+        No road signs found.
+      </h2>
+    </div>
+
+  </div>
+
+  <!-- ======================================================
+       FLOATING BUTTON
+  ====================================================== -->
+
+  <button
+    class="scroll-top"
+    id="scrollTopBtn"
+  >
+    ↑
+  </button>
+
+  <!-- ======================================================
+       JAVASCRIPT
+  ====================================================== -->
+
+  <script>
+
+    /* ======================================================
+       ROAD SIGN DATASET
+    ====================================================== */
+
+    const roadSigns = [
+
+      {
+        name_en:"Stop",
+        name_jp:"止まれ",
+        image:"/static/images/signs/stop.png",
+        explanation:"Drivers must come to a complete stop before proceeding.",
+        category:"Regulatory Signs",
+
+        learn_more:{
+
+          meaning:
+          "This sign requires drivers to stop completely before entering the intersection.",
+
+          driver_action:
+          "Drivers must fully stop behind the stop line and check both directions carefully before moving.",
+
+          exam_tip:
+          "Rolling stops usually result in major point deductions during Japanese driving tests.",
+
+          safety:
+          "Failing to stop properly may cause collisions with vehicles, bicycles, or pedestrians.",
+
+          real_world:
+          "Commonly found in residential roads, intersections, and railway crossings.",
+
+          memory_tip:
+          "The red inverted triangle means immediate attention and stopping."
+        }
+      },
+
+      {
+        name_en:"No Entry",
+        name_jp:"進入禁止",
+        image:"/static/images/signs/no_entry.png",
+        explanation:"Vehicles are prohibited from entering from this direction.",
+        category:"Prohibition Signs",
+
+        learn_more:{
+
+          meaning:
+          "Vehicles cannot enter from this direction.",
+
+          driver_action:
+          "Drivers should immediately avoid entering this road.",
+
+          exam_tip:
+          "Frequently appears in Japanese written driving exams.",
+
+          safety:
+          "Ignoring this sign may cause head-on collisions.",
+
+          real_world:
+          "Usually found on one-way streets and expressway exits.",
+
+          memory_tip:
+          "The red circle with white center symbolizes blocked entry."
+        }
+      },
+
+      {
+        name_en:"Speed Limit 40",
+        name_jp:"最高速度40",
+        image:"/static/images/signs/speed_40.png",
+        explanation:"Maximum legal speed is 40 km/h.",
+        category:"Regulatory Signs",
+
+        learn_more:{
+
+          meaning:
+          "Drivers cannot exceed 40 kilometers per hour.",
+
+          driver_action:
+          "Maintain speed below the posted limit.",
+
+          exam_tip:
+          "Speed limit signs are extremely common in written exams.",
+
+          safety:
+          "Speeding increases stopping distance and accident risk.",
+
+          real_world:
+          "Often found in urban roads and residential areas.",
+
+          memory_tip:
+          "White circles with red borders usually indicate regulations."
+        }
+      },
+
+      {
+        name_en:"No Parking",
+        name_jp:"駐車禁止",
+        image:"/static/images/signs/no_parking.png",
+        explanation:"Parking is prohibited in this area.",
+        category:"Parking & Stopping Signs",
+
+        learn_more:{
+
+          meaning:
+          "Vehicles cannot park in this area.",
+
+          driver_action:
+          "Drivers may briefly stop but cannot leave vehicles parked.",
+
+          exam_tip:
+          "Questions may ask the difference between no parking and no stopping.",
+
+          safety:
+          "Illegal parking can block traffic and emergency vehicles.",
+
+          real_world:
+          "Very common on narrow Japanese roads.",
+
+          memory_tip:
+          "Single red slash means parking restriction."
+        }
+      },
+
+      {
+        name_en:"No Stopping",
+        name_jp:"駐停車禁止",
+        image:"/static/images/signs/no_stopping.png",
+        explanation:"Stopping and parking are prohibited.",
+        category:"Parking & Stopping Signs",
+
+        learn_more:{
+
+          meaning:
+          "Vehicles cannot stop or park here.",
+
+          driver_action:
+          "Drivers must continue moving unless emergency conditions exist.",
+
+          exam_tip:
+          "This sign represents stricter rules than no parking.",
+
+          safety:
+          "Stopping here may create dangerous traffic obstruction.",
+
+          real_world:
+          "Usually found near intersections and busy roads.",
+
+          memory_tip:
+          "Double red slashes mean stronger restriction."
+        }
+      },
+      
+      /* ======================================================
+       ADDITIONAL PREMIUM JAPANESE ROAD SIGNS
+       CONTINUE ADDING INSIDE roadSigns ARRAY
+    ====================================================== */
+    
+    {
+      name_en:"Pedestrian Crossing Ahead",
+      name_jp:"横断歩道あり",
+      image:"/static/images/signs/pedestrian_crossing_ahead.png",
+      explanation:"Pedestrian crossing ahead.",
+      category:"Warning Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "This sign warns drivers that a pedestrian crossing is ahead.",
+    
+        driver_action:
+        "Drivers should reduce speed and prepare to stop for pedestrians.",
+    
+        exam_tip:
+        "Japanese exams often test right-of-way rules for pedestrians.",
+    
+        safety:
+        "Failing to stop for pedestrians can cause serious accidents.",
+    
+        real_world:
+        "Very common near schools, stations, and intersections.",
+    
+        memory_tip:
+        "Blue signs with walking symbols usually relate to pedestrians."
+      }
+    },
+    
+    {
+      name_en:"School Zone",
+      name_jp:"学校あり",
+      image:"/static/images/signs/school_zone.png",
+      explanation:"School area ahead.",
+      category:"Warning Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "Children may suddenly cross or appear near the road.",
+    
+        driver_action:
+        "Drivers should slow down and stay alert.",
+    
+        exam_tip:
+        "Watch for hidden pedestrian questions involving children.",
+    
+        safety:
+        "Children are unpredictable and may cross suddenly.",
+    
+        real_world:
+        "Common near elementary schools and residential areas.",
+    
+        memory_tip:
+        "Child figures on yellow signs indicate caution around schools."
+      }
+    },
+    
+    {
+      name_en:"Railroad Crossing",
+      name_jp:"踏切あり",
+      image:"/static/images/signs/railroad_crossing.png",
+      explanation:"Railway crossing ahead.",
+      category:"Warning Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "A railway crossing is approaching.",
+    
+        driver_action:
+        "Drivers must slow down and check carefully for trains.",
+    
+        exam_tip:
+        "Japanese practical tests heavily evaluate railroad crossing behavior.",
+    
+        safety:
+        "Ignoring railway crossing rules may result in fatal accidents.",
+    
+        real_world:
+        "Very common in suburban and rural Japan.",
+    
+        memory_tip:
+        "Yellow warning signs with train symbols indicate railway crossings."
+      }
+    },
+    
+    {
+      name_en:"Traffic Signals Ahead",
+      name_jp:"信号機あり",
+      image:"/static/images/signs/traffic_signals.png",
+      explanation:"Traffic lights ahead.",
+      category:"Warning Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "Drivers are approaching a signal-controlled intersection.",
+    
+        driver_action:
+        "Prepare to stop depending on traffic signal changes.",
+    
+        exam_tip:
+        "Questions may involve yellow light judgment timing.",
+    
+        safety:
+        "Late reactions to signals may cause collisions.",
+    
+        real_world:
+        "Found before busy intersections and crossings.",
+    
+        memory_tip:
+        "Signal icons indicate upcoming traffic lights."
+      }
+    },
+    
+    {
+      name_en:"Road Narrows",
+      name_jp:"幅員減少",
+      image:"/static/images/signs/road_narrows.png",
+      explanation:"Road becomes narrower ahead.",
+      category:"Warning Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "The roadway width decreases ahead.",
+    
+        driver_action:
+        "Reduce speed and prepare for tighter traffic conditions.",
+    
+        exam_tip:
+        "Drivers must maintain safe side distance.",
+    
+        safety:
+        "Narrow roads increase collision risks.",
+    
+        real_world:
+        "Common in older Japanese residential streets.",
+    
+        memory_tip:
+        "Converging lines indicate narrowing roads."
+      }
+    },
+    
+    {
+      name_en:"Slippery Road",
+      name_jp:"すべりやすい",
+      image:"/static/images/signs/slippery_road.png",
+      explanation:"Road may be slippery.",
+      category:"Warning Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "Road conditions may reduce tire grip.",
+    
+        driver_action:
+        "Drivers should slow down and avoid sudden steering.",
+    
+        exam_tip:
+        "Safe braking distance questions are common.",
+    
+        safety:
+        "Slippery roads increase skidding risk.",
+    
+        real_world:
+        "Often seen during rainy or snowy conditions.",
+    
+        memory_tip:
+        "Sliding vehicle symbols indicate slippery surfaces."
+      }
+    },
+    
+    {
+      name_en:"Falling Rocks",
+      name_jp:"落石のおそれあり",
+      image:"/static/images/signs/falling_rocks.png",
+      explanation:"Watch for falling rocks.",
+      category:"Warning Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "Rocks may fall from nearby cliffs or mountains.",
+    
+        driver_action:
+        "Drivers should pass carefully and avoid stopping nearby.",
+    
+        exam_tip:
+        "Mountain road hazards may appear in written exams.",
+    
+        safety:
+        "Falling rocks may seriously damage vehicles.",
+    
+        real_world:
+        "Common in mountainous areas of Japan.",
+    
+        memory_tip:
+        "Rock symbols falling downward indicate rockfall danger."
+      }
+    },
+    
+    {
+      name_en:"Animal Crossing",
+      name_jp:"動物注意",
+      image:"/static/images/signs/animal_crossing.png",
+      explanation:"Animals may cross ahead.",
+      category:"Warning Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "Wild animals may suddenly cross the roadway.",
+    
+        driver_action:
+        "Reduce speed and scan road edges carefully.",
+    
+        exam_tip:
+        "Hazard perception questions may involve animals.",
+    
+        safety:
+        "Animal collisions may cause severe accidents.",
+    
+        real_world:
+        "Seen in forests and mountain roads.",
+    
+        memory_tip:
+        "Animal silhouettes indicate wildlife caution."
+      }
+    },
+    
+    {
+      name_en:"No U-Turn",
+      name_jp:"転回禁止",
+      image:"/static/images/signs/no_uturn.png",
+      explanation:"U-turns are prohibited.",
+      category:"Prohibition Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "Vehicles are not allowed to make U-turns here.",
+    
+        driver_action:
+        "Continue forward and find a legal turning location.",
+    
+        exam_tip:
+        "U-turn restriction questions appear frequently.",
+    
+        safety:
+        "Illegal U-turns may disrupt traffic flow.",
+    
+        real_world:
+        "Common on busy urban roads.",
+    
+        memory_tip:
+        "Red circles with crossed arrows indicate prohibited actions."
+      }
+    },
+    
+    {
+      name_en:"No Overtaking",
+      name_jp:"追い越し禁止",
+      image:"/static/images/signs/no_overtaking.png",
+      explanation:"Passing other vehicles is prohibited.",
+      category:"Prohibition Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "Drivers may not overtake vehicles ahead.",
+    
+        driver_action:
+        "Remain behind slower traffic until restriction ends.",
+    
+        exam_tip:
+        "Exam questions may ask about centerline rules.",
+    
+        safety:
+        "Unsafe overtaking may cause head-on collisions.",
+    
+        real_world:
+        "Common on curves and narrow roads.",
+    
+        memory_tip:
+        "Two-car symbols usually relate to overtaking."
+      }
+    },
+    
+    {
+      name_en:"One Way",
+      name_jp:"一方通行",
+      image:"/static/images/signs/one_way.png",
+      explanation:"Traffic flows in one direction only.",
+      category:"Regulatory Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "Vehicles may only travel in the indicated direction.",
+    
+        driver_action:
+        "Follow the allowed direction carefully.",
+    
+        exam_tip:
+        "One-way road questions commonly appear in exams.",
+    
+        safety:
+        "Driving against traffic is extremely dangerous.",
+    
+        real_world:
+        "Very common in Japanese city streets.",
+    
+        memory_tip:
+        "Directional arrows indicate permitted travel direction."
+      }
+    },
+    
+    {
+      name_en:"Expressway",
+      name_jp:"高速道路",
+      image:"/static/images/signs/expressway.png",
+      explanation:"Expressway begins ahead.",
+      category:"Expressway Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "Drivers are entering an expressway.",
+    
+        driver_action:
+        "Increase speed safely and merge properly.",
+    
+        exam_tip:
+        "Expressway merging rules are important in exams.",
+    
+        safety:
+        "Improper merging may cause high-speed accidents.",
+    
+        real_world:
+        "Seen at expressway entrances.",
+    
+        memory_tip:
+        "Green signs usually relate to expressways."
+      }
+    },
+    
+    {
+      name_en:"Expressway Exit",
+      name_jp:"出口",
+      image:"/static/images/signs/expressway_exit.png",
+      explanation:"Expressway exit ahead.",
+      category:"Expressway Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "Drivers are approaching an expressway exit.",
+    
+        driver_action:
+        "Move into the correct exit lane early.",
+    
+        exam_tip:
+        "Lane positioning is important during practical tests.",
+    
+        safety:
+        "Late lane changes may be dangerous.",
+    
+        real_world:
+        "Found throughout Japanese expressways.",
+    
+        memory_tip:
+        "Exit arrows indicate leaving the expressway."
+      }
+    },
+    
+    {
+      name_en:"Parking Area",
+      name_jp:"駐車場",
+      image:"/static/images/signs/parking_area.png",
+      explanation:"Parking area nearby.",
+      category:"Guide Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "Parking facilities are available nearby.",
+    
+        driver_action:
+        "Drivers may park only in designated areas.",
+    
+        exam_tip:
+        "Parking rules are important in practical driving tests.",
+    
+        safety:
+        "Improper parking may block roads and emergency access.",
+    
+        real_world:
+        "Common in shopping areas and stations.",
+    
+        memory_tip:
+        "Blue signs with P symbols indicate parking."
+      }
+    },
+    
+        /* ======================================================
+       ADDITIONAL UNIQUE JAPANESE ROAD SIGNS
+       NO DUPLICATES
+       ADD BELOW YOUR EXISTING roadSigns ARRAY
+    ====================================================== */
+    
+    {
+      name_en:"Keep Left",
+      name_jp:"左側通行",
+      image:"/static/images/signs/keep_left.png",
+      explanation:"Drivers must keep to the left side.",
+      category:"Mandatory Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "Vehicles must travel on the left side of the roadway.",
+    
+        driver_action:
+        "Drivers should stay left and avoid crossing into opposing lanes.",
+    
+        exam_tip:
+        "Japan drives on the left side, and this is commonly tested.",
+    
+        safety:
+        "Incorrect lane positioning may cause head-on collisions.",
+    
+        real_world:
+        "Common near road dividers and narrow streets.",
+    
+        memory_tip:
+        "Blue circular signs usually indicate mandatory actions."
+      }
+    },
+    
+    {
+      name_en:"Keep Right",
+      name_jp:"右側通行",
+      image:"/static/images/signs/keep_right.png",
+      explanation:"Drivers must keep to the right side.",
+      category:"Mandatory Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "Drivers must pass or travel on the right side of an obstacle.",
+    
+        driver_action:
+        "Move carefully to the right side when instructed.",
+    
+        exam_tip:
+        "Often appears in lane control questions.",
+    
+        safety:
+        "Ignoring directional signs may disrupt traffic flow.",
+    
+        real_world:
+        "Seen around construction zones and medians.",
+    
+        memory_tip:
+        "Directional arrows indicate required vehicle movement."
+      }
+    },
+    
+    {
+      name_en:"Straight Ahead Only",
+      name_jp:"直進のみ",
+      image:"/static/images/signs/straight_only.png",
+      explanation:"Vehicles must continue straight ahead.",
+      category:"Mandatory Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "Turning is prohibited and drivers must continue straight.",
+    
+        driver_action:
+        "Remain in the current lane and proceed forward only.",
+    
+        exam_tip:
+        "Direction restriction questions are common in exams.",
+    
+        safety:
+        "Unexpected turns may cause accidents with nearby traffic.",
+    
+        real_world:
+        "Often found at busy intersections.",
+    
+        memory_tip:
+        "Upward arrows indicate forward-only movement."
+      }
+    },
+    
+    {
+      name_en:"Pedestrian Only",
+      name_jp:"歩行者専用",
+      image:"/static/images/signs/pedestrian_only.png",
+      explanation:"Road reserved only for pedestrians.",
+      category:"Mandatory Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "Only pedestrians may enter this area.",
+    
+        driver_action:
+        "Drivers must avoid entering pedestrian-only zones.",
+    
+        exam_tip:
+        "Pay attention to pedestrian protection rules.",
+    
+        safety:
+        "Vehicle entry may endanger pedestrians.",
+    
+        real_world:
+        "Common near shopping streets and stations.",
+    
+        memory_tip:
+        "Walking person symbols indicate pedestrian areas."
+      }
+    },
+    
+    {
+      name_en:"Bicycle Lane",
+      name_jp:"自転車専用",
+      image:"/static/images/signs/bicycle_lane.png",
+      explanation:"Lane reserved for bicycles.",
+      category:"Mandatory Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "This lane is reserved exclusively for bicycles.",
+    
+        driver_action:
+        "Drivers must not enter or block bicycle lanes.",
+    
+        exam_tip:
+        "Questions may involve bicycle lane safety.",
+    
+        safety:
+        "Blocking bicycle lanes creates risks for cyclists.",
+    
+        real_world:
+        "Common in urban roads and school areas.",
+    
+        memory_tip:
+        "Bicycle symbols indicate cyclist priority."
+      }
+    },
+    
+    {
+      name_en:"Shared Path",
+      name_jp:"歩行者自転車専用",
+      image:"/static/images/signs/shared_path.png",
+      explanation:"Shared pathway for bicycles and pedestrians.",
+      category:"Mandatory Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "Pedestrians and bicycles share this pathway.",
+    
+        driver_action:
+        "Vehicles should avoid entering this area.",
+    
+        exam_tip:
+        "Watch for shared-path signs in written tests.",
+    
+        safety:
+        "Drivers must be cautious near mixed-use paths.",
+    
+        real_world:
+        "Often found near parks and riversides.",
+    
+        memory_tip:
+        "Combined pedestrian and bicycle symbols indicate shared use."
+      }
+    },
+    
+    {
+      name_en:"Roundabout",
+      name_jp:"環状交差点",
+      image:"/static/images/signs/roundabout.png",
+      explanation:"Vehicles circulate around a roundabout.",
+      category:"Mandatory Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "Drivers must travel in a circular direction around the intersection.",
+    
+        driver_action:
+        "Yield appropriately and follow the roundabout flow.",
+    
+        exam_tip:
+        "Roundabout rules are increasingly included in exams.",
+    
+        safety:
+        "Incorrect entry may cause side collisions.",
+    
+        real_world:
+        "Found in modern intersections across Japan.",
+    
+        memory_tip:
+        "Circular arrows indicate continuous circular movement."
+      }
+    },
+    
+    {
+      name_en:"Minimum Speed",
+      name_jp:"最低速度",
+      image:"/static/images/signs/minimum_speed.png",
+      explanation:"Drivers must maintain at least the posted speed.",
+      category:"Regulatory Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "Vehicles must not drive slower than the indicated speed.",
+    
+        driver_action:
+        "Maintain traffic flow without driving too slowly.",
+    
+        exam_tip:
+        "Minimum speed signs are common on expressways.",
+    
+        safety:
+        "Driving too slowly may disrupt traffic and increase collision risks.",
+    
+        real_world:
+        "Mostly seen on expressways.",
+    
+        memory_tip:
+        "Blue circular signs with numbers often indicate minimum requirements."
+      }
+    },
+    
+    {
+      name_en:"Yield",
+      name_jp:"徐行・譲れ",
+      image:"/static/images/signs/yield.png",
+      explanation:"Drivers must give priority to other traffic.",
+      category:"Regulatory Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "Drivers must slow down and give way to crossing traffic.",
+    
+        driver_action:
+        "Prepare to stop if necessary and check carefully.",
+    
+        exam_tip:
+        "Yielding behavior is closely checked during practical exams.",
+    
+        safety:
+        "Failure to yield may result in intersection accidents.",
+    
+        real_world:
+        "Often found at smaller intersections.",
+    
+        memory_tip:
+        "Inverted triangular signs usually mean caution or yielding."
+      }
+    },
+    
+    {
+      name_en:"Tunnel",
+      name_jp:"トンネル",
+      image:"/static/images/signs/tunnel.png",
+      explanation:"Tunnel ahead.",
+      category:"Guide Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "Drivers are approaching a tunnel section.",
+    
+        driver_action:
+        "Turn on headlights if necessary and maintain safe spacing.",
+    
+        exam_tip:
+        "Tunnel safety questions may appear in exams.",
+    
+        safety:
+        "Visibility changes quickly when entering tunnels.",
+    
+        real_world:
+        "Common in mountainous regions of Japan.",
+    
+        memory_tip:
+        "Tunnel-shaped symbols indicate enclosed roadway sections."
+      }
+    },
+    
+    {
+      name_en:"Hospital",
+      name_jp:"病院",
+      image:"/static/images/signs/hospital.png",
+      explanation:"Hospital nearby.",
+      category:"Guide Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "Medical facilities are available nearby.",
+    
+        driver_action:
+        "Drive carefully and watch for ambulances or pedestrians.",
+    
+        exam_tip:
+        "Emergency vehicle awareness is important in exams.",
+    
+        safety:
+        "Hospitals often have heavy pedestrian activity.",
+    
+        real_world:
+        "Common in urban and suburban areas.",
+    
+        memory_tip:
+        "H symbols usually represent hospitals."
+      }
+    },
+    
+    {
+      name_en:"Gas Station",
+      name_jp:"ガソリンスタンド",
+      image:"/static/images/signs/gas_station.png",
+      explanation:"Fuel station nearby.",
+      category:"Guide Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "Fuel services are available nearby.",
+    
+        driver_action:
+        "Drivers may prepare for refueling stops.",
+    
+        exam_tip:
+        "Guide signs help drivers navigate efficiently.",
+    
+        safety:
+        "Enter and exit fuel stations carefully.",
+    
+        real_world:
+        "Very common on highways and city roads.",
+    
+        memory_tip:
+        "Fuel pump icons indicate gasoline stations."
+      }
+    },
+    
+    {
+      name_en:"Restaurant",
+      name_jp:"レストラン",
+      image:"/static/images/signs/restaurant.png",
+      explanation:"Restaurant nearby.",
+      category:"Guide Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "Food and dining services are available nearby.",
+    
+        driver_action:
+        "Drivers may safely stop for meals or breaks.",
+    
+        exam_tip:
+        "Guide sign recognition is useful for navigation questions.",
+    
+        safety:
+        "Avoid distracted driving when searching for restaurants.",
+    
+        real_world:
+        "Often found near expressways and tourist areas.",
+    
+        memory_tip:
+        "Fork and spoon symbols indicate dining facilities."
+      }
+    },
+    
+    {
+      name_en:"Hotel",
+      name_jp:"ホテル",
+      image:"/static/images/signs/hotel.png",
+      explanation:"Hotel nearby.",
+      category:"Guide Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "Accommodation facilities are available nearby.",
+    
+        driver_action:
+        "Drivers may use hotels for rest during long trips.",
+    
+        exam_tip:
+        "Guide sign categories may appear in classification questions.",
+    
+        safety:
+        "Fatigued drivers should consider taking rest breaks.",
+    
+        real_world:
+        "Frequently found near tourist destinations.",
+    
+        memory_tip:
+        "Bed symbols usually represent accommodation."
+      }
+    },
+    /* ======================================================
+       ADDITIONAL COMMONLY SEEN JAPANESE ROAD SIGNS
+       NO DUPLICATES
+       ADD BELOW YOUR EXISTING roadSigns ARRAY
+    ====================================================== */
+    
+    {
+      name_en:"No Pedestrians",
+      name_jp:"歩行者通行止め",
+      image:"/static/images/signs/no_pedestrians.png",
+      explanation:"Pedestrians are prohibited from entering.",
+      category:"Prohibition Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "Pedestrians are not allowed in this area.",
+    
+        driver_action:
+        "Drivers should remain alert for restricted access zones.",
+    
+        exam_tip:
+        "Questions may ask who is prohibited from entering.",
+    
+        safety:
+        "Restricted pedestrian zones help prevent accidents.",
+    
+        real_world:
+        "Often found on expressways and vehicle-only roads.",
+    
+        memory_tip:
+        "Red circles with people symbols usually indicate pedestrian restrictions."
+      }
+    },
+    
+    {
+      name_en:"No Motorcycles",
+      name_jp:"二輪車通行止め",
+      image:"/static/images/signs/no_motorcycles.png",
+      explanation:"Motorcycles are prohibited from entering.",
+      category:"Prohibition Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "Motorcycles cannot use this road.",
+    
+        driver_action:
+        "Riders must find an alternate permitted route.",
+    
+        exam_tip:
+        "Vehicle classification signs commonly appear in exams.",
+    
+        safety:
+        "Restrictions may exist due to dangerous road conditions.",
+    
+        real_world:
+        "Common in tunnels and residential areas.",
+    
+        memory_tip:
+        "Motorcycle symbols inside red circles indicate prohibition."
+      }
+    },
+    
+    {
+      name_en:"No Right Turn",
+      name_jp:"右折禁止",
+      image:"/static/images/signs/no_right_turn.png",
+      explanation:"Right turns are prohibited.",
+      category:"Prohibition Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "Vehicles may not turn right at this location.",
+    
+        driver_action:
+        "Drivers must continue straight or follow alternative routes.",
+    
+        exam_tip:
+        "Direction restriction questions are common in written exams.",
+    
+        safety:
+        "Illegal turns may interrupt traffic flow and cause collisions.",
+    
+        real_world:
+        "Frequently found at busy intersections.",
+    
+        memory_tip:
+        "Red slashes over arrows indicate prohibited directions."
+      }
+    },
+    
+    {
+      name_en:"No Left Turn",
+      name_jp:"左折禁止",
+      image:"/static/images/signs/no_left_turn.png",
+      explanation:"Left turns are prohibited.",
+      category:"Prohibition Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "Vehicles may not turn left at this location.",
+    
+        driver_action:
+        "Continue forward or use another legal turning point.",
+    
+        exam_tip:
+        "Watch carefully for directional arrow restrictions.",
+    
+        safety:
+        "Improper turns may create dangerous crossing conflicts.",
+    
+        real_world:
+        "Common in narrow city roads.",
+    
+        memory_tip:
+        "Crossed directional arrows mean prohibited movement."
+      }
+    },
+    
+    {
+      name_en:"No Straight Through",
+      name_jp:"直進禁止",
+      image:"/static/images/signs/no_straight.png",
+      explanation:"Vehicles cannot continue straight.",
+      category:"Prohibition Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "Drivers are prohibited from proceeding forward.",
+    
+        driver_action:
+        "Turn in the permitted direction instead.",
+    
+        exam_tip:
+        "Often appears together with turn-only signs.",
+    
+        safety:
+        "Helps organize traffic at complicated intersections.",
+    
+        real_world:
+        "Frequently seen in crowded urban roads.",
+    
+        memory_tip:
+        "Arrow symbols with red slashes indicate forbidden travel."
+      }
+    },
+    
+    {
+      name_en:"Children Crossing",
+      name_jp:"児童横断",
+      image:"/static/images/signs/children_crossing.png",
+      explanation:"Children may cross the road ahead.",
+      category:"Warning Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "Children are likely to cross nearby.",
+    
+        driver_action:
+        "Reduce speed and prepare to stop immediately.",
+    
+        exam_tip:
+        "Child safety rules are important in practical exams.",
+    
+        safety:
+        "Children may move unpredictably near roads.",
+    
+        real_world:
+        "Usually found near schools and parks.",
+    
+        memory_tip:
+        "Child figures on warning signs indicate school-related caution."
+      }
+    },
+    
+    {
+      name_en:"Crossroads",
+      name_jp:"交差点あり",
+      image:"/static/images/signs/crossroads.png",
+      explanation:"Intersection ahead.",
+      category:"Warning Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "An intersection is approaching ahead.",
+    
+        driver_action:
+        "Check all directions carefully before entering.",
+    
+        exam_tip:
+        "Intersection safety is heavily tested.",
+    
+        safety:
+        "Many accidents happen at intersections.",
+    
+        real_world:
+        "Extremely common on Japanese roads.",
+    
+        memory_tip:
+        "Cross-shaped symbols indicate intersecting roads."
+      }
+    },
+    
+    {
+      name_en:"Curve Left",
+      name_jp:"左方屈曲あり",
+      image:"/static/images/signs/curve_left.png",
+      explanation:"Sharp left curve ahead.",
+      category:"Warning Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "Road curves sharply to the left ahead.",
+    
+        driver_action:
+        "Reduce speed before entering the curve.",
+    
+        exam_tip:
+        "Curve handling safety appears in hazard questions.",
+    
+        safety:
+        "Excessive speed may cause loss of control.",
+    
+        real_world:
+        "Common in mountain roads.",
+    
+        memory_tip:
+        "Curved arrows indicate upcoming road bends."
+      }
+    },
+    
+    {
+      name_en:"Curve Right",
+      name_jp:"右方屈曲あり",
+      image:"/static/images/signs/curve_right.png",
+      explanation:"Sharp right curve ahead.",
+      category:"Warning Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "Road curves sharply to the right ahead.",
+    
+        driver_action:
+        "Brake early and steer smoothly.",
+    
+        exam_tip:
+        "Drivers should avoid sudden braking during curves.",
+    
+        safety:
+        "Sharp curves may reduce visibility.",
+    
+        real_world:
+        "Frequently found on countryside roads.",
+    
+        memory_tip:
+        "Directional curves indicate road direction changes."
+      }
+    },
+    
+    {
+      name_en:"Two-Way Traffic",
+      name_jp:"対面通行",
+      image:"/static/images/signs/two_way_traffic.png",
+      explanation:"Traffic flows in both directions.",
+      category:"Warning Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "Opposing traffic lanes exist ahead.",
+    
+        driver_action:
+        "Stay within lane markings carefully.",
+    
+        exam_tip:
+        "Centerline awareness is important in practical tests.",
+    
+        safety:
+        "Crossing into opposing lanes is extremely dangerous.",
+    
+        real_world:
+        "Common after one-way sections or construction zones.",
+    
+        memory_tip:
+        "Opposite arrows indicate two-way traffic."
+      }
+    },
+    
+    {
+      name_en:"Steep Hill",
+      name_jp:"急勾配あり",
+      image:"/static/images/signs/steep_hill.png",
+      explanation:"Steep hill ahead.",
+      category:"Warning Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "Drivers are approaching a steep incline or decline.",
+    
+        driver_action:
+        "Use proper braking and gear control.",
+    
+        exam_tip:
+        "Hill-start techniques are tested during practical exams.",
+    
+        safety:
+        "Improper braking may cause loss of control.",
+    
+        real_world:
+        "Common in mountainous regions of Japan.",
+    
+        memory_tip:
+        "Sloped road symbols indicate steep terrain."
+      }
+    },
+    
+    {
+      name_en:"Road Work",
+      name_jp:"道路工事中",
+      image:"/static/images/signs/road_work.png",
+      explanation:"Road construction ahead.",
+      category:"Warning Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "Construction or maintenance work is occurring ahead.",
+    
+        driver_action:
+        "Slow down and follow temporary traffic guidance.",
+    
+        exam_tip:
+        "Temporary traffic control signs may appear in exams.",
+    
+        safety:
+        "Construction zones often have sudden lane changes.",
+    
+        real_world:
+        "Very common in urban road repairs.",
+    
+        memory_tip:
+        "Worker symbols indicate construction activity."
+      }
+    },
+    
+    {
+      name_en:"Danger",
+      name_jp:"危険",
+      image:"/static/images/signs/danger.png",
+      explanation:"General danger warning.",
+      category:"Warning Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "Drivers should prepare for unusual hazards ahead.",
+    
+        driver_action:
+        "Increase awareness and reduce speed immediately.",
+    
+        exam_tip:
+        "General hazard awareness is essential in driving tests.",
+    
+        safety:
+        "Danger signs indicate increased accident risk.",
+    
+        real_world:
+        "Used in temporary or hazardous areas.",
+    
+        memory_tip:
+        "Yellow warning signs usually indicate caution."
+      }
+    },
+    
+    {
+      name_en:"Parking Area Expressway",
+      name_jp:"パーキングエリア",
+      image:"/static/images/signs/parking_area.png",
+      explanation:"Expressway parking area ahead.",
+      category:"Expressway Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "Drivers may rest or park temporarily ahead.",
+    
+        driver_action:
+        "Use parking areas safely for rest breaks.",
+    
+        exam_tip:
+        "Rest management is important during long-distance driving.",
+    
+        safety:
+        "Fatigued driving increases accident risks.",
+    
+        real_world:
+        "Common throughout Japanese expressways.",
+    
+        memory_tip:
+        "Blue P symbols indicate parking facilities."
+      }
+    },
+    
+    {
+      name_en:"Service Area",
+      name_jp:"サービスエリア",
+      image:"/static/images/signs/service_area.png",
+      explanation:"Service area ahead.",
+      category:"Expressway Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "Food, fuel, and rest facilities are available ahead.",
+    
+        driver_action:
+        "Drivers may safely stop for rest and services.",
+    
+        exam_tip:
+        "Expressway facility signs may appear in navigation questions.",
+    
+        safety:
+        "Regular breaks help prevent driver fatigue.",
+    
+        real_world:
+        "Found regularly along expressways.",
+    
+        memory_tip:
+        "Green expressway signs often indicate highway facilities."
+      }
+    },
+        /* ======================================================
+       ADDITIONAL IMPORTANT JAPANESE TRAFFIC SIGNS
+       SIGNALS & SPECIAL RULES
+       NO DUPLICATES
+    ====================================================== */
+    
+    {
+      name_en:"Red Flashing Signal",
+      name_jp:"赤色点滅信号",
+      image:"/static/images/signs/red_flashing_signal.png",
+      explanation:"Drivers must stop completely before proceeding.",
+      category:"Regulatory Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "A flashing red signal requires drivers to make a complete stop before entering the intersection. It has the same meaning as a stop sign in Japan.",
+    
+        driver_action:
+        "Drivers must stop fully behind the stop line, carefully check left and right, confirm safety, and then proceed slowly if the road is clear.",
+    
+        exam_tip:
+        "Japanese driving exams frequently compare flashing red and flashing yellow lights. Flashing red always requires a complete stop.",
+    
+        safety:
+        "Ignoring a flashing red signal may cause serious side-impact collisions at intersections.",
+    
+        real_world:
+        "Often used during nighttime operation or at intersections with low traffic volume.",
+    
+        memory_tip:
+        "Flashing red means STOP completely before moving."
+      }
+    },
+    
+    {
+      name_en:"Yellow Flashing Signal",
+      name_jp:"黄色点滅信号",
+      image:"/static/images/signs/yellow_flashing_signal.png",
+      explanation:"Drivers may proceed carefully with caution.",
+      category:"Warning Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "A flashing yellow signal warns drivers to proceed carefully while remaining alert for crossing traffic and pedestrians.",
+    
+        driver_action:
+        "Drivers may continue moving but should reduce speed and carefully check surrounding traffic conditions.",
+    
+        exam_tip:
+        "Written exams commonly ask the difference between flashing yellow signals and normal yellow traffic lights.",
+    
+        safety:
+        "Drivers still have responsibility to confirm safety before entering intersections.",
+    
+        real_world:
+        "Commonly seen late at night when traffic signals switch to flashing operation.",
+    
+        memory_tip:
+        "Flashing yellow means CAUTION — slow down but do not stop unless necessary."
+      }
+    },
+    
+    {
+      name_en:"Truck Prohibited",
+      name_jp:"大型貨物自動車通行止め",
+      image:"/static/images/signs/truck_prohibited.png",
+      explanation:"Large trucks are prohibited from entering.",
+      category:"Prohibition Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "Large cargo trucks and heavy vehicles cannot use this road or area.",
+    
+        driver_action:
+        "Truck drivers must immediately follow detour routes or alternate permitted roads.",
+    
+        exam_tip:
+        "Vehicle restriction signs are commonly included in Japanese learner permit exams.",
+    
+        safety:
+        "Large trucks may be unsafe on narrow roads, school zones, or residential streets.",
+    
+        real_world:
+        "Frequently found near residential neighborhoods, schools, and small urban roads.",
+    
+        memory_tip:
+        "Truck symbols inside red circles indicate truck restrictions."
+      }
+    },
+    
+    {
+      name_en:"Motorcycle Prohibited",
+      name_jp:"二輪車通行止め",
+      image:"/static/images/signs/motorcycle_prohibited.png",
+      explanation:"Motorcycles are prohibited from entering.",
+      category:"Prohibition Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "Motorcycles, scooters, and other two-wheeled motor vehicles cannot enter this road.",
+    
+        driver_action:
+        "Motorcycle riders must find another permitted route immediately.",
+    
+        exam_tip:
+        "Japanese exams may ask which vehicle types are restricted by this sign.",
+    
+        safety:
+        "Restrictions are often used on roads where motorcycles may face increased danger.",
+    
+        real_world:
+        "Common near tunnels, expressways, bridges, and quiet residential areas.",
+    
+        memory_tip:
+        "A motorcycle symbol inside a red prohibition circle means motorcycles are not allowed."
+      }
+    },
+    
+    {
+      name_en:"No Right Turn",
+      name_jp:"右折禁止",
+      image:"/static/images/signs/no_right_turn.png",
+      explanation:"Right turns are prohibited at this location.",
+      category:"Prohibition Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "Drivers are prohibited from turning right at this intersection or roadway.",
+    
+        driver_action:
+        "Continue straight or use another legal route to change direction.",
+    
+        exam_tip:
+        "Direction restriction signs appear very frequently in Japanese written exams.",
+    
+        safety:
+        "Illegal right turns may interfere with crossing vehicles, bicycles, and pedestrians.",
+    
+        real_world:
+        "Very common at busy intersections and narrow roads.",
+    
+        memory_tip:
+        "Red slashes across arrows always indicate prohibited directions."
+      }
+    },
+    
+    {
+      name_en:"No Left Turn",
+      name_jp:"左折禁止",
+      image:"/static/images/signs/no_left_turn.png",
+      explanation:"Left turns are prohibited at this location.",
+      category:"Prohibition Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "Drivers cannot make left turns at this road section or intersection.",
+    
+        driver_action:
+        "Follow the permitted direction and use another legal turning point later.",
+    
+        exam_tip:
+        "Watch carefully for lane-specific direction restrictions during exams.",
+    
+        safety:
+        "Illegal left turns may confuse nearby traffic and increase accident risk.",
+    
+        real_world:
+        "Frequently used in urban traffic control and narrow intersections.",
+    
+        memory_tip:
+        "Arrow symbols with red prohibition slashes indicate forbidden movement."
+      }
+    },
+    
+    {
+      name_en:"Hand Signal Required",
+      name_jp:"手信号",
+      image:"/static/images/signs/hand_signal.png",
+      explanation:"Drivers may need to use hand signals if turn signals malfunction.",
+      category:"Regulatory Signs",
+    
+      learn_more:{
+    
+        meaning:
+        "Drivers should understand official Japanese hand signaling methods used during emergencies or equipment failure.",
+    
+        driver_action:
+        "Use correct hand signals when electronic indicators or brake lights are not functioning properly.",
+    
+        exam_tip:
+        "Japanese driving tests may ask about motorcycle, bicycle, and emergency hand signals.",
+    
+        safety:
+        "Proper hand signaling helps surrounding drivers understand your intentions clearly.",
+    
+        real_world:
+        "Important for motorcycles, bicycles, emergency situations, and signal malfunctions.",
+    
+        memory_tip:
+        "Hand signals act as backup communication when normal vehicle signals fail."
+      }
+    },
+    
+    
+    ];
+
+    /* ======================================================
+       DUPLICATE FOR DEMO
+    ====================================================== */
+
+    const fullSigns = [...roadSigns];
+
+    /* ======================================================
+       ELEMENTS
+    ====================================================== */
+
+    const signGrid =
+      document.getElementById("signGrid");
+
+    const searchInput =
+      document.getElementById("searchInput");
+
+    const tabs =
+      document.querySelectorAll(".tab");
+
+    const emptyState =
+      document.getElementById("emptyState");
+
+    let currentCategory = "All";
+
+    /* ======================================================
+       EDUCATIONAL CONTENT
+    ====================================================== */
+
+    function generateEducationalContent(sign){
+
+      const info =
+        sign.learn_more || {};
+
+      return `
+
+        <div class="learn-box">
+
+          <div class="learn-section">
+
+            <h4>
+              📘 Sign Meaning
+            </h4>
+
+            <p>
+              ${info.meaning || sign.explanation}
+            </p>
+
+          </div>
+
+          <div class="learn-section">
+
+            <h4>
+              🚗 Driver Action
+            </h4>
+
+            <p>
+              ${info.driver_action || "Drivers should carefully follow this sign."}
+            </p>
+
+          </div>
+
+          <div class="learn-section">
+
+            <h4>
+              🧠 Driving Test Tip
+            </h4>
+
+            <p>
+              ${info.exam_tip || "This sign may appear during Japanese driving exams."}
+            </p>
+
+          </div>
+
+          <div class="learn-section">
+
+            <h4>
+              ⚠️ Safety Reminder
+            </h4>
+
+            <p>
+              ${info.safety || "Ignoring this sign may create dangerous situations."}
+            </p>
+
+          </div>
+
+          <div class="learn-section">
+
+            <h4>
+              🌏 Real Driving Situation
+            </h4>
+
+            <p>
+              ${info.real_world || "This sign commonly appears on Japanese roads."}
+            </p>
+
+          </div>
+
+          <div class="learn-section">
+
+            <h4>
+              💡 Memory Tip
+            </h4>
+
+            <p>
+              ${info.memory_tip || "Try remembering the shape and color of the sign."}
+            </p>
+
+          </div>
+
+          <div class="learn-section">
+
+            <h4>
+              📝 Common Exam Question
+            </h4>
+
+            <div class="quiz-box">
+
+              <p class="quiz-question">
+                “What should the driver do when seeing this sign?”
+              </p>
+
+              <p class="quiz-answer">
+                The driver must correctly follow the rule,
+                instruction, or warning indicated by the sign.
+              </p>
+
+            </div>
+
+          </div>
+
+          <div class="learn-section">
+
+            <h4>
+              🔗 Related Topics
+            </h4>
+
+            <div class="related-signs">
+
+              <span class="related-badge">
+                Japanese Driving Test
+              </span>
+
+              <span class="related-badge">
+                Traffic Rules
+              </span>
+
+              <span class="related-badge">
+                Road Safety
+              </span>
+
+              <span class="related-badge">
+                Driving Awareness
+              </span>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      `;
+
+    }
+
+    /* ======================================================
+       RENDER
+    ====================================================== */
+
+    function renderSigns(){
+
+      const search =
+        searchInput.value.toLowerCase();
+
+      const filtered = fullSigns.filter(sign => {
+
+        const matchesCategory =
+
+          currentCategory === "All" ||
+
+          sign.category === currentCategory;
+
+        const matchesSearch =
+
+          sign.name_en.toLowerCase().includes(search) ||
+
+          sign.name_jp.includes(search) ||
+
+          sign.explanation.toLowerCase().includes(search);
+
+        return matchesCategory && matchesSearch;
+
+      });
+
+      signGrid.innerHTML = "";
+
+      if(filtered.length === 0){
+
+        emptyState.style.display = "block";
+
+      }else{
+
+        emptyState.style.display = "none";
+
+      }
+
+      filtered.forEach(sign => {
+
+        const card =
+          document.createElement("div");
+
+        card.className = "card";
+
+        card.innerHTML = `
+
+          <div class="card-top">
+
+            <img
+                src="${sign.image}"
+                alt="${sign.name_en}"
+                loading="lazy"
+                onerror="this.src='/static/images/signs/placeholder.png'"
+            />
+
+          </div>
+
+          <div class="card-body">
+
+            <div class="category">
+              ${sign.category}
+            </div>
+
+            <h3 class="sign-title">
+              ${sign.name_en}
+            </h3>
+
+            <div class="sign-jp">
+              ${sign.name_jp}
+            </div>
+
+            <p class="description">
+              ${sign.explanation}
+            </p>
+
+            <button class="expand-btn">
+              Learn More
+            </button>
+
+            <div class="extra">
+
+              ${generateEducationalContent(sign)}
+
+            </div>
+
+          </div>
+
+        `;
+
+        const expandBtn =
+          card.querySelector(".expand-btn");
+
+        const extra =
+          card.querySelector(".extra");
+
+        expandBtn.addEventListener("click", () => {
+
+          extra.classList.toggle("open");
+
+          expandBtn.innerText =
+
+            extra.classList.contains("open")
+
+            ? "Hide Details"
+
+            : "Learn More";
+
+        });
+
+        signGrid.appendChild(card);
+
+      });
+
+    }
+
+    /* ======================================================
+       SEARCH
+    ====================================================== */
+
+    searchInput.addEventListener(
+      "input",
+      renderSigns
+    );
+
+    /* ======================================================
+       FILTER TABS
+    ====================================================== */
+
+    tabs.forEach(tab => {
+
+      tab.addEventListener("click", () => {
+
+        tabs.forEach(t =>
+          t.classList.remove("active")
+        );
+
+        tab.classList.add("active");
+
+        currentCategory =
+          tab.dataset.category;
+
+        renderSigns();
+
+      });
+
+    });
+
+    /* ======================================================
+       DARK MODE
+    ====================================================== */
+
+    const themeToggle =
+      document.getElementById("themeToggle");
+
+    themeToggle.addEventListener("click", () => {
+
+      document.body.classList.toggle(
+        "light-mode"
+      );
+
+      if(
+        document.body.classList.contains(
+          "light-mode"
+        )
+      ){
+
+        themeToggle.innerHTML = "☀️";
+
+      }else{
+
+        themeToggle.innerHTML = "🌙";
+
+      }
+
+    });
+
+    /* ======================================================
+       SCROLL TO TOP
+    ====================================================== */
+
+    const scrollTopBtn =
+      document.getElementById("scrollTopBtn");
+
+    scrollTopBtn.addEventListener("click", () => {
+
+      window.scrollTo({
+        top:0,
+        behavior:"smooth"
+      });
+
+    });
+
+    /* ======================================================
+       INITIAL RENDER
+    ====================================================== */
+
+    renderSigns();
+
+  </script>
+
+</body>
+</html>
