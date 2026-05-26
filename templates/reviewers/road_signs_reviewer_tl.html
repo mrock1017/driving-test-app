@@ -1,0 +1,3478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- ======================================================
+       META
+  ====================================================== -->
+
+  <meta charset="UTF-8" />
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+
+  <title>
+    Japan Driving Test Master
+  </title>
+
+  <!-- ======================================================
+       GOOGLE FONT
+  ====================================================== -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  >
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- ======================================================
+       CSS
+  ====================================================== -->
+
+  <style>
+
+    /* ======================================================
+       RESET
+    ====================================================== */
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+
+    html{
+      scroll-behavior:smooth;
+    }
+
+    body{
+
+      font-family:'Inter',sans-serif;
+
+      background:
+        radial-gradient(circle at top left,#1d4ed8 0%,transparent 25%),
+        radial-gradient(circle at top right,#7c3aed 0%,transparent 25%),
+        linear-gradient(180deg,#071120 0%,#0d1728 100%);
+
+      color:#fff;
+
+      min-height:100vh;
+
+      overflow-x:hidden;
+
+      transition:0.35s ease;
+    }
+
+    body.light-mode{
+
+      background:
+        radial-gradient(circle at top left,#dbeafe 0%,transparent 25%),
+        radial-gradient(circle at top right,#ede9fe 0%,transparent 25%),
+        linear-gradient(180deg,#f8fbff 0%,#eef2ff 100%);
+
+      color:#111827;
+    }
+
+    img{
+      display:block;
+      max-width:100%;
+    }
+
+    button{
+      border:none;
+      outline:none;
+      cursor:pointer;
+      font-family:inherit;
+    }
+
+    /* ======================================================
+       APP
+    ====================================================== */
+
+    .app{
+      width:100%;
+      max-width:1500px;
+      margin:auto;
+      padding:20px;
+    }
+
+    /* ======================================================
+       HERO
+    ====================================================== */
+
+    .hero{
+
+      position:relative;
+
+      overflow:hidden;
+
+      border-radius:34px;
+
+      padding:34px 26px;
+
+      margin-bottom:24px;
+
+      background:rgba(255,255,255,0.08);
+
+      backdrop-filter:blur(18px);
+
+      border:1px solid rgba(255,255,255,0.12);
+
+      box-shadow:
+        0 12px 40px rgba(0,0,0,0.28),
+        inset 0 1px 1px rgba(255,255,255,0.08);
+    }
+
+    body.light-mode .hero{
+      background:rgba(255,255,255,0.78);
+    }
+
+    .hero-top{
+      display:flex;
+      justify-content:space-between;
+      align-items:flex-start;
+      gap:20px;
+      flex-wrap:wrap;
+    }
+
+    .hero-title{
+
+      font-size:
+        clamp(2.2rem,5vw,4.6rem);
+
+      line-height:1.05;
+
+      font-weight:800;
+
+      margin-bottom:14px;
+    }
+
+    .hero-description{
+
+      max-width:760px;
+
+      line-height:1.9;
+
+      opacity:0.92;
+
+      font-size:1rem;
+    }
+
+    /* ======================================================
+       THEME BUTTON
+    ====================================================== */
+
+    .theme-btn{
+
+      width:58px;
+      height:58px;
+
+      border-radius:18px;
+
+      background:rgba(255,255,255,0.1);
+
+      backdrop-filter:blur(12px);
+
+      border:1px solid rgba(255,255,255,0.12);
+
+      color:#fff;
+
+      font-size:1.2rem;
+
+      transition:0.3s ease;
+    }
+
+    body.light-mode .theme-btn{
+      background:#fff;
+      color:#111827;
+    }
+
+    .theme-btn:hover{
+      transform:translateY(-3px);
+    }
+
+    .back-btn{
+
+    padding:14px 20px;
+
+    border-radius:18px;
+
+    background:rgba(255,255,255,0.1);
+
+    backdrop-filter:blur(12px);
+
+    border:1px solid rgba(255,255,255,0.12);
+
+    color:#fff;
+
+    font-weight:700;
+
+    transition:0.3s ease;
+  }
+
+  .back-btn:hover{
+    transform:translateY(-3px);
+  }
+
+  body.light-mode .back-btn{
+    background:#fff;
+    color:#111827;
+  }
+
+    /* ======================================================
+       SEARCH
+    ====================================================== */
+
+    .search-wrapper{
+      position:relative;
+      margin-top:28px;
+    }
+
+    .search-input{
+
+      width:100%;
+
+      padding:18px 20px 18px 58px;
+
+      border-radius:22px;
+
+      border:none;
+      outline:none;
+
+      background:rgba(255,255,255,0.08);
+
+      backdrop-filter:blur(12px);
+
+      border:1px solid rgba(255,255,255,0.12);
+
+      color:#fff;
+
+      font-size:1rem;
+    }
+
+    body.light-mode .search-input{
+      background:#fff;
+      color:#111827;
+    }
+
+    .search-icon{
+
+      position:absolute;
+
+      left:20px;
+      top:50%;
+
+      transform:translateY(-50%);
+
+      opacity:0.75;
+    }
+
+    /* ======================================================
+       CATEGORY NAVIGATION
+    ====================================================== */
+
+    .sticky-nav{
+
+      position:sticky;
+
+      top:0;
+
+      z-index:100;
+
+      padding:14px 0;
+
+      backdrop-filter:blur(18px);
+    }
+
+    .tabs{
+
+      display:flex;
+
+      gap:12px;
+
+      overflow-x:auto;
+
+      scrollbar-width:none;
+    }
+
+    .tabs::-webkit-scrollbar{
+      display:none;
+    }
+
+    .tab{
+
+      white-space:nowrap;
+
+      padding:12px 20px;
+
+      border-radius:999px;
+
+      background:rgba(255,255,255,0.08);
+
+      border:1px solid rgba(255,255,255,0.12);
+
+      color:#fff;
+
+      font-weight:700;
+
+      transition:0.3s ease;
+    }
+
+    body.light-mode .tab{
+      background:#fff;
+      color:#111827;
+    }
+
+    .tab.active{
+
+      background:
+        linear-gradient(
+          135deg,
+          #2563eb,
+          #7c3aed
+        );
+
+      border:none;
+    }
+
+    /* ======================================================
+       GRID
+    ====================================================== */
+
+    .grid{
+
+      display:grid;
+
+      grid-template-columns:
+        repeat(auto-fit,minmax(270px,1fr));
+
+      gap:22px;
+
+      margin-top:24px;
+    }
+
+    /* ======================================================
+       CARD
+    ====================================================== */
+
+    .card{
+
+      position:relative;
+
+      overflow:hidden;
+
+      border-radius:30px;
+
+      background:rgba(255,255,255,0.08);
+
+      backdrop-filter:blur(18px);
+
+      border:1px solid rgba(255,255,255,0.12);
+
+      box-shadow:
+        0 12px 35px rgba(0,0,0,0.22);
+
+      transition:0.35s ease;
+
+      animation:fadeIn 0.35s ease;
+    }
+
+    body.light-mode .card{
+      background:rgba(255,255,255,0.78);
+    }
+
+    .card:hover{
+
+      transform:translateY(-6px);
+
+      box-shadow:
+        0 25px 45px rgba(0,0,0,0.25);
+    }
+
+    .card,
+    .expand-btn,
+    .theme-btn{
+    will-change:transform;
+    }
+
+    /* ======================================================
+       CARD TOP
+    ====================================================== */
+
+    .card-top{
+
+      min-height:190px;
+
+      display:flex;
+      justify-content:center;
+      align-items:center;
+
+      padding:24px;
+
+      background:
+        linear-gradient(
+          135deg,
+          rgba(255,255,255,0.08),
+          rgba(255,255,255,0.03)
+        );
+    }
+
+    .card-top img{
+
+      width:115px;
+      height:115px;
+
+      object-fit:contain;
+
+      transition:0.3s ease;
+    }
+
+    .card:hover img{
+      transform:scale(1.06);
+    }
+
+    /* ======================================================
+       CARD BODY
+    ====================================================== */
+
+    .card-body{
+      padding:22px;
+    }
+
+    .category{
+
+      display:inline-flex;
+
+      align-items:center;
+
+      padding:8px 13px;
+
+      border-radius:999px;
+
+      background:rgba(59,130,246,0.2);
+
+      color:#93c5fd;
+
+      font-size:0.76rem;
+
+      font-weight:700;
+
+      margin-bottom:14px;
+    }
+
+    body.light-mode .category{
+      background:#dbeafe;
+      color:#1d4ed8;
+    }
+
+    .sign-title{
+      font-size:1.1rem;
+      font-weight:800;
+      margin-bottom:6px;
+    }
+
+    .sign-jp{
+      opacity:0.75;
+      margin-bottom:14px;
+    }
+
+    .description{
+      line-height:1.7;
+      opacity:0.92;
+      font-size:0.95rem;
+    }
+
+    /* ======================================================
+       EXPAND BUTTON
+    ====================================================== */
+
+    .expand-btn{
+
+      width:100%;
+
+      margin-top:18px;
+
+      padding:13px;
+
+      border-radius:18px;
+
+      background:
+        linear-gradient(
+          135deg,
+          #2563eb,
+          #7c3aed
+        );
+
+      color:#fff;
+
+      font-weight:700;
+
+      transition:0.3s ease;
+    }
+
+    .expand-btn:hover{
+      transform:translateY(-2px);
+    }
+
+    /* ======================================================
+       LEARN MORE
+    ====================================================== */
+
+    .extra{
+
+      max-height:0;
+
+      overflow:hidden;
+
+      transition:max-height 0.45s ease;
+    }
+
+    .extra.open{
+      max-height:1600px;
+    }
+
+    .learn-box{
+
+      margin-top:18px;
+
+      display:flex;
+      flex-direction:column;
+      gap:14px;
+    }
+
+    .learn-section{
+
+      padding:15px;
+
+      border-radius:20px;
+
+      background:rgba(255,255,255,0.06);
+
+      border:1px solid rgba(255,255,255,0.08);
+    }
+
+    body.light-mode .learn-section{
+      background:rgba(255,255,255,0.85);
+    }
+
+    .learn-section h4{
+
+      margin-bottom:8px;
+
+      font-size:0.92rem;
+
+      font-weight:700;
+    }
+
+    .learn-section p{
+
+      line-height:1.75;
+
+      font-size:0.92rem;
+
+      opacity:0.9;
+    }
+
+    /* ======================================================
+       LISTS
+    ====================================================== */
+
+    .learn-list{
+
+      margin-top:12px;
+
+      padding-left:18px;
+
+      display:flex;
+      flex-direction:column;
+      gap:8px;
+    }
+
+    .learn-list li{
+
+      line-height:1.7;
+
+      font-size:0.9rem;
+
+      opacity:0.9;
+    }
+
+    /* ======================================================
+       QUIZ BOX
+    ====================================================== */
+
+    .quiz-box{
+
+      margin-top:12px;
+
+      padding:14px;
+
+      border-radius:18px;
+
+      background:
+        linear-gradient(
+          135deg,
+          rgba(37,99,235,0.18),
+          rgba(124,58,237,0.18)
+        );
+
+      border:1px solid rgba(255,255,255,0.08);
+    }
+
+    .quiz-question{
+      font-weight:700;
+      margin-bottom:10px;
+    }
+
+    .quiz-answer{
+      opacity:0.9;
+      line-height:1.7;
+    }
+
+    /* ======================================================
+       MEMORY TIP
+    ====================================================== */
+
+    .memory-tip{
+
+      margin-top:12px;
+
+      padding:14px;
+
+      border-radius:16px;
+
+      background:rgba(255,255,255,0.08);
+
+      text-align:center;
+
+      font-size:0.95rem;
+    }
+
+    /* ======================================================
+       RELATED BADGES
+    ====================================================== */
+
+    .related-signs{
+
+      display:flex;
+
+      flex-wrap:wrap;
+
+      gap:10px;
+
+      margin-top:12px;
+    }
+
+    .related-badge{
+
+      padding:10px 14px;
+
+      border-radius:999px;
+
+      background:rgba(255,255,255,0.08);
+
+      border:1px solid rgba(255,255,255,0.08);
+
+      font-size:0.82rem;
+
+      font-weight:600;
+    }
+
+    body.light-mode .related-badge{
+      background:#f3f4f6;
+    }
+
+    /* ======================================================
+       EMPTY
+    ====================================================== */
+
+    .empty{
+
+      display:none;
+
+      text-align:center;
+
+      padding:80px 20px;
+
+      opacity:0.7;
+    }
+
+    /* ======================================================
+       FAB
+    ====================================================== */
+
+    .scroll-top{
+
+      position:fixed;
+
+      right:20px;
+      bottom:20px;
+
+      width:62px;
+      height:62px;
+
+      border-radius:50%;
+
+      background:
+        linear-gradient(
+          135deg,
+          #2563eb,
+          #7c3aed
+        );
+
+      color:#fff;
+
+      font-size:1.3rem;
+
+      display:flex;
+      justify-content:center;
+      align-items:center;
+
+      box-shadow:
+        0 15px 35px rgba(37,99,235,0.4);
+
+      z-index:999;
+
+      transition:0.3s ease;
+    }
+
+    .scroll-top:hover{
+      transform:translateY(-4px);
+    }
+
+    /* ======================================================
+       ANIMATION
+    ====================================================== */
+
+    @keyframes fadeIn{
+
+      from{
+        opacity:0;
+        transform:translateY(12px);
+      }
+
+      to{
+        opacity:1;
+        transform:translateY(0);
+      }
+
+    }
+
+    /* ======================================================
+       MOBILE
+    ====================================================== */
+
+    @media(max-width:768px){
+
+      .hero{
+        padding:28px 20px;
+      }
+
+      .grid{
+        grid-template-columns:1fr;
+      }
+
+      .card-top{
+        min-height:160px;
+      }
+
+      .card-top img{
+        width:95px;
+        height:95px;
+      }
+
+    }
+
+  </style>
+
+</head>
+<body>
+
+  <div class="app">
+
+    <!-- ======================================================
+         HERO
+    ====================================================== -->
+
+    <section class="hero">
+
+      <div class="hero-top">
+        <button
+          class="back-btn"
+          onclick="window.location.href='index.html'"
+        >
+          ← Bumalik
+        </button>
+
+        <div>
+
+          <h1 class="hero-title">
+            🇯🇵 Reviewer ng Mga Japanese Road Sign
+          </h1>
+
+          <p class="hero-description">
+            Matutunan ang mga Japanese road sign gamit ang interactive at premium na flashcard-style na pagre-review.
+            Perpekto para sa mga nag-aaral na naghahanda para sa Japanese driving test.
+          </p>
+
+        </div>
+
+        <button
+          class="theme-btn"
+          id="themeToggle"
+        >
+          🌙
+        </button>
+
+      </div>
+
+      <!-- SEARCH -->
+
+      <div class="search-wrapper">
+
+        <span class="search-icon">
+          🔍
+        </span>
+
+        <input
+          type="text"
+          class="search-input"
+          id="searchInput"
+          placeholder="Maghanap ng Japanese road signs..."
+        >
+
+      </div>
+
+    </section>
+
+    <!-- ======================================================
+         CATEGORY NAVIGATION
+    ====================================================== -->
+
+    <div class="sticky-nav">
+
+      <div class="tabs">
+
+        <button class="tab active" data-category="All">
+          Lahat
+        </button>
+
+        <button class="tab" data-category="Regulatory Signs">
+          Regulasyon
+        </button>
+
+        <button class="tab" data-category="Warning Signs">
+          Babala
+        </button>
+
+        <button class="tab" data-category="Mandatory Signs">
+          Sapilitan
+        </button>
+
+        <button class="tab" data-category="Prohibition Signs">
+          Bawal
+        </button>
+
+        <button class="tab" data-category="Parking & Stopping Signs">
+          Paradahan
+        </button>
+
+        <button class="tab" data-category="Guide Signs">
+          Gabay
+        </button>
+
+        <button class="tab" data-category="Expressway Signs">
+          Expressway
+        </button>
+
+      </div>
+
+    </div>
+
+    <!-- ======================================================
+         GRID
+    ====================================================== -->
+
+    <div
+      class="grid"
+      id="signGrid"
+    ></div>
+
+    <!-- EMPTY -->
+
+    <div
+      class="empty"
+      id="emptyState"
+    >
+      <h2>
+        Walang nahanap na road sign.
+      </h2>
+    </div>
+
+  </div>
+
+  <!-- ======================================================
+       FLOATING BUTTON
+  ====================================================== -->
+
+  <button
+    class="scroll-top"
+    id="scrollTopBtn"
+  >
+    ↑
+  </button>
+
+  <!-- ======================================================
+       JAVASCRIPT
+  ====================================================== -->
+
+  <script>
+
+    /* ======================================================
+       ROAD SIGN DATASET
+    ====================================================== */
+
+    const roadSigns = [
+
+      {
+        name_en:"Stop",
+        name_jp:"止まれ",
+        image:"/static/images/signs/stop.png",
+        explanation:"Dapat ganap na huminto ang mga driver bago magpatuloy.",
+        category:"Regulatory Signs",
+
+        learn_more:{
+
+          meaning:
+          "Kinakailangan ng sign na ito na ganap na huminto ang mga driver bago pumasok sa intersection.",
+
+          driver_action:
+          "Dapat ganap na huminto ang mga driver sa likod ng stop line at maingat na tumingin sa magkabilang direksyon bago umusad.",
+
+          exam_tip:
+          "Ang rolling stop ay kadalasang nagreresulta sa malaking bawas puntos sa Japanese driving test.",
+
+          safety:
+          "Ang hindi tamang paghinto ay maaaring magdulot ng banggaan sa mga sasakyan, bisikleta, o pedestrian.",
+
+          real_world:
+          "Karaniwang makikita sa mga residential road, intersection, at railway crossing.",
+
+          memory_tip:
+          "Ang pulang baligtad na tatsulok ay nangangahulugang agarang atensyon at paghinto."
+        }
+      },
+
+      {
+        name_en:"No Entry",
+        name_jp:"進入禁止",
+        image:"/static/images/signs/no_entry.png",
+        explanation:"Bawal pumasok ang mga sasakyan mula sa direksyong ito.",
+        category:"Prohibition Signs",
+
+        learn_more:{
+
+          meaning:
+          "Hindi maaaring pumasok ang mga sasakyan mula sa direksyong ito.",
+
+          driver_action:
+          "Dapat agad iwasan ng mga driver ang pagpasok sa kalsadang ito.",
+
+          exam_tip:
+          "Madalas itong lumalabas sa Japanese written driving exams.",
+
+          safety:
+          "Ang hindi pagsunod sa sign na ito ay maaaring magdulot ng head-on collision.",
+
+          real_world:
+          "Karaniwang makikita sa one-way street at expressway exit.",
+
+          memory_tip:
+          "Ang pulang bilog na may puting gitna ay simbolo ng bawal na pagpasok."
+        }
+      },
+
+      {
+        name_en:"Speed Limit 40",
+        name_jp:"最高速度40",
+        image:"/static/images/signs/speed_40.png",
+        explanation:"Ang pinakamataas na legal na bilis ay 40 km/h.",
+        category:"Regulatory Signs",
+
+        learn_more:{
+
+          meaning:
+          "Hindi maaaring lumampas sa 40 kilometro bawat oras ang mga driver.",
+
+          driver_action:
+          "Panatilihin ang bilis na mas mababa sa nakatakdang limitasyon.",
+
+          exam_tip:
+          "Napakakaraniwan ng mga speed limit sign sa written exams.",
+
+          safety:
+          "Ang overspeeding ay nagpapahaba ng stopping distance at nagpapataas ng panganib ng aksidente.",
+
+          real_world:
+          "Madalas makita sa urban road at residential area.",
+
+          memory_tip:
+          "Ang puting bilog na may pulang gilid ay karaniwang nagpapahiwatig ng regulasyon."
+        }
+      },
+
+      {
+        name_en:"No Parking",
+        name_jp:"駐車禁止",
+        image:"/static/images/signs/no_parking.png",
+        explanation:"Bawal magparada sa lugar na ito.",
+        category:"Parking & Stopping Signs",
+
+        learn_more:{
+
+          meaning:
+          "Hindi maaaring magparada ang mga sasakyan sa lugar na ito.",
+
+          driver_action:
+          "Maaaring huminto sandali ang mga driver ngunit hindi maaaring iwanang nakaparada ang sasakyan.",
+
+          exam_tip:
+          "Maaaring itanong sa exam ang pagkakaiba ng no parking at no stopping.",
+
+          safety:
+          "Ang ilegal na pagparada ay maaaring humarang sa trapiko at emergency vehicle.",
+
+          real_world:
+          "Napakakaraniwan sa makikitid na kalsada sa Japan.",
+
+          memory_tip:
+          "Ang isang pulang guhit ay nangangahulugang bawal ang pagparada."
+        }
+      },
+
+      {
+        name_en:"No Stopping",
+        name_jp:"駐停車禁止",
+        image:"/static/images/signs/no_stopping.png",
+        explanation:"Bawal huminto at magparada.",
+        category:"Parking & Stopping Signs",
+
+        learn_more:{
+
+          meaning:
+          "Hindi maaaring huminto o magparada ang mga sasakyan dito.",
+
+          driver_action:
+          "Dapat magpatuloy ang mga driver sa pagmamaneho maliban kung may emergency.",
+
+          exam_tip:
+          "Mas mahigpit ang sign na ito kumpara sa no parking.",
+
+          safety:
+          "Ang paghinto rito ay maaaring magdulot ng mapanganib na sagabal sa trapiko.",
+
+          real_world:
+          "Karaniwang makikita malapit sa intersection at abalang kalsada.",
+
+          memory_tip:
+          "Ang dobleng pulang guhit ay nangangahulugang mas mahigpit na pagbabawal."
+        }
+      },
+            {
+        name_en:"Pedestrian Crossing",
+        name_jp:"横断歩道",
+        image:"/static/images/signs/pedestrian_crossing.png",
+        explanation:"May pedestrian crossing sa unahan.",
+        category:"Warning Signs",
+
+        learn_more:{
+
+          meaning:
+          "Nagpapahiwatig ang sign na ito na may pedestrian crossing sa unahan.",
+
+          driver_action:
+          "Dapat magbagal ang mga driver at maging handang huminto para sa mga pedestrian.",
+
+          exam_tip:
+          "Sa Japan, kailangang magbigay-daan ang mga sasakyan sa mga pedestrian sa tawiran.",
+
+          safety:
+          "Palaging maging maingat sa mga batang biglang tumatawid.",
+
+          real_world:
+          "Karaniwang makikita malapit sa paaralan, intersection, at residential area.",
+
+          memory_tip:
+          "Ang asul na sign na may taong tumatawid ay nangangahulugang pedestrian crossing."
+        }
+      },
+
+      {
+        name_en:"School Zone",
+        name_jp:"学校・幼稚園・保育所などあり",
+        image:"/static/images/signs/school_zone.png",
+        explanation:"May paaralan o lugar ng mga bata sa paligid.",
+        category:"Warning Signs",
+
+        learn_more:{
+
+          meaning:
+          "Nagpapahiwatig ang sign na ito na may paaralan, kindergarten, o lugar ng mga bata sa malapit.",
+
+          driver_action:
+          "Dapat magbagal ang mga driver at maging alerto sa mga batang maaaring biglang tumawid.",
+
+          exam_tip:
+          "Inaasahan ang maingat na pagmamaneho malapit sa school zone sa driving exams.",
+
+          safety:
+          "Maaaring hindi mapansin ng mga bata ang mga sasakyan bago tumawid.",
+
+          real_world:
+          "Karaniwang makikita malapit sa paaralan at residential area.",
+
+          memory_tip:
+          "Ang simbolo ng mga batang naglalakad ay nangangahulugang school zone."
+        }
+      },
+
+      {
+        name_en:"Railroad Crossing",
+        name_jp:"踏切あり",
+        image:"/static/images/signs/railroad_crossing.png",
+        explanation:"May railroad crossing sa unahan.",
+        category:"Warning Signs",
+
+        learn_more:{
+
+          meaning:
+          "Nagpapahiwatig ang sign na ito na may railway crossing sa unahan.",
+
+          driver_action:
+          "Dapat magbagal ang mga driver at tiyaking ligtas bago tumawid sa riles.",
+
+          exam_tip:
+          "Kadalasang kailangang huminto at tumingin ang mga driver bago tumawid sa railway crossing sa Japan.",
+
+          safety:
+          "Ang mga tren ay hindi madaling makakahinto kaya kailangang maging maingat.",
+
+          real_world:
+          "Karaniwang makikita malapit sa railway line at rural road.",
+
+          memory_tip:
+          "Ang simbolo ng tren ay nangangahulugang railway crossing."
+        }
+      },
+
+      {
+        name_en:"Slippery Road",
+        name_jp:"すべりやすい",
+        image:"/static/images/signs/slippery_road.png",
+        explanation:"Madulas ang kalsada sa unahan.",
+        category:"Warning Signs",
+
+        learn_more:{
+
+          meaning:
+          "Nagbabala ang sign na ito na maaaring madulas ang ibabaw ng kalsada.",
+
+          driver_action:
+          "Dapat magbagal ang mga driver at iwasan ang biglang pagpreno o pagliko.",
+
+          exam_tip:
+          "Mas mapanganib ang madulas na kalsada kapag umuulan o nagyeyelo.",
+
+          safety:
+          "Maaaring mawalan ng kontrol ang sasakyan kapag masyadong mabilis.",
+
+          real_world:
+          "Karaniwang makikita sa bundok, tunnel, at lugar na madalas maulan.",
+
+          memory_tip:
+          "Ang marka ng skid ng gulong ay nangangahulugang madulas na kalsada."
+        }
+      },
+
+      {
+        name_en:"Merge",
+        name_jp:"車線数減少",
+        image:"/static/images/signs/merge.png",
+        explanation:"Magkakaroon ng pagsasanib ng lane sa unahan.",
+        category:"Warning Signs",
+
+        learn_more:{
+
+          meaning:
+          "Nagpapahiwatig ang sign na ito na magsasanib ang mga lane sa unahan.",
+
+          driver_action:
+          "Dapat magbigay-daan ang mga driver at maingat na mag-adjust ng bilis.",
+
+          exam_tip:
+          "Palaging suriin ang side mirror at blind spot kapag nagsasanib ng lane.",
+
+          safety:
+          "Ang maling pagsasanib ay maaaring magdulot ng aksidente.",
+
+          real_world:
+          "Karaniwang makikita sa expressway at construction area.",
+
+          memory_tip:
+          "Ang papakitid na lane ay nangangahulugang lane merge sa unahan."
+        }
+      },
+            {
+        name_en:"Keep Left",
+        name_jp:"左側通行",
+        image:"/static/images/signs/keep_left.png",
+        explanation:"Dapat manatili ang mga sasakyan sa kaliwang bahagi.",
+        category:"Mandatory Signs",
+
+        learn_more:{
+
+          meaning:
+          "Inuutusan ng sign na ito ang mga sasakyan na manatili o dumaan sa kaliwang bahagi.",
+
+          driver_action:
+          "Dapat sundin ng mga driver ang direksyon ng lane at manatili sa kaliwa.",
+
+          exam_tip:
+          "Ang mga mandatory sign ay karaniwang asul at nagbibigay ng utos sa pagmamaneho.",
+
+          safety:
+          "Nakakatulong ito upang mapanatiling maayos at ligtas ang daloy ng trapiko.",
+
+          real_world:
+          "Karaniwang makikita sa divider, construction area, at makikitid na kalsada.",
+
+          memory_tip:
+          "Ang puting arrow sa asul na background ay nangangahulugang mandatoryong direksyon."
+        }
+      },
+
+      {
+        name_en:"Keep Right",
+        name_jp:"右側通行",
+        image:"/static/images/signs/keep_right.png",
+        explanation:"Dapat manatili ang mga sasakyan sa kanang bahagi.",
+        category:"Mandatory Signs",
+
+        learn_more:{
+
+          meaning:
+          "Inuutusan ng sign na ito ang mga sasakyan na dumaan sa kanang bahagi.",
+
+          driver_action:
+          "Dapat sundin ng mga driver ang direksyon at manatili sa kanan kapag kinakailangan.",
+
+          exam_tip:
+          "Bigyang-pansin ang direksyon ng mga arrow sa mandatory signs.",
+
+          safety:
+          "Nakakatulong ito upang maiwasan ang banggaan sa mga obstacle at kasalubong na trapiko.",
+
+          real_world:
+          "Karaniwang makikita malapit sa road divider at construction zone.",
+
+          memory_tip:
+          "Ang arrow na nakaturo sa kanan ay nangangahulugang manatili sa kanan."
+        }
+      },
+
+      {
+        name_en:"Straight Only",
+        name_jp:"指定方向外進行禁止",
+        image:"/static/images/signs/straight_only.png",
+        explanation:"Diretso lamang ang pinapayagang direksyon.",
+        category:"Mandatory Signs",
+
+        learn_more:{
+
+          meaning:
+          "Ang mga sasakyan ay maaari lamang dumiretso sa intersection na ito.",
+
+          driver_action:
+          "Hindi maaaring lumiko pakaliwa o pakanan ang mga driver.",
+
+          exam_tip:
+          "Mahalagang sundin ang lane direction sa Japanese driving test.",
+
+          safety:
+          "Nakakatulong ito upang maiwasan ang kalituhan at aksidente sa intersection.",
+
+          real_world:
+          "Karaniwang makikita sa abalang intersection sa lungsod.",
+
+          memory_tip:
+          "Ang pataas na arrow ay nangangahulugang diretso lamang."
+        }
+      },
+
+      {
+        name_en:"Turn Left",
+        name_jp:"左折可",
+        image:"/static/images/signs/turn_left.png",
+        explanation:"Dapat lumiko pakaliwa ang mga sasakyan.",
+        category:"Mandatory Signs",
+
+        learn_more:{
+
+          meaning:
+          "Tanging kaliwang pagliko lamang ang pinapayagan.",
+
+          driver_action:
+          "Dapat sundin ng mga driver ang direksyon ng kaliwang pagliko.",
+
+          exam_tip:
+          "Bigyang-pansin ang mga lane sign bago pumasok sa intersection.",
+
+          safety:
+          "Nakakatulong ito upang mapanatiling maayos ang daloy ng trapiko.",
+
+          real_world:
+          "Karaniwang makikita sa one-way street at control intersection.",
+
+          memory_tip:
+          "Ang arrow na pakaliwa ay nangangahulugang mandatoryong kaliwang pagliko."
+        }
+      },
+
+      {
+        name_en:"Turn Right",
+        name_jp:"右折可",
+        image:"/static/images/signs/turn_right.png",
+        explanation:"Dapat lumiko pakanan ang mga sasakyan.",
+        category:"Mandatory Signs",
+
+        learn_more:{
+
+          meaning:
+          "Tanging kanang pagliko lamang ang pinapayagan.",
+
+          driver_action:
+          "Dapat sundin ng mga driver ang direksyon ng kanang pagliko.",
+
+          exam_tip:
+          "Palaging suriin ang pedestrian at bisikleta bago lumiko.",
+
+          safety:
+          "Nakakatulong ito upang mabawasan ang kalituhan sa trapiko.",
+
+          real_world:
+          "Karaniwang makikita sa mga espesyal na lane at intersection.",
+
+          memory_tip:
+          "Ang arrow na pakanan ay nangangahulugang mandatoryong kanang pagliko."
+        }
+      },
+            {
+        name_en:"Bicycles Only",
+        name_jp:"自転車専用",
+        image:"/static/images/signs/bicycles_only.png",
+        explanation:"Tanging bisikleta lamang ang pinapayagan.",
+        category:"Mandatory Signs",
+
+        learn_more:{
+
+          meaning:
+          "Ang lane o kalsadang ito ay para lamang sa mga bisikleta.",
+
+          driver_action:
+          "Hindi dapat pumasok ang ibang sasakyan sa lugar na ito.",
+
+          exam_tip:
+          "Mahalagang maunawaan ang pagkakaiba ng bicycle lane at regular lane.",
+
+          safety:
+          "Nakakatulong ito upang maprotektahan ang mga siklista mula sa aksidente.",
+
+          real_world:
+          "Karaniwang makikita sa urban area at malapit sa paaralan.",
+
+          memory_tip:
+          "Ang simbolo ng bisikleta sa asul na background ay nangangahulugang bicycle-only lane."
+        }
+      },
+
+      {
+        name_en:"Pedestrians Only",
+        name_jp:"歩行者専用",
+        image:"/static/images/signs/pedestrians_only.png",
+        explanation:"Para lamang sa mga pedestrian ang lugar na ito.",
+        category:"Mandatory Signs",
+
+        learn_more:{
+
+          meaning:
+          "Tanging mga pedestrian lamang ang maaaring gumamit ng lugar na ito.",
+
+          driver_action:
+          "Hindi dapat pumasok ang mga sasakyan sa pedestrian-only area.",
+
+          exam_tip:
+          "Madalas lumabas sa exam ang mga pedestrian priority question.",
+
+          safety:
+          "Nakakatulong ito upang mapanatiling ligtas ang mga naglalakad.",
+
+          real_world:
+          "Karaniwang makikita sa shopping street at school zone.",
+
+          memory_tip:
+          "Ang simbolo ng taong naglalakad ay nangangahulugang pedestrian-only area."
+        }
+      },
+
+      {
+        name_en:"No U-Turn",
+        name_jp:"転回禁止",
+        image:"/static/images/signs/no_u_turn.png",
+        explanation:"Bawal mag-U-turn sa lugar na ito.",
+        category:"Prohibition Signs",
+
+        learn_more:{
+
+          meaning:
+          "Hindi pinapayagan ang pag-U-turn sa lokasyong ito.",
+
+          driver_action:
+          "Dapat maghanap ng legal at ligtas na lugar para lumiko pabalik.",
+
+          exam_tip:
+          "Palaging obserbahan ang mga prohibition sign bago lumiko.",
+
+          safety:
+          "Nakakatulong ito upang maiwasan ang aksidente at sagabal sa trapiko.",
+
+          real_world:
+          "Karaniwang makikita sa abalang intersection at pangunahing kalsada.",
+
+          memory_tip:
+          "Ang pulang bilog na may slash ay nangangahulugang ipinagbabawal."
+        }
+      },
+
+      {
+        name_en:"No Overtaking",
+        name_jp:"追い越し禁止",
+        image:"/static/images/signs/no_overtaking.png",
+        explanation:"Bawal mag-overtake sa lugar na ito.",
+        category:"Prohibition Signs",
+
+        learn_more:{
+
+          meaning:
+          "Hindi pinapayagan ang pag-overtake sa bahaging ito ng kalsada.",
+
+          driver_action:
+          "Dapat manatili ang mga driver sa kanilang lane at iwasan ang pag-overtake.",
+
+          exam_tip:
+          "Karaniwang ipinagbabawal ang pag-overtake sa kurbada at lugar na mahina ang visibility.",
+
+          safety:
+          "Nakakatulong ito upang maiwasan ang head-on collision.",
+
+          real_world:
+          "Karaniwang makikita sa bundok, tunnel, at makikitid na kalsada.",
+
+          memory_tip:
+          "Ang simbolo ng dalawang sasakyan ay nangangahulugang bawal mag-overtake."
+        }
+      },
+
+      {
+        name_en:"Horn",
+        name_jp:"警笛鳴らせ",
+        image:"/static/images/signs/horn.png",
+        explanation:"Gamitin ang busina sa lugar na ito.",
+        category:"Mandatory Signs",
+
+        learn_more:{
+
+          meaning:
+          "Kinakailangang gumamit ng busina sa lokasyong ito para sa kaligtasan.",
+
+          driver_action:
+          "Dapat maikling bumusina ang mga driver kapag papalapit sa mapanganib na bahagi ng kalsada.",
+
+          exam_tip:
+          "Karaniwang makikita ang sign na ito sa mga bulubunduking kalsada.",
+
+          safety:
+          "Nakakatulong ito upang mabigyan ng babala ang kasalubong na sasakyan.",
+
+          real_world:
+          "Karaniwang makikita sa blind curve at makikitid na bundok na kalsada.",
+
+          memory_tip:
+          "Ang simbolo ng busina ay nangangahulugang gumamit ng horn."
+        }
+      },
+            {
+        name_en:"Maximum Width",
+        name_jp:"最大幅",
+        image:"/static/images/signs/maximum_width.png",
+        explanation:"May limitasyon sa lapad ng sasakyan.",
+        category:"Regulatory Signs",
+
+        learn_more:{
+
+          meaning:
+          "Ipinapakita ng sign na ito ang maximum na pinapayagang lapad ng sasakyan.",
+
+          driver_action:
+          "Hindi dapat pumasok ang mga sasakyang lampas sa itinakdang lapad.",
+
+          exam_tip:
+          "Bigyang-pansin ang mga sign na may numerong limitasyon.",
+
+          safety:
+          "Nakakatulong ito upang maiwasan ang pagkabangga sa makikitid na daanan.",
+
+          real_world:
+          "Karaniwang makikita sa tunnel, makikitid na tulay, at makitid na kalsada.",
+
+          memory_tip:
+          "Ang numero sa loob ng pulang bilog ay nagpapakita ng limitasyon."
+        }
+      },
+
+      {
+        name_en:"Maximum Height",
+        name_jp:"高さ制限",
+        image:"/static/images/signs/maximum_height.png",
+        explanation:"May limitasyon sa taas ng sasakyan.",
+        category:"Regulatory Signs",
+
+        learn_more:{
+
+          meaning:
+          "Ipinapakita ng sign na ito ang maximum na pinapayagang taas ng sasakyan.",
+
+          driver_action:
+          "Dapat iwasan ng matataas na sasakyan ang pagpasok sa lugar na ito.",
+
+          exam_tip:
+          "Mahalagang maunawaan ang mga size restriction sign sa exam.",
+
+          safety:
+          "Nakakatulong ito upang maiwasan ang pagbangga sa tulay o tunnel.",
+
+          real_world:
+          "Karaniwang makikita bago ang tunnel at overpass.",
+
+          memory_tip:
+          "Ang simbolo ng taas at numero ay nangangahulugang height limit."
+        }
+      },
+
+      {
+        name_en:"Maximum Weight",
+        name_jp:"重量制限",
+        image:"/static/images/signs/maximum_weight.png",
+        explanation:"May limitasyon sa bigat ng sasakyan.",
+        category:"Regulatory Signs",
+
+        learn_more:{
+
+          meaning:
+          "Ipinapakita ng sign na ito ang maximum na pinapayagang bigat ng sasakyan.",
+
+          driver_action:
+          "Hindi dapat dumaan ang mabibigat na sasakyan kung lampas sa limitasyon.",
+
+          exam_tip:
+          "Karaniwang lumalabas ang mga weight limit sign sa commercial vehicle questions.",
+
+          safety:
+          "Nakakatulong ito upang maprotektahan ang tulay at kalsada laban sa pagkasira.",
+
+          real_world:
+          "Karaniwang makikita sa tulay at lumang kalsada.",
+
+          memory_tip:
+          "Ang numerong may unit ng timbang ay nagpapakita ng weight restriction."
+        }
+      },
+
+      {
+        name_en:"Road Closed",
+        name_jp:"通行止め",
+        image:"/static/images/signs/road_closed.png",
+        explanation:"Sarado ang kalsada sa unahan.",
+        category:"Prohibition Signs",
+
+        learn_more:{
+
+          meaning:
+          "Hindi maaaring dumaan ang lahat ng sasakyan sa kalsadang ito.",
+
+          driver_action:
+          "Dapat humanap ng alternatibong ruta ang mga driver.",
+
+          exam_tip:
+          "Huwag malito ang road closed sign sa no entry sign.",
+
+          safety:
+          "Nakakatulong ito upang maiwasan ang pagpasok sa mapanganib o saradong lugar.",
+
+          real_world:
+          "Karaniwang makikita sa construction zone at disaster area.",
+
+          memory_tip:
+          "Ang pulang harang ay nangangahulugang saradong daan."
+        }
+      },
+
+      {
+        name_en:"Slow",
+        name_jp:"徐行",
+        image:"/static/images/signs/slow.png",
+        explanation:"Dapat magmaneho nang mabagal ang mga sasakyan.",
+        category:"Mandatory Signs",
+
+        learn_more:{
+
+          meaning:
+          "Kinakailangang magmaneho nang napakabagal at maingat.",
+
+          driver_action:
+          "Dapat kontrolado ang bilis at handang huminto anumang oras.",
+
+          exam_tip:
+          "Ang “slow” sa Japan ay nangangahulugang halos walking speed.",
+
+          safety:
+          "Nakakatulong ito upang maiwasan ang aksidente sa mapanganib na lugar.",
+
+          real_world:
+          "Karaniwang makikita sa makikitid na kalsada at blind intersection.",
+
+          memory_tip:
+          "Ang Japanese character para sa mabagal ay nangangahulugang mag-ingat at bumagal."
+        }
+      },
+            {
+        name_en:"Do Not Enter",
+        name_jp:"車両進入禁止",
+        image:"/static/images/signs/do_not_enter.png",
+        explanation:"Bawal pumasok ang lahat ng sasakyan.",
+        category:"Prohibition Signs",
+
+        learn_more:{
+
+          meaning:
+          "Ipinagbabawal ng sign na ito ang pagpasok ng lahat ng sasakyan.",
+
+          driver_action:
+          "Dapat umiwas agad ang mga driver sa lugar na ito.",
+
+          exam_tip:
+          "Magkaiba ang no entry at do not enter signs sa ilang sitwasyon.",
+
+          safety:
+          "Nakakatulong ito upang maiwasan ang maling direksyon at aksidente.",
+
+          real_world:
+          "Karaniwang makikita sa restricted road at espesyal na lane.",
+
+          memory_tip:
+          "Ang pulang bilog na may simbolo ng pagbabawal ay nangangahulugang bawal pumasok."
+        }
+      },
+
+      {
+        name_en:"No Motorcycles",
+        name_jp:"二輪車通行止め",
+        image:"/static/images/signs/no_motorcycles.png",
+        explanation:"Bawal dumaan ang mga motorsiklo.",
+        category:"Prohibition Signs",
+
+        learn_more:{
+
+          meaning:
+          "Hindi pinapayagan ang mga motorsiklo sa lugar na ito.",
+
+          driver_action:
+          "Dapat humanap ng ibang ruta ang mga rider ng motorsiklo.",
+
+          exam_tip:
+          "Bigyang-pansin kung anong uri ng sasakyan ang ipinagbabawal sa sign.",
+
+          safety:
+          "Nakakatulong ito upang maiwasan ang panganib sa hindi ligtas na kalsada para sa motorsiklo.",
+
+          real_world:
+          "Karaniwang makikita sa expressway at espesyal na tunnel.",
+
+          memory_tip:
+          "Ang simbolo ng motorsiklo na may pulang slash ay nangangahulugang bawal ang motorsiklo."
+        }
+      },
+
+      {
+        name_en:"No Pedestrians",
+        name_jp:"歩行者通行止め",
+        image:"/static/images/signs/no_pedestrians.png",
+        explanation:"Bawal dumaan ang mga pedestrian.",
+        category:"Prohibition Signs",
+
+        learn_more:{
+
+          meaning:
+          "Hindi pinapayagan ang mga pedestrian sa lugar na ito.",
+
+          driver_action:
+          "Dapat maging maingat ang mga driver sa mga lugar kung saan walang pedestrian.",
+
+          exam_tip:
+          "Karaniwang lumalabas ang pedestrian restriction sign sa written exam.",
+
+          safety:
+          "Nakakatulong ito upang mapanatiling ligtas ang mga pedestrian mula sa mapanganib na trapiko.",
+
+          real_world:
+          "Karaniwang makikita sa expressway at restricted road.",
+
+          memory_tip:
+          "Ang taong may pulang slash ay nangangahulugang bawal ang pedestrian."
+        }
+      },
+
+      {
+        name_en:"No Bicycles",
+        name_jp:"自転車通行止め",
+        image:"/static/images/signs/no_bicycles.png",
+        explanation:"Bawal dumaan ang mga bisikleta.",
+        category:"Prohibition Signs",
+
+        learn_more:{
+
+          meaning:
+          "Hindi pinapayagan ang mga bisikleta sa lugar na ito.",
+
+          driver_action:
+          "Dapat umiwas ang mga siklista sa lugar na ito.",
+
+          exam_tip:
+          "Mahalagang makilala ang bicycle restriction signs.",
+
+          safety:
+          "Nakakatulong ito upang maiwasan ang aksidente sa mabilis o mapanganib na kalsada.",
+
+          real_world:
+          "Karaniwang makikita sa tunnel at expressway entrance.",
+
+          memory_tip:
+          "Ang simbolo ng bisikleta na may pulang slash ay nangangahulugang bawal ang bisikleta."
+        }
+      },
+
+      {
+        name_en:"No Vehicles",
+        name_jp:"車両通行止め",
+        image:"/static/images/signs/no_vehicles.png",
+        explanation:"Bawal dumaan ang lahat ng sasakyan.",
+        category:"Prohibition Signs",
+
+        learn_more:{
+
+          meaning:
+          "Hindi pinapayagan ang lahat ng uri ng sasakyan sa lugar na ito.",
+
+          driver_action:
+          "Dapat humanap ng alternatibong ruta ang mga driver.",
+
+          exam_tip:
+          "Karaniwang ginagamit ang sign na ito para sa total vehicle restriction.",
+
+          safety:
+          "Nakakatulong ito upang mapanatiling ligtas ang mga pedestrian at espesyal na lugar.",
+
+          real_world:
+          "Karaniwang makikita sa pedestrian zone at restricted area.",
+
+          memory_tip:
+          "Ang simbolo ng sasakyan na may pulang pagbabawal ay nangangahulugang bawal ang lahat ng sasakyan."
+        }
+      },
+            {
+        name_en:"No Right Turn",
+        name_jp:"右折禁止",
+        image:"/static/images/signs/no_right_turn.png",
+        explanation:"Bawal lumiko pakanan.",
+        category:"Prohibition Signs",
+
+        learn_more:{
+
+          meaning:
+          "Hindi pinapayagan ang pagliko pakanan sa lugar na ito.",
+
+          driver_action:
+          "Dapat magpatuloy nang diretso o sundin ang pinapayagang direksyon.",
+
+          exam_tip:
+          "Bigyang-pansin ang directional prohibition signs sa intersection.",
+
+          safety:
+          "Nakakatulong ito upang maiwasan ang banggaan at trapiko sa intersection.",
+
+          real_world:
+          "Karaniwang makikita sa abalang intersection at one-way street.",
+
+          memory_tip:
+          "Ang arrow na pakanan na may pulang slash ay nangangahulugang bawal lumiko pakanan."
+        }
+      },
+
+      {
+        name_en:"No Left Turn",
+        name_jp:"左折禁止",
+        image:"/static/images/signs/no_left_turn.png",
+        explanation:"Bawal lumiko pakaliwa.",
+        category:"Prohibition Signs",
+
+        learn_more:{
+
+          meaning:
+          "Hindi pinapayagan ang pagliko pakaliwa sa lugar na ito.",
+
+          driver_action:
+          "Dapat sundin ng mga driver ang ibang pinapayagang direksyon.",
+
+          exam_tip:
+          "Karaniwang ginagamit ang sign na ito sa traffic control question.",
+
+          safety:
+          "Nakakatulong ito upang mabawasan ang aksidente at pagsisikip ng trapiko.",
+
+          real_world:
+          "Karaniwang makikita sa malalaking intersection at urban road.",
+
+          memory_tip:
+          "Ang arrow na pakaliwa na may pulang slash ay nangangahulugang bawal lumiko pakaliwa."
+        }
+      },
+
+      {
+        name_en:"No U-Turn and Right Turn",
+        name_jp:"転回・右折禁止",
+        image:"/static/images/signs/no_u_turn_right_turn.png",
+        explanation:"Bawal mag-U-turn at lumiko pakanan.",
+        category:"Prohibition Signs",
+
+        learn_more:{
+
+          meaning:
+          "Parehong ipinagbabawal ang U-turn at kanang pagliko.",
+
+          driver_action:
+          "Dapat dumiretso o sundin ang ibang pinapayagang ruta.",
+
+          exam_tip:
+          "Mahalagang obserbahan ang kombinasyon ng mga pagbabawal sa isang sign.",
+
+          safety:
+          "Nakakatulong ito upang mapanatiling maayos at ligtas ang daloy ng trapiko.",
+
+          real_world:
+          "Karaniwang makikita sa masisikip at abalang intersection.",
+
+          memory_tip:
+          "Ang maraming pulang slash ay nangangahulugang maraming ipinagbabawal na galaw."
+        }
+      },
+
+      {
+        name_en:"No Sounding Horn",
+        name_jp:"警笛禁止",
+        image:"/static/images/signs/no_horn.png",
+        explanation:"Bawal gumamit ng busina.",
+        category:"Prohibition Signs",
+
+        learn_more:{
+
+          meaning:
+          "Hindi pinapayagan ang paggamit ng busina sa lugar na ito maliban kung emergency.",
+
+          driver_action:
+          "Dapat iwasan ng mga driver ang hindi kinakailangang pagbusina.",
+
+          exam_tip:
+          "Alamin ang pagkakaiba ng horn required at horn prohibited signs.",
+
+          safety:
+          "Nakakatulong ito upang mabawasan ang ingay at istorbo sa komunidad.",
+
+          real_world:
+          "Karaniwang makikita malapit sa ospital at tahimik na residential area.",
+
+          memory_tip:
+          "Ang simbolo ng busina na may pulang slash ay nangangahulugang bawal bumusina."
+        }
+      },
+
+      {
+        name_en:"No Temporary Stop",
+        name_jp:"駐停車禁止",
+        image:"/static/images/signs/no_temporary_stop.png",
+        explanation:"Bawal kahit pansamantalang paghinto.",
+        category:"Parking & Stopping Signs",
+
+        learn_more:{
+
+          meaning:
+          "Hindi pinapayagan kahit panandaliang paghinto ng sasakyan.",
+
+          driver_action:
+          "Dapat magpatuloy sa pagmamaneho ang mga driver maliban kung may emergency.",
+
+          exam_tip:
+          "Mas mahigpit ito kaysa sa no parking sign.",
+
+          safety:
+          "Nakakatulong ito upang mapanatiling maluwag ang daloy ng trapiko.",
+
+          real_world:
+          "Karaniwang makikita malapit sa intersection at makitid na kalsada.",
+
+          memory_tip:
+          "Ang dobleng pulang marka ay nangangahulugang bawal huminto at magparada."
+        }
+      },
+            {
+        name_en:"Parking Meter Zone",
+        name_jp:"パーキングメーター",
+        image:"/static/images/signs/parking_meter.png",
+        explanation:"May parking meter sa lugar na ito.",
+        category:"Parking & Stopping Signs",
+
+        learn_more:{
+
+          meaning:
+          "Pinapayagan ang pagparada dito sa ilalim ng parking meter system.",
+
+          driver_action:
+          "Dapat sundin ng mga driver ang oras at bayad sa parking meter.",
+
+          exam_tip:
+          "Basahing mabuti ang oras at kondisyon ng parking meter.",
+
+          safety:
+          "Nakakatulong ito upang mapanatiling organisado ang paradahan.",
+
+          real_world:
+          "Karaniwang makikita sa urban area at shopping district.",
+
+          memory_tip:
+          "Ang simbolo ng parking meter ay nangangahulugang metered parking area."
+        }
+      },
+
+      {
+        name_en:"Parking Area",
+        name_jp:"駐車場",
+        image:"/static/images/signs/parking_area.png",
+        explanation:"May parking area sa unahan.",
+        category:"Guide Signs",
+
+        learn_more:{
+
+          meaning:
+          "Ipinapakita ng sign na ito ang legal na parking area.",
+
+          driver_action:
+          "Maaaring gamitin ng mga driver ang lugar para sa ligtas na pagparada.",
+
+          exam_tip:
+          "Mahalagang malaman ang pagkakaiba ng parking area at no parking zone.",
+
+          safety:
+          "Nakakatulong ito upang maiwasan ang ilegal na pagparada.",
+
+          real_world:
+          "Karaniwang makikita sa shopping center, highway, at city area.",
+
+          memory_tip:
+          "Ang malaking letrang P ay nangangahulugang parking area."
+        }
+      },
+
+      {
+        name_en:"Hospital",
+        name_jp:"病院",
+        image:"/static/images/signs/hospital.png",
+        explanation:"May ospital sa malapit.",
+        category:"Guide Signs",
+
+        learn_more:{
+
+          meaning:
+          "Ipinapakita ng sign na ito na may ospital o medikal na pasilidad sa paligid.",
+
+          driver_action:
+          "Dapat maging maingat ang mga driver at iwasan ang malakas na busina.",
+
+          exam_tip:
+          "Karaniwang may noise restriction malapit sa ospital.",
+
+          safety:
+          "Nakakatulong ito upang mapanatiling tahimik at ligtas ang paligid ng ospital.",
+
+          real_world:
+          "Karaniwang makikita sa urban at residential area.",
+
+          memory_tip:
+          "Ang simbolo ng ospital ay nangangahulugang medical facility."
+        }
+      },
+
+      {
+        name_en:"Gas Station",
+        name_jp:"ガソリンスタンド",
+        image:"/static/images/signs/gas_station.png",
+        explanation:"May gasolinahan sa unahan.",
+        category:"Guide Signs",
+
+        learn_more:{
+
+          meaning:
+          "Ipinapakita ng sign na ito na may fuel station sa malapit.",
+
+          driver_action:
+          "Maaaring maghanda ang mga driver para sa pagpapagasolina.",
+
+          exam_tip:
+          "Mahalagang malaman ang mga guide sign para sa long-distance driving.",
+
+          safety:
+          "Nakakatulong ito upang maiwasang maubusan ng gasolina.",
+
+          real_world:
+          "Karaniwang makikita sa highway at pangunahing kalsada.",
+
+          memory_tip:
+          "Ang simbolo ng fuel pump ay nangangahulugang gas station."
+        }
+      },
+
+      {
+        name_en:"Expressway Entrance",
+        name_jp:"高速道路入口",
+        image:"/static/images/signs/expressway_entrance.png",
+        explanation:"Pasukan ng expressway sa unahan.",
+        category:"Expressway Signs",
+
+        learn_more:{
+
+          meaning:
+          "Ipinapakita ng sign na ito ang pasukan papunta sa expressway.",
+
+          driver_action:
+          "Dapat maghanda ang mga driver para sa mas mataas na bilis at expressway rules.",
+
+          exam_tip:
+          "Alamin ang pagkakaiba ng expressway sign at regular road sign.",
+
+          safety:
+          "Nakakatulong ito upang maihanda ang driver para sa mabilis na daloy ng trapiko.",
+
+          real_world:
+          "Karaniwang makikita bago ang expressway ramp.",
+
+          memory_tip:
+          "Ang berdeng sign ay karaniwang ginagamit para sa expressway guidance."
+        }
+      },
+            {
+        name_en:"Expressway Exit",
+        name_jp:"高速道路出口",
+        image:"/static/images/signs/expressway_exit.png",
+        explanation:"Labasan ng expressway sa unahan.",
+        category:"Expressway Signs",
+
+        learn_more:{
+
+          meaning:
+          "Ipinapakita ng sign na ito ang exit papalabas ng expressway.",
+
+          driver_action:
+          "Dapat maagang lumipat ng lane ang mga driver at maghanda sa paglabas.",
+
+          exam_tip:
+          "Bigyang-pansin ang directional sign habang nagmamaneho sa expressway.",
+
+          safety:
+          "Nakakatulong ito upang maiwasan ang biglaang paglipat ng lane at aksidente.",
+
+          real_world:
+          "Karaniwang makikita bago ang expressway exit ramp.",
+
+          memory_tip:
+          "Ang berdeng sign na may exit direction ay nangangahulugang expressway exit."
+        }
+      },
+
+      {
+        name_en:"Service Area",
+        name_jp:"サービスエリア",
+        image:"/static/images/signs/service_area.png",
+        explanation:"May service area sa unahan.",
+        category:"Expressway Signs",
+
+        learn_more:{
+
+          meaning:
+          "Ipinapakita ng sign na ito ang pahingahan na may mga pasilidad para sa mga driver.",
+
+          driver_action:
+          "Maaaring huminto ang mga driver para magpahinga, kumain, o gumamit ng banyo.",
+
+          exam_tip:
+          "Mahalaga ang regular na pahinga habang nagmamaneho sa malalayong biyahe.",
+
+          safety:
+          "Nakakatulong ito upang maiwasan ang antok at pagod habang nagmamaneho.",
+
+          real_world:
+          "Karaniwang makikita sa expressway at highway.",
+
+          memory_tip:
+          "Ang simbolo ng pahingahan ay nangangahulugang service area."
+        }
+      },
+
+      {
+        name_en:"Parking Area (PA)",
+        name_jp:"パーキングエリア",
+        image:"/static/images/signs/parking_area_pa.png",
+        explanation:"May parking area sa unahan para sa maikling pahinga.",
+        category:"Expressway Signs",
+
+        learn_more:{
+
+          meaning:
+          "Nagbibigay ang parking area ng lugar para sa maikling pahinga ng mga driver.",
+
+          driver_action:
+          "Maaaring huminto sandali ang mga driver para magpahinga o gumamit ng pasilidad.",
+
+          exam_tip:
+          "Alamin ang pagkakaiba ng service area at parking area.",
+
+          safety:
+          "Nakakatulong ito upang mabawasan ang pagod sa mahabang pagmamaneho.",
+
+          real_world:
+          "Karaniwang makikita sa expressway.",
+
+          memory_tip:
+          "Ang letrang P sa expressway sign ay nangangahulugang parking area."
+        }
+      },
+
+      {
+        name_en:"Tunnel",
+        name_jp:"トンネル",
+        image:"/static/images/signs/tunnel.png",
+        explanation:"May tunnel sa unahan.",
+        category:"Warning Signs",
+
+        learn_more:{
+
+          meaning:
+          "Nagpapahiwatig ang sign na ito na may tunnel sa unahan.",
+
+          driver_action:
+          "Dapat buksan ng mga driver ang ilaw at panatilihin ang ligtas na distansya.",
+
+          exam_tip:
+          "Madalas itanong sa exam ang tamang pagmamaneho sa tunnel.",
+
+          safety:
+          "Maaaring mahina ang visibility at bentilasyon sa loob ng tunnel.",
+
+          real_world:
+          "Karaniwang makikita sa bundok at expressway.",
+
+          memory_tip:
+          "Ang simbolo ng tunnel opening ay nangangahulugang tunnel sa unahan."
+        }
+      },
+
+      {
+        name_en:"Crosswind Warning",
+        name_jp:"横風注意",
+        image:"/static/images/signs/crosswind.png",
+        explanation:"Mag-ingat sa malakas na hangin.",
+        category:"Warning Signs",
+
+        learn_more:{
+
+          meaning:
+          "Nagbabala ang sign na ito tungkol sa malalakas na hangin sa gilid ng kalsada.",
+
+          driver_action:
+          "Dapat mahigpit na hawakan ng mga driver ang manibela at magbagal.",
+
+          exam_tip:
+          "Mas mapanganib ang crosswind para sa motorsiklo at matataas na sasakyan.",
+
+          safety:
+          "Maaaring itulak ng malakas na hangin ang sasakyan palabas ng lane.",
+
+          real_world:
+          "Karaniwang makikita sa tulay at baybayin ng dagat.",
+
+          memory_tip:
+          "Ang simbolo ng hangin ay nangangahulugang babala sa crosswind."
+        }
+      },
+            {
+        name_en:"Falling Rocks",
+        name_jp:"落石のおそれあり",
+        image:"/static/images/signs/falling_rocks.png",
+        explanation:"May panganib ng pagbagsak ng bato sa unahan.",
+        category:"Warning Signs",
+
+        learn_more:{
+
+          meaning:
+          "Nagbabala ang sign na ito tungkol sa posibleng pagbagsak ng bato mula sa bundok o bangin.",
+
+          driver_action:
+          "Dapat magbagal ang mga driver at iwasang huminto sa mapanganib na lugar.",
+
+          exam_tip:
+          "Karaniwang lumalabas ang warning sign na ito sa mountain road questions.",
+
+          safety:
+          "Ang mga bumabagsak na bato ay maaaring magdulot ng malubhang aksidente at pinsala sa sasakyan.",
+
+          real_world:
+          "Karaniwang makikita sa bundok, cliffside road, at rural area.",
+
+          memory_tip:
+          "Ang simbolo ng bumabagsak na bato ay nangangahulugang panganib ng rockfall."
+        }
+      },
+
+      {
+        name_en:"Road Narrows",
+        name_jp:"幅員減少",
+        image:"/static/images/signs/road_narrows.png",
+        explanation:"Kikitid ang kalsada sa unahan.",
+        category:"Warning Signs",
+
+        learn_more:{
+
+          meaning:
+          "Nagpapahiwatig ang sign na ito na magiging mas makitid ang kalsada sa unahan.",
+
+          driver_action:
+          "Dapat magbagal ang mga driver at magbigay ng sapat na espasyo sa ibang sasakyan.",
+
+          exam_tip:
+          "Mag-ingat sa mga makikitid na daan lalo na kapag may kasalubong na sasakyan.",
+
+          safety:
+          "Nakakatulong ito upang maiwasan ang side collision sa makitid na kalsada.",
+
+          real_world:
+          "Karaniwang makikita sa lumang tulay at mountain road.",
+
+          memory_tip:
+          "Ang papakitid na simbolo ng kalsada ay nangangahulugang road narrows."
+        }
+      },
+
+      {
+        name_en:"Two-Way Traffic",
+        name_jp:"対向交通",
+        image:"/static/images/signs/two_way_traffic.png",
+        explanation:"May two-way traffic sa unahan.",
+        category:"Warning Signs",
+
+        learn_more:{
+
+          meaning:
+          "Nagpapahiwatig ang sign na ito na may trapikong galing sa magkasalungat na direksyon.",
+
+          driver_action:
+          "Dapat manatili ang mga driver sa tamang lane at maging maingat sa kasalubong na sasakyan.",
+
+          exam_tip:
+          "Karaniwang makikita ito kapag nagtatapos ang one-way road.",
+
+          safety:
+          "Nakakatulong ito upang maiwasan ang head-on collision.",
+
+          real_world:
+          "Karaniwang makikita sa highway at transitional road area.",
+
+          memory_tip:
+          "Ang dalawang magkasalubong na arrow ay nangangahulugang two-way traffic."
+        }
+      },
+
+      {
+        name_en:"Children Crossing",
+        name_jp:"学校・幼稚園・保育所などあり",
+        image:"/static/images/signs/children_crossing.png",
+        explanation:"Maaaring may mga batang tumatawid sa unahan.",
+        category:"Warning Signs",
+
+        learn_more:{
+
+          meaning:
+          "Nagbabala ang sign na ito na maaaring may mga batang tumatawid sa lugar.",
+
+          driver_action:
+          "Dapat magbagal ang mga driver at maging handang huminto anumang oras.",
+
+          exam_tip:
+          "Palaging unahin ang kaligtasan ng mga bata sa school zone.",
+
+          safety:
+          "Maaaring biglang tumawid ang mga bata nang hindi tumitingin.",
+
+          real_world:
+          "Karaniwang makikita malapit sa paaralan at parke.",
+
+          memory_tip:
+          "Ang simbolo ng mga batang naglalakad ay nangangahulugang children crossing."
+        }
+      },
+
+      {
+        name_en:"Traffic Signal Ahead",
+        name_jp:"信号機あり",
+        image:"/static/images/signs/traffic_signal_ahead.png",
+        explanation:"May traffic signal sa unahan.",
+        category:"Warning Signs",
+
+        learn_more:{
+
+          meaning:
+          "Nagpapahiwatig ang sign na ito na may traffic light sa unahan.",
+
+          driver_action:
+          "Dapat maghanda ang mga driver na huminto o magbagal depende sa signal.",
+
+          exam_tip:
+          "Maging alerto lalo na kapag mabilis ang takbo sa papalapit na intersection.",
+
+          safety:
+          "Nakakatulong ito upang maiwasan ang biglaang pagpreno at aksidente.",
+
+          real_world:
+          "Karaniwang makikita bago ang intersection sa highway at pangunahing kalsada.",
+
+          memory_tip:
+          "Ang simbolo ng traffic light ay nangangahulugang signal sa unahan."
+        }
+      },
+            {
+        name_en:"Steep Downhill",
+        name_jp:"急な下り坂",
+        image:"/static/images/signs/steep_downhill.png",
+        explanation:"May matarik na pababang kalsada sa unahan.",
+        category:"Warning Signs",
+
+        learn_more:{
+
+          meaning:
+          "Nagbabala ang sign na ito tungkol sa matarik na pababang daan sa unahan.",
+
+          driver_action:
+          "Dapat magbagal ang mga driver at gumamit ng engine brake kung kinakailangan.",
+
+          exam_tip:
+          "Mahalagang gamitin ang tamang gear kapag bumababa sa matarik na daan.",
+
+          safety:
+          "Maaaring uminit at mawalan ng bisa ang preno kapag sobrang gamit.",
+
+          real_world:
+          "Karaniwang makikita sa bundok at rural road.",
+
+          memory_tip:
+          "Ang simbolo ng pababang sasakyan ay nangangahulugang matarik na downhill road."
+        }
+      },
+
+      {
+        name_en:"Steep Uphill",
+        name_jp:"急な上り坂",
+        image:"/static/images/signs/steep_uphill.png",
+        explanation:"May matarik na paakyat na kalsada sa unahan.",
+        category:"Warning Signs",
+
+        learn_more:{
+
+          meaning:
+          "Nagpapahiwatig ang sign na ito ng matarik na paakyat na daan.",
+
+          driver_action:
+          "Dapat panatilihin ng mga driver ang sapat na lakas at tamang gear habang umaakyat.",
+
+          exam_tip:
+          "Mag-ingat sa pag-atras ng sasakyan sa matarik na paakyat.",
+
+          safety:
+          "Maaaring mawalan ng lakas ang sasakyan kapag maling gear ang ginamit.",
+
+          real_world:
+          "Karaniwang makikita sa mountain road at rural area.",
+
+          memory_tip:
+          "Ang simbolo ng paakyat na sasakyan ay nangangahulugang matarik na uphill road."
+        }
+      },
+
+      {
+        name_en:"Road Work",
+        name_jp:"道路工事中",
+        image:"/static/images/signs/road_work.png",
+        explanation:"May road construction sa unahan.",
+        category:"Warning Signs",
+
+        learn_more:{
+
+          meaning:
+          "Nagbabala ang sign na ito tungkol sa construction o road maintenance sa unahan.",
+
+          driver_action:
+          "Dapat magbagal ang mga driver at sundin ang temporary traffic guidance.",
+
+          exam_tip:
+          "Asahan ang lane change at mabagal na trapiko sa construction zone.",
+
+          safety:
+          "Maaaring may mga manggagawa at kagamitan malapit sa kalsada.",
+
+          real_world:
+          "Karaniwang makikita sa urban road, highway, at repair zone.",
+
+          memory_tip:
+          "Ang simbolo ng construction worker ay nangangahulugang road work ahead."
+        }
+      },
+
+      {
+        name_en:"Roundabout",
+        name_jp:"ロータリーあり",
+        image:"/static/images/signs/roundabout.png",
+        explanation:"May roundabout sa unahan.",
+        category:"Warning Signs",
+
+        learn_more:{
+
+          meaning:
+          "Nagpapahiwatig ang sign na ito ng paparating na roundabout intersection.",
+
+          driver_action:
+          "Dapat magbagal ang mga driver at magbigay-daan sa trapiko sa loob ng roundabout.",
+
+          exam_tip:
+          "Unahin ang mga sasakyang nasa loob na ng roundabout.",
+
+          safety:
+          "Nakakatulong ito upang mapanatiling maayos ang daloy ng trapiko at mabawasan ang aksidente.",
+
+          real_world:
+          "Karaniwang makikita sa modernong intersection at urban area.",
+
+          memory_tip:
+          "Ang paikot na arrow ay nangangahulugang roundabout."
+        }
+      },
+
+      {
+        name_en:"Uneven Road",
+        name_jp:"道路のでこぼこあり",
+        image:"/static/images/signs/uneven_road.png",
+        explanation:"Hindi pantay ang kalsada sa unahan.",
+        category:"Warning Signs",
+
+        learn_more:{
+
+          meaning:
+          "Nagbabala ang sign na ito tungkol sa lubak o hindi pantay na ibabaw ng kalsada.",
+
+          driver_action:
+          "Dapat magbagal ang mga driver at mahigpit na hawakan ang manibela.",
+
+          exam_tip:
+          "Maaaring mawalan ng kontrol ang sasakyan sa hindi pantay na kalsada kapag mabilis ang takbo.",
+
+          safety:
+          "Nakakatulong ito upang maiwasan ang pagkawala ng kontrol at pinsala sa sasakyan.",
+
+          real_world:
+          "Karaniwang makikita sa rural road at construction area.",
+
+          memory_tip:
+          "Ang simbolo ng maalong kalsada ay nangangahulugang uneven road."
+        }
+      },
+            {
+        name_en:"Lane Reduction",
+        name_jp:"車線減少",
+        image:"/static/images/signs/lane_reduction.png",
+        explanation:"Mababawasan ang bilang ng lane sa unahan.",
+        category:"Warning Signs",
+
+        learn_more:{
+
+          meaning:
+          "Nagpapahiwatig ang sign na ito na mababawasan ang bilang ng traffic lane sa unahan.",
+
+          driver_action:
+          "Dapat maghanda ang mga driver na magsanib ng lane nang ligtas at maaga.",
+
+          exam_tip:
+          "Palaging suriin ang side mirror at blind spot bago magpalit ng lane.",
+
+          safety:
+          "Nakakatulong ito upang maiwasan ang banggaan habang nagsasanib ang trapiko.",
+
+          real_world:
+          "Karaniwang makikita sa expressway at construction zone.",
+
+          memory_tip:
+          "Ang papakitid na lane symbol ay nangangahulugang lane reduction."
+        }
+      },
+
+      {
+        name_en:"Watch for Animals",
+        name_jp:"動物が飛び出すおそれあり",
+        image:"/static/images/signs/animals.png",
+        explanation:"Mag-ingat sa mga hayop na maaaring tumawid.",
+        category:"Warning Signs",
+
+        learn_more:{
+
+          meaning:
+          "Nagbabala ang sign na ito na maaaring may mga hayop na tumawid sa kalsada.",
+
+          driver_action:
+          "Dapat magbagal ang mga driver at maging alerto lalo na sa gabi.",
+
+          exam_tip:
+          "Mas madalas makita ang mga hayop sa rural at bundok na lugar.",
+
+          safety:
+          "Ang biglaang pagtawid ng hayop ay maaaring magdulot ng aksidente.",
+
+          real_world:
+          "Karaniwang makikita sa kagubatan, bundok, at rural road.",
+
+          memory_tip:
+          "Ang simbolo ng hayop ay nangangahulugang animal crossing area."
+        }
+      },
+
+      {
+        name_en:"Bump",
+        name_jp:"路面凸凹",
+        image:"/static/images/signs/bump.png",
+        explanation:"May humps o bump sa kalsada sa unahan.",
+        category:"Warning Signs",
+
+        learn_more:{
+
+          meaning:
+          "Nagbabala ang sign na ito tungkol sa hump o nakaangat na bahagi ng kalsada.",
+
+          driver_action:
+          "Dapat magbagal ang mga driver upang mapanatili ang kontrol ng sasakyan.",
+
+          exam_tip:
+          "Ang mabilis na pagdaan sa bump ay maaaring makasira sa sasakyan.",
+
+          safety:
+          "Nakakatulong ito upang maiwasan ang pagkawala ng kontrol at aksidente.",
+
+          real_world:
+          "Karaniwang makikita sa residential road at school zone.",
+
+          memory_tip:
+          "Ang simbolo ng nakaangat na kalsada ay nangangahulugang bump ahead."
+        }
+      },
+
+      {
+        name_en:"Danger",
+        name_jp:"危険",
+        image:"/static/images/signs/danger.png",
+        explanation:"May mapanganib na kondisyon sa unahan.",
+        category:"Warning Signs",
+
+        learn_more:{
+
+          meaning:
+          "Nagbibigay babala ang sign na ito tungkol sa seryosong panganib sa paligid.",
+
+          driver_action:
+          "Dapat maging lubhang maingat ang mga driver at maghanda sa hindi inaasahang sitwasyon.",
+
+          exam_tip:
+          "Laging magbagal kapag nakakakita ng danger warning sign.",
+
+          safety:
+          "Nakakatulong ito upang maiwasan ang aksidente sa mapanganib na lugar.",
+
+          real_world:
+          "Karaniwang makikita sa accident-prone area at disaster zone.",
+
+          memory_tip:
+          "Ang simbolo ng babala ay nangangahulugang panganib sa unahan."
+        }
+      },
+
+      {
+        name_en:"Priority Road",
+        name_jp:"優先道路",
+        image:"/static/images/signs/priority_road.png",
+        explanation:"Mas may prayoridad ang kalsadang ito sa intersection.",
+        category:"Regulatory Signs",
+
+        learn_more:{
+
+          meaning:
+          "Ang mga sasakyang nasa kalsadang ito ay may right of way.",
+
+          driver_action:
+          "Dapat pa ring mag-ingat ang mga driver kahit may priority sila.",
+
+          exam_tip:
+          "Mahalagang maunawaan ang right-of-way rules sa Japanese driving exam.",
+
+          safety:
+          "Nakakatulong ito upang maiwasan ang kalituhan at banggaan sa intersection.",
+
+          real_world:
+          "Karaniwang makikita sa pangunahing kalsada at intersection.",
+
+          memory_tip:
+          "Ang diamond-shaped sign ay nangangahulugang priority road."
+        }
+      },
+            {
+        name_en:"Minimum Speed",
+        name_jp:"最低速度",
+        image:"/static/images/signs/minimum_speed.png",
+        explanation:"May minimum na bilis na dapat sundin.",
+        category:"Regulatory Signs",
+
+        learn_more:{
+
+          meaning:
+          "Ipinapakita ng sign na ito ang pinakamababang legal na bilis na pinapayagan.",
+
+          driver_action:
+          "Dapat panatilihin ng mga driver ang bilis na hindi bababa sa itinakdang minimum.",
+
+          exam_tip:
+          "Karaniwang ginagamit ang minimum speed sign sa expressway.",
+
+          safety:
+          "Nakakatulong ito upang mapanatiling maayos at ligtas ang daloy ng trapiko.",
+
+          real_world:
+          "Karaniwang makikita sa expressway at high-speed road.",
+
+          memory_tip:
+          "Ang asul na bilog na may numero ay nangangahulugang minimum speed."
+        }
+      },
+
+      {
+        name_en:"End of Speed Limit",
+        name_jp:"最高速度制限解除",
+        image:"/static/images/signs/end_speed_limit.png",
+        explanation:"Natapos na ang dating speed limit.",
+        category:"Regulatory Signs",
+
+        learn_more:{
+
+          meaning:
+          "Ipinapakita ng sign na ito na tapos na ang dating speed restriction.",
+
+          driver_action:
+          "Dapat sundin ng mga driver ang susunod na applicable speed rule.",
+
+          exam_tip:
+          "Hindi ito nangangahulugang puwedeng magmaneho nang walang limitasyon.",
+
+          safety:
+          "Nakakatulong ito upang malinaw na maipakita ang pagbabago ng traffic regulation.",
+
+          real_world:
+          "Karaniwang makikita pagkatapos ng restricted speed zone.",
+
+          memory_tip:
+          "Ang diagonal slash ay nangangahulugang pagtatapos ng restriction."
+        }
+      },
+
+      {
+        name_en:"One-Way",
+        name_jp:"一方通行",
+        image:"/static/images/signs/one_way.png",
+        explanation:"One-way lamang ang trapiko sa kalsadang ito.",
+        category:"Regulatory Signs",
+
+        learn_more:{
+
+          meaning:
+          "Pinapayagan lamang ang trapiko sa isang direksyon.",
+
+          driver_action:
+          "Dapat sundin ng mga driver ang ipinapakitang direksyon ng trapiko.",
+
+          exam_tip:
+          "Palaging tingnan ang direksyon bago pumasok sa one-way street.",
+
+          safety:
+          "Nakakatulong ito upang maiwasan ang head-on collision.",
+
+          real_world:
+          "Karaniwang makikita sa urban road at makikitid na kalsada.",
+
+          memory_tip:
+          "Ang iisang arrow ay nangangahulugang one-way traffic."
+        }
+      },
+
+      {
+        name_en:"Center Line",
+        name_jp:"中央線",
+        image:"/static/images/signs/center_line.png",
+        explanation:"May center line regulation sa kalsadang ito.",
+        category:"Regulatory Signs",
+
+        learn_more:{
+
+          meaning:
+          "Ipinapakita ng road marking na ito ang paghihiwalay ng trapiko sa magkabilang direksyon.",
+
+          driver_action:
+          "Dapat manatili ang mga driver sa tamang bahagi ng center line.",
+
+          exam_tip:
+          "Ang solid line ay kadalasang nangangahulugang bawal mag-overtake.",
+
+          safety:
+          "Nakakatulong ito upang maiwasan ang banggaan sa kasalubong na sasakyan.",
+
+          real_world:
+          "Karaniwang makikita sa highway at pangunahing kalsada.",
+
+          memory_tip:
+          "Ang gitnang guhit sa kalsada ay naghihiwalay sa trapiko."
+        }
+      },
+
+      {
+        name_en:"Stop Line",
+        name_jp:"停止線",
+        image:"/static/images/signs/stop_line.png",
+        explanation:"Dito dapat huminto ang sasakyan.",
+        category:"Regulatory Signs",
+
+        learn_more:{
+
+          meaning:
+          "Ipinapakita ng road marking na ito kung saan dapat ganap na huminto ang sasakyan.",
+
+          driver_action:
+          "Dapat huminto ang mga driver bago tumawid sa stop line.",
+
+          exam_tip:
+          "Ang paglampas sa stop line ay maaaring magresulta sa bawas puntos sa exam.",
+
+          safety:
+          "Nakakatulong ito upang mapanatiling ligtas ang intersection at pedestrian crossing.",
+
+          real_world:
+          "Karaniwang makikita sa intersection at railway crossing.",
+
+          memory_tip:
+          "Ang puting guhit sa kalsada ay nangangahulugang stop line."
+        }
+      },
+            {
+        name_en:"Railroad Crossing Stop Line",
+        name_jp:"踏切停止線",
+        image:"/static/images/signs/railroad_stop_line.png",
+        explanation:"Huminto bago tumawid sa riles ng tren.",
+        category:"Regulatory Signs",
+
+        learn_more:{
+
+          meaning:
+          "Ipinapakita ng markang ito kung saan dapat huminto bago tumawid sa railway crossing.",
+
+          driver_action:
+          "Dapat ganap na huminto ang mga driver at tiyaking walang paparating na tren bago tumawid.",
+
+          exam_tip:
+          "Sa Japan, mahalagang huminto at tumingin sa magkabilang direksyon sa railway crossing.",
+
+          safety:
+          "Nakakatulong ito upang maiwasan ang banggaan sa tren.",
+
+          real_world:
+          "Karaniwang makikita bago ang railway crossing.",
+
+          memory_tip:
+          "Ang stop line bago ang riles ay nangangahulugang kailangang huminto."
+        }
+      },
+
+      {
+        name_en:"Yield",
+        name_jp:"徐行・譲れ",
+        image:"/static/images/signs/yield.png",
+        explanation:"Magbigay-daan sa ibang sasakyan at pedestrian.",
+        category:"Regulatory Signs",
+
+        learn_more:{
+
+          meaning:
+          "Kinakailangang magbigay-priyoridad sa ibang sasakyan o pedestrian.",
+
+          driver_action:
+          "Dapat magbagal ang mga driver at huminto kung kinakailangan upang magbigay-daan.",
+
+          exam_tip:
+          "Ang failure to yield ay karaniwang dahilan ng aksidente at bawas puntos sa exam.",
+
+          safety:
+          "Nakakatulong ito upang maiwasan ang banggaan sa intersection.",
+
+          real_world:
+          "Karaniwang makikita sa merging lane at intersection.",
+
+          memory_tip:
+          "Ang yield sign ay nangangahulugang magbigay-daan bago magpatuloy."
+        }
+      },
+
+      {
+        name_en:"Exclusive Bus Lane",
+        name_jp:"バス専用通行帯",
+        image:"/static/images/signs/bus_lane.png",
+        explanation:"Ang lane na ito ay para lamang sa bus.",
+        category:"Regulatory Signs",
+
+        learn_more:{
+
+          meaning:
+          "Tanging mga bus lamang ang maaaring gumamit ng lane na ito sa itinakdang oras.",
+
+          driver_action:
+          "Dapat iwasan ng ordinaryong sasakyan ang paggamit ng exclusive bus lane.",
+
+          exam_tip:
+          "Bigyang-pansin ang oras ng operasyon ng bus lane restriction.",
+
+          safety:
+          "Nakakatulong ito upang mapanatiling maayos ang pampublikong transportasyon.",
+
+          real_world:
+          "Karaniwang makikita sa urban road at abalang lungsod.",
+
+          memory_tip:
+          "Ang simbolo ng bus ay nangangahulugang exclusive bus lane."
+        }
+      },
+
+      {
+        name_en:"Bicycle Crossing",
+        name_jp:"自転車横断帯",
+        image:"/static/images/signs/bicycle_crossing.png",
+        explanation:"May bicycle crossing sa unahan.",
+        category:"Warning Signs",
+
+        learn_more:{
+
+          meaning:
+          "Nagpapahiwatig ang sign na ito na may tawiran para sa bisikleta.",
+
+          driver_action:
+          "Dapat magbagal ang mga driver at magbigay-daan sa mga siklista.",
+
+          exam_tip:
+          "Palaging tingnan ang blind spot para sa mga bisikleta bago lumiko.",
+
+          safety:
+          "Nakakatulong ito upang maprotektahan ang mga siklista sa intersection.",
+
+          real_world:
+          "Karaniwang makikita malapit sa intersection at school zone.",
+
+          memory_tip:
+          "Ang simbolo ng bisikleta ay nangangahulugang bicycle crossing."
+        }
+      },
+
+      {
+        name_en:"Traffic Lane",
+        name_jp:"車両通行帯",
+        image:"/static/images/signs/traffic_lane.png",
+        explanation:"May nakatalagang traffic lane sa kalsadang ito.",
+        category:"Regulatory Signs",
+
+        learn_more:{
+
+          meaning:
+          "Ipinapakita ng sign na ito ang tamang paggamit ng bawat lane.",
+
+          driver_action:
+          "Dapat gamitin ng mga driver ang tamang lane ayon sa direksyon at layunin.",
+
+          exam_tip:
+          "Mahalagang sundin ang lane rule sa Japanese driving test.",
+
+          safety:
+          "Nakakatulong ito upang mapanatiling organisado ang daloy ng trapiko.",
+
+          real_world:
+          "Karaniwang makikita sa highway at malalaking intersection.",
+
+          memory_tip:
+          "Ang simbolo ng lane ay nangangahulugang designated traffic lane."
+        }
+      },
+            {
+        name_en:"Priority to Oncoming Traffic",
+        name_jp:"対向車優先",
+        image:"/static/images/signs/priority_oncoming.png",
+        explanation:"Bigyang-priyoridad ang kasalubong na sasakyan.",
+        category:"Regulatory Signs",
+
+        learn_more:{
+
+          meaning:
+          "Dapat unahin ng mga driver ang mga sasakyang nanggagaling sa kabilang direksyon.",
+
+          driver_action:
+          "Dapat huminto o maghintay ang mga driver hanggang makadaan ang kasalubong na sasakyan.",
+
+          exam_tip:
+          "Karaniwang makikita ito sa makikitid na tulay at kalsada.",
+
+          safety:
+          "Nakakatulong ito upang maiwasan ang banggaan sa makikitid na daanan.",
+
+          real_world:
+          "Karaniwang makikita sa makitid na tunnel at mountain road.",
+
+          memory_tip:
+          "Ang pulang arrow laban sa puting arrow ay nangangahulugang unahin ang kasalubong na trapiko."
+        }
+      },
+
+      {
+        name_en:"Priority Over Oncoming Traffic",
+        name_jp:"優先道路",
+        image:"/static/images/signs/priority_over_oncoming.png",
+        explanation:"May prayoridad ka kaysa sa kasalubong na sasakyan.",
+        category:"Regulatory Signs",
+
+        learn_more:{
+
+          meaning:
+          "May right of way ang mga sasakyan sa direksyong ito.",
+
+          driver_action:
+          "Maaaring magpatuloy ang mga driver ngunit kailangan pa ring mag-ingat.",
+
+          exam_tip:
+          "Kahit may priority, dapat pa ring obserbahan ang paligid.",
+
+          safety:
+          "Nakakatulong ito upang mapanatili ang maayos na daloy ng trapiko sa makikitid na daan.",
+
+          real_world:
+          "Karaniwang makikita sa makitid na tulay at one-lane road.",
+
+          memory_tip:
+          "Ang puting arrow na mas malaki kaysa pulang arrow ay nangangahulugang ikaw ang may prayoridad."
+        }
+      },
+
+      {
+        name_en:"Emergency Telephone",
+        name_jp:"非常電話",
+        image:"/static/images/signs/emergency_phone.png",
+        explanation:"May emergency telephone sa unahan.",
+        category:"Guide Signs",
+
+        learn_more:{
+
+          meaning:
+          "Ipinapakita ng sign na ito ang lokasyon ng emergency telephone.",
+
+          driver_action:
+          "Maaaring gamitin ng mga driver ang telepono kapag may aksidente o emergency.",
+
+          exam_tip:
+          "Karaniwang makikita ang emergency phone sa expressway.",
+
+          safety:
+          "Nakakatulong ito upang mabilis na makahingi ng tulong sa emergency.",
+
+          real_world:
+          "Karaniwang makikita sa tunnel at expressway shoulder.",
+
+          memory_tip:
+          "Ang simbolo ng telepono ay nangangahulugang emergency contact point."
+        }
+      },
+
+      {
+        name_en:"Rest Area",
+        name_jp:"休憩所",
+        image:"/static/images/signs/rest_area.png",
+        explanation:"May pahingahan sa unahan.",
+        category:"Guide Signs",
+
+        learn_more:{
+
+          meaning:
+          "Ipinapakita ng sign na ito ang lugar para sa pahinga ng mga driver.",
+
+          driver_action:
+          "Maaaring huminto ang mga driver para magpahinga at iwasan ang pagod.",
+
+          exam_tip:
+          "Mahalaga ang regular na pahinga para sa ligtas na pagmamaneho.",
+
+          safety:
+          "Nakakatulong ito upang maiwasan ang antok at pagkawala ng konsentrasyon.",
+
+          real_world:
+          "Karaniwang makikita sa expressway at highway.",
+
+          memory_tip:
+          "Ang simbolo ng pahingahan ay nangangahulugang rest area."
+        }
+      },
+
+      {
+        name_en:"Tow-Away Zone",
+        name_jp:"駐車違反重点地域",
+        image:"/static/images/signs/tow_away_zone.png",
+        explanation:"Maaaring i-tow ang ilegal na nakaparadang sasakyan.",
+        category:"Parking & Stopping Signs",
+
+        learn_more:{
+
+          meaning:
+          "Mahigpit na ipinagbabawal ang ilegal na pagparada sa lugar na ito.",
+
+          driver_action:
+          "Dapat magparada lamang ang mga driver sa legal at tamang parking area.",
+
+          exam_tip:
+          "Maaaring may multa at towing penalty kapag lumabag.",
+
+          safety:
+          "Nakakatulong ito upang mapanatiling maluwag ang trapiko at emergency access.",
+
+          real_world:
+          "Karaniwang makikita sa urban area at abalang kalsada.",
+
+          memory_tip:
+          "Ang warning tungkol sa towing ay nangangahulugang mahigpit na parking enforcement."
+        }
+      },
+
+    ];
+
+   /* ======================================================
+       DUPLICATE FOR DEMO
+    ====================================================== */
+
+    const fullSigns = [...roadSigns];
+
+    /* ======================================================
+       ELEMENTS
+    ====================================================== */
+
+    const signGrid =
+      document.getElementById("signGrid");
+
+    const searchInput =
+      document.getElementById("searchInput");
+
+    const tabs =
+      document.querySelectorAll(".tab");
+
+    const emptyState =
+      document.getElementById("emptyState");
+
+    let currentCategory = "All";
+
+    /* ======================================================
+       EDUCATIONAL CONTENT
+    ====================================================== */
+
+    function generateEducationalContent(sign){
+
+      const info =
+        sign.learn_more || {};
+
+      return `
+
+        <div class="learn-box">
+
+          <div class="learn-section">
+
+            <h4>
+              📘 Sign Meaning
+            </h4>
+
+            <p>
+              ${info.meaning || sign.explanation}
+            </p>
+
+          </div>
+
+          <div class="learn-section">
+
+            <h4>
+              🚗 Driver Action
+            </h4>
+
+            <p>
+              ${info.driver_action || "Drivers should carefully follow this sign."}
+            </p>
+
+          </div>
+
+          <div class="learn-section">
+
+            <h4>
+              🧠 Driving Test Tip
+            </h4>
+
+            <p>
+              ${info.exam_tip || "This sign may appear during Japanese driving exams."}
+            </p>
+
+          </div>
+
+          <div class="learn-section">
+
+            <h4>
+              ⚠️ Safety Reminder
+            </h4>
+
+            <p>
+              ${info.safety || "Ignoring this sign may create dangerous situations."}
+            </p>
+
+          </div>
+
+          <div class="learn-section">
+
+            <h4>
+              🌏 Real Driving Situation
+            </h4>
+
+            <p>
+              ${info.real_world || "This sign commonly appears on Japanese roads."}
+            </p>
+
+          </div>
+
+          <div class="learn-section">
+
+            <h4>
+              💡 Memory Tip
+            </h4>
+
+            <p>
+              ${info.memory_tip || "Try remembering the shape and color of the sign."}
+            </p>
+
+          </div>
+
+          <div class="learn-section">
+
+            <h4>
+              📝 Common Exam Question
+            </h4>
+
+            <div class="quiz-box">
+
+              <p class="quiz-question">
+                “What should the driver do when seeing this sign?”
+              </p>
+
+              <p class="quiz-answer">
+                The driver must correctly follow the rule,
+                instruction, or warning indicated by the sign.
+              </p>
+
+            </div>
+
+          </div>
+
+          <div class="learn-section">
+
+            <h4>
+              🔗 Related Topics
+            </h4>
+
+            <div class="related-signs">
+
+              <span class="related-badge">
+                Japanese Driving Test
+              </span>
+
+              <span class="related-badge">
+                Traffic Rules
+              </span>
+
+              <span class="related-badge">
+                Road Safety
+              </span>
+
+              <span class="related-badge">
+                Driving Awareness
+              </span>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      `;
+
+    }
+
+    /* ======================================================
+       RENDER
+    ====================================================== */
+
+    function renderSigns(){
+
+      const search =
+        searchInput.value.toLowerCase();
+
+      const filtered = fullSigns.filter(sign => {
+
+        const matchesCategory =
+
+          currentCategory === "All" ||
+
+          sign.category === currentCategory;
+
+        const matchesSearch =
+
+          sign.name_en.toLowerCase().includes(search) ||
+
+          sign.name_jp.includes(search) ||
+
+          sign.explanation.toLowerCase().includes(search);
+
+        return matchesCategory && matchesSearch;
+
+      });
+
+      signGrid.innerHTML = "";
+
+      if(filtered.length === 0){
+
+        emptyState.style.display = "block";
+
+      }else{
+
+        emptyState.style.display = "none";
+
+      }
+
+      filtered.forEach(sign => {
+
+        const card =
+          document.createElement("div");
+
+        card.className = "card";
+
+        card.innerHTML = `
+
+          <div class="card-top">
+
+            <img
+                src="${sign.image}"
+                alt="${sign.name_en}"
+                loading="lazy"
+                onerror="this.src='/static/images/signs/placeholder.png'"
+            />
+
+          </div>
+
+          <div class="card-body">
+
+            <div class="category">
+              ${sign.category}
+            </div>
+
+            <h3 class="sign-title">
+              ${sign.name_en}
+            </h3>
+
+            <div class="sign-jp">
+              ${sign.name_jp}
+            </div>
+
+            <p class="description">
+              ${sign.explanation}
+            </p>
+
+            <button class="expand-btn">
+              Learn More
+            </button>
+
+            <div class="extra">
+
+              ${generateEducationalContent(sign)}
+
+            </div>
+
+          </div>
+
+        `;
+
+        const expandBtn =
+          card.querySelector(".expand-btn");
+
+        const extra =
+          card.querySelector(".extra");
+
+        expandBtn.addEventListener("click", () => {
+
+          extra.classList.toggle("open");
+
+          expandBtn.innerText =
+
+            extra.classList.contains("open")
+
+            ? "Hide Details"
+
+            : "Learn More";
+
+        });
+
+        signGrid.appendChild(card);
+
+      });
+
+    }
+
+    /* ======================================================
+       SEARCH
+    ====================================================== */
+
+    searchInput.addEventListener(
+      "input",
+      renderSigns
+    );
+
+    /* ======================================================
+       FILTER TABS
+    ====================================================== */
+
+    tabs.forEach(tab => {
+
+      tab.addEventListener("click", () => {
+
+        tabs.forEach(t =>
+          t.classList.remove("active")
+        );
+
+        tab.classList.add("active");
+
+        currentCategory =
+          tab.dataset.category;
+
+        renderSigns();
+
+      });
+
+    });
+
+    /* ======================================================
+       DARK MODE
+    ====================================================== */
+
+    const themeToggle =
+      document.getElementById("themeToggle");
+
+    themeToggle.addEventListener("click", () => {
+
+      document.body.classList.toggle(
+        "light-mode"
+      );
+
+      if(
+        document.body.classList.contains(
+          "light-mode"
+        )
+      ){
+
+        themeToggle.innerHTML = "☀️";
+
+      }else{
+
+        themeToggle.innerHTML = "🌙";
+
+      }
+
+    });
+
+    /* ======================================================
+       SCROLL TO TOP
+    ====================================================== */
+
+    const scrollTopBtn =
+      document.getElementById("scrollTopBtn");
+
+    scrollTopBtn.addEventListener("click", () => {
+
+      window.scrollTo({
+        top:0,
+        behavior:"smooth"
+      });
+
+    });
+
+    /* ======================================================
+       INITIAL RENDER
+    ====================================================== */
+
+    renderSigns();
+
+  </script>
+
+</body>
+</html>

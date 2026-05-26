@@ -1285,6 +1285,33 @@ def customer_portal():
         raise e
 
 # =========================================================
+# 📚 REVIEWER HUB
+# =========================================================
+
+@tests.route('/reviewers')
+def reviewers():
+
+    # =====================================================
+    # 👤 LOGIN REQUIRED
+    # =====================================================
+
+    if 'user_id' not in session:
+
+        return redirect('/register')
+
+    # =====================================================
+    # ⭐ PREMIUM REQUIRED
+    # =====================================================
+
+    if not session.get('is_premium'):
+
+        return redirect('/upgrade')
+
+    return render_template(
+        'reviewer_hub.html'
+    )
+
+# =========================================================
 # 🚧 ROAD SIGNS REVIEWER
 # =========================================================
 
@@ -1341,83 +1368,3 @@ def road_signs_reviewer():
         )
 
     return render_template(template)
-
-# =========================================================
-# 📚 REVIEWER HUB
-# =========================================================
-
-@tests.route('/reviewers')
-def reviewers():
-
-    # =====================================================
-    # 👤 LOGIN REQUIRED
-    # =====================================================
-
-    if 'user_id' not in session:
-
-        return redirect('/register')
-
-    # =====================================================
-    # ⭐ PREMIUM REQUIRED
-    # =====================================================
-
-    if not session.get('is_premium'):
-
-        return redirect('/upgrade')
-
-    return render_template(
-        'reviewer_hub.html'
-    )
-
-# =========================================================
-# 🚧 ROAD SIGNS REVIEWER
-# =========================================================
-
-@tests.route('/road-signs-reviewer')
-def road_signs_reviewer():
-
-    # =============================================
-    # 👤 LOGIN REQUIRED
-    # =============================================
-
-    if 'user_id' not in session:
-
-        return redirect('/register')
-
-    # =============================================
-    # ⭐ PREMIUM REQUIRED
-    # =============================================
-
-    if not session.get('is_premium'):
-
-        return redirect('/upgrade')
-
-    language = session.get(
-        'lang',
-        'en'
-    )
-
-    allowed_languages = [
-
-        'en',
-        'tl',
-        'ne',
-        'vi',
-        'pt',
-        'id',
-        'ar'
-    ]
-
-    if language not in allowed_languages:
-
-        language = 'en'
-
-    template = (
-
-        f"reviewers/"
-        f"road_signs_reviewer_{language}.html"
-    )
-
-    return render_template(
-        template
-    )
