@@ -1312,6 +1312,64 @@ def reviewers():
     )
 
 # =========================================================
+# 📘 MASTER REVIEWER
+# =========================================================
+
+@tests.route('/master-reviewer/<int:reviewer_id>')
+def master_reviewer(reviewer_id):
+
+    # =============================================
+    # 👤 LOGIN REQUIRED
+    # =============================================
+
+    if 'user_id' not in session:
+
+        return redirect('/register')
+
+    # =============================================
+    # ⭐ PREMIUM REQUIRED
+    # =============================================
+
+    if not session.get('is_premium'):
+
+        return redirect('/upgrade')
+
+    language = session.get(
+        'lang',
+        'en'
+    )
+
+    # =============================================
+    # 🌐 TEMPLATE
+    # =============================================
+
+    template = (
+
+        f"reviewers/"
+        f"master_reviewer_{language}_{reviewer_id}.html"
+    )
+
+    template_path = os.path.join(
+
+        "templates",
+        template
+    )
+
+    # =============================================
+    # 🔄 FALLBACK TO ENGLISH
+    # =============================================
+
+    if not os.path.exists(template_path):
+
+        template = (
+
+            f"reviewers/"
+            f"master_reviewer_en_{reviewer_id}.html"
+        )
+
+    return render_template(template)
+
+# =========================================================
 # 🚧 ROAD SIGNS REVIEWER
 # =========================================================
 
