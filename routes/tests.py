@@ -1285,23 +1285,23 @@ def customer_portal():
         raise e
 
 # =========================================================
-# 📚 REVIEWER PAGE
+# 🚧 ROAD SIGNS REVIEWER
 # =========================================================
 
-@tests.route('/reviewer/<reviewer_id>')
-def reviewer(reviewer_id):
+@tests.route('/road-signs-reviewer')
+def road_signs_reviewer():
 
-    # =====================================================
+    # =============================================
     # 👤 LOGIN REQUIRED
-    # =====================================================
+    # =============================================
 
     if 'user_id' not in session:
 
         return redirect('/register')
 
-    # =====================================================
+    # =============================================
     # ⭐ PREMIUM REQUIRED
-    # =====================================================
+    # =============================================
 
     if not session.get('is_premium'):
 
@@ -1312,40 +1312,35 @@ def reviewer(reviewer_id):
         'en'
     )
 
-    allowed_languages = [
-
-        'en',
-        'tl',
-        'ne',
-        'vi',
-        'pt',
-        'id',
-        'ar'
-    ]
-
-    if language not in allowed_languages:
-
-        language = 'en'
-
-    allowed_reviewers = [
-
-        '1',
-        '2'
-    ]
-
-    if reviewer_id not in allowed_reviewers:
-
-        return redirect('/menu')
+    # =============================================
+    # 🌐 TEMPLATE PATH
+    # =============================================
 
     template = (
 
         f"reviewers/"
-        f"master_reviewer_{language}_{reviewer_id}.html"
+        f"road_signs_reviewer_{language}.html"
     )
 
-    return render_template(
+    template_path = os.path.join(
+
+        "templates",
         template
     )
+
+    # =============================================
+    # 🔄 FALLBACK TO ENGLISH
+    # =============================================
+
+    if not os.path.exists(template_path):
+
+        template = (
+
+            "reviewers/"
+            "road_signs_reviewer_en.html"
+        )
+
+    return render_template(template)
 
 # =========================================================
 # 📚 REVIEWER HUB
