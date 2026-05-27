@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en">
 <head>
 
   <!-- ======================================================
@@ -241,7 +241,7 @@
 
       width:100%;
 
-      padding:18px 20px 18px 58px;
+      padding:18px 20px 18px 54px;
 
       border-radius:22px;
 
@@ -264,16 +264,26 @@
       color:#111827;
     }
 
+    .search-input::placeholder{
+      color:rgba(255,255,255,0.82);
+    }
+
+    body.light-mode .search-input::placeholder{
+      color:#6b7280;
+    }
+
     .search-icon{
 
       position:absolute;
 
-      left:20px;
+      left:18px;
       top:50%;
 
       transform:translateY(-50%);
 
-      opacity:0.75;
+      opacity:0.78;
+
+      font-size:1.1rem;
     }
 
     /* ======================================================
@@ -302,6 +312,8 @@
       overflow-x:auto;
 
       scrollbar-width:none;
+
+      padding-bottom:6px;
     }
 
     .tabs::-webkit-scrollbar{
@@ -749,6 +761,17 @@
       transform:translateY(-4px);
     }
 
+    @media(max-width:768px){
+
+      .scroll-top{
+          width:54px;
+          height:54px;
+          right:14px;
+          bottom:14px;
+      }
+
+    }
+
     /* ======================================================
        ANIMATION
     ====================================================== */
@@ -774,7 +797,7 @@
     @media(max-width:768px){
 
       .hero{
-        padding:28px 20px;
+        padding:36px 28px;
       }
 
       .grid{
@@ -788,6 +811,15 @@
       .card-top img{
         width:95px;
         height:95px;
+      }
+
+      .hero-top{
+          flex-direction:column;
+          align-items:stretch;
+      }
+
+      .theme-btn{
+          align-self:flex-end;
       }
 
     }
