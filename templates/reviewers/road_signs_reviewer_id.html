@@ -1,0 +1,2912 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <!-- ======================================================
+       META
+  ====================================================== -->
+
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>
+        Japan Driving Test Master
+    </title>
+
+    <!-- ======================================================
+       GOOGLE FONT
+  ====================================================== -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- ======================================================
+       CSS
+  ====================================================== -->
+
+    <style>
+        /* ======================================================
+       RESET
+    ====================================================== */
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+
+            font-family: 'Inter', sans-serif;
+
+            background:
+                radial-gradient(circle at top left, #1d4ed8 0%, transparent 25%),
+                radial-gradient(circle at top right, #7c3aed 0%, transparent 25%),
+                linear-gradient(180deg, #071120 0%, #0d1728 100%);
+
+            color: #fff;
+
+            min-height: 100vh;
+
+            overflow-x: hidden;
+
+            transition: 0.35s ease;
+        }
+
+        body.light-mode {
+
+            background:
+                radial-gradient(circle at top left, #dbeafe 0%, transparent 25%),
+                radial-gradient(circle at top right, #ede9fe 0%, transparent 25%),
+                linear-gradient(180deg, #f8fbff 0%, #eef2ff 100%);
+
+            color: #111827;
+        }
+
+        img {
+            display: block;
+            max-width: 100%;
+        }
+
+        button {
+            border: none;
+            outline: none;
+            cursor: pointer;
+            font-family: inherit;
+        }
+
+        /* ======================================================
+       APP
+    ====================================================== */
+
+        .app {
+            width: 100%;
+            max-width: 1500px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        /* ======================================================
+       HERO
+    ====================================================== */
+
+        .hero {
+
+            position: relative;
+
+            overflow: hidden;
+
+            border-radius: 34px;
+
+            padding: 34px 26px;
+
+            margin-bottom: 24px;
+
+            background: rgba(255, 255, 255, 0.08);
+
+            backdrop-filter: blur(18px);
+
+            border: 1px solid rgba(255, 255, 255, 0.12);
+
+            box-shadow:
+                0 12px 40px rgba(0, 0, 0, 0.28),
+                inset 0 1px 1px rgba(255, 255, 255, 0.08);
+        }
+
+        body.light-mode .hero {
+            background: rgba(255, 255, 255, 0.78);
+        }
+
+        .hero-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .hero-title {
+
+            font-size:
+                clamp(2.2rem, 5vw, 4.6rem);
+
+            line-height: 1.05;
+
+            font-weight: 800;
+
+            margin-bottom: 14px;
+        }
+
+        .hero-description {
+
+            max-width: 760px;
+
+            line-height: 1.9;
+
+            opacity: 0.92;
+
+            font-size: 1rem;
+        }
+
+        /* ======================================================
+       THEME BUTTON
+    ====================================================== */
+
+        .theme-btn {
+
+            width: 58px;
+            height: 58px;
+
+            border-radius: 18px;
+
+            background: rgba(255, 255, 255, 0.1);
+
+            backdrop-filter: blur(12px);
+
+            border: 1px solid rgba(255, 255, 255, 0.12);
+
+            color: #fff;
+
+            font-size: 1.2rem;
+
+            transition: 0.3s ease;
+        }
+
+        body.light-mode .theme-btn {
+            background: #fff;
+            color: #111827;
+        }
+
+        .theme-btn:hover {
+            transform: translateY(-3px);
+        }
+
+        .back-btn {
+
+            padding: 14px 20px;
+
+            border-radius: 18px;
+
+            background: rgba(255, 255, 255, 0.1);
+
+            backdrop-filter: blur(12px);
+
+            border: 1px solid rgba(255, 255, 255, 0.12);
+
+            color: #fff;
+
+            font-weight: 700;
+
+            transition: 0.3s ease;
+        }
+
+        .back-btn:hover {
+            transform: translateY(-3px);
+        }
+
+        body.light-mode .back-btn {
+            background: #fff;
+            color: #111827;
+        }
+
+        /* ======================================================
+       SEARCH
+    ====================================================== */
+
+        .search-wrapper {
+            position: relative;
+            margin-top: 28px;
+        }
+
+        .search-input {
+
+            width: 100%;
+
+            padding: 18px 20px 18px 58px;
+
+            border-radius: 22px;
+
+            border: none;
+            outline: none;
+
+            background: rgba(255, 255, 255, 0.08);
+
+            backdrop-filter: blur(12px);
+
+            border: 1px solid rgba(255, 255, 255, 0.12);
+
+            color: #fff;
+
+            font-size: 1rem;
+        }
+
+        body.light-mode .search-input {
+            background: #fff;
+            color: #111827;
+        }
+
+        .search-icon {
+
+            position: absolute;
+
+            left: 20px;
+            top: 50%;
+
+            transform: translateY(-50%);
+
+            opacity: 0.75;
+        }
+
+        /* ======================================================
+       CATEGORY NAVIGATION
+    ====================================================== */
+
+        .sticky-nav {
+
+            position: sticky;
+
+            top: 0;
+
+            z-index: 100;
+
+            padding: 14px 0;
+
+            backdrop-filter: blur(18px);
+        }
+
+        .tabs {
+
+            display: flex;
+
+            gap: 12px;
+
+            overflow-x: auto;
+
+            scrollbar-width: none;
+        }
+
+        .tabs::-webkit-scrollbar {
+            display: none;
+        }
+
+        .tab {
+
+            white-space: nowrap;
+
+            padding: 12px 20px;
+
+            border-radius: 999px;
+
+            background: rgba(255, 255, 255, 0.08);
+
+            border: 1px solid rgba(255, 255, 255, 0.12);
+
+            color: #fff;
+
+            font-weight: 700;
+
+            transition: 0.3s ease;
+        }
+
+        body.light-mode .tab {
+            background: #fff;
+            color: #111827;
+        }
+
+        .tab.active {
+
+            background:
+                linear-gradient(135deg,
+                    #2563eb,
+                    #7c3aed);
+
+            border: none;
+        }
+
+        /* ======================================================
+       GRID
+    ====================================================== */
+
+        .grid {
+
+            display: grid;
+
+            grid-template-columns:
+                repeat(auto-fit, minmax(270px, 1fr));
+
+            gap: 22px;
+
+            margin-top: 24px;
+        }
+
+        /* ======================================================
+       CARD
+    ====================================================== */
+
+        .card {
+
+            position: relative;
+
+            overflow: hidden;
+
+            border-radius: 30px;
+
+            background: rgba(255, 255, 255, 0.08);
+
+            backdrop-filter: blur(18px);
+
+            border: 1px solid rgba(255, 255, 255, 0.12);
+
+            box-shadow:
+                0 12px 35px rgba(0, 0, 0, 0.22);
+
+            transition: 0.35s ease;
+
+            animation: fadeIn 0.35s ease;
+        }
+
+        body.light-mode .card {
+            background: rgba(255, 255, 255, 0.78);
+        }
+
+        .card:hover {
+
+            transform: translateY(-6px);
+
+            box-shadow:
+                0 25px 45px rgba(0, 0, 0, 0.25);
+        }
+
+        .card,
+        .expand-btn,
+        .theme-btn {
+            will-change: transform;
+        }
+
+        /* ======================================================
+       CARD TOP
+    ====================================================== */
+
+        .card-top {
+
+            min-height: 190px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            padding: 24px;
+
+            background:
+                linear-gradient(135deg,
+                    rgba(255, 255, 255, 0.08),
+                    rgba(255, 255, 255, 0.03));
+        }
+
+        .card-top img {
+
+            width: 115px;
+            height: 115px;
+
+            object-fit: contain;
+
+            transition: 0.3s ease;
+        }
+
+        .card:hover img {
+            transform: scale(1.06);
+        }
+
+        /* ======================================================
+       CARD BODY
+    ====================================================== */
+
+        .card-body {
+            padding: 22px;
+        }
+
+        .category {
+
+            display: inline-flex;
+
+            align-items: center;
+
+            padding: 8px 13px;
+
+            border-radius: 999px;
+
+            background: rgba(59, 130, 246, 0.2);
+
+            color: #93c5fd;
+
+            font-size: 0.76rem;
+
+            font-weight: 700;
+
+            margin-bottom: 14px;
+        }
+
+        body.light-mode .category {
+            background: #dbeafe;
+            color: #1d4ed8;
+        }
+
+        .sign-title {
+            font-size: 1.1rem;
+            font-weight: 800;
+            margin-bottom: 6px;
+        }
+
+        .sign-jp {
+            opacity: 0.75;
+            margin-bottom: 14px;
+        }
+
+        .description {
+            line-height: 1.7;
+            opacity: 0.92;
+            font-size: 0.95rem;
+        }
+
+        /* ======================================================
+       EXPAND BUTTON
+    ====================================================== */
+
+        .expand-btn {
+
+            width: 100%;
+
+            margin-top: 18px;
+
+            padding: 13px;
+
+            border-radius: 18px;
+
+            background:
+                linear-gradient(135deg,
+                    #2563eb,
+                    #7c3aed);
+
+            color: #fff;
+
+            font-weight: 700;
+
+            transition: 0.3s ease;
+        }
+
+        .expand-btn:hover {
+            transform: translateY(-2px);
+        }
+
+        /* ======================================================
+       LEARN MORE
+    ====================================================== */
+
+        .extra {
+
+            max-height: 0;
+
+            overflow: hidden;
+
+            transition: max-height 0.45s ease;
+        }
+
+        .extra.open {
+            max-height: 1600px;
+        }
+
+        .learn-box {
+
+            margin-top: 18px;
+
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+
+        .learn-section {
+
+            padding: 15px;
+
+            border-radius: 20px;
+
+            background: rgba(255, 255, 255, 0.06);
+
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        body.light-mode .learn-section {
+            background: rgba(255, 255, 255, 0.85);
+        }
+
+        .learn-section h4 {
+
+            margin-bottom: 8px;
+
+            font-size: 0.92rem;
+
+            font-weight: 700;
+        }
+
+        .learn-section p {
+
+            line-height: 1.75;
+
+            font-size: 0.92rem;
+
+            opacity: 0.9;
+        }
+
+        /* ======================================================
+       LISTS
+    ====================================================== */
+
+        .learn-list {
+
+            margin-top: 12px;
+
+            padding-left: 18px;
+
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .learn-list li {
+
+            line-height: 1.7;
+
+            font-size: 0.9rem;
+
+            opacity: 0.9;
+        }
+
+        /* ======================================================
+       QUIZ BOX
+    ====================================================== */
+
+        .quiz-box {
+
+            margin-top: 12px;
+
+            padding: 14px;
+
+            border-radius: 18px;
+
+            background:
+                linear-gradient(135deg,
+                    rgba(37, 99, 235, 0.18),
+                    rgba(124, 58, 237, 0.18));
+
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        .quiz-question {
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .quiz-answer {
+            opacity: 0.9;
+            line-height: 1.7;
+        }
+
+        /* ======================================================
+       MEMORY TIP
+    ====================================================== */
+
+        .memory-tip {
+
+            margin-top: 12px;
+
+            padding: 14px;
+
+            border-radius: 16px;
+
+            background: rgba(255, 255, 255, 0.08);
+
+            text-align: center;
+
+            font-size: 0.95rem;
+        }
+
+        /* ======================================================
+       RELATED BADGES
+    ====================================================== */
+
+        .related-signs {
+
+            display: flex;
+
+            flex-wrap: wrap;
+
+            gap: 10px;
+
+            margin-top: 12px;
+        }
+
+        .related-badge {
+
+            padding: 10px 14px;
+
+            border-radius: 999px;
+
+            background: rgba(255, 255, 255, 0.08);
+
+            border: 1px solid rgba(255, 255, 255, 0.08);
+
+            font-size: 0.82rem;
+
+            font-weight: 600;
+        }
+
+        body.light-mode .related-badge {
+            background: #f3f4f6;
+        }
+
+        /* ======================================================
+       EMPTY
+    ====================================================== */
+
+        .empty {
+
+            display: none;
+
+            text-align: center;
+
+            padding: 80px 20px;
+
+            opacity: 0.7;
+        }
+
+        /* ======================================================
+       FAB
+    ====================================================== */
+
+        .scroll-top {
+
+            position: fixed;
+
+            right: 20px;
+            bottom: 20px;
+
+            width: 62px;
+            height: 62px;
+
+            border-radius: 50%;
+
+            background:
+                linear-gradient(135deg,
+                    #2563eb,
+                    #7c3aed);
+
+            color: #fff;
+
+            font-size: 1.3rem;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            box-shadow:
+                0 15px 35px rgba(37, 99, 235, 0.4);
+
+            z-index: 999;
+
+            transition: 0.3s ease;
+        }
+
+        .scroll-top:hover {
+            transform: translateY(-4px);
+        }
+
+        /* ======================================================
+       ANIMATION
+    ====================================================== */
+
+        @keyframes fadeIn {
+
+            from {
+                opacity: 0;
+                transform: translateY(12px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+
+        }
+
+        /* ======================================================
+       MOBILE
+    ====================================================== */
+
+        @media(max-width:768px) {
+
+            .hero {
+                padding: 28px 20px;
+            }
+
+            .grid {
+                grid-template-columns: 1fr;
+            }
+
+            .card-top {
+                min-height: 160px;
+            }
+
+            .card-top img {
+                width: 95px;
+                height: 95px;
+            }
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="app">
+
+        <!-- ======================================================
+          HERO 
+          ====================================================== -->
+          
+        <section class="hero">
+
+            <div class="hero-top">
+                <button class="back-btn" onclick="window.location.href='/reviewers'">
+                    ← Kembali
+                </button>
+
+                <div>
+
+                    <h1 class="hero-title">
+                        🇯🇵 Reviewer Rambu Lalu Lintas Jepang
+                    </h1>
+
+                    <p class="hero-description">
+                        Pelajari rambu lalu lintas Jepang dengan sistem review interaktif bergaya flashcard premium.
+                        Sangat cocok untuk pelajar yang sedang mempersiapkan ujian mengemudi Jepang.
+                    </p>
+
+                </div>
+
+                <button class="theme-btn" id="themeToggle">
+                    🌙
+                </button>
+
+            </div>
+
+            <!-- SEARCH -->
+
+            <div class="search-wrapper">
+
+                <span class="search-icon">
+                    🔍
+                </span>
+
+                <input type="text" class="search-input" id="searchInput" placeholder="Cari rambu lalu lintas Jepang...">
+
+            </div>
+
+        </section>
+
+        <!-- ======================================================
+     CATEGORY NAVIGATION
+====================================================== -->
+
+        <div class="sticky-nav">
+
+            <div class="tabs">
+
+                <button class="tab active" data-category="All">
+                    Semua
+                </button>
+
+                <button class="tab" data-category="Regulatory Signs">
+                    Peraturan
+                </button>
+
+                <button class="tab" data-category="Warning Signs">
+                    Peringatan
+                </button>
+
+                <button class="tab" data-category="Mandatory Signs">
+                    Wajib
+                </button>
+
+                <button class="tab" data-category="Prohibition Signs">
+                    Larangan
+                </button>
+
+                <button class="tab" data-category="Parking & Stopping Signs">
+                    Parkir
+                </button>
+
+                <button class="tab" data-category="Guide Signs">
+                    Petunjuk
+                </button>
+
+                <button class="tab" data-category="Expressway Signs">
+                    Jalan Tol
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- ======================================================
+     GRID
+====================================================== -->
+
+        <div class="grid" id="signGrid"></div>
+
+        <!-- EMPTY -->
+
+        <div class="empty" id="emptyState">
+            <h2>
+                Tidak ada rambu lalu lintas ditemukan.
+            </h2>
+        </div>
+    </div> 
+    
+    <!-- ======================================================
+      FLOATING BUTTON 
+      ====================================================== -->
+
+    <button
+        class="scroll-top"
+        id="scrollTopBtn"
+    >
+        ↑
+    </button>
+
+<!-- ======================================================
+     JAVASCRIPT
+====================================================== -->
+        <script>
+            
+            /* ====================================================== 
+            ROAD SIGN DATASET 
+            
+            ====================================================== */
+            const roadSigns = [{
+                        name_en: "Berhenti",
+                        name_jp: "止まれ",
+                        image: "/static/images/signs/stop.png",
+                        explanation: "Pengemudi harus berhenti sepenuhnya sebelum melanjutkan.",
+                        category: "Regulatory Signs",
+                        learn_more: {
+                            meaning: "Rambu ini mengharuskan pengemudi berhenti sepenuhnya sebelum memasuki persimpangan.",
+                            driver_action: "Pengemudi harus berhenti sepenuhnya di belakang garis berhenti dan memeriksa kedua arah dengan hati-hati sebelum bergerak.",
+                            exam_tip: "Berhenti tidak sepenuhnya biasanya menyebabkan pengurangan poin besar dalam ujian mengemudi Jepang.",
+                            safety: "Gagal berhenti dengan benar dapat menyebabkan tabrakan dengan kendaraan, sepeda, atau pejalan kaki.",
+                            real_world: "Umumnya ditemukan di jalan perumahan, persimpangan, dan perlintasan kereta api.",
+                            memory_tip: "Segitiga merah terbalik berarti perhatian segera dan berhenti."
+                        }
+                    }, {
+                        name_en: "Dilarang Masuk",
+                        name_jp: "進入禁止",
+                        image: "/static/images/signs/no_entry.png",
+                        explanation: "Kendaraan dilarang masuk dari arah ini.",
+                        category: "Prohibition Signs",
+                        learn_more: {
+                            meaning: "Kendaraan tidak boleh masuk dari arah ini.",
+                            driver_action: "Pengemudi harus segera menghindari memasuki jalan ini.",
+                            exam_tip: "Sering muncul dalam ujian teori mengemudi Jepang.",
+                            safety: "Mengabaikan rambu ini dapat menyebabkan tabrakan frontal.",
+                            real_world: "Biasanya ditemukan di jalan satu arah dan pintu keluar jalan tol.",
+                            memory_tip: "Lingkaran merah dengan bagian tengah putih melambangkan akses tertutup."
+                        }
+                    },
+                      {
+    name_en:"Batas Kecepatan 40",
+    name_jp:"最高速度40",
+    image:"/static/images/signs/speed_40.png",
+    explanation:"Kecepatan maksimum yang diizinkan adalah 40 km/jam.",
+    category:"Regulatory Signs",
+
+    learn_more:{
+
+      meaning:
+      "Pengemudi tidak boleh melebihi 40 kilometer per jam.",
+
+      driver_action:
+      "Pertahankan kecepatan di bawah batas yang ditentukan.",
+
+      exam_tip:
+      "Rambu batas kecepatan sangat umum muncul dalam ujian teori.",
+
+      safety:
+      "Ngebut meningkatkan jarak pengereman dan risiko kecelakaan.",
+
+      real_world:
+      "Sering ditemukan di jalan perkotaan dan area perumahan.",
+
+      memory_tip:
+      "Lingkaran putih dengan tepi merah biasanya menunjukkan peraturan."
+    }
+  },
+
+  {
+    name_en:"Dilarang Parkir",
+    name_jp:"駐車禁止",
+    image:"/static/images/signs/no_parking.png",
+    explanation:"Parkir dilarang di area ini.",
+    category:"Parking & Stopping Signs",
+
+    learn_more:{
+
+      meaning:
+      "Kendaraan tidak boleh parkir di area ini.",
+
+      driver_action:
+      "Pengemudi boleh berhenti sebentar tetapi tidak boleh meninggalkan kendaraan dalam keadaan parkir.",
+
+      exam_tip:
+      "Soal ujian dapat menanyakan perbedaan antara dilarang parkir dan dilarang berhenti.",
+
+      safety:
+      "Parkir ilegal dapat menghalangi lalu lintas dan kendaraan darurat.",
+
+      real_world:
+      "Sangat umum di jalan sempit Jepang.",
+
+      memory_tip:
+      "Satu garis merah berarti larangan parkir."
+    }
+  },
+
+  {
+    name_en:"Dilarang Berhenti",
+    name_jp:"駐停車禁止",
+    image:"/static/images/signs/no_stopping.png",
+    explanation:"Berhenti dan parkir dilarang.",
+    category:"Parking & Stopping Signs",
+
+    learn_more:{
+
+      meaning:
+      "Kendaraan tidak boleh berhenti atau parkir di sini.",
+
+      driver_action:
+      "Pengemudi harus terus bergerak kecuali dalam keadaan darurat.",
+
+      exam_tip:
+      "Rambu ini memiliki aturan yang lebih ketat dibandingkan dilarang parkir.",
+
+      safety:
+      "Berhenti di sini dapat menyebabkan hambatan lalu lintas yang berbahaya.",
+
+      real_world:
+      "Biasanya ditemukan dekat persimpangan dan jalan sibuk.",
+
+      memory_tip:
+      "Dua garis merah berarti larangan yang lebih kuat."
+    }
+  },
+  
+  /* ======================================================
+   ADDITIONAL PREMIUM JAPANESE ROAD SIGNS
+   CONTINUE ADDING INSIDE roadSigns ARRAY
+====================================================== */
+
+{
+  name_en:"Penyeberangan Pejalan Kaki di Depan",
+  name_jp:"横断歩道あり",
+  image:"/static/images/signs/pedestrian_crossing_ahead.png",
+  explanation:"Ada penyeberangan pejalan kaki di depan.",
+  category:"Warning Signs",
+
+  learn_more:{
+
+    meaning:
+    "Rambu ini memperingatkan pengemudi bahwa ada penyeberangan pejalan kaki di depan.",
+
+    driver_action:
+    "Pengemudi harus mengurangi kecepatan dan bersiap berhenti untuk pejalan kaki.",
+
+    exam_tip:
+    "Ujian Jepang sering menguji aturan prioritas untuk pejalan kaki.",
+
+    safety:
+    "Tidak berhenti untuk pejalan kaki dapat menyebabkan kecelakaan serius.",
+
+    real_world:
+    "Sangat umum ditemukan dekat sekolah, stasiun, dan persimpangan.",
+
+    memory_tip:
+    "Rambu biru dengan simbol berjalan biasanya berhubungan dengan pejalan kaki."
+  }
+},
+
+{
+  name_en:"Zona Sekolah",
+  name_jp:"学校あり",
+  image:"/static/images/signs/school_zone.png",
+  explanation:"Area sekolah di depan.",
+  category:"Warning Signs",
+
+  learn_more:{
+
+    meaning:
+    "Anak-anak dapat tiba-tiba menyeberang atau muncul di dekat jalan.",
+
+    driver_action:
+    "Pengemudi harus memperlambat kendaraan dan tetap waspada.",
+
+    exam_tip:
+    "Perhatikan soal tersembunyi tentang pejalan kaki yang melibatkan anak-anak.",
+
+    safety:
+    "Anak-anak tidak dapat diprediksi dan dapat menyeberang secara tiba-tiba.",
+
+    real_world:
+    "Umum ditemukan dekat sekolah dasar dan area perumahan.",
+
+    memory_tip:
+    "Gambar anak-anak pada rambu kuning menunjukkan kewaspadaan di sekitar sekolah."
+  }
+},
+
+{
+  name_en:"Perlintasan Kereta Api",
+  name_jp:"踏切あり",
+  image:"/static/images/signs/railroad_crossing.png",
+  explanation:"Perlintasan kereta api di depan.",
+  category:"Warning Signs",
+
+  learn_more:{
+
+    meaning:
+    "Perlintasan kereta api berada di depan.",
+
+    driver_action:
+    "Pengemudi harus memperlambat kendaraan dan memeriksa kereta dengan hati-hati.",
+
+    exam_tip:
+    "Ujian praktik Jepang sangat menilai perilaku di perlintasan kereta api.",
+
+    safety:
+    "Mengabaikan aturan perlintasan kereta api dapat menyebabkan kecelakaan fatal.",
+
+    real_world:
+    "Sangat umum di daerah pinggiran kota dan pedesaan Jepang.",
+
+    memory_tip:
+    "Rambu peringatan kuning dengan simbol kereta menunjukkan perlintasan kereta api."
+  }
+},
+{
+  name_en:"Lampu Lalu Lintas di Depan",
+  name_jp:"信号機あり",
+  image:"/static/images/signs/traffic_signals.png",
+  explanation:"Ada lampu lalu lintas di depan.",
+  category:"Warning Signs",
+
+  learn_more:{
+
+    meaning:
+    "Pengemudi sedang mendekati persimpangan yang dikendalikan lampu lalu lintas.",
+
+    driver_action:
+    "Bersiap untuk berhenti tergantung pada perubahan sinyal lalu lintas.",
+
+    exam_tip:
+    "Soal ujian dapat melibatkan penilaian waktu lampu kuning yang tepat.",
+
+    safety:
+    "Reaksi terlambat terhadap sinyal dapat menyebabkan tabrakan.",
+
+    real_world:
+    "Ditemukan sebelum persimpangan dan perempatan yang sibuk.",
+
+    memory_tip:
+    "Ikon sinyal menunjukkan lampu lalu lintas di depan."
+  }
+},
+
+{
+  name_en:"Jalan Menyempit",
+  name_jp:"幅員減少",
+  image:"/static/images/signs/road_narrows.png",
+  explanation:"Jalan menjadi lebih sempit di depan.",
+  category:"Warning Signs",
+
+  learn_more:{
+
+    meaning:
+    "Lebar jalan berkurang di depan.",
+
+    driver_action:
+    "Kurangi kecepatan dan bersiap untuk kondisi lalu lintas yang lebih sempit.",
+
+    exam_tip:
+    "Pengemudi harus menjaga jarak samping yang aman.",
+
+    safety:
+    "Jalan sempit meningkatkan risiko tabrakan.",
+
+    real_world:
+    "Umum ditemukan di jalan perumahan Jepang yang lebih tua.",
+
+    memory_tip:
+    "Garis yang menyempit menunjukkan jalan yang mengecil."
+  }
+},
+
+{
+  name_en:"Jalan Licin",
+  name_jp:"すべりやすい",
+  image:"/static/images/signs/slippery_road.png",
+  explanation:"Jalan mungkin licin.",
+  category:"Warning Signs",
+
+  learn_more:{
+
+    meaning:
+    "Kondisi jalan dapat mengurangi daya cengkeram ban.",
+
+    driver_action:
+    "Pengemudi harus mengurangi kecepatan dan menghindari gerakan setir mendadak.",
+
+    exam_tip:
+    "Soal tentang jarak pengereman yang aman sangat umum.",
+
+    safety:
+    "Jalan licin meningkatkan risiko tergelincir.",
+
+    real_world:
+    "Sering terlihat saat hujan atau salju.",
+
+    memory_tip:
+    "Simbol kendaraan tergelincir menunjukkan permukaan jalan yang licin."
+  }
+},
+
+{
+  name_en:"Bahaya Batu Jatuh",
+  name_jp:"落石のおそれあり",
+  image:"/static/images/signs/falling_rocks.png",
+  explanation:"Waspadai batu jatuh.",
+  category:"Warning Signs",
+
+  learn_more:{
+
+    meaning:
+    "Batu dapat jatuh dari tebing atau gunung di dekatnya.",
+
+    driver_action:
+    "Pengemudi harus melewati area ini dengan hati-hati dan menghindari berhenti di dekatnya.",
+
+    exam_tip:
+    "Bahaya jalan pegunungan dapat muncul dalam ujian teori.",
+
+    safety:
+    "Batu jatuh dapat menyebabkan kerusakan serius pada kendaraan.",
+
+    real_world:
+    "Umum ditemukan di daerah pegunungan Jepang.",
+
+    memory_tip:
+    "Simbol batu jatuh menunjukkan bahaya longsoran batu."
+  }
+},
+
+{
+  name_en:"Penyeberangan Hewan",
+  name_jp:"動物注意",
+  image:"/static/images/signs/animal_crossing.png",
+  explanation:"Hewan dapat menyeberang di depan.",
+  category:"Warning Signs",
+
+  learn_more:{
+
+    meaning:
+    "Hewan liar dapat tiba-tiba menyeberang jalan.",
+
+    driver_action:
+    "Kurangi kecepatan dan perhatikan sisi jalan dengan hati-hati.",
+
+    exam_tip:
+    "Soal kesadaran bahaya dapat melibatkan hewan.",
+
+    safety:
+    "Tabrakan dengan hewan dapat menyebabkan kecelakaan serius.",
+
+    real_world:
+    "Terlihat di hutan dan jalan pegunungan.",
+
+    memory_tip:
+    "Siluet hewan menunjukkan kewaspadaan terhadap satwa liar."
+  }
+},
+
+{
+  name_en:"Putar Balik Dilarang",
+  name_jp:"転回禁止",
+  image:"/static/images/signs/no_uturn.png",
+  explanation:"Putar balik dilarang.",
+  category:"Prohibition Signs",
+
+  learn_more:{
+
+    meaning:
+    "Kendaraan tidak boleh melakukan putar balik di sini.",
+
+    driver_action:
+    "Lanjutkan lurus dan cari tempat putar balik yang legal.",
+
+    exam_tip:
+    "Soal tentang larangan putar balik sering muncul.",
+
+    safety:
+    "Putar balik ilegal dapat mengganggu arus lalu lintas.",
+
+    real_world:
+    "Umum ditemukan di jalan perkotaan yang sibuk.",
+
+    memory_tip:
+    "Lingkaran merah dengan panah dicoret menunjukkan tindakan yang dilarang."
+  }
+},
+
+{
+  name_en:"Dilarang Menyalip",
+  name_jp:"追い越し禁止",
+  image:"/static/images/signs/no_overtaking.png",
+  explanation:"Menyalip kendaraan lain dilarang.",
+  category:"Prohibition Signs",
+
+  learn_more:{
+
+    meaning:
+    "Pengemudi tidak boleh menyalip kendaraan di depan.",
+
+    driver_action:
+    "Tetap berada di belakang kendaraan yang lebih lambat sampai larangan berakhir.",
+
+    exam_tip:
+    "Soal ujian dapat melibatkan aturan garis tengah jalan.",
+
+    safety:
+    "Menyalip yang tidak aman dapat menyebabkan tabrakan frontal.",
+
+    real_world:
+    "Umum ditemukan di tikungan dan jalan sempit.",
+
+    memory_tip:
+    "Simbol dua mobil biasanya berhubungan dengan larangan menyalip."
+  }
+},
+{
+  name_en:"Jalan Satu Arah",
+  name_jp:"一方通行",
+  image:"/static/images/signs/one_way.png",
+  explanation:"Lalu lintas hanya bergerak ke satu arah.",
+  category:"Regulatory Signs",
+
+  learn_more:{
+
+    meaning:
+    "Kendaraan hanya boleh bergerak sesuai arah yang ditunjukkan.",
+
+    driver_action:
+    "Ikuti arah yang diizinkan dengan hati-hati.",
+
+    exam_tip:
+    "Soal tentang jalan satu arah sering muncul dalam ujian.",
+
+    safety:
+    "Mengemudi melawan arah sangat berbahaya.",
+
+    real_world:
+    "Sangat umum di jalan perkotaan Jepang.",
+
+    memory_tip:
+    "Panah arah menunjukkan arah perjalanan yang diizinkan."
+  }
+},
+
+{
+  name_en:"Jalan Tol",
+  name_jp:"高速道路",
+  image:"/static/images/signs/expressway.png",
+  explanation:"Jalan tol dimulai di depan.",
+  category:"Expressway Signs",
+
+  learn_more:{
+
+    meaning:
+    "Pengemudi akan memasuki jalan tol.",
+
+    driver_action:
+    "Percepat kendaraan dengan aman dan masuk ke jalur dengan benar.",
+
+    exam_tip:
+    "Aturan masuk jalan tol penting dalam ujian mengemudi.",
+
+    safety:
+    "Masuk jalur dengan tidak benar dapat menyebabkan kecelakaan berkecepatan tinggi.",
+
+    real_world:
+    "Ditemukan di pintu masuk jalan tol.",
+
+    memory_tip:
+    "Rambu hijau biasanya berhubungan dengan jalan tol."
+  }
+},
+
+{
+  name_en:"Keluar Jalan Tol",
+  name_jp:"出口",
+  image:"/static/images/signs/expressway_exit.png",
+  explanation:"Ada pintu keluar jalan tol di depan.",
+  category:"Expressway Signs",
+
+  learn_more:{
+
+    meaning:
+    "Pengemudi sedang mendekati pintu keluar jalan tol.",
+
+    driver_action:
+    "Masuk ke jalur keluar yang benar secepat mungkin.",
+
+    exam_tip:
+    "Menjaga posisi jalur yang benar penting dalam ujian praktik.",
+
+    safety:
+    "Berpindah jalur terlambat dapat berbahaya.",
+
+    real_world:
+    "Ditemukan di seluruh jalan tol Jepang.",
+
+    memory_tip:
+    "Panah keluar menunjukkan pintu keluar jalan tol."
+  }
+},
+
+{
+  name_en:"Area Parkir",
+  name_jp:"駐車場",
+  image:"/static/images/signs/parking_area.png",
+  explanation:"Ada area parkir di dekat sini.",
+  category:"Guide Signs",
+
+  learn_more:{
+
+    meaning:
+    "Tempat parkir tersedia di dekat lokasi ini.",
+
+    driver_action:
+    "Pengemudi hanya boleh parkir di area yang ditentukan.",
+
+    exam_tip:
+    "Aturan parkir penting dalam ujian praktik mengemudi.",
+
+    safety:
+    "Parkir sembarangan dapat menghalangi jalan dan akses darurat.",
+
+    real_world:
+    "Umum ditemukan dekat area perbelanjaan dan stasiun.",
+
+    memory_tip:
+    "Rambu biru dengan huruf P menunjukkan area parkir."
+  }
+},
+
+/* ======================================================
+   ADDITIONAL UNIQUE JAPANESE ROAD SIGNS
+   NO DUPLICATES
+   ADD BELOW YOUR EXISTING roadSigns ARRAY
+====================================================== */
+
+{
+  name_en:"Tetap di Kiri",
+  name_jp:"左側通行",
+  image:"/static/images/signs/keep_left.png",
+  explanation:"Pengemudi harus tetap berada di sisi kiri jalan.",
+  category:"Mandatory Signs",
+
+  learn_more:{
+
+    meaning:
+    "Kendaraan harus melaju di sisi kiri jalan.",
+
+    driver_action:
+    "Pengemudi harus tetap di kiri dan menghindari masuk ke jalur berlawanan.",
+
+    exam_tip:
+    "Jepang menggunakan jalur kiri dan hal ini sering ditanyakan dalam ujian.",
+
+    safety:
+    "Mengemudi di jalur yang salah dapat menyebabkan tabrakan frontal.",
+
+    real_world:
+    "Umum ditemukan dekat pembatas jalan dan jalan sempit.",
+
+    memory_tip:
+    "Rambu lingkaran biru biasanya menunjukkan tindakan wajib."
+  }
+},
+
+{
+  name_en:"Tetap di Kanan",
+  name_jp:"右側通行",
+  image:"/static/images/signs/keep_right.png",
+  explanation:"Pengemudi harus tetap berada di sisi kanan jalan.",
+  category:"Mandatory Signs",
+
+  learn_more:{
+
+    meaning:
+    "Pengemudi harus melewati sisi kanan penghalang atau mengikuti arah kanan.",
+
+    driver_action:
+    "Lewati sisi kanan dengan hati-hati sesuai petunjuk.",
+
+    exam_tip:
+    "Sering muncul dalam soal tentang pengendalian jalur.",
+
+    safety:
+    "Mengabaikan rambu arah dapat mengganggu arus lalu lintas.",
+
+    real_world:
+    "Terlihat dekat area konstruksi dan pembatas jalan.",
+
+    memory_tip:
+    "Panah arah menunjukkan arah berkendara yang wajib diikuti."
+  }
+},
+{
+  name_en:"Lurus Saja",
+  name_jp:"直進のみ",
+  image:"/static/images/signs/straight_only.png",
+  explanation:"Kendaraan harus berjalan lurus.",
+  category:"Mandatory Signs",
+
+  learn_more:{
+
+    meaning:
+    "Belok tidak diperbolehkan dan pengemudi harus terus berjalan lurus.",
+
+    driver_action:
+    "Tetap di jalur saat ini dan lanjutkan hanya lurus.",
+
+    exam_tip:
+    "Soal tentang pembatasan arah sangat umum dalam ujian.",
+
+    safety:
+    "Belokan mendadak dapat menyebabkan tabrakan dengan lalu lintas di sekitar.",
+
+    real_world:
+    "Umum ditemukan di persimpangan sibuk.",
+
+    memory_tip:
+    "Panah yang mengarah ke atas menunjukkan hanya boleh lurus."
+  }
+},
+
+{
+  name_en:"Khusus Pejalan Kaki",
+  name_jp:"歩行者専用",
+  image:"/static/images/signs/pedestrian_only.png",
+  explanation:"Jalan ini hanya untuk pejalan kaki.",
+  category:"Mandatory Signs",
+
+  learn_more:{
+
+    meaning:
+    "Hanya pejalan kaki yang diizinkan memasuki area ini.",
+
+    driver_action:
+    "Pengemudi harus menghindari memasuki zona khusus pejalan kaki.",
+
+    exam_tip:
+    "Perhatikan aturan keselamatan pejalan kaki.",
+
+    safety:
+    "Kendaraan yang masuk dapat membahayakan pejalan kaki.",
+
+    real_world:
+    "Umum ditemukan dekat jalan pertokoan dan stasiun.",
+
+    memory_tip:
+    "Simbol orang berjalan menunjukkan area pejalan kaki."
+  }
+},
+
+{
+  name_en:"Jalur Sepeda",
+  name_jp:"自転車専用",
+  image:"/static/images/signs/bicycle_lane.png",
+  explanation:"Jalur ini khusus untuk sepeda.",
+  category:"Mandatory Signs",
+
+  learn_more:{
+
+    meaning:
+    "Jalur ini diperuntukkan khusus bagi sepeda.",
+
+    driver_action:
+    "Pengemudi tidak boleh memasuki atau menghalangi jalur sepeda.",
+
+    exam_tip:
+    "Soal dapat melibatkan keselamatan jalur sepeda.",
+
+    safety:
+    "Menghalangi jalur sepeda membahayakan pengendara sepeda.",
+
+    real_world:
+    "Umum ditemukan di jalan perkotaan dan dekat sekolah.",
+
+    memory_tip:
+    "Simbol sepeda menunjukkan prioritas untuk pengendara sepeda."
+  }
+},
+
+{
+  name_en:"Jalur Bersama",
+  name_jp:"歩行者自転車専用",
+  image:"/static/images/signs/shared_path.png",
+  explanation:"Jalur bersama untuk sepeda dan pejalan kaki.",
+  category:"Mandatory Signs",
+
+  learn_more:{
+
+    meaning:
+    "Pejalan kaki dan pengendara sepeda berbagi jalur ini.",
+
+    driver_action:
+    "Kendaraan harus menghindari memasuki area ini.",
+
+    exam_tip:
+    "Perhatikan rambu jalur bersama dalam ujian teori.",
+
+    safety:
+    "Pengemudi harus berhati-hati dekat jalur campuran.",
+
+    real_world:
+    "Sering ditemukan dekat taman dan sungai.",
+
+    memory_tip:
+    "Simbol gabungan pejalan kaki dan sepeda menunjukkan penggunaan bersama."
+  }
+},
+
+{
+  name_en:"Bundaran",
+  name_jp:"環状交差点",
+  image:"/static/images/signs/roundabout.png",
+  explanation:"Kendaraan bergerak melingkar di bundaran.",
+  category:"Mandatory Signs",
+
+  learn_more:{
+
+    meaning:
+    "Pengemudi harus bergerak melingkar mengelilingi persimpangan.",
+
+    driver_action:
+    "Berikan prioritas dengan benar dan ikuti arus bundaran.",
+
+    exam_tip:
+    "Aturan bundaran semakin sering muncul dalam ujian.",
+
+    safety:
+    "Masuk bundaran dengan tidak benar dapat menyebabkan tabrakan samping.",
+
+    real_world:
+    "Ditemukan di persimpangan modern di seluruh Jepang.",
+
+    memory_tip:
+    "Panah melingkar menunjukkan pergerakan melingkar terus-menerus."
+  }
+},
+
+{
+  name_en:"Kecepatan Minimum",
+  name_jp:"最低速度",
+  image:"/static/images/signs/minimum_speed.png",
+  explanation:"Pengemudi harus mempertahankan setidaknya kecepatan yang ditentukan.",
+  category:"Regulatory Signs",
+
+  learn_more:{
+
+    meaning:
+    "Kendaraan tidak boleh melaju lebih lambat dari kecepatan yang ditampilkan.",
+
+    driver_action:
+    "Pertahankan arus lalu lintas dengan menghindari berkendara terlalu lambat.",
+
+    exam_tip:
+    "Rambu kecepatan minimum umum ditemukan di jalan tol.",
+
+    safety:
+    "Mengemudi terlalu lambat dapat menyebabkan hambatan dan meningkatkan risiko tabrakan.",
+
+    real_world:
+    "Terutama ditemukan di jalan tol.",
+
+    memory_tip:
+    "Rambu lingkaran biru dengan angka biasanya menunjukkan persyaratan minimum."
+  }
+},
+{
+  name_en:"Beri Jalan",
+  name_jp:"徐行・譲れ",
+  image:"/static/images/signs/yield.png",
+  explanation:"Pengemudi harus memberikan prioritas kepada kendaraan lain.",
+  category:"Regulatory Signs",
+
+  learn_more:{
+
+    meaning:
+    "Pengemudi harus memperlambat kendaraan dan memberi jalan kepada lalu lintas yang melintas.",
+
+    driver_action:
+    "Bersiap untuk berhenti jika diperlukan dan periksa dengan hati-hati.",
+
+    exam_tip:
+    "Perilaku memberi jalan diperiksa dengan ketat dalam ujian praktik.",
+
+    safety:
+    "Tidak memberi jalan dapat menyebabkan kecelakaan di persimpangan.",
+
+    real_world:
+    "Sering ditemukan di persimpangan kecil.",
+
+    memory_tip:
+    "Rambu segitiga terbalik biasanya menunjukkan kehati-hatian atau memberi jalan."
+  }
+},
+
+{
+  name_en:"Terowongan",
+  name_jp:"トンネル",
+  image:"/static/images/signs/tunnel.png",
+  explanation:"Ada terowongan di depan.",
+  category:"Guide Signs",
+
+  learn_more:{
+
+    meaning:
+    "Pengemudi akan memasuki area terowongan.",
+
+    driver_action:
+    "Nyalakan lampu depan jika diperlukan dan jaga jarak aman.",
+
+    exam_tip:
+    "Soal tentang keselamatan di terowongan dapat muncul dalam ujian.",
+
+    safety:
+    "Jarak pandang berubah dengan cepat saat memasuki terowongan.",
+
+    real_world:
+    "Umum ditemukan di daerah pegunungan Jepang.",
+
+    memory_tip:
+    "Simbol terowongan menunjukkan bagian jalan tertutup."
+  }
+},
+
+{
+  name_en:"Rumah Sakit",
+  name_jp:"病院",
+  image:"/static/images/signs/hospital.png",
+  explanation:"Ada rumah sakit di dekat sini.",
+  category:"Guide Signs",
+
+  learn_more:{
+
+    meaning:
+    "Fasilitas medis tersedia di dekat lokasi ini.",
+
+    driver_action:
+    "Mengemudi dengan hati-hati dan waspadai ambulans serta pejalan kaki.",
+
+    exam_tip:
+    "Mengenali kendaraan darurat penting dalam ujian.",
+
+    safety:
+    "Area rumah sakit sering memiliki banyak pejalan kaki.",
+
+    real_world:
+    "Umum ditemukan di area perkotaan dan pinggiran kota.",
+
+    memory_tip:
+    "Simbol huruf H biasanya menunjukkan rumah sakit."
+  }
+},
+
+{
+  name_en:"Pom Bensin",
+  name_jp:"ガソリンスタンド",
+  image:"/static/images/signs/gas_station.png",
+  explanation:"Ada stasiun bahan bakar di dekat sini.",
+  category:"Guide Signs",
+
+  learn_more:{
+
+    meaning:
+    "Layanan pengisian bahan bakar tersedia di dekat sini.",
+
+    driver_action:
+    "Pengemudi dapat bersiap untuk mengisi bahan bakar.",
+
+    exam_tip:
+    "Rambu petunjuk membantu pengemudi menavigasi dengan efisien.",
+
+    safety:
+    "Berhati-hatilah saat masuk dan keluar dari stasiun bahan bakar.",
+
+    real_world:
+    "Sangat umum di jalan tol dan jalan kota.",
+
+    memory_tip:
+    "Simbol pompa bahan bakar menunjukkan pom bensin."
+  }
+},
+
+{
+  name_en:"Restoran",
+  name_jp:"レストラン",
+  image:"/static/images/signs/restaurant.png",
+  explanation:"Ada restoran di dekat sini.",
+  category:"Guide Signs",
+
+  learn_more:{
+
+    meaning:
+    "Layanan makanan tersedia di dekat sini.",
+
+    driver_action:
+    "Pengemudi dapat berhenti dengan aman untuk makan atau beristirahat.",
+
+    exam_tip:
+    "Mengenali rambu petunjuk berguna untuk soal navigasi.",
+
+    safety:
+    "Jangan mengemudi sambil terdistraksi saat mencari restoran.",
+
+    real_world:
+    "Sering ditemukan dekat jalan tol dan area wisata.",
+
+    memory_tip:
+    "Simbol garpu dan pisau menunjukkan tempat makan."
+  }
+},
+
+{
+  name_en:"Hotel",
+  name_jp:"ホテル",
+  image:"/static/images/signs/hotel.png",
+  explanation:"Ada hotel di dekat sini.",
+  category:"Guide Signs",
+
+  learn_more:{
+
+    meaning:
+    "Tempat penginapan tersedia di dekat sini.",
+
+    driver_action:
+    "Pengemudi dapat menggunakan hotel untuk beristirahat selama perjalanan jauh.",
+
+    exam_tip:
+    "Jenis rambu petunjuk dapat muncul dalam soal klasifikasi.",
+
+    safety:
+    "Pengemudi yang lelah sebaiknya mempertimbangkan untuk beristirahat.",
+
+    real_world:
+    "Sering ditemukan dekat tujuan wisata.",
+
+    memory_tip:
+    "Simbol tempat tidur biasanya menunjukkan penginapan."
+  }
+},
+/* ======================================================
+   ADDITIONAL COMMONLY SEEN JAPANESE ROAD SIGNS
+   NO DUPLICATES
+   ADD BELOW YOUR EXISTING roadSigns ARRAY
+====================================================== */
+
+{
+  name_en:"Pejalan Kaki Dilarang",
+  name_jp:"歩行者通行止め",
+  image:"/static/images/signs/no_pedestrians.png",
+  explanation:"Pejalan kaki dilarang masuk.",
+  category:"Prohibition Signs",
+
+  learn_more:{
+
+    meaning:
+    "Pejalan kaki tidak diizinkan memasuki area ini.",
+
+    driver_action:
+    "Pengemudi harus memperhatikan area dengan larangan masuk untuk pejalan kaki.",
+
+    exam_tip:
+    "Soal dapat menanyakan siapa yang dilarang masuk.",
+
+    safety:
+    "Area larangan pejalan kaki membantu mencegah kecelakaan.",
+
+    real_world:
+    "Sering ditemukan di jalan tol dan jalan khusus kendaraan.",
+
+    memory_tip:
+    "Lingkaran merah dengan simbol orang biasanya menunjukkan larangan untuk pejalan kaki."
+  }
+},
+
+{
+  name_en:"Sepeda Motor Dilarang",
+  name_jp:"二輪車通行止め",
+  image:"/static/images/signs/no_motorcycles.png",
+  explanation:"Sepeda motor dilarang masuk.",
+  category:"Prohibition Signs",
+
+  learn_more:{
+
+    meaning:
+    "Sepeda motor tidak boleh menggunakan jalan ini.",
+
+    driver_action:
+    "Pengendara sepeda motor harus mencari rute alternatif yang diizinkan.",
+
+    exam_tip:
+    "Rambu klasifikasi kendaraan sering muncul dalam ujian.",
+
+    safety:
+    "Larangan mungkin diterapkan karena kondisi jalan yang berbahaya.",
+
+    real_world:
+    "Umum ditemukan di terowongan dan area perumahan.",
+
+    memory_tip:
+    "Simbol sepeda motor di dalam lingkaran merah menunjukkan larangan."
+  }
+},
+
+{
+  name_en:"Dilarang Belok Kanan",
+  name_jp:"右折禁止",
+  image:"/static/images/signs/no_right_turn.png",
+  explanation:"Belok kanan dilarang di lokasi ini.",
+  category:"Prohibition Signs",
+
+  learn_more:{
+
+    meaning:
+    "Kendaraan tidak boleh belok kanan di persimpangan atau jalan ini.",
+
+    driver_action:
+    "Pengemudi harus tetap lurus atau menggunakan rute legal lain untuk mengubah arah.",
+
+    exam_tip:
+    "Rambu larangan arah sangat umum dalam ujian teori mengemudi Jepang.",
+
+    safety:
+    "Belok kanan secara ilegal dapat mengganggu kendaraan, sepeda, dan pejalan kaki yang melintas.",
+
+    real_world:
+    "Sangat umum di persimpangan sibuk dan jalan sempit.",
+
+    memory_tip:
+    "Garis merah di atas panah selalu menunjukkan arah yang dilarang."
+  }
+},
+
+{
+  name_en:"Dilarang Belok Kiri",
+  name_jp:"左折禁止",
+  image:"/static/images/signs/no_left_turn.png",
+  explanation:"Belok kiri dilarang di lokasi ini.",
+  category:"Prohibition Signs",
+
+  learn_more:{
+
+    meaning:
+    "Kendaraan tidak boleh belok kiri di bagian jalan atau persimpangan ini.",
+
+    driver_action:
+    "Ikuti arah yang diizinkan dan gunakan titik belok legal lainnya di depan.",
+
+    exam_tip:
+    "Perhatikan dengan cermat pembatasan arah berdasarkan jalur saat ujian.",
+
+    safety:
+    "Belok kiri secara ilegal dapat membingungkan lalu lintas sekitar dan meningkatkan risiko kecelakaan.",
+
+    real_world:
+    "Sering digunakan dalam pengaturan lalu lintas perkotaan dan persimpangan sempit.",
+
+    memory_tip:
+    "Panah dengan garis merah larangan menunjukkan tindakan yang dilarang."
+  }
+},
+
+{
+  name_en:"Penyeberangan Anak-anak",
+  name_jp:"児童横断",
+  image:"/static/images/signs/children_crossing.png",
+  explanation:"Anak-anak dapat menyeberang jalan di depan.",
+  category:"Warning Signs",
+
+  learn_more:{
+
+    meaning:
+    "Anak-anak kemungkinan akan menyeberang jalan di area ini.",
+
+    driver_action:
+    "Kurangi kecepatan dan bersiap untuk berhenti segera.",
+
+    exam_tip:
+    "Aturan keselamatan anak sangat penting dalam ujian praktik.",
+
+    safety:
+    "Anak-anak dapat bergerak secara tidak terduga di dekat jalan.",
+
+    real_world:
+    "Umum ditemukan dekat sekolah dan taman.",
+
+    memory_tip:
+    "Gambar anak-anak pada rambu peringatan menunjukkan kewaspadaan dekat sekolah."
+  }
+},
+
+{
+  name_en:"Persimpangan",
+  name_jp:"交差点あり",
+  image:"/static/images/signs/crossroads.png",
+  explanation:"Ada persimpangan di depan.",
+  category:"Warning Signs",
+
+  learn_more:{
+
+    meaning:
+    "Sebuah persimpangan berada di depan.",
+
+    driver_action:
+    "Periksa semua arah dengan hati-hati sebelum memasuki persimpangan.",
+
+    exam_tip:
+    "Keselamatan di persimpangan diuji dengan ketat dalam ujian.",
+
+    safety:
+    "Banyak kecelakaan terjadi di persimpangan.",
+
+    real_world:
+    "Sangat umum di jalan Jepang.",
+
+    memory_tip:
+    "Simbol berbentuk silang menunjukkan jalan yang saling berpotongan."
+  }
+},
+{
+  name_en:"Tikungan ke Kiri",
+  name_jp:"左方屈曲あり",
+  image:"/static/images/signs/curve_left.png",
+  explanation:"Ada tikungan tajam ke kiri di depan.",
+  category:"Warning Signs",
+
+  learn_more:{
+
+    meaning:
+    "Jalan di depan berbelok tajam ke kiri.",
+
+    driver_action:
+    "Kurangi kecepatan sebelum memasuki tikungan.",
+
+    exam_tip:
+    "Keselamatan saat berkendara di tikungan muncul dalam soal kesadaran bahaya.",
+
+    safety:
+    "Kecepatan berlebihan dapat menyebabkan kehilangan kendali.",
+
+    real_world:
+    "Umum ditemukan di jalan pegunungan.",
+
+    memory_tip:
+    "Panah melengkung menunjukkan arah tikungan jalan di depan."
+  }
+},
+
+{
+  name_en:"Tikungan ke Kanan",
+  name_jp:"右方屈曲あり",
+  image:"/static/images/signs/curve_right.png",
+  explanation:"Ada tikungan tajam ke kanan di depan.",
+  category:"Warning Signs",
+
+  learn_more:{
+
+    meaning:
+    "Jalan di depan berbelok tajam ke kanan.",
+
+    driver_action:
+    "Rem lebih awal dan putar setir dengan halus.",
+
+    exam_tip:
+    "Pengemudi harus menghindari pengereman mendadak saat di tikungan.",
+
+    safety:
+    "Tikungan tajam dapat mengurangi jarak pandang.",
+
+    real_world:
+    "Sering ditemukan di jalan pedesaan.",
+
+    memory_tip:
+    "Panah melengkung menunjukkan perubahan arah jalan."
+  }
+},
+
+{
+  name_en:"Lalu Lintas Dua Arah",
+  name_jp:"対面通行",
+  image:"/static/images/signs/two_way_traffic.png",
+  explanation:"Lalu lintas bergerak di kedua arah.",
+  category:"Warning Signs",
+
+  learn_more:{
+
+    meaning:
+    "Lajur lalu lintas berlawanan arah ada di depan.",
+
+    driver_action:
+    "Tetap berada di dalam marka jalur dengan hati-hati.",
+
+    exam_tip:
+    "Memahami garis tengah jalan penting dalam ujian praktik.",
+
+    safety:
+    "Masuk ke jalur berlawanan sangat berbahaya.",
+
+    real_world:
+    "Sering terlihat setelah jalan satu arah atau area konstruksi.",
+
+    memory_tip:
+    "Panah berlawanan arah menunjukkan lalu lintas dua arah."
+  }
+},
+
+{
+  name_en:"Tanjakan atau Turunan Curam",
+  name_jp:"急勾配あり",
+  image:"/static/images/signs/steep_hill.png",
+  explanation:"Ada tanjakan atau turunan curam di depan.",
+  category:"Warning Signs",
+
+  learn_more:{
+
+    meaning:
+    "Pengemudi sedang mendekati jalan menanjak atau menurun yang curam.",
+
+    driver_action:
+    "Gunakan rem dan kontrol gigi dengan benar.",
+
+    exam_tip:
+    "Teknik mulai di tanjakan diuji dalam ujian praktik.",
+
+    safety:
+    "Penggunaan rem yang tidak tepat dapat menyebabkan kehilangan kendali.",
+
+    real_world:
+    "Umum ditemukan di daerah pegunungan Jepang.",
+
+    memory_tip:
+    "Simbol jalan miring menunjukkan medan yang curam."
+  }
+},
+
+{
+  name_en:"Pekerjaan Jalan",
+  name_jp:"道路工事中",
+  image:"/static/images/signs/road_work.png",
+  explanation:"Ada pekerjaan jalan di depan.",
+  category:"Warning Signs",
+
+  learn_more:{
+
+    meaning:
+    "Pekerjaan konstruksi atau perbaikan sedang berlangsung di depan.",
+
+    driver_action:
+    "Kurangi kecepatan dan ikuti petunjuk lalu lintas sementara.",
+
+    exam_tip:
+    "Rambu pengaturan lalu lintas sementara dapat muncul dalam ujian.",
+
+    safety:
+    "Area konstruksi dapat memiliki perubahan jalur mendadak.",
+
+    real_world:
+    "Sangat umum dalam proyek perbaikan jalan perkotaan.",
+
+    memory_tip:
+    "Simbol pekerja menunjukkan aktivitas konstruksi."
+  }
+},
+
+{
+  name_en:"Bahaya",
+  name_jp:"危険",
+  image:"/static/images/signs/danger.png",
+  explanation:"Peringatan bahaya umum.",
+  category:"Warning Signs",
+
+  learn_more:{
+
+    meaning:
+    "Pengemudi harus bersiap menghadapi bahaya tidak biasa di depan.",
+
+    driver_action:
+    "Tingkatkan kewaspadaan dan segera kurangi kecepatan.",
+
+    exam_tip:
+    "Kesadaran bahaya umum sangat penting dalam ujian mengemudi.",
+
+    safety:
+    "Rambu bahaya menunjukkan risiko kecelakaan yang lebih tinggi.",
+
+    real_world:
+    "Digunakan di area sementara atau berbahaya.",
+
+    memory_tip:
+    "Rambu peringatan kuning biasanya menunjukkan kewaspadaan."
+  }
+},
+{
+  name_en:"Area Parkir Jalan Tol",
+  name_jp:"パーキングエリア",
+  image:"/static/images/signs/parking_area.png",
+  explanation:"Ada area parkir jalan tol di depan.",
+  category:"Expressway Signs",
+
+  learn_more:{
+
+    meaning:
+    "Pengemudi dapat beristirahat atau parkir sementara di depan.",
+
+    driver_action:
+    "Gunakan area parkir dengan aman untuk beristirahat.",
+
+    exam_tip:
+    "Manajemen istirahat penting selama perjalanan jauh.",
+
+    safety:
+    "Mengemudi saat lelah meningkatkan risiko kecelakaan.",
+
+    real_world:
+    "Umum ditemukan di seluruh jalan tol Jepang.",
+
+    memory_tip:
+    "Rambu huruf P berwarna biru menunjukkan fasilitas parkir."
+  }
+},
+
+{
+  name_en:"Area Layanan",
+  name_jp:"サービスエリア",
+  image:"/static/images/signs/service_area.png",
+  explanation:"Ada area layanan di depan.",
+  category:"Expressway Signs",
+
+  learn_more:{
+
+    meaning:
+    "Layanan makanan, bahan bakar, dan tempat istirahat tersedia di depan.",
+
+    driver_action:
+    "Pengemudi dapat berhenti dengan aman untuk beristirahat dan menggunakan layanan.",
+
+    exam_tip:
+    "Rambu fasilitas jalan tol dapat muncul dalam soal navigasi.",
+
+    safety:
+    "Beristirahat secara teratur membantu mencegah kelelahan saat mengemudi.",
+
+    real_world:
+    "Sering ditemukan di jalan tol.",
+
+    memory_tip:
+    "Rambu jalan tol hijau biasanya menunjukkan fasilitas jalan raya."
+  }
+},
+
+/* ======================================================
+   ADDITIONAL IMPORTANT JAPANESE TRAFFIC SIGNS
+   SIGNALS & SPECIAL RULES
+   NO DUPLICATES
+====================================================== */
+
+{
+  name_en:"Lampu Merah Berkedip",
+  name_jp:"赤色点滅信号",
+  image:"/static/images/signs/red_flashing_signal.png",
+  explanation:"Pengemudi harus berhenti sepenuhnya sebelum melanjutkan.",
+  category:"Regulatory Signs",
+
+  learn_more:{
+
+    meaning:
+    "Lampu merah berkedip mengharuskan pengemudi berhenti sepenuhnya sebelum memasuki persimpangan. Di Jepang, artinya sama seperti rambu berhenti.",
+
+    driver_action:
+    "Pengemudi harus berhenti sepenuhnya di belakang garis berhenti, memeriksa kiri dan kanan dengan hati-hati, memastikan aman, lalu melanjutkan perlahan jika jalan kosong.",
+
+    exam_tip:
+    "Ujian mengemudi Jepang sering membandingkan lampu merah berkedip dan lampu kuning berkedip. Selalu berhenti sepenuhnya pada lampu merah berkedip.",
+
+    safety:
+    "Mengabaikan lampu merah berkedip dapat menyebabkan tabrakan serius di persimpangan.",
+
+    real_world:
+    "Sering digunakan pada malam hari atau di persimpangan dengan lalu lintas rendah.",
+
+    memory_tip:
+    "Merah berkedip berarti berhenti sepenuhnya sebelum melanjutkan."
+  }
+},
+
+{
+  name_en:"Lampu Kuning Berkedip",
+  name_jp:"黄色点滅信号",
+  image:"/static/images/signs/yellow_flashing_signal.png",
+  explanation:"Pengemudi dapat melanjutkan dengan hati-hati.",
+  category:"Warning Signs",
+
+  learn_more:{
+
+    meaning:
+    "Lampu kuning berkedip memperingatkan pengemudi untuk melanjutkan dengan hati-hati dan memperhatikan lalu lintas silang serta pejalan kaki.",
+
+    driver_action:
+    "Pengemudi dapat melanjutkan, tetapi harus mengurangi kecepatan dan mengamati kondisi lalu lintas sekitar dengan hati-hati.",
+
+    exam_tip:
+    "Ujian teori sering menanyakan perbedaan antara lampu kuning berkedip dan lampu lalu lintas kuning biasa.",
+
+    safety:
+    "Pengemudi tetap bertanggung jawab memastikan keamanan sebelum memasuki persimpangan.",
+
+    real_world:
+    "Umum terlihat ketika lampu lalu lintas berubah ke mode berkedip pada malam hari.",
+
+    memory_tip:
+    "Kuning berkedip berarti hati-hati — kurangi kecepatan tetapi tidak perlu berhenti kecuali diperlukan."
+  }
+},
+
+{
+  name_en:"Truk Dilarang",
+  name_jp:"大型貨物自動車通行止め",
+  image:"/static/images/signs/truck_prohibited.png",
+  explanation:"Truk besar dilarang masuk.",
+  category:"Prohibition Signs",
+
+  learn_more:{
+
+    meaning:
+    "Truk barang besar dan kendaraan berat tidak boleh menggunakan jalan atau area ini.",
+
+    driver_action:
+    "Pengemudi truk harus segera menggunakan rute alternatif yang diizinkan.",
+
+    exam_tip:
+    "Rambu pembatasan kendaraan sering muncul dalam ujian SIM Jepang.",
+
+    safety:
+    "Truk besar mungkin tidak aman di jalan sempit, zona sekolah, atau jalan perumahan.",
+
+    real_world:
+    "Sering ditemukan dekat area perumahan, sekolah, dan jalan kota kecil.",
+
+    memory_tip:
+    "Simbol truk di dalam lingkaran merah menunjukkan larangan untuk truk."
+  }
+},
+{
+  name_en:"Sepeda Motor Dilarang",
+  name_jp:"二輪車通行止め",
+  image:"/static/images/signs/motorcycle_prohibited.png",
+  explanation:"Sepeda motor dilarang masuk.",
+  category:"Prohibition Signs",
+
+  learn_more:{
+
+    meaning:
+    "Sepeda motor, skuter, dan kendaraan bermotor roda dua lainnya tidak boleh memasuki jalan ini.",
+
+    driver_action:
+    "Pengendara sepeda motor harus segera mencari rute lain yang diizinkan.",
+
+    exam_tip:
+    "Ujian Jepang dapat menanyakan kendaraan apa saja yang dibatasi oleh rambu ini.",
+
+    safety:
+    "Pembatasan ini biasanya digunakan di jalan dengan risiko lebih tinggi bagi sepeda motor.",
+
+    real_world:
+    "Umum ditemukan di terowongan, jalan tol, jembatan, dan area perumahan yang tenang.",
+
+    memory_tip:
+    "Simbol sepeda motor di dalam lingkaran larangan merah berarti sepeda motor tidak diizinkan."
+  }
+},
+
+{
+  name_en:"Dilarang Belok Kanan",
+  name_jp:"右折禁止",
+  image:"/static/images/signs/no_right_turn.png",
+  explanation:"Belok kanan dilarang di lokasi ini.",
+  category:"Prohibition Signs",
+
+  learn_more:{
+
+    meaning:
+    "Pengemudi tidak boleh belok kanan di persimpangan atau jalan ini.",
+
+    driver_action:
+    "Tetap lurus atau gunakan rute legal lain untuk mengubah arah.",
+
+    exam_tip:
+    "Rambu larangan arah sangat umum dalam ujian teori mengemudi Jepang.",
+
+    safety:
+    "Belok kanan ilegal dapat mengganggu kendaraan, sepeda, dan pejalan kaki yang sedang menyeberang.",
+
+    real_world:
+    "Sangat umum di persimpangan sibuk dan jalan sempit.",
+
+    memory_tip:
+    "Garis merah di atas panah selalu menunjukkan arah yang dilarang."
+  }
+},
+
+{
+  name_en:"Dilarang Belok Kiri",
+  name_jp:"左折禁止",
+  image:"/static/images/signs/no_left_turn.png",
+  explanation:"Belok kiri dilarang di lokasi ini.",
+  category:"Prohibition Signs",
+
+  learn_more:{
+
+    meaning:
+    "Pengemudi tidak boleh belok kiri di bagian jalan atau persimpangan ini.",
+
+    driver_action:
+    "Ikuti arah yang diizinkan dan gunakan titik belok legal lainnya di depan.",
+
+    exam_tip:
+    "Perhatikan dengan cermat pembatasan arah berdasarkan jalur saat ujian.",
+
+    safety:
+    "Belok kiri ilegal dapat membingungkan lalu lintas sekitar dan meningkatkan risiko kecelakaan.",
+
+    real_world:
+    "Sering digunakan dalam pengaturan lalu lintas perkotaan dan persimpangan sempit.",
+
+    memory_tip:
+    "Panah dengan garis merah larangan menunjukkan tindakan yang dilarang."
+  }
+},
+
+{
+  name_en:"Sinyal Tangan Diperlukan",
+  name_jp:"手信号",
+  image:"/static/images/signs/hand_signal.png",
+  explanation:"Pengemudi mungkin perlu menggunakan sinyal tangan jika lampu sein rusak.",
+  category:"Regulatory Signs",
+
+  learn_more:{
+
+    meaning:
+    "Pengemudi harus memahami sinyal tangan resmi Jepang yang digunakan saat keadaan darurat atau kerusakan peralatan.",
+
+    driver_action:
+    "Gunakan sinyal tangan yang benar jika lampu sein atau lampu rem tidak berfungsi.",
+
+    exam_tip:
+    "Ujian mengemudi Jepang dapat mencakup pertanyaan tentang sinyal tangan untuk sepeda motor, sepeda, dan situasi darurat.",
+
+    safety:
+    "Sinyal tangan yang benar membantu pengemudi di sekitar memahami niat Anda dengan jelas.",
+
+    real_world:
+    "Penting untuk sepeda motor, sepeda, keadaan darurat, dan kerusakan sinyal.",
+
+    memory_tip:
+    "Sinyal tangan berfungsi sebagai komunikasi alternatif ketika sinyal kendaraan normal tidak berfungsi."
+  }
+},
+
+{
+  name_en:"Sinyal Tangan Belok Kanan",
+  name_jp:"右折の手信号",
+  image:"/static/images/signs/right_turn_hand_signal.png",
+  explanation:"Sinyal tangan yang digunakan untuk menunjukkan belok kanan.",
+  category:"Regulatory Signs",
+
+  learn_more:{
+
+    meaning:
+    "Pengemudi mengulurkan lengan kanan secara horizontal atau menekuk lengan kiri ke atas untuk menunjukkan belok kanan.",
+
+    driver_action:
+    "Kendaraan di sekitar harus bersiap karena kendaraan akan melambat dan berbelok ke kanan.",
+
+    exam_tip:
+    "Sinyal tangan untuk sepeda motor dan sepeda dapat muncul dalam ujian teori.",
+
+    safety:
+    "Sinyal yang jelas membantu mengurangi kebingungan dan tabrakan samping.",
+
+    real_world:
+    "Biasanya digunakan ketika lampu sein rusak atau saat bersepeda.",
+
+    memory_tip:
+    "Lengan yang menunjuk ke kanan berarti kendaraan akan belok ke kanan."
+  }
+},
+{
+  name_en:"Sinyal Tangan Belok Kiri",
+  name_jp:"左折の手信号",
+  image:"/static/images/signs/left_turn_hand_signal.png",
+  explanation:"Sinyal tangan yang digunakan untuk menunjukkan belok kiri.",
+  category:"Regulatory Signs",
+
+  learn_more:{
+
+    meaning:
+    "Pengemudi mengulurkan lengan kiri secara horizontal untuk menunjukkan belok kiri.",
+
+    driver_action:
+    "Lalu lintas di sekitar harus bersiap untuk pergerakan kendaraan yang akan berbelok.",
+
+    exam_tip:
+    "Ini adalah salah satu sinyal tangan yang paling umum diajarkan di sekolah mengemudi.",
+
+    safety:
+    "Memberi sinyal lebih awal meningkatkan kesadaran pengemudi lain dan mengurangi kecelakaan.",
+
+    real_world:
+    "Umumnya diajarkan untuk pengendara sepeda dan sepeda motor.",
+
+    memory_tip:
+    "Lengan kiri yang lurus menunjukkan belok kiri."
+  }
+},
+
+{
+  name_en:"Sinyal Tangan Berhenti",
+  name_jp:"停止の手信号",
+  image:"/static/images/signs/stop_hand_signal.png",
+  explanation:"Sinyal tangan yang digunakan untuk menunjukkan berhenti atau memperlambat kendaraan.",
+  category:"Regulatory Signs",
+
+  learn_more:{
+
+    meaning:
+    "Pengemudi mengarahkan tangan ke bawah untuk menunjukkan berhenti atau memperlambat kendaraan.",
+
+    driver_action:
+    "Pengemudi di belakang harus bersiap untuk mengerem dengan aman.",
+
+    exam_tip:
+    "Sinyal tangan berhenti penting untuk sepeda dan sepeda motor.",
+
+    safety:
+    "Sinyal ini membantu mencegah tabrakan dari belakang.",
+
+    real_world:
+    "Digunakan saat keadaan darurat atau ketika lampu rem rusak.",
+
+    memory_tip:
+    "Gerakan tangan ke bawah berarti berhenti atau memperlambat."
+  }
+},
+
+];
+/* ======================================================
+   DUPLICATE FOR DEMO
+====================================================== */
+
+const fullSigns = [...roadSigns];
+
+/* ======================================================
+   ELEMENTS
+====================================================== */
+
+const signGrid =
+  document.getElementById("signGrid");
+
+const searchInput =
+  document.getElementById("searchInput");
+
+const tabs =
+  document.querySelectorAll(".tab");
+
+const emptyState =
+  document.getElementById("emptyState");
+
+let currentCategory = "All";
+
+/* ======================================================
+   EDUCATIONAL CONTENT
+====================================================== */
+
+function generateEducationalContent(sign){
+
+  const info =
+    sign.learn_more || {};
+
+  return `
+
+    <div class="learn-box">
+
+      <div class="learn-section">
+
+        <h4>
+          📘 Arti Rambu
+        </h4>
+
+        <p>
+          ${info.meaning || sign.explanation}
+        </p>
+
+      </div>
+
+      <div class="learn-section">
+
+        <h4>
+          🚗 Tindakan Pengemudi
+        </h4>
+
+        <p>
+          ${info.driver_action || "Pengemudi harus mengikuti rambu ini dengan hati-hati."}
+        </p>
+
+      </div>
+
+      <div class="learn-section">
+
+        <h4>
+          🧠 Tips Ujian Mengemudi
+        </h4>
+
+        <p>
+          ${info.exam_tip || "Rambu ini dapat muncul dalam ujian mengemudi Jepang."}
+        </p>
+
+      </div>
+
+      <div class="learn-section">
+
+        <h4>
+          ⚠️ Pengingat Keselamatan
+        </h4>
+
+        <p>
+          ${info.safety || "Mengabaikan rambu ini dapat menciptakan situasi berbahaya."}
+        </p>
+
+      </div>
+
+      <div class="learn-section">
+
+        <h4>
+          🌏 Situasi Mengemudi Nyata
+        </h4>
+
+        <p>
+          ${info.real_world || "Rambu ini umum ditemukan di jalan Jepang."}
+        </p>
+
+      </div>
+
+      <div class="learn-section">
+
+        <h4>
+          💡 Tips Mengingat
+        </h4>
+
+        <p>
+          ${info.memory_tip || "Cobalah mengingat bentuk dan warna rambu ini."}
+        </p>
+
+      </div>
+
+      <div class="learn-section">
+
+        <h4>
+          📝 Pertanyaan Ujian Umum
+        </h4>
+
+        <div class="quiz-box">
+
+          <p class="quiz-question">
+            “Apa yang harus dilakukan pengemudi saat melihat rambu ini?”
+          </p>
+
+          <p class="quiz-answer">
+            Pengemudi harus mengikuti aturan,
+            instruksi, atau peringatan yang ditunjukkan oleh rambu dengan benar.
+          </p>
+
+        </div>
+
+      </div>
+
+      <div class="learn-section">
+
+        <h4>
+          🔗 Topik Terkait
+        </h4>
+
+        <div class="related-signs">
+
+          <span class="related-badge">
+            Ujian Mengemudi Jepang
+          </span>
+
+          <span class="related-badge">
+            Peraturan Lalu Lintas
+          </span>
+
+          <span class="related-badge">
+            Keselamatan Jalan
+          </span>
+
+          <span class="related-badge">
+            Kesadaran Berkendara
+          </span>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  `;
+
+}
+/* ======================================================
+       RENDER
+    ====================================================== */
+
+    function renderSigns(){
+
+      const search =
+        searchInput.value.toLowerCase();
+
+      const filtered = fullSigns.filter(sign => {
+
+        const matchesCategory =
+
+          currentCategory === "All" ||
+
+          sign.category === currentCategory;
+
+        const matchesSearch =
+
+          sign.name_en.toLowerCase().includes(search) ||
+
+          sign.name_jp.includes(search) ||
+
+          sign.explanation.toLowerCase().includes(search);
+
+        return matchesCategory && matchesSearch;
+
+      });
+
+      signGrid.innerHTML = "";
+
+      if(filtered.length === 0){
+
+        emptyState.style.display = "block";
+
+      }else{
+
+        emptyState.style.display = "none";
+
+      }
+
+      filtered.forEach(sign => {
+
+        const card =
+          document.createElement("div");
+
+        card.className = "card";
+
+        card.innerHTML = `
+
+          <div class="card-top">
+
+            <img
+                src="${sign.image}"
+                alt="${sign.name_en}"
+                loading="lazy"
+                onerror="this.src='/static/images/signs/placeholder.png'"
+            />
+
+          </div>
+
+          <div class="card-body">
+
+            <div class="category">
+              ${sign.category}
+            </div>
+
+            <h3 class="sign-title">
+              ${sign.name_en}
+            </h3>
+
+            <div class="sign-jp">
+              ${sign.name_jp}
+            </div>
+
+            <p class="description">
+              ${sign.explanation}
+            </p>
+
+            <button class="expand-btn">
+              Learn More
+            </button>
+
+            <div class="extra">
+
+              ${generateEducationalContent(sign)}
+
+            </div>
+
+          </div>
+
+        `;
+
+        const expandBtn =
+          card.querySelector(".expand-btn");
+
+        const extra =
+          card.querySelector(".extra");
+
+        expandBtn.addEventListener("click", () => {
+
+          extra.classList.toggle("open");
+
+          expandBtn.innerText =
+
+            extra.classList.contains("open")
+
+            ? "Sembunyikan Detail"
+
+            : "Sembunyikan";
+
+        });
+
+        signGrid.appendChild(card);
+
+      });
+
+    }
+
+    /* ======================================================
+       SEARCH
+    ====================================================== */
+
+    searchInput.addEventListener(
+      "input",
+      renderSigns
+    );
+
+    /* ======================================================
+       FILTER TABS
+    ====================================================== */
+
+    tabs.forEach(tab => {
+
+      tab.addEventListener("click", () => {
+
+        tabs.forEach(t =>
+          t.classList.remove("active")
+        );
+
+        tab.classList.add("active");
+
+        currentCategory =
+          tab.dataset.category;
+
+        renderSigns();
+
+      });
+
+    });
+
+    /* ======================================================
+       DARK MODE
+    ====================================================== */
+
+    const themeToggle =
+      document.getElementById("themeToggle");
+
+    themeToggle.addEventListener("click", () => {
+
+      document.body.classList.toggle(
+        "light-mode"
+      );
+
+      if(
+        document.body.classList.contains(
+          "light-mode"
+        )
+      ){
+
+        themeToggle.innerHTML = "☀️";
+
+      }else{
+
+        themeToggle.innerHTML = "🌙";
+
+      }
+
+    });
+
+    /* ======================================================
+       SCROLL TO TOP
+    ====================================================== */
+
+    const scrollTopBtn =
+      document.getElementById("scrollTopBtn");
+
+    scrollTopBtn.addEventListener("click", () => {
+
+      window.scrollTo({
+        top:0,
+        behavior:"smooth"
+      });
+
+    });
+
+    /* ======================================================
+       INITIAL RENDER
+    ====================================================== */
+
+    renderSigns();
+
+  </script>
+
+</body>
+</html>

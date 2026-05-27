@@ -1,0 +1,2431 @@
+<!DOCTYPE html>
+  <html lang="ar" dir="rtl">
+<head>
+
+  <!-- ======================================================
+       META
+  ====================================================== -->
+
+  <meta charset="UTF-8" />
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+
+  <title>
+  مراجعة إشارات المرور اليابانية
+  </title>
+
+  <!-- ======================================================
+       GOOGLE FONT
+  ====================================================== -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  >
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- ======================================================
+       CSS
+  ====================================================== -->
+
+  <style>
+
+    /* ======================================================
+       RESET
+    ====================================================== */
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+
+    html{
+      scroll-behavior:smooth;
+    }
+
+    body{
+
+      font-family:'Inter',sans-serif;
+
+      background:
+        radial-gradient(circle at top left,#1d4ed8 0%,transparent 25%),
+        radial-gradient(circle at top right,#7c3aed 0%,transparent 25%),
+        linear-gradient(180deg,#071120 0%,#0d1728 100%);
+
+      color:#fff;
+
+      min-height:100vh;
+
+      overflow-x:hidden;
+
+      transition:0.35s ease;
+
+      direction:rtl;
+    }
+
+    body.light-mode{
+
+      background:
+        radial-gradient(circle at top left,#dbeafe 0%,transparent 25%),
+        radial-gradient(circle at top right,#ede9fe 0%,transparent 25%),
+        linear-gradient(180deg,#f8fbff 0%,#eef2ff 100%);
+
+      color:#111827;
+    }
+
+    img{
+      display:block;
+      max-width:100%;
+    }
+
+    button{
+      border:none;
+      outline:none;
+      cursor:pointer;
+      font-family:inherit;
+    }
+
+    /* ======================================================
+       APP
+    ====================================================== */
+
+    .app{
+      width:100%;
+      max-width:1500px;
+      margin:auto;
+      padding:20px;
+    }
+
+    /* ======================================================
+       HERO
+    ====================================================== */
+
+    .hero{
+
+      position:relative;
+
+      overflow:hidden;
+
+      border-radius:34px;
+
+      padding:34px 26px;
+
+      margin-bottom:24px;
+
+      background:rgba(255,255,255,0.08);
+
+      backdrop-filter:blur(18px);
+
+      border:1px solid rgba(255,255,255,0.12);
+
+      box-shadow:
+        0 12px 40px rgba(0,0,0,0.28),
+        inset 0 1px 1px rgba(255,255,255,0.08);
+    }
+
+    body.light-mode .hero{
+      background:rgba(255,255,255,0.78);
+    }
+
+    .hero-top{
+      display:flex;
+      justify-content:space-between;
+      align-items:flex-start;
+      gap:20px;
+      flex-wrap:wrap;
+    }
+
+    .hero-title{
+
+      font-size:
+        clamp(2.2rem,5vw,4.6rem);
+
+      line-height:1.05;
+
+      font-weight:800;
+
+      margin-bottom:14px;
+    }
+
+    .hero-description{
+
+      max-width:760px;
+
+      line-height:1.9;
+
+      opacity:0.92;
+
+      font-size:1rem;
+    }
+
+    /* ======================================================
+       THEME BUTTON
+    ====================================================== */
+
+    .theme-btn{
+
+      width:58px;
+      height:58px;
+
+      border-radius:18px;
+
+      background:rgba(255,255,255,0.1);
+
+      backdrop-filter:blur(12px);
+
+      border:1px solid rgba(255,255,255,0.12);
+
+      color:#fff;
+
+      font-size:1.2rem;
+
+      transition:0.3s ease;
+    }
+
+    body.light-mode .theme-btn{
+      background:#fff;
+      color:#111827;
+    }
+
+    .theme-btn:hover{
+      transform:translateY(-3px);
+    }
+
+      .back-btn{
+
+    padding:14px 20px;
+
+    border-radius:18px;
+
+    background:rgba(255,255,255,0.1);
+
+    backdrop-filter:blur(12px);
+
+    border:1px solid rgba(255,255,255,0.12);
+
+    color:#fff;
+
+    font-weight:700;
+
+    transition:0.3s ease;
+  }
+
+  .back-btn:hover{
+    transform:translateY(-3px);
+  }
+
+  body.light-mode .back-btn{
+    background:#fff;
+    color:#111827;
+  }
+
+    /* ======================================================
+       SEARCH
+    ====================================================== */
+
+    .search-wrapper{
+      position:relative;
+      margin-top:28px;
+    }
+
+    .search-input{
+
+      width:100%;
+
+      padding:18px 20px 18px 58px;
+
+      border-radius:22px;
+
+      border:none;
+      outline:none;
+
+      background:rgba(255,255,255,0.08);
+
+      backdrop-filter:blur(12px);
+
+      border:1px solid rgba(255,255,255,0.12);
+
+      color:#fff;
+
+      font-size:1rem;
+    }
+
+    body.light-mode .search-input{
+      background:#fff;
+      color:#111827;
+    }
+
+    .search-icon{
+
+      position:absolute;
+
+      left:20px;
+      top:50%;
+
+      transform:translateY(-50%);
+
+      opacity:0.75;
+    }
+
+    /* ======================================================
+       CATEGORY NAVIGATION
+    ====================================================== */
+
+    .sticky-nav{
+
+      position:sticky;
+
+      top:0;
+
+      z-index:100;
+
+      padding:14px 0;
+
+      backdrop-filter:blur(18px);
+    }
+
+    .tabs{
+
+      display:flex;
+
+      gap:12px;
+
+      overflow-x:auto;
+
+      scrollbar-width:none;
+    }
+
+    .tabs::-webkit-scrollbar{
+      display:none;
+    }
+
+    .tab{
+
+      white-space:nowrap;
+
+      padding:12px 20px;
+
+      border-radius:999px;
+
+      background:rgba(255,255,255,0.08);
+
+      border:1px solid rgba(255,255,255,0.12);
+
+      color:#fff;
+
+      font-weight:700;
+
+      transition:0.3s ease;
+    }
+
+    body.light-mode .tab{
+      background:#fff;
+      color:#111827;
+    }
+
+    .tab.active{
+
+      background:
+        linear-gradient(
+          135deg,
+          #2563eb,
+          #7c3aed
+        );
+
+      border:none;
+    }
+
+    /* ======================================================
+       GRID
+    ====================================================== */
+
+    .grid{
+
+      display:grid;
+
+      grid-template-columns:
+        repeat(auto-fit,minmax(270px,1fr));
+
+      gap:22px;
+
+      margin-top:24px;
+    }
+
+    /* ======================================================
+       CARD
+    ====================================================== */
+
+    .card{
+
+      position:relative;
+
+      overflow:hidden;
+
+      border-radius:30px;
+
+      background:rgba(255,255,255,0.08);
+
+      backdrop-filter:blur(18px);
+
+      border:1px solid rgba(255,255,255,0.12);
+
+      box-shadow:
+        0 12px 35px rgba(0,0,0,0.22);
+
+      transition:0.35s ease;
+
+      animation:fadeIn 0.35s ease;
+    }
+
+    body.light-mode .card{
+      background:rgba(255,255,255,0.78);
+    }
+
+    .card:hover{
+
+      transform:translateY(-6px);
+
+      box-shadow:
+        0 25px 45px rgba(0,0,0,0.25);
+    }
+
+    .card,
+    .expand-btn,
+    .theme-btn{
+    will-change:transform;
+    }
+
+    /* ======================================================
+       CARD TOP
+    ====================================================== */
+
+    .card-top{
+
+      min-height:190px;
+
+      display:flex;
+      justify-content:center;
+      align-items:center;
+
+      padding:24px;
+
+      background:
+        linear-gradient(
+          135deg,
+          rgba(255,255,255,0.08),
+          rgba(255,255,255,0.03)
+        );
+    }
+
+    .card-top img{
+
+      width:115px;
+      height:115px;
+
+      object-fit:contain;
+
+      transition:0.3s ease;
+    }
+
+    .card:hover img{
+      transform:scale(1.06);
+    }
+
+    /* ======================================================
+       CARD BODY
+    ====================================================== */
+
+    .card-body{
+      padding:22px;
+    }
+
+    .category{
+
+      display:inline-flex;
+
+      align-items:center;
+
+      padding:8px 13px;
+
+      border-radius:999px;
+
+      background:rgba(59,130,246,0.2);
+
+      color:#93c5fd;
+
+      font-size:0.76rem;
+
+      font-weight:700;
+
+      margin-bottom:14px;
+    }
+
+    body.light-mode .category{
+      background:#dbeafe;
+      color:#1d4ed8;
+    }
+
+    .sign-title{
+      font-size:1.1rem;
+      font-weight:800;
+      margin-bottom:6px;
+    }
+
+    .sign-jp{
+      opacity:0.75;
+      margin-bottom:14px;
+    }
+
+    .description{
+      line-height:1.7;
+      opacity:0.92;
+      font-size:0.95rem;
+    }
+
+    /* ======================================================
+       EXPAND BUTTON
+    ====================================================== */
+
+    .expand-btn{
+
+      width:100%;
+
+      margin-top:18px;
+
+      padding:13px;
+
+      border-radius:18px;
+
+      background:
+        linear-gradient(
+          135deg,
+          #2563eb,
+          #7c3aed
+        );
+
+      color:#fff;
+
+      font-weight:700;
+
+      transition:0.3s ease;
+    }
+
+    .expand-btn:hover{
+      transform:translateY(-2px);
+    }
+
+    /* ======================================================
+       LEARN MORE
+    ====================================================== */
+
+    .extra{
+
+      max-height:0;
+
+      overflow:hidden;
+
+      transition:max-height 0.45s ease;
+    }
+
+    .extra.open{
+      max-height:1600px;
+    }
+
+    .learn-box{
+
+      margin-top:18px;
+
+      display:flex;
+      flex-direction:column;
+      gap:14px;
+    }
+
+    .learn-section{
+
+      padding:15px;
+
+      border-radius:20px;
+
+      background:rgba(255,255,255,0.06);
+
+      border:1px solid rgba(255,255,255,0.08);
+    }
+
+    body.light-mode .learn-section{
+      background:rgba(255,255,255,0.85);
+    }
+
+    .learn-section h4{
+
+      margin-bottom:8px;
+
+      font-size:0.92rem;
+
+      font-weight:700;
+    }
+
+    .learn-section p{
+
+      line-height:1.75;
+
+      font-size:0.92rem;
+
+      opacity:0.9;
+    }
+
+    /* ======================================================
+       LISTS
+    ====================================================== */
+
+    .learn-list{
+
+      margin-top:12px;
+
+      padding-left:18px;
+
+      display:flex;
+      flex-direction:column;
+      gap:8px;
+    }
+
+    .learn-list li{
+
+      line-height:1.7;
+
+      font-size:0.9rem;
+
+      opacity:0.9;
+    }
+
+    /* ======================================================
+       QUIZ BOX
+    ====================================================== */
+
+    .quiz-box{
+
+      margin-top:12px;
+
+      padding:14px;
+
+      border-radius:18px;
+
+      background:
+        linear-gradient(
+          135deg,
+          rgba(37,99,235,0.18),
+          rgba(124,58,237,0.18)
+        );
+
+      border:1px solid rgba(255,255,255,0.08);
+    }
+
+    .quiz-question{
+      font-weight:700;
+      margin-bottom:10px;
+    }
+
+    .quiz-answer{
+      opacity:0.9;
+      line-height:1.7;
+    }
+
+    /* ======================================================
+       MEMORY TIP
+    ====================================================== */
+
+    .memory-tip{
+
+      margin-top:12px;
+
+      padding:14px;
+
+      border-radius:16px;
+
+      background:rgba(255,255,255,0.08);
+
+      text-align:center;
+
+      font-size:0.95rem;
+    }
+
+    /* ======================================================
+       RELATED BADGES
+    ====================================================== */
+
+    .related-signs{
+
+      display:flex;
+
+      flex-wrap:wrap;
+
+      gap:10px;
+
+      margin-top:12px;
+    }
+
+    .related-badge{
+
+      padding:10px 14px;
+
+      border-radius:999px;
+
+      background:rgba(255,255,255,0.08);
+
+      border:1px solid rgba(255,255,255,0.08);
+
+      font-size:0.82rem;
+
+      font-weight:600;
+    }
+
+    body.light-mode .related-badge{
+      background:#f3f4f6;
+    }
+
+    /* ======================================================
+       EMPTY
+    ====================================================== */
+
+    .empty{
+
+      display:none;
+
+      text-align:center;
+
+      padding:80px 20px;
+
+      opacity:0.7;
+    }
+
+    /* ======================================================
+       FAB
+    ====================================================== */
+
+    .scroll-top{
+
+      position:fixed;
+
+      right:20px;
+      bottom:20px;
+
+      width:62px;
+      height:62px;
+
+      border-radius:50%;
+
+      background:
+        linear-gradient(
+          135deg,
+          #2563eb,
+          #7c3aed
+        );
+
+      color:#fff;
+
+      font-size:1.3rem;
+
+      display:flex;
+      justify-content:center;
+      align-items:center;
+
+      box-shadow:
+        0 15px 35px rgba(37,99,235,0.4);
+
+      z-index:999;
+
+      transition:0.3s ease;
+    }
+
+    .scroll-top:hover{
+      transform:translateY(-4px);
+    }
+
+    /* ======================================================
+       ANIMATION
+    ====================================================== */
+
+    @keyframes fadeIn{
+
+      from{
+        opacity:0;
+        transform:translateY(12px);
+      }
+
+      to{
+        opacity:1;
+        transform:translateY(0);
+      }
+
+    }
+
+    /* ======================================================
+       MOBILE
+    ====================================================== */
+
+    @media(max-width:768px){
+
+      .hero{
+        padding:28px 20px;
+      }
+
+      .hero-top{
+        flex-direction:column;
+        align-items:stretch;
+      }
+
+        .theme-btn{
+        align-self:flex-end;
+      }
+
+      .grid{
+        grid-template-columns:1fr;
+      }
+
+      .card-top{
+        min-height:160px;
+      }
+
+      .card-top img{
+        width:95px;
+        height:95px;
+      }
+
+      .scroll-top{
+        width:54px;
+        height:54px;
+        right:14px;
+        bottom:14px;
+      }
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <div class="app">
+        <!-- ====================================================== HERO ====================================================== -->
+        <section class="hero">
+
+            <div class="hero-top">
+                <button class="back-btn" onclick="window.location.href='/reviewers'">
+                    ← رجوع
+                </button>
+
+                <div>
+
+                    <h1 class="hero-title">
+                        🇯🇵 مراجعة إشارات المرور اليابانية
+                    </h1>
+
+                    <p class="hero-description">
+                        تعلّم إشارات المرور اليابانية من خلال مراجعة تفاعلية مميزة بأسلوب البطاقات التعليمية.
+                        مثالي للمتعلمين الذين يستعدون لاختبار القيادة الياباني.
+                    </p>
+
+                </div>
+
+                <button class="theme-btn" id="themeToggle">
+                    🌙
+                </button>
+
+            </div>
+
+            <!-- SEARCH -->
+
+            <div class="search-wrapper">
+
+                <span class="search-icon">
+                    🔍
+                </span>
+
+                <input type="text" class="search-input" id="searchInput" placeholder="ابحث عن إشارات المرور اليابانية...">
+
+            </div>
+
+        </section>
+
+        <!-- ======================================================
+     CATEGORY NAVIGATION
+====================================================== -->
+
+        <div class="sticky-nav">
+
+            <div class="tabs">
+
+                <button class="tab active" data-category="All">
+                    الكل
+                </button>
+
+                <button class="tab" data-category="Regulatory Signs">
+                    تنظيمية
+                </button>
+
+                <button class="tab" data-category="Warning Signs">
+                    تحذيرية
+                </button>
+
+                <button class="tab" data-category="Mandatory Signs">
+                    إلزامية
+                </button>
+
+                <button class="tab" data-category="Prohibition Signs">
+                    ممنوعات
+                </button>
+
+                <button class="tab" data-category="Parking & Stopping Signs">
+                    الوقوف والتوقف
+                </button>
+
+                <button class="tab" data-category="Guide Signs">
+                    إرشادية
+                </button>
+
+                <button class="tab" data-category="Expressway Signs">
+                    الطريق السريع
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- ======================================================
+     GRID
+====================================================== -->
+
+        <div class="grid" id="signGrid"></div>
+
+        <!-- EMPTY -->
+
+        <div class="empty" id="emptyState">
+            <h2>
+                لم يتم العثور على إشارات مرور.
+            </h2>
+        </div>
+    </div> 
+    
+    <!-- ======================================================
+      FLOATING BUTTON
+       ====================================================== -->
+
+    <button
+     class="scroll-top"
+      id="scrollTopBtn">
+         ↑
+    </button>
+    <!-- ======================================================
+            JAVASCRIPT
+        ====================================================== -->
+
+        <script>
+
+            /* ======================================================
+             ROAD SIGN DATASET
+              ====================================================== */
+
+            const roadSigns = [{
+                        name_en: "قف",
+                        name_jp: "止まれ",
+                        image: "/static/images/signs/stop.png",
+                        explanation: "يجب على السائقين التوقف الكامل قبل المتابعة.",
+                        category: "Regulatory Signs",
+                        learn_more: {
+                            meaning: "تتطلب هذه الإشارة من السائقين التوقف الكامل قبل دخول التقاطع.",
+                            driver_action: "يجب على السائقين التوقف بالكامل خلف خط التوقف والتحقق بعناية من الاتجاهين قبل التحرك.",
+                            exam_tip: "التوقف غير الكامل يؤدي عادةً إلى خصم كبير في النقاط أثناء اختبارات القيادة اليابانية.",
+                            safety: "عدم التوقف بشكل صحيح قد يسبب تصادمات مع المركبات أو الدراجات أو المشاة.",
+                            real_world: "توجد عادةً في الطرق السكنية والتقاطعات ومعابر السكك الحديدية.",
+                            memory_tip: "المثلث الأحمر المقلوب يعني الانتباه الفوري والتوقف."
+                        }
+                    }, {
+                        name_en: "ممنوع الدخول",
+                        name_jp: "進入禁止",
+                        image: "/static/images/signs/no_entry.png",
+                        explanation: "يُمنع دخول المركبات من هذا الاتجاه.",
+                        category: "Prohibition Signs",
+                        learn_more: {
+                            meaning: "لا يمكن للمركبات الدخول من هذا الاتجاه.",
+                            driver_action: "يجب على السائقين تجنب دخول هذا الطريق فورًا.",
+                            exam_tip: "تظهر كثيرًا في اختبارات القيادة النظرية اليابانية.",
+                            safety: "تجاهل هذه الإشارة قد يسبب تصادمات أمامية.",
+                            real_world: "توجد عادةً في الطرق ذات الاتجاه الواحد ومخارج الطرق السريعة.",
+                            memory_tip: "الدائرة الحمراء ذات المركز الأبيض ترمز إلى منع الدخول."
+                        }
+                    }, {
+                        name_en: "الحد الأقصى للسرعة 40",
+                        name_jp: "最高速度40",
+                        image: "/static/images/signs/speed_40.png",
+                        explanation: "السرعة القانونية القصوى هي 40 كم/ساعة.",
+                        category: "Regulatory Signs",
+                        learn_more: {
+                            meaning: "لا يجوز للسائقين تجاوز 40 كيلومترًا في الساعة.",
+                            driver_action: "حافظ على السرعة أقل من الحد المسموح به.",
+                            exam_tip: "إشارات حدود السرعة شائعة جدًا في الاختبارات النظرية.",
+                            safety: "السرعة الزائدة تزيد من مسافة التوقف وخطر الحوادث.",
+                            real_world: "توجد غالبًا في الطرق الحضرية والمناطق السكنية.",
+                            memory_tip: "الدوائر البيضاء ذات الحدود الحمراء تشير عادةً إلى القوانين والتنظيمات."
+                        }
+                    }, {
+                        name_en: "ممنوع الوقوف",
+                        name_jp: "駐車禁止",
+                        image: "/static/images/signs/no_parking.png",
+                        explanation: "يُمنع الوقوف في هذه المنطقة.",
+                        category: "Parking & Stopping Signs",
+                        learn_more: {
+                            meaning: "لا يمكن للمركبات الوقوف في هذه المنطقة.",
+                            driver_action: "يمكن للسائقين التوقف لفترة قصيرة ولكن لا يمكنهم ترك المركبات متوقفة.",
+                            exam_tip: "قد تسأل الاختبارات عن الفرق بين ممنوع الوقوف وممنوع التوقف.",
+                            safety: "الوقوف غير القانوني قد يعرقل حركة المرور ومركبات الطوارئ.",
+                            real_world: "شائعة جدًا في الطرق اليابانية الضيقة.",
+                            memory_tip: "الخط الأحمر الواحد يعني تقييد الوقوف."
+                        }
+                    }, {
+                        name_en: "ممنوع التوقف",
+                        name_jp: "駐停車禁止",
+                        image: "/static/images/signs/no_stopping.png",
+                        explanation: "يُمنع التوقف والوقوف.",
+                        category: "Parking & Stopping Signs",
+                        learn_more: {
+                            meaning: "لا يمكن للمركبات التوقف أو الوقوف هنا.",
+                            driver_action: "يجب على السائقين الاستمرار في الحركة ما لم توجد حالة طارئة.",
+                            exam_tip: "تمثل هذه الإشارة قواعد أكثر صرامة من ممنوع الوقوف.",
+                            safety: "التوقف هنا قد يسبب عرقلة خطيرة لحركة المرور.",
+                            real_world: "توجد عادةً بالقرب من التقاطعات والطرق المزدحمة.",
+                            memory_tip: "الخطّان الأحمران يعنيان تقييدًا أقوى."
+                        }
+                    },
+                      {
+    name_en:"ممر المشاة أمامك",
+    name_jp:"横断歩道あり",
+    image:"/static/images/signs/pedestrian_crossing_ahead.png",
+    explanation:"يوجد ممر للمشاة أمامك.",
+    category:"Warning Signs",
+
+    learn_more:{
+
+      meaning:
+      "تحذر هذه الإشارة السائقين من وجود ممر للمشاة أمامهم.",
+
+      driver_action:
+      "يجب على السائقين تخفيف السرعة والاستعداد للتوقف للمشاة.",
+
+      exam_tip:
+      "غالبًا ما تختبر الامتحانات اليابانية قواعد أولوية المرور للمشاة.",
+
+      safety:
+      "عدم التوقف للمشاة قد يسبب حوادث خطيرة.",
+
+      real_world:
+      "شائعة جدًا بالقرب من المدارس والمحطات والتقاطعات.",
+
+      memory_tip:
+      "الإشارات الزرقاء التي تحتوي على رموز المشي ترتبط عادةً بالمشاة."
+    }
+  },
+
+  {
+    name_en:"منطقة مدرسية",
+    name_jp:"学校あり",
+    image:"/static/images/signs/school_zone.png",
+    explanation:"توجد منطقة مدرسية أمامك.",
+    category:"Warning Signs",
+
+    learn_more:{
+
+      meaning:
+      "قد يظهر الأطفال أو يعبرون الطريق فجأة بالقرب من الطريق.",
+
+      driver_action:
+      "يجب على السائقين تخفيف السرعة والبقاء في حالة انتباه.",
+
+      exam_tip:
+      "انتبه إلى أسئلة المشاة المخفية المتعلقة بالأطفال.",
+
+      safety:
+      "الأطفال غير متوقعين وقد يعبرون الطريق فجأة.",
+
+      real_world:
+      "شائعة بالقرب من المدارس الابتدائية والمناطق السكنية.",
+
+      memory_tip:
+      "صور الأطفال على الإشارات الصفراء تدل على الحذر بالقرب من المدارس."
+    }
+  },
+
+  {
+    name_en:"معبر سكة حديد",
+    name_jp:"踏切あり",
+    image:"/static/images/signs/railroad_crossing.png",
+    explanation:"يوجد معبر سكة حديد أمامك.",
+    category:"Warning Signs",
+
+    learn_more:{
+
+      meaning:
+      "يوجد معبر للسكك الحديدية يقترب أمامك.",
+
+      driver_action:
+      "يجب على السائقين تخفيف السرعة والتحقق بعناية من وجود قطارات.",
+
+      exam_tip:
+      "تقيّم الاختبارات العملية اليابانية سلوك القيادة عند معابر السكك الحديدية بدقة.",
+
+      safety:
+      "تجاهل قواعد معابر السكك الحديدية قد يؤدي إلى حوادث مميتة.",
+
+      real_world:
+      "شائعة جدًا في ضواحي اليابان والمناطق الريفية.",
+
+      memory_tip:
+      "الإشارات التحذيرية الصفراء التي تحتوي على رمز القطار تدل على معابر السكك الحديدية."
+    }
+  },
+
+  {
+    name_en:"إشارات مرور أمامك",
+    name_jp:"信号機あり",
+    image:"/static/images/signs/traffic_signals.png",
+    explanation:"توجد إشارات مرور أمامك.",
+    category:"Warning Signs",
+
+    learn_more:{
+
+      meaning:
+      "السائقون يقتربون من تقاطع تتحكم فيه إشارات المرور.",
+
+      driver_action:
+      "استعد للتوقف حسب تغيّر إشارات المرور.",
+
+      exam_tip:
+      "قد تتضمن الأسئلة توقيت اتخاذ القرار عند الضوء الأصفر.",
+
+      safety:
+      "ردود الفعل المتأخرة تجاه الإشارات قد تسبب تصادمات.",
+
+      real_world:
+      "توجد قبل التقاطعات والمعابر المزدحمة.",
+
+      memory_tip:
+      "رموز الإشارات تدل على وجود إشارات مرور قادمة."
+    }
+  },
+
+  {
+    name_en:"الطريق يضيق",
+    name_jp:"幅員減少",
+    image:"/static/images/signs/road_narrows.png",
+    explanation:"يصبح الطريق أضيق أمامك.",
+    category:"Warning Signs",
+
+    learn_more:{
+
+      meaning:
+      "عرض الطريق يقل في الأمام.",
+
+      driver_action:
+      "خفف السرعة واستعد لظروف مرور أضيق.",
+
+      exam_tip:
+      "يجب على السائقين الحفاظ على مسافة جانبية آمنة.",
+
+      safety:
+      "الطرق الضيقة تزيد من خطر التصادمات.",
+
+      real_world:
+      "شائعة في الشوارع السكنية اليابانية القديمة.",
+
+      memory_tip:
+      "الخطوط المتقاربة تشير إلى تضييق الطريق."
+    }
+  },
+
+  {
+    name_en:"طريق زلق",
+    name_jp:"すべりやすい",
+    image:"/static/images/signs/slippery_road.png",
+    explanation:"قد يكون الطريق زلقًا.",
+    category:"Warning Signs",
+
+    learn_more:{
+
+      meaning:
+      "قد تقلل حالة الطريق من تماسك الإطارات.",
+
+      driver_action:
+      "يجب على السائقين تخفيف السرعة وتجنب التوجيه المفاجئ.",
+
+      exam_tip:
+      "أسئلة مسافة الكبح الآمنة شائعة في الاختبارات.",
+
+      safety:
+      "الطرق الزلقة تزيد من خطر الانزلاق.",
+
+      real_world:
+      "تظهر غالبًا أثناء الأمطار أو الثلوج.",
+
+      memory_tip:
+      "رموز المركبات المنزلقة تشير إلى الأسطح الزلقة."
+    }
+  },
+    {
+    name_en:"خطر تساقط الصخور",
+    name_jp:"落石のおそれあり",
+    image:"/static/images/signs/falling_rocks.png",
+    explanation:"احذر من تساقط الصخور.",
+    category:"Warning Signs",
+
+    learn_more:{
+
+      meaning:
+      "قد تسقط الصخور من المنحدرات أو الجبال القريبة.",
+
+      driver_action:
+      "يجب على السائقين المرور بحذر وتجنب التوقف بالقرب من المنطقة.",
+
+      exam_tip:
+      "قد تظهر مخاطر الطرق الجبلية في الاختبارات النظرية.",
+
+      safety:
+      "الصخور المتساقطة قد تسبب أضرارًا خطيرة للمركبات.",
+
+      real_world:
+      "شائعة في المناطق الجبلية في اليابان.",
+
+      memory_tip:
+      "رموز الصخور المتساقطة تشير إلى خطر الانهيارات الصخرية."
+    }
+  },
+
+  {
+    name_en:"عبور الحيوانات",
+    name_jp:"動物注意",
+    image:"/static/images/signs/animal_crossing.png",
+    explanation:"قد تعبر الحيوانات الطريق أمامك.",
+    category:"Warning Signs",
+
+    learn_more:{
+
+      meaning:
+      "قد تعبر الحيوانات البرية الطريق فجأة.",
+
+      driver_action:
+      "خفف السرعة وراقب جوانب الطريق بعناية.",
+
+      exam_tip:
+      "قد تتضمن أسئلة الوعي بالمخاطر الحيوانات.",
+
+      safety:
+      "الاصطدام بالحيوانات قد يسبب حوادث خطيرة.",
+
+      real_world:
+      "تظهر في الغابات والطرق الجبلية.",
+
+      memory_tip:
+      "صور الحيوانات تدل على الحذر من الحياة البرية."
+    }
+  },
+
+  {
+    name_en:"ممنوع الالتفاف للخلف",
+    name_jp:"転回禁止",
+    image:"/static/images/signs/no_uturn.png",
+    explanation:"الالتفاف للخلف ممنوع.",
+    category:"Prohibition Signs",
+
+    learn_more:{
+
+      meaning:
+      "لا يُسمح للمركبات بالالتفاف للخلف هنا.",
+
+      driver_action:
+      "تابع السير للأمام وابحث عن مكان قانوني للالتفاف.",
+
+      exam_tip:
+      "أسئلة قيود الالتفاف للخلف شائعة في الاختبارات.",
+
+      safety:
+      "الالتفاف غير القانوني قد يعطل حركة المرور.",
+
+      real_world:
+      "شائعة في الطرق الحضرية المزدحمة.",
+
+      memory_tip:
+      "الدائرة الحمراء مع سهم مشطوب تشير إلى فعل ممنوع."
+    }
+  },
+
+  {
+    name_en:"ممنوع التجاوز",
+    name_jp:"追い越し禁止",
+    image:"/static/images/signs/no_overtaking.png",
+    explanation:"يُمنع تجاوز المركبات الأخرى.",
+    category:"Prohibition Signs",
+
+    learn_more:{
+
+      meaning:
+      "لا يجوز للسائقين تجاوز المركبات التي أمامهم.",
+
+      driver_action:
+      "ابق خلف المركبات الأبطأ حتى انتهاء منطقة المنع.",
+
+      exam_tip:
+      "قد تتضمن الأسئلة قواعد خطوط منتصف الطريق.",
+
+      safety:
+      "التجاوز غير الآمن قد يسبب تصادمات أمامية.",
+
+      real_world:
+      "شائعة في المنعطفات والطرق الضيقة.",
+
+      memory_tip:
+      "رموز السيارتين ترتبط عادةً بقيود التجاوز."
+    }
+  },
+
+  {
+    name_en:"اتجاه واحد",
+    name_jp:"一方通行",
+    image:"/static/images/signs/one_way.png",
+    explanation:"حركة المرور تسير في اتجاه واحد فقط.",
+    category:"Regulatory Signs",
+
+    learn_more:{
+
+      meaning:
+      "يمكن للمركبات السير فقط في الاتجاه الموضح.",
+
+      driver_action:
+      "اتبع اتجاه القيادة المسموح به بعناية.",
+
+      exam_tip:
+      "أسئلة الطرق ذات الاتجاه الواحد شائعة في الاختبارات.",
+
+      safety:
+      "القيادة بعكس الاتجاه خطيرة للغاية.",
+
+      real_world:
+      "شائعة جدًا في الشوارع الحضرية اليابانية.",
+
+      memory_tip:
+      "الأسهم الاتجاهية تظهر اتجاه السير المسموح به."
+    }
+  },
+
+  {
+    name_en:"طريق سريع",
+    name_jp:"高速道路",
+    image:"/static/images/signs/expressway.png",
+    explanation:"يبدأ الطريق السريع أمامك.",
+    category:"Expressway Signs",
+
+    learn_more:{
+
+      meaning:
+      "السائقون سيدخلون طريقًا سريعًا.",
+
+      driver_action:
+      "قم بزيادة السرعة بأمان وادخل إلى المسار بشكل صحيح.",
+
+      exam_tip:
+      "قواعد دخول الطرق السريعة مهمة في اختبارات القيادة.",
+
+      safety:
+      "الاندماج غير الصحيح قد يسبب حوادث بسرعات عالية.",
+
+      real_world:
+      "توجد عند مداخل الطرق السريعة.",
+
+      memory_tip:
+      "الإشارات الخضراء ترتبط عادةً بالطرق السريعة."
+    }
+  },
+    {
+    name_en:"مخرج الطريق السريع",
+    name_jp:"出口",
+    image:"/static/images/signs/expressway_exit.png",
+    explanation:"يوجد مخرج للطريق السريع أمامك.",
+    category:"Expressway Signs",
+
+    learn_more:{
+
+      meaning:
+      "السائقون يقتربون من مخرج الطريق السريع.",
+
+      driver_action:
+      "انتقل إلى مسار الخروج الصحيح في أقرب وقت ممكن.",
+
+      exam_tip:
+      "الحفاظ على موضع المسار الصحيح مهم في الاختبارات العملية.",
+
+      safety:
+      "تغيير المسار المتأخر قد يكون خطيرًا.",
+
+      real_world:
+      "توجد في جميع الطرق السريعة اليابانية.",
+
+      memory_tip:
+      "أسهم الخروج تشير إلى مخارج الطرق السريعة."
+    }
+  },
+
+  {
+    name_en:"منطقة وقوف",
+    name_jp:"駐車場",
+    image:"/static/images/signs/parking_area.png",
+    explanation:"توجد منطقة وقوف قريبة.",
+    category:"Guide Signs",
+
+    learn_more:{
+
+      meaning:
+      "تتوفر مواقف سيارات في المنطقة القريبة.",
+
+      driver_action:
+      "يجب على السائقين الوقوف فقط في المناطق المخصصة.",
+
+      exam_tip:
+      "قواعد الوقوف مهمة في اختبارات القيادة العملية.",
+
+      safety:
+      "الوقوف غير الصحيح قد يعيق الطرق وممرات الطوارئ.",
+
+      real_world:
+      "شائعة بالقرب من المناطق التجارية والمحطات.",
+
+      memory_tip:
+      "الإشارات الزرقاء التي تحتوي على الحرف P تدل على مواقف السيارات."
+    }
+  },
+
+  /* ======================================================
+     ADDITIONAL UNIQUE JAPANESE ROAD SIGNS
+     NO DUPLICATES
+     ADD BELOW YOUR EXISTING roadSigns ARRAY
+  ====================================================== */
+
+  {
+    name_en:"ابقَ على اليسار",
+    name_jp:"左側通行",
+    image:"/static/images/signs/keep_left.png",
+    explanation:"يجب على السائقين البقاء في الجانب الأيسر من الطريق.",
+    category:"Mandatory Signs",
+
+    learn_more:{
+
+      meaning:
+      "يجب على المركبات السير على الجانب الأيسر من الطريق.",
+
+      driver_action:
+      "يجب على السائقين البقاء في اليسار وتجنب دخول المسار المعاكس.",
+
+      exam_tip:
+      "اليابان تعتمد القيادة على اليسار وغالبًا ما يظهر ذلك في الاختبارات.",
+
+      safety:
+      "القيادة في المسار الخاطئ قد تسبب تصادمات أمامية.",
+
+      real_world:
+      "شائعة بالقرب من الجزر الوسطية والطرق الضيقة.",
+
+      memory_tip:
+      "الإشارات الدائرية الزرقاء تشير عادةً إلى أفعال إلزامية."
+    }
+  },
+
+  {
+    name_en:"ابقَ على اليمين",
+    name_jp:"右側通行",
+    image:"/static/images/signs/keep_right.png",
+    explanation:"يجب على السائقين البقاء في الجانب الأيمن من الطريق.",
+    category:"Mandatory Signs",
+
+    learn_more:{
+
+      meaning:
+      "يجب على السائقين المرور من الجانب الأيمن للعائق أو اتباع الاتجاه الأيمن.",
+
+      driver_action:
+      "مرّ بحذر من الجانب الأيمن كما هو موضح.",
+
+      exam_tip:
+      "تظهر كثيرًا في أسئلة التحكم بالمسار.",
+
+      safety:
+      "تجاهل إشارات الاتجاه قد يعطل تدفق المرور.",
+
+      real_world:
+      "تُرى بالقرب من مناطق البناء والجزر الوسطية.",
+
+      memory_tip:
+      "الأسهم الاتجاهية تدل على اتجاه القيادة الإلزامي."
+    }
+  },
+
+  {
+    name_en:"السير مستقيم فقط",
+    name_jp:"直進のみ",
+    image:"/static/images/signs/straight_only.png",
+    explanation:"يجب على المركبات السير بشكل مستقيم.",
+    category:"Mandatory Signs",
+
+    learn_more:{
+
+      meaning:
+      "الانعطاف غير مسموح ويجب على السائقين الاستمرار بشكل مستقيم فقط.",
+
+      driver_action:
+      "ابقَ في المسار الحالي واستمر مستقيمًا فقط.",
+
+      exam_tip:
+      "أسئلة قيود الاتجاه شائعة جدًا في الاختبارات.",
+
+      safety:
+      "الانعطافات المفاجئة قد تسبب تصادمات مع حركة المرور المحيطة.",
+
+      real_world:
+      "شائعة في التقاطعات المزدحمة.",
+
+      memory_tip:
+      "الأسهم المتجهة للأعلى تعني السير مستقيمًا فقط."
+    }
+  },
+
+  {
+    name_en:"للمشاة فقط",
+    name_jp:"歩行者専用",
+    image:"/static/images/signs/pedestrian_only.png",
+    explanation:"هذا الطريق مخصص للمشاة فقط.",
+    category:"Mandatory Signs",
+
+    learn_more:{
+
+      meaning:
+      "يُسمح فقط للمشاة بدخول هذه المنطقة.",
+
+      driver_action:
+      "يجب على السائقين تجنب دخول مناطق المشاة فقط.",
+
+      exam_tip:
+      "انتبه إلى قواعد سلامة المشاة.",
+
+      safety:
+      "دخول المركبات قد يعرّض المشاة للخطر.",
+
+      real_world:
+      "شائعة بالقرب من شوارع التسوق والمحطات.",
+
+      memory_tip:
+      "رموز المشي تشير إلى مناطق المشاة."
+    }
+  },
+    {
+    name_en:"مسار الدراجات",
+    name_jp:"自転車専用",
+    image:"/static/images/signs/bicycle_lane.png",
+    explanation:"هذا المسار مخصص للدراجات.",
+    category:"Mandatory Signs",
+
+    learn_more:{
+
+      meaning:
+      "هذا المسار مخصص حصريًا للدراجات.",
+
+      driver_action:
+      "يجب على السائقين عدم دخول أو إعاقة مسار الدراجات.",
+
+      exam_tip:
+      "قد تتضمن الأسئلة سلامة مسارات الدراجات.",
+
+      safety:
+      "إعاقة مسارات الدراجات تعرض راكبي الدراجات للخطر.",
+
+      real_world:
+      "شائعة في الشوارع الحضرية وبالقرب من المدارس.",
+
+      memory_tip:
+      "رموز الدراجات تشير إلى أولوية راكبي الدراجات."
+    }
+  },
+
+  {
+    name_en:"مسار مشترك",
+    name_jp:"歩行者自転車専用",
+    image:"/static/images/signs/shared_path.png",
+    explanation:"مسار مشترك للدراجات والمشاة.",
+    category:"Mandatory Signs",
+
+    learn_more:{
+
+      meaning:
+      "المشاة وراكبو الدراجات يتشاركون هذا المسار.",
+
+      driver_action:
+      "يجب على المركبات تجنب دخول هذه المنطقة.",
+
+      exam_tip:
+      "انتبه إلى إشارات المسارات المشتركة في الاختبارات النظرية.",
+
+      safety:
+      "يجب على السائقين توخي الحذر بالقرب من المسارات المشتركة.",
+
+      real_world:
+      "توجد غالبًا بالقرب من الحدائق والأنهار.",
+
+      memory_tip:
+      "الرموز المشتركة للمشاة والدراجات تدل على الاستخدام المشترك."
+    }
+  },
+
+  {
+    name_en:"دوّار",
+    name_jp:"環状交差点",
+    image:"/static/images/signs/roundabout.png",
+    explanation:"تتحرك المركبات بشكل دائري في الدوّار.",
+    category:"Mandatory Signs",
+
+    learn_more:{
+
+      meaning:
+      "يجب على السائقين التحرك بشكل دائري حول التقاطع.",
+
+      driver_action:
+      "أعطِ الأولوية بشكل صحيح واتبع حركة الدوّار.",
+
+      exam_tip:
+      "تظهر قواعد الدوّارات بشكل متزايد في الاختبارات.",
+
+      safety:
+      "الدخول غير الصحيح إلى الدوّار قد يسبب تصادمات جانبية.",
+
+      real_world:
+      "توجد في التقاطعات الحديثة في أنحاء اليابان.",
+
+      memory_tip:
+      "الأسهم الدائرية تشير إلى الحركة المستمرة بشكل دائري."
+    }
+  },
+
+  {
+    name_en:"السرعة الدنيا",
+    name_jp:"最低速度",
+    image:"/static/images/signs/minimum_speed.png",
+    explanation:"يجب على السائقين الحفاظ على السرعة المحددة على الأقل.",
+    category:"Regulatory Signs",
+
+    learn_more:{
+
+      meaning:
+      "لا يجوز للمركبات السير بسرعة أقل من السرعة المعروضة.",
+
+      driver_action:
+      "حافظ على تدفق حركة المرور وتجنب القيادة البطيئة جدًا.",
+
+      exam_tip:
+      "إشارات الحد الأدنى للسرعة شائعة في الطرق السريعة.",
+
+      safety:
+      "القيادة البطيئة جدًا قد تسبب عرقلة وزيادة خطر التصادمات.",
+
+      real_world:
+      "توجد بشكل أساسي في الطرق السريعة.",
+
+      memory_tip:
+      "الإشارات الدائرية الزرقاء التي تحتوي على أرقام تشير عادةً إلى متطلبات الحد الأدنى."
+    }
+  },
+
+  {
+    name_en:"أعطِ الأفضلية",
+    name_jp:"徐行・譲れ",
+    image:"/static/images/signs/yield.png",
+    explanation:"يجب على السائقين إعطاء الأولوية للمركبات الأخرى.",
+    category:"Regulatory Signs",
+
+    learn_more:{
+
+      meaning:
+      "يجب على السائقين تخفيف السرعة وإعطاء الأولوية لحركة المرور المتقاطعة.",
+
+      driver_action:
+      "استعد للتوقف إذا لزم الأمر وتحقق بعناية.",
+
+      exam_tip:
+      "يتم تقييم سلوك إعطاء الأفضلية بدقة في الاختبارات العملية.",
+
+      safety:
+      "عدم إعطاء الأفضلية قد يسبب حوادث عند التقاطعات.",
+
+      real_world:
+      "توجد غالبًا عند التقاطعات الصغيرة.",
+
+      memory_tip:
+      "الإشارات المثلثة المقلوبة تدل عادةً على الحذر أو إعطاء الأفضلية."
+    }
+  },
+
+  {
+    name_en:"نفق",
+    name_jp:"トンネル",
+    image:"/static/images/signs/tunnel.png",
+    explanation:"يوجد نفق أمامك.",
+    category:"Guide Signs",
+
+    learn_more:{
+
+      meaning:
+      "السائقون يدخلون منطقة نفق.",
+
+      driver_action:
+      "شغّل المصابيح الأمامية إذا لزم الأمر وحافظ على مسافة آمنة.",
+
+      exam_tip:
+      "قد تظهر أسئلة سلامة الأنفاق في الاختبارات.",
+
+      safety:
+      "تتغير الرؤية بسرعة عند دخول الأنفاق.",
+
+      real_world:
+      "شائعة في المناطق الجبلية في اليابان.",
+
+      memory_tip:
+      "رموز الأنفاق تدل على مقاطع الطرق المغلقة."
+    }
+  },
+    {
+    name_en:"مستشفى",
+    name_jp:"病院",
+    image:"/static/images/signs/hospital.png",
+    explanation:"يوجد مستشفى قريب.",
+    category:"Guide Signs",
+
+    learn_more:{
+
+      meaning:
+      "توجد منشأة طبية في المنطقة القريبة.",
+
+      driver_action:
+      "قد بحذر وانتبه لسيارات الإسعاف والمشاة.",
+
+      exam_tip:
+      "التعرف على مركبات الطوارئ مهم في الاختبارات.",
+
+      safety:
+      "غالبًا ما تشهد مناطق المستشفيات حركة مشاة كثيفة.",
+
+      real_world:
+      "شائعة في المناطق الحضرية والضواحي.",
+
+      memory_tip:
+      "الرموز التي تحتوي على الحرف H تدل عادةً على المستشفيات."
+    }
+  },
+
+  {
+    name_en:"محطة وقود",
+    name_jp:"ガソリンスタンド",
+    image:"/static/images/signs/gas_station.png",
+    explanation:"توجد محطة وقود قريبة.",
+    category:"Guide Signs",
+
+    learn_more:{
+
+      meaning:
+      "تتوفر خدمات التزود بالوقود في المنطقة القريبة.",
+
+      driver_action:
+      "يمكن للسائقين الاستعداد للتزود بالوقود.",
+
+      exam_tip:
+      "تساعد الإشارات الإرشادية السائقين على التنقل بكفاءة.",
+
+      safety:
+      "توخَّ الحذر عند الدخول إلى محطات الوقود والخروج منها.",
+
+      real_world:
+      "شائعة جدًا على الطرق السريعة والشوارع الحضرية.",
+
+      memory_tip:
+      "رموز مضخات الوقود تشير إلى محطات الوقود."
+    }
+  },
+
+  {
+    name_en:"مطعم",
+    name_jp:"レストラン",
+    image:"/static/images/signs/restaurant.png",
+    explanation:"يوجد مطعم قريب.",
+    category:"Guide Signs",
+
+    learn_more:{
+
+      meaning:
+      "تتوفر خدمات الطعام في المنطقة القريبة.",
+
+      driver_action:
+      "يمكن للسائقين التوقف بأمان لتناول الطعام أو الراحة.",
+
+      exam_tip:
+      "التعرف على الإشارات الإرشادية مفيد لأسئلة الملاحة.",
+
+      safety:
+      "لا تقد أثناء التشتت أثناء البحث عن المطاعم.",
+
+      real_world:
+      "توجد غالبًا بالقرب من الطرق السريعة والمناطق السياحية.",
+
+      memory_tip:
+      "رموز الشوكة والسكين تشير إلى أماكن تناول الطعام."
+    }
+  },
+
+  {
+    name_en:"فندق",
+    name_jp:"ホテル",
+    image:"/static/images/signs/hotel.png",
+    explanation:"يوجد فندق قريب.",
+    category:"Guide Signs",
+
+    learn_more:{
+
+      meaning:
+      "تتوفر أماكن إقامة في المنطقة القريبة.",
+
+      driver_action:
+      "يمكن للسائقين استخدام الفنادق للراحة أثناء الرحلات الطويلة.",
+
+      exam_tip:
+      "قد تظهر أنواع الإشارات الإرشادية في أسئلة التصنيف.",
+
+      safety:
+      "يجب على السائقين المتعبين التفكير في أخذ قسط من الراحة.",
+
+      real_world:
+      "توجد غالبًا بالقرب من الوجهات السياحية.",
+
+      memory_tip:
+      "رموز السرير تشير عادةً إلى أماكن الإقامة."
+    }
+  },
+
+  /* ======================================================
+     ADDITIONAL COMMONLY SEEN JAPANESE ROAD SIGNS
+     NO DUPLICATES
+     ADD BELOW YOUR EXISTING roadSigns ARRAY
+  ====================================================== */
+
+  {
+    name_en:"ممنوع مرور المشاة",
+    name_jp:"歩行者通行止め",
+    image:"/static/images/signs/no_pedestrians.png",
+    explanation:"يُمنع دخول المشاة.",
+    category:"Prohibition Signs",
+
+    learn_more:{
+
+      meaning:
+      "لا يُسمح للمشاة بدخول هذه المنطقة.",
+
+      driver_action:
+      "يجب على السائقين الانتباه إلى مناطق الدخول الممنوع للمشاة.",
+
+      exam_tip:
+      "قد تسأل الاختبارات عن الأشخاص الممنوعين من الدخول.",
+
+      safety:
+      "تساعد مناطق حظر المشاة في منع الحوادث.",
+
+      real_world:
+      "توجد غالبًا على الطرق السريعة والطرق المخصصة للمركبات فقط.",
+
+      memory_tip:
+      "الدوائر الحمراء التي تحتوي على رموز الأشخاص تدل عادةً على قيود المشاة."
+    }
+  },
+
+  {
+    name_en:"ممنوع مرور الدراجات النارية",
+    name_jp:"二輪車通行止め",
+    image:"/static/images/signs/no_motorcycles.png",
+    explanation:"يُمنع دخول الدراجات النارية.",
+    category:"Prohibition Signs",
+
+    learn_more:{
+
+      meaning:
+      "لا يمكن للدراجات النارية استخدام هذا الطريق.",
+
+      driver_action:
+      "يجب على سائقي الدراجات النارية العثور على طريق بديل مسموح به.",
+
+      exam_tip:
+      "تظهر إشارات تصنيف المركبات كثيرًا في الاختبارات.",
+
+      safety:
+      "قد تُستخدم القيود بسبب ظروف الطريق الخطرة.",
+
+      real_world:
+      "شائعة في الأنفاق والمناطق السكنية.",
+
+      memory_tip:
+      "رموز الدراجات النارية داخل الدوائر الحمراء تشير إلى المنع."
+    }
+  },
+    {
+    name_en:"ممنوع الانعطاف إلى اليمين",
+    name_jp:"右折禁止",
+    image:"/static/images/signs/no_right_turn.png",
+    explanation:"يُمنع الانعطاف إلى اليمين في هذا الموقع.",
+    category:"Prohibition Signs",
+
+    learn_more:{
+
+      meaning:
+      "لا يجوز للسائقين الانعطاف إلى اليمين عند هذا التقاطع أو الطريق.",
+
+      driver_action:
+      "تابع السير مباشرة أو استخدم طريقًا قانونيًا آخر لتغيير الاتجاه.",
+
+      exam_tip:
+      "إشارات تقييد الاتجاه شائعة جدًا في اختبارات القيادة النظرية اليابانية.",
+
+      safety:
+      "الانعطاف غير القانوني إلى اليمين قد يعطل المركبات والدراجات والمشاة العابرين.",
+
+      real_world:
+      "شائعة جدًا في التقاطعات المزدحمة والشوارع الضيقة.",
+
+      memory_tip:
+      "الخطوط الحمراء فوق الأسهم تشير دائمًا إلى اتجاه ممنوع."
+    }
+  },
+
+  {
+    name_en:"ممنوع الانعطاف إلى اليسار",
+    name_jp:"左折禁止",
+    image:"/static/images/signs/no_left_turn.png",
+    explanation:"يُمنع الانعطاف إلى اليسار في هذا الموقع.",
+    category:"Prohibition Signs",
+
+    learn_more:{
+
+      meaning:
+      "لا يجوز للسائقين الانعطاف إلى اليسار في هذا الجزء من الطريق أو التقاطع.",
+
+      driver_action:
+      "اتبع الاتجاه المسموح به واستخدم نقطة انعطاف قانونية أخرى في الأمام.",
+
+      exam_tip:
+      "انتبه جيدًا إلى قيود الاتجاه الخاصة بالمسارات أثناء الاختبارات.",
+
+      safety:
+      "الانعطاف غير القانوني إلى اليسار قد يربك حركة المرور المحيطة ويزيد من خطر الحوادث.",
+
+      real_world:
+      "تُستخدم غالبًا في تنظيم المرور الحضري والتقاطعات الضيقة.",
+
+      memory_tip:
+      "الأسهم ذات الخطوط الحمراء المانعة تشير إلى الأفعال المحظورة."
+    }
+  },
+
+  {
+    name_en:"إشارة يدوية مطلوبة",
+    name_jp:"手信号",
+    image:"/static/images/signs/hand_signal.png",
+    explanation:"قد يحتاج السائقون إلى استخدام الإشارات اليدوية إذا تعطلت إشارات الانعطاف.",
+    category:"Regulatory Signs",
+
+    learn_more:{
+
+      meaning:
+      "يجب على السائقين فهم الإشارات اليدوية اليابانية الرسمية المستخدمة أثناء الطوارئ أو تعطل المعدات.",
+
+      driver_action:
+      "استخدم الإشارات اليدوية الصحيحة إذا كانت إشارات الانعطاف الإلكترونية أو أضواء الفرامل لا تعمل.",
+
+      exam_tip:
+      "قد تتضمن اختبارات القيادة اليابانية أسئلة حول الإشارات اليدوية للدراجات النارية والدراجات الهوائية وحالات الطوارئ.",
+
+      safety:
+      "تساعد الإشارات اليدوية الصحيحة السائقين المحيطين على فهم نواياك بوضوح.",
+
+      real_world:
+      "مهمة للدراجات النارية والدراجات الهوائية وحالات الطوارئ وأعطال الإشارات.",
+
+      memory_tip:
+      "تعمل الإشارات اليدوية كوسيلة تواصل بديلة عندما لا تعمل إشارات المركبة العادية."
+    }
+  },
+
+  {
+    name_en:"إشارة يدوية للانعطاف إلى اليمين",
+    name_jp:"右折の手信号",
+    image:"/static/images/signs/right_turn_hand_signal.png",
+    explanation:"إشارة يدوية تُستخدم للدلالة على الانعطاف إلى اليمين.",
+    category:"Regulatory Signs",
+
+    learn_more:{
+
+      meaning:
+      "يقوم السائقون بمد الذراع اليمنى أفقيًا أو بثني الذراع اليسرى للأعلى للإشارة إلى الانعطاف إلى اليمين.",
+
+      driver_action:
+      "يجب على المركبات القريبة الاستعداد لأن المركبة ستخفف سرعتها وتنعطف إلى اليمين.",
+
+      exam_tip:
+      "قد تظهر الإشارات اليدوية الخاصة بالدراجات النارية والدراجات الهوائية في الاختبارات النظرية.",
+
+      safety:
+      "الإشارات الواضحة تساعد في تقليل الارتباك والتصادمات الجانبية.",
+
+      real_world:
+      "تُستخدم غالبًا عندما تكون إشارات الانعطاف معطلة أو أثناء ركوب الدراجات.",
+
+      memory_tip:
+      "الذراع الممتدة نحو اليمين تعني أن المركبة ستنعطف إلى اليمين."
+    }
+  },
+
+  {
+    name_en:"إشارة يدوية للانعطاف إلى اليسار",
+    name_jp:"左折の手信号",
+    image:"/static/images/signs/left_turn_hand_signal.png",
+    explanation:"إشارة يدوية تُستخدم للدلالة على الانعطاف إلى اليسار.",
+    category:"Regulatory Signs",
+
+    learn_more:{
+
+      meaning:
+      "يقوم السائقون بمد الذراع اليسرى أفقيًا للإشارة إلى الانعطاف إلى اليسار.",
+
+      driver_action:
+      "يجب على حركة المرور المحيطة الاستعداد لحركة انعطاف المركبة.",
+
+      exam_tip:
+      "تُعد هذه واحدة من أكثر الإشارات اليدوية التي يتم تعليمها في مدارس القيادة.",
+
+      safety:
+      "إعطاء الإشارة مبكرًا يزيد من وعي السائقين الآخرين ويقلل الحوادث.",
+
+      real_world:
+      "تُدرّس عادةً لراكبي الدراجات الهوائية والدراجات النارية.",
+
+      memory_tip:
+      "الذراع اليسرى الممتدة بشكل مستقيم تعني الانعطاف إلى اليسار."
+    }
+  },
+
+  {
+    name_en:"إشارة يدوية للتوقف",
+    name_jp:"停止の手信号",
+    image:"/static/images/signs/stop_hand_signal.png",
+    explanation:"إشارة يدوية تُستخدم للدلالة على التوقف أو تخفيف السرعة.",
+    category:"Regulatory Signs",
+
+    learn_more:{
+
+      meaning:
+      "يشير السائقون باليد إلى الأسفل للدلالة على التوقف أو تخفيف السرعة.",
+
+      driver_action:
+      "يجب على السائقين خلف المركبة الاستعداد للفرملة بأمان.",
+
+      exam_tip:
+      "إشارات التوقف اليدوية مهمة للدراجات الهوائية والدراجات النارية.",
+
+      safety:
+      "تساعد هذه الإشارة في منع التصادمات الخلفية.",
+
+      real_world:
+      "تُستخدم أثناء حالات الطوارئ أو عند تعطل أضواء الفرامل.",
+
+      memory_tip:
+      "حركة اليد إلى الأسفل تعني التوقف أو التباطؤ."
+    }
+  },
+
+];
+/* ======================================================
+   DUPLICATE FOR DEMO
+====================================================== */
+
+const fullSigns = [...roadSigns];
+
+/* ======================================================
+   ELEMENTS
+====================================================== */
+
+const signGrid =
+  document.getElementById("signGrid");
+
+const searchInput =
+  document.getElementById("searchInput");
+
+const tabs =
+  document.querySelectorAll(".tab");
+
+const emptyState =
+  document.getElementById("emptyState");
+
+let currentCategory = "All";
+
+/* ======================================================
+   EDUCATIONAL CONTENT
+====================================================== */
+
+function generateEducationalContent(sign){
+
+  const info =
+    sign.learn_more || {};
+
+  return `
+
+    <div class="learn-box">
+
+      <div class="learn-section">
+
+        <h4>
+          📘 معنى الإشارة
+        </h4>
+
+        <p>
+          ${info.meaning || sign.explanation}
+        </p>
+
+      </div>
+
+      <div class="learn-section">
+
+        <h4>
+          🚗 إجراء السائق
+        </h4>
+
+        <p>
+          ${info.driver_action || "يجب على السائقين اتباع هذه الإشارة بعناية."}
+        </p>
+
+      </div>
+
+      <div class="learn-section">
+
+        <h4>
+          🧠 نصيحة لاختبار القيادة
+        </h4>
+
+        <p>
+          ${info.exam_tip || "قد تظهر هذه الإشارة في اختبارات القيادة اليابانية."}
+        </p>
+
+      </div>
+
+      <div class="learn-section">
+
+        <h4>
+          ⚠️ تذكير بالسلامة
+        </h4>
+
+        <p>
+          ${info.safety || "تجاهل هذه الإشارة قد يسبب مواقف خطيرة."}
+        </p>
+
+      </div>
+
+      <div class="learn-section">
+
+        <h4>
+          🌏 موقف قيادة حقيقي
+        </h4>
+
+        <p>
+          ${info.real_world || "تظهر هذه الإشارة عادةً على الطرق اليابانية."}
+        </p>
+
+      </div>
+
+      <div class="learn-section">
+
+        <h4>
+          💡 نصيحة للتذكر
+        </h4>
+
+        <p>
+          ${info.memory_tip || "حاول تذكر شكل الإشارة ولونها."}
+        </p>
+
+      </div>
+
+      <div class="learn-section">
+
+        <h4>
+          📝 سؤال شائع في الاختبار
+        </h4>
+
+        <div class="quiz-box">
+
+          <p class="quiz-question">
+            “ماذا يجب على السائق أن يفعل عند رؤية هذه الإشارة؟”
+          </p>
+
+          <p class="quiz-answer">
+            يجب على السائق اتباع القاعدة
+            أو التعليمات أو التحذير الموضح في الإشارة بشكل صحيح.
+          </p>
+
+        </div>
+
+      </div>
+
+      <div class="learn-section">
+
+        <h4>
+          🔗 مواضيع ذات صلة
+        </h4>
+
+        <div class="related-signs">
+
+          <span class="related-badge">
+            اختبار القيادة الياباني
+          </span>
+
+          <span class="related-badge">
+            قوانين المرور
+          </span>
+
+          <span class="related-badge">
+            السلامة على الطرق
+          </span>
+
+          <span class="related-badge">
+            الوعي أثناء القيادة
+          </span>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  `;
+
+}
+/* ======================================================
+       RENDER
+    ====================================================== */
+
+    function renderSigns(){
+
+      const search =
+        searchInput.value.toLowerCase();
+
+      const filtered = fullSigns.filter(sign => {
+
+        const matchesCategory =
+
+          currentCategory === "All" ||
+
+          sign.category === currentCategory;
+
+        const matchesSearch =
+
+          sign.name_en.toLowerCase().includes(search) ||
+
+          sign.name_jp.includes(search) ||
+
+          sign.explanation.toLowerCase().includes(search);
+
+        return matchesCategory && matchesSearch;
+
+      });
+
+      signGrid.innerHTML = "";
+
+      if(filtered.length === 0){
+
+        emptyState.style.display = "block";
+
+      }else{
+
+        emptyState.style.display = "none";
+
+      }
+
+      filtered.forEach(sign => {
+
+        const card =
+          document.createElement("div");
+
+        card.className = "card";
+
+        card.innerHTML = `
+
+          <div class="card-top">
+
+            <img
+                src="${sign.image}"
+                alt="${sign.name_en}"
+                loading="lazy"
+                onerror="this.src='/static/images/signs/placeholder.png'"
+            />
+
+          </div>
+
+          <div class="card-body">
+
+            <div class="category">
+              ${sign.category}
+            </div>
+
+            <h3 class="sign-title">
+              ${sign.name_en}
+            </h3>
+
+            <div class="sign-jp">
+              ${sign.name_jp}
+            </div>
+
+            <p class="description">
+              ${sign.explanation}
+            </p>
+
+            <button class="expand-btn">
+              Learn More
+            </button>
+
+            <div class="extra">
+
+              ${generateEducationalContent(sign)}
+
+            </div>
+
+          </div>
+
+        `;
+
+        const expandBtn =
+          card.querySelector(".expand-btn");
+
+        const extra =
+          card.querySelector(".extra");
+
+        expandBtn.addEventListener("click", () => {
+
+          extra.classList.toggle("open");
+
+          expandBtn.innerText =
+
+            extra.classList.contains("open")
+
+            ? "إخفاء التفاصيل"
+
+            : "عرض التفاصيل";
+
+        });
+
+        signGrid.appendChild(card);
+
+      });
+
+    }
+
+    /* ======================================================
+       SEARCH
+    ====================================================== */
+
+    searchInput.addEventListener(
+      "input",
+      renderSigns
+    );
+
+    /* ======================================================
+       FILTER TABS
+    ====================================================== */
+
+    tabs.forEach(tab => {
+
+      tab.addEventListener("click", () => {
+
+        tabs.forEach(t =>
+          t.classList.remove("active")
+        );
+
+        tab.classList.add("active");
+
+        currentCategory =
+          tab.dataset.category;
+
+        renderSigns();
+
+      });
+
+    });
+
+    /* ======================================================
+       DARK MODE
+    ====================================================== */
+
+    const themeToggle =
+      document.getElementById("themeToggle");
+
+    themeToggle.addEventListener("click", () => {
+
+      document.body.classList.toggle(
+        "light-mode"
+      );
+
+      if(
+        document.body.classList.contains(
+          "light-mode"
+        )
+      ){
+
+        themeToggle.innerHTML = "☀️";
+
+      }else{
+
+        themeToggle.innerHTML = "🌙";
+
+      }
+
+    });
+
+    /* ======================================================
+       SCROLL TO TOP
+    ====================================================== */
+
+    const scrollTopBtn =
+      document.getElementById("scrollTopBtn");
+
+    scrollTopBtn.addEventListener("click", () => {
+
+      window.scrollTo({
+        top:0,
+        behavior:"smooth"
+      });
+
+    });
+
+    /* ======================================================
+       INITIAL RENDER
+    ====================================================== */
+
+    renderSigns();
+
+  </script>
+
+</body>
+</html>
+                    

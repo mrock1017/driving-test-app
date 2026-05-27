@@ -1,0 +1,2593 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+
+    <!-- ======================================================
+       META
+  ====================================================== -->
+
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>
+        Japan Driving Test Master
+    </title>
+
+    <!-- ======================================================
+       GOOGLE FONT
+  ====================================================== -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- ======================================================
+       CSS
+  ====================================================== -->
+
+    <style>
+        /* ======================================================
+       RESET
+    ====================================================== */
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+
+            font-family: 'Inter', sans-serif;
+
+            background:
+                radial-gradient(circle at top left, #1d4ed8 0%, transparent 25%),
+                radial-gradient(circle at top right, #7c3aed 0%, transparent 25%),
+                linear-gradient(180deg, #071120 0%, #0d1728 100%);
+
+            color: #fff;
+
+            min-height: 100vh;
+
+            overflow-x: hidden;
+
+            transition: 0.35s ease;
+        }
+
+        body.light-mode {
+
+            background:
+                radial-gradient(circle at top left, #dbeafe 0%, transparent 25%),
+                radial-gradient(circle at top right, #ede9fe 0%, transparent 25%),
+                linear-gradient(180deg, #f8fbff 0%, #eef2ff 100%);
+
+            color: #111827;
+        }
+
+        img {
+            display: block;
+            max-width: 100%;
+        }
+
+        button {
+            border: none;
+            outline: none;
+            cursor: pointer;
+            font-family: inherit;
+        }
+
+        /* ======================================================
+       APP
+    ====================================================== */
+
+        .app {
+            width: 100%;
+            max-width: 1500px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        /* ======================================================
+       HERO
+    ====================================================== */
+
+        .hero {
+
+            position: relative;
+
+            overflow: hidden;
+
+            border-radius: 34px;
+
+            padding: 34px 26px;
+
+            margin-bottom: 24px;
+
+            background: rgba(255, 255, 255, 0.08);
+
+            backdrop-filter: blur(18px);
+
+            border: 1px solid rgba(255, 255, 255, 0.12);
+
+            box-shadow:
+                0 12px 40px rgba(0, 0, 0, 0.28),
+                inset 0 1px 1px rgba(255, 255, 255, 0.08);
+        }
+
+        body.light-mode .hero {
+            background: rgba(255, 255, 255, 0.78);
+        }
+
+        .hero-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .hero-title {
+
+            font-size:
+                clamp(2.2rem, 5vw, 4.6rem);
+
+            line-height: 1.05;
+
+            font-weight: 800;
+
+            margin-bottom: 14px;
+        }
+
+        .hero-description {
+
+            max-width: 760px;
+
+            line-height: 1.9;
+
+            opacity: 0.92;
+
+            font-size: 1rem;
+        }
+
+        /* ======================================================
+       THEME BUTTON
+    ====================================================== */
+
+        .theme-btn {
+
+            width: 58px;
+            height: 58px;
+
+            border-radius: 18px;
+
+            background: rgba(255, 255, 255, 0.1);
+
+            backdrop-filter: blur(12px);
+
+            border: 1px solid rgba(255, 255, 255, 0.12);
+
+            color: #fff;
+
+            font-size: 1.2rem;
+
+            transition: 0.3s ease;
+        }
+
+        body.light-mode .theme-btn {
+            background: #fff;
+            color: #111827;
+        }
+
+        .theme-btn:hover {
+            transform: translateY(-3px);
+        }
+
+        .back-btn {
+
+            padding: 14px 20px;
+
+            border-radius: 18px;
+
+            background: rgba(255, 255, 255, 0.1);
+
+            backdrop-filter: blur(12px);
+
+            border: 1px solid rgba(255, 255, 255, 0.12);
+
+            color: #fff;
+
+            font-weight: 700;
+
+            transition: 0.3s ease;
+        }
+
+        .back-btn:hover {
+            transform: translateY(-3px);
+        }
+
+        body.light-mode .back-btn {
+            background: #fff;
+            color: #111827;
+        }
+
+        /* ======================================================
+       SEARCH
+    ====================================================== */
+
+        .search-wrapper {
+            position: relative;
+            margin-top: 28px;
+        }
+
+        .search-input {
+
+            width: 100%;
+
+            padding: 18px 20px 18px 58px;
+
+            border-radius: 22px;
+
+            border: none;
+            outline: none;
+
+            background: rgba(255, 255, 255, 0.08);
+
+            backdrop-filter: blur(12px);
+
+            border: 1px solid rgba(255, 255, 255, 0.12);
+
+            color: #fff;
+
+            font-size: 1rem;
+        }
+
+        body.light-mode .search-input {
+            background: #fff;
+            color: #111827;
+        }
+
+        .search-input::placeholder{
+            color:rgba(255,255,255,0.65);
+        }
+
+        body.light-mode .search-input::placeholder{
+            color:#6b7280;
+        }
+
+        .search-icon {
+
+            position: absolute;
+
+            left: 20px;
+            top: 50%;
+
+            transform: translateY(-50%);
+
+            opacity: 0.75;
+        }
+
+        /* ======================================================
+       CATEGORY NAVIGATION
+    ====================================================== */
+
+        .sticky-nav {
+
+            position: sticky;
+
+            top: 0;
+
+            z-index: 100;
+
+            padding: 14px 0;
+
+            backdrop-filter: blur(18px);
+        }
+
+        .tabs {
+
+            display: flex;
+
+            gap: 12px;
+
+            overflow-x: auto;
+
+            scrollbar-width: none;
+        }
+
+        .tabs::-webkit-scrollbar {
+            display: none;
+        }
+
+        .tab {
+
+            white-space: nowrap;
+
+            padding: 12px 20px;
+
+            border-radius: 999px;
+
+            background: rgba(255, 255, 255, 0.08);
+
+            border: 1px solid rgba(255, 255, 255, 0.12);
+
+            color: #fff;
+
+            font-weight: 700;
+
+            transition: 0.3s ease;
+        }
+
+        body.light-mode .tab {
+            background: #fff;
+            color: #111827;
+        }
+
+        .tab.active {
+
+            background:
+                linear-gradient(135deg,
+                    #2563eb,
+                    #7c3aed);
+
+            border: none;
+        }
+
+        /* ======================================================
+       GRID
+    ====================================================== */
+
+        .grid {
+
+            display: grid;
+
+            grid-template-columns:
+                repeat(auto-fit, minmax(270px, 1fr));
+
+            gap: 22px;
+
+            margin-top: 24px;
+        }
+
+        /* ======================================================
+       CARD
+    ====================================================== */
+
+        .card {
+
+            position: relative;
+
+            overflow: hidden;
+
+            border-radius: 30px;
+
+            background: rgba(255, 255, 255, 0.08);
+
+            backdrop-filter: blur(18px);
+
+            border: 1px solid rgba(255, 255, 255, 0.12);
+
+            box-shadow:
+                0 12px 35px rgba(0, 0, 0, 0.22);
+
+            transition: 0.35s ease;
+
+            animation: fadeIn 0.35s ease;
+        }
+
+        body.light-mode .card {
+            background: rgba(255, 255, 255, 0.78);
+        }
+
+        .card:hover {
+
+            transform: translateY(-6px);
+
+            box-shadow:
+                0 25px 45px rgba(0, 0, 0, 0.25);
+        }
+
+        .card,
+        .expand-btn,
+        .theme-btn,
+        .back-btn,
+        .scroll-top,
+        .tab {
+            will-change: transform;
+        }
+
+        /* ======================================================
+       CARD TOP
+    ====================================================== */
+
+        .card-top {
+
+            min-height: 190px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            padding: 24px;
+
+            background:
+                linear-gradient(135deg,
+                    rgba(255, 255, 255, 0.08),
+                    rgba(255, 255, 255, 0.03));
+        }
+
+        .card-top img {
+
+            width: 115px;
+            height: 115px;
+
+            object-fit: contain;
+
+            transition: 0.3s ease;
+        }
+
+        .card:hover img {
+            transform: scale(1.06);
+        }
+
+        /* ======================================================
+       CARD BODY
+    ====================================================== */
+
+        .card-body {
+            padding: 22px;
+        }
+
+        .category {
+
+            display: inline-flex;
+
+            align-items: center;
+
+            padding: 8px 13px;
+
+            border-radius: 999px;
+
+            background: rgba(59, 130, 246, 0.2);
+
+            color: #93c5fd;
+
+            font-size: 0.76rem;
+
+            font-weight: 700;
+
+            margin-bottom: 14px;
+        }
+
+        body.light-mode .category {
+            background: #dbeafe;
+            color: #1d4ed8;
+        }
+
+        .sign-title {
+            font-size: 1.1rem;
+            font-weight: 800;
+            margin-bottom: 6px;
+        }
+
+        .sign-jp {
+            opacity: 0.75;
+            margin-bottom: 14px;
+        }
+
+        .description {
+            line-height: 1.7;
+            opacity: 0.92;
+            font-size: 0.95rem;
+        }
+
+        /* ======================================================
+       EXPAND BUTTON
+    ====================================================== */
+
+        .expand-btn {
+
+            width: 100%;
+
+            margin-top: 18px;
+
+            padding: 13px;
+
+            border-radius: 18px;
+
+            background:
+                linear-gradient(135deg,
+                    #2563eb,
+                    #7c3aed);
+
+            color: #fff;
+
+            font-weight: 700;
+
+            transition: 0.3s ease;
+        }
+
+        .expand-btn:hover {
+            transform: translateY(-2px);
+        }
+
+        /* ======================================================
+       LEARN MORE
+    ====================================================== */
+
+        .extra {
+
+            max-height: 0;
+
+            overflow: hidden;
+
+            transition: max-height 0.45s ease;
+        }
+
+        .extra.open {
+            max-height: 1600px;
+        }
+
+        .learn-box {
+
+            margin-top: 18px;
+
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+
+        .learn-section {
+
+            padding: 15px;
+
+            border-radius: 20px;
+
+            background: rgba(255, 255, 255, 0.06);
+
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        body.light-mode .learn-section {
+            background: rgba(255, 255, 255, 0.85);
+        }
+
+        .learn-section h4 {
+
+            margin-bottom: 8px;
+
+            font-size: 0.92rem;
+
+            font-weight: 700;
+        }
+
+        .learn-section p {
+
+            line-height: 1.75;
+
+            font-size: 0.92rem;
+
+            opacity: 0.9;
+        }
+
+        /* ======================================================
+       LISTS
+    ====================================================== */
+
+        .learn-list {
+
+            margin-top: 12px;
+
+            padding-left: 18px;
+
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .learn-list li {
+
+            line-height: 1.7;
+
+            font-size: 0.9rem;
+
+            opacity: 0.9;
+        }
+
+        /* ======================================================
+       QUIZ BOX
+    ====================================================== */
+
+        .quiz-box {
+
+            margin-top: 12px;
+
+            padding: 14px;
+
+            border-radius: 18px;
+
+            background:
+                linear-gradient(135deg,
+                    rgba(37, 99, 235, 0.18),
+                    rgba(124, 58, 237, 0.18));
+
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        .quiz-question {
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .quiz-answer {
+            opacity: 0.9;
+            line-height: 1.7;
+        }
+
+        /* ======================================================
+       MEMORY TIP
+    ====================================================== */
+
+        .memory-tip {
+
+            margin-top: 12px;
+
+            padding: 14px;
+
+            border-radius: 16px;
+
+            background: rgba(255, 255, 255, 0.08);
+
+            text-align: center;
+
+            font-size: 0.95rem;
+        }
+
+        /* ======================================================
+       RELATED BADGES
+    ====================================================== */
+
+        .related-signs {
+
+            display: flex;
+
+            flex-wrap: wrap;
+
+            gap: 10px;
+
+            margin-top: 12px;
+        }
+
+        .related-badge {
+
+            padding: 10px 14px;
+
+            border-radius: 999px;
+
+            background: rgba(255, 255, 255, 0.08);
+
+            border: 1px solid rgba(255, 255, 255, 0.08);
+
+            font-size: 0.82rem;
+
+            font-weight: 600;
+        }
+
+        body.light-mode .related-badge {
+            background: #f3f4f6;
+        }
+
+        /* ======================================================
+       EMPTY
+    ====================================================== */
+
+        .empty {
+
+            display: none;
+
+            text-align: center;
+
+            padding: 80px 20px;
+
+            opacity: 0.7;
+        }
+
+        /* ======================================================
+       FAB
+    ====================================================== */
+
+        .scroll-top {
+
+            position: fixed;
+
+            right: 20px;
+            bottom: 20px;
+
+            width: 62px;
+            height: 62px;
+
+            border-radius: 50%;
+
+            background:
+                linear-gradient(135deg,
+                    #2563eb,
+                    #7c3aed);
+
+            color: #fff;
+
+            font-size: 1.3rem;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            box-shadow:
+                0 15px 35px rgba(37, 99, 235, 0.4);
+
+            z-index: 999;
+
+            transition: 0.3s ease;
+        }
+
+        .scroll-top:hover {
+            transform: translateY(-4px);
+        }
+
+        .tab:active,
+        .expand-btn:active,
+        .theme-btn:active,
+        .back-btn:active,
+        .scroll-top:active{
+            transform:scale(0.96);
+        }
+
+        body::-webkit-scrollbar{
+            width:10px;
+        }
+
+        body::-webkit-scrollbar-thumb{
+            background:rgba(255,255,255,0.18);
+            border-radius:999px;
+        }
+
+        body.light-mode::-webkit-scrollbar-thumb{
+            background:rgba(0,0,0,0.18);
+        }
+
+        /* ======================================================
+       ANIMATION
+    ====================================================== */
+
+        @keyframes fadeIn {
+
+            from {
+                opacity: 0;
+                transform: translateY(12px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+
+        }
+
+        /* ======================================================
+       MOBILE
+    ====================================================== */
+
+        @media(max-width:768px) {
+
+            .hero {
+                padding: 28px 20px;
+            }
+
+            .grid {
+                grid-template-columns: 1fr;
+            }
+
+            .card-top {
+                min-height: 160px;
+            }
+
+            .card-top img {
+                width: 95px;
+                height: 95px;
+            }
+
+            .hero-top{
+                flex-direction:column;
+                align-items:stretch;
+            }
+
+            .theme-btn{
+                align-self:flex-end;
+            }
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="app">
+        <!-- ======================================================
+     HERO
+====================================================== -->
+
+        <section class="hero">
+
+            <div class="hero-top">
+                <button class="back-btn" onclick="window.location.href='/reviewers'">
+                    ← Quay lại
+                </button>
+
+                <div>
+
+                    <h1 class="hero-title">
+                        🇯🇵 Trình Ôn Tập Biển Báo Giao Thông Nhật Bản
+                    </h1>
+
+                    <p class="hero-description">
+                        Học các biển báo giao thông Nhật Bản với phương pháp ôn tập tương tác cao cấp theo kiểu thẻ ghi nhớ.
+                        Hoàn hảo cho người học đang chuẩn bị cho kỳ thi lái xe Nhật Bản.
+                    </p>
+
+                </div>
+
+                <button class="theme-btn" id="themeToggle">
+                    🌙
+                </button>
+
+            </div>
+
+            <!-- SEARCH -->
+
+            <div class="search-wrapper">
+
+                <span class="search-icon">
+                    🔍
+                </span>
+
+                <input type="text" class="search-input" id="searchInput" placeholder="Tìm kiếm biển báo giao thông Nhật Bản...">
+
+            </div>
+
+        </section>
+        <!-- ======================================================
+     CATEGORY NAVIGATION
+====================================================== -->
+
+        <div class="sticky-nav">
+
+            <div class="tabs">
+
+                <button class="tab active" data-category="All">
+                    Tất cả
+                </button>
+
+                <button class="tab" data-category="Regulatory Signs">
+                    Quy định
+                </button>
+
+                <button class="tab" data-category="Warning Signs">
+                    Cảnh báo
+                </button>
+
+                <button class="tab" data-category="Mandatory Signs">
+                    Bắt buộc
+                </button>
+
+                <button class="tab" data-category="Prohibition Signs">
+                    Cấm
+                </button>
+
+                <button class="tab" data-category="Parking & Stopping Signs">
+                    Đỗ xe
+                </button>
+
+                <button class="tab" data-category="Guide Signs">
+                    Hướng dẫn
+                </button>
+
+                <button class="tab" data-category="Expressway Signs">
+                    Đường cao tốc
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- ======================================================
+     GRID
+====================================================== -->
+
+        <div class="grid" id="signGrid"></div>
+
+        <!-- EMPTY -->
+
+        <div class="empty" id="emptyState">
+            <h2>
+                Không tìm thấy biển báo giao thông nào.
+            </h2>
+        </div>
+    </div> <!-- ====================================================== FLOATING BUTTON ====================================================== -->
+
+    <button
+        class="scroll-top"
+        id="scrollTopBtn"
+    >
+        ↑
+    </button>
+     
+                
+    <!-- ======================================================
+     JAVASCRIPT
+====================================================== -->
+
+<script>
+            /* ====================================================== ROAD SIGN DATASET ====================================================== */
+            const roadSigns = [{
+                    name_en: "Dừng lại",
+                    name_jp: "止まれ",
+                    image: "/static/images/signs/stop.png",
+                    explanation: "Người lái xe phải dừng hoàn toàn trước khi tiếp tục di chuyển.",
+                    category: "Regulatory Signs",
+                    learn_more: {
+                        meaning: "Biển báo này yêu cầu người lái xe phải dừng hoàn toàn trước khi đi vào giao lộ.",
+                        driver_action: "Người lái xe phải dừng hẳn phía sau vạch dừng và kiểm tra cẩn thận cả hai hướng trước khi di chuyển.",
+                        exam_tip: "Dừng không hoàn toàn thường dẫn đến bị trừ điểm nặng trong kỳ thi lái xe Nhật Bản.",
+                        safety: "Không dừng đúng cách có thể gây va chạm với xe cộ, xe đạp hoặc người đi bộ.",
+                        real_world: "Thường thấy trên đường dân cư, giao lộ và đường cắt ngang đường sắt.",
+                        memory_tip: "Hình tam giác đỏ ngược có nghĩa là cần chú ý ngay lập tức và dừng lại."
+                    }
+                }, {
+                    name_en: "Cấm vào",
+                    name_jp: "進入禁止",
+                    image: "/static/images/signs/no_entry.png",
+                    explanation: "Các phương tiện bị cấm đi vào từ hướng này.",
+                    category: "Prohibition Signs",
+                    learn_more: {
+                        meaning: "Các phương tiện không được đi vào từ hướng này.",
+                        driver_action: "Người lái xe nên ngay lập tức tránh đi vào con đường này.",
+                        exam_tip: "Thường xuất hiện trong các bài thi lý thuyết lái xe Nhật Bản.",
+                        safety: "Phớt lờ biển báo này có thể gây va chạm trực diện.",
+                        real_world: "Thường thấy trên đường một chiều và lối ra đường cao tốc.",
+                        memory_tip: "Vòng tròn đỏ với tâm trắng tượng trưng cho lối vào bị chặn."
+                    }
+                }, {
+                    name_en: "Giới hạn tốc độ 40",
+                    name_jp: "最高速度40",
+                    image: "/static/images/signs/speed_40.png",
+                    explanation: "Tốc độ tối đa hợp pháp là 40 km/h.",
+                    category: "Regulatory Signs",
+                    learn_more: {
+                        meaning: "Người lái xe không được vượt quá 40 km mỗi giờ.",
+                        driver_action: "Duy trì tốc độ dưới giới hạn được hiển thị.",
+                        exam_tip: "Biển giới hạn tốc độ cực kỳ phổ biến trong các bài thi lý thuyết.",
+                        safety: "Chạy quá tốc độ làm tăng quãng đường phanh và nguy cơ tai nạn.",
+                        real_world: "Thường thấy trên đường đô thị và khu dân cư.",
+                        memory_tip: "Vòng tròn trắng có viền đỏ thường biểu thị các quy định."
+                    }
+                }, {
+                    name_en: "Cấm đỗ xe",
+                    name_jp: "駐車禁止",
+                    image: "/static/images/signs/no_parking.png",
+                    explanation: "Cấm đỗ xe trong khu vực này.",
+                    category: "Parking & Stopping Signs",
+                    learn_more: {
+                        meaning: "Các phương tiện không được đỗ xe trong khu vực này.",
+                        driver_action: "Người lái xe có thể dừng tạm thời nhưng không được để xe đỗ lại.",
+                        exam_tip: "Các câu hỏi có thể hỏi sự khác biệt giữa cấm đỗ xe và cấm dừng xe.",
+                        safety: "Đỗ xe trái phép có thể cản trở giao thông và xe khẩn cấp.",
+                        real_world: "Rất phổ biến trên các con đường hẹp ở Nhật Bản.",
+                        memory_tip: "Một vạch đỏ biểu thị hạn chế đỗ xe."
+                    }
+                }, {
+                    name_en: "Cấm dừng xe",
+                    name_jp: "駐停車禁止",
+                    image: "/static/images/signs/no_stopping.png",
+                    explanation: "Cấm dừng và đỗ xe.",
+                    category: "Parking & Stopping Signs",
+                    learn_more: {
+                        meaning: "Các phương tiện không được dừng hoặc đỗ xe tại đây.",
+                        driver_action: "Người lái xe phải tiếp tục di chuyển trừ khi có tình huống khẩn cấp.",
+                        exam_tip: "Biển báo này đại diện cho quy định nghiêm ngặt hơn cấm đỗ xe.",
+                        safety: "Dừng xe tại đây có thể gây cản trở giao thông nguy hiểm.",
+                        real_world: "Thường thấy gần giao lộ và đường đông đúc.",
+                        memory_tip: "Hai vạch đỏ có nghĩa là hạn chế nghiêm ngặt hơn."
+                    }
+                },
+                /* ======================================================
+           ADDITIONAL PREMIUM JAPANESE ROAD SIGNS
+           CONTINUE ADDING INSIDE roadSigns ARRAY
+        ====================================================== */
+
+                {
+                    name_en: "Vạch sang đường phía trước",
+                    name_jp: "横断歩道あり",
+                    image: "/static/images/signs/pedestrian_crossing_ahead.png",
+                    explanation: "Phía trước có vạch sang đường dành cho người đi bộ.",
+                    category: "Warning Signs",
+
+                    learn_more: {
+
+                        meaning: "Biển báo này cảnh báo người lái xe rằng phía trước có vạch sang đường dành cho người đi bộ.",
+
+                        driver_action: "Người lái xe nên giảm tốc độ và chuẩn bị dừng lại cho người đi bộ.",
+
+                        exam_tip: "Các kỳ thi lái xe Nhật Bản thường kiểm tra quy tắc ưu tiên cho người đi bộ.",
+
+                        safety: "Không dừng lại cho người đi bộ có thể gây ra tai nạn nghiêm trọng.",
+
+                        real_world: "Rất phổ biến gần trường học, nhà ga và giao lộ.",
+
+                        memory_tip: "Biển màu xanh với biểu tượng người đi bộ thường liên quan đến người đi bộ."
+                    }
+                },
+
+                {
+                    name_en: "Khu vực trường học",
+                    name_jp: "学校あり",
+                    image: "/static/images/signs/school_zone.png",
+                    explanation: "Phía trước là khu vực trường học.",
+                    category: "Warning Signs",
+
+                    learn_more: {
+
+                        meaning: "Trẻ em có thể bất ngờ băng qua hoặc xuất hiện gần đường.",
+
+                        driver_action: "Người lái xe nên giảm tốc độ và luôn cảnh giác.",
+
+                        exam_tip: "Hãy chú ý đến các câu hỏi ẩn liên quan đến người đi bộ là trẻ em.",
+
+                        safety: "Trẻ em khó đoán và có thể băng qua đường bất ngờ.",
+
+                        real_world: "Thường thấy gần trường tiểu học và khu dân cư.",
+
+                        memory_tip: "Hình trẻ em trên biển màu vàng cho biết cần cẩn thận quanh trường học."
+                    }
+                },
+
+                {
+                    name_en: "Đường giao cắt đường sắt",
+                    name_jp: "踏切あり",
+                    image: "/static/images/signs/railroad_crossing.png",
+                    explanation: "Phía trước có đường giao cắt đường sắt.",
+                    category: "Warning Signs",
+
+                    learn_more: {
+
+                        meaning: "Một đường giao cắt đường sắt đang ở phía trước.",
+
+                        driver_action: "Người lái xe phải giảm tốc độ và kiểm tra cẩn thận xem có tàu hỏa không.",
+
+                        exam_tip: "Các bài thi thực hành ở Nhật Bản đánh giá rất kỹ hành vi tại đường giao cắt đường sắt.",
+
+                        safety: "Phớt lờ quy tắc tại đường giao cắt đường sắt có thể dẫn đến tai nạn chết người.",
+
+                        real_world: "Rất phổ biến ở khu vực ngoại ô và nông thôn Nhật Bản.",
+
+                        memory_tip: "Biển cảnh báo màu vàng có biểu tượng tàu hỏa cho biết có đường giao cắt đường sắt."
+                    }
+                },
+
+                {
+                    name_en: "Tín hiệu giao thông phía trước",
+                    name_jp: "信号機あり",
+                    image: "/static/images/signs/traffic_signals.png",
+                    explanation: "Phía trước có đèn giao thông.",
+                    category: "Warning Signs",
+
+                    learn_more: {
+
+                        meaning: "Người lái xe đang đến gần giao lộ có đèn tín hiệu điều khiển.",
+
+                        driver_action: "Chuẩn bị dừng lại tùy theo sự thay đổi của tín hiệu giao thông.",
+
+                        exam_tip: "Các câu hỏi có thể liên quan đến thời điểm đánh giá đèn vàng.",
+
+                        safety: "Phản ứng chậm với tín hiệu có thể gây va chạm.",
+
+                        real_world: "Được đặt trước các giao lộ và điểm giao cắt đông đúc.",
+
+                        memory_tip: "Biểu tượng tín hiệu cho biết phía trước có đèn giao thông."
+                    }
+                },
+
+                {
+                    name_en: "Đường hẹp lại",
+                    name_jp: "幅員減少",
+                    image: "/static/images/signs/road_narrows.png",
+                    explanation: "Đường phía trước trở nên hẹp hơn.",
+                    category: "Warning Signs",
+
+                    learn_more: {
+
+                        meaning: "Chiều rộng mặt đường phía trước giảm xuống.",
+
+                        driver_action: "Giảm tốc độ và chuẩn bị cho điều kiện giao thông chật hẹp hơn.",
+
+                        exam_tip: "Người lái xe phải giữ khoảng cách an toàn bên hông.",
+
+                        safety: "Đường hẹp làm tăng nguy cơ va chạm.",
+
+                        real_world: "Phổ biến trên các con đường dân cư cũ ở Nhật Bản.",
+
+                        memory_tip: "Các đường hội tụ biểu thị đường đang hẹp lại."
+                    }
+                },
+                {
+                    name_en: "Đường trơn trượt",
+                    name_jp: "すべりやすい",
+                    image: "/static/images/signs/slippery_road.png",
+                    explanation: "Mặt đường có thể trơn trượt.",
+                    category: "Warning Signs",
+
+                    learn_more: {
+
+                        meaning: "Điều kiện mặt đường có thể làm giảm độ bám của lốp xe.",
+
+                        driver_action: "Người lái xe nên giảm tốc độ và tránh đánh lái đột ngột.",
+
+                        exam_tip: "Các câu hỏi về khoảng cách phanh an toàn rất phổ biến.",
+
+                        safety: "Đường trơn làm tăng nguy cơ trượt bánh.",
+
+                        real_world: "Thường thấy trong điều kiện mưa hoặc tuyết.",
+
+                        memory_tip: "Biểu tượng xe bị trượt biểu thị bề mặt đường trơn."
+                    }
+                },
+
+                {
+                    name_en: "Đá rơi",
+                    name_jp: "落石のおそれあり",
+                    image: "/static/images/signs/falling_rocks.png",
+                    explanation: "Chú ý đá rơi.",
+                    category: "Warning Signs",
+
+                    learn_more: {
+
+                        meaning: "Đá có thể rơi từ vách đá hoặc núi gần đó.",
+
+                        driver_action: "Người lái xe nên đi qua cẩn thận và tránh dừng lại gần khu vực này.",
+
+                        exam_tip: "Các nguy hiểm trên đường núi có thể xuất hiện trong bài thi lý thuyết.",
+
+                        safety: "Đá rơi có thể gây hư hỏng nghiêm trọng cho phương tiện.",
+
+                        real_world: "Phổ biến ở các khu vực miền núi của Nhật Bản.",
+
+                        memory_tip: "Biểu tượng đá rơi xuống biểu thị nguy cơ đá lở."
+                    }
+                },
+
+                {
+                    name_en: "Động vật băng qua đường",
+                    name_jp: "動物注意",
+                    image: "/static/images/signs/animal_crossing.png",
+                    explanation: "Động vật có thể băng qua phía trước.",
+                    category: "Warning Signs",
+
+                    learn_more: {
+
+                        meaning: "Động vật hoang dã có thể bất ngờ băng qua đường.",
+
+                        driver_action: "Giảm tốc độ và quan sát kỹ hai bên đường.",
+
+                        exam_tip: "Các câu hỏi nhận biết nguy hiểm có thể liên quan đến động vật.",
+
+                        safety: "Va chạm với động vật có thể gây tai nạn nghiêm trọng.",
+
+                        real_world: "Thường thấy trong rừng và trên đường núi.",
+
+                        memory_tip: "Hình bóng động vật biểu thị cảnh báo động vật hoang dã."
+                    }
+                },
+
+                {
+                    name_en: "Cấm quay đầu xe",
+                    name_jp: "転回禁止",
+                    image: "/static/images/signs/no_uturn.png",
+                    explanation: "Cấm quay đầu xe.",
+                    category: "Prohibition Signs",
+
+                    learn_more: {
+
+                        meaning: "Các phương tiện không được phép quay đầu xe tại đây.",
+
+                        driver_action: "Tiếp tục đi thẳng và tìm vị trí quay đầu hợp pháp.",
+
+                        exam_tip: "Các câu hỏi về hạn chế quay đầu xe xuất hiện thường xuyên.",
+
+                        safety: "Quay đầu xe trái phép có thể làm gián đoạn luồng giao thông.",
+
+                        real_world: "Phổ biến trên các con đường đô thị đông đúc.",
+
+                        memory_tip: "Vòng tròn đỏ với mũi tên bị gạch chéo biểu thị hành động bị cấm."
+                    }
+                },
+
+                {
+                    name_en: "Cấm vượt",
+                    name_jp: "追い越し禁止",
+                    image: "/static/images/signs/no_overtaking.png",
+                    explanation: "Cấm vượt các phương tiện khác.",
+                    category: "Prohibition Signs",
+
+                    learn_more: {
+
+                        meaning: "Người lái xe không được vượt các phương tiện phía trước.",
+
+                        driver_action: "Giữ phía sau xe chạy chậm hơn cho đến khi hết khu vực cấm.",
+
+                        exam_tip: "Các câu hỏi thi có thể hỏi về quy tắc vạch phân cách giữa đường.",
+
+                        safety: "Vượt xe không an toàn có thể gây va chạm trực diện.",
+
+                        real_world: "Phổ biến trên đường cong và đường hẹp.",
+
+                        memory_tip: "Biểu tượng hai chiếc xe thường liên quan đến việc vượt xe."
+                    }
+                },
+
+                {
+                    name_en: "Đường một chiều",
+                    name_jp: "一方通行",
+                    image: "/static/images/signs/one_way.png",
+                    explanation: "Giao thông chỉ lưu thông theo một hướng.",
+                    category: "Regulatory Signs",
+
+                    learn_more: {
+
+                        meaning: "Các phương tiện chỉ được phép đi theo hướng được chỉ định.",
+
+                        driver_action: "Cẩn thận đi theo hướng được phép.",
+
+                        exam_tip: "Các câu hỏi về đường một chiều thường xuất hiện trong bài thi.",
+
+                        safety: "Lái xe ngược chiều giao thông cực kỳ nguy hiểm.",
+
+                        real_world: "Rất phổ biến trên các con phố ở Nhật Bản.",
+
+                        memory_tip: "Mũi tên chỉ hướng biểu thị hướng di chuyển được phép."
+                    }
+                },
+                {
+                    name_en: "Đường cao tốc",
+                    name_jp: "高速道路",
+                    image: "/static/images/signs/expressway.png",
+                    explanation: "Phía trước bắt đầu đường cao tốc.",
+                    category: "Expressway Signs",
+
+                    learn_more: {
+
+                        meaning: "Người lái xe đang đi vào đường cao tốc.",
+
+                        driver_action: "Tăng tốc an toàn và nhập làn đúng cách.",
+
+                        exam_tip: "Quy tắc nhập làn trên đường cao tốc rất quan trọng trong kỳ thi.",
+
+                        safety: "Nhập làn không đúng cách có thể gây tai nạn tốc độ cao.",
+
+                        real_world: "Được đặt tại lối vào đường cao tốc.",
+
+                        memory_tip: "Biển màu xanh lá thường liên quan đến đường cao tốc."
+                    }
+                },
+
+                {
+                    name_en: "Lối ra đường cao tốc",
+                    name_jp: "出口",
+                    image: "/static/images/signs/expressway_exit.png",
+                    explanation: "Phía trước có lối ra đường cao tốc.",
+                    category: "Expressway Signs",
+
+                    learn_more: {
+
+                        meaning: "Người lái xe đang đến gần lối ra đường cao tốc.",
+
+                        driver_action: "Di chuyển vào làn ra đúng càng sớm càng tốt.",
+
+                        exam_tip: "Giữ đúng vị trí làn đường rất quan trọng trong bài thi thực hành.",
+
+                        safety: "Chuyển làn muộn có thể nguy hiểm.",
+
+                        real_world: "Được tìm thấy trên khắp các tuyến đường cao tốc Nhật Bản.",
+
+                        memory_tip: "Mũi tên lối ra biểu thị việc rời khỏi đường cao tốc."
+                    }
+                },
+
+                {
+                    name_en: "Khu vực đỗ xe",
+                    name_jp: "駐車場",
+                    image: "/static/images/signs/parking_area.png",
+                    explanation: "Có khu vực đỗ xe gần đây.",
+                    category: "Guide Signs",
+
+                    learn_more: {
+
+                        meaning: "Có bãi đỗ xe gần đó.",
+
+                        driver_action: "Người lái xe chỉ nên đỗ xe trong khu vực được chỉ định.",
+
+                        exam_tip: "Quy tắc đỗ xe rất quan trọng trong bài thi lái xe thực hành.",
+
+                        safety: "Đỗ xe không đúng cách có thể cản trở đường đi và lối vào khẩn cấp.",
+
+                        real_world: "Phổ biến gần khu mua sắm và nhà ga.",
+
+                        memory_tip: "Biển màu xanh có chữ P biểu thị khu vực đỗ xe."
+                    }
+                },
+
+                /* ======================================================
+           ADDITIONAL UNIQUE JAPANESE ROAD SIGNS
+           NO DUPLICATES
+           ADD BELOW YOUR EXISTING roadSigns ARRAY
+        ====================================================== */
+
+                {
+                    name_en: "Đi bên trái",
+                    name_jp: "左側通行",
+                    image: "/static/images/signs/keep_left.png",
+                    explanation: "Người lái xe phải đi bên trái đường.",
+                    category: "Mandatory Signs",
+
+                    learn_more: {
+
+                        meaning: "Các phương tiện phải di chuyển bên trái đường.",
+
+                        driver_action: "Người lái xe phải giữ bên trái và tránh đi sang làn đối diện.",
+
+                        exam_tip: "Nhật Bản lái xe bên trái và điều này thường được hỏi trong bài thi.",
+
+                        safety: "Đi sai làn có thể gây va chạm trực diện.",
+
+                        real_world: "Phổ biến gần dải phân cách và đường hẹp.",
+
+                        memory_tip: "Biển tròn màu xanh thường biểu thị hành động bắt buộc."
+                    }
+                },
+
+                {
+                    name_en: "Đi bên phải",
+                    name_jp: "右側通行",
+                    image: "/static/images/signs/keep_right.png",
+                    explanation: "Người lái xe phải đi bên phải đường.",
+                    category: "Mandatory Signs",
+
+                    learn_more: {
+
+                        meaning: "Người lái xe phải đi bên phải chướng ngại vật hoặc đi theo hướng bên phải.",
+
+                        driver_action: "Cẩn thận đi bên phải theo hướng dẫn.",
+
+                        exam_tip: "Thường xuất hiện trong các câu hỏi về kiểm soát làn đường.",
+
+                        safety: "Bỏ qua biển chỉ dẫn hướng đi có thể làm gián đoạn luồng giao thông.",
+
+                        real_world: "Được thấy gần khu vực thi công và dải phân cách giữa đường.",
+
+                        memory_tip: "Mũi tên chỉ hướng biểu thị hướng lái xe bắt buộc."
+                    }
+                },
+
+                {
+                    name_en: "Chỉ được đi thẳng",
+                    name_jp: "直進のみ",
+                    image: "/static/images/signs/straight_only.png",
+                    explanation: "Các phương tiện phải đi thẳng.",
+                    category: "Mandatory Signs",
+
+                    learn_more: {
+
+                        meaning: "Cấm rẽ và người lái xe phải tiếp tục đi thẳng.",
+
+                        driver_action: "Giữ nguyên làn hiện tại và chỉ tiếp tục đi thẳng.",
+
+                        exam_tip: "Các câu hỏi về hạn chế hướng đi rất phổ biến trong bài thi.",
+
+                        safety: "Rẽ bất ngờ có thể gây va chạm với giao thông xung quanh.",
+
+                        real_world: "Thường thấy tại các giao lộ đông đúc.",
+
+                        memory_tip: "Mũi tên hướng lên biểu thị chỉ được đi thẳng."
+                    }
+                },
+
+                {
+                    name_en: "Chỉ dành cho người đi bộ",
+                    name_jp: "歩行者専用",
+                    image: "/static/images/signs/pedestrian_only.png",
+                    explanation: "Con đường này chỉ dành cho người đi bộ.",
+                    category: "Mandatory Signs",
+
+                    learn_more: {
+
+                        meaning: "Chỉ người đi bộ được phép vào khu vực này.",
+
+                        driver_action: "Người lái xe phải tránh đi vào khu vực chỉ dành cho người đi bộ.",
+
+                        exam_tip: "Hãy chú ý đến các quy tắc an toàn cho người đi bộ.",
+
+                        safety: "Xe cộ đi vào có thể gây nguy hiểm cho người đi bộ.",
+
+                        real_world: "Phổ biến gần phố mua sắm và nhà ga.",
+
+                        memory_tip: "Biểu tượng người đi bộ biểu thị khu vực dành cho người đi bộ."
+                    }
+                },
+                {
+                    name_en: "Làn đường dành cho xe đạp",
+                    name_jp: "自転車専用",
+                    image: "/static/images/signs/bicycle_lane.png",
+                    explanation: "Làn đường này dành riêng cho xe đạp.",
+                    category: "Mandatory Signs",
+
+                    learn_more: {
+
+                        meaning: "Làn đường này chỉ dành riêng cho xe đạp.",
+
+                        driver_action: "Người lái xe không được đi vào hoặc cản trở làn xe đạp.",
+
+                        exam_tip: "Các câu hỏi có thể liên quan đến an toàn làn xe đạp.",
+
+                        safety: "Cản trở làn xe đạp khiến người đi xe đạp gặp nguy hiểm.",
+
+                        real_world: "Phổ biến trên đường đô thị và gần trường học.",
+
+                        memory_tip: "Biểu tượng xe đạp biểu thị quyền ưu tiên cho người đi xe đạp."
+                    }
+                },
+
+                {
+                    name_en: "Lối đi chung",
+                    name_jp: "歩行者自転車専用",
+                    image: "/static/images/signs/shared_path.png",
+                    explanation: "Lối đi chung dành cho xe đạp và người đi bộ.",
+                    category: "Mandatory Signs",
+
+                    learn_more: {
+
+                        meaning: "Người đi bộ và người đi xe đạp cùng sử dụng lối đi này.",
+
+                        driver_action: "Các phương tiện phải tránh đi vào khu vực này.",
+
+                        exam_tip: "Hãy chú ý đến các biển báo lối đi chung trong bài thi lý thuyết.",
+
+                        safety: "Người lái xe nên cẩn thận gần các lối đi hỗn hợp.",
+
+                        real_world: "Thường thấy gần công viên và ven sông.",
+
+                        memory_tip: "Biểu tượng kết hợp người đi bộ và xe đạp biểu thị sử dụng chung."
+                    }
+                },
+
+                {
+                    name_en: "Vòng xuyến",
+                    name_jp: "環状交差点",
+                    image: "/static/images/signs/roundabout.png",
+                    explanation: "Các phương tiện di chuyển theo vòng quanh vòng xuyến.",
+                    category: "Mandatory Signs",
+
+                    learn_more: {
+
+                        meaning: "Người lái xe phải di chuyển theo hướng vòng tròn quanh giao lộ.",
+
+                        driver_action: "Nhường đường đúng cách và đi theo luồng giao thông của vòng xuyến.",
+
+                        exam_tip: "Quy tắc vòng xuyến ngày càng xuất hiện nhiều trong các kỳ thi.",
+
+                        safety: "Đi vào sai cách có thể gây va chạm bên hông.",
+
+                        real_world: "Được tìm thấy tại các giao lộ hiện đại trên khắp Nhật Bản.",
+
+                        memory_tip: "Các mũi tên vòng tròn biểu thị chuyển động vòng liên tục."
+                    }
+                },
+
+                {
+                    name_en: "Tốc độ tối thiểu",
+                    name_jp: "最低速度",
+                    image: "/static/images/signs/minimum_speed.png",
+                    explanation: "Người lái xe phải duy trì ít nhất tốc độ được chỉ định.",
+                    category: "Regulatory Signs",
+
+                    learn_more: {
+
+                        meaning: "Các phương tiện không được chạy chậm hơn tốc độ được hiển thị.",
+
+                        driver_action: "Duy trì luồng giao thông bằng cách tránh lái xe quá chậm.",
+
+                        exam_tip: "Biển tốc độ tối thiểu phổ biến trên đường cao tốc.",
+
+                        safety: "Lái xe quá chậm có thể gây cản trở giao thông và tăng nguy cơ va chạm.",
+
+                        real_world: "Chủ yếu được thấy trên đường cao tốc.",
+
+                        memory_tip: "Biển tròn màu xanh có số thường biểu thị yêu cầu tối thiểu."
+                    }
+                },
+
+                {
+                    name_en: "Nhường đường",
+                    name_jp: "徐行・譲れ",
+                    image: "/static/images/signs/yield.png",
+                    explanation: "Người lái xe phải ưu tiên cho phương tiện khác.",
+                    category: "Regulatory Signs",
+
+                    learn_more: {
+
+                        meaning: "Người lái xe phải giảm tốc độ và nhường đường cho giao thông cắt ngang.",
+
+                        driver_action: "Chuẩn bị dừng lại nếu cần và kiểm tra cẩn thận.",
+
+                        exam_tip: "Hành vi nhường đường được kiểm tra kỹ trong bài thi thực hành.",
+
+                        safety: "Không nhường đường có thể gây tai nạn tại giao lộ.",
+
+                        real_world: "Thường thấy tại các giao lộ nhỏ.",
+
+                        memory_tip: "Biển tam giác ngược thường biểu thị cần cẩn thận hoặc nhường đường."
+                    }
+                },
+                {
+                    name_en: "Đường hầm",
+                    name_jp: "トンネル",
+                    image: "/static/images/signs/tunnel.png",
+                    explanation: "Phía trước có đường hầm.",
+                    category: "Guide Signs",
+
+                    learn_more: {
+
+                        meaning: "Người lái xe sắp đi vào khu vực đường hầm.",
+
+                        driver_action: "Bật đèn pha nếu cần và giữ khoảng cách an toàn.",
+
+                        exam_tip: "Các câu hỏi về an toàn trong đường hầm có thể xuất hiện trong kỳ thi.",
+
+                        safety: "Tầm nhìn thay đổi nhanh khi đi vào đường hầm.",
+
+                        real_world: "Phổ biến ở các khu vực miền núi của Nhật Bản.",
+
+                        memory_tip: "Biểu tượng hình đường hầm biểu thị đoạn đường kín."
+                    }
+                },
+
+                {
+                    name_en: "Bệnh viện",
+                    name_jp: "病院",
+                    image: "/static/images/signs/hospital.png",
+                    explanation: "Có bệnh viện gần đây.",
+                    category: "Guide Signs",
+
+                    learn_more: {
+
+                        meaning: "Có cơ sở y tế gần đó.",
+
+                        driver_action: "Lái xe cẩn thận và chú ý xe cứu thương hoặc người đi bộ.",
+
+                        exam_tip: "Nhận biết xe khẩn cấp rất quan trọng trong kỳ thi.",
+
+                        safety: "Khu vực bệnh viện thường có nhiều người đi bộ.",
+
+                        real_world: "Phổ biến ở khu vực thành thị và ngoại ô.",
+
+                        memory_tip: "Biểu tượng chữ H thường biểu thị bệnh viện."
+                    }
+                },
+
+                {
+                    name_en: "Trạm xăng",
+                    name_jp: "ガソリンスタンド",
+                    image: "/static/images/signs/gas_station.png",
+                    explanation: "Có trạm nhiên liệu gần đây.",
+                    category: "Guide Signs",
+
+                    learn_more: {
+
+                        meaning: "Có dịch vụ tiếp nhiên liệu gần đó.",
+
+                        driver_action: "Người lái xe có thể chuẩn bị đổ nhiên liệu.",
+
+                        exam_tip: "Biển hướng dẫn giúp người lái xe định hướng hiệu quả.",
+
+                        safety: "Hãy cẩn thận khi ra vào trạm nhiên liệu.",
+
+                        real_world: "Rất phổ biến trên đường cao tốc và đường thành phố.",
+
+                        memory_tip: "Biểu tượng máy bơm nhiên liệu biểu thị trạm xăng."
+                    }
+                },
+
+                {
+                    name_en: "Nhà hàng",
+                    name_jp: "レストラン",
+                    image: "/static/images/signs/restaurant.png",
+                    explanation: "Có nhà hàng gần đây.",
+                    category: "Guide Signs",
+
+                    learn_more: {
+
+                        meaning: "Có dịch vụ ăn uống gần đó.",
+
+                        driver_action: "Người lái xe có thể dừng lại an toàn để ăn uống hoặc nghỉ ngơi.",
+
+                        exam_tip: "Nhận biết biển hướng dẫn hữu ích cho các câu hỏi định hướng.",
+
+                        safety: "Không lái xe mất tập trung khi tìm kiếm nhà hàng.",
+
+                        real_world: "Thường thấy gần đường cao tốc và khu du lịch.",
+
+                        memory_tip: "Biểu tượng dao và nĩa biểu thị cơ sở ăn uống."
+                    }
+                },
+
+                {
+                    name_en: "Khách sạn",
+                    name_jp: "ホテル",
+                    image: "/static/images/signs/hotel.png",
+                    explanation: "Có khách sạn gần đây.",
+                    category: "Guide Signs",
+
+                    learn_more: {
+
+                        meaning: "Có chỗ lưu trú gần đó.",
+
+                        driver_action: "Người lái xe có thể sử dụng khách sạn để nghỉ ngơi trong các chuyến đi dài.",
+
+                        exam_tip: "Các loại biển hướng dẫn có thể xuất hiện trong câu hỏi phân loại.",
+
+                        safety: "Người lái xe mệt mỏi nên cân nhắc nghỉ ngơi.",
+
+                        real_world: "Thường thấy gần các điểm du lịch.",
+
+                        memory_tip: "Biểu tượng chiếc giường thường biểu thị nơi lưu trú."
+                    }
+                },
+
+                /* ======================================================
+                   ADDITIONAL COMMONLY SEEN JAPANESE ROAD SIGNS
+                   NO DUPLICATES
+                   ADD BELOW YOUR EXISTING roadSigns ARRAY
+                ====================================================== */
+
+                {
+                    name_en: "Cấm người đi bộ",
+                    name_jp: "歩行者通行止め",
+                    image: "/static/images/signs/no_pedestrians.png",
+                    explanation: "Người đi bộ bị cấm vào.",
+                    category: "Prohibition Signs",
+
+                    learn_more: {
+
+                        meaning: "Người đi bộ không được phép vào khu vực này.",
+
+                        driver_action: "Người lái xe nên chú ý các khu vực hạn chế người đi bộ.",
+
+                        exam_tip: "Các câu hỏi có thể hỏi ai bị cấm vào.",
+
+                        safety: "Khu vực cấm người đi bộ giúp ngăn ngừa tai nạn.",
+
+                        real_world: "Thường thấy trên đường cao tốc và đường dành riêng cho xe cơ giới.",
+
+                        memory_tip: "Vòng tròn đỏ có biểu tượng người thường biểu thị cấm người đi bộ."
+                    }
+                },
+
+                {
+                    name_en: "Cấm xe mô tô",
+                    name_jp: "二輪車通行止め",
+                    image: "/static/images/signs/no_motorcycles.png",
+                    explanation: "Xe mô tô bị cấm vào.",
+                    category: "Prohibition Signs",
+
+                    learn_more: {
+
+                        meaning: "Xe mô tô không được phép sử dụng con đường này.",
+
+                        driver_action: "Người lái xe mô tô phải tìm tuyến đường khác được phép.",
+
+                        exam_tip: "Biển phân loại phương tiện thường xuất hiện trong kỳ thi.",
+
+                        safety: "Lệnh cấm có thể do điều kiện đường nguy hiểm.",
+
+                        real_world: "Phổ biến trong đường hầm và khu dân cư.",
+
+                        memory_tip: "Biểu tượng mô tô bên trong vòng tròn đỏ biểu thị cấm."
+                    }
+                },
+                {
+                    name_en: "Cấm rẽ phải",
+                    name_jp: "右折禁止",
+                    image: "/static/images/signs/no_right_turn.png",
+                    explanation: "Cấm rẽ phải tại vị trí này.",
+                    category: "Prohibition Signs",
+
+                    learn_more: {
+
+                        meaning: "Các phương tiện không được phép rẽ phải tại giao lộ hoặc đoạn đường này.",
+
+                        driver_action: "Người lái xe phải đi thẳng hoặc sử dụng tuyến đường hợp pháp khác để đổi hướng.",
+
+                        exam_tip: "Biển cấm hướng đi rất phổ biến trong bài thi lý thuyết lái xe Nhật Bản.",
+
+                        safety: "Rẽ phải trái phép có thể cản trở xe cộ, xe đạp và người đi bộ đang cắt ngang.",
+
+                        real_world: "Rất phổ biến tại các giao lộ đông đúc và đường hẹp.",
+
+                        memory_tip: "Vạch đỏ trên mũi tên luôn biểu thị hướng bị cấm."
+                    }
+                },
+
+                {
+                    name_en: "Cấm rẽ trái",
+                    name_jp: "左折禁止",
+                    image: "/static/images/signs/no_left_turn.png",
+                    explanation: "Cấm rẽ trái tại vị trí này.",
+                    category: "Prohibition Signs",
+
+                    learn_more: {
+
+                        meaning: "Các phương tiện không được phép rẽ trái tại đoạn đường hoặc giao lộ này.",
+
+                        driver_action: "Đi theo hướng được phép và sử dụng điểm rẽ hợp pháp khác sau đó.",
+
+                        exam_tip: "Hãy chú ý kỹ các hạn chế hướng đi theo làn đường trong kỳ thi.",
+
+                        safety: "Rẽ trái trái phép có thể gây nhầm lẫn cho giao thông xung quanh và làm tăng nguy cơ tai nạn.",
+
+                        real_world: "Thường được sử dụng trong kiểm soát giao thông đô thị và các giao lộ hẹp.",
+
+                        memory_tip: "Mũi tên có vạch đỏ cấm biểu thị hành động bị cấm."
+                    }
+                },
+
+                {
+                    name_en: "Khu vực trẻ em băng qua",
+                    name_jp: "児童横断",
+                    image: "/static/images/signs/children_crossing.png",
+                    explanation: "Trẻ em có thể băng qua đường phía trước.",
+                    category: "Warning Signs",
+
+                    learn_more: {
+
+                        meaning: "Trẻ em có khả năng băng qua đường gần khu vực này.",
+
+                        driver_action: "Giảm tốc độ và chuẩn bị dừng ngay lập tức.",
+
+                        exam_tip: "Các quy tắc an toàn cho trẻ em rất quan trọng trong bài thi thực hành.",
+
+                        safety: "Trẻ em có thể di chuyển khó đoán gần đường.",
+
+                        real_world: "Thường thấy gần trường học và công viên.",
+
+                        memory_tip: "Biểu tượng trẻ em trên biển cảnh báo biểu thị cần cẩn thận gần trường học."
+                    }
+                },
+
+                {
+                    name_en: "Giao lộ",
+                    name_jp: "交差点あり",
+                    image: "/static/images/signs/crossroads.png",
+                    explanation: "Phía trước có giao lộ.",
+                    category: "Warning Signs",
+
+                    learn_more: {
+
+                        meaning: "Một giao lộ đang ở phía trước.",
+
+                        driver_action: "Kiểm tra cẩn thận tất cả các hướng trước khi đi vào.",
+
+                        exam_tip: "An toàn tại giao lộ được kiểm tra rất nghiêm ngặt trong kỳ thi.",
+
+                        safety: "Nhiều tai nạn xảy ra tại giao lộ.",
+
+                        real_world: "Cực kỳ phổ biến trên đường phố Nhật Bản.",
+
+                        memory_tip: "Biểu tượng hình chữ thập biểu thị các con đường giao nhau."
+                    }
+                },
+
+                {
+                    name_en: "Khúc cua bên trái",
+                    name_jp: "左方屈曲あり",
+                    image: "/static/images/signs/curve_left.png",
+                    explanation: "Phía trước có khúc cua gấp bên trái.",
+                    category: "Warning Signs",
+
+                    learn_more: {
+
+                        meaning: "Con đường phía trước cong mạnh sang trái.",
+
+                        driver_action: "Giảm tốc độ trước khi vào khúc cua.",
+
+                        exam_tip: "An toàn khi lái xe trên đường cong xuất hiện trong các câu hỏi về nguy hiểm.",
+
+                        safety: "Chạy quá tốc độ có thể dẫn đến mất kiểm soát.",
+
+                        real_world: "Phổ biến trên các con đường miền núi.",
+
+                        memory_tip: "Mũi tên cong biểu thị hướng cong của con đường phía trước."
+                    }
+                },
+
+                {
+                    name_en: "Khúc cua bên phải",
+                    name_jp: "右方屈曲あり",
+                    image: "/static/images/signs/curve_right.png",
+                    explanation: "Phía trước có khúc cua gấp bên phải.",
+                    category: "Warning Signs",
+
+                    learn_more: {
+
+                        meaning: "Con đường phía trước cong mạnh sang phải.",
+
+                        driver_action: "Phanh sớm và đánh lái nhẹ nhàng.",
+
+                        exam_tip: "Người lái xe nên tránh phanh gấp trong khúc cua.",
+
+                        safety: "Khúc cua gấp có thể làm giảm tầm nhìn.",
+
+                        real_world: "Thường thấy trên các con đường nông thôn.",
+
+                        memory_tip: "Mũi tên cong chỉ sự thay đổi hướng của con đường."
+                    }
+                },
+                {
+                    name_en: "Giao thông hai chiều",
+                    name_jp: "対面通行",
+                    image: "/static/images/signs/two_way_traffic.png",
+                    explanation: "Giao thông lưu thông theo cả hai hướng.",
+                    category: "Warning Signs",
+
+                    learn_more: {
+
+                        meaning: "Phía trước có làn xe lưu thông ngược chiều.",
+
+                        driver_action: "Cẩn thận giữ đúng trong vạch làn đường.",
+
+                        exam_tip: "Nhận biết vạch trung tâm rất quan trọng trong bài thi thực hành.",
+
+                        safety: "Đi sang làn đối diện cực kỳ nguy hiểm.",
+
+                        real_world: "Thường thấy sau đoạn đường một chiều hoặc khu vực thi công.",
+
+                        memory_tip: "Các mũi tên ngược chiều biểu thị giao thông hai chiều."
+                    }
+                },
+
+                {
+                    name_en: "Dốc đứng",
+                    name_jp: "急勾配あり",
+                    image: "/static/images/signs/steep_hill.png",
+                    explanation: "Phía trước có dốc lên hoặc xuống đứng.",
+                    category: "Warning Signs",
+
+                    learn_more: {
+
+                        meaning: "Người lái xe đang đến gần đoạn đường dốc lên hoặc xuống.",
+
+                        driver_action: "Sử dụng phanh và kiểm soát số đúng cách.",
+
+                        exam_tip: "Kỹ thuật khởi hành ngang dốc được kiểm tra trong bài thi thực hành.",
+
+                        safety: "Sử dụng phanh không đúng có thể dẫn đến mất kiểm soát.",
+
+                        real_world: "Phổ biến ở các khu vực miền núi của Nhật Bản.",
+
+                        memory_tip: "Biểu tượng đường dốc biểu thị địa hình dốc."
+                    }
+                },
+
+                {
+                    name_en: "Công trình đường bộ",
+                    name_jp: "道路工事中",
+                    image: "/static/images/signs/road_work.png",
+                    explanation: "Phía trước đang có công trình đường bộ.",
+                    category: "Warning Signs",
+
+                    learn_more: {
+
+                        meaning: "Công việc xây dựng hoặc sửa chữa đang diễn ra phía trước.",
+
+                        driver_action: "Giảm tốc độ và tuân theo hướng dẫn giao thông tạm thời.",
+
+                        exam_tip: "Biển kiểm soát giao thông tạm thời có thể xuất hiện trong kỳ thi.",
+
+                        safety: "Khu vực thi công có thể có thay đổi làn đường bất ngờ.",
+
+                        real_world: "Rất phổ biến trong các công trình sửa đường đô thị.",
+
+                        memory_tip: "Biểu tượng công nhân biểu thị hoạt động xây dựng."
+                    }
+                },
+
+                {
+                    name_en: "Nguy hiểm",
+                    name_jp: "危険",
+                    image: "/static/images/signs/danger.png",
+                    explanation: "Cảnh báo nguy hiểm chung.",
+                    category: "Warning Signs",
+
+                    learn_more: {
+
+                        meaning: "Người lái xe nên chuẩn bị cho các nguy cơ bất thường phía trước.",
+
+                        driver_action: "Tăng sự chú ý và giảm tốc độ ngay lập tức.",
+
+                        exam_tip: "Nhận biết nguy hiểm chung rất quan trọng trong kỳ thi lái xe.",
+
+                        safety: "Biển nguy hiểm biểu thị nguy cơ tai nạn cao hơn.",
+
+                        real_world: "Được sử dụng tại khu vực tạm thời hoặc nguy hiểm.",
+
+                        memory_tip: "Biển cảnh báo màu vàng thường biểu thị cần cẩn thận."
+                    }
+                },
+
+                {
+                    name_en: "Khu vực đỗ xe trên đường cao tốc",
+                    name_jp: "パーキングエリア",
+                    image: "/static/images/signs/parking_area.png",
+                    explanation: "Phía trước có khu vực đỗ xe trên đường cao tốc.",
+                    category: "Expressway Signs",
+
+                    learn_more: {
+
+                        meaning: "Người lái xe có thể nghỉ ngơi hoặc đỗ xe tạm thời phía trước.",
+
+                        driver_action: "Sử dụng khu vực đỗ xe an toàn để nghỉ ngơi.",
+
+                        exam_tip: "Quản lý nghỉ ngơi rất quan trọng khi lái xe đường dài.",
+
+                        safety: "Lái xe khi mệt mỏi làm tăng nguy cơ tai nạn.",
+
+                        real_world: "Phổ biến trên các tuyến đường cao tốc Nhật Bản.",
+
+                        memory_tip: "Biển chữ P màu xanh biểu thị khu vực đỗ xe."
+                    }
+                },
+
+                {
+                    name_en: "Khu vực dịch vụ",
+                    name_jp: "サービスエリア",
+                    image: "/static/images/signs/service_area.png",
+                    explanation: "Phía trước có khu vực dịch vụ.",
+                    category: "Expressway Signs",
+
+                    learn_more: {
+
+                        meaning: "Có dịch vụ ăn uống, nhiên liệu và nghỉ ngơi phía trước.",
+
+                        driver_action: "Người lái xe có thể dừng lại an toàn để nghỉ ngơi và sử dụng dịch vụ.",
+
+                        exam_tip: "Biển tiện ích đường cao tốc có thể xuất hiện trong các câu hỏi định hướng.",
+
+                        safety: "Nghỉ ngơi thường xuyên giúp ngăn ngừa mệt mỏi khi lái xe.",
+
+                        real_world: "Được tìm thấy thường xuyên trên đường cao tốc.",
+
+                        memory_tip: "Biển đường cao tốc màu xanh lá thường biểu thị tiện ích trên cao tốc."
+                    }
+                },
+                /* ======================================================
+                   ADDITIONAL IMPORTANT JAPANESE TRAFFIC SIGNS
+                   SIGNALS & SPECIAL RULES
+                   NO DUPLICATES
+                ====================================================== */
+
+                {
+                    name_en: "Đèn đỏ nhấp nháy",
+                    name_jp: "赤色点滅信号",
+                    image: "/static/images/signs/red_flashing_signal.png",
+                    explanation: "Người lái xe phải dừng hoàn toàn trước khi tiếp tục di chuyển.",
+                    category: "Regulatory Signs",
+
+                    learn_more: {
+
+                        meaning: "Đèn đỏ nhấp nháy yêu cầu người lái xe phải dừng hoàn toàn trước khi đi vào giao lộ. Ở Nhật Bản, nó có ý nghĩa giống như biển dừng.",
+
+                        driver_action: "Người lái xe phải dừng hoàn toàn phía sau vạch dừng, kiểm tra cẩn thận bên trái và bên phải, đảm bảo an toàn rồi mới từ từ tiếp tục di chuyển nếu đường trống.",
+
+                        exam_tip: "Các bài thi lái xe Nhật Bản thường so sánh đèn đỏ nhấp nháy với đèn vàng nhấp nháy. Với đèn đỏ nhấp nháy, luôn phải dừng hoàn toàn.",
+
+                        safety: "Phớt lờ đèn đỏ nhấp nháy có thể gây va chạm nghiêm trọng tại giao lộ.",
+
+                        real_world: "Thường được sử dụng vào ban đêm hoặc tại các giao lộ có lưu lượng giao thông thấp.",
+
+                        memory_tip: "Đèn đỏ nhấp nháy nghĩa là phải dừng hoàn toàn trước khi đi tiếp."
+                    }
+                },
+
+                {
+                    name_en: "Đèn vàng nhấp nháy",
+                    name_jp: "黄色点滅信号",
+                    image: "/static/images/signs/yellow_flashing_signal.png",
+                    explanation: "Người lái xe có thể tiếp tục di chuyển một cách cẩn thận.",
+                    category: "Warning Signs",
+
+                    learn_more: {
+
+                        meaning: "Đèn vàng nhấp nháy cảnh báo người lái xe tiếp tục di chuyển cẩn thận và chú ý đến giao thông cắt ngang cũng như người đi bộ.",
+
+                        driver_action: "Người lái xe có thể tiếp tục nhưng phải giảm tốc độ và quan sát kỹ tình hình giao thông xung quanh.",
+
+                        exam_tip: "Các bài thi lý thuyết thường hỏi sự khác biệt giữa đèn vàng nhấp nháy và đèn giao thông vàng thông thường.",
+
+                        safety: "Người lái xe vẫn phải chịu trách nhiệm đảm bảo an toàn trước khi đi vào giao lộ.",
+
+                        real_world: "Thường thấy khi đèn giao thông chuyển sang chế độ nhấp nháy vào ban đêm.",
+
+                        memory_tip: "Đèn vàng nhấp nháy nghĩa là cẩn thận — giảm tốc độ nhưng không cần dừng nếu không cần thiết."
+                    }
+                },
+
+                {
+                    name_en: "Cấm xe tải",
+                    name_jp: "大型貨物自動車通行止め",
+                    image: "/static/images/signs/truck_prohibited.png",
+                    explanation: "Xe tải lớn bị cấm vào.",
+                    category: "Prohibition Signs",
+
+                    learn_more: {
+
+                        meaning: "Xe tải chở hàng lớn và xe hạng nặng không được phép sử dụng con đường hoặc khu vực này.",
+
+                        driver_action: "Tài xế xe tải phải ngay lập tức sử dụng tuyến đường thay thế được phép.",
+
+                        exam_tip: "Biển hạn chế phương tiện thường xuất hiện trong kỳ thi bằng lái học viên ở Nhật Bản.",
+
+                        safety: "Xe tải lớn có thể không an toàn trên đường hẹp, khu vực trường học hoặc đường dân cư.",
+
+                        real_world: "Thường thấy gần khu dân cư, trường học và các con đường đô thị nhỏ.",
+
+                        memory_tip: "Biểu tượng xe tải bên trong vòng tròn đỏ biểu thị cấm xe tải."
+                    }
+                },
+
+                {
+                    name_en: "Cấm xe mô tô",
+                    name_jp: "二輪車通行止め",
+                    image: "/static/images/signs/motorcycle_prohibited.png",
+                    explanation: "Xe mô tô bị cấm vào.",
+                    category: "Prohibition Signs",
+
+                    learn_more: {
+
+                        meaning: "Xe mô tô, xe tay ga và các phương tiện hai bánh có động cơ khác không được phép vào con đường này.",
+
+                        driver_action: "Người lái xe mô tô phải ngay lập tức tìm tuyến đường được phép khác.",
+
+                        exam_tip: "Các bài thi ở Nhật Bản có thể hỏi loại phương tiện nào bị hạn chế bởi biển báo này.",
+
+                        safety: "Những hạn chế này thường được áp dụng trên các con đường có nguy cơ cao hơn đối với xe mô tô.",
+
+                        real_world: "Phổ biến trong đường hầm, đường cao tốc, cầu và khu dân cư yên tĩnh.",
+
+                        memory_tip: "Biểu tượng xe mô tô bên trong vòng tròn cấm đỏ có nghĩa là không được phép đi xe mô tô."
+                    }
+                },
+
+                {
+                    name_en: "Cấm rẽ phải",
+                    name_jp: "右折禁止",
+                    image: "/static/images/signs/no_right_turn.png",
+                    explanation: "Cấm rẽ phải tại vị trí này.",
+                    category: "Prohibition Signs",
+
+                    learn_more: {
+
+                        meaning: "Người lái xe không được phép rẽ phải tại giao lộ hoặc con đường này.",
+
+                        driver_action: "Đi thẳng hoặc sử dụng tuyến đường hợp pháp khác để đổi hướng.",
+
+                        exam_tip: "Biển cấm hướng đi rất phổ biến trong bài thi lý thuyết lái xe Nhật Bản.",
+
+                        safety: "Rẽ phải trái phép có thể cản trở xe cộ, xe đạp và người đi bộ đang băng qua.",
+
+                        real_world: "Rất phổ biến tại các giao lộ đông đúc và đường hẹp.",
+
+                        memory_tip: "Vạch đỏ trên mũi tên luôn biểu thị hướng bị cấm."
+                    }
+                },
+
+                {
+                    name_en: "Cấm rẽ trái",
+                    name_jp: "左折禁止",
+                    image: "/static/images/signs/no_left_turn.png",
+                    explanation: "Cấm rẽ trái tại vị trí này.",
+                    category: "Prohibition Signs",
+
+                    learn_more: {
+
+                        meaning: "Người lái xe không được phép rẽ trái tại đoạn đường hoặc giao lộ này.",
+
+                        driver_action: "Đi theo hướng được phép và sử dụng điểm rẽ hợp pháp khác phía trước.",
+
+                        exam_tip: "Hãy chú ý kỹ các hạn chế hướng đi theo làn đường trong kỳ thi.",
+
+                        safety: "Rẽ trái trái phép có thể gây nhầm lẫn cho giao thông xung quanh và tăng nguy cơ tai nạn.",
+
+                        real_world: "Thường được sử dụng trong kiểm soát giao thông đô thị và tại các giao lộ hẹp.",
+
+                        memory_tip: "Mũi tên có vạch đỏ cấm biểu thị hành động bị cấm."
+                    }
+                },
+                {
+                    name_en: "Tín hiệu tay bắt buộc",
+                    name_jp: "手信号",
+                    image: "/static/images/signs/hand_signal.png",
+                    explanation: "Người lái xe có thể cần sử dụng tín hiệu tay nếu đèn tín hiệu rẽ bị hỏng.",
+                    category: "Regulatory Signs",
+
+                    learn_more: {
+
+                        meaning: "Người lái xe phải hiểu các tín hiệu tay chính thức của Nhật Bản được sử dụng trong trường hợp khẩn cấp hoặc khi thiết bị bị hỏng.",
+
+                        driver_action: "Sử dụng tín hiệu tay đúng nếu đèn tín hiệu hoặc đèn phanh không hoạt động.",
+
+                        exam_tip: "Các bài thi lái xe Nhật Bản có thể bao gồm câu hỏi về tín hiệu tay cho xe mô tô, xe đạp và tình huống khẩn cấp.",
+
+                        safety: "Tín hiệu tay đúng giúp những người lái xe xung quanh hiểu rõ ý định của bạn.",
+
+                        real_world: "Quan trọng đối với xe mô tô, xe đạp, tình huống khẩn cấp và khi tín hiệu bị hỏng.",
+
+                        memory_tip: "Tín hiệu tay hoạt động như phương thức giao tiếp thay thế khi tín hiệu xe thông thường không hoạt động."
+                    }
+                },
+                {
+                    name_en: "Tín hiệu tay rẽ phải",
+                    name_jp: "右折の手信号",
+                    image: "/static/images/signs/right_turn_hand_signal.png",
+                    explanation: "Tín hiệu tay dùng để báo rẽ phải.",
+                    category: "Regulatory Signs",
+
+                    learn_more: {
+
+                        meaning: "Người lái xe duỗi thẳng tay phải theo chiều ngang hoặc gập tay trái hướng lên để báo rẽ phải.",
+
+                        driver_action: "Các phương tiện xung quanh nên chuẩn bị cho việc xe giảm tốc độ và rẽ phải.",
+
+                        exam_tip: "Tín hiệu tay cho xe mô tô và xe đạp có thể xuất hiện trong bài thi lý thuyết.",
+
+                        safety: "Tín hiệu rõ ràng giúp giảm nhầm lẫn và va chạm bên hông.",
+
+                        real_world: "Chủ yếu được sử dụng khi đèn tín hiệu rẽ bị hỏng hoặc khi đi xe đạp.",
+
+                        memory_tip: "Cánh tay chỉ sang bên phải biểu thị xe sẽ rẽ phải."
+                    }
+                },
+
+                {
+                    name_en: "Tín hiệu tay rẽ trái",
+                    name_jp: "左折の手信号",
+                    image: "/static/images/signs/left_turn_hand_signal.png",
+                    explanation: "Tín hiệu tay dùng để báo rẽ trái.",
+                    category: "Regulatory Signs",
+
+                    learn_more: {
+
+                        meaning: "Người lái xe duỗi thẳng tay trái để báo rẽ trái.",
+
+                        driver_action: "Giao thông xung quanh nên chuẩn bị cho xe chuyển hướng.",
+
+                        exam_tip: "Đây là một trong những tín hiệu tay được dạy phổ biến nhất trong trường dạy lái xe.",
+
+                        safety: "Ra tín hiệu sớm giúp tăng nhận thức của người lái xe và giảm tai nạn.",
+
+                        real_world: "Thường được dạy cho người đi xe đạp và xe mô tô.",
+
+                        memory_tip: "Cánh tay trái duỗi thẳng biểu thị rẽ trái."
+                    }
+                },
+
+                {
+                    name_en: "Tín hiệu tay dừng xe",
+                    name_jp: "停止の手信号",
+                    image: "/static/images/signs/stop_hand_signal.png",
+                    explanation: "Tín hiệu tay dùng để báo dừng hoặc giảm tốc độ.",
+                    category: "Regulatory Signs",
+
+                    learn_more: {
+
+                        meaning: "Người lái xe hướng tay xuống dưới để báo dừng hoặc giảm tốc độ.",
+
+                        driver_action: "Người lái xe phía sau nên chuẩn bị phanh an toàn.",
+
+                        exam_tip: "Tín hiệu tay dừng xe rất quan trọng đối với xe đạp và xe mô tô.",
+
+                        safety: "Tín hiệu này giúp ngăn ngừa va chạm từ phía sau.",
+
+                        real_world: "Được sử dụng trong tình huống khẩn cấp hoặc khi đèn phanh bị hỏng.",
+
+                        memory_tip: "Chuyển động tay hướng xuống biểu thị dừng hoặc giảm tốc độ."
+                    }
+                },
+
+            ];
+            /* ======================================================
+       DUPLICATE FOR DEMO
+    ====================================================== */
+
+            const fullSigns = [...roadSigns];
+
+            /* ======================================================
+               ELEMENTS
+            ====================================================== */
+
+            const signGrid =
+                document.getElementById("signGrid");
+
+            const searchInput =
+                document.getElementById("searchInput");
+
+            const tabs =
+                document.querySelectorAll(".tab");
+
+            const emptyState =
+                document.getElementById("emptyState");
+
+            let currentCategory = "All";
+
+            /* ======================================================
+               EDUCATIONAL CONTENT
+            ====================================================== */
+
+            function generateEducationalContent(sign) {
+
+                const info =
+                    sign.learn_more || {};
+
+                return `
+
+        <div class="learn-box">
+
+          <div class="learn-section">
+
+            <h4>
+              📘 Ý nghĩa biển báo
+            </h4>
+
+            <p>
+              ${info.meaning || sign.explanation}
+            </p>
+
+          </div>
+
+          <div class="learn-section">
+
+            <h4>
+              🚗 Hành động của tài xế
+            </h4>
+
+            <p>
+              ${info.driver_action || "Drivers should carefully follow this sign."}
+            </p>
+
+          </div>
+
+          <div class="learn-section">
+
+            <h4>
+              
+              🧠 Mẹo thi lái xe
+
+            </h4>
+
+            <p>
+              ${info.exam_tip || "This sign may appear during Japanese driving exams."}
+            </p>
+
+          </div>
+
+          <div class="learn-section">
+
+            <h4>
+              ⚠️ Nhắc nhở an toàn
+            </h4>
+
+            <p>
+              ${info.safety || "Ignoring this sign may create dangerous situations."}
+            </p>
+
+          </div>
+
+          <div class="learn-section">
+
+            <h4>
+              🌏 Tình huống thực tế
+            </h4>
+
+            <p>
+              ${info.real_world || "This sign commonly appears on Japanese roads."}
+            </p>
+
+          </div>
+
+          <div class="learn-section">
+
+            <h4>
+              💡 Mẹo ghi nhớ
+            </h4>
+
+            <p>
+              ${info.memory_tip || "Try remembering the shape and color of the sign."}
+            </p>
+
+          </div>
+
+          <div class="learn-section">
+
+            <h4>
+              📝 Câu hỏi thường gặp
+            </h4>
+
+            <div class="quiz-box">
+
+              <p class="quiz-question">
+                “What should the driver do when seeing this sign?”
+              </p>
+
+              <p class="quiz-answer">
+                The driver must correctly follow the rule,
+                instruction, or warning indicated by the sign.
+              </p>
+
+            </div>
+
+          </div>
+
+          <div class="learn-section">
+
+            <h4>
+              🔗 Chủ đề liên quan
+            </h4>
+
+            <div class="related-signs">
+
+              <span class="related-badge">
+                Japanese Driving Test
+              </span>
+
+              <span class="related-badge">
+                Traffic Rules
+              </span>
+
+              <span class="related-badge">
+                Road Safety
+              </span>
+
+              <span class="related-badge">
+                Driving Awareness
+              </span>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      `;
+
+            }
+
+            /* ======================================================
+               RENDER
+            ====================================================== */
+
+            function renderSigns() {
+
+                const search =
+                    searchInput.value.toLowerCase();
+
+                const filtered = fullSigns.filter(sign => {
+
+                    const matchesCategory =
+
+                        currentCategory === "All" ||
+
+                        sign.category === currentCategory;
+
+                    const matchesSearch =
+
+                        sign.name_en.toLowerCase().includes(search) ||
+
+                        sign.name_jp.includes(search) ||
+
+                        sign.explanation.toLowerCase().includes(search);
+
+                    return matchesCategory && matchesSearch;
+
+                });
+
+                signGrid.innerHTML = "";
+
+                if (filtered.length === 0) {
+
+                    emptyState.style.display = "block";
+
+                } else {
+
+                    emptyState.style.display = "none";
+
+                }
+
+                filtered.forEach(sign => {
+
+                    const card =
+                        document.createElement("div");
+
+                    card.className = "card";
+
+                    card.innerHTML = `
+
+          <div class="card-top">
+
+            <img
+                src="${sign.image}"
+                alt="${sign.name_en}"
+                loading="lazy"
+                onerror="this.src='/static/images/signs/placeholder.png'"
+            />
+
+          </div>
+
+          <div class="card-body">
+
+            <div class="category">
+              ${sign.category}
+            </div>
+
+            <h3 class="sign-title">
+              ${sign.name_en}
+            </h3>
+
+            <div class="sign-jp">
+              ${sign.name_jp}
+            </div>
+
+            <p class="description">
+              ${sign.explanation}
+            </p>
+
+            <button class="expand-btn">
+              Learn More
+            </button>
+
+            <div class="extra">
+
+              ${generateEducationalContent(sign)}
+
+            </div>
+
+          </div>
+
+        `;
+
+                    const expandBtn =
+                        card.querySelector(".expand-btn");
+
+                    const extra =
+                        card.querySelector(".extra");
+
+                    expandBtn.addEventListener("click", () => {
+
+                        extra.classList.toggle("open");
+
+                        expandBtn.innerText =
+
+                            extra.classList.contains("open")
+
+                            ?
+                            "Hide Details"
+
+                            :
+                            "Learn More";
+
+                    });
+
+                    signGrid.appendChild(card);
+
+                });
+
+            }
+
+            /* ======================================================
+               SEARCH
+            ====================================================== */
+
+            searchInput.addEventListener(
+                "input",
+                renderSigns
+            );
+
+            /* ======================================================
+               FILTER TABS
+            ====================================================== */
+
+            tabs.forEach(tab => {
+
+                tab.addEventListener("click", () => {
+
+                    tabs.forEach(t =>
+                        t.classList.remove("active")
+                    );
+
+                    tab.classList.add("active");
+
+                    currentCategory =
+                        tab.dataset.category;
+
+                    renderSigns();
+
+                });
+
+            });
+
+            /* ======================================================
+               DARK MODE
+            ====================================================== */
+
+            const themeToggle =
+                document.getElementById("themeToggle");
+
+            themeToggle.addEventListener("click", () => {
+
+                document.body.classList.toggle(
+                    "light-mode"
+                );
+
+                if (
+                    document.body.classList.contains(
+                        "light-mode"
+                    )
+                ) {
+
+                    themeToggle.innerHTML = "☀️";
+
+                } else {
+
+                    themeToggle.innerHTML = "🌙";
+
+                }
+
+            });
+
+            /* ======================================================
+               SCROLL TO TOP
+            ====================================================== */
+
+            const scrollTopBtn =
+                document.getElementById("scrollTopBtn");
+
+            scrollTopBtn.addEventListener("click", () => {
+
+                window.scrollTo({
+                    top: 0,
+                    behavior: "smooth"
+                });
+
+            });
+
+            /* ======================================================
+               INITIAL RENDER
+            ====================================================== */
+
+            renderSigns();
+        </script>
+
+</body>
+
+</html>
