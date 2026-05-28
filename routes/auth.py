@@ -20,7 +20,8 @@ from models import (
 
 from extensions import (
     mail,
-    serializer
+    serializer,
+    send_email
 )
 
 from languages.ui import get_ui
