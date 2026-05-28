@@ -392,13 +392,16 @@ def reset_password(token):
                     )
                 )
 
-                db.session.commit()
-                print("PASSWORD UPDATED:", user.email)
-                print("NEW HASH:", user.password)
+                user.failed_login_attempts = 0
+                user.locked_until = None
 
-                success = (
-                    "Password updated successfully."
+                db.session.commit()
+                
+                flash(
+                    "Password updated successfully. Please login."
                 )
+
+                return redirect('/login')
 
     return render_template(
 
