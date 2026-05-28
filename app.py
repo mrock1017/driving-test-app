@@ -393,6 +393,8 @@ def reset_password(token):
                 )
 
                 db.session.commit()
+                print("PASSWORD UPDATED:", user.email)
+                print("NEW HASH:", user.password)
 
                 success = (
                     "Password updated successfully."

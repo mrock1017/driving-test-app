@@ -113,6 +113,9 @@ def login():
 
             db.session.commit()
 
+            print("PASSWORD UPDATED:", user.email)
+            print("NEW HASH:", user.password)
+
             # =====================================================
             # 📱 DEVICE LIMIT CHECK
             # =====================================================
