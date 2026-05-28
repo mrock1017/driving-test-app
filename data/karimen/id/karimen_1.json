@@ -1498,5 +1498,405 @@
     ],
     "answer": "True",
     "explanation": "Tata letak jalan dapat berbeda tergantung lebar jalur atau kondisi jalan, sehingga garis tengah yang dicat mungkin bergeser dari pusat fisik jalan. Pengemudi harus mengikuti batas jalur yang ditandai dengan hati-hati."
+  },
+  {
+    "question": "Pengemudi yang menyebabkan kecelakaan saat berada di bawah pengaruh alkohol akan menerima hukuman yang sama dengan pengemudi mabuk yang tertangkap tanpa menyebabkan bahaya.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Di Jepang, hukuman menjadi jauh lebih berat jika mengemudi dalam keadaan mabuk menyebabkan cedera atau kematian. Hukuman akan meningkat tergantung pada tingkat keparahan kecelakaan dan apakah pengemudi melarikan diri dari lokasi kejadian."
+  },
+  {
+    "question": "Beberapa area sekolah dapat menerapkan batas kecepatan 30 km/jam pada waktu tertentu dalam sehari.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Banyak zona sekolah di Jepang menerapkan batas kecepatan lebih rendah pada jam-jam ketika anak-anak kemungkinan berada di sekitar area tersebut. Pengemudi harus mematuhi pembatasan waktu yang tertera pada rambu."
+  },
+  {
+    "question": "Menyalakan pendingin udara dapat membantu menghilangkan embun pada kaca depan.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Pendingin udara mengurangi kelembapan di dalam kendaraan sehingga membantu menghilangkan kondensasi pada kaca. Menggunakan defroster bersama AC sangat efektif."
+  },
+  {
+    "question": "Saat hujan deras di malam hari, penggunaan lampu jauh meningkatkan jarak pandang dan dianjurkan.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Lampu jauh memantulkan cahaya pada hujan dan dapat memperburuk jarak pandang. Lampu dekat memberikan penglihatan yang lebih jelas saat hujan di malam hari."
+  },
+  {
+    "question": "Anda boleh berjalan ke arah yang ditunjukkan oleh lampu panah hijau meskipun lampu lalu lintas utama berwarna merah.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Panah hijau hanya mengizinkan kendaraan bergerak ke arah yang ditunjukkan. Pengemudi tetap harus memperhatikan pejalan kaki dan kendaraan yang sudah berada di persimpangan."
+  },
+  {
+    "question": "Setelah terjadi tabrakan, Anda harus memindahkan kendaraan menjauh dari lalu lintas jika dapat dilakukan dengan aman.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Jika kendaraan masih dapat bergerak dan menghalangi lalu lintas, kendaraan harus dipindahkan ke tempat aman untuk mencegah kecelakaan tambahan. Keselamatan dan pemeriksaan cedera harus menjadi prioritas utama."
+  },
+  {
+    "question": "Rambu segitiga terbalik untuk memberi jalan selalu mengharuskan berhenti total.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Rambu memberi jalan berarti pengemudi harus memperlambat kendaraan dan memberikan prioritas kepada lalu lintas lain. Berhenti hanya diperlukan jika dibutuhkan demi keselamatan."
+  },
+  {
+    "question": "Jika kendaraan lain mencoba menyalip Anda, Anda harus mempercepat agar tidak disalip.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Pengemudi yang sedang disalip tidak boleh menghalangi kendaraan yang menyalip. Menjaga kecepatan atau sedikit memperlambat kendaraan membantu mencegah bahaya."
+  },
+  {
+    "question": "Di Jepang, seseorang dapat secara legal mengendarai moped 50cc mulai usia 16 tahun.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Usia minimum untuk mendapatkan lisensi moped di Jepang adalah 16 tahun. Lisensi mobil penumpang biasa memerlukan usia minimum yang lebih tinggi."
+  },
+  {
+    "question": "Meskipun lampu lalu lintas berwarna hijau, pejalan kaki yang menggunakan zebra cross tetap memiliki prioritas.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Pengemudi harus memberi jalan kepada pejalan kaki yang menyeberang secara sah di persimpangan dan zebra cross. Lampu hijau tidak menghilangkan tanggung jawab ini."
+  },
+  {
+    "question": "Jembatan lebih mudah membeku dibandingkan permukaan jalan biasa.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Udara dingin bersirkulasi di atas dan di bawah jembatan sehingga jembatan membeku lebih cepat. Pengemudi harus mengurangi kecepatan saat kondisi musim dingin."
+  },
+  {
+    "question": "Kendaraan besar atau berat umumnya membutuhkan jarak berhenti lebih panjang dibandingkan kendaraan ringan yang melaju dengan kecepatan yang sama.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Kendaraan yang lebih berat memiliki momentum lebih besar dan membutuhkan jarak pengereman lebih panjang. Truk dan kendaraan bermuatan biasanya berhenti lebih lambat dibanding mobil kecil."
+  },
+  {
+    "question": "Saat menggunakan jalur percepatan di jalan tol, Anda harus meningkatkan kecepatan agar sesuai dengan arus lalu lintas sebelum bergabung.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Pengemudi harus menyesuaikan diri dengan arus lalu lintas jalan tol sebelum masuk ke jalur utama. Bergabung dengan kecepatan terlalu lambat dapat menciptakan perbedaan kecepatan yang berbahaya."
+  },
+  {
+    "question": "Tetap terus berada di jalur kanan diperbolehkan jika Anda mengemudi sesuai batas kecepatan yang ditentukan.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Pada jalan dengan beberapa jalur di Jepang, jalur kanan umumnya digunakan untuk menyalip. Pengemudi harus kembali ke jalur kiri setelah selesai menyalip."
+  },
+  {
+    "question": "Rambu batas kecepatan di Jepang menggunakan satuan kilometer per jam.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Jepang menggunakan sistem metrik untuk peraturan jalan raya. Semua rambu batas kecepatan resmi ditampilkan dalam km/jam."
+  },
+  {
+    "question": "Rambu lingkaran berbingkai merah dengan angka 50 berarti pengemudi harus melaju setidaknya 50 km/jam.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Rambu kecepatan berbentuk lingkaran merah menunjukkan batas kecepatan maksimum yang diizinkan. Rambu batas kecepatan minimum menggunakan latar belakang biru."
+  },
+  {
+    "question": "Di Jepang, rambu peringatan biasanya ditampilkan dalam bentuk wajik kuning, bukan segitiga merah dengan tanda seru.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Rambu peringatan di Jepang biasanya berbentuk wajik kuning dengan simbol hitam untuk menunjukkan bahaya tertentu di depan."
+  },
+  {
+    "question": "Moped 50cc diperbolehkan melaju di jalan tol Jepang.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Moped dengan mesin 50cc atau kurang dilarang memasuki jalan tol. Jalan tol memerlukan kendaraan yang mampu mempertahankan kecepatan lebih tinggi."
+  },
+  {
+    "question": "Nomor telepon darurat untuk ambulans dan pemadam kebakaran di Jepang adalah 119.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Menghubungi 119 akan menghubungkan Anda dengan layanan pemadam kebakaran dan ambulans di seluruh Jepang. Keadaan darurat polisi menggunakan nomor yang berbeda."
+  },
+  {
+    "question": "Jepang menggunakan desain rambu berhenti berbentuk segi delapan yang umum digunakan di banyak negara lain.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Rambu berhenti di Jepang berbentuk segitiga merah terbalik dan biasanya menampilkan kata “止まれ” yang berarti “Berhenti.”"
+  },
+  {
+    "question": "Posisi mengemudi Anda sudah benar jika kedua lengan Anda terentang penuh di bagian atas setir.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Pengemudi sebaiknya duduk dengan siku sedikit menekuk saat memegang setir. Duduk terlalu dekat dapat meningkatkan risiko cedera akibat airbag."
+  },
+  {
+    "question": "Jika lampu depan kendaraan dari arah berlawanan membuat Anda silau sementara, Anda harus menatap langsung lampu tersebut untuk mengetahui posisi kendaraan lain.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Menatap langsung lampu depan yang terang dapat memperburuk kebutaan sementara. Pengemudi sebaiknya fokus ke sisi kiri jalan."
+  },
+  {
+    "question": "Sepeda motor dengan mesin lebih besar dari 50cc mengikuti batas kecepatan umum yang sama dengan mobil penumpang di jalan biasa.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Sepeda motor standar mengikuti batas kecepatan yang sama seperti mobil. Pembatasan khusus 30 km/jam terutama berlaku untuk moped di bawah 50cc."
+  },
+  {
+    "question": "Menyiram pejalan kaki dengan air saat melewati genangan dapat melanggar hukum lalu lintas Jepang.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Pengemudi harus menghindari menyebabkan gangguan atau bahaya bagi pejalan kaki. Memercikkan air atau lumpur secara ceroboh dapat mengakibatkan hukuman."
+  },
+  {
+    "question": "Wiper kaca depan hanya perlu diganti ketika terlihat kerusakan yang jelas.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Karet wiper akan aus seiring waktu akibat sinar matahari dan penggunaan rutin. Kinerja pembersihan yang buruk merupakan tanda bahwa wiper perlu diganti."
+  },
+  {
+    "question": "Rambu lingkaran biru dengan panah putih ke atas menunjukkan lalu lintas satu arah ke arah tersebut.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Rambu ini memberi tahu pengemudi bahwa kendaraan hanya boleh berjalan ke arah yang ditunjukkan oleh panah."
+  },
+  {
+    "question": "Menukar posisi ban secara rutin dapat membantu memperpanjang masa pakainya.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Rotasi ban membantu mendistribusikan keausan secara lebih merata pada semua roda. Hal ini meningkatkan performa dan daya tahan ban."
+  },
+  {
+    "question": "Jalan tol di Jepang umumnya mengharuskan kendaraan mempertahankan kecepatan minimal 50 km/jam.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Mengemudi terlalu lambat di jalan tol dapat membahayakan lalu lintas di sekitarnya. Pengecualian dapat berlaku saat kemacetan atau keadaan darurat."
+  },
+  {
+    "question": "Dalam kabut tebal, lebih aman berkendara sangat dekat di belakang kendaraan di depan agar tidak kehilangan pandangan terhadapnya.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Jarak pandang yang berkurang memerlukan jarak mengikuti yang lebih jauh, bukan lebih dekat. Pengemudi harus menyediakan ruang yang cukup untuk berhenti dengan aman."
+  },
+  {
+    "question": "Jika kedua pengemudi setuju, kecelakaan kecil tidak perlu dilaporkan kepada polisi.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Hukum Jepang mengharuskan semua kecelakaan lalu lintas dilaporkan, bahkan jika kerusakannya terlihat kecil. Laporan polisi penting untuk keperluan hukum dan asuransi."
+  },
+  {
+    "question": "Garis jalur putih putus-putus menunjukkan bahwa berpindah atau melintasi jalur diperbolehkan.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Garis putih putus-putus mengizinkan perpindahan jalur jika aman. Garis utuh menunjukkan adanya larangan melintas."
+  },
+  {
+    "question": "Pengemudi yang terlibat dalam tabrakan harus saling bertukar informasi identitas dan asuransi.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Informasi penting meliputi nama, alamat, informasi SIM, registrasi kendaraan, dan detail perusahaan asuransi."
+  },
+  {
+    "question": "Saat melewati pejalan kaki yang berjalan di jalan, Anda harus memberikan jarak aman yang cukup, sekitar 1 meter atau lebih jika memungkinkan.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Pengemudi harus memperlambat kendaraan dan menjaga jarak aman dari pejalan kaki. Jika jalan sempit, berhenti mungkin diperlukan."
+  },
+  {
+    "question": "Sinyal penyeberangan bersuara digunakan untuk membantu pejalan kaki tunanetra menyeberang dengan aman.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Banyak penyeberangan di Jepang menggunakan suara seperti melodi atau bunyi kicauan untuk menunjukkan kapan pejalan kaki boleh menyeberang."
+  },
+  {
+    "question": "Saat parkir di jalan tanpa trotoar, harus ada cukup ruang tersisa agar kendaraan lain dapat lewat.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Peraturan parkir di Jepang mengharuskan tersedianya ruang jalan yang cukup, umumnya setidaknya 3,5 meter, agar lalu lintas tetap lancar."
+  },
+  {
+    "question": "Tombol darurat yang dipasang di perlintasan kereta dapat digunakan untuk memperingatkan kereta yang mendekat tentang bahaya.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Menekan tombol darurat akan memberi peringatan kepada petugas kereta dan kereta yang mendekat ketika kendaraan terjebak di rel."
+  },
+  {
+    "question": "Jika rem Anda berhenti berfungsi saat berkendara, Anda harus segera mematikan mesin.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Mematikan mesin dapat menonaktifkan bantuan kemudi dan rem. Sebaiknya pengemudi memperlambat kendaraan secara bertahap menggunakan pengereman mesin dan rem parkir dengan hati-hati."
+  },
+  {
+    "question": "Di persimpangan tanpa pengaturan di mana dua kendaraan tiba bersamaan di jalan yang setara, prioritas umumnya diberikan kepada kendaraan yang datang dari kiri.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Menurut aturan lalu lintas Jepang, pengemudi biasanya harus memberi jalan kepada kendaraan yang datang dari kiri di persimpangan dengan prioritas yang sama."
+  },
+  {
+    "question": "Menyalip kendaraan lain selalu dilarang di dekat halte bus.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Hukum Jepang tidak secara otomatis melarang menyalip di dekat halte bus, tetapi pengemudi harus sangat berhati-hati terhadap pejalan kaki dan lalu lintas di sekitar."
+  },
+  {
+    "question": "Seorang pengemudi masih dapat dikenai tuduhan mengemudi dalam keadaan mabuk meskipun kadar alkohol dalam darah di bawah 0,03% jika kemampuan mengemudinya terpengaruh.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Di Jepang, mengemudi dalam keadaan terganggu akibat alkohol dapat dihukum bahkan jika kadar alkohol berada di bawah batas standar, apabila alkohol memengaruhi kemampuan mengemudi dengan aman."
   }
 ]

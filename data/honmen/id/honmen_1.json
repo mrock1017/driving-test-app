@@ -2700,6 +2700,446 @@
     "explanation": "Sebelum melewati kendaraan lain, pengemudi harus terlebih dahulu memastikan bahwa kondisi lalu lintas di depan dan belakang aman sebelum menyalakan lampu sein dan melakukan perpindahan."
   },
   {
+    "question": "1. Pengendara sepeda yang berkendara pelan sambil menggunakan ponsel pintar untuk navigasi dibebaskan dari hukuman karena perangkat digunakan untuk petunjuk arah, bukan komunikasi.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Memegang atau mengoperasikan ponsel pintar secara aktif saat bersepeda tetap dapat melanggar peraturan berkendara yang terganggu konsentrasinya, terlepas dari tujuan penggunaannya."
+  },
+  {
+    "question": "2. Ketika tidak ada jalur sepeda, pesepeda sebaiknya biasanya berkendara dekat tengah jalan agar lebih terlihat oleh pengemudi.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Pesepeda umumnya harus tetap berada di sisi kiri jalan kecuali saat menghindari bahaya atau berbelok."
+  },
+  {
+    "question": "3. Pengemudi yang menyalip sepeda boleh melintas sangat dekat jika perbedaan kecepatan antara kendaraan dan sepeda sangat kecil.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Pengemudi diharapkan menjaga jarak aman tanpa memandang perbedaan kecepatan relatif."
+  },
+  {
+    "question": "4. Pemegang SIM terbatas AT boleh mengemudikan kendaraan transmisi manual dalam keadaan darurat jika didampingi pengemudi berlisensi penuh.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Pembatasan SIM tetap berlaku secara hukum meskipun ada pengemudi lain yang memenuhi syarat."
+  },
+  {
+    "question": "5. Pengemudi yang menggunakan bantuan mengemudi otonom tetap bertanggung jawab secara hukum atas pengoperasian kendaraan yang aman.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Sistem otonom saat ini tidak menghapus tanggung jawab pengemudi menurut hukum Jepang."
+  },
+  {
+    "question": "6. Pengendara sepeda yang memakai headphone hanya di satu telinga tidak dapat dikenai hukuman karena suara luar masih sebagian terdengar.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Penegakan hukum bergantung pada apakah pendengaran dan pengoperasian aman terganggu, bukan hanya jumlah telinga yang tertutup."
+  },
+  {
+    "question": "7. Pesepeda yang mendekati rambu berhenti dengan kecepatan sangat rendah boleh melanjutkan tanpa berhenti penuh jika pandangan jelas.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Rambu berhenti mengharuskan berhenti sepenuhnya baik untuk sepeda maupun kendaraan bermotor."
+  },
+  {
+    "question": "8. Sistem mengemudi otonom yang disetujui untuk jalan tol dapat otomatis digunakan di jalan umum biasa.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Sistem otonom hanya disetujui untuk kondisi dan lingkungan operasional tertentu."
+  },
+  {
+    "question": "9. Pengemudi yang membuka pintu kendaraan tanpa memeriksa adanya sepeda yang mendekat dapat memikul tanggung jawab hukum atas tabrakan.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Pengemudi harus memastikan keselamatan sebelum membuka pintu ke arah lalu lintas."
+  },
+  {
+    "question": "10. Kendaraan AT tidak akan pernah mundur di tanjakan karena transmisi otomatis mengunci roda secara otomatis.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Kendaraan transmisi otomatis masih dapat mundur tergantung penggunaan rem dan kondisi tanjakan."
+  },
+  {
+    "question": "11. Bahkan ketika pesepeda melanggar aturan lalu lintas, pengendara kendaraan bermotor tetap diharapkan mengambil langkah yang wajar untuk menghindari tabrakan.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Pengemudi tetap memiliki kewajiban berhati-hati terhadap pengguna jalan yang rentan."
+  },
+  {
+    "question": "12. Kendaraan otonom Level 4 boleh beroperasi tanpa pengawasan manusia terus-menerus hanya di area dan kondisi operasional yang telah disetujui.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Sistem Level 4 dibatasi pada lingkungan dan domain operasional yang telah ditentukan."
+  },
+  {
+    "question": "13. Pesepeda diperbolehkan mengabaikan instruksi sementara petugas lalu lintas jika rambu jalan permanen menunjukkan hal yang berbeda.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Instruksi dari polisi atau petugas pengatur lalu lintas yang berwenang memiliki prioritas lebih tinggi daripada rambu dan sinyal."
+  },
+  {
+    "question": "14. Pengendara sepeda yang turun dan menuntun sepedanya melewati penyeberangan pejalan kaki umumnya diperlakukan sebagai pejalan kaki.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Setelah turun dan menuntun sepeda, orang tersebut umumnya diperlakukan sebagai pejalan kaki."
+  },
+  {
+    "question": "15. Pesepeda yang berkendara di sisi paling kanan jalan satu arah di Jepang mematuhi hukum lalu lintas karena jalan satu arah memungkinkan posisi sepeda yang fleksibel.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Bahkan di jalan satu arah, pesepeda umumnya diharapkan tetap berada di sisi kiri kecuali ada marka khusus yang menunjukkan sebaliknya."
+  },
+  {
+    "question": "16. Pengendara kendaraan bermotor yang mendekati pesepeda dari belakang pada malam hari harus mempertimbangkan bahwa pesepeda mungkin lebih sulit terlihat saat mengenakan pakaian gelap, meskipun lampu sepeda terpasang.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Pengemudi harus mempertimbangkan keterbatasan visibilitas dan menyesuaikan jarak mengikuti serta kecepatan dengan tepat."
+  },
+  {
+    "question": "17. Pengemudi yang menggunakan adaptive cruise control boleh secara hukum berhenti memantau lalu lintas terus-menerus karena sistem mengatur jarak mengikuti secara otomatis.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Sistem bantuan pengemudi tidak menghapus kewajiban untuk melakukan pengawasan aktif."
+  },
+  {
+    "question": "18. Saat menyalip sepeda, membunyikan klakson saja sudah merupakan peringatan yang cukup meskipun jarak samping aman tidak dijaga.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Klakson tidak menggantikan kewajiban untuk menyalip dengan aman."
+  },
+  {
+    "question": "19. Pesepeda diharapkan mengantisipasi bahwa pejalan kaki dapat tiba-tiba mengubah arah di trotoar bersama.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Pesepeda harus berkendara dengan hati-hati di sekitar pejalan kaki dan bersiap menghadapi pergerakan yang tidak terduga."
+  },
+  {
+    "question": "20. Sistem mengemudi otonom Level 4 boleh beroperasi secara hukum di luar area yang disetujui jika kondisi cuaca baik.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Persetujuan operasional bergantung pada kondisi dan area yang ditentukan, bukan hanya cuaca."
+  },
+  {
+    "question": "21. Pesepeda yang melawan arah lalu lintas di jalan satu arah tetap dapat melanjutkan perjalanan secara legal jika jalan sempit dan lalu lintas kendaraan ringan.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Menurut hukum lalu lintas Jepang, sepeda umumnya diperlakukan sebagai kendaraan dan harus bergerak searah dengan lalu lintas kecuali rambu secara khusus mengizinkan sebaliknya. Banyak pengendara keliru menganggap bahwa aturan satu arah hanya berlaku untuk mobil, tetapi penegakan aturan yang direvisi pada tahun 2026 secara khusus menargetkan pesepeda yang melawan arah karena sangat meningkatkan risiko tabrakan di persimpangan dan tikungan dengan jarak pandang terbatas."
+  },
+  {
+    "question": "22. Sistem mengemudi otonom Level 3 dapat sementara memungkinkan pengemudi berhenti memantau jalan secara aktif, tetapi pengemudi tetap harus mampu mengambil alih kendali saat diminta.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Sistem Level 3 bersifat otomatis bersyarat, artinya beberapa tugas mengemudi dapat ditangani kendaraan dalam kondisi terbatas. Namun, peraturan Jepang tetap mengharuskan pengemudi manusia siap mengambil alih karena sistem dapat tiba-tiba menghadapi kondisi di luar kemampuan operasionalnya seperti perubahan cuaca, marka jalan yang tidak jelas, atau pekerjaan konstruksi yang tidak terduga."
+  },
+  {
+    "question": "23. Sepeda motor kecil tertentu (skuter listrik tertentu) secara legal boleh melaju di trotoar dengan kecepatan sepeda biasa jika tidak ada pejalan kaki di dekatnya.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Bahkan skuter yang diklasifikasikan sebagai “sepeda motor kecil tertentu” hanya boleh menggunakan trotoar dalam kondisi ketat dan batas kecepatan rendah. Aturan Jepang mengharuskan kendaraan ini beroperasi dengan hati-hati di dekat pejalan kaki dan, di area trotoar yang diizinkan, kecepatannya harus sangat rendah demi memprioritaskan keselamatan pejalan kaki."
+  },
+  {
+    "question": "24. Pengemudi yang menggunakan bantuan mengemudi otonom harus bersiap menghadapi kemungkinan bahwa hujan atau salju dapat mengurangi kinerja sensor meskipun sistem tampak berfungsi normal.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Sistem otonom dan bantuan pengemudi modern sangat bergantung pada kamera, radar, lidar, dan pengenalan jalur. Hujan deras, salju, silau, kabut, atau marka jalan yang memudar dapat mengurangi akurasi sistem tanpa langsung menonaktifkannya, sehingga pedoman Jepang tetap menempatkan tanggung jawab pemantauan kondisi pada operator manusia."
+  },
+  {
+    "question": "25. Di jalan satu arah, sepeda boleh melaju ke dua arah asalkan pengendara tetap dekat tepi jalan.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Pembatasan jalan satu arah biasanya juga berlaku untuk sepeda kecuali ada rambu khusus yang memberikan pengecualian. Banyak revisi terbaru hukum sepeda menekankan bahaya bersepeda melawan arah karena pengemudi sering gagal mengantisipasi sepeda yang datang dari arah terlarang."
+  },
+  {
+    "question": "26. Jika sistem mengemudi otonom meminta intervensi pengemudi, pengemudi harus segera merespons meskipun situasi lalu lintas di sekitar tampak stabil.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Permintaan pengambilalihan biasanya berarti sistem telah mendeteksi ketidakpastian operasional atau mencapai batas kondisi mengemudi yang disetujui. Menunda respons karena jalan tampak “aman” dapat menciptakan situasi berbahaya di mana sistem tidak lagi dapat mengelola bahaya atau kondisi jalan secara andal."
+  },
+  {
+    "question": "27. Pesepeda yang memperlambat secara signifikan di rambu berhenti tetapi tidak berhenti sepenuhnya masih dapat melanggar aturan penegakan sepeda Jepang yang direvisi tahun 2026.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Penegakan aturan sepeda Jepang yang direvisi kini memperlakukan rolling stop dengan lebih ketat melalui sistem tiket biru. Pihak berwenang secara khusus mencatat bahwa banyak kecelakaan sepeda terjadi karena pesepeda mengurangi kecepatan tetapi gagal berhenti sepenuhnya sebelum persimpangan atau perlintasan kereta api."
+  },
+  {
+    "question": "28. Kendaraan otonom Level 4 yang beroperasi secara legal di area yang disetujui boleh mengabaikan instruksi manual sementara dari polisi karena rute yang diprogramnya sudah disetujui pemerintah.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Petugas polisi yang mengatur lalu lintas selalu memiliki prioritas lebih tinggi daripada sinyal, rambu, dan sistem navigasi otomatis. Bahkan sistem otonom yang sepenuhnya disetujui tetap harus mematuhi pengendalian darurat sementara, kecelakaan, bencana, atau instruksi zona konstruksi."
+  },
+  {
+    "question": "29. Sepeda motor kecil tertentu umumnya harus berjalan di sisi kiri jalan searah dengan lalu lintas.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Peraturan skuter listrik Jepang sebagian besar mengikuti prinsip posisi kendaraan biasa di jalan. Berkendara di sisi yang salah menciptakan bahaya serius karena persimpangan, kendaraan berbelok, dan perilaku menyalip dirancang dengan asumsi arus lalu lintas sisi kiri."
+  },
+  {
+    "question": "30. Pengemudi yang mendekati pesepeda yang melawan arah lalu lintas secara tidak benar tetap harus berusaha menghindari tabrakan meskipun pesepeda melanggar aturan lalu lintas.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Prinsip keselamatan jalan Jepang tetap menempatkan tanggung jawab besar pada pengemudi untuk melindungi pengguna jalan yang rentan bila memungkinkan. Bahkan jika pesepeda melanggar hukum, pengendara kendaraan bermotor tetap diharapkan mengemudi secara defensif dan mengambil langkah wajar untuk menghindari tabrakan."
+  },
+  {
+    "question": "31. Sistem mengemudi otonom yang disetujui untuk penggunaan di jalan tol dapat otomatis digunakan di jalan perkotaan biasa jika kondisi lalu lintas ringan.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Sistem otonom hanya disetujui dalam domain operasional tertentu yang disebut ODD (Operational Design Domains). Persetujuan untuk jalan tol tidak otomatis mengizinkan penggunaan di jalan kota karena lingkungan perkotaan melibatkan pejalan kaki, sepeda, persimpangan, dan bahaya tak terduga yang memerlukan sertifikasi sistem berbeda."
+  },
+  {
+    "question": "32. Saat berbelok ke jalan satu arah yang sempit, pengemudi harus tetap waspada terhadap sepeda yang melaju secara ilegal melawan arah lalu lintas.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Mengemudi defensif mengharuskan pengemudi mengantisipasi kemungkinan pelanggaran oleh pengguna jalan lain. Karena pesepeda yang melawan arah masih relatif umum di Jepang, terutama di jalan perumahan yang sempit, pengemudi diharapkan memeriksa dengan hati-hati meskipun secara teknis mereka memiliki prioritas."
+  },
+  {
+    "question": "33. Sepeda motor kecil tertentu dapat melakukan belokan kanan biasa di semua persimpangan dengan cara yang sama seperti sepeda motor.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Beberapa sepeda motor kecil tertentu diwajibkan melakukan belokan kanan dua tahap seperti sepeda di banyak jalan. Aturan ini ada karena kendaraan kecil berkecepatan rendah lebih rentan saat melakukan manuver belok kanan langsung melintasi lalu lintas."
+  },
+  {
+    "question": "34. Sistem mengemudi otonom yang berfungsi normal masih dapat gagal mendeteksi bahaya yang tidak biasa di luar perkiraan pemrogramannya.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Sistem otonom beroperasi menggunakan model deteksi terlatih dan asumsi lingkungan. Hambatan tak terduga, marka jalan rusak, perilaku pejalan kaki yang tidak biasa, atau cuaca buruk dapat menciptakan situasi di luar kemampuan pengenalan sistem, sehingga pengawasan manusia tetap penting secara hukum."
+  },
+  {
+    "question": "35. Bahkan saat menggunakan bantuan mengemudi otonom canggih, pengemudi tetap bertanggung jawab menjaga perhatian yang aman dan kepatuhan hukum kecuali sistem tersebut secara khusus diizinkan untuk operasi tanpa pengemudi sepenuhnya.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Sebagian besar sistem yang saat ini tersedia bagi pengemudi biasa di Jepang masih merupakan teknologi bantuan pengemudi Level 1–3, bukan operasi sepenuhnya otonom. Karena itu, pengemudi tetap memegang tanggung jawab hukum untuk memantau lalu lintas, mematuhi sinyal, dan mengambil alih kapan pun sistem tidak dapat mengelola kondisi jalan dengan aman."
+  },
+  {
+    "question": "36. Karena lalu lintas dari arah berlawanan dilarang di jalan satu arah, pengemudi selalu dapat terus berkendara dengan aman dekat sisi paling kanan jalan.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Pengemudi di jalan satu arah terkadang secara legal dapat memosisikan kendaraan ke arah sisi kanan saat diperlukan, seperti saat bersiap belok kanan atau menghindari hambatan. Namun, bagian jebakannya adalah kata “selalu.” Soal honmen Jepang sering menggunakan pernyataan yang sebagian benar secara hukum tetapi digabungkan dengan asumsi berbahaya."
+  },
+  {
+    "question": "37. Sistem mengemudi otonom Level 3 dapat memungkinkan pengemudi mengurangi operasi kemudi aktif sementara, tetapi pengemudi tetap harus siap segera merespons permintaan pengambilalihan.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Sistem Level 3 dirancang untuk mengotomatisasi fungsi mengemudi tertentu dalam kondisi terbatas. Namun, bagian jebakannya adalah memahami bahwa “otomatisasi” tidak berarti pengemudi dibebaskan dari tanggung jawab. Peraturan Jepang tetap mengharapkan pengemudi siap secara mental dan fisik untuk segera mengambil alih jika sistem mencapai batas operasionalnya."
+  },
+  {
+    "question": "38. Saat berkendara di jalan satu arah, memeriksa dengan hati-hati kendaraan yang datang dari arah terlarang tidak diperlukan karena pergerakan tersebut melanggar hukum lalu lintas.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Bagian jebakannya adalah kalimat ini terdengar benar secara logis dari sudut pandang hukum, tetapi prinsip mengemudi defensif Jepang berfokus pada memprediksi bahaya nyata daripada mengasumsikan semua orang selalu mematuhi aturan. Sepeda dan kendaraan yang melawan arah masih sering terjadi, terutama di jalan perumahan yang sempit."
+  },
+  {
+    "question": "39. Kendaraan otonom Level 4 yang disetujui untuk operasi tanpa pengemudi dapat terus berkendara secara otonom di luar area yang ditentukan jika lalu lintas ringan dan kondisi cuaca baik.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Bagian jebakannya adalah situasinya terdengar aman, tetapi persetujuan Level 4 bergantung pada Operational Design Domains (ODD) yang tersertifikasi, bukan penilaian pribadi pengemudi tentang kondisi lalu lintas. Bahkan jika cuaca dan lalu lintas tampak baik, operasi di luar kondisi yang disetujui dapat melampaui kemampuan keselamatan sistem yang telah divalidasi."
+  },
+  {
+    "question": "40. Di jalan satu arah, pengemudi dapat secara legal menggunakan sisi kanan jalan bila diperlukan, tetapi tetap harus bersiap terhadap sepeda atau kendaraan yang mungkin datang tiba-tiba.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Pertanyaan ini menjebak karena banyak peserta ujian hanya fokus pada separuh pertama atau kedua kalimat. Menurut aturan lalu lintas Jepang, pengemudi di jalan satu arah terkadang dapat menggunakan sisi kanan dengan lebih fleksibel dibanding jalan biasa. Namun, fleksibilitas itu tidak menghapus kewajiban untuk mengantisipasi bahaya."
+  },
+  {
+    "question": "41. Jika sistem bantuan mengemudi otonom tampak stabil saat berkendara di jalan tol, menggunakan ponsel pintar sebentar diperbolehkan karena kendaraan tetap memantau lalu lintas secara otomatis.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Bagian jebakannya adalah banyak kendaraan modern tampak sangat canggih saat berkendara stabil di jalan tol. Namun, hukum Jepang saat ini masih menganggap sebagian besar sistem otonom konsumen sebagai teknologi bantuan pengemudi, bukan operasi sepenuhnya otonom."
+  },
+  {
+    "question": "42. Bahkan di jalan satu arah, mengurangi kecepatan di dekat tikungan buta lebih aman karena sepeda atau pejalan kaki dapat tiba-tiba muncul.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Bagian jebakannya adalah banyak pengemudi salah menganggap jalan satu arah lebih aman karena lalu lintas dari arah berlawanan dilarang."
+  },
+  {
+    "question": "43. Pengemudi yang memasuki jalan satu arah harus memastikan apakah sepeda secara khusus diizinkan melaju berbeda dari kendaraan biasa.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Bagian jebakannya adalah beberapa jalan di Jepang memiliki rambu tambahan yang mengizinkan sepeda melaju berbeda dari mobil. Banyak peserta ujian keliru menganggap aturan jalan satu arah berlaku sama untuk semua pengguna jalan."
+  },
+  {
+    "question": "44. Bahkan ketika secara legal menggunakan sisi kanan jalan satu arah, pengemudi harus menghindari kecepatan berlebihan karena bahaya tersembunyi dapat muncul tiba-tiba.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Bagian jebakannya adalah memahami bahwa posisi kendaraan yang legal di jalan tidak menjamin keselamatan. Pengemudi mungkin secara legal menggunakan lebih banyak bagian jalan di jalan satu arah, tetapi ujian Jepang modern semakin menekankan bahwa posisi yang lebih lebar tidak boleh menyebabkan rasa terlalu percaya diri atau berkurangnya kewaspadaan terhadap bahaya."
+  },
+  {
     "question_group": "'",
     "situation": "Anda sedang menunggu untuk belok kanan di sebuah persimpangan. Sebuah truk besar dari arah berlawanan berhenti dan mengedipkan lampu depannya. Apa yang harus Anda perhatikan dalam situasi ini?",
     "image": "making_a_right_turn_flasing_light.jpg",

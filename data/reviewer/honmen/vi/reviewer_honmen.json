@@ -2698,5 +2698,445 @@
     ],
     "answer": "False",
     "explanation": "Trước khi vượt xe khác, người lái nên bật tín hiệu rẽ trước rồi mới kiểm tra xem điều kiện giao thông phía trước và phía sau có an toàn hay không."
+  },
+  {
+    "question": "Người đi xe đạp chạy chậm trong khi sử dụng điện thoại thông minh để dẫn đường sẽ được miễn phạt vì thiết bị được dùng để chỉ đường chứ không phải để liên lạc.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Việc cầm hoặc chủ động sử dụng điện thoại thông minh khi đi xe đạp vẫn có thể vi phạm quy định về lái xe mất tập trung bất kể mục đích sử dụng là gì."
+  },
+  {
+    "question": "Khi không có làn đường dành cho xe đạp, người đi xe đạp thông thường nên đi gần giữa lòng đường để tài xế dễ nhìn thấy hơn.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Người đi xe đạp thông thường nên đi sát bên trái của phần đường trừ khi cần tránh chướng ngại vật hoặc rẽ."
+  },
+  {
+    "question": "Tài xế vượt xe đạp có thể đi sát nếu chênh lệch tốc độ giữa xe và xe đạp là rất nhỏ.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Tài xế phải duy trì khoảng cách an toàn bất kể chênh lệch tốc độ là bao nhiêu."
+  },
+  {
+    "question": "Người có bằng lái giới hạn AT có thể lái xe số sàn trong trường hợp khẩn cấp nếu đi cùng một tài xế có đầy đủ bằng lái.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Các hạn chế của bằng lái vẫn có hiệu lực pháp lý ngay cả khi có mặt một tài xế đủ điều kiện khác."
+  },
+  {
+    "question": "Tài xế sử dụng hệ thống hỗ trợ lái xe tự động vẫn chịu trách nhiệm pháp lý về việc vận hành xe an toàn.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Các hệ thống tự động hiện nay không loại bỏ trách nhiệm của tài xế theo luật pháp Nhật Bản."
+  },
+  {
+    "question": "Người đi xe đạp đeo tai nghe chỉ ở một bên tai sẽ không bị xử phạt vì vẫn có thể nghe được âm thanh bên ngoài phần nào.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Việc xử phạt phụ thuộc vào việc khả năng nghe và vận hành an toàn có bị ảnh hưởng hay không, chứ không chỉ dựa vào số tai được che."
+  },
+  {
+    "question": "Người đi xe đạp đến biển dừng với tốc độ rất thấp có thể đi tiếp mà không cần dừng hẳn nếu tầm nhìn rõ ràng.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Biển dừng yêu cầu xe đạp cũng như xe cơ giới phải dừng hẳn."
+  },
+  {
+    "question": "Hệ thống lái xe tự động được phê duyệt sử dụng trên đường cao tốc có thể tự động được sử dụng trên các đường công cộng thông thường.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Các hệ thống tự động chỉ được phê duyệt cho những điều kiện và môi trường vận hành cụ thể."
+  },
+  {
+    "question": "Tài xế mở cửa xe mà không kiểm tra xe đạp đang đến gần có thể phải chịu trách nhiệm pháp lý nếu xảy ra va chạm.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Tài xế phải xác nhận an toàn trước khi mở cửa xe ra phía giao thông."
+  },
+  {
+    "question": "Xe số tự động không bao giờ bị trôi lùi trên dốc vì hộp số tự động khóa bánh xe.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Xe số tự động vẫn có thể trôi tùy thuộc vào việc sử dụng phanh và điều kiện độ dốc."
+  },
+  {
+    "question": "Ngay cả khi người đi xe đạp vi phạm luật giao thông, tài xế xe cơ giới vẫn được yêu cầu thực hiện các biện pháp hợp lý để tránh va chạm.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Tài xế vẫn có nghĩa vụ cẩn trọng đối với những người tham gia giao thông dễ bị tổn thương."
+  },
+  {
+    "question": "Xe tự hành cấp độ 4 chỉ có thể hoạt động mà không cần con người giám sát liên tục trong các khu vực và điều kiện vận hành đã được phê duyệt.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Hệ thống cấp độ 4 bị giới hạn trong các môi trường và phạm vi vận hành được chỉ định."
+  },
+  {
+    "question": "Người đi xe đạp được phép bỏ qua hướng dẫn tạm thời của cảnh sát giao thông nếu biển báo giao thông cố định chỉ dẫn khác.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Hướng dẫn của cảnh sát hoặc nhân viên điều khiển giao thông được ưu tiên hơn biển báo và tín hiệu giao thông."
+  },
+  {
+    "question": "Người đi xe đạp xuống xe và dắt bộ qua vạch sang đường dành cho người đi bộ thường được xem như người đi bộ.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Khi đã xuống xe và dắt bộ xe đạp, người đó thường được xem là người đi bộ."
+  },
+  {
+    "question": "Người đi xe đạp đi sát phía bên phải của đường một chiều ở Nhật Bản là đúng luật vì đường một chiều cho phép vị trí xe đạp linh hoạt.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Ngay cả trên đường một chiều, người đi xe đạp thông thường vẫn được yêu cầu đi bên trái trừ khi có vạch kẻ đặc biệt quy định khác."
+  },
+  {
+    "question": "Tài xế tiếp cận người đi xe đạp từ phía sau vào ban đêm nên lưu ý rằng người đi xe đạp có thể khó nhìn thấy hơn khi mặc quần áo tối màu, ngay cả khi xe đạp đã bật đèn.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Tài xế phải tính đến các hạn chế về tầm nhìn và điều chỉnh khoảng cách bám theo cũng như tốc độ phù hợp."
+  },
+  {
+    "question": "Tài xế sử dụng hệ thống kiểm soát hành trình thích ứng có thể hợp pháp ngừng theo dõi giao thông liên tục vì hệ thống tự động quản lý khoảng cách với xe phía trước.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Các hệ thống hỗ trợ lái xe không loại bỏ yêu cầu phải giám sát chủ động."
+  },
+  {
+    "question": "Khi vượt xe đạp, chỉ cần bấm còi cảnh báo là đủ ngay cả khi không duy trì khoảng cách ngang an toàn.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Còi xe không thay thế nghĩa vụ vượt xe an toàn."
+  },
+  {
+    "question": "Người đi xe đạp được yêu cầu dự đoán rằng người đi bộ có thể bất ngờ đổi hướng trên vỉa hè dùng chung.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Người đi xe đạp phải vận hành cẩn thận xung quanh người đi bộ và chuẩn bị cho các chuyển động khó đoán."
+  },
+  {
+    "question": "Hệ thống lái xe tự động cấp độ 4 có thể hoạt động hợp pháp ngoài khu vực được phê duyệt nếu điều kiện thời tiết thuận lợi.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Việc phê duyệt vận hành phụ thuộc vào các điều kiện và khu vực được chỉ định, không chỉ dựa vào thời tiết."
+  },
+  {
+    "question": "Người đi xe đạp chạy ngược chiều trên đường một chiều có thể tiếp tục đi hợp pháp nếu đường hẹp và lưu lượng xe cộ ít.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Theo luật giao thông Nhật Bản, xe đạp thường được xem là phương tiện giao thông và phải di chuyển cùng chiều với dòng xe trừ khi có biển báo cho phép khác. Nhiều người đi xe đạp nhầm tưởng rằng quy định đường một chiều chỉ áp dụng cho ô tô, nhưng các quy định thực thi sửa đổi năm 2026 đặc biệt nhắm đến việc đi xe đạp ngược chiều vì điều này làm tăng đáng kể nguy cơ va chạm tại giao lộ và góc khuất."
+  },
+  {
+    "question": "Hệ thống lái xe tự động cấp độ 3 có thể tạm thời cho phép tài xế ngừng chủ động quan sát đường, nhưng tài xế vẫn phải có khả năng tiếp quản khi được yêu cầu.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Các hệ thống cấp độ 3 là hệ thống tự động có điều kiện, nghĩa là một số tác vụ lái xe có thể được xe xử lý trong những điều kiện giới hạn. Tuy nhiên, quy định của Nhật Bản vẫn yêu cầu tài xế phải có khả năng tiếp quản vì hệ thống có thể đột ngột gặp các điều kiện vượt quá khả năng vận hành của nó như thay đổi thời tiết, vạch kẻ đường không rõ ràng hoặc công trình bất ngờ."
+  },
+  {
+    "question": "Xe đạp máy cỡ nhỏ được chỉ định (một số loại xe scooter điện) có thể hợp pháp đi trên vỉa hè với tốc độ thông thường của xe đạp nếu không có người đi bộ ở gần.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Ngay cả các xe scooter được phân loại là “xe đạp máy cỡ nhỏ được chỉ định” cũng chỉ được sử dụng vỉa hè trong các điều kiện nghiêm ngặt và giới hạn tốc độ thấp. Quy định của Nhật Bản yêu cầu các phương tiện này phải vận hành cẩn thận gần người đi bộ và trong khu vực được phép đi trên vỉa hè thì tốc độ phải cực thấp để ưu tiên an toàn cho người đi bộ."
+  },
+  {
+    "question": "Tài xế sử dụng hỗ trợ lái xe tự động nên chuẩn bị cho khả năng mưa hoặc tuyết có thể làm giảm hiệu suất cảm biến ngay cả khi hệ thống có vẻ hoạt động bình thường.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Các hệ thống tự động và hỗ trợ lái xe hiện đại phụ thuộc nhiều vào camera, radar, lidar và nhận diện làn đường. Mưa lớn, tuyết, chói sáng, sương mù hoặc vạch đường bị mờ có thể làm giảm độ chính xác của hệ thống mà không ngay lập tức vô hiệu hóa hệ thống, vì vậy hướng dẫn của Nhật Bản vẫn đặt trách nhiệm giám sát liên tục lên người lái."
+  },
+  {
+    "question": "Trên đường một chiều, xe đạp có thể đi theo bất kỳ hướng nào miễn là người lái đi sát mép đường.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Quy định đường một chiều thông thường cũng áp dụng cho xe đạp trừ khi có biển báo đặc biệt tạo ngoại lệ. Nhiều sửa đổi gần đây về luật xe đạp nhấn mạnh sự nguy hiểm của việc đi ngược chiều vì tài xế thường không lường trước xe đạp xuất hiện từ hướng bị cấm."
+  },
+  {
+    "question": "Nếu hệ thống lái xe tự động yêu cầu tài xế can thiệp, tài xế nên phản hồi ngay lập tức ngay cả khi tình hình giao thông xung quanh có vẻ ổn định.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Yêu cầu tiếp quản thường có nghĩa là hệ thống đã phát hiện sự không chắc chắn trong vận hành hoặc đã đạt tới giới hạn điều kiện lái xe được phê duyệt. Việc chậm phản hồi vì nghĩ rằng đường “có vẻ an toàn” có thể tạo ra tình huống nguy hiểm khi hệ thống không còn quản lý đáng tin cậy được các nguy cơ hoặc hình dạng đường."
+  },
+  {
+    "question": "Người đi xe đạp giảm tốc đáng kể tại biển dừng nhưng không dừng hẳn vẫn có thể vi phạm các quy định thực thi xe đạp sửa đổi năm 2026.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Các quy định thực thi xe đạp sửa đổi của Nhật Bản hiện xử lý nghiêm hơn các trường hợp dừng kiểu lăn bánh theo hệ thống vé xanh. Cơ quan chức năng đặc biệt lưu ý rằng nhiều tai nạn xe đạp xảy ra vì người đi xe chỉ giảm tốc mà không dừng hẳn trước giao lộ hoặc đường ray xe lửa."
+  },
+  {
+    "question": "Xe tự hành cấp độ 4 đang hoạt động hợp pháp trong khu vực được phê duyệt có thể bỏ qua hướng dẫn thủ công tạm thời của cảnh sát vì tuyến đường đã được chính phủ phê duyệt trước.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Cảnh sát điều khiển giao thông luôn được ưu tiên hơn tín hiệu, biển báo và hệ thống dẫn đường tự động. Ngay cả các hệ thống tự động đã được phê duyệt hoàn toàn cũng phải tuân thủ các biện pháp kiểm soát khẩn cấp tạm thời, tai nạn, thiên tai hoặc hướng dẫn trong khu vực công trình."
+  },
+  {
+    "question": "Xe đạp máy cỡ nhỏ được chỉ định thông thường phải đi bên trái phần đường cùng chiều với dòng giao thông.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Quy định về xe scooter điện của Nhật Bản phần lớn tuân theo nguyên tắc vị trí lưu thông thông thường trên đường. Việc đi sai phía tạo nguy hiểm nghiêm trọng vì giao lộ, xe rẽ và hành vi vượt xe đều được thiết kế dựa trên giả định giao thông đi bên trái."
+  },
+  {
+    "question": "Tài xế tiếp cận một người đi xe đạp đang đi sai chiều vẫn nên cố gắng tránh va chạm dù người đi xe đạp đã vi phạm luật giao thông.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Nguyên tắc an toàn giao thông của Nhật Bản tiếp tục đặt trách nhiệm lớn lên tài xế trong việc bảo vệ người tham gia giao thông dễ bị tổn thương bất cứ khi nào có thể. Ngay cả khi người đi xe đạp vi phạm pháp luật, người lái xe cơ giới vẫn được yêu cầu lái xe phòng thủ và thực hiện các biện pháp hợp lý để tránh va chạm."
+  },
+  {
+    "question": "Hệ thống lái xe tự động được phê duyệt cho sử dụng trên đường cao tốc có thể tự động được dùng trên các đường đô thị thông thường nếu lưu lượng giao thông ít.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Các hệ thống tự động chỉ được phê duyệt trong các phạm vi vận hành cụ thể gọi là ODD (Operational Design Domains). Việc được phê duyệt cho đường cao tốc không tự động cho phép sử dụng trên đường phố đô thị vì môi trường đô thị có người đi bộ, xe đạp, giao lộ và các nguy cơ khó lường cần chứng nhận hệ thống khác."
+  },
+  {
+    "question": "Khi rẽ vào một con đường một chiều hẹp, tài xế nên cảnh giác với xe đạp đi trái phép ngược chiều.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Lái xe phòng thủ đòi hỏi phải dự đoán khả năng vi phạm của những người tham gia giao thông khác. Vì việc xe đạp đi ngược chiều vẫn khá phổ biến ở Nhật Bản, đặc biệt trên các đường dân cư hẹp, tài xế được yêu cầu kiểm tra cẩn thận ngay cả khi về mặt kỹ thuật họ có quyền ưu tiên."
+  },
+  {
+    "question": "Xe đạp máy cỡ nhỏ được chỉ định có thể thực hiện các cú rẽ phải thông thường tại mọi giao lộ giống như xe máy.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Một số xe đạp máy cỡ nhỏ được chỉ định phải thực hiện rẽ phải hai giai đoạn tương tự như xe đạp trên nhiều tuyến đường. Quy định này tồn tại vì các phương tiện nhỏ tốc độ thấp dễ gặp nguy hiểm hơn khi rẽ phải trực tiếp cắt ngang dòng giao thông."
+  },
+  {
+    "question": "Hệ thống lái xe tự động hoạt động bình thường vẫn có thể không phát hiện được các nguy cơ bất thường nằm ngoài những gì được lập trình dự kiến.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Các hệ thống tự động hoạt động bằng các mô hình nhận diện đã được huấn luyện và các giả định về môi trường. Chướng ngại vật bất ngờ, vạch đường hư hỏng, hành vi bất thường của người đi bộ hoặc thời tiết khắc nghiệt có thể tạo ra tình huống vượt ngoài khả năng nhận diện của hệ thống, vì vậy sự giám sát của con người vẫn rất quan trọng về mặt pháp lý."
+  },
+  {
+    "question": "Ngay cả khi sử dụng hỗ trợ lái xe tự động tiên tiến, tài xế vẫn chịu trách nhiệm duy trì sự chú ý an toàn và tuân thủ pháp luật trừ khi hệ thống được cho phép vận hành hoàn toàn không người lái.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Hầu hết các hệ thống hiện có dành cho tài xế thông thường ở Nhật Bản vẫn là công nghệ hỗ trợ lái xe cấp độ 1–3 chứ chưa phải vận hành hoàn toàn tự động. Vì vậy, tài xế vẫn chịu trách nhiệm pháp lý trong việc quan sát giao thông, tuân thủ tín hiệu và can thiệp khi hệ thống không thể xử lý điều kiện đường sá một cách an toàn."
+  },
+  {
+    "question": "Vì giao thông ngược chiều bị cấm trên đường một chiều nên tài xế luôn có thể tiếp tục lái xe an toàn gần phía ngoài cùng bên phải của phần đường.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Tài xế trên đường một chiều đôi khi có thể hợp pháp điều khiển xe gần phía bên phải khi cần thiết, chẳng hạn để chuẩn bị rẽ phải hoặc tránh chướng ngại vật. Tuy nhiên, điểm đánh lừa nằm ở từ “luôn luôn”. Các câu hỏi honmen của Nhật Bản thường dùng những phát biểu đúng một phần về mặt pháp lý nhưng kết hợp với kết luận nguy hiểm."
+  },
+  {
+    "question": "Hệ thống lái xe tự động cấp độ 3 có thể cho phép tài xế tạm thời giảm thao tác lái chủ động, nhưng tài xế vẫn phải có khả năng phản hồi ngay lập tức với yêu cầu tiếp quản.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Các hệ thống cấp độ 3 được thiết kế để tự động hóa một số chức năng lái xe trong điều kiện giới hạn. Tuy nhiên, điểm dễ gây hiểu nhầm là “tự động hóa” không có nghĩa tài xế được miễn trách nhiệm. Quy định của Nhật Bản vẫn yêu cầu tài xế phải luôn sẵn sàng cả về tinh thần lẫn thể chất để can thiệp ngay lập tức nếu hệ thống đạt tới giới hạn hoạt động."
+  },
+  {
+    "question": "Khi lái xe trên đường một chiều, không cần kiểm tra cẩn thận các phương tiện đi từ hướng bị cấm vì việc đó vi phạm luật giao thông.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Điểm đánh lừa là câu này nghe có vẻ hợp lý về mặt pháp lý, nhưng nguyên tắc lái xe phòng thủ của Nhật Bản tập trung vào việc dự đoán nguy hiểm thực tế thay vì giả định mọi người đều tuân thủ luật hoàn hảo. Xe đạp và phương tiện đi ngược chiều vẫn thường xuyên xuất hiện, đặc biệt trên các đường dân cư hẹp."
+  },
+  {
+    "question": "Xe tự hành cấp độ 4 được phê duyệt cho vận hành không người lái có thể tiếp tục lái tự động ngoài khu vực được chỉ định nếu giao thông ít và điều kiện thời tiết thuận lợi.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Điểm đánh lừa là tình huống nghe có vẻ an toàn, nhưng việc phê duyệt cấp độ 4 phụ thuộc vào các ODD (Operational Design Domains) đã được chứng nhận chứ không dựa vào đánh giá cá nhân của tài xế về điều kiện giao thông. Ngay cả khi thời tiết và giao thông có vẻ thuận lợi, việc vận hành ngoài điều kiện được phê duyệt có thể vượt quá khả năng an toàn đã được xác nhận của hệ thống."
+  },
+  {
+    "question": "Trên đường một chiều, tài xế có thể hợp pháp sử dụng phía bên phải của phần đường khi cần thiết, nhưng vẫn phải chuẩn bị cho xe đạp hoặc phương tiện bất ngờ xuất hiện.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Câu hỏi này đánh lừa vì nhiều thí sinh chỉ tập trung vào nửa đầu hoặc nửa sau của câu. Theo luật giao thông Nhật Bản, tài xế trên đường một chiều đôi khi có thể sử dụng phía bên phải linh hoạt hơn so với đường thông thường. Tuy nhiên, sự linh hoạt đó không loại bỏ nghĩa vụ dự đoán nguy hiểm."
+  },
+  {
+    "question": "Nếu hệ thống lái xe tự động có vẻ ổn định khi di chuyển trên đường cao tốc, việc sử dụng điện thoại thông minh trong thời gian ngắn là chấp nhận được vì xe vẫn tự động theo dõi giao thông.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Điểm đánh lừa là nhiều phương tiện hiện đại có vẻ rất có năng lực khi chạy ổn định trên đường cao tốc. Tuy nhiên, luật hiện hành của Nhật Bản vẫn xem hầu hết các hệ thống tự động dành cho người tiêu dùng là công nghệ hỗ trợ lái xe chứ chưa phải vận hành hoàn toàn tự động."
+  },
+  {
+    "question": "Ngay cả trên đường một chiều, giảm tốc độ gần góc khuất vẫn an toàn hơn vì xe đạp hoặc người đi bộ có thể bất ngờ xuất hiện.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Điểm đánh lừa là nhiều tài xế nhầm tưởng rằng đường một chiều ít nguy hiểm hơn vì giao thông ngược chiều bị cấm."
+  },
+  {
+    "question": "Tài xế đi vào đường một chiều nên xác nhận xem xe đạp có được phép đi khác với phương tiện thông thường hay không.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Điểm đánh lừa là một số tuyến đường ở Nhật Bản có biển phụ cho phép xe đạp di chuyển khác với ô tô. Nhiều thí sinh nhầm tưởng rằng quy định đường một chiều áp dụng giống hệt cho mọi người tham gia giao thông."
+  },
+  {
+    "question": "Ngay cả khi hợp pháp sử dụng phía bên phải của đường một chiều, tài xế vẫn nên tránh chạy quá tốc độ vì các nguy hiểm khuất tầm nhìn có thể bất ngờ xuất hiện.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Điểm quan trọng là vị trí hợp pháp trên đường không đảm bảo an toàn tuyệt đối. Tài xế có thể hợp pháp sử dụng nhiều phần mặt đường hơn trên đường một chiều, nhưng các bài thi hiện đại của Nhật Bản ngày càng nhấn mạnh rằng việc có không gian rộng hơn không bao giờ được dẫn đến sự chủ quan hoặc giảm khả năng dự đoán nguy hiểm."
   }
 ]

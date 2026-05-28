@@ -2480,7 +2480,7 @@
     "explanation": "Japanese parking rules generally require vehicles to park on the left side facing the direction of traffic. Parking position and remaining roadway space must follow specific legal conditions, and the statement as written is incorrect."
   },
   {
-    "question": "In the intersection shown in the illustration, both Vehicle A and Vehicle B have limited visibility due to surrounding obstructions. Therefore, each driver should slow down and proceed carefully.",
+    "question": "The displayed road sign means that motorcycles and motorized bicycles are prohibited from entering this road or area.",
     "image": "motorcycle_not_allowed.jpg",
     "choices": [
       "True",
@@ -2698,6 +2698,446 @@
     ],
     "answer": "False",
     "explanation": "Before passing another vehicle, a driver should activate the turn signal first and then check whether traffic conditions ahead and behind are safe."
+  },
+  {
+    "question": "A cyclist riding slowly while using a smartphone for navigation is exempt from penalties because the device is being used for directions rather than communication.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Holding or actively operating a smartphone while cycling may still violate distracted-driving regulations regardless of purpose."
+  },
+  {
+    "question": "When no bicycle lane exists, cyclists should normally travel near the center of the roadway to improve visibility to drivers.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Cyclists should generally keep to the left side of the roadway unless avoiding hazards or turning."
+  },
+  {
+    "question": "A driver overtaking a bicycle may pass closely if the speed difference between the vehicle and bicycle is minimal.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Drivers are expected to maintain safe spacing regardless of relative speed."
+  },
+  {
+    "question": "An AT-limited license holder may drive a manual-transmission vehicle during emergencies if accompanied by a fully licensed driver.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "License restrictions remain legally binding even if another qualified driver is present."
+  },
+  {
+    "question": "A driver using autonomous driving assistance remains legally responsible for safe operation of the vehicle.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Current autonomous systems do not remove driver responsibility under Japanese law."
+  },
+  {
+    "question": "A bicycle rider wearing headphones in only one ear cannot be penalized because outside sounds remain partially audible.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Enforcement depends on whether hearing and safe operation are impaired, not simply the number of ears covered."
+  },
+  {
+    "question": "A cyclist approaching a stop sign at very low speed may proceed without fully stopping if visibility is clear.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Stop signs require a complete stop for bicycles as well as motor vehicles."
+  },
+  {
+    "question": "An autonomous driving system approved for expressway use may automatically be used on ordinary public roads.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Autonomous systems are approved only for specified operational conditions and environments."
+  },
+  {
+    "question": "A driver opening a vehicle door without checking for approaching bicycles may bear legal responsibility for a collision.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Drivers must confirm safety before opening doors into traffic."
+  },
+  {
+    "question": "An AT vehicle can never roll backward on an incline because the transmission automatically locks the wheels.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Automatic transmission vehicles may still roll depending on brake use and incline conditions."
+  },
+  {
+    "question": "Even when a cyclist violates traffic rules, motorists are still expected to take reasonable measures to avoid collisions.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Drivers maintain a duty of care toward vulnerable road users."
+  },
+  {
+    "question": "A Level 4 autonomous vehicle may operate without continuous human monitoring only within approved operational areas and conditions.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Level 4 systems are limited to designated environments and operational domains."
+  },
+  {
+    "question": "Cyclists are permitted to ignore temporary traffic officer instructions if permanent road signs indicate otherwise.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Instructions from police officers or authorized traffic controllers take priority over signs and signals."
+  },
+  {
+    "question": "A bicycle rider who dismounts and walks the bicycle through a pedestrian crossing is generally treated as a pedestrian.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Once dismounted and walking the bicycle, the person is generally treated as a pedestrian."
+  },
+  {
+    "question": "A cyclist riding on the far right side of a one-way street in Japan is complying with traffic law because one-way roads allow flexible bicycle positioning.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Even on one-way roads, cyclists are generally expected to keep to the left unless specific markings indicate otherwise."
+  },
+  {
+    "question": "A motorist approaching a cyclist from behind at night should consider that the cyclist may be harder to see when wearing dark clothing, even if bicycle lights are installed.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Drivers must account for visibility limitations and adjust following distance and speed accordingly."
+  },
+  {
+    "question": "A driver using adaptive cruise control may legally stop monitoring traffic continuously because the system manages following distance automatically.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Driver-assistance systems do not remove the requirement for active supervision."
+  },
+  {
+    "question": "When overtaking a bicycle, sounding the horn alone is sufficient warning even if safe lateral distance is not maintained.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "The horn does not replace the obligation to pass safely."
+  },
+  {
+    "question": "Cyclists are expected to anticipate that pedestrians may change direction suddenly on shared sidewalks.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Cyclists must operate carefully around pedestrians and prepare for unpredictable movement."
+  },
+  {
+    "question": "A Level 4 autonomous driving system may legally operate outside approved areas if weather conditions are favorable.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Operational approval depends on designated conditions and areas, not only weather."
+  },
+  {
+    "question": "A cyclist riding against traffic on a one-way road may continue legally if the road is narrow and vehicle traffic is light.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Under Japanese traffic law, bicycles are generally treated as vehicles and must travel in the same direction as traffic unless signs specifically permit otherwise. Many riders incorrectly assume that one-way restrictions apply only to cars, but revised enforcement in 2026 specifically targets wrong-way bicycle riding because it greatly increases collision risk at intersections and blind corners."
+  },
+  {
+    "question": "A Level 3 autonomous-driving system may temporarily allow the driver to stop actively monitoring the roadway, but the driver must still be capable of resuming control when requested.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Level 3 systems are conditionally automated, meaning some driving tasks may be handled by the vehicle under limited conditions. However, Japanese regulations still require the human driver to remain capable of takeover because the system may suddenly encounter conditions beyond its operational capability such as weather changes, unclear lane markings, or unexpected road construction."
+  },
+  {
+    "question": "A specified small motorized bicycle (certain electric scooters) may legally travel on sidewalks at ordinary bicycle speeds if pedestrians are not nearby.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Even scooters classified as “specified small motorized bicycles” can only use sidewalks under strict conditions and low-speed limitations. Japanese rules require these vehicles to operate carefully near pedestrians and, in permitted sidewalk areas, speed must remain extremely low to prioritize pedestrian safety."
+  },
+  {
+    "question": "A driver using autonomous-driving assistance should prepare for the possibility that rain or snow may reduce sensor performance even if the system appears to function normally.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Modern autonomous and driver-assistance systems depend heavily on cameras, radar, lidar, and lane recognition. Heavy rain, snow, glare, fog, or faded lane markings can reduce system accuracy without immediately disabling the system, which is why Japanese guidance still places responsibility on the human operator to monitor conditions continuously."
+  },
+  {
+    "question": "On a one-way road, a bicycle may travel in either direction provided the rider remains near the edge of the roadway.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "One-way restrictions normally apply to bicycles unless special signage creates an exception. Many recent bicycle-law revisions emphasize dangerous wrong-way cycling because drivers often fail to anticipate bicycles approaching from prohibited directions."
+  },
+  {
+    "question": "If an autonomous-driving system requests driver intervention, the driver should respond immediately even if the surrounding traffic situation appears stable.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "A takeover request usually means the system has detected operational uncertainty or reached the limits of its approved driving conditions. Delaying response because the roadway “looks safe” can create dangerous situations where the system can no longer reliably manage hazards or road geometry."
+  },
+  {
+    "question": "A cyclist who slows down significantly at a stop sign but does not completely stop may still violate the revised 2026 bicycle enforcement rules.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Japan’s revised bicycle enforcement now treats rolling stops more strictly under the blue-ticket system. Authorities specifically noted that many bicycle accidents occur because cyclists reduce speed but fail to perform a complete stop before intersections or railway crossings."
+  },
+  {
+    "question": "A Level 4 autonomous vehicle operating legally within its approved area may ignore temporary manual instructions from police officers because its programmed route has already been government-approved.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Police officers directing traffic always take priority over signals, signs, and automated navigation systems. Even fully approved autonomous systems must comply with temporary emergency control measures, accidents, disasters, or construction-zone instructions."
+  },
+  {
+    "question": "Specified small motorized bicycles must generally travel on the left side of the roadway in the same direction as traffic.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Japan’s electric-scooter regulations largely follow ordinary roadway positioning principles. Wrong-side travel creates serious danger because intersections, turning vehicles, and overtaking behavior are designed assuming left-side traffic flow."
+  },
+  {
+    "question": "A driver approaching a cyclist riding improperly against traffic should still attempt to avoid collision even though the cyclist violated traffic rules.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Japanese road-safety principles continue to place strong responsibility on drivers to protect vulnerable road users whenever possible. Even if the cyclist is violating the law, motorists are expected to drive defensively and take reasonable collision-avoidance measures."
+  },
+  {
+    "question": "An autonomous-driving system approved for expressway use may automatically be used on ordinary urban roads if traffic conditions are light.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Autonomous systems are approved only within specific operational domains called ODDs (Operational Design Domains). Approval for highways does not automatically authorize use on city streets because urban environments involve pedestrians, bicycles, intersections, and unpredictable hazards requiring different system certification."
+  },
+  {
+    "question": "When turning into a narrow one-way street, a driver should remain alert for bicycles traveling illegally against traffic.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Defensive driving requires anticipating possible violations by other road users. Because wrong-way bicycle riding remains relatively common in Japan, especially on narrow residential streets, drivers are expected to check carefully even when they technically have priority."
+  },
+  {
+    "question": "Specified small motorized bicycles may perform ordinary right turns at all intersections in the same manner as motorcycles.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Certain specified small motorized bicycles are required to perform two-stage right turns similar to bicycles on many roads. This rule exists because small low-speed vehicles are more vulnerable during direct right-turn maneuvers across traffic."
+  },
+  {
+    "question": "An autonomous-driving system functioning normally may still fail to detect unusual hazards outside its programmed expectations.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Autonomous systems operate using trained detection models and environmental assumptions. Unexpected obstacles, damaged road markings, unusual pedestrian behavior, or severe weather can create situations beyond the system’s recognition capability, which is why human supervision remains legally important."
+  },
+  {
+    "question": "Even when using advanced autonomous-driving assistance, drivers remain responsible for maintaining safe attention and legal compliance unless the system is specifically authorized for fully driverless operation.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Most systems currently available to ordinary drivers in Japan remain Level 1–3 driver-assistance technologies rather than fully autonomous operation. Because of this, drivers continue to hold legal responsibility for monitoring traffic, obeying signals, and intervening whenever the system cannot safely manage roadway conditions."
+  },
+  {
+    "question": "Because opposing traffic is prohibited on a one-way road, a driver may always continue safely near the far right side of the roadway.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "A driver on a one-way road may sometimes legally position the vehicle toward the right side when necessary, such as preparing for a right turn or avoiding obstacles. However, the tricky part is the word “always.” Japanese honmen questions often use legally-correct partial statements combined with dangerous"
+  },
+  {
+    "question": "A Level 3 autonomous-driving system may allow the driver to reduce active steering operation temporarily, but the driver must still remain capable of immediately responding to takeover requests.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Level 3 systems are designed to automate certain driving functions under limited conditions. However, the tricky part is understanding that “automation” does not mean the driver is released from responsibility. Japanese regulations still expect the driver to remain mentally and physically prepared to intervene immediately if the system reaches its operational limit."
+  },
+  {
+    "question": "When driving on a one-way road, checking carefully for vehicles approaching from the prohibited direction is unnecessary because such movement violates traffic law.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "The tricky part is that the sentence sounds logically correct from a legal perspective, but Japanese defensive-driving principles focus on predicting real danger rather than assuming perfect rule compliance. Wrong-way bicycles and vehicles still occur frequently, especially on narrow residential roads."
+  },
+  {
+    "question": "A Level 4 autonomous vehicle approved for driverless operation may continue autonomous driving outside its designated area if traffic remains light and weather conditions are favorable.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "The tricky part is that the situation sounds safe, but Level 4 approval depends on certified Operational Design Domains (ODDs), not the driver’s personal judgment about traffic conditions. Even if weather and traffic appear favorable, operation outside approved conditions may exceed the system’s validated safety capability."
+  },
+  {
+    "question": "On a one-way road, a driver may legally use the right side of the roadway when necessary, but should still prepare for bicycles or vehicles approaching unexpectedly.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "This question is tricky because many examinees focus only on the first half or second half of the sentence. Under Japanese traffic rules, drivers on one-way roads may sometimes use the right side more flexibly than on ordinary roads. However, that flexibility does not remove the duty to predict hazards."
+  },
+  {
+    "question": "If an autonomous-driving system appears stable during expressway travel, briefly using a smartphone is acceptable because the vehicle continues monitoring traffic automatically.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "The tricky part is that many modern vehicles appear highly capable during stable highway driving. However, current Japanese law still treats most consumer autonomous systems as driver-assistance technologies rather than fully autonomous operation."
+  },
+  {
+    "question": "Even on one-way roads, reducing speed near blind corners is safer because bicycles or pedestrians may suddenly appear unexpectedly.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "The tricky part is that many drivers incorrectly associate one-way roads with reduced danger because opposing traffic is prohibited."
+  },
+  {
+    "question": "A driver entering a one-way road should confirm whether bicycles are specifically permitted to travel differently from ordinary vehicles.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "The tricky part is that some Japanese roads contain supplemental signs allowing bicycles to travel differently from cars. Many examinees incorrectly assume one-way restrictions apply identically to every road user."
+  },
+  {
+    "question": "Even when legally using the right side of a one-way roadway, a driver should avoid excessive speed because hidden hazards may appear suddenly.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "The tricky part is understanding that legal roadway positioning does not guarantee safety. Drivers may legally use more of the roadway on one-way streets, but modern Japanese exams increasingly emphasize that wider positioning should never lead to overconfidence or reduced hazard anticipation."
   },
   {
     "question_group": "'",

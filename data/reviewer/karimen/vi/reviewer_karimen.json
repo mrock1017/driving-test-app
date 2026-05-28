@@ -1498,5 +1498,1905 @@
     ],
     "answer": "True",
     "explanation": "Cấu trúc đường có thể khác nhau tùy theo độ rộng làn hoặc điều kiện đường, vì vậy vạch giữa đường có thể lệch khỏi trung tâm vật lý của con đường. Người lái xe nên tuân thủ cẩn thận các ranh giới làn được đánh dấu."
+  },
+  {
+    "question": "Một tài xế gây tai nạn khi đang trong tình trạng say rượu sẽ nhận cùng mức hình phạt như tài xế bị bắt vì lái xe khi say mà không gây thiệt hại.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Tại Nhật Bản, hình phạt sẽ nghiêm khắc hơn nhiều nếu việc lái xe khi say rượu gây ra thương tích hoặc tử vong. Mức phạt tăng lên tùy theo mức độ nghiêm trọng của tai nạn và việc tài xế có bỏ trốn khỏi hiện trường hay không."
+  },
+  {
+    "question": "Một số khu vực trường học có thể áp dụng giới hạn tốc độ 30 km/h vào những thời điểm nhất định trong ngày.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Nhiều khu vực trường học ở Nhật Bản áp dụng giới hạn tốc độ thấp hơn vào những giờ trẻ em thường có mặt. Người lái xe phải tuân theo các khung giờ được ghi trên biển báo."
+  },
+  {
+    "question": "Bật điều hòa có thể giúp loại bỏ hơi nước bám trên kính chắn gió.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Điều hòa làm giảm độ ẩm bên trong xe, giúp loại bỏ hơi nước ngưng tụ trên kính. Sử dụng chế độ sấy kính cùng với điều hòa đặc biệt hiệu quả."
+  },
+  {
+    "question": "Khi trời mưa to vào ban đêm, sử dụng đèn pha sẽ cải thiện tầm nhìn và được khuyến khích.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Đèn pha phản chiếu vào mưa có thể làm tầm nhìn kém hơn. Đèn cốt cho tầm nhìn rõ hơn trong điều kiện mưa vào ban đêm."
+  },
+  {
+    "question": "Bạn có thể lái xe theo hướng được chỉ bởi mũi tên xanh trên đèn tín hiệu giao thông ngay cả khi đèn chính đang đỏ.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Mũi tên xanh chỉ cho phép di chuyển theo hướng được chỉ định. Người lái xe vẫn phải chú ý đến người đi bộ và các phương tiện đã ở trong giao lộ."
+  },
+  {
+    "question": "Sau va chạm, bạn nên di chuyển xe ra khỏi luồng giao thông nếu có thể thực hiện một cách an toàn.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Nếu xe vẫn có thể di chuyển và đang cản trở giao thông, nên chuyển xe đến nơi an toàn để tránh tai nạn tiếp theo. An toàn và kiểm tra người bị thương phải được ưu tiên trước."
+  },
+  {
+    "question": "Biển nhường đường hình tam giác ngược luôn yêu cầu phải dừng hẳn.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Biển nhường đường có nghĩa là người lái xe phải giảm tốc độ và ưu tiên cho các phương tiện khác. Chỉ cần dừng lại khi cần thiết để đảm bảo an toàn."
+  },
+  {
+    "question": "Nếu một xe khác đang cố vượt bạn, bạn nên tăng tốc để tránh bị vượt.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Người bị vượt không được cản trở xe đang vượt. Giữ nguyên tốc độ hoặc giảm nhẹ tốc độ sẽ giúp tránh nguy hiểm."
+  },
+  {
+    "question": "Tại Nhật Bản, một người có thể hợp pháp lái xe gắn máy 50cc từ 16 tuổi.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Độ tuổi tối thiểu để có giấy phép lái xe gắn máy tại Nhật Bản là 16 tuổi. Giấy phép lái ô tô thông thường yêu cầu độ tuổi tối thiểu cao hơn."
+  },
+  {
+    "question": "Ngay cả khi đèn giao thông màu xanh, người đi bộ đang đi trên vạch qua đường vẫn có quyền ưu tiên.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Người lái xe phải nhường đường cho người đi bộ đang băng qua hợp pháp tại giao lộ và vạch qua đường. Đèn xanh không loại bỏ trách nhiệm này."
+  },
+  {
+    "question": "Cầu có khả năng bị đóng băng trước mặt đường thông thường.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Không khí lạnh lưu thông phía trên và phía dưới cầu khiến cầu đóng băng nhanh hơn. Người lái xe nên giảm tốc độ trong điều kiện mùa đông."
+  },
+  {
+    "question": "Một phương tiện lớn hoặc nặng thường cần quãng đường dài hơn để dừng lại so với phương tiện nhẹ hơn chạy cùng tốc độ.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Xe nặng có quán tính lớn hơn và cần quãng đường phanh dài hơn. Xe tải và xe chở nặng thường dừng chậm hơn xe nhỏ."
+  },
+  {
+    "question": "Khi sử dụng làn tăng tốc trên đường cao tốc, bạn nên tăng tốc để phù hợp với luồng giao thông trước khi nhập làn.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Người lái xe nên điều chỉnh tốc độ phù hợp với luồng giao thông trên đường cao tốc trước khi vào làn chính. Nhập làn quá chậm có thể tạo ra sự chênh lệch tốc độ nguy hiểm."
+  },
+  {
+    "question": "Việc liên tục đi ở làn bên phải là chấp nhận được nếu bạn đang lái đúng tốc độ giới hạn.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Trên các đường nhiều làn ở Nhật Bản, làn bên phải thường dành cho việc vượt xe. Người lái xe nên quay lại làn bên trái sau khi vượt."
+  },
+  {
+    "question": "Biển giới hạn tốc độ của Nhật Bản hiển thị tốc độ bằng kilômét trên giờ.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Nhật Bản sử dụng hệ mét cho các quy định giao thông. Tất cả biển tốc độ chính thức đều hiển thị bằng km/h."
+  },
+  {
+    "question": "Biển tròn viền đỏ có số 50 nghĩa là người lái xe phải chạy ít nhất 50 km/h.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Biển tốc độ hình tròn màu đỏ chỉ tốc độ tối đa cho phép. Biển tốc độ tối thiểu sử dụng nền màu xanh."
+  },
+  {
+    "question": "Tại Nhật Bản, biển cảnh báo thường được hiển thị dưới dạng hình thoi màu vàng thay vì biển tam giác đỏ có dấu chấm than.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Biển cảnh báo của Nhật Bản thường sử dụng hình thoi màu vàng với ký hiệu màu đen để chỉ các nguy hiểm cụ thể phía trước."
+  },
+  {
+    "question": "Xe gắn máy 50cc được phép đi trên đường cao tốc Nhật Bản.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Xe gắn máy có động cơ từ 50cc trở xuống bị cấm đi trên đường cao tốc. Đường cao tốc yêu cầu các phương tiện có khả năng duy trì tốc độ cao hơn."
+  },
+  {
+    "question": "Số điện thoại khẩn cấp cho dịch vụ cứu thương và cứu hỏa ở Nhật Bản là 119.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Gọi 119 sẽ kết nối bạn với dịch vụ cứu hỏa và cứu thương trên toàn Nhật Bản. Trường hợp khẩn cấp liên quan đến cảnh sát sử dụng số khác."
+  },
+  {
+    "question": "Nhật Bản sử dụng cùng kiểu biển dừng hình bát giác phổ biến ở nhiều quốc gia khác.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Biển dừng của Nhật Bản có hình tam giác đỏ ngược và thường hiển thị chữ “止まれ” có nghĩa là “Dừng lại”."
+  },
+  {
+    "question": "Tư thế lái xe của bạn là đúng nếu cánh tay bạn duỗi thẳng hoàn toàn trên phần trên của vô lăng.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Người lái xe nên ngồi với khuỷu tay hơi cong khi cầm vô lăng. Ngồi quá gần sẽ làm tăng nguy cơ bị thương do túi khí."
+  },
+  {
+    "question": "Nếu đèn pha của xe đối diện tạm thời làm bạn bị chói mắt, bạn nên nhìn thẳng vào chúng để xác định vị trí của xe kia.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Nhìn trực tiếp vào đèn pha sáng có thể làm tình trạng chói mắt tạm thời nghiêm trọng hơn. Thay vào đó, người lái xe nên tập trung nhìn về mép trái của mặt đường."
+  },
+  {
+    "question": "Xe mô tô có động cơ lớn hơn 50cc tuân theo cùng giới hạn tốc độ chung như ô tô chở khách trên đường thông thường.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Xe mô tô thông thường tuân theo cùng giới hạn tốc độ được quy định cho ô tô. Giới hạn đặc biệt 30 km/h chủ yếu áp dụng cho xe gắn máy dưới 50cc."
+  },
+  {
+    "question": "Làm bắn nước vào người đi bộ khi lái xe qua vũng nước có thể vi phạm luật giao thông Nhật Bản.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Người lái xe phải tránh gây bất tiện hoặc nguy hiểm cho người đi bộ. Việc bất cẩn làm bắn nước hoặc bùn có thể dẫn đến bị xử phạt."
+  },
+  {
+    "question": "Cần gạt nước kính chắn gió chỉ cần thay thế khi xuất hiện hư hỏng nhìn thấy được.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Lưỡi gạt nước bị mòn theo thời gian do ánh nắng mặt trời và sử dụng thường xuyên. Hiệu quả gạt kém là dấu hiệu cần thay thế."
+  },
+  {
+    "question": "Biển báo hình tròn màu xanh có mũi tên trắng hướng lên cho biết giao thông một chiều theo hướng đó.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Biển báo này thông báo cho người lái xe rằng các phương tiện chỉ được phép đi theo hướng mà mũi tên chỉ."
+  },
+  {
+    "question": "Đảo lốp định kỳ có thể giúp kéo dài tuổi thọ sử dụng của lốp.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Việc đảo lốp giúp phân bố độ mòn đều hơn giữa tất cả các bánh xe. Điều này cải thiện hiệu suất và độ bền của lốp."
+  },
+  {
+    "question": "Đường cao tốc ở Nhật Bản thường yêu cầu các phương tiện duy trì tốc độ ít nhất 50 km/h.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Lái xe quá chậm trên đường cao tốc có thể gây nguy hiểm cho giao thông xung quanh. Có thể có ngoại lệ trong trường hợp ùn tắc hoặc khẩn cấp."
+  },
+  {
+    "question": "Trong sương mù dày đặc, lái xe rất sát phía sau xe phía trước sẽ an toàn hơn để không bị mất dấu xe đó.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Tầm nhìn hạn chế đòi hỏi khoảng cách bám xe lớn hơn chứ không phải ngắn hơn. Người lái xe phải để đủ khoảng cách để dừng xe an toàn."
+  },
+  {
+    "question": "Nếu cả hai tài xế đều đồng ý, một vụ tai nạn nhỏ không cần phải báo cho cảnh sát.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Luật pháp Nhật Bản yêu cầu phải báo cáo tất cả các vụ tai nạn giao thông, ngay cả khi thiệt hại có vẻ nhỏ. Báo cáo của cảnh sát rất quan trọng cho mục đích pháp lý và bảo hiểm."
+  },
+  {
+    "question": "Vạch kẻ làn màu trắng đứt đoạn cho biết được phép cắt qua hoặc chuyển làn.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Vạch trắng đứt đoạn cho phép chuyển làn khi an toàn. Vạch liền cho biết có hạn chế việc cắt qua."
+  },
+  {
+    "question": "Các tài xế liên quan đến va chạm nên trao đổi thông tin nhận dạng và bảo hiểm với nhau.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Thông tin quan trọng bao gồm tên, địa chỉ, thông tin giấy phép lái xe, đăng ký xe và thông tin công ty bảo hiểm."
+  },
+  {
+    "question": "Khi vượt qua người đi bộ đang đi trên đường, bạn nên để khoảng cách an toàn đủ lớn, khoảng 1 mét hoặc hơn nếu có thể.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Người lái xe phải giảm tốc độ và giữ khoảng cách an toàn với người đi bộ. Nếu đường hẹp, có thể cần phải dừng lại."
+  },
+  {
+    "question": "Tín hiệu sang đường bằng âm thanh được sử dụng để giúp người khiếm thị qua đường an toàn.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Nhiều nơi sang đường ở Nhật Bản sử dụng âm thanh như giai điệu hoặc tiếng chim hót để báo hiệu khi người đi bộ có thể qua đường."
+  },
+  {
+    "question": "Khi đỗ xe trên đường không có vỉa hè, phải chừa đủ chiều rộng để các phương tiện khác đi qua.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Quy định đỗ xe của Nhật Bản yêu cầu chừa đủ không gian còn lại trên đường, thường ít nhất 3,5 mét, để đảm bảo lưu thông giao thông."
+  },
+  {
+    "question": "Các nút khẩn cấp được lắp đặt tại đường giao cắt đường sắt có thể được sử dụng để cảnh báo tàu đang đến về nguy hiểm.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Nhấn nút khẩn cấp sẽ cảnh báo nhân viên đường sắt và tàu đang đến khi có xe bị mắc kẹt trên đường ray."
+  },
+  {
+    "question": "Nếu phanh của bạn ngừng hoạt động khi đang lái xe, bạn nên tắt động cơ ngay lập tức.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Tắt động cơ có thể làm mất trợ lực lái và trợ lực phanh. Thay vào đó, người lái xe nên giảm tốc độ từ từ bằng phanh động cơ và sử dụng phanh tay cẩn thận."
+  },
+  {
+    "question": "Tại giao lộ không có điều khiển, nơi hai xe đến cùng lúc trên các con đường ngang nhau, quyền ưu tiên thường được dành cho xe đến từ bên trái.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Theo luật giao thông Nhật Bản, người lái xe thường phải nhường đường cho xe đến từ bên trái tại các giao lộ có quyền ưu tiên ngang nhau."
+  },
+  {
+    "question": "Luôn bị cấm vượt xe khác gần trạm xe buýt.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Luật Nhật Bản không tự động cấm vượt gần trạm xe buýt, nhưng người lái xe phải đặc biệt cẩn thận với người đi bộ và giao thông xung quanh."
+  },
+  {
+    "question": "Một tài xế vẫn có thể bị buộc tội lái xe khi say rượu ngay cả khi nồng độ cồn trong máu dưới 0,03% nếu khả năng lái xe bị ảnh hưởng.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Tại Nhật Bản, việc lái xe bị ảnh hưởng bởi rượu vẫn có thể bị xử phạt ngay cả khi nồng độ cồn dưới ngưỡng tiêu chuẩn nếu rượu đã ảnh hưởng đến khả năng lái xe an toàn."
+  },
+  {
+    "question": "You are driving behind another vehicle. The driver gives a hand signal as shown, and you understand that it indicates the vehicle will slow down or stop. Is this correct?",
+    "image": "hand_sideward.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "The hand signal shown indicates that the driver intends to turn right, not slow down or continue straight. A right arm extended horizontally outward is the standard hand signal used to indicate a right turn."
+  },
+  {
+    "question": "A driver approaches a yellow traffic light and believes they must always stop and check for traffic. Is this correct?",
+    "image": "yellow_shingo.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "A yellow light means stop if it is safe to do so. If stopping suddenly is dangerous, the driver may proceed carefully."
+  },
+  {
+    "question": "A driver sees the road marking shown and believes it indicates an area where vehicles must not stop or park. Is this correct?",
+    "image": "stopping.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "This marking does not necessarily indicate a strict “no stopping or parking” zone. Misinterpreting road markings can lead to incorrect driving behavior."
+  },
+  {
+    "question": "At a stop sign, a driver stops once and then believes they automatically have the right of way over other vehicles and can proceed first. Is this correct?",
+    "image": "stop_sign.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Stopping does not give automatic priority. Drivers must still yield to other vehicles and ensure it is safe before proceeding."
+  },
+  {
+    "question": "A person with a moped license believes they can drive both a moped and a light-duty special vehicle. Is this correct?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "A moped license only allows operation of mopeds. Driving other vehicle types requires the appropriate license."
+  },
+  {
+    "question": "A rider believes that posture does not affect safety when riding a two-wheeled vehicle. Is this correct?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Proper posture is essential for balance and control. Poor posture can cause loss of balance, especially during braking."
+  },
+  {
+    "question": "A driver passes close to a pedestrian or bicycle without slowing down or maintaining distance. Is this acceptable?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Drivers must keep a safe distance or slow down when passing pedestrians and cyclists to ensure safety."
+  },
+  {
+    "question": "A driver sees this sign and understands that they may turn in the indicated direction at an intersection regardless of the traffic light. Is this correct?",
+    "image": "arrow_right.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "This type of sign allows movement in the indicated direction even if the traffic light would normally restrict it, provided it is safe."
+  },
+  {
+    "question": "When practicing driving on public roads, a driver places a learner’s permit sign only at the rear of the vehicle. Is this sufficient?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Learner’s permit signs must be displayed clearly (typically both front and rear) so other drivers can recognize the learner."
+  },
+  {
+    "question": "A driver sees this road sign and believes that pedestrians and bicycles are allowed to pass through the restricted area. Is this correct?",
+    "image": "no_vehicle_entry.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "This sign indicates a restriction (such as no vehicle entry). It does not automatically mean pedestrians and bicycles are allowed unless specifically indicated."
+  },
+  {
+    "question": "A driver sees this road sign and understands that it indicates a large intersection ahead. Is this correct?",
+    "image": "big_arrow_road_sign.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "This sign warns drivers of an upcoming intersection, allowing them to prepare and proceed with caution."
+  },
+  {
+    "question": "A driver turns the steering wheel just before making a left turn in order to eliminate the difference in wheel paths. Is this recommended?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Drivers should not turn the steering wheel too early. Proper turning should be done at the correct position to maintain control and safety."
+  },
+  {
+    "question": "A driver sees this sign and believes it means that the road is closed to bicycles only. Is this correct?",
+    "image": "bicycle.png",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "This is a warning sign, indicating that bicycles may be present, not that the road is restricted only to bicycles."
+  },
+  {
+    "question": "A driver sees this road marking and believes that vehicles are prohibited from not parking for any reason.",
+    "image": "No_Parking.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "This statement is too tricky. Road markings must be interpreted correctly, and not all situations prohibit parking for any reason."
+  },
+  {
+    "question": "A driver believes that footwear has no effect on driving control and can be ignored when operating a vehicle. Is this correct?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Proper footwear is important for safe pedal control. Inappropriate footwear can affect braking and acceleration."
+  },
+  {
+    "question": "An emergency vehicle approaches from behind while you are at an intersection. You stop and give way immediately. Is this correct?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Drivers must give way to emergency vehicles, even at intersections, by stopping or moving aside safely."
+  },
+  {
+    "question": "At a railway crossing controlled by a traffic light, a driver proceeds without stopping after confirming the light is green. Is this correct?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "If the signal is green and safety is confirmed, drivers may proceed without stopping. However, they must always remain cautious."
+  },
+  {
+    "question": "A driver sees this pavement marking and believes it indicates both the beginning and end of a 50 km/h speed limit zone. Is this correct?",
+    "image": "pavement.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "This marking does not indicate both the start and end of a speed limit. Speed limits are determined by official signs and road markings used correctly."
+  },
+  {
+    "question": "A driver sees this sign and understands that crossing the road is prohibited, except when turning to enter or exit a roadside facility. Is this correct?",
+    "image": "no_crossing_sign.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "This sign restricts crossing movements, but allows exceptions such as entering or leaving a roadside facility."
+  },
+  {
+    "question": "At an intersection with poor visibility, a driver sounds the horn repeatedly as much as possible. Is this advisable?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "The horn should be used only when necessary for safety. Excessive use is not recommended and may cause confusion or danger."
+  },
+  {
+    "question": "When learning to drive, a driver carries their learner’s permit license as required. Is this correct?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Learners must carry their permit while driving to comply with legal requirements."
+  },
+  {
+    "question": "A driver towing a motor vehicle believes they must always travel in a lane indicated by a specific designation sign. Is this correct?",
+    "image": "senyou_lane.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Lane designation signs apply to specific vehicles or conditions. Towing does not automatically require using a designated lane unless specified."
+  },
+  {
+    "question": "A driver sees this sign and understands that it indicates a bicycle crossing lane. Is this correct?",
+    "image": "bicycle.png",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "This sign warns of a bicycle crossing area, meaning drivers should be cautious of bicycles."
+  },
+  {
+    "question": "A driver believes that vehicles may stop or park in front of police or fire stations if pavement markings allow it, except for emergency vehicles. Is this correct?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Stopping or parking in front of police or fire stations is generally prohibited regardless of pavement markings, except for authorized emergency use."
+  },
+  {
+    "question": "A driver encounters an obstacle ahead and slows down or stops, but does not take any action to warn oncoming traffic. Is this correct?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Drivers must take appropriate action, including warning other road users if necessary, to prevent danger when encountering obstacles."
+  },
+  {
+    "question": "In the situation shown, a driver in lane A changes lanes to turn right at the intersection. Is this allowed?",
+    "image": "change_lane.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Lane markings determine permitted movements. If lane A does not allow a right turn, the driver must not change lanes improperly to make that turn."
+  },
+  {
+    "question": "On the road shown, vehicles traveling in lane A must not change to lane B. Is this correct?",
+    "image": "A_to_B.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "The road markings prohibit changing lanes from A to B. Drivers must follow lane restrictions indicated by markings."
+  },
+  {
+    "question": "When approaching a traffic signal that changes to yellow, if you cannot stop safely, you may proceed through the intersection. Is this correct?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "A yellow signal means stop if possible, but if stopping suddenly is unsafe, proceeding is allowed."
+  },
+  {
+    "question": "A driver stops behind a route bus at a bus stop and waits until the bus starts moving again before proceeding. Is this required?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Drivers are not always required to wait behind a stopped bus. They may proceed carefully if it is safe and permitted."
+  },
+  {
+    "question": "A driver sees this sign and understands that vehicles may proceed only by turning left or right, and cannot go straight. Is this correct?",
+    "image": "direction_left_and_right.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "This sign restricts movement to the indicated directions only."
+  },
+  {
+    "question": "When the traffic signal is flashing amber, vehicles and streetcars must reduce speed. Is this correct?",
+    "image": "blinking_amber.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Flashing amber means proceed with caution, not necessarily a mandatory reduction in speed."
+  },
+  {
+    "question": "A driver sees a child walking alone and uses the horn to warn others and ensure safety. Is this appropriate?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "When necessary, the horn may be used to warn others of potential danger. Extra caution is required around children."
+  },
+  {
+    "question": "A driver sees this sign and understands it indicates a pedestrian crossing area. Is this correct?",
+    "image": "pedestrian.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "This sign warns drivers of a pedestrian crossing ahead and the need to slow down and prepare to stop."
+  },
+  {
+    "question": "A driver sees this road marking and understands that stopping and parking are prohibited in this area. Is this correct?",
+    "image": "stopping.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "This type of marking indicates that vehicles must not stop or park in that area."
+  },
+  {
+    "question": "A driver catches up to a route bus stopped at a bus stop and waits behind it until the bus starts moving again. Is this required?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Drivers are not always required to wait behind a stopped bus. They may pass carefully if it is safe and permitted."
+  },
+  {
+    "question": "When approaching a person traveling in a wheelchair, a driver slows down or stops to ensure safety. Is this correct?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Wheelchair users are vulnerable road users. Drivers must slow down or stop to avoid danger."
+  },
+  {
+    "question": "A driver sees a police officer giving a hand signal as shown and believes it indicates a red light for the direction shown by the arrow. Is this correct?",
+    "image": "police_stop_hand_signal.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Police signals may override traffic lights and can indicate stop (red) depending on direction. Drivers must follow the officer’s signal."
+  },
+  {
+    "question": "A driver sees this “No Entry” sign and understands that vehicles are prohibited from entering that road. Is this correct?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "This sign clearly indicates that entry is not allowed for vehicles."
+  },
+  {
+    "question": "A driver encounters an obstacle ahead and slows down or stops but does not give way to oncoming traffic. Is this correct?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "When facing an obstacle, drivers must yield to oncoming traffic and ensure safe passage."
+  },
+  {
+    "question": "A driver believes that seatbelts are not necessary in a vehicle equipped with airbags or when following a police officer’s signal at an intersection. Is this correct?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Seatbelts must always be worn, regardless of airbags or traffic control situations."
+  },
+  {
+    "question": "On the road shown in the figure, a driver understands that they cannot enter the right side of the road to overtake a vehicle ahead. Is this correct?",
+    "image": "can_change.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "The statement says the driver cannot enter the right side to overtake. However, in this situation, entering the right side of the road is allowed (when safe and permitted), so the statement is incorrect."
+  },
+  {
+    "question": "When vehicles approach an intersection where the width of each road is the same, car B must not obstruct the path of car A. Is this correct?",
+    "image": "B_yield_A.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "At intersections of equal width, vehicles must give way to vehicles approaching from the left. Therefore, car B must yield to car A."
+  },
+  {
+    "question": "If an emergency vehicle approaches, you must change lanes to give way, even when you are traveling in a designated lane. Is this correct?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Drivers must give way to emergency vehicles, but not necessarily by changing lanes. The correct action is to move aside or stop safely, depending on the situation."
+  },
+  {
+    "question": "When towing a vehicle with a gross weight of 750 kg or less using a regular vehicle, a separate towing license is required in addition to the appropriate license. Is this correct?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Even when towing a light vehicle (750 kg or less), a towing license may be required depending on licensing conditions."
+  },
+  {
+    "question": "Vehicles and streetcars facing the red traffic light shown may enter the intersection by slowing down while checking for other traffic. Is this correct?",
+    "image": "red_light.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "A red traffic light means stop. Vehicles and streetcars must not enter the intersection, even if they slow down and check for safety."
+  },
+  {
+    "question": "This sign indicates that vehicles are prohibited from making a U-turn. Is this correct?",
+    "image": "no_U_turn.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "his is a regulatory sign that clearly prohibits U-turns."
+  },
+  {
+    "question": "It is not necessary to ensure safety when opening or closing a door while a passenger gets in or out of the vehicle. Is this correct?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Drivers must always ensure safety when passengers enter or exit the vehicle to avoid accidents."
+  },
+  {
+    "question": "You must not overtake or pass other vehicles within 30 meters of a crosswalk or bicycle crossing lane. Is this correct?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Overtaking or passing within 30 meters of a crossing is prohibited to protect pedestrians and cyclists."
+  },
+  {
+    "question": "When a vehicle is determined to be illegally parked and a sticker is attached, the user or driver responsible must not remove the sticker. Is this correct?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "An illegally parked vehicle may be marked with an official sticker. The responsible person must not remove it, as it is part of enforcement procedures."
+  },
+  {
+    "question": "This sign indicates that only bicycles are allowed. Is this correct?",
+    "image": "bicycle.png",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "This is a warning sign, indicating the presence of bicycles or a bicycle-related area, not a restriction that limits the road to bicycles only."
+  },
+  {
+    "question": "On a one-way road, vehicles may drive from the center to the right side of the roadway. Is this correct?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "On a one-way road, vehicles are allowed to use the full width of the roadway unless otherwise restricted."
+  },
+  {
+    "question": "In the situation shown, car A does not need to give way to car B. Is this correct?",
+    "image": "mitoshi_with_stop.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Based on the markings/signs(stop sign) in the figure, car B is required to yield. Therefore, car A has priority."
+  },
+  {
+    "question": "When practicing driving with a learner’s permit, an experienced driver must sit in the passenger seat, and there are no requirements for that experienced driver. Is this correct?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "While an experienced driver must be present, there are requirements (such as holding a valid license for a certain period at least 3 years). Therefore, the statement is incorrect."
+  },
+  {
+    "question": "On a one-way road, a vehicle may enter the crossing side of the road. Is this correct?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Since traffic flows in one direction, entering or using the crossing side is allowed if it follows traffic flow."
+  },
+  {
+    "question": "When a vehicle is determined to be illegally parked and a sticker is attached, the driver or responsible person may remove the sticker. Is this correct?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "The responsible person must not remove the sticker. It is part of legal enforcement."
+  },
+  {
+    "question": "On a road with this stop sign, you may overtake another vehicle if there is no oncoming traffic and safety is confirmed. Is this correct?",
+    "image": "stop_sign.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "A stop sign requires stopping, but does not automatically prohibit overtaking unless other restrictions apply."
+  },
+  {
+    "question": "In the situation shown, you cannot enter the right side of the road to overtake another vehicle. Is this correct?",
+    "image": "solid_white_line.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "The road markings(solid white line) indicate that entering the right side (opposite lane) is prohibited for overtaking."
+  },
+  {
+    "question": "A learner’s permit holder may carry a copy of the permit, and if the copy is carried while practicing driving, it is not necessary to carry the original permit. Is this correct?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "The original learner’s permit must be carried while driving. A copy alone is not sufficient."
+  },
+  {
+    "question": "In the situation shown, a vehicle traveling in lane A may change its course to lane B. Is this correct?",
+    "image": "can_change.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Lane markings in the figure allow a lane change from A to B."
+  },
+  {
+    "question": "When driving across a sidewalk to enter a parking area, you do not need to stop before the sidewalk if you can confirm safety. Is this correct?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Drivers must stop before crossing a sidewalk, regardless of whether safety appears confirmed."
+  },
+  {
+    "question": "In the situation shown, vehicle A must proceed slowly when passing through the intersection due to poor visibility caused by obstacles. Is this correct?",
+    "image": "poor_visibility.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "If the intersection is controlled (e.g., by signs or signals), the rule requiring slow movement due to poor visibility does not automatically apply."
+  },
+  {
+    "question": "This hand signal by the police officer indicates a red light for the direction shown by the arrow. Is this correct?",
+    "image": "police_stop_hand_signal.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Police hand signals override traffic lights and may indicate a stop (red) depending on direction."
+  },
+  {
+    "question": "While stopped at a traffic light, a driver uses a mobile phone, and when the light turns green, starts driving again. Is this acceptable?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Using a mobile phone while driving is prohibited. Even when stopped, it can delay reaction and create danger."
+  },
+  {
+    "question": "You must sound the horn when passing an intersection or the top of a hill where visibility is poor. Is this correct?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "The horn should be used only when necessary. It is not mandatory in all such situations."
+  },
+  {
+    "question": "Vehicles and mopeds are allowed to pass through a road regulated by the traffic sign shown. Is this correct?",
+    "image": "car_motorcycle_no_entry.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "This sign indicates a prohibition (vehicles and mopeds are restricted). Therefore, they are not allowed to pass."
+  },
+  {
+    "question": "This sign indicates that there is a school, kindergarten, or nursery ahead. Is this correct?",
+    "image": "pedestrian.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "This is a pedestrian (children) warning sign, indicating that children may be present, not specifically that a school or facility is ahead."
+  },
+  {
+    "question": "If a vehicle is stopped at or before a crosswalk, you must stop before passing that vehicle. Is this correct?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "A stopped vehicle may be yielding to pedestrians. You must stop to avoid endangering pedestrians."
+  },
+  {
+    "question": "In the situation shown, vehicle A cannot change lanes or turn right at the intersection. Is this correct?",
+    "image": "change_lane.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Lane markings restrict both lane changes and turning movements. Drivers must follow the indicated directions."
+  },
+  {
+    "question": "When approaching a section of road indicated by this sign, you must gradually move forward to the right while paying attention to vehicles behind you. Is this correct?",
+    "image": "road_narrowing.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "This sign warns of road narrowing. Drivers must adjust position carefully and remain aware of surrounding traffic."
+  },
+  {
+    "question": "In the situation shown, when a driver extends an arm diagonally downward as seen from the rear, it indicates that the vehicle is slowing down or preparing to stop. Is this correct?",
+    "image": "hands_down.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "A downward hand signal from the driver indicates deceleration or stopping."
+  },
+  {
+    "question": "When you approach a route bus that is stopped at a bus stop, you must wait behind the bus until it begins moving forward. Is this correct?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "You may pass a stopped bus if it is safe and no pedestrians are endangered. Waiting is not always required."
+  },
+  {
+    "question": "You may overtake other vehicles or mopeds on a steep downhill section. Is this correct?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Overtaking is prohibited in dangerous areas such as steep slopes, due to limited control and visibility."
+  },
+  {
+    "question": "A learner’s permit holder must display this sign at designated positions on both the front and rear of the vehicle while practicing driving. Is this correct?",
+    "image": "karimen.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Proper display of learner signs is mandatory for identification and safety."
+  },
+  {
+    "question": "Vehicles may proceed in the direction shown by a green arrow signal. When the green arrow points to the right, a right turn or U-turn is permitted. Is this correct?",
+    "image": "green_arrow_proceed.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "A green arrow allows movement only in the indicated direction, including permitted turns."
+  },
+  {
+    "question": "The diamond-shaped pavement marking indicates that a pedestrian crossing or bicycle crossing may be ahead. Is this correct?",
+    "image": "diamond_markings.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "These markings warn drivers to prepare for crossing areas ahead."
+  },
+  {
+    "question": "Even on roads where lanes are separated by yellow lines, vehicles may cross the line to change lanes when making a left or right turn. Is this correct?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Crossing yellow lines is generally prohibited, but exceptions exist for turning movements when necessary."
+  },
+  {
+    "question": "Where this sign is present, you must not enter the right side of the road in order to overtake another vehicle. Is this correct?",
+    "image": "no_overtaking.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "This sign indicates no overtaking, which includes entering the opposite lane."
+  },
+  {
+    "question": "The driver’s seat should be adjusted so that the knee is stretched when pressing the clutch pedal. Is this correct?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "A slightly extended leg allows proper control and full pedal operation."
+  },
+  {
+    "question": "Using a mobile phone or looking at a navigation screen while driving does not affect attention and will not lead to danger or accidents. Is this correct?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "These actions reduce attention and significantly increase accident risk."
+  },
+  {
+    "question": "This sign indicates that driving on the right side of the road is prohibited only when overtaking. Is this correct?",
+    "image": "no_vehicle_entry.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "The sign does not specifically refer to overtaking only. The statement misinterprets its meaning"
+  },
+  {
+    "question": "After entering an intersection, you may turn right before an oncoming vehicle. Is this correct?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "You must yield to oncoming traffic when turning right."
+  },
+  {
+    "question": "When passing a school or kindergarten bus that is stopped to drop off children, you must always stop behind the bus. Is this correct?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "You must slow down and ensure safety, but stopping is not always required."
+  },
+  {
+    "question": "In the situation shown, vehicle A is parked illegally. Is this correct?",
+    "image": "No_Parking_with_arrow_left.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "The sign shown indicates no parking, but conditions (such as temporary stopping or other context) may make the situation legal."
+  },
+  {
+    "question": "When passing a school or kindergarten bus that is stopped to drop off children, you must always stop behind the bus. Is this correct?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "You must slow down and ensure safety, but stopping is not always required."
+  },
+  {
+    "question": "When approaching a road marked with this sign, you do not need to slow down if you can clearly check both left and right. Is this correct?",
+    "image": "yokei.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "This sign means you must slow down, regardless of visibility. It is a mandatory action."
+  },
+  {
+    "question": "This sign means that vehicles are not allowed to turn either right or left. Is this correct?",
+    "image": "direction_left_and_right.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "The sign actually means vehicles must proceed either left or right. Straight movement is not allowed."
+  },
+  {
+    "question": "“Slowing down” means reducing speed so that the vehicle can stop immediately at any time, which generally corresponds to a speed of less than 10 km/h. Is this correct?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "This matches the official definition used in driving rules."
+  },
+  {
+    "question": "This sign indicates that pedestrian crossing is prohibited. Is this correct?",
+    "image": "oudan_kinshi.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "The sign clearly prohibits pedestrians from crossing."
+  },
+  {
+    "question": "Drivers must comply with the conditions written on their driver’s license, such as using an automatic transmission vehicle or wearing corrective lenses. Is this correct?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "License conditions are legally binding and must always be followed."
+  },
+  {
+    "question": "The pavement marking shown indicates that stopping or parking is prohibited in this area. Is this correct?",
+    "image": "stopping.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "This marking indicates a restricted area, but the statement as written is not fully accurate for all conditions."
+  },
+  {
+    "question": "To enter a gas station located on the right side of the road, a driver may turn right from the far-left side of the road and cross the center line to enter the facility. Is this correct?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Crossing the center line is allowed when necessary to enter a roadside facility such as a gas station."
+  },
+  {
+    "question": "When facing a flashing yellow signal, pedestrians, vehicles, and trams may proceed carefully while paying attention to surrounding traffic. Is this correct?",
+    "image": "yellow_light.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "A flashing yellow light means proceed with caution, not stop."
+  },
+  {
+    "question": "On a road with this sign, parking is permitted between 8:00 and 20:00. Is this correct?",
+    "image": "time_restriction.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Drivers must give way to emergency vehicles, but not necessarily by changing lanes. The correct action is to move aside or stop safely, depending on the situation."
+  },
+  {
+    "question": "When driving a vehicle equipped with airbags, it is not necessary to wear a seatbelt. Is this correct?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Seatbelts are always required, even in vehicles with airbags."
+  },
+  {
+    "question": "This sign indicates that a large intersection lies ahead. Is this correct?",
+    "image": "big_arrow_road_sign.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "The sign warns of a major intersection ahead, requiring attention."
+  },
+  {
+    "question": "You may stop your vehicle in a “no stopping zone” in front of a police or fire station if no emergency vehicles are approaching. Is this correct?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Stopping is strictly prohibited in these zones regardless of conditions."
+  },
+  {
+    "question": "On a rainy day, when stopping on a steel plate at a roadwork site, it is safer to brake suddenly. Is this correct?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Sudden braking can cause slipping. Smooth and gradual braking is required."
+  },
+  {
+    "question": "This sign indicates the end of a section or zone where a traffic regulation (shown by another sign) applies. Is this correct?",
+    "image": "slash_arrow.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "This sign marks the end of a restriction or regulation zone, meaning the previous rule no longer applies beyond this point."
+  },
+  {
+    "question": "When driving downhill in a vehicle with automatic transmission, you should shift the gear into L or 1. Is this correct?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Lower gears may be used for engine braking, but the statement is too absolute. It is not always required in all downhill situations."
+  },
+  {
+    "question": "When a police officer controlling traffic raises both arms straight up vertically, this signal has the same meaning as a yellow traffic light for traffic moving parallel to the officer. Is this correct?",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "This hand signal does not correspond to a yellow light for parallel traffic. The interpretation in the statement is incorrect."
+  },
+  {
+    "question": "When passing a streetcar, drivers should normally overtake from the left side, except where the streetcar tracks are positioned along the far left side of the road.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "In Japan, vehicles generally pass streetcars on the left. However, if the tracks run along the left edge of the roadway, passing on the right may be permitted depending on road conditions."
+  },
+  {
+    "question": "Whenever traveling beside a pedestrian, drivers are required to continue at a very slow speed at all times.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Drivers must slow down only when necessary to protect pedestrians and ensure safety. The required speed depends on the situation and available space."
+  },
+  {
+    "question": "If lanes are separated by a yellow line, drivers are never allowed to cross it, even to make room for an approaching emergency vehicle.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Drivers may cross a yellow line when necessary to safely yield to an emergency vehicle. Giving priority to emergency vehicles is an important legal obligation."
+  },
+  {
+    "question": "The posted sign means that both ordinary automobiles and standard motorized bicycles may travel at exactly 50 km/h.",
+    "image": "50.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "While ordinary automobiles may follow the posted 50 km/h limit, some vehicle categories such as certain motorized bicycles may have lower legal maximum speeds. Drivers must follow the limit that applies to their vehicle type."
+  },
+  {
+    "question": "A school or kindergarten bus stopping to load or unload children should use its hazard warning lights.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Hazard flashers help alert nearby drivers that children may be entering or leaving the vehicle. This encourages surrounding traffic to proceed carefully and cautiously."
+  },
+  {
+    "question": "A special towing qualification is not required when pulling a disabled vehicle using a rope, tow truck, or similar equipment.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "In Japan, a separate towing license is generally unnecessary for simple towing of a disabled vehicle under certain legal conditions. However, proper safety measures and towing rules must still be followed."
+  },
+  {
+    "question": "Drivers should use hand signals or a light signal when slowing down or bringing the vehicle to a stop if necessary.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Signaling your intentions helps warn vehicles behind you and improves road safety. Hand or light signals may be used when normal brake or signal lights are unavailable or insufficient."
+  },
+  {
+    "question": "In an automatic transmission vehicle, you should keep the brake pedal pressed and place the selector in “P” or “N” while stopped, because the vehicle may move slightly due to creep phenomenon.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Automatic vehicles can slowly move forward even without pressing the accelerator because of engine idle power transfer. Keeping the brake applied helps prevent unintended movement."
+  },
+  {
+    "question": "The displayed symbol identifies a vehicle driven by an elderly motorist aged 60 or older.",
+    "image": "senior.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "This is Japan’s elderly driver mark, which is generally associated with drivers aged 70 and above, not 60. The mark encourages surrounding drivers to show extra caution and consideration."
+  },
+  {
+    "question": "You must avoid blocking or disturbing pedestrians and other traffic when making a U-turn, reversing, or crossing across the roadway.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Drivers must only perform these maneuvers when it is safe and without interfering with surrounding traffic. Safety and smooth traffic flow always take priority."
+  },
+  {
+    "question": "If an emergency vehicle approaches on a one-way street, drivers are always required to move to the left side of the road.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "On one-way roads in Japan, drivers should move to whichever side is safest and allows the emergency vehicle to pass smoothly. It is not always specifically the left side."
+  },
+  {
+    "question": "If the traffic signal turns yellow while you are entering an intersection, you must stop immediately where you are.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "A driver who cannot stop safely before the stop line may continue through the intersection carefully. Sudden stopping inside the intersection can create danger."
+  },
+  {
+    "question": "Passengers do not need to wear seatbelts if the vehicle is equipped with airbags.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Airbags are designed to work together with seatbelts, not replace them. Japanese traffic law requires passengers to wear seatbelts for safety."
+  },
+  {
+    "question": "On roads with several lanes, changing lanes freely always helps traffic move smoothly and prevents accidents.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Unnecessary lane changes can increase the risk of collisions and disrupt traffic flow. Drivers should remain in their lane unless changing lanes is necessary and safe."
+  },
+  {
+    "question": "The sign shown indicates a designated safety area for pedestrians or protected road users.",
+    "image": "safety_zone.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "In Japan, safety zones are marked to provide a protected space for pedestrians or passengers. Drivers must avoid entering or obstructing these areas unless absolutely necessary."
+  },
+  {
+    "question": "The two traffic control poses shown by the police officer mean “stop” for vehicles facing the officer, similar to a red traffic signal.",
+    "image": "two_policemen.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Japanese traffic officers use hand signals that carry the same authority as traffic lights. Drivers facing these signals must stop and wait for further instruction."
+  },
+  {
+    "question": "When an emergency vehicle approaches away from an intersection, drivers may move to the left side of the road without always making a complete stop, as long as the vehicle can pass safely.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Under Japanese traffic rules, drivers should yield smoothly and safely to emergency vehicles. A complete stop is not always required if pulling aside safely is enough to allow passage."
+  },
+  {
+    "question": "The sign shown marks a roadway reserved mainly for pedestrians and bicycles. Motor vehicles may only cross it when entering or leaving nearby properties or parking areas.",
+    "image": "pedestrian_and_bicycle.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "In Japan, this type of road is intended to protect pedestrians and cyclists from regular vehicle traffic. Cars and motorcycles are only allowed to cross it in limited situations such as accessing roadside facilities."
+  },
+  {
+    "question": "Heavy traffic can become dangerous if even one driver or pedestrian behaves carelessly or ignores others on the road.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Safe traffic flow depends on cooperation and consideration from everyone using the road. Reckless behavior can quickly lead to congestion or accidents."
+  },
+  {
+    "question": "When an emergency vehicle approaches near an intersection, drivers must immediately stop exactly where they are.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Japanese traffic rules require drivers to avoid blocking intersections whenever possible. Drivers should move safely to the side and stop in a location that allows the emergency vehicle to pass smoothly."
+  },
+  {
+    "question": "At a red traffic signal with a right-turn directional sign, passenger cars and large trucks may turn right, but motorcycles are not allowed to do so.",
+    "image": "green_arrow_proceed.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "In Japan, a directional arrow signal applies to all vehicle types traveling in the permitted direction unless another restriction is posted. Motorcycles may also proceed if the signal allows the movement."
+  },
+  {
+    "question": "Driving while your license is suspended is treated the same as simply forgetting to carry your driver’s license.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Operating a vehicle with a suspended license is considered unlicensed driving, which is a much more serious violation than failing to carry your license card."
+  },
+  {
+    "question": "The sign shown means that a bicycle crossing is located ahead.",
+    "image": "Japanese_bicycle_sign.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "This sign indicates a route or area designated for bicycles, not specifically a bicycle crossing. Bicycle crossing signs use different markings and symbols."
+  },
+  {
+    "question": "If another vehicle is stopped before a pedestrian crossing or bicycle crossing, you must stop before passing that vehicle and moving ahead.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "A stopped vehicle near a crossing may be yielding to pedestrians or cyclists that are difficult to see. Japanese traffic rules require drivers to stop and check carefully before proceeding."
+  },
+  {
+    "question": "Passing another vehicle is prohibited on a pedestrian crossing and within 30 meters before reaching the crossing.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Overtaking near crosswalks is dangerous because pedestrians may suddenly appear from beside another vehicle. Japanese traffic rules restrict overtaking in these areas to protect pedestrians."
+  },
+  {
+    "question": "When entering a main road or a road with priority from a side street, drivers must slow down, and in some situations they may also need to stop and yield.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Vehicles entering from smaller roads must pay attention to traffic already traveling on the priority road. Stopping may be necessary when visibility is poor or traffic conditions require it."
+  },
+  {
+    "question": "A driver operating a large vehicle with towing equipment must also hold a towing license when pulling a vehicle whose total weight exceeds 750 kg.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "In Japan, towing heavier vehicles requires a separate towing qualification in addition to the license for the main vehicle. This rule helps ensure drivers have proper towing knowledge and control skills."
+  },
+  {
+    "question": "Before making a right turn, you should move close to the center of the road immediately before the intersection.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Drivers should position the vehicle for a right turn gradually and with enough advance notice, not suddenly just before the intersection. Smooth early positioning helps maintain safety and predictable traffic flow."
+  },
+  {
+    "question": "Drivers should keep enough distance from the vehicle ahead so they can stop safely if the vehicle in front brakes suddenly, and this following distance should become greater at higher speeds.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Higher speeds increase stopping distance and reduce reaction time. Maintaining a larger gap helps prevent rear-end collisions and improves overall road safety."
+  },
+  {
+    "question": "Before moving your vehicle from a parked position, you should check around the car for safety, use your turn signal, and confirm traffic conditions again with mirrors and visual checks before starting.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "In Japan, drivers are expected to carefully confirm safety before entering traffic. Double-checking mirrors and blind spots helps prevent collisions with pedestrians, bicycles, or approaching vehicles."
+  },
+  {
+    "question": "When parking an automatic vehicle on a slope, you should leave the gear in “D” uphill or “R” downhill after applying the parking brake.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Automatic vehicles should normally be placed in the “P” (Park) position when parked. Using “D” or “R” alone is not the correct or safest parking method."
+  },
+  {
+    "question": "Roads reserved only for pedestrians may also be used by light special vehicles, motorized bicycles, and small motor vehicles.Roads reserved only for pedestrians may also be used by light special vehicles, motorized bicycles, and small motor vehicles.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Pedestrian-only roads are generally restricted from regular vehicle traffic in order to protect pedestrians. Only specially permitted vehicles may enter under limited circumstances."
+  },
+  {
+    "question": "During a turn, the inside rear wheel follows a tighter path than the inside front wheel.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "This is known as “off-tracking,” where the rear wheels cut closer to the inside during turns. Drivers must allow enough space, especially when driving large vehicles or turning at intersections."
+  },
+  {
+    "question": "The traffic sign shown means that making a U-turn is prohibited.",
+    "image": "no_crossing_sign.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "This sign actually prohibits a right turn, not a U-turn. Drivers in Japan must follow the exact direction indicated by prohibition signs to avoid dangerous maneuvers."
+  },
+  {
+    "question": "Bicycles are not allowed to travel on the type of side strip shown in the illustration.",
+    "image": "side_strip.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Certain side strips may still be used by bicycles depending on the road markings and traffic conditions. In Japan, bicycles are sometimes permitted to travel along designated side areas for safety."
+  },
+  {
+    "question": "The lane marked with the displayed sign may be used by light special vehicles, motorized bicycles, and light vehicles in addition to buses.",
+    "image": "senyou_lane.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "This sign indicates a bus-only or priority lane, but some smaller vehicle categories are permitted to enter under Japanese traffic regulations. Drivers should still follow any additional posted restrictions or time limits."
+  },
+  {
+    "question": "A person who holds only a standard driver’s license may not operate taxis or other commercial passenger vehicles for business purposes, but may drive them when taking the vehicle for repair or maintenance.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "In Japan, operating vehicles such as taxis for business requires a second-class license. However, driving the vehicle for non-commercial reasons, such as delivering it to a repair shop, is permitted with an ordinary license."
+  },
+  {
+    "question": "The road marking shown indicates a “No Entry Area.”",
+    "image": "restricted_area.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "This marking represents a safety zone or restricted area on the roadway, not a no-entry sign. Drivers should avoid entering the marked section unless necessary for safety or road conditions."
+  },
+  {
+    "question": "In the intersection shown, both Vehicle A and Vehicle B have limited visibility, so both drivers should reduce speed before proceeding.",
+    "image": "mitoshi_with_shop.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Poor visibility at intersections increases the risk of collisions with crossing vehicles or pedestrians. Japanese traffic rules require drivers to slow down and confirm safety carefully in such situations."
+  },
+  {
+    "question": "When entering or leaving a place beside the roadway, you are required to stop before crossing a sidewalk or side strip only if pedestrians are nearby.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Under Japanese traffic rules, drivers must stop briefly before crossing a sidewalk or side strip regardless of whether pedestrians are present. This helps ensure safety for pedestrians and cyclists who may suddenly appear."
+  },
+  {
+    "question": "If the center of the road is marked with a solid yellow line, drivers are prohibited from overtaking by crossing to the right side of that line.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "A solid yellow center line in Japan indicates a no-passing zone. Crossing the line to overtake another vehicle is dangerous and prohibited."
+  },
+  {
+    "question": "Vehicles not designated for the lane shown on the sign may temporarily use the lane during traffic congestion if no buses are approaching.",
+    "image": "senyou_lane.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Exclusive lanes marked for buses or specific vehicles must generally be used only by the vehicles indicated on the sign. Other vehicles are not allowed to enter simply because traffic is heavy."
+  },
+  {
+    "question": "If your vehicle becomes immobilized on a railway crossing, you should quickly alert railway personnel and take immediate action to remove the vehicle from the tracks.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "A stalled vehicle on train tracks creates a serious danger. Drivers should notify railway staff or use the emergency alarm and try to clear the tracks as quickly as possible."
+  },
+  {
+    "question": "The total braking distance of a vehicle is calculated by adding the driver’s reaction distance to the distance traveled after the brakes begin working.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Total stopping distance is the combination of reaction distance and braking distance. “Braking distance” alone refers only to the distance traveled after the brakes are applied."
+  },
+  {
+    "question": "When elderly individuals or persons with physical disabilities are near the roadway, drivers should reduce speed or stop if necessary to protect them.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Drivers must show extra caution toward vulnerable pedestrians. Slowing down or stopping helps prevent accidents and ensures safer road conditions."
+  },
+  {
+    "question": "Cars and motorized bicycles are generally prohibited from driving on sidewalks, side strips, or bicycle paths except when crossing them to enter or leave roadside property.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "These areas are mainly reserved for pedestrians and bicycles. Vehicles may cross them only when necessary for access to parking areas, homes, or businesses."
+  },
+  {
+    "question": "The three signs shown in the illustration all represent exactly the same traffic instruction.",
+    "image": "unrelated.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Although the signs may appear related, supplementary plates and directional arrows can change the meaning or limit where the regulation applies. Drivers must read all parts of the sign together carefully."
+  },
+  {
+    "question": "Even if an emergency vehicle approaches from behind, drivers in lanes B or C shown by the lane markings are not required to change lanes.",
+    "image": "B_cannot_change_lane.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Drivers must cooperate with emergency vehicles whenever possible. Even in designated lanes, vehicles should move appropriately and give way safely when an emergency vehicle approaches."
+  },
+  {
+    "question": "If the traffic signal for the intersecting road is red, you may always continue through the intersection without checking other conditions.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "A driver must still confirm that the intersection is clear and safe before proceeding. Traffic conditions, pedestrians, or blocked intersections may require stopping even when cross traffic has a red"
+  },
+  {
+    "question": "Drivers should understand the risks faced by pedestrians and cyclists and operate their vehicles with care and consideration toward them.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Pedestrians and cyclists are more vulnerable in traffic accidents because they have less protection than vehicle occupants. Japanese traffic safety rules emphasize awareness, caution, and mutual respect on the road."
   }
 ]

@@ -2700,6 +2700,446 @@
     "explanation": "Antes de ultrapassar outro veículo, o motorista deve primeiro verificar se as condições de trânsito à frente e atrás são seguras antes de acionar a seta e iniciar a manobra."
   },
   {
+    "question": "Um ciclista que pedala lentamente enquanto usa um smartphone para navegação está isento de penalidades porque o dispositivo está sendo usado para orientação e não para comunicação.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Segurar ou operar ativamente um smartphone enquanto pedala ainda pode violar as regras contra direção distraída, independentemente da finalidade."
+  },
+  {
+    "question": "Quando não existe faixa para bicicletas, os ciclistas normalmente devem trafegar próximos ao centro da via para melhorar a visibilidade aos motoristas.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Os ciclistas geralmente devem manter-se no lado esquerdo da via, exceto ao evitar perigos ou fazer conversões."
+  },
+  {
+    "question": "Um motorista que ultrapassa uma bicicleta pode passar muito perto se a diferença de velocidade entre o veículo e a bicicleta for mínima.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Espera-se que os motoristas mantenham uma distância segura independentemente da velocidade relativa."
+  },
+  {
+    "question": "Um portador de licença limitada a AT pode dirigir um veículo com transmissão manual em emergências se estiver acompanhado por um motorista totalmente habilitado.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "As restrições da licença continuam legalmente válidas mesmo que outro motorista qualificado esteja presente."
+  },
+  {
+    "question": "Um motorista que utiliza assistência de direção autônoma continua legalmente responsável pela operação segura do veículo.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Os sistemas autônomos atuais não removem a responsabilidade do motorista sob a lei japonesa."
+  },
+  {
+    "question": "Um ciclista usando fones de ouvido em apenas uma orelha não pode ser penalizado porque os sons externos ainda permanecem parcialmente audíveis.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "A aplicação da lei depende de saber se a audição e a operação segura estão prejudicadas, e não apenas do número de orelhas cobertas."
+  },
+  {
+    "question": "Um ciclista que se aproxima de uma placa de parada em velocidade muito baixa pode prosseguir sem parar completamente se a visibilidade estiver clara.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "As placas de parada exigem parada completa tanto para bicicletas quanto para veículos motorizados."
+  },
+  {
+    "question": "Um sistema de direção autônoma aprovado para uso em vias expressas pode ser automaticamente utilizado em estradas públicas comuns.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Os sistemas autônomos são aprovados apenas para condições operacionais e ambientes específicos."
+  },
+  {
+    "question": "Um motorista que abre a porta do veículo sem verificar a aproximação de bicicletas pode ter responsabilidade legal por uma colisão.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Os motoristas devem confirmar a segurança antes de abrir portas para o tráfego."
+  },
+  {
+    "question": "Um veículo AT nunca pode rolar para trás em uma subida porque a transmissão trava automaticamente as rodas.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Veículos com transmissão automática ainda podem rolar dependendo do uso dos freios e das condições da inclinação."
+  },
+  {
+    "question": "Mesmo quando um ciclista viola as regras de trânsito, os motoristas ainda devem tomar medidas razoáveis para evitar colisões.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Os motoristas mantêm o dever de cuidado em relação aos usuários vulneráveis da via."
+  },
+  {
+    "question": "Um veículo autônomo de Nível 4 pode operar sem monitoramento humano contínuo apenas dentro de áreas e condições operacionais aprovadas.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Os sistemas de Nível 4 são limitados a ambientes e domínios operacionais designados."
+  },
+  {
+    "question": "Os ciclistas têm permissão para ignorar instruções temporárias de agentes de trânsito se as placas permanentes indicarem o contrário.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "As instruções de policiais ou controladores de trânsito autorizados têm prioridade sobre placas e sinais."
+  },
+  {
+    "question": "Um ciclista que desmonta e empurra a bicicleta através de uma faixa de pedestres geralmente é tratado como pedestre.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Depois de desmontar e empurrar a bicicleta, a pessoa geralmente é tratada como pedestre."
+  },
+  {
+    "question": "Um ciclista que trafega no extremo direito de uma rua de mão única no Japão está cumprindo a lei de trânsito porque ruas de mão única permitem posicionamento flexível para bicicletas.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Mesmo em ruas de mão única, espera-se geralmente que os ciclistas mantenham-se à esquerda, salvo indicação específica em contrário."
+  },
+  {
+    "question": "Um motorista que se aproxima de um ciclista por trás à noite deve considerar que o ciclista pode ser mais difícil de ver usando roupas escuras, mesmo que a bicicleta tenha luzes instaladas.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Os motoristas devem levar em conta as limitações de visibilidade e ajustar a distância de seguimento e a velocidade adequadamente."
+  },
+  {
+    "question": "Um motorista que usa controle de cruzeiro adaptativo pode legalmente deixar de monitorar o trânsito continuamente porque o sistema gerencia automaticamente a distância de seguimento.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Os sistemas de assistência ao motorista não eliminam a exigência de supervisão ativa."
+  },
+  {
+    "question": "Ao ultrapassar uma bicicleta, apenas tocar a buzina é aviso suficiente mesmo que não seja mantida uma distância lateral segura.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "A buzina não substitui a obrigação de ultrapassar com segurança."
+  },
+  {
+    "question": "Espera-se que os ciclistas antecipem que pedestres possam mudar de direção repentinamente em calçadas compartilhadas.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Os ciclistas devem operar com cuidado ao redor de pedestres e preparar-se para movimentos imprevisíveis."
+  },
+  {
+    "question": "Um sistema de direção autônoma de Nível 4 pode operar legalmente fora das áreas aprovadas se as condições climáticas forem favoráveis.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "A aprovação operacional depende de condições e áreas designadas, não apenas do clima."
+  },
+  {
+    "question": "Um ciclista que trafega na contramão em uma rua de mão única pode continuar legalmente se a via for estreita e o tráfego de veículos for leve.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "De acordo com a lei de trânsito japonesa, bicicletas geralmente são tratadas como veículos e devem trafegar no mesmo sentido do trânsito, a menos que placas permitam especificamente o contrário. Muitos ciclistas assumem incorretamente que restrições de mão única se aplicam apenas aos carros, mas a fiscalização revisada em 2026 visa especificamente bicicletas trafegando na contramão porque isso aumenta muito o risco de colisões em cruzamentos e curvas sem visibilidade."
+  },
+  {
+    "question": "Um sistema de direção autônoma de Nível 3 pode permitir temporariamente que o motorista pare de monitorar ativamente a via, mas o motorista ainda deve ser capaz de retomar o controle quando solicitado.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Os sistemas de Nível 3 são condicionalmente automatizados, o que significa que algumas tarefas de direção podem ser realizadas pelo veículo em condições limitadas. No entanto, os regulamentos japoneses ainda exigem que o motorista humano permaneça capaz de assumir o controle porque o sistema pode encontrar repentinamente condições além de sua capacidade operacional, como mudanças climáticas, marcas de faixa pouco claras ou obras inesperadas na estrada."
+  },
+  {
+    "question": "Uma bicicleta motorizada pequena específica (certos scooters elétricos) pode circular legalmente nas calçadas em velocidades normais de bicicleta se não houver pedestres por perto.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Mesmo scooters classificados como “bicicletas motorizadas pequenas específicas” só podem usar calçadas sob condições rigorosas e limitações de baixa velocidade. As regras japonesas exigem que esses veículos operem cuidadosamente perto de pedestres e, em áreas onde o uso da calçada é permitido, a velocidade deve permanecer extremamente baixa para priorizar a segurança dos pedestres."
+  },
+  {
+    "question": "Um motorista que utiliza assistência de direção autônoma deve estar preparado para a possibilidade de que chuva ou neve reduzam o desempenho dos sensores, mesmo que o sistema pareça funcionar normalmente.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Os modernos sistemas autônomos e de assistência ao motorista dependem fortemente de câmeras, radar, lidar e reconhecimento de faixas. Chuva intensa, neve, reflexos, neblina ou marcas de faixa desgastadas podem reduzir a precisão do sistema sem desativá-lo imediatamente, razão pela qual as orientações japonesas ainda atribuem ao operador humano a responsabilidade de monitorar continuamente as condições."
+  },
+  {
+    "question": "Em uma estrada de mão única, uma bicicleta pode trafegar em qualquer direção desde que o ciclista permaneça próximo à borda da via.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "As restrições de mão única normalmente se aplicam às bicicletas, a menos que sinalizações especiais criem uma exceção. Muitas revisões recentes das leis sobre bicicletas enfatizam o perigo de pedalar na contramão porque os motoristas frequentemente não esperam bicicletas vindo de direções proibidas."
+  },
+  {
+    "question": "Se um sistema de direção autônoma solicitar intervenção do motorista, o motorista deve responder imediatamente, mesmo que a situação do trânsito ao redor pareça estável.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Um pedido de retomada geralmente significa que o sistema detectou incerteza operacional ou atingiu os limites de suas condições de direção aprovadas. Atrasar a resposta porque a estrada “parece segura” pode criar situações perigosas em que o sistema não consegue mais lidar de forma confiável com riscos ou geometria da via."
+  },
+  {
+    "question": "Um ciclista que reduz significativamente a velocidade em uma placa de parada, mas não para completamente, ainda pode violar as regras revisadas de fiscalização de bicicletas de 2026.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "A fiscalização revisada de bicicletas no Japão agora trata paradas incompletas de forma mais rigorosa sob o sistema de multa azul. As autoridades observaram especificamente que muitos acidentes com bicicletas ocorrem porque os ciclistas reduzem a velocidade, mas não fazem uma parada completa antes de cruzamentos ou passagens ferroviárias."
+  },
+  {
+    "question": "Um veículo autônomo de Nível 4 operando legalmente dentro de sua área aprovada pode ignorar instruções manuais temporárias de policiais porque sua rota programada já foi aprovada pelo governo.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Policiais dirigindo o trânsito sempre têm prioridade sobre sinais, placas e sistemas automáticos de navegação. Mesmo sistemas autônomos totalmente aprovados devem obedecer medidas temporárias de controle de emergência, acidentes, desastres ou instruções em zonas de obras."
+  },
+  {
+    "question": "Bicicletas motorizadas pequenas específicas geralmente devem trafegar no lado esquerdo da via no mesmo sentido do trânsito.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Os regulamentos japoneses para scooters elétricos seguem amplamente os princípios normais de posicionamento na via. Trafegar no lado errado cria sério perigo porque cruzamentos, veículos fazendo conversões e manobras de ultrapassagem são projetados assumindo fluxo de trânsito pela esquerda."
+  },
+  {
+    "question": "Um motorista que se aproxima de um ciclista trafegando incorretamente na contramão ainda deve tentar evitar uma colisão, mesmo que o ciclista tenha violado as regras de trânsito.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Os princípios japoneses de segurança viária continuam atribuindo forte responsabilidade aos motoristas para proteger usuários vulneráveis da via sempre que possível. Mesmo que o ciclista esteja violando a lei, espera-se que os motoristas dirijam defensivamente e tomem medidas razoáveis para evitar colisões."
+  },
+  {
+    "question": "Um sistema de direção autônoma aprovado para uso em vias expressas pode ser automaticamente usado em estradas urbanas comuns se as condições de trânsito forem leves.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Os sistemas autônomos são aprovados apenas dentro de domínios operacionais específicos chamados ODDs (Operational Design Domains). A aprovação para rodovias não autoriza automaticamente o uso em ruas urbanas porque ambientes urbanos envolvem pedestres, bicicletas, cruzamentos e perigos imprevisíveis que exigem certificação diferente do sistema."
+  },
+  {
+    "question": "Ao entrar em uma rua estreita de mão única, o motorista deve permanecer atento a bicicletas trafegando ilegalmente na contramão.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "A direção defensiva exige antecipar possíveis violações de outros usuários da via. Como bicicletas na contramão continuam relativamente comuns no Japão, especialmente em ruas residenciais estreitas, espera-se que os motoristas verifiquem cuidadosamente mesmo quando tecnicamente têm prioridade."
+  },
+  {
+    "question": "Bicicletas motorizadas pequenas específicas podem realizar conversões normais à direita em todos os cruzamentos da mesma maneira que motocicletas.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Certas bicicletas motorizadas pequenas específicas são obrigadas a realizar conversões à direita em duas etapas, semelhantes às bicicletas em muitas vias. Essa regra existe porque veículos pequenos e de baixa velocidade são mais vulneráveis durante manobras diretas de conversão à direita atravessando o tráfego."
+  },
+  {
+    "question": "Um sistema de direção autônoma funcionando normalmente ainda pode falhar em detectar perigos incomuns fora de suas expectativas programadas.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Os sistemas autônomos operam usando modelos de detecção treinados e suposições ambientais. Obstáculos inesperados, marcas de estrada danificadas, comportamento incomum de pedestres ou clima severo podem criar situações além da capacidade de reconhecimento do sistema, razão pela qual a supervisão humana continua legalmente importante."
+  },
+  {
+    "question": "Mesmo ao usar assistência avançada de direção autônoma, os motoristas continuam responsáveis por manter atenção segura e conformidade legal, a menos que o sistema seja especificamente autorizado para operação totalmente sem motorista.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "A maioria dos sistemas atualmente disponíveis para motoristas comuns no Japão permanece nas tecnologias de assistência ao motorista de Nível 1–3, e não em operação totalmente autônoma. Por isso, os motoristas continuam tendo responsabilidade legal de monitorar o trânsito, obedecer aos sinais e intervir sempre que o sistema não puder gerenciar com segurança as condições da via."
+  },
+  {
+    "question": "Como o tráfego oposto é proibido em uma estrada de mão única, um motorista pode sempre continuar com segurança próximo ao extremo direito da via.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Um motorista em uma estrada de mão única pode às vezes posicionar legalmente o veículo em direção ao lado direito quando necessário, como ao preparar uma conversão à direita ou evitar obstáculos. No entanto, a parte enganosa é a palavra “sempre”. Questões honmen japonesas frequentemente usam afirmações parcialmente corretas legalmente combinadas com situações perigosas."
+  },
+  {
+    "question": "Um sistema de direção autônoma de Nível 3 pode permitir que o motorista reduza temporariamente a operação ativa da direção, mas o motorista ainda deve permanecer capaz de responder imediatamente a solicitações de retomada.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Os sistemas de Nível 3 são projetados para automatizar certas funções de direção sob condições limitadas. No entanto, a parte complicada é entender que “automação” não significa que o motorista esteja liberado da responsabilidade. Os regulamentos japoneses ainda esperam que o motorista permaneça mental e fisicamente preparado para intervir imediatamente se o sistema atingir seu limite operacional."
+  },
+  {
+    "question": "Ao dirigir em uma estrada de mão única, verificar cuidadosamente veículos vindo da direção proibida é desnecessário porque tal movimento viola a lei de trânsito.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "A parte complicada é que a frase parece logicamente correta do ponto de vista legal, mas os princípios japoneses de direção defensiva focam em prever perigos reais em vez de assumir cumprimento perfeito das regras. Bicicletas e veículos na contramão ainda ocorrem frequentemente, especialmente em ruas residenciais estreitas."
+  },
+  {
+    "question": "Um veículo autônomo de Nível 4 aprovado para operação sem motorista pode continuar dirigindo autonomamente fora de sua área designada se o trânsito permanecer leve e as condições climáticas forem favoráveis.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "A parte complicada é que a situação parece segura, mas a aprovação de Nível 4 depende de Domínios de Projeto Operacional (ODDs) certificados, e não do julgamento pessoal do motorista sobre as condições do trânsito. Mesmo que o clima e o trânsito pareçam favoráveis, operar fora das condições aprovadas pode exceder a capacidade de segurança validada do sistema."
+  },
+  {
+    "question": "Em uma estrada de mão única, um motorista pode usar legalmente o lado direito da via quando necessário, mas ainda deve preparar-se para bicicletas ou veículos que se aproximem inesperadamente.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Esta questão é complicada porque muitos examinados focam apenas na primeira metade ou na segunda metade da frase. Sob as regras de trânsito japonesas, motoristas em estradas de mão única podem às vezes usar o lado direito com mais flexibilidade do que em estradas comuns. No entanto, essa flexibilidade não remove o dever de prever perigos."
+  },
+  {
+    "question": "Se um sistema de direção autônoma parecer estável durante a viagem em via expressa, usar brevemente um smartphone é aceitável porque o veículo continua monitorando o trânsito automaticamente.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "A parte complicada é que muitos veículos modernos parecem altamente capazes durante a condução estável em rodovias. No entanto, a lei japonesa atual ainda trata a maioria dos sistemas autônomos de consumo como tecnologias de assistência ao motorista, e não como operação totalmente autônoma."
+  },
+  {
+    "question": "Mesmo em estradas de mão única, reduzir a velocidade perto de curvas sem visibilidade é mais seguro porque bicicletas ou pedestres podem aparecer repentinamente.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "A parte complicada é que muitos motoristas associam incorretamente estradas de mão única a menor perigo porque o tráfego oposto é proibido."
+  },
+  {
+    "question": "Um motorista entrando em uma estrada de mão única deve confirmar se bicicletas têm permissão específica para trafegar de maneira diferente dos veículos comuns.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "A parte complicada é que algumas estradas japonesas possuem placas suplementares permitindo que bicicletas trafeguem de forma diferente dos carros. Muitos examinados assumem incorretamente que restrições de mão única se aplicam de maneira idêntica a todos os usuários da via."
+  },
+  {
+    "question": "Mesmo ao usar legalmente o lado direito de uma estrada de mão única, um motorista deve evitar velocidade excessiva porque perigos ocultos podem surgir repentinamente.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "A parte complicada é entender que o posicionamento legal na via não garante segurança. Motoristas podem usar legalmente uma parte maior da via em ruas de mão única, mas os exames japoneses modernos enfatizam cada vez mais que um posicionamento mais amplo nunca deve levar ao excesso de confiança ou à redução da antecipação de perigos."
+  },
+  {
     "question_group": "'",
     "situation": "Você está esperando para fazer uma conversão à direita em um cruzamento. Um caminhão grande vindo da direção oposta para e pisca os faróis. Ao que você deve prestar atenção nesta situação?",
     "image": "making_a_right_turn_flasing_light.jpg",

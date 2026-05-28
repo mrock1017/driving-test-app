@@ -2698,5 +2698,445 @@
     ],
     "answer": "Mali",
     "explanation": "Bago lampasan ang ibang sasakyan, dapat munang gamitin ng drayber ang turn signal at pagkatapos ay suriin kung ligtas ang traffic conditions sa unahan at likuran."
+  },
+  {
+    "question": "Ang siklistang mabagal magmaneho habang gumagamit ng smartphone para sa navigation ay hindi mapaparusahan dahil ginagamit ang device para sa direksyon at hindi para sa komunikasyon.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ang paghawak o aktibong paggamit ng smartphone habang nagbibisikleta ay maaari pa ring lumabag sa mga batas laban sa distracted driving anuman ang layunin nito."
+  },
+  {
+    "question": "Kapag walang bicycle lane, ang mga siklista ay dapat karaniwang bumiyahe malapit sa gitna ng kalsada upang mas madaling makita ng mga driver.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Karaniwang dapat manatili ang mga siklista sa kaliwang bahagi ng kalsada maliban kung umiiwas sa panganib o liliko."
+  },
+  {
+    "question": "Maaaring lumampas nang malapit ang isang driver sa bisikleta kung maliit lamang ang diperensya ng bilis ng sasakyan at bisikleta.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Inaasahan ang mga driver na panatilihin ang ligtas na distansya anuman ang pagkakaiba ng bilis."
+  },
+  {
+    "question": "Ang may hawak ng AT-limited na lisensya ay maaaring magmaneho ng manual-transmission na sasakyan sa oras ng emergency kung may kasamang ganap na lisensyadong driver.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Nanatiling legal na may bisa ang mga limitasyon sa lisensya kahit may ibang kwalipikadong driver na kasama."
+  },
+  {
+    "question": "Ang driver na gumagamit ng autonomous driving assistance ay nananatiling legal na responsable sa ligtas na operasyon ng sasakyan.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang kasalukuyang autonomous systems ay hindi nag-aalis ng responsibilidad ng driver sa ilalim ng batas ng Japan."
+  },
+  {
+    "question": "Ang siklistang may suot na headphone sa isang tainga lamang ay hindi maaaring maparusahan dahil bahagya pa rin niyang naririnig ang tunog sa paligid.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ang pagpapatupad ng batas ay nakabatay sa kung naaapektuhan ang pandinig at ligtas na pagmamaneho, hindi lamang sa dami ng natatakpang tainga."
+  },
+  {
+    "question": "Ang siklistang papalapit sa stop sign sa napakababang bilis ay maaaring magpatuloy nang hindi lubusang humihinto kung malinaw ang paligid.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Kinakailangan ang ganap na paghinto sa stop sign para sa mga bisikleta at mga sasakyang de-motor."
+  },
+  {
+    "question": "Ang autonomous driving system na aprubado para sa expressway ay maaaring awtomatikong gamitin sa ordinaryong pampublikong kalsada.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ang mga autonomous system ay inaaprubahan lamang para sa partikular na kondisyon at kapaligiran ng operasyon."
+  },
+  {
+    "question": "Ang driver na nagbubukas ng pinto ng sasakyan nang hindi tumitingin kung may paparating na bisikleta ay maaaring magkaroon ng legal na pananagutan kapag nagkaroon ng banggaan.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Dapat tiyakin ng mga driver ang kaligtasan bago magbukas ng pinto sa gilid ng trapiko."
+  },
+  {
+    "question": "Ang sasakyang AT ay hindi kailanman uurong paatras sa paahon dahil awtomatikong nilalock ng transmission ang mga gulong.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ang mga sasakyang automatic transmission ay maaari pa ring umurong depende sa paggamit ng preno at kundisyon ng daan."
+  },
+  {
+    "question": "Kahit lumabag sa batas-trapiko ang isang siklista, inaasahan pa rin ang mga motorista na gumawa ng makatwirang hakbang upang maiwasan ang banggaan.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "May tungkulin pa rin ang mga driver na mag-ingat para sa kaligtasan ng mga mahihinang gumagamit ng kalsada."
+  },
+  {
+    "question": "Ang isang Level 4 autonomous vehicle ay maaaring gumana nang walang tuloy-tuloy na pagmamanman ng tao lamang sa loob ng mga aprubadong lugar at kundisyon ng operasyon.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang mga Level 4 system ay limitado lamang sa mga itinalagang kapaligiran at saklaw ng operasyon."
+  },
+  {
+    "question": "Pinapayagan ang mga siklista na balewalain ang pansamantalang utos ng traffic officer kung iba ang ipinapakita ng permanenteng traffic sign.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Mas may prioridad ang utos ng pulis o awtorisadong traffic controller kaysa sa mga karatula at signal."
+  },
+  {
+    "question": "Ang siklistang bumaba at itinulak ang bisikleta sa pedestrian crossing ay karaniwang itinuturing na pedestrian.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Kapag bumaba at itinutulak na ang bisikleta, ang tao ay karaniwang itinuturing bilang pedestrian."
+  },
+  {
+    "question": "Ang siklistang bumibiyahe sa pinakakanang bahagi ng one-way street sa Japan ay sumusunod sa batas-trapiko dahil pinapayagan ng one-way roads ang flexible na posisyon ng bisikleta.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Kahit sa one-way roads, karaniwang inaasahan ang mga siklista na manatili sa kaliwang bahagi maliban kung may espesyal na marka na nagsasaad ng iba."
+  },
+  {
+    "question": "Ang driver na papalapit sa siklista mula sa likuran sa gabi ay dapat isaalang-alang na maaaring mas mahirap makita ang siklista kapag nakasuot ng madilim na damit kahit may ilaw ang bisikleta.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Dapat isaalang-alang ng mga driver ang limitasyon sa visibility at ayusin ang distansya at bilis nang naaayon."
+  },
+  {
+    "question": "Ang driver na gumagamit ng adaptive cruise control ay maaaring legal na tumigil sa patuloy na pagmamanman sa trapiko dahil awtomatikong pinamamahalaan ng system ang following distance.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Hindi inaalis ng driver-assistance systems ang pangangailangan para sa aktibong pagmamanman."
+  },
+  {
+    "question": "Kapag lumalampas sa bisikleta, sapat nang babala ang pagbusina kahit hindi napananatili ang ligtas na lateral distance.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Hindi pinapalitan ng busina ang obligasyong lumampas nang ligtas."
+  },
+  {
+    "question": "Inaasahan ang mga siklista na isipin na maaaring biglang magbago ng direksyon ang mga pedestrian sa shared sidewalks.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Dapat maging maingat ang mga siklista sa paligid ng mga pedestrian at maging handa sa hindi inaasahang galaw."
+  },
+  {
+    "question": "Ang isang Level 4 autonomous driving system ay maaaring legal na gamitin sa labas ng aprubadong lugar kung maganda ang kondisyon ng panahon.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ang pahintulot sa operasyon ay nakabatay sa itinalagang kundisyon at lugar, hindi lamang sa panahon."
+  },
+  {
+    "question": "Ang siklistang bumibiyahe laban sa daloy ng trapiko sa isang one-way road ay maaaring legal na magpatuloy kung makitid ang kalsada at kaunti lamang ang trapiko ng sasakyan.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Sa ilalim ng batas-trapiko ng Japan, ang mga bisikleta ay karaniwang itinuturing na mga sasakyan at dapat bumiyahe sa parehong direksyon ng trapiko maliban kung may espesyal na karatulang nagpapahintulot ng iba. Maraming rider ang maling nag-aakala na ang one-way restrictions ay para lamang sa mga kotse, ngunit ang pinaigting na pagpapatupad noong 2026 ay partikular na tumututok sa maling direksyon ng pagbibisikleta dahil malaki nitong pinapataas ang panganib ng banggaan sa mga intersection at blind corner."
+  },
+  {
+    "question": "Ang isang Level 3 autonomous-driving system ay maaaring pansamantalang pahintulutan ang driver na tumigil sa aktibong pagmamanman sa kalsada, ngunit dapat pa ring kayang bawiin ng driver ang kontrol kapag hiniling.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang mga Level 3 system ay conditionally automated, ibig sabihin may ilang driving task na maaaring hawakan ng sasakyan sa limitadong kundisyon. Gayunpaman, hinihingi pa rin ng regulasyon sa Japan na ang human driver ay manatiling handang kunin muli ang kontrol dahil maaaring biglang makatagpo ang system ng kundisyong lampas sa kakayahan nito tulad ng pagbabago ng panahon, hindi malinaw na lane markings, o hindi inaasahang road construction."
+  },
+  {
+    "question": "Ang isang specified small motorized bicycle (ilang electric scooter) ay maaaring legal na bumiyahe sa sidewalk sa karaniwang bilis ng bisikleta kung walang pedestrian sa malapit.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Kahit ang mga scooter na nakategorya bilang “specified small motorized bicycles” ay maaari lamang gumamit ng sidewalk sa ilalim ng mahigpit na kundisyon at mababang limitasyon ng bilis. Inaatasan ng mga batas sa Japan ang mga sasakyang ito na maging maingat malapit sa mga pedestrian at, sa mga pinapayagang sidewalk area, dapat manatiling napakababa ng bilis upang bigyang-priyoridad ang kaligtasan ng pedestrian."
+  },
+  {
+    "question": "Ang driver na gumagamit ng autonomous-driving assistance ay dapat maghanda sa posibilidad na ang ulan o niyebe ay maaaring magpababa ng performance ng sensor kahit mukhang normal ang paggana ng system.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang mga modernong autonomous at driver-assistance systems ay lubos na umaasa sa camera, radar, lidar, at lane recognition. Ang malakas na ulan, niyebe, glare, fog, o kupas na lane markings ay maaaring magpababa ng accuracy ng system nang hindi agad ito tumitigil sa paggana, kaya patuloy na inilalagay ng gabay sa Japan ang responsibilidad sa human operator na bantayan ang kundisyon sa lahat ng oras."
+  },
+  {
+    "question": "Sa isang one-way road, maaaring bumiyahe ang bisikleta sa alinmang direksyon basta manatili ang rider malapit sa gilid ng kalsada.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Karaniwang naaangkop ang one-way restrictions sa mga bisikleta maliban kung may espesyal na karatulang nagbibigay ng exemption. Maraming bagong rebisyon sa batas ng bisikleta ang nagbibigay-diin sa panganib ng maling direksyon ng pagbibisikleta dahil madalas hindi inaasahan ng mga driver ang mga bisikletang nanggagaling sa ipinagbabawal na direksyon."
+  },
+  {
+    "question": "Kung humingi ng intervention ang autonomous-driving system, dapat agad tumugon ang driver kahit mukhang stable ang sitwasyon ng trapiko sa paligid.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Karaniwang ibig sabihin ng takeover request ay nakakita ang system ng operational uncertainty o naabot nito ang limitasyon ng aprubadong driving conditions. Ang pagkaantala sa pagtugon dahil mukhang “ligtas” ang kalsada ay maaaring magdulot ng mapanganib na sitwasyon kung saan hindi na kayang maayos na pamahalaan ng system ang panganib o hugis ng kalsada."
+  },
+  {
+    "question": "Ang siklistang bumagal nang malaki sa stop sign ngunit hindi tuluyang huminto ay maaari pa ring lumabag sa revised 2026 bicycle enforcement rules.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Mas mahigpit na tinatrato ngayon ng revised bicycle enforcement ng Japan ang rolling stops sa ilalim ng blue-ticket system. Partikular na binanggit ng mga awtoridad na maraming aksidente sa bisikleta ang nangyayari dahil bumabagal lamang ang mga siklista ngunit hindi ganap na humihinto bago ang intersection o railway crossing."
+  },
+  {
+    "question": "Ang isang Level 4 autonomous vehicle na legal na tumatakbo sa loob ng aprubadong lugar nito ay maaaring balewalain ang pansamantalang manual instructions ng mga pulis dahil aprubado na ng gobyerno ang programmed route nito.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Laging mas may prioridad ang mga pulis na nagdidirekta ng trapiko kaysa sa mga signal, karatula, at automated navigation systems. Kahit ang ganap na aprubadong autonomous systems ay dapat sumunod sa pansamantalang emergency control measures, aksidente, sakuna, o utos sa construction zone."
+  },
+  {
+    "question": "Ang specified small motorized bicycles ay karaniwang dapat bumiyahe sa kaliwang bahagi ng kalsada sa parehong direksyon ng trapiko.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang regulasyon ng Japan para sa electric scooters ay kadalasang sumusunod sa ordinaryong prinsipyo ng pagpoposisyon sa kalsada. Ang pagbiyahe sa maling panig ay lumilikha ng seryosong panganib dahil ang intersections, turning vehicles, at overtaking behavior ay dinisenyo batay sa left-side traffic flow."
+  },
+  {
+    "question": "Ang driver na papalapit sa siklistang maling bumibiyahe laban sa trapiko ay dapat pa ring subukang maiwasan ang banggaan kahit lumalabag sa batas ang siklista.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Patuloy na inilalagay ng mga prinsipyo sa road safety ng Japan ang malaking responsibilidad sa mga driver na protektahan ang mahihinang road users hangga't maaari. Kahit lumalabag sa batas ang siklista, inaasahan pa rin ang mga motorista na magmaneho nang depensibo at gumawa ng makatwirang hakbang upang maiwasan ang banggaan."
+  },
+  {
+    "question": "Ang autonomous-driving system na aprubado para sa expressway ay maaaring awtomatikong gamitin sa ordinaryong urban roads kung magaan ang trapiko.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ang mga autonomous system ay inaaprubahan lamang sa loob ng partikular na operational domains na tinatawag na ODDs (Operational Design Domains). Ang approval para sa highways ay hindi awtomatikong nagpapahintulot ng paggamit sa city streets dahil ang urban environments ay may mga pedestrian, bisikleta, intersection, at hindi inaasahang panganib na nangangailangan ng ibang certification ng system."
+  },
+  {
+    "question": "Kapag liliko papasok sa makitid na one-way street, dapat manatiling alerto ang driver sa mga bisikletang ilegal na bumibiyahe laban sa trapiko.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang defensive driving ay nangangailangan ng pag-asa sa posibleng paglabag ng ibang road users. Dahil nananatiling karaniwan sa Japan ang maling direksyon ng pagbibisikleta, lalo na sa makikitid na residential streets, inaasahan ang mga driver na maingat na tumingin kahit sila ang may prioridad."
+  },
+  {
+    "question": "Ang specified small motorized bicycles ay maaaring magsagawa ng ordinaryong right turn sa lahat ng intersection katulad ng mga motorsiklo.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ang ilang specified small motorized bicycles ay kinakailangang magsagawa ng two-stage right turn katulad ng mga bisikleta sa maraming kalsada. Umiiral ang patakarang ito dahil mas delikado para sa maliliit at mababagal na sasakyan ang direktang pagliko pakanan sa trapiko."
+  },
+  {
+    "question": "Ang autonomous-driving system na normal ang paggana ay maaari pa ring mabigong matukoy ang hindi pangkaraniwang panganib na wala sa programmed expectations nito.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang mga autonomous system ay gumagana gamit ang trained detection models at environmental assumptions. Ang hindi inaasahang hadlang, sirang road markings, kakaibang kilos ng pedestrian, o matinding panahon ay maaaring lumikha ng sitwasyong lampas sa kakayahan ng system na makilala, kaya nananatiling mahalaga sa batas ang human supervision."
+  },
+  {
+    "question": "Kahit gumagamit ng advanced autonomous-driving assistance, nananatiling responsable ang mga driver sa pagpapanatili ng ligtas na atensyon at pagsunod sa batas maliban kung partikular na awtorisado ang system para sa ganap na driverless operation.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Karamihan sa mga system na kasalukuyang available sa ordinaryong drivers sa Japan ay nananatiling Level 1–3 driver-assistance technologies at hindi ganap na autonomous operation. Dahil dito, patuloy na may legal na responsibilidad ang mga driver na bantayan ang trapiko, sundin ang mga signal, at makialam kapag hindi na kayang ligtas na pamahalaan ng system ang kondisyon ng kalsada."
+  },
+  {
+    "question": "Dahil ipinagbabawal ang kasalubong na trapiko sa one-way road, maaaring palaging ligtas na magpatuloy ang driver malapit sa pinakakanang bahagi ng kalsada.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ang driver sa one-way road ay maaaring minsang legal na pumuwesto sa kanang bahagi kapag kinakailangan, tulad ng paghahanda sa right turn o pag-iwas sa hadlang. Gayunpaman, ang nakakalitong bahagi ay ang salitang “palagi.” Madalas gumamit ang Japanese honmen questions ng bahagyang tamang legal na pahayag na pinagsama sa mapanganib na ideya."
+  },
+  {
+    "question": "Ang isang Level 3 autonomous-driving system ay maaaring pahintulutan ang driver na pansamantalang bawasan ang aktibong pagmamaniobra, ngunit dapat pa ring manatiling handa ang driver na agad tumugon sa takeover requests.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang mga Level 3 system ay dinisenyo upang i-automate ang ilang driving functions sa limitadong kundisyon. Gayunpaman, ang nakakalitong bahagi ay ang pag-unawa na ang “automation” ay hindi nangangahulugang wala nang responsibilidad ang driver. Inaasahan pa rin ng regulasyon sa Japan na manatiling mental at pisikal na handa ang driver upang agad makialam kapag naabot ng system ang operational limit nito."
+  },
+  {
+    "question": "Kapag nagmamaneho sa one-way road, hindi na kailangang maingat na tumingin sa mga sasakyang nanggagaling sa ipinagbabawal na direksyon dahil lumalabag naman sila sa batas-trapiko.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ang nakakalitong bahagi ay mukhang lohikal ang pangungusap mula sa legal na pananaw, ngunit nakatuon ang Japanese defensive-driving principles sa paghula ng tunay na panganib kaysa sa pag-aakalang lahat ay sumusunod sa batas. Madalas pa ring may maling direksyon na bisikleta at sasakyan, lalo na sa makikitid na residential roads."
+  },
+  {
+    "question": "Ang isang Level 4 autonomous vehicle na aprubado para sa driverless operation ay maaaring magpatuloy ng autonomous driving sa labas ng itinalagang lugar nito kung magaan ang trapiko at maganda ang panahon.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ang nakakalitong bahagi ay mukhang ligtas ang sitwasyon, ngunit ang approval ng Level 4 ay nakabatay sa certified Operational Design Domains (ODDs), hindi sa personal na paghuhusga ng driver tungkol sa kondisyon ng trapiko. Kahit mukhang maganda ang panahon at trapiko, ang operasyon sa labas ng aprubadong kundisyon ay maaaring lumampas sa validated safety capability ng system."
+  },
+  {
+    "question": "Sa one-way road, maaaring legal na gamitin ng driver ang kanang bahagi ng kalsada kapag kinakailangan, ngunit dapat pa ring maging handa sa mga bisikleta o sasakyang maaaring biglang lumitaw.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Nakakalito ang tanong na ito dahil maraming examinee ang nakatuon lamang sa unang kalahati o ikalawang kalahati ng pangungusap. Sa ilalim ng batas-trapiko ng Japan, maaaring minsang gamitin ng mga driver sa one-way roads ang kanang bahagi nang mas flexible kaysa sa ordinaryong roads. Gayunpaman, hindi inaalis ng flexibility na iyon ang tungkulin na hulaan ang mga panganib."
+  },
+  {
+    "question": "Kung mukhang stable ang autonomous-driving system habang bumibiyahe sa expressway, katanggap-tanggap ang panandaliang paggamit ng smartphone dahil patuloy namang mino-monitor ng sasakyan ang trapiko.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ang nakakalitong bahagi ay maraming modernong sasakyan ang mukhang napakahusay habang nasa stable highway driving. Gayunpaman, itinuturing pa rin ng kasalukuyang batas sa Japan ang karamihan sa consumer autonomous systems bilang driver-assistance technologies at hindi ganap na autonomous operation."
+  },
+  {
+    "question": "Kahit sa mga one-way road, mas ligtas na magbawas ng bilis malapit sa blind corners dahil maaaring biglang may lumitaw na bisikleta o pedestrian.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang nakakalitong bahagi ay maraming driver ang maling nag-uugnay ng one-way roads sa mas mababang panganib dahil ipinagbabawal ang kasalubong na trapiko."
+  },
+  {
+    "question": "Ang driver na papasok sa one-way road ay dapat tiyakin kung ang mga bisikleta ay partikular na pinapayagang bumiyahe nang iba sa ordinaryong sasakyan.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang nakakalitong bahagi ay may ilang kalsada sa Japan na may karagdagang karatula na nagpapahintulot sa mga bisikleta na bumiyahe nang iba sa mga kotse. Maraming examinee ang maling nag-aakala na pareho ang one-way restrictions para sa lahat ng gumagamit ng kalsada."
+  },
+  {
+    "question": "Kahit legal na ginagamit ang kanang bahagi ng one-way roadway, dapat iwasan ng driver ang sobrang bilis dahil maaaring may nakatagong panganib na biglang lumitaw.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang nakakalitong bahagi ay ang pag-unawa na ang legal na posisyon sa kalsada ay hindi garantiya ng kaligtasan. Maaaring legal na gumamit ng mas malaking bahagi ng kalsada ang mga driver sa one-way streets, ngunit mas binibigyang-diin ngayon ng modernong Japanese exams na ang mas malawak na posisyon ay hindi dapat magdulot ng sobrang kumpiyansa o pagbawas ng pag-iingat sa panganib."
   }
 ]

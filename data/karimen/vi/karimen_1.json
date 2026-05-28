@@ -1498,5 +1498,405 @@
     ],
     "answer": "True",
     "explanation": "Cấu trúc đường có thể khác nhau tùy theo độ rộng làn hoặc điều kiện đường, vì vậy vạch giữa đường có thể lệch khỏi trung tâm vật lý của con đường. Người lái xe nên tuân thủ cẩn thận các ranh giới làn được đánh dấu."
+  },
+  {
+    "question": "Một tài xế gây tai nạn khi đang trong tình trạng say rượu sẽ nhận cùng mức hình phạt như tài xế bị bắt vì lái xe khi say mà không gây thiệt hại.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Tại Nhật Bản, hình phạt sẽ nghiêm khắc hơn nhiều nếu việc lái xe khi say rượu gây ra thương tích hoặc tử vong. Mức phạt tăng lên tùy theo mức độ nghiêm trọng của tai nạn và việc tài xế có bỏ trốn khỏi hiện trường hay không."
+  },
+  {
+    "question": "Một số khu vực trường học có thể áp dụng giới hạn tốc độ 30 km/h vào những thời điểm nhất định trong ngày.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Nhiều khu vực trường học ở Nhật Bản áp dụng giới hạn tốc độ thấp hơn vào những giờ trẻ em thường có mặt. Người lái xe phải tuân theo các khung giờ được ghi trên biển báo."
+  },
+  {
+    "question": "Bật điều hòa có thể giúp loại bỏ hơi nước bám trên kính chắn gió.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Điều hòa làm giảm độ ẩm bên trong xe, giúp loại bỏ hơi nước ngưng tụ trên kính. Sử dụng chế độ sấy kính cùng với điều hòa đặc biệt hiệu quả."
+  },
+  {
+    "question": "Khi trời mưa to vào ban đêm, sử dụng đèn pha sẽ cải thiện tầm nhìn và được khuyến khích.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Đèn pha phản chiếu vào mưa có thể làm tầm nhìn kém hơn. Đèn cốt cho tầm nhìn rõ hơn trong điều kiện mưa vào ban đêm."
+  },
+  {
+    "question": "Bạn có thể lái xe theo hướng được chỉ bởi mũi tên xanh trên đèn tín hiệu giao thông ngay cả khi đèn chính đang đỏ.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Mũi tên xanh chỉ cho phép di chuyển theo hướng được chỉ định. Người lái xe vẫn phải chú ý đến người đi bộ và các phương tiện đã ở trong giao lộ."
+  },
+  {
+    "question": "Sau va chạm, bạn nên di chuyển xe ra khỏi luồng giao thông nếu có thể thực hiện một cách an toàn.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Nếu xe vẫn có thể di chuyển và đang cản trở giao thông, nên chuyển xe đến nơi an toàn để tránh tai nạn tiếp theo. An toàn và kiểm tra người bị thương phải được ưu tiên trước."
+  },
+  {
+    "question": "Biển nhường đường hình tam giác ngược luôn yêu cầu phải dừng hẳn.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Biển nhường đường có nghĩa là người lái xe phải giảm tốc độ và ưu tiên cho các phương tiện khác. Chỉ cần dừng lại khi cần thiết để đảm bảo an toàn."
+  },
+  {
+    "question": "Nếu một xe khác đang cố vượt bạn, bạn nên tăng tốc để tránh bị vượt.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Người bị vượt không được cản trở xe đang vượt. Giữ nguyên tốc độ hoặc giảm nhẹ tốc độ sẽ giúp tránh nguy hiểm."
+  },
+  {
+    "question": "Tại Nhật Bản, một người có thể hợp pháp lái xe gắn máy 50cc từ 16 tuổi.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Độ tuổi tối thiểu để có giấy phép lái xe gắn máy tại Nhật Bản là 16 tuổi. Giấy phép lái ô tô thông thường yêu cầu độ tuổi tối thiểu cao hơn."
+  },
+  {
+    "question": "Ngay cả khi đèn giao thông màu xanh, người đi bộ đang đi trên vạch qua đường vẫn có quyền ưu tiên.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Người lái xe phải nhường đường cho người đi bộ đang băng qua hợp pháp tại giao lộ và vạch qua đường. Đèn xanh không loại bỏ trách nhiệm này."
+  },
+  {
+    "question": "Cầu có khả năng bị đóng băng trước mặt đường thông thường.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Không khí lạnh lưu thông phía trên và phía dưới cầu khiến cầu đóng băng nhanh hơn. Người lái xe nên giảm tốc độ trong điều kiện mùa đông."
+  },
+  {
+    "question": "Một phương tiện lớn hoặc nặng thường cần quãng đường dài hơn để dừng lại so với phương tiện nhẹ hơn chạy cùng tốc độ.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Xe nặng có quán tính lớn hơn và cần quãng đường phanh dài hơn. Xe tải và xe chở nặng thường dừng chậm hơn xe nhỏ."
+  },
+  {
+    "question": "Khi sử dụng làn tăng tốc trên đường cao tốc, bạn nên tăng tốc để phù hợp với luồng giao thông trước khi nhập làn.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Người lái xe nên điều chỉnh tốc độ phù hợp với luồng giao thông trên đường cao tốc trước khi vào làn chính. Nhập làn quá chậm có thể tạo ra sự chênh lệch tốc độ nguy hiểm."
+  },
+  {
+    "question": "Việc liên tục đi ở làn bên phải là chấp nhận được nếu bạn đang lái đúng tốc độ giới hạn.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Trên các đường nhiều làn ở Nhật Bản, làn bên phải thường dành cho việc vượt xe. Người lái xe nên quay lại làn bên trái sau khi vượt."
+  },
+  {
+    "question": "Biển giới hạn tốc độ của Nhật Bản hiển thị tốc độ bằng kilômét trên giờ.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Nhật Bản sử dụng hệ mét cho các quy định giao thông. Tất cả biển tốc độ chính thức đều hiển thị bằng km/h."
+  },
+  {
+    "question": "Biển tròn viền đỏ có số 50 nghĩa là người lái xe phải chạy ít nhất 50 km/h.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Biển tốc độ hình tròn màu đỏ chỉ tốc độ tối đa cho phép. Biển tốc độ tối thiểu sử dụng nền màu xanh."
+  },
+  {
+    "question": "Tại Nhật Bản, biển cảnh báo thường được hiển thị dưới dạng hình thoi màu vàng thay vì biển tam giác đỏ có dấu chấm than.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Biển cảnh báo của Nhật Bản thường sử dụng hình thoi màu vàng với ký hiệu màu đen để chỉ các nguy hiểm cụ thể phía trước."
+  },
+  {
+    "question": "Xe gắn máy 50cc được phép đi trên đường cao tốc Nhật Bản.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Xe gắn máy có động cơ từ 50cc trở xuống bị cấm đi trên đường cao tốc. Đường cao tốc yêu cầu các phương tiện có khả năng duy trì tốc độ cao hơn."
+  },
+  {
+    "question": "Số điện thoại khẩn cấp cho dịch vụ cứu thương và cứu hỏa ở Nhật Bản là 119.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Gọi 119 sẽ kết nối bạn với dịch vụ cứu hỏa và cứu thương trên toàn Nhật Bản. Trường hợp khẩn cấp liên quan đến cảnh sát sử dụng số khác."
+  },
+  {
+    "question": "Nhật Bản sử dụng cùng kiểu biển dừng hình bát giác phổ biến ở nhiều quốc gia khác.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Biển dừng của Nhật Bản có hình tam giác đỏ ngược và thường hiển thị chữ “止まれ” có nghĩa là “Dừng lại”."
+  },
+  {
+    "question": "Tư thế lái xe của bạn là đúng nếu cánh tay bạn duỗi thẳng hoàn toàn trên phần trên của vô lăng.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Người lái xe nên ngồi với khuỷu tay hơi cong khi cầm vô lăng. Ngồi quá gần sẽ làm tăng nguy cơ bị thương do túi khí."
+  },
+  {
+    "question": "Nếu đèn pha của xe đối diện tạm thời làm bạn bị chói mắt, bạn nên nhìn thẳng vào chúng để xác định vị trí của xe kia.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Nhìn trực tiếp vào đèn pha sáng có thể làm tình trạng chói mắt tạm thời nghiêm trọng hơn. Thay vào đó, người lái xe nên tập trung nhìn về mép trái của mặt đường."
+  },
+  {
+    "question": "Xe mô tô có động cơ lớn hơn 50cc tuân theo cùng giới hạn tốc độ chung như ô tô chở khách trên đường thông thường.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Xe mô tô thông thường tuân theo cùng giới hạn tốc độ được quy định cho ô tô. Giới hạn đặc biệt 30 km/h chủ yếu áp dụng cho xe gắn máy dưới 50cc."
+  },
+  {
+    "question": "Làm bắn nước vào người đi bộ khi lái xe qua vũng nước có thể vi phạm luật giao thông Nhật Bản.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Người lái xe phải tránh gây bất tiện hoặc nguy hiểm cho người đi bộ. Việc bất cẩn làm bắn nước hoặc bùn có thể dẫn đến bị xử phạt."
+  },
+  {
+    "question": "Cần gạt nước kính chắn gió chỉ cần thay thế khi xuất hiện hư hỏng nhìn thấy được.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Lưỡi gạt nước bị mòn theo thời gian do ánh nắng mặt trời và sử dụng thường xuyên. Hiệu quả gạt kém là dấu hiệu cần thay thế."
+  },
+  {
+    "question": "Biển báo hình tròn màu xanh có mũi tên trắng hướng lên cho biết giao thông một chiều theo hướng đó.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Biển báo này thông báo cho người lái xe rằng các phương tiện chỉ được phép đi theo hướng mà mũi tên chỉ."
+  },
+  {
+    "question": "Đảo lốp định kỳ có thể giúp kéo dài tuổi thọ sử dụng của lốp.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Việc đảo lốp giúp phân bố độ mòn đều hơn giữa tất cả các bánh xe. Điều này cải thiện hiệu suất và độ bền của lốp."
+  },
+  {
+    "question": "Đường cao tốc ở Nhật Bản thường yêu cầu các phương tiện duy trì tốc độ ít nhất 50 km/h.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Lái xe quá chậm trên đường cao tốc có thể gây nguy hiểm cho giao thông xung quanh. Có thể có ngoại lệ trong trường hợp ùn tắc hoặc khẩn cấp."
+  },
+  {
+    "question": "Trong sương mù dày đặc, lái xe rất sát phía sau xe phía trước sẽ an toàn hơn để không bị mất dấu xe đó.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Tầm nhìn hạn chế đòi hỏi khoảng cách bám xe lớn hơn chứ không phải ngắn hơn. Người lái xe phải để đủ khoảng cách để dừng xe an toàn."
+  },
+  {
+    "question": "Nếu cả hai tài xế đều đồng ý, một vụ tai nạn nhỏ không cần phải báo cho cảnh sát.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Luật pháp Nhật Bản yêu cầu phải báo cáo tất cả các vụ tai nạn giao thông, ngay cả khi thiệt hại có vẻ nhỏ. Báo cáo của cảnh sát rất quan trọng cho mục đích pháp lý và bảo hiểm."
+  },
+  {
+    "question": "Vạch kẻ làn màu trắng đứt đoạn cho biết được phép cắt qua hoặc chuyển làn.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Vạch trắng đứt đoạn cho phép chuyển làn khi an toàn. Vạch liền cho biết có hạn chế việc cắt qua."
+  },
+  {
+    "question": "Các tài xế liên quan đến va chạm nên trao đổi thông tin nhận dạng và bảo hiểm với nhau.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Thông tin quan trọng bao gồm tên, địa chỉ, thông tin giấy phép lái xe, đăng ký xe và thông tin công ty bảo hiểm."
+  },
+  {
+    "question": "Khi vượt qua người đi bộ đang đi trên đường, bạn nên để khoảng cách an toàn đủ lớn, khoảng 1 mét hoặc hơn nếu có thể.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Người lái xe phải giảm tốc độ và giữ khoảng cách an toàn với người đi bộ. Nếu đường hẹp, có thể cần phải dừng lại."
+  },
+  {
+    "question": "Tín hiệu sang đường bằng âm thanh được sử dụng để giúp người khiếm thị qua đường an toàn.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Nhiều nơi sang đường ở Nhật Bản sử dụng âm thanh như giai điệu hoặc tiếng chim hót để báo hiệu khi người đi bộ có thể qua đường."
+  },
+  {
+    "question": "Khi đỗ xe trên đường không có vỉa hè, phải chừa đủ chiều rộng để các phương tiện khác đi qua.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Quy định đỗ xe của Nhật Bản yêu cầu chừa đủ không gian còn lại trên đường, thường ít nhất 3,5 mét, để đảm bảo lưu thông giao thông."
+  },
+  {
+    "question": "Các nút khẩn cấp được lắp đặt tại đường giao cắt đường sắt có thể được sử dụng để cảnh báo tàu đang đến về nguy hiểm.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Nhấn nút khẩn cấp sẽ cảnh báo nhân viên đường sắt và tàu đang đến khi có xe bị mắc kẹt trên đường ray."
+  },
+  {
+    "question": "Nếu phanh của bạn ngừng hoạt động khi đang lái xe, bạn nên tắt động cơ ngay lập tức.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Tắt động cơ có thể làm mất trợ lực lái và trợ lực phanh. Thay vào đó, người lái xe nên giảm tốc độ từ từ bằng phanh động cơ và sử dụng phanh tay cẩn thận."
+  },
+  {
+    "question": "Tại giao lộ không có điều khiển, nơi hai xe đến cùng lúc trên các con đường ngang nhau, quyền ưu tiên thường được dành cho xe đến từ bên trái.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Theo luật giao thông Nhật Bản, người lái xe thường phải nhường đường cho xe đến từ bên trái tại các giao lộ có quyền ưu tiên ngang nhau."
+  },
+  {
+    "question": "Luôn bị cấm vượt xe khác gần trạm xe buýt.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Luật Nhật Bản không tự động cấm vượt gần trạm xe buýt, nhưng người lái xe phải đặc biệt cẩn thận với người đi bộ và giao thông xung quanh."
+  },
+  {
+    "question": "Một tài xế vẫn có thể bị buộc tội lái xe khi say rượu ngay cả khi nồng độ cồn trong máu dưới 0,03% nếu khả năng lái xe bị ảnh hưởng.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Tại Nhật Bản, việc lái xe bị ảnh hưởng bởi rượu vẫn có thể bị xử phạt ngay cả khi nồng độ cồn dưới ngưỡng tiêu chuẩn nếu rượu đã ảnh hưởng đến khả năng lái xe an toàn."
   }
 ]

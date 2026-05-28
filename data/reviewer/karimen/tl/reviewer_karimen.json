@@ -2998,5 +2998,405 @@
     ],
     "answer": "Tama",
     "explanation": "Mas vulnerable ang mga pedestrian at cyclist sa traffic accidents dahil mas kaunti ang kanilang proteksyon kaysa sa mga sakay ng sasakyan. Binibigyang-diin ng traffic safety rules sa Japan ang awareness, pag-iingat, at mutual respect sa kalsada."
+  },
+  {
+    "question": "Ang isang drayber na nagdulot ng aksidente habang nasa impluwensya ng alak ay makakatanggap ng parehong parusa tulad ng drayber na nahuling lasing sa pagmamaneho nang walang naidulot na pinsala.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Sa Japan, mas mabigat ang parusa kapag ang pagmamaneho habang lasing ay nagdulot ng pinsala o kamatayan. Tumataas ang parusa depende sa tindi ng aksidente at kung tumakas ang drayber mula sa pinangyarihan."
+  },
+  {
+    "question": "May ilang lugar malapit sa paaralan na nagpapatupad ng limitasyon na 30 km/h sa mga itinakdang oras ng araw.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Maraming school zones sa Japan ang may mas mababang speed limit sa mga oras na maaaring maraming batang naroroon. Dapat sundin ng mga drayber ang mga oras na nakasaad sa mga karatula."
+  },
+  {
+    "question": "Makakatulong ang pagbukas ng air conditioner upang alisin ang hamog sa windshield.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Binabawasan ng air conditioner ang halumigmig sa loob ng sasakyan, kaya nakakatulong itong alisin ang namuong singaw sa salamin. Mas epektibo ito kapag ginagamit kasama ng defroster."
+  },
+  {
+    "question": "Kapag malakas ang ulan sa gabi, mas mainam at nirerekomenda ang paggamit ng high beam dahil nagpapabuti ito ng visibility.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ang high beam ay maaaring mag-reflect sa ulan at lalong magpahina ng visibility. Mas malinaw ang paningin kapag low beam ang ginagamit sa maulang gabi."
+  },
+  {
+    "question": "Maaari kang magmaneho sa direksyong ipinapakita ng berdeng arrow sa traffic signal kahit pula ang pangunahing traffic light.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Pinapayagan ng berdeng arrow ang paggalaw lamang sa direksyong ipinapakita nito. Dapat pa ring mag-ingat ang mga drayber sa mga pedestrian at sasakyang nasa intersection na."
+  },
+  {
+    "question": "Pagkatapos ng banggaan, dapat mong ilipat ang iyong sasakyan palayo sa daloy ng trapiko kung ligtas itong magagawa.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Kung maaari pang umandar ang sasakyan at nakaharang ito sa trapiko, dapat itong ilipat sa ligtas na lugar upang maiwasan ang karagdagang aksidente. Dapat unahin ang kaligtasan at pag-check sa mga nasugatan."
+  },
+  {
+    "question": "Ang baligtad na triangular na yield sign ay laging nangangailangan ng ganap na paghinto.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ang yield sign ay nangangahulugang dapat magbagal at magbigay-daan ang drayber sa ibang sasakyan. Kinakailangan lamang huminto kung kailangan para sa kaligtasan."
+  },
+  {
+    "question": "Kung may ibang sasakyan na sumusubok mag-overtake sa iyo, dapat kang bumilis upang maiwasang ma-overtake.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ang drayber na ino-overtake-an ay hindi dapat humadlang sa sasakyang nag-o-overtake. Ang pagpapanatili ng bilis o bahagyang pagbagal ay nakakatulong upang maiwasan ang panganib."
+  },
+  {
+    "question": "Sa Japan, legal na maaaring magmaneho ng 50cc moped ang isang tao simula edad 16.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang minimum na edad para sa lisensya ng moped sa Japan ay 16 taong gulang. Ang karaniwang lisensya para sa pampasaherong sasakyan ay nangangailangan ng mas mataas na minimum na edad."
+  },
+  {
+    "question": "Kahit berde ang traffic light, may prayoridad pa rin ang mga pedestrian na gumagamit ng tawiran.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Dapat magbigay-daan ang mga drayber sa mga pedestrian na legal na tumatawid sa intersection at pedestrian crossing. Hindi inaalis ng berdeng ilaw ang responsibilidad na ito."
+  },
+  {
+    "question": "Mas malamang na magyelo ang mga tulay bago ang karaniwang ibabaw ng kalsada.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang malamig na hangin ay umiikot sa ibabaw at ilalim ng tulay kaya mas mabilis itong nagyeyelo. Dapat magbawas ng bilis ang mga drayber sa panahon ng taglamig."
+  },
+  {
+    "question": "Ang malaki o mabigat na sasakyan ay karaniwang nangangailangan ng mas mahabang distansya upang huminto kaysa sa mas magaang sasakyang tumatakbo sa parehong bilis.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Mas malaki ang momentum ng mabibigat na sasakyan kaya nangangailangan ito ng mas mahabang braking distance. Karaniwang mas mabagal huminto ang mga trak at kargadong sasakyan kaysa sa maliliit na kotse."
+  },
+  {
+    "question": "Habang ginagamit ang acceleration lane sa expressway, dapat mong dagdagan ang bilis upang tumugma sa daloy ng trapiko bago sumanib.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Dapat iakma ng mga drayber ang kanilang bilis sa daloy ng trapiko sa expressway bago pumasok sa pangunahing lane. Ang masyadong mabagal na pagsanib ay maaaring magdulot ng mapanganib na pagkakaiba sa bilis."
+  },
+  {
+    "question": "Katanggap-tanggap na manatili palagi sa kanang lane kung ikaw ay nagmamaneho ayon sa itinakdang speed limit.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Sa mga kalsadang may maraming lane sa Japan, ang kanang lane ay karaniwang para sa pag-overtake. Dapat bumalik ang mga drayber sa kaliwang lane pagkatapos mag-overtake."
+  },
+  {
+    "question": "Ang mga Japanese speed limit sign ay nagpapakita ng bilis gamit ang kilometro kada oras.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ginagamit ng Japan ang metric system para sa mga regulasyon sa kalsada. Lahat ng opisyal na speed sign ay ipinapakita sa km/h."
+  },
+  {
+    "question": "Ang bilog na karatulang may pulang gilid na may numerong 50 ay nangangahulugang dapat magmaneho ang mga drayber nang hindi bababa sa 50 km/h.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ang pulang bilog na speed sign ay nagpapakita ng pinakamataas na pinapayagang bilis. Ang minimum speed sign ay gumagamit ng asul na background."
+  },
+  {
+    "question": "Sa Japan, ang mga warning sign ay karaniwang dilaw na diamond-shaped na karatula sa halip na pulang triangular na karatula na may tandang padamdam.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Karaniwang gumagamit ang Japanese warning signs ng dilaw na diamond shape na may itim na simbolo upang ipakita ang mga partikular na panganib sa unahan."
+  },
+  {
+    "question": "Pinapayagan ang 50cc moped na bumiyahe sa mga expressway sa Japan.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ipinagbabawal sa expressway ang mga moped na may 50cc o mas maliit na makina. Nangangailangan ang expressway ng mga sasakyang kayang mapanatili ang mas mataas na bilis."
+  },
+  {
+    "question": "Ang emergency telephone number para sa ambulansya at serbisyo ng bumbero sa Japan ay 119.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Kapag tumawag ka sa 119, makokonekta ka sa mga serbisyo ng bumbero at ambulansya sa buong Japan. Iba naman ang numero para sa emergency ng pulisya."
+  },
+  {
+    "question": "Ginagamit ng Japan ang parehong octagonal na stop sign na karaniwang makikita sa maraming ibang bansa.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ang Japanese stop sign ay hugis baligtad na pulang tatsulok at karaniwang may nakasulat na “止まれ” na nangangahulugang “Huminto.”"
+  },
+  {
+    "question": "Tama ang iyong posisyon sa pagmamaneho kung ang iyong mga braso ay ganap na nakaunat sa ibabaw ng manibela.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Dapat umupo ang mga drayber nang may bahagyang baluktot sa mga siko habang hawak ang manibela. Ang sobrang lapit sa manibela ay nagpapataas ng panganib ng pinsala mula sa airbag."
+  },
+  {
+    "question": "Kung pansamantalang nasisilaw ka ng headlight ng kasalubong na sasakyan, dapat mo itong titigan nang direkta upang malaman ang posisyon ng kabilang sasakyan.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ang direktang pagtingin sa maliwanag na headlight ay maaaring magpalala ng pansamantalang pagkasilaw. Dapat ituon ng mga drayber ang tingin sa kaliwang gilid ng kalsada."
+  },
+  {
+    "question": "Ang mga motorsiklong may makinang higit sa 50cc ay sumusunod sa parehong pangkalahatang speed limit tulad ng mga pampasaherong sasakyan sa ordinaryong kalsada.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang karaniwang motorsiklo ay sumusunod sa parehong speed limit ng mga kotse. Ang espesyal na limitasyong 30 km/h ay pangunahing para sa mga moped na mas mababa sa 50cc."
+  },
+  {
+    "question": "Ang pagwisik ng tubig sa mga pedestrian habang dumadaan sa mga baha o puddle ay maaaring lumabag sa batas trapiko ng Japan.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Dapat iwasan ng mga drayber ang pagdudulot ng abala o panganib sa mga pedestrian. Ang walang-ingat na pagwisik ng tubig o putik ay maaaring magresulta sa parusa."
+  },
+  {
+    "question": "Kailangan lamang palitan ang windshield wipers kapag may nakikitang sira.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ang wiper blades ay nauubos sa paglipas ng panahon dahil sa sikat ng araw at regular na paggamit. Ang mahinang performance sa pagpupunas ay senyales na kailangan na itong palitan."
+  },
+  {
+    "question": "Ang asul na bilog na karatula na may puting pataas na arrow ay nangangahulugang one-way traffic sa direksyong iyon.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ipinapaalam ng karatulang ito sa mga drayber na maaari lamang bumiyahe ang mga sasakyan sa direksyong ipinapakita ng arrow."
+  },
+  {
+    "question": "Ang regular na pag-rotate ng mga gulong ay makakatulong upang mapahaba ang kanilang buhay paggamit.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang tire rotation ay tumutulong upang maging pantay ang pagkasuot ng lahat ng gulong. Pinapabuti nito ang performance at tibay ng mga gulong."
+  },
+  {
+    "question": "Karaniwang hinihingi sa mga expressway sa Japan na panatilihin ng mga sasakyan ang hindi bababa sa 50 km/h.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ang sobrang bagal na pagmamaneho sa expressway ay maaaring magdulot ng panganib sa trapiko sa paligid. Maaaring may mga eksepsyon kapag may matinding trapiko o emergency."
+  },
+  {
+    "question": "Sa makapal na hamog, mas ligtas na magmaneho nang napakalapit sa sasakyan sa unahan upang hindi ito mawala sa paningin.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Kapag mababa ang visibility, mas kailangan ang mas malaking following distance, hindi mas maikli. Dapat mag-iwan ang mga drayber ng sapat na espasyo upang makapagpreno nang ligtas."
+  },
+  {
+    "question": "Kung magkasundo ang dalawang drayber, hindi na kailangang i-report sa pulisya ang maliit na aksidente.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ayon sa batas ng Japan, lahat ng aksidente sa trapiko ay kailangang i-report kahit maliit lamang ang pinsala. Mahalaga ang police report para sa legal at insurance na layunin."
+  },
+  {
+    "question": "Ang putol-putol na puting lane markings ay nangangahulugang pinapayagan ang pagtawid o pagpapalit ng lane.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Pinapayagan ng dashed white lines ang pagpapalit ng lane kapag ligtas gawin. Ang solid lines ay nagpapahiwatig ng mga limitasyon sa pagtawid."
+  },
+  {
+    "question": "Ang mga drayber na sangkot sa banggaan ay dapat magpalitan ng impormasyon tungkol sa pagkakakilanlan at insurance.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Kasama sa mahahalagang detalye ang pangalan, address, impormasyon ng lisensya, rehistro ng sasakyan, at detalye ng kompanya ng insurance."
+  },
+  {
+    "question": "Kapag lumalagpas sa pedestrian na naglalakad sa kalsada, dapat mag-iwan ng sapat na espasyo sa kaligtasan, humigit-kumulang 1 metro o higit pa kung maaari.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Dapat magbagal ang mga drayber at panatilihin ang ligtas na distansya mula sa mga pedestrian. Kung makitid ang kalsada, maaaring kailanganing huminto."
+  },
+  {
+    "question": "Ginagamit ang mga audible crossing signal upang tulungan ang mga pedestrian na may kapansanan sa paningin na makatawid nang ligtas.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Maraming tawiran sa Japan ang gumagamit ng mga tunog tulad ng himig o huni upang ipahiwatig kung kailan maaaring tumawid ang mga pedestrian."
+  },
+  {
+    "question": "Kapag nagpaparada sa kalsadang walang sidewalk, dapat mag-iwan ng sapat na lapad upang makadaan ang ibang sasakyan.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Kinakailangan ng mga parking rules sa Japan ang sapat na natitirang espasyo sa kalsada, karaniwang hindi bababa sa 3.5 metro, upang mapanatili ang daloy ng trapiko."
+  },
+  {
+    "question": "Ang mga emergency button na naka-install sa railroad crossings ay maaaring gamitin upang bigyan ng babala ang paparating na tren tungkol sa panganib.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Kapag pinindot ang emergency button, naaalerto ang mga tauhan ng riles at ang paparating na tren kapag may sasakyang naipit sa riles."
+  },
+  {
+    "question": "Kung tumigil sa paggana ang iyong preno habang nagmamaneho, dapat mong agad patayin ang makina.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Ang pagpapatay ng makina ay maaaring magtanggal ng power steering at brake assistance. Sa halip, dapat dahan-dahang magbawas ng bilis gamit ang engine braking at maingat na paggamit ng parking brake."
+  },
+  {
+    "question": "Sa isang uncontrolled intersection kung saan sabay na dumating ang dalawang sasakyan sa magkapantay na kalsada, karaniwang binibigyan ng prayoridad ang sasakyang nanggagaling sa kaliwa.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Ayon sa mga batas trapiko ng Japan, karaniwang dapat magbigay-daan ang mga drayber sa mga sasakyang nanggagaling sa kaliwa sa mga intersection na may magkapantay na prayoridad."
+  },
+  {
+    "question": "Laging ipinagbabawal ang pag-overtake sa ibang sasakyan malapit sa bus stop.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Mali",
+    "explanation": "Hindi awtomatikong ipinagbabawal ng batas ng Japan ang pag-overtake malapit sa bus stop, ngunit kailangang maging napakaingat ng mga drayber sa mga pedestrian at trapiko sa paligid."
+  },
+  {
+    "question": "Maaaring maharap pa rin sa kaso ng drunk driving ang isang drayber kahit mas mababa sa 0.03% ang blood alcohol level kung apektado ang kakayahan niyang magmaneho.",
+    "image": null,
+    "choices": [
+      "Tama",
+      "Mali"
+    ],
+    "answer": "Tama",
+    "explanation": "Sa Japan, maaaring maparusahan ang impaired driving kahit mas mababa sa karaniwang alcohol threshold kung naapektuhan ng alak ang kakayahang magmaneho nang ligtas."
   }
 ]

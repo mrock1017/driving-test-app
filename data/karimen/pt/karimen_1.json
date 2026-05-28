@@ -1498,5 +1498,405 @@
     ],
     "answer": "Verdadeiro",
     "explanation": "Os layouts das vias podem variar dependendo da largura das faixas ou das condições da estrada, portanto a linha central pintada pode estar deslocada do centro físico da via. Os motoristas devem seguir cuidadosamente os limites de faixa marcados."
+  },
+  {
+    "question": "Um motorista que causar um acidente enquanto estiver sob influência de álcool receberá a mesma punição que um motorista pego dirigindo bêbado sem causar danos.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "No Japão, as penalidades se tornam muito mais severas quando a direção sob efeito de álcool resulta em ferimentos ou morte. A punição aumenta dependendo da gravidade do acidente e se o motorista fugiu do local."
+  },
+  {
+    "question": "Certas áreas escolares podem aplicar um limite de velocidade de 30 km/h em horários específicos do dia.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Muitas zonas escolares no Japão aplicam limites de velocidade mais baixos durante horários em que crianças provavelmente estejam presentes. Os motoristas devem obedecer às restrições de horário indicadas nas placas."
+  },
+  {
+    "question": "Ligar o ar-condicionado pode ajudar a remover o embaçamento do para-brisa.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "O ar-condicionado reduz a umidade dentro do veículo, ajudando a eliminar a condensação no vidro. Usar o desembaçador junto com o ar-condicionado é especialmente eficaz."
+  },
+  {
+    "question": "Durante chuva forte à noite, usar farol alto melhora a visibilidade e é recomendado.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "O farol alto reflete na chuva e pode piorar a visibilidade. O farol baixo proporciona visão mais clara em condições de chuva noturna."
+  },
+  {
+    "question": "Você pode dirigir na direção indicada por uma seta verde do semáforo mesmo que o sinal principal esteja vermelho.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "A seta verde permite movimento apenas na direção indicada. Os motoristas ainda devem prestar atenção aos pedestres e veículos que já estejam no cruzamento."
+  },
+  {
+    "question": "Após uma colisão, você deve mover seu veículo para fora do fluxo de trânsito se isso puder ser feito com segurança.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Se o veículo ainda puder se mover e estiver bloqueando o trânsito, ele deve ser levado para um local seguro para evitar acidentes adicionais. A segurança e a verificação de feridos vêm primeiro."
+  },
+  {
+    "question": "Uma placa triangular invertida de preferência sempre exige uma parada completa.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Uma placa de preferência significa que os motoristas devem reduzir a velocidade e dar prioridade ao outro tráfego. Parar é necessário apenas quando exigido para segurança."
+  },
+  {
+    "question": "Se outro veículo estiver tentando ultrapassá-lo, você deve acelerar para evitar ser ultrapassado.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Motoristas que estão sendo ultrapassados não devem interferir no veículo que está ultrapassando. Manter a velocidade ou reduzir levemente ajuda a evitar perigos."
+  },
+  {
+    "question": "No Japão, uma pessoa pode conduzir legalmente um ciclomotor de 50cc a partir dos 16 anos.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "A idade mínima para obter uma licença de ciclomotor no Japão é 16 anos. Uma licença padrão de carro de passeio exige idade mínima maior."
+  },
+  {
+    "question": "Mesmo quando o semáforo está verde, os pedestres usando a faixa de pedestres ainda têm prioridade.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Os motoristas devem dar passagem aos pedestres que atravessam legalmente em cruzamentos e faixas de pedestres. Um sinal verde não elimina essa responsabilidade."
+  },
+  {
+    "question": "Pontes têm maior probabilidade de congelar antes das superfícies normais da estrada.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "O ar frio circula acima e abaixo das pontes, fazendo com que elas congelem mais rapidamente. Os motoristas devem reduzir a velocidade em condições de inverno."
+  },
+  {
+    "question": "Um veículo grande ou pesado geralmente precisa de uma distância maior para parar do que um veículo mais leve viajando na mesma velocidade.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Veículos mais pesados possuem maior impulso e exigem mais distância de frenagem. Caminhões e veículos carregados normalmente param mais lentamente do que carros menores."
+  },
+  {
+    "question": "Ao usar a faixa de aceleração em uma via expressa, você deve aumentar a velocidade para acompanhar o trânsito antes de entrar na via.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Os motoristas devem ajustar sua velocidade ao fluxo do trânsito da via expressa antes de entrar na faixa principal. Entrar muito lentamente pode criar uma diferença de velocidade perigosa."
+  },
+  {
+    "question": "Permanecer continuamente na faixa da direita é aceitável se você estiver dirigindo no limite de velocidade indicado.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Em estradas com múltiplas faixas no Japão, a faixa da direita geralmente é destinada a ultrapassagens. Os motoristas devem retornar à faixa da esquerda após ultrapassar."
+  },
+  {
+    "question": "As placas de limite de velocidade japonesas exibem velocidades em quilômetros por hora.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "O Japão utiliza o sistema métrico para regulamentações de trânsito. Todas as placas oficiais de velocidade são mostradas em km/h."
+  },
+  {
+    "question": "Uma placa circular com borda vermelha mostrando o número 50 significa que os motoristas devem trafegar a pelo menos 50 km/h.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Uma placa circular vermelha de velocidade indica a velocidade máxima permitida. As placas de velocidade mínima usam fundo azul."
+  },
+  {
+    "question": "No Japão, as placas de advertência são normalmente exibidas como placas amarelas em formato de losango em vez de placas triangulares vermelhas com ponto de exclamação.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "As placas de advertência japonesas geralmente usam formato de losango amarelo com símbolos pretos para indicar perigos específicos à frente."
+  },
+  {
+    "question": "Um ciclomotor de 50cc tem permissão para trafegar em vias expressas japonesas.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Ciclomotores com motores de 50cc ou menos são proibidos em vias expressas. Essas vias exigem veículos capazes de manter velocidades mais altas."
+  },
+  {
+    "question": "O número de emergência para ambulância e bombeiros no Japão é 119.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Ligar para 119 conecta você aos serviços de bombeiros e ambulância em todo o Japão. Emergências policiais utilizam um número diferente."
+  },
+  {
+    "question": "O Japão utiliza o mesmo modelo octogonal de placa de parada comum em muitos outros países.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "As placas japonesas de parada têm formato de triângulo vermelho invertido e geralmente exibem a palavra “止まれ”, que significa “Pare”."
+  },
+  {
+    "question": "Sua posição de condução está correta se seus braços estiverem totalmente estendidos sobre a parte superior do volante.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Os motoristas devem manter uma leve flexão nos cotovelos ao segurar o volante. Sentar-se muito perto aumenta o risco de lesões causadas pelo airbag."
+  },
+  {
+    "question": "Se os faróis dos veículos que vêm em sentido contrário o cegarem temporariamente, você deve olhar diretamente para eles para identificar a posição do outro veículo.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Olhar diretamente para faróis fortes pode piorar a cegueira temporária. Os motoristas devem focar na borda esquerda da pista."
+  },
+  {
+    "question": "Motocicletas com motores maiores que 50cc seguem os mesmos limites gerais de velocidade que carros de passeio em estradas comuns.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Motocicletas comuns seguem os mesmos limites de velocidade indicados para carros. A restrição especial de 30 km/h aplica-se principalmente a ciclomotores abaixo de 50cc."
+  },
+  {
+    "question": "Molhar pedestres ao passar por poças pode violar a lei de trânsito japonesa.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Os motoristas devem evitar causar incômodo ou perigo aos pedestres. Espirrar água ou lama de forma descuidada pode resultar em penalidades."
+  },
+  {
+    "question": "Os limpadores de para-brisa só precisam ser substituídos quando houver danos visíveis.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "As palhetas do limpador se desgastam com o tempo devido à luz solar e ao uso regular. Um desempenho ruim na limpeza é sinal de que precisam ser substituídas."
+  },
+  {
+    "question": "Uma placa circular azul com uma seta branca apontando para cima indica trânsito em sentido único naquela direção.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Essa placa informa aos motoristas que os veículos só podem seguir na direção indicada pela seta."
+  },
+  {
+    "question": "Fazer o rodízio dos pneus regularmente pode ajudar a prolongar sua vida útil.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "O rodízio dos pneus ajuda a distribuir o desgaste de forma mais uniforme entre todas as rodas. Isso melhora o desempenho e a durabilidade dos pneus."
+  },
+  {
+    "question": "As vias expressas japonesas geralmente exigem que os veículos mantenham pelo menos 50 km/h.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Dirigir muito devagar em uma via expressa pode criar perigo para o tráfego ao redor. Exceções podem ser aplicadas durante congestionamentos ou emergências."
+  },
+  {
+    "question": "Em neblina densa, é mais seguro dirigir muito perto do veículo à frente para não perdê-lo de vista.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "A visibilidade reduzida exige maior distância de seguimento, não menor. Os motoristas devem manter espaço suficiente para parar com segurança."
+  },
+  {
+    "question": "Se ambos os motoristas concordarem, um pequeno acidente não precisa ser comunicado à polícia.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "A lei japonesa exige que todos os acidentes de trânsito sejam reportados, mesmo quando os danos parecem pequenos. Os relatórios policiais são importantes para fins legais e de seguro."
+  },
+  {
+    "question": "Marcas brancas tracejadas na faixa indicam que cruzar ou mudar de faixa é permitido.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Linhas brancas tracejadas permitem mudança de faixa quando for seguro. Linhas contínuas indicam restrições para cruzamento."
+  },
+  {
+    "question": "Motoristas envolvidos em uma colisão devem trocar informações de identificação e seguro entre si.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Detalhes importantes incluem nomes, endereços, informações da carteira de motorista, registro do veículo e dados da seguradora."
+  },
+  {
+    "question": "Ao passar por um pedestre caminhando na estrada, você deve deixar espaço de segurança suficiente, aproximadamente 1 metro ou mais, se possível.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Os motoristas devem reduzir a velocidade e manter uma distância segura dos pedestres. Se a estrada for estreita, pode ser necessário parar."
+  },
+  {
+    "question": "Sinais sonoros de travessia são usados para ajudar pedestres com deficiência visual a atravessar com segurança.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Muitas travessias no Japão usam sons como melodias ou cantos para indicar quando os pedestres podem atravessar."
+  },
+  {
+    "question": "Ao estacionar em uma estrada sem calçada, deve permanecer largura suficiente para a passagem de outros veículos.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "As regras japonesas de estacionamento exigem espaço suficiente na via, geralmente pelo menos 3,5 metros, para manter o fluxo do trânsito."
+  },
+  {
+    "question": "Botões de emergência instalados em cruzamentos ferroviários podem ser usados para alertar trens que se aproximam sobre perigo.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Pressionar o botão de emergência alerta os funcionários ferroviários e os trens que se aproximam quando um veículo fica preso nos trilhos."
+  },
+  {
+    "question": "Se os freios deixarem de funcionar enquanto você dirige, deve desligar imediatamente o motor.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Desligar o motor pode desativar a direção hidráulica e a assistência de frenagem. Em vez disso, os motoristas devem reduzir a velocidade gradualmente usando o freio motor e o freio de estacionamento com cuidado."
+  },
+  {
+    "question": "Em um cruzamento sem controle onde dois veículos chegam ao mesmo tempo em vias equivalentes, a prioridade geralmente é dada ao veículo que vem da esquerda.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Segundo as regras de trânsito japonesas, os motoristas normalmente devem dar passagem aos veículos vindos da esquerda em cruzamentos de mesma prioridade."
+  },
+  {
+    "question": "Ultrapassar outro veículo é sempre proibido perto de um ponto de ônibus.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "A lei japonesa não proíbe automaticamente ultrapassagens perto de pontos de ônibus, mas os motoristas devem ter extremo cuidado com pedestres e o tráfego ao redor."
+  },
+  {
+    "question": "Um motorista ainda pode enfrentar acusações por dirigir alcoolizado mesmo quando o nível de álcool no sangue estiver abaixo de 0,03% se sua capacidade de dirigir estiver afetada.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "No Japão, dirigir com a capacidade comprometida pode ser punido mesmo abaixo do limite padrão de álcool se o álcool tiver afetado a capacidade de conduzir com segurança."
   }
 ]
