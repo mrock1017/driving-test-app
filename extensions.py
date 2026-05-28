@@ -5,29 +5,70 @@ mail = Mail()
 
 from flask_mail import Message
 
+import os
+import requests
+
 def send_email(subject, recipient, body):
 
     try:
 
-        msg = Message(
+        url = "https://api.brevo.com/v3/smtp/email"
 
-            subject,
+        headers = {
 
-            recipients=[recipient]
+            "accept": "application/json",
+
+            "api-key": os.environ.get(
+                "BREVO_API_KEY"
+            ),
+
+            "content-type": "application/json"
+        }
+
+        data = {
+
+            "sender": {
+
+                "name": "Japan Driving Test Master",
+
+                "email": os.environ.get(
+                    "MAIL_DEFAULT_SENDER"
+                )
+            },
+
+            "to": [
+
+                {
+                    "email": recipient
+                }
+            ],
+
+            "subject": subject,
+
+            "textContent": body
+        }
+
+        response = requests.post(
+
+            url,
+
+            json=data,
+
+            headers=headers,
+
+            timeout=10
         )
 
-        msg.body = body
+        print(response.text)
 
-        mail.send(msg)
-
-        return True
+        return response.status_code == 201
 
     except Exception as e:
 
-        print(e)
+        import traceback
+
+        traceback.print_exc()
+
+        print("EMAIL ERROR:", e)
 
         return False
-
-serializer = URLSafeTimedSerializer(
-    "secret123"
-)

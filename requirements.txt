@@ -12,3 +12,4 @@ Flask-SQLAlchemy
 Flask-Mail
 psycopg2-binary
 stripe
+requests
