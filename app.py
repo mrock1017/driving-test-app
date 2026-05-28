@@ -25,7 +25,6 @@ from werkzeug.security import (
 
 from extensions import (
     mail,
-    serializer
 )
 
 from languages.ui import get_ui
@@ -134,9 +133,6 @@ app.config['MAIL_DEFAULT_SENDER'] = os.environ.get(
 )
 
 # ✅ IMPORTANT
-app.config['MAIL_DEFAULT_SENDER'] = (
-    'rensasing143@gmail.com'
-)
 mail.init_app(app)
 
 # =========================================================
@@ -284,6 +280,84 @@ def verify_email(token):
         traceback.print_exc()
 
         raise e
+
+# =========================================================
+#  FORGOT PASSWORD
+# =========================================================
+
+@app.route('/forgot-password', methods=['GET', 'POST'])
+def forgot_password():
+
+    error = None
+    success = None
+
+    if request.method == 'POST':
+
+        email = request.form.get('email')
+
+        user = User.query.filter_by(
+            email=email
+        ).first()
+
+        if not user:
+
+            error = "No account found with that email."
+
+        else:
+
+            token = serializer.dumps(
+                email,
+                salt='reset-password'
+            )
+
+            reset_link = url_for(
+                'reset_password',
+                token=token,
+                _external=True
+            )
+
+            body = f"""
+Hello,
+
+Click the link below to reset your password:
+
+{reset_link}
+
+If you did not request this,
+please ignore this email.
+"""
+
+            success_send = send_email(
+
+                "Password Reset",
+
+                email,
+
+                body
+            )
+
+            if success_send:
+
+                success = (
+                    "Password reset email sent."
+                )
+
+            else:
+
+                error = (
+                    "Failed to send email."
+                )
+
+    return render_template(
+
+        'forgot_password.html',
+
+        error=error,
+
+        success=success,
+
+        ui=get_ui()
+    )
 
 # =========================================================
 # 🔑 RESET PASSWORD
