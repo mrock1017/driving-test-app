@@ -113,9 +113,6 @@ def login():
 
             db.session.commit()
 
-            print("PASSWORD UPDATED:", user.email)
-            print("NEW HASH:", user.password)
-
             # =====================================================
             # 📱 DEVICE LIMIT CHECK
             # =====================================================
@@ -516,7 +513,6 @@ ignore this email.
                 body
             )
 
-            print("EMAIL SENT:", success_send)
 
         message = (
             "If the email exists, "

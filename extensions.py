@@ -62,8 +62,6 @@ def send_email(subject, recipient, body):
             timeout=10
         )
 
-        print(response.text)
-
         return response.status_code == 201
 
     except Exception as e:
@@ -71,7 +69,5 @@ def send_email(subject, recipient, body):
         import traceback
 
         traceback.print_exc()
-
-        print("EMAIL ERROR:", e)
 
         return False

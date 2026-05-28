@@ -668,8 +668,6 @@ def contact():
 @app.errorhandler(Exception)
 def handle_error(e):
 
-    print("ERROR:", e)
-
     return f"""
     <h1>ERROR</h1>
     <pre>{str(e)}</pre>
@@ -710,5 +708,5 @@ if __name__ == '__main__':
     app.run(
         host='0.0.0.0',
         port=port,
-        debug=True
+        debug=False
     )
