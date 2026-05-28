@@ -223,20 +223,39 @@
 
   <body>
 
-  <div style="padding:20px;">
+  <div
+      style="
+        padding:20px;
+        position:relative;
+        z-index:999999;
+      "
+    >
 
-    <a href="/reviewers"
-       style="
-       text-decoration:none;
-       font-weight:700;
-       color:#2563eb;
-       font-size:16px;">
+      <a
+        href="/reviewers"
+        style="
+          display:inline-block;
+          text-decoration:none;
+          font-weight:700;
+          color:#2563eb;
+          font-size:16px;
+          padding:12px 18px;
+          background:white;
+          border-radius:12px;
+          box-shadow:0 4px 12px rgba(0,0,0,0.08);
+          pointer-events:auto;
+          touch-action:manipulation;
+          position:relative;
+          z-index:999999;
+        "
+      >
 
-       ← Back to Reviewers
+        ← Back to Reviewers
 
-    </a>
+      </a>
 
-  </div>
+    </div>
+
     <div class="container">
       <!-- HERO -->
       <div class="hero">

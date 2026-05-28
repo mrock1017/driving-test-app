@@ -1,0 +1,402 @@
+[
+  {
+    "question": "A driver who causes an accident while under the influence of alcohol will receive the same punishment as a driver who is caught drunk driving without causing harm.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "In Japan, penalties become much more severe when drunk driving results in injury or death. Punishment increases depending on the seriousness of the accident and whether the driver fled the scene."
+  },
+  {
+    "question": "Certain school areas may enforce a 30 km/h speed restriction during designated times of the day.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Many school zones in Japan apply lower speed limits during hours when children are likely to be present. Drivers must obey the posted time restrictions shown on the signs."
+  },
+  {
+    "question": "Turning on the air conditioner can help remove fog from the windshield.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "The air conditioner reduces moisture inside the vehicle, helping clear condensation on the glass. Using the defroster together with the AC is especially effective."
+  },
+  {
+    "question": "During heavy rain at night, using high beams improves visibility and is recommended.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "High beams reflect off rain and can make visibility worse. Low beams provide clearer vision in rainy nighttime conditions."
+  },
+  {
+    "question": "You may drive in the direction shown by a green arrow traffic signal even if the main traffic light is red.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "A green arrow permits movement only in the indicated direction. Drivers must still watch for pedestrians and vehicles already in the intersection."
+  },
+  {
+    "question": "After a collision, you should move your vehicle away from traffic if it can be done safely.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "If the vehicle can still move and is blocking traffic, it should be relocated to a safe place to avoid additional accidents. Safety and checking for injuries come first."
+  },
+  {
+    "question": "An inverted triangular yield sign always requires a complete stop.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "A yield sign means drivers must slow down and give priority to other traffic. Stopping is necessary only when required for safety."
+  },
+  {
+    "question": "If another vehicle is trying to pass you, you should accelerate to avoid being overtaken.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Drivers being overtaken must not interfere with the passing vehicle. Maintaining speed or slowing slightly helps prevent danger."
+  },
+  {
+    "question": "In Japan, a person can legally operate a 50cc moped starting at age 16.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "The minimum age for a moped licence in Japan is 16 years old. A standard passenger car licence requires a higher minimum age."
+  },
+  {
+    "question": "Even when the traffic light is green, pedestrians using the crosswalk still have priority.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Drivers must give way to pedestrians crossing legally at intersections and crosswalks. A green signal does not remove this responsibility."
+  },
+  {
+    "question": "Bridges are more likely to become icy before ordinary road surfaces.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Cold air circulates above and below bridges, causing them to freeze more quickly. Drivers should reduce speed in winter conditions."
+  },
+  {
+    "question": "A large or heavy vehicle generally needs a longer distance to stop than a lighter vehicle traveling at the same speed.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Heavier vehicles carry greater momentum and require more braking distance. Trucks and loaded vehicles usually stop more slowly than smaller cars."
+  },
+  {
+    "question": "While using the acceleration lane on an expressway, you should increase speed to match traffic before merging.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Drivers should adjust to the flow of expressway traffic before entering the main lane. Merging too slowly can create a hazardous speed difference."
+  },
+  {
+    "question": "Staying continuously in the right lane is acceptable if you are driving at the posted speed limit.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "On multi-lane roads in Japan, the right lane is generally intended for overtaking. Drivers should return to the left lane after passing."
+  },
+  {
+    "question": "Japanese speed limit signs display speeds using kilometers per hour.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Japan uses the metric system for road regulations. All official speed signs are shown in km/h."
+  },
+  {
+    "question": "A circular red-bordered sign showing the number 50 means drivers must travel at least 50 km/h.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "A red circular speed sign indicates the maximum permitted speed. Minimum speed signs use a blue background instead."
+  },
+  {
+    "question": "In Japan, warning signs are commonly displayed as yellow diamond-shaped signs rather than red triangular signs with exclamation marks.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Japanese warning signs usually use yellow diamond shapes with black symbols to indicate specific hazards ahead."
+  },
+  {
+    "question": "A 50cc moped is permitted to travel on Japanese expressways.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Mopeds with engines of 50cc or less are prohibited from expressways. Expressways require vehicles capable of maintaining higher speeds."
+  },
+  {
+    "question": "The emergency telephone number for ambulance and fire services in Japan is 119.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Calling 119 connects you to fire departments and ambulance services throughout Japan. Police emergencies use a different number."
+  },
+  {
+    "question": "Japan uses the same octagonal stop sign design commonly seen in many other countries.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Japanese stop signs are shaped like an inverted red triangle and usually display the word “止まれ” meaning “Stop.”"
+  },
+  {
+    "question": "Your driving position is correct if your arms rest fully stretched across the top of the steering wheel.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Drivers should sit with a slight bend in the elbows while holding the wheel. Sitting too close increases the risk of injury from the airbag."
+  },
+  {
+    "question": "If oncoming headlights temporarily blind you, you should stare directly at them to judge the other vehicle’s position.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Looking directly into bright headlights can worsen temporary blindness. Drivers should focus toward the left edge of the roadway instead."
+  },
+  {
+    "question": "Motorcycles with engines larger than 50cc follow the same general speed limits as passenger cars on ordinary roads.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Standard motorcycles follow the same posted limits as cars. The special 30 km/h restriction mainly applies to mopeds under 50cc."
+  },
+  {
+    "question": "Splashing pedestrians with water while driving through puddles can violate Japanese traffic law.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Drivers must avoid causing inconvenience or danger to pedestrians. Carelessly splashing water or mud may result in penalties."
+  },
+  {
+    "question": "Windshield wipers only need replacement when visible damage appears.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Wiper blades wear out over time from sunlight and regular use. Poor wiping performance is a sign that replacement is needed."
+  },
+  {
+    "question": "A blue circular sign with a white upward arrow indicates one-way traffic in that direction.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "This sign informs drivers that vehicles may travel only in the direction shown by the arrow."
+  },
+  {
+    "question": "Rotating tires regularly can help extend their usable life.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Tire rotation helps distribute wear more evenly between all wheels. This improves tire performance and durability."
+  },
+  {
+    "question": "Japanese expressways generally require vehicles to maintain at least 50 km/h.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Driving too slowly on an expressway can create danger for surrounding traffic. Exceptions may apply during congestion or emergencies."
+  },
+  {
+    "question": "In dense fog, it is safer to drive very close behind the vehicle ahead so you do not lose sight of it.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Reduced visibility requires a greater following distance, not a shorter one. Drivers must allow enough space to stop safely."
+  },
+  {
+    "question": "If both drivers agree, a minor accident does not need to be reported to the police.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Japanese law requires all traffic accidents to be reported, even when damage appears minor. Police reports are important for legal and insurance purposes."
+  },
+  {
+    "question": "Broken white lane markings indicate that crossing or changing lanes is permitted.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Dashed white lines allow lane changes when safe. Solid lines indicate restrictions on crossing."
+  },
+  {
+    "question": "Drivers involved in a collision should exchange identification and insurance information with each other.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Important details include names, addresses, licence information, vehicle registration, and insurance company details."
+  },
+  {
+    "question": "When passing a pedestrian walking on the road, you should leave sufficient safety space, approximately 1 meter or more if possible.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Drivers must slow down and maintain a safe distance from pedestrians. If the road is narrow, stopping may be necessary."
+  },
+  {
+    "question": "Audible crossing signals are used to help visually impaired pedestrians cross safely.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Many crossings in Japan use sounds such as melodies or chirping signals to indicate when pedestrians may cross."
+  },
+  {
+    "question": "When parking on a road without a sidewalk, enough width must remain for other vehicles to pass.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Japanese parking rules require sufficient remaining road space, generally at least 3.5 meters, for traffic flow."
+  },
+  {
+    "question": "Emergency buttons installed at railroad crossings can be used to warn approaching trains of danger.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Pressing the emergency button alerts railway staff and approaching trains when a vehicle becomes trapped on the tracks."
+  },
+  {
+    "question": "If your brakes stop working while driving, you should immediately switch off the engine.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Turning off the engine may disable power steering and brake assistance. Drivers should instead slow down gradually using engine braking and the parking brake carefully."
+  },
+  {
+    "question": "At an uncontrolled intersection where two vehicles arrive simultaneously on equal roads, priority is generally given to the vehicle approaching from the left.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Under Japanese traffic rules, drivers should normally yield to vehicles coming from the left at intersections of equal priority."
+  },
+  {
+    "question": "Passing another vehicle is always forbidden near a bus stop.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Japanese law does not automatically prohibit overtaking near bus stops, but drivers must be extremely careful of pedestrians and surrounding traffic."
+  },
+  {
+    "question": "A driver may still face drunk-driving charges even when the blood alcohol level is below 0.03% if driving ability is affected.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "In Japan, impaired driving can be punished even below the standard alcohol threshold if alcohol has affected safe driving ability."
+  }
+]
