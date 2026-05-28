@@ -164,32 +164,7 @@ def login_required():
 
         return redirect('/login')
 
-# =========================================================
-# 📧 SEND EMAIL
-# =========================================================
 
-def send_email(subject, recipient, body):
-
-    try:
-
-        msg = Message(
-
-            subject,
-
-            recipients=[recipient]
-        )
-
-        msg.body = body
-
-        mail.send(msg)
-
-        return True
-
-    except Exception as e:
-
-        print(e)
-
-        return redirect('/menu')
 # =========================================================
 # 🤖 AI EXPLANATION
 # =========================================================
@@ -239,6 +214,32 @@ def set_language(lang):
 
     return redirect('/menu')
 
+# =========================================================
+# 📧 SEND EMAIL
+# =========================================================
+
+def send_email(subject, recipient, body):
+
+    try:
+
+        msg = Message(
+
+            subject,
+
+            recipients=[recipient]
+        )
+
+        msg.body = body
+
+        mail.send(msg)
+
+        return True
+
+    except Exception as e:
+
+        print(e)
+
+        return redirect('/menu')
 
 # =========================================================
 # 📧 VERIFY EMAIL
