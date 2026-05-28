@@ -25,6 +25,7 @@ from werkzeug.security import (
 
 from extensions import (
     mail,
+    send_email
 )
 
 from languages.ui import get_ui
@@ -213,33 +214,6 @@ def set_language(lang):
     session.modified = True
 
     return redirect('/menu')
-
-# =========================================================
-# 📧 SEND EMAIL
-# =========================================================
-
-def send_email(subject, recipient, body):
-
-    try:
-
-        msg = Message(
-
-            subject,
-
-            recipients=[recipient]
-        )
-
-        msg.body = body
-
-        mail.send(msg)
-
-        return True
-
-    except Exception as e:
-
-        print(e)
-
-        return redirect('/menu')
 
 # =========================================================
 # 📧 VERIFY EMAIL
