@@ -1,3 +1,5 @@
+import os
+import requests
 from flask_mail import Mail
 from itsdangerous import URLSafeTimedSerializer
 
@@ -8,9 +10,6 @@ serializer = URLSafeTimedSerializer(
 )
 
 from flask_mail import Message
-
-import os
-import requests
 
 def send_email(subject, recipient, body):
 
