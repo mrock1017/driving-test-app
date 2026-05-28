@@ -3,6 +3,10 @@ from itsdangerous import URLSafeTimedSerializer
 
 mail = Mail()
 
+serializer = URLSafeTimedSerializer(
+    "secret123"
+)
+
 from flask_mail import Message
 
 import os
