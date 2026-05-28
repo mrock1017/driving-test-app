@@ -503,17 +503,17 @@ If you did not request this,
 ignore this email.
 """
 
-        success_send = send_email(
+            
+            success_send = send_email(
 
-            'Reset Password',
+                'Reset Password',
 
-             email,
+                email,
 
-            body
-        )
+                body
+            )
 
-        print("EMAIL SENT:", success_send)
-
+            print("EMAIL SENT:", success_send)
 
         message = (
             "If the email exists, "
