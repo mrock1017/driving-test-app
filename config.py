@@ -18,7 +18,7 @@ class Config:
 
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
-    MAIL_SERVER = 'smtp-relay.brevo.com'
+    MAIL_SERVER = 'smtp.brevo.com'
 
     MAIL_PORT = 587
 
