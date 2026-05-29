@@ -527,3 +527,10 @@ ignore this email.
 
         ui=get_ui()
     )
+
+@auth.route('/delete-account')
+def delete_account():
+
+    return render_template(
+        'delete_account.html'
+    )
