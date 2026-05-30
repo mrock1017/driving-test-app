@@ -9,7 +9,9 @@
     <title>Japan Driving Test Master</title>
 
     <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+        content="width=device-width,
+        initial-scale=1.0,
+        viewport-fit=cover">
 
     <!-- 📱 PWA -->
 
@@ -50,6 +52,8 @@ html{
 }
 
 body{
+
+    padding-top:env(safe-area-inset-top);
 
     font-family:'Inter', sans-serif;
 
@@ -173,7 +177,11 @@ body.dark .settings-title{
 
     z-index:100;
 
-    padding:16px;
+    padding-top:calc(env(safe-area-inset-top) + 16px);
+
+    padding-left:16px;
+    padding-right:16px;
+    padding-bottom:16px;
 
     background:
     rgba(255,255,255,0.88);
@@ -233,7 +241,9 @@ body.dark .settings-title{
 
     position:relative;
 
-    width:220px;
+    width:100%;
+
+    max-width:220px;
 
     z-index:200;
 }
