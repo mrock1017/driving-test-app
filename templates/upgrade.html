@@ -512,30 +512,58 @@ body{
 
         </div>
 
-        <!-- 💳 STRIPE BUTTONS -->
+{% if platform == "android" %}
 
-        <a href="/create-checkout-session/monthly"
-           class="upgrade-btn">
+<div style="
+background:#fff7ed;
+color:#9a3412;
+padding:20px;
+border-radius:18px;
+font-weight:700;
+margin-top:20px;
+margin-bottom:20px;
+text-align:center;
+line-height:1.6;
+">
 
-           🚀 Upgrade Monthly
+    🚧 Premium subscriptions are temporarily unavailable
+    in the Android app while Google Play Billing is being
+    integrated.
 
-        </a>
+    <br><br>
 
-        <a href="/create-checkout-session/yearly"
-           class="upgrade-btn yearly-btn">
+    Please continue using the free version during testing.
 
-           ⭐ Upgrade Yearly
+</div>
 
-        </a>
+{% else %}
 
-        <a href="/menu"
-           class="login-link">
+<!-- 💳 STRIPE BUTTONS -->
 
-           Continue with Free Version
+<a href="/create-checkout-session/monthly"
+   class="upgrade-btn">
 
-        </a>
+   🚀 Upgrade Monthly
 
-        <div class="small">
+</a>
+
+<a href="/create-checkout-session/yearly"
+   class="upgrade-btn yearly-btn">
+
+   ⭐ Upgrade Yearly
+
+</a>
+
+{% endif %}
+
+<a href="/menu"
+   class="login-link">
+
+   Continue with Free Version
+
+</a>
+
+<div class="small">
 
             Thousands of learners are preparing for
             the Japan driving test using our platform.

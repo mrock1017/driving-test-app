@@ -2,7 +2,8 @@ from flask import (
     Blueprint,
     render_template,
     redirect,
-    session
+    session,
+    request
 )
 
 from models import (
@@ -28,7 +29,11 @@ def upgrade():
 
         'upgrade.html',
 
-        ui=get_ui()
+        ui=get_ui(),
+
+        platform=request.args.get(
+            'platform'
+        )
     )
 
 # =========================================================
@@ -37,6 +42,15 @@ def upgrade():
 
 @premium.route('/subscribe')
 def subscribe():
+
+    # 🚫 BLOCK ANDROID APP
+    if request.args.get(
+        'platform'
+    ) == 'android':
+
+        return redirect(
+            '/upgrade?platform=android'
+        )
 
     if 'user_id' not in session:
 
