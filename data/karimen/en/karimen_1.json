@@ -1499,7 +1499,7 @@
     "answer": "True",
     "explanation": "Road layouts can vary depending on lane width or road conditions, so the painted center line may be offset from the physical center of the road. Drivers should follow the marked lane boundaries carefully."
   },
-    {
+  {
     "question": "A driver who causes an accident while under the influence of alcohol will receive the same punishment as a driver who is caught drunk driving without causing harm.",
     "image": null,
     "choices": [

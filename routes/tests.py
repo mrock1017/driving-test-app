@@ -66,7 +66,9 @@ def set_language(lang):
         'vi',
         'pt',
         'id',
-        'ar'
+        'ar',
+        'ur',
+        'my'
     ]
 
     if lang in allowed_languages:
@@ -1102,8 +1104,6 @@ def payment_success():
             db.session.commit()
 
     except Exception as e:
-
-        print(e)
 
         return redirect('/menu')
 

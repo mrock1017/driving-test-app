@@ -1,5 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html
+    lang="{{ session.get('lang', 'en') }}"
+    dir="{% if session.get('lang') in ['ar', 'ur'] %}rtl{% else %}ltr{% endif %}"
+>
 
 <head>
 
@@ -40,6 +43,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
           rel="stylesheet">
 
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;700&display=swap"
+          rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Myanmar:wght@400;500;600;700&display=swap"
+          rel="stylesheet">
+
 <style>
 
 *{
@@ -75,6 +84,48 @@ body{
     background 0.3s ease,
     color 0.3s ease;
 }
+
+html[lang="ur"] body{
+
+    font-family:
+    'Noto Nastaliq Urdu',
+    serif;
+}
+
+html[lang="my"] body{
+
+    font-family:
+    'Noto Sans Myanmar',
+    sans-serif;
+}
+
+html[dir="rtl"] body{
+
+    direction:rtl;
+
+    text-align:right;
+}
+
+html[dir="rtl"] .topbar{
+
+    flex-direction:row-reverse;
+}
+
+html[dir="rtl"] .language-menu a{
+
+    text-align:right;
+}
+
+html[dir="rtl"] .section-title{
+
+    flex-direction:row-reverse;
+}
+
+html[dir="rtl"] .menu-btn{
+
+    direction:rtl;
+}
+
 
 /* 🌙 DARK MODE */
 
@@ -831,6 +882,18 @@ body.dark .language-menu a:hover{
                     <a href="/set-language/ar">
 
                         🇸🇦 العربية
+
+                    </a>
+
+                    <a href="/set-language/ur">
+
+                        🇵🇰 اردو
+
+                    </a>
+
+                    <a href="/set-language/my">
+
+                        🇲🇲 မြန်မာ
 
                     </a>
 

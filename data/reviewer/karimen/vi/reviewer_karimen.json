@@ -1900,1503 +1900,1503 @@
     "explanation": "Tại Nhật Bản, việc lái xe bị ảnh hưởng bởi rượu vẫn có thể bị xử phạt ngay cả khi nồng độ cồn dưới ngưỡng tiêu chuẩn nếu rượu đã ảnh hưởng đến khả năng lái xe an toàn."
   },
   {
-    "question": "You are driving behind another vehicle. The driver gives a hand signal as shown, and you understand that it indicates the vehicle will slow down or stop. Is this correct?",
+    "question": "Bạn đang lái xe phía sau một xe khác. Người lái xe phía trước ra tín hiệu tay như trong hình, và bạn hiểu rằng tín hiệu đó có nghĩa là xe sẽ giảm tốc độ hoặc dừng lại. Điều này có đúng không?",
     "image": "hand_sideward.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "The hand signal shown indicates that the driver intends to turn right, not slow down or continue straight. A right arm extended horizontally outward is the standard hand signal used to indicate a right turn."
+    "explanation": "Tín hiệu tay trong hình cho biết người lái xe sẽ rẽ phải, không phải giảm tốc độ hoặc đi thẳng. Việc đưa thẳng cánh tay phải ra ngoài là tín hiệu tay tiêu chuẩn để báo rẽ phải."
   },
   {
-    "question": "A driver approaches a yellow traffic light and believes they must always stop and check for traffic. Is this correct?",
+    "question": "Một người lái xe đến gần đèn tín hiệu màu vàng và cho rằng họ luôn phải dừng lại và kiểm tra giao thông. Điều này có đúng không?",
     "image": "yellow_shingo.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "A yellow light means stop if it is safe to do so. If stopping suddenly is dangerous, the driver may proceed carefully."
+    "explanation": "Đèn vàng có nghĩa là dừng lại nếu có thể thực hiện an toàn. Nếu việc dừng đột ngột nguy hiểm, người lái xe có thể tiếp tục đi cẩn thận."
   },
   {
-    "question": "A driver sees the road marking shown and believes it indicates an area where vehicles must not stop or park. Is this correct?",
+    "question": "Một người lái xe nhìn thấy vạch kẻ đường được hiển thị và cho rằng đó là khu vực cấm dừng hoặc đỗ xe. Điều này có đúng không?",
     "image": "stopping.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "This marking does not necessarily indicate a strict “no stopping or parking” zone. Misinterpreting road markings can lead to incorrect driving behavior."
+    "explanation": "Vạch kẻ này không nhất thiết chỉ khu vực “cấm dừng hoặc đỗ xe” nghiêm ngặt. Hiểu sai vạch kẻ đường có thể dẫn đến hành vi lái xe không chính xác."
   },
   {
-    "question": "At a stop sign, a driver stops once and then believes they automatically have the right of way over other vehicles and can proceed first. Is this correct?",
+    "question": "Tại biển báo dừng, người lái xe dừng lại một lần rồi cho rằng mình tự động có quyền ưu tiên hơn các xe khác và có thể đi trước. Điều này có đúng không?",
     "image": "stop_sign.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "Stopping does not give automatic priority. Drivers must still yield to other vehicles and ensure it is safe before proceeding."
+    "explanation": "Việc dừng lại không tự động tạo quyền ưu tiên. Người lái xe vẫn phải nhường các phương tiện khác và bảo đảm an toàn trước khi đi tiếp."
   },
   {
-    "question": "A person with a moped license believes they can drive both a moped and a light-duty special vehicle. Is this correct?",
+    "question": "Một người có bằng lái xe gắn máy cho rằng họ có thể lái cả xe gắn máy và xe chuyên dụng hạng nhẹ. Điều này có đúng không?",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "A moped license only allows operation of mopeds. Driving other vehicle types requires the appropriate license."
+    "explanation": "Bằng lái xe gắn máy chỉ cho phép điều khiển xe gắn máy. Điều khiển các loại xe khác cần có giấy phép phù hợp."
   },
   {
-    "question": "A rider believes that posture does not affect safety when riding a two-wheeled vehicle. Is this correct?",
+    "question": "Người điều khiển xe hai bánh cho rằng tư thế lái không ảnh hưởng đến an toàn khi lái xe. Điều này có đúng không?",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "Proper posture is essential for balance and control. Poor posture can cause loss of balance, especially during braking."
+    "explanation": "Tư thế đúng rất quan trọng để giữ thăng bằng và kiểm soát xe. Tư thế sai có thể làm mất thăng bằng, đặc biệt khi phanh."
   },
   {
-    "question": "A driver passes close to a pedestrian or bicycle without slowing down or maintaining distance. Is this acceptable?",
+    "question": "Người lái xe đi sát người đi bộ hoặc xe đạp mà không giảm tốc độ hoặc giữ khoảng cách an toàn. Điều này có chấp nhận được không?",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "Drivers must keep a safe distance or slow down when passing pedestrians and cyclists to ensure safety."
+    "explanation": "Người lái xe phải giữ khoảng cách an toàn hoặc giảm tốc độ khi vượt qua người đi bộ và người đi xe đạp để bảo đảm an toàn."
   },
   {
-    "question": "A driver sees this sign and understands that they may turn in the indicated direction at an intersection regardless of the traffic light. Is this correct?",
+    "question": "Người lái xe nhìn thấy biển báo này và hiểu rằng họ có thể rẽ theo hướng được chỉ định tại giao lộ bất kể tín hiệu đèn giao thông. Điều này có đúng không?",
     "image": "arrow_right.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "This type of sign allows movement in the indicated direction even if the traffic light would normally restrict it, provided it is safe."
+    "explanation": "Loại biển báo này cho phép di chuyển theo hướng được chỉ định ngay cả khi đèn giao thông thông thường hạn chế hướng đó, miễn là an toàn."
   },
   {
-    "question": "When practicing driving on public roads, a driver places a learner’s permit sign only at the rear of the vehicle. Is this sufficient?",
+    "question": "Khi tập lái xe trên đường công cộng, người lái xe chỉ gắn biển tập lái ở phía sau xe. Điều này có đủ không?",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "Learner’s permit signs must be displayed clearly (typically both front and rear) so other drivers can recognize the learner."
+    "explanation": "Biển tập lái phải được gắn rõ ràng (thường ở cả phía trước và phía sau) để các tài xế khác có thể nhận biết người đang tập lái."
   },
   {
-    "question": "A driver sees this road sign and believes that pedestrians and bicycles are allowed to pass through the restricted area. Is this correct?",
+    "question": "Người lái xe nhìn thấy biển báo này và cho rằng người đi bộ và xe đạp được phép đi qua khu vực bị hạn chế. Điều này có đúng không?",
     "image": "no_vehicle_entry.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "This sign indicates a restriction (such as no vehicle entry). It does not automatically mean pedestrians and bicycles are allowed unless specifically indicated."
+    "explanation": "Biển báo này cho biết có sự hạn chế (ví dụ như cấm xe đi vào). Điều đó không tự động có nghĩa là người đi bộ và xe đạp được phép đi qua trừ khi có chỉ dẫn cụ thể."
   },
   {
-    "question": "A driver sees this road sign and understands that it indicates a large intersection ahead. Is this correct?",
+    "question": "Người lái xe nhìn thấy biển báo này và hiểu rằng nó cho biết phía trước là một giao lộ lớn. Điều này có đúng không?",
     "image": "big_arrow_road_sign.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "This sign warns drivers of an upcoming intersection, allowing them to prepare and proceed with caution."
+    "explanation": "Biển báo này cảnh báo người lái xe về giao lộ phía trước để họ chuẩn bị và đi cẩn thận."
   },
   {
-    "question": "A driver turns the steering wheel just before making a left turn in order to eliminate the difference in wheel paths. Is this recommended?",
+    "question": "Người lái xe đánh lái ngay trước khi rẽ trái để loại bỏ sự khác biệt về quỹ đạo bánh xe. Điều này có được khuyến nghị không?",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "Drivers should not turn the steering wheel too early. Proper turning should be done at the correct position to maintain control and safety."
+    "explanation": "Người lái xe không nên đánh lái quá sớm. Việc rẽ phải được thực hiện đúng vị trí để duy trì kiểm soát và an toàn."
   },
   {
-    "question": "A driver sees this sign and believes it means that the road is closed to bicycles only. Is this correct?",
+    "question": "Người lái xe nhìn thấy biển báo này và cho rằng nó có nghĩa là con đường chỉ cấm xe đạp. Điều này có đúng không?",
     "image": "bicycle.png",
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "This is a warning sign, indicating that bicycles may be present, not that the road is restricted only to bicycles."
+    "explanation": "Đây là biển cảnh báo cho biết có thể có xe đạp xuất hiện, không phải biển hạn chế chỉ dành cho xe đạp."
   },
   {
-    "question": "A driver sees this road marking and believes that vehicles are prohibited from not parking for any reason.",
+    "question": "Người lái xe nhìn thấy vạch kẻ đường này và cho rằng các phương tiện bị cấm không được đỗ xe vì bất kỳ lý do nào.",
     "image": "No_Parking.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "This statement is too tricky. Road markings must be interpreted correctly, and not all situations prohibit parking for any reason."
+    "explanation": "Câu này mang tính đánh đố. Vạch kẻ đường phải được hiểu đúng và không phải mọi tình huống đều cấm đỗ xe vì bất kỳ lý do nào."
   },
   {
-    "question": "A driver believes that footwear has no effect on driving control and can be ignored when operating a vehicle. Is this correct?",
+    "question": "Người lái xe cho rằng giày dép không ảnh hưởng đến việc điều khiển xe và có thể bỏ qua khi lái xe. Điều này có đúng không?",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "Proper footwear is important for safe pedal control. Inappropriate footwear can affect braking and acceleration."
+    "explanation": "Giày dép phù hợp rất quan trọng để kiểm soát bàn đạp an toàn. Giày dép không phù hợp có thể ảnh hưởng đến việc phanh và tăng tốc."
   },
   {
-    "question": "An emergency vehicle approaches from behind while you are at an intersection. You stop and give way immediately. Is this correct?",
+    "question": "Xe khẩn cấp đang đến từ phía sau khi bạn ở giao lộ. Bạn dừng lại và nhường đường ngay lập tức. Điều này có đúng không?",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "Drivers must give way to emergency vehicles, even at intersections, by stopping or moving aside safely."
+    "explanation": "Người lái xe phải nhường đường cho xe khẩn cấp, kể cả tại giao lộ, bằng cách dừng lại hoặc tránh sang bên an toàn."
   },
   {
-    "question": "At a railway crossing controlled by a traffic light, a driver proceeds without stopping after confirming the light is green. Is this correct?",
+    "question": "Tại đường ray xe lửa có đèn tín hiệu điều khiển, người lái xe đi qua mà không dừng lại sau khi xác nhận đèn xanh. Điều này có đúng không?",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "If the signal is green and safety is confirmed, drivers may proceed without stopping. However, they must always remain cautious."
+    "explanation": "Nếu tín hiệu màu xanh và đã xác nhận an toàn, người lái xe có thể đi tiếp mà không cần dừng lại. Tuy nhiên, họ vẫn phải luôn cẩn thận."
   },
   {
-    "question": "A driver sees this pavement marking and believes it indicates both the beginning and end of a 50 km/h speed limit zone. Is this correct?",
+    "question": "Người lái xe nhìn thấy vạch kẻ mặt đường này và cho rằng nó cho biết cả điểm bắt đầu và kết thúc của khu vực giới hạn tốc độ 50 km/h. Điều này có đúng không?",
     "image": "pavement.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "This marking does not indicate both the start and end of a speed limit. Speed limits are determined by official signs and road markings used correctly."
+    "explanation": "Vạch kẻ này không cho biết cả điểm bắt đầu và kết thúc của giới hạn tốc độ. Giới hạn tốc độ được xác định bằng biển báo chính thức và vạch đường được sử dụng đúng cách."
   },
   {
-    "question": "A driver sees this sign and understands that crossing the road is prohibited, except when turning to enter or exit a roadside facility. Is this correct?",
+    "question": "Người lái xe nhìn thấy biển báo này và hiểu rằng việc băng qua đường bị cấm, ngoại trừ khi rẽ để vào hoặc ra khỏi cơ sở ven đường. Điều này có đúng không?",
     "image": "no_crossing_sign.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "This sign restricts crossing movements, but allows exceptions such as entering or leaving a roadside facility."
+    "explanation": "Biển báo này hạn chế việc băng qua đường, nhưng cho phép ngoại lệ như vào hoặc ra khỏi cơ sở ven đường."
   },
   {
-    "question": "At an intersection with poor visibility, a driver sounds the horn repeatedly as much as possible. Is this advisable?",
+    "question": "Tại giao lộ có tầm nhìn kém, người lái xe bấm còi liên tục càng nhiều càng tốt. Điều này có được khuyến khích không?",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "The horn should be used only when necessary for safety. Excessive use is not recommended and may cause confusion or danger."
+    "explanation": "Còi chỉ nên được sử dụng khi cần thiết để bảo đảm an toàn. Việc sử dụng quá mức không được khuyến khích và có thể gây nhầm lẫn hoặc nguy hiểm."
   },
   {
-    "question": "When learning to drive, a driver carries their learner’s permit license as required. Is this correct?",
+    "question": "Khi học lái xe, người lái xe mang theo giấy phép tập lái theo yêu cầu. Điều này có đúng không?",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "Learners must carry their permit while driving to comply with legal requirements."
+    "explanation": "Người tập lái phải mang theo giấy phép tập lái khi lái xe để tuân thủ quy định pháp luật."
   },
   {
-    "question": "A driver towing a motor vehicle believes they must always travel in a lane indicated by a specific designation sign. Is this correct?",
+    "question": "Người lái xe kéo một xe cơ giới cho rằng họ luôn phải đi trong làn được chỉ định bằng biển báo riêng. Điều này có đúng không?",
     "image": "senyou_lane.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "Lane designation signs apply to specific vehicles or conditions. Towing does not automatically require using a designated lane unless specified."
+    "explanation": "Biển chỉ định làn áp dụng cho các loại xe hoặc điều kiện cụ thể. Việc kéo xe không tự động yêu cầu sử dụng làn chỉ định trừ khi có quy định."
   },
   {
-    "question": "A driver sees this sign and understands that it indicates a bicycle crossing lane. Is this correct?",
+    "question": "Người lái xe nhìn thấy biển báo này và hiểu rằng nó chỉ làn đường băng qua dành cho xe đạp. Điều này có đúng không?",
     "image": "bicycle.png",
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "This sign warns of a bicycle crossing area, meaning drivers should be cautious of bicycles."
+    "explanation": "Biển báo này cảnh báo khu vực băng qua dành cho xe đạp, có nghĩa là người lái xe nên cẩn thận với xe đạp."
   },
   {
-    "question": "A driver believes that vehicles may stop or park in front of police or fire stations if pavement markings allow it, except for emergency vehicles. Is this correct?",
+    "question": "Người lái xe cho rằng xe có thể dừng hoặc đỗ trước đồn cảnh sát hoặc trạm cứu hỏa nếu vạch đường cho phép, ngoại trừ xe khẩn cấp. Điều này có đúng không?",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "Stopping or parking in front of police or fire stations is generally prohibited regardless of pavement markings, except for authorized emergency use."
+    "explanation": "Việc dừng hoặc đỗ trước đồn cảnh sát hoặc trạm cứu hỏa nhìn chung bị cấm bất kể vạch đường, ngoại trừ mục đích khẩn cấp được cho phép."
   },
   {
-    "question": "A driver encounters an obstacle ahead and slows down or stops, but does not take any action to warn oncoming traffic. Is this correct?",
+    "question": "Người lái xe gặp chướng ngại vật phía trước và giảm tốc độ hoặc dừng lại nhưng không thực hiện hành động nào để cảnh báo xe đối diện. Điều này có đúng không?",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "Drivers must take appropriate action, including warning other road users if necessary, to prevent danger when encountering obstacles."
+    "explanation": "Người lái xe phải thực hiện các hành động phù hợp, bao gồm cảnh báo những người tham gia giao thông khác nếu cần, để ngăn ngừa nguy hiểm khi gặp chướng ngại vật."
   },
   {
-    "question": "In the situation shown, a driver in lane A changes lanes to turn right at the intersection. Is this allowed?",
+    "question": "Trong tình huống được hiển thị, người lái xe ở làn A chuyển làn để rẽ phải tại giao lộ. Điều này có được phép không?",
     "image": "change_lane.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "Lane markings determine permitted movements. If lane A does not allow a right turn, the driver must not change lanes improperly to make that turn."
+    "explanation": "Vạch làn đường xác định hướng đi được phép. Nếu làn A không cho phép rẽ phải, người lái xe không được chuyển làn không đúng cách để thực hiện việc rẽ đó."
   },
   {
-    "question": "On the road shown, vehicles traveling in lane A must not change to lane B. Is this correct?",
+    "question": "Trên con đường được hiển thị, các xe đi ở làn A không được chuyển sang làn B. Điều này có đúng không?",
     "image": "A_to_B.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "The road markings prohibit changing lanes from A to B. Drivers must follow lane restrictions indicated by markings."
+    "explanation": "Vạch kẻ đường cấm chuyển làn từ A sang B. Người lái xe phải tuân theo các hạn chế chuyển làn được chỉ định."
   },
   {
-    "question": "When approaching a traffic signal that changes to yellow, if you cannot stop safely, you may proceed through the intersection. Is this correct?",
+    "question": "Khi đến gần đèn tín hiệu chuyển sang màu vàng, nếu bạn không thể dừng lại an toàn, bạn có thể tiếp tục đi qua giao lộ. Điều này có đúng không?",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "A yellow signal means stop if possible, but if stopping suddenly is unsafe, proceeding is allowed."
+    "explanation": "Đèn vàng có nghĩa là dừng lại nếu có thể, nhưng nếu dừng đột ngột không an toàn thì được phép đi tiếp."
   },
   {
-    "question": "A driver stops behind a route bus at a bus stop and waits until the bus starts moving again before proceeding. Is this required?",
+    "question": "Người lái xe dừng phía sau xe buýt tuyến tại trạm xe buýt và chờ cho đến khi xe buýt bắt đầu di chuyển lại rồi mới đi tiếp. Điều này có bắt buộc không?",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "Drivers are not always required to wait behind a stopped bus. They may proceed carefully if it is safe and permitted."
+    "explanation": "Người lái xe không phải lúc nào cũng bắt buộc phải chờ phía sau xe buýt đang dừng. Họ có thể đi tiếp cẩn thận nếu an toàn và được phép."
   },
   {
-    "question": "A driver sees this sign and understands that vehicles may proceed only by turning left or right, and cannot go straight. Is this correct?",
+    "question": "Người lái xe nhìn thấy biển báo này và hiểu rằng xe chỉ được phép đi bằng cách rẽ trái hoặc rẽ phải, không được đi thẳng. Điều này có đúng không?",
     "image": "direction_left_and_right.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "This sign restricts movement to the indicated directions only."
+    "explanation": "Biển báo này giới hạn hướng di chuyển chỉ theo các hướng được chỉ định."
   },
   {
-    "question": "When the traffic signal is flashing amber, vehicles and streetcars must reduce speed. Is this correct?",
+    "question": "Khi đèn tín hiệu nhấp nháy màu vàng, xe cộ và xe điện đường phố phải giảm tốc độ. Điều này có đúng không?",
     "image": "blinking_amber.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "Flashing amber means proceed with caution, not necessarily a mandatory reduction in speed."
+    "explanation": "Đèn vàng nhấp nháy có nghĩa là đi cẩn thận, không nhất thiết bắt buộc phải giảm tốc độ."
   },
   {
-    "question": "A driver sees a child walking alone and uses the horn to warn others and ensure safety. Is this appropriate?",
+    "question": "Người lái xe nhìn thấy một đứa trẻ đi một mình và sử dụng còi để cảnh báo người khác và bảo đảm an toàn. Điều này có phù hợp không?",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "When necessary, the horn may be used to warn others of potential danger. Extra caution is required around children."
+    "explanation": "Khi cần thiết, còi có thể được sử dụng để cảnh báo nguy hiểm tiềm tàng. Cần đặc biệt cẩn thận xung quanh trẻ em."
   },
   {
-    "question": "A driver sees this sign and understands it indicates a pedestrian crossing area. Is this correct?",
+    "question": "Người lái xe nhìn thấy biển báo này và hiểu rằng nó chỉ khu vực sang đường dành cho người đi bộ. Điều này có đúng không?",
     "image": "pedestrian.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "This sign warns drivers of a pedestrian crossing ahead and the need to slow down and prepare to stop."
+    "explanation": "Biển báo này cảnh báo phía trước có vạch qua đường cho người đi bộ và yêu cầu giảm tốc độ, chuẩn bị dừng lại."
   },
   {
-    "question": "A driver sees this road marking and understands that stopping and parking are prohibited in this area. Is this correct?",
+    "question": "Người lái xe nhìn thấy vạch kẻ đường này và hiểu rằng việc dừng và đỗ xe bị cấm trong khu vực này. Điều này có đúng không?",
     "image": "stopping.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "This type of marking indicates that vehicles must not stop or park in that area."
+    "explanation": "Loại vạch này cho biết xe không được dừng hoặc đỗ trong khu vực đó."
   },
   {
-    "question": "A driver catches up to a route bus stopped at a bus stop and waits behind it until the bus starts moving again. Is this required?",
+    "question": "Người lái xe bắt kịp một xe buýt tuyến đang dừng tại trạm xe buýt và chờ phía sau cho đến khi xe buýt bắt đầu di chuyển lại. Điều này có bắt buộc không?",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "Drivers are not always required to wait behind a stopped bus. They may pass carefully if it is safe and permitted."
+    "explanation": "Người lái xe không phải lúc nào cũng bắt buộc phải chờ phía sau xe buýt đang dừng. Họ có thể vượt qua cẩn thận nếu an toàn và được phép."
   },
   {
-    "question": "When approaching a person traveling in a wheelchair, a driver slows down or stops to ensure safety. Is this correct?",
+    "question": "Khi đến gần người sử dụng xe lăn, người lái xe giảm tốc độ hoặc dừng lại để bảo đảm an toàn. Điều này có đúng không?",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "Wheelchair users are vulnerable road users. Drivers must slow down or stop to avoid danger."
+    "explanation": "Người sử dụng xe lăn là đối tượng dễ bị tổn thương khi tham gia giao thông. Người lái xe phải giảm tốc độ hoặc dừng lại để tránh nguy hiểm."
   },
   {
-    "question": "A driver sees a police officer giving a hand signal as shown and believes it indicates a red light for the direction shown by the arrow. Is this correct?",
+    "question": "Người lái xe nhìn thấy cảnh sát ra tín hiệu tay như hình và cho rằng nó biểu thị đèn đỏ đối với hướng được mũi tên chỉ ra. Điều này có đúng không?",
     "image": "police_stop_hand_signal.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "Police signals may override traffic lights and can indicate stop (red) depending on direction. Drivers must follow the officer’s signal."
+    "explanation": "Tín hiệu của cảnh sát có thể ưu tiên hơn đèn giao thông và có thể biểu thị dừng lại (đèn đỏ) tùy theo hướng. Người lái xe phải tuân theo tín hiệu của cảnh sát."
   },
   {
-    "question": "A driver sees this “No Entry” sign and understands that vehicles are prohibited from entering that road. Is this correct?",
+    "question": "Người lái xe nhìn thấy biển “Cấm đi vào” này và hiểu rằng các phương tiện bị cấm đi vào con đường đó. Điều này có đúng không?",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "This sign clearly indicates that entry is not allowed for vehicles."
+    "explanation": "Biển báo này chỉ rõ rằng các phương tiện không được phép đi vào."
   },
   {
-    "question": "A driver encounters an obstacle ahead and slows down or stops but does not give way to oncoming traffic. Is this correct?",
+    "question": "Người lái xe gặp chướng ngại vật phía trước và giảm tốc độ hoặc dừng lại nhưng không nhường đường cho xe đối diện. Điều này có đúng không?",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "When facing an obstacle, drivers must yield to oncoming traffic and ensure safe passage."
+    "explanation": "Khi gặp chướng ngại vật, người lái xe phải nhường đường cho xe đối diện và bảo đảm đi qua an toàn."
   },
   {
-    "question": "A driver believes that seatbelts are not necessary in a vehicle equipped with airbags or when following a police officer’s signal at an intersection. Is this correct?",
+    "question": "Người lái xe cho rằng không cần thắt dây an toàn trong xe có túi khí hoặc khi đi theo tín hiệu của cảnh sát tại giao lộ. Điều này có đúng không?",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "Seatbelts must always be worn, regardless of airbags or traffic control situations."
+    "explanation": "Dây an toàn luôn phải được thắt, bất kể có túi khí hay tình huống điều khiển giao thông."
   },
   {
-    "question": "On the road shown in the figure, a driver understands that they cannot enter the right side of the road to overtake a vehicle ahead. Is this correct?",
+    "question": "Trên con đường được minh họa, người lái xe hiểu rằng họ không được đi sang phần đường bên phải để vượt xe phía trước. Điều này có đúng không?",
     "image": "can_change.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "The statement says the driver cannot enter the right side to overtake. However, in this situation, entering the right side of the road is allowed (when safe and permitted), so the statement is incorrect."
+    "explanation": "Câu này nói rằng người lái xe không được đi sang phần đường bên phải để vượt. Tuy nhiên, trong tình huống này, việc đi sang phần đường bên phải được phép (khi an toàn và hợp pháp), vì vậy câu này không đúng."
   },
   {
-    "question": "When vehicles approach an intersection where the width of each road is the same, car B must not obstruct the path of car A. Is this correct?",
+    "question": "Khi các xe đến giao lộ mà chiều rộng mỗi con đường bằng nhau, xe B không được cản đường xe A. Điều này có đúng không?",
     "image": "B_yield_A.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "At intersections of equal width, vehicles must give way to vehicles approaching from the left. Therefore, car B must yield to car A."
+    "explanation": "Tại giao lộ có chiều rộng bằng nhau, xe phải nhường đường cho xe đến từ bên trái. Vì vậy, xe B phải nhường xe A."
   },
   {
-    "question": "If an emergency vehicle approaches, you must change lanes to give way, even when you are traveling in a designated lane. Is this correct?",
+    "question": "Nếu xe khẩn cấp đến gần, bạn phải chuyển làn để nhường đường, ngay cả khi đang đi trong làn chỉ định. Điều này có đúng không?",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "Drivers must give way to emergency vehicles, but not necessarily by changing lanes. The correct action is to move aside or stop safely, depending on the situation."
+    "explanation": "Người lái xe phải nhường đường cho xe khẩn cấp, nhưng không nhất thiết bằng cách chuyển làn. Hành động đúng là tránh sang bên hoặc dừng lại an toàn tùy tình huống."
   },
   {
-    "question": "When towing a vehicle with a gross weight of 750 kg or less using a regular vehicle, a separate towing license is required in addition to the appropriate license. Is this correct?",
+    "question": "Khi kéo xe có tổng trọng lượng từ 750 kg trở xuống bằng xe thông thường, cần có giấy phép kéo xe riêng ngoài giấy phép phù hợp. Điều này có đúng không?",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "Even when towing a light vehicle (750 kg or less), a towing license may be required depending on licensing conditions."
+    "explanation": "Ngay cả khi kéo xe nhẹ (750 kg trở xuống), giấy phép kéo xe vẫn có thể được yêu cầu tùy theo điều kiện giấy phép."
   },
   {
-    "question": "Vehicles and streetcars facing the red traffic light shown may enter the intersection by slowing down while checking for other traffic. Is this correct?",
+    "question": "Xe cộ và xe điện đường phố đối diện với đèn đỏ được hiển thị có thể đi vào giao lộ bằng cách giảm tốc độ và quan sát giao thông khác. Điều này có đúng không?",
     "image": "red_light.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "A red traffic light means stop. Vehicles and streetcars must not enter the intersection, even if they slow down and check for safety."
+    "explanation": "Đèn đỏ có nghĩa là dừng lại. Xe cộ và xe điện đường phố không được đi vào giao lộ, ngay cả khi giảm tốc độ và kiểm tra an toàn."
   },
   {
-    "question": "This sign indicates that vehicles are prohibited from making a U-turn. Is this correct?",
+    "question": "Biển báo này cho biết các phương tiện bị cấm quay đầu xe. Điều này có đúng không?",
     "image": "no_U_turn.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "his is a regulatory sign that clearly prohibits U-turns."
+    "explanation": "Đây là biển báo quy định cấm quay đầu xe một cách rõ ràng."
   },
   {
-    "question": "It is not necessary to ensure safety when opening or closing a door while a passenger gets in or out of the vehicle. Is this correct?",
+    "question": "Không cần bảo đảm an toàn khi mở hoặc đóng cửa xe trong lúc hành khách lên hoặc xuống xe. Điều này có đúng không?",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "Drivers must always ensure safety when passengers enter or exit the vehicle to avoid accidents."
+    "explanation": "Người lái xe luôn phải bảo đảm an toàn khi hành khách lên hoặc xuống xe để tránh tai nạn."
   },
   {
-    "question": "You must not overtake or pass other vehicles within 30 meters of a crosswalk or bicycle crossing lane. Is this correct?",
+    "question": "Bạn không được vượt hoặc đi qua các phương tiện khác trong phạm vi 30 mét tính từ vạch qua đường hoặc làn băng qua dành cho xe đạp. Điều này có đúng không?",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "Overtaking or passing within 30 meters of a crossing is prohibited to protect pedestrians and cyclists."
+    "explanation": "Việc vượt hoặc đi qua trong phạm vi 30 mét gần khu vực băng qua bị cấm để bảo vệ người đi bộ và người đi xe đạp."
   },
   {
-    "question": "When a vehicle is determined to be illegally parked and a sticker is attached, the user or driver responsible must not remove the sticker. Is this correct?",
+    "question": "Khi một xe bị xác định đỗ trái phép và bị dán giấy thông báo, người sử dụng hoặc người lái xe chịu trách nhiệm không được gỡ bỏ giấy dán đó. Điều này có đúng không?",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "An illegally parked vehicle may be marked with an official sticker. The responsible person must not remove it, as it is part of enforcement procedures."
+    "explanation": "Xe đỗ trái phép có thể bị dán giấy thông báo chính thức. Người chịu trách nhiệm không được tự ý gỡ bỏ vì đó là một phần của quy trình xử lý vi phạm."
   },
   {
-    "question": "This sign indicates that only bicycles are allowed. Is this correct?",
+    "question": "Biển báo này cho biết chỉ xe đạp được phép đi vào. Điều này có đúng không?",
     "image": "bicycle.png",
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "This is a warning sign, indicating the presence of bicycles or a bicycle-related area, not a restriction that limits the road to bicycles only."
+    "explanation": "Đây là biển cảnh báo cho biết có xe đạp hoặc khu vực liên quan đến xe đạp, không phải biển hạn chế chỉ cho phép xe đạp đi vào."
   },
   {
-    "question": "On a one-way road, vehicles may drive from the center to the right side of the roadway. Is this correct?",
+    "question": "Trên đường một chiều, các phương tiện có thể chạy từ giữa đường sang phía bên phải phần đường xe chạy. Điều này có đúng không?",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "On a one-way road, vehicles are allowed to use the full width of the roadway unless otherwise restricted."
+    "explanation": "Trên đường một chiều, các phương tiện được phép sử dụng toàn bộ chiều rộng phần đường xe chạy trừ khi có quy định hạn chế khác."
   },
   {
-    "question": "In the situation shown, car A does not need to give way to car B. Is this correct?",
+    "question": "Trong tình huống được hiển thị, xe A không cần nhường đường cho xe B. Điều này có đúng không?",
     "image": "mitoshi_with_stop.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "Based on the markings/signs(stop sign) in the figure, car B is required to yield. Therefore, car A has priority."
+    "explanation": "Dựa trên vạch kẻ đường/biển báo (biển dừng) trong hình, xe B phải nhường đường. Vì vậy, xe A có quyền ưu tiên."
   },
   {
-    "question": "When practicing driving with a learner’s permit, an experienced driver must sit in the passenger seat, and there are no requirements for that experienced driver. Is this correct?",
+    "question": "Khi tập lái với giấy phép tập lái, một người lái xe có kinh nghiệm phải ngồi ở ghế phụ, và không có yêu cầu nào đối với người lái xe có kinh nghiệm đó. Điều này có đúng không?",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "While an experienced driver must be present, there are requirements (such as holding a valid license for a certain period at least 3 years). Therefore, the statement is incorrect."
+    "explanation": "Mặc dù phải có người lái xe có kinh nghiệm đi cùng, nhưng người đó phải đáp ứng các điều kiện nhất định (ví dụ như có bằng lái hợp lệ trong ít nhất 3 năm). Vì vậy, câu này không đúng."
   },
   {
-    "question": "On a one-way road, a vehicle may enter the crossing side of the road. Is this correct?",
+    "question": "Trên đường một chiều, xe có thể đi vào phần đường đối diện. Điều này có đúng không?",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "Since traffic flows in one direction, entering or using the crossing side is allowed if it follows traffic flow."
+    "explanation": "Vì giao thông chỉ lưu thông theo một hướng nên việc đi vào hoặc sử dụng phần đường đối diện được phép nếu phù hợp với chiều lưu thông."
   },
   {
-    "question": "When a vehicle is determined to be illegally parked and a sticker is attached, the driver or responsible person may remove the sticker. Is this correct?",
+    "question": "Khi một xe bị xác định là đỗ trái phép và bị dán giấy thông báo, người lái xe hoặc người chịu trách nhiệm có thể gỡ bỏ giấy dán đó. Điều này có đúng không?",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "The responsible person must not remove the sticker. It is part of legal enforcement."
+    "explanation": "Người chịu trách nhiệm không được gỡ bỏ giấy dán đó. Đây là một phần của việc xử lý theo pháp luật."
   },
   {
-    "question": "On a road with this stop sign, you may overtake another vehicle if there is no oncoming traffic and safety is confirmed. Is this correct?",
+    "question": "Trên con đường có biển báo dừng này, bạn có thể vượt xe khác nếu không có xe ngược chiều và đã xác nhận an toàn. Điều này có đúng không?",
     "image": "stop_sign.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "A stop sign requires stopping, but does not automatically prohibit overtaking unless other restrictions apply."
+    "explanation": "Biển báo dừng yêu cầu phải dừng lại nhưng không tự động cấm vượt xe trừ khi có quy định hạn chế khác."
   },
   {
-    "question": "In the situation shown, you cannot enter the right side of the road to overtake another vehicle. Is this correct?",
+    "question": "Trong tình huống được hiển thị, bạn không được đi sang phần đường bên phải để vượt xe khác. Điều này có đúng không?",
     "image": "solid_white_line.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "The road markings(solid white line) indicate that entering the right side (opposite lane) is prohibited for overtaking."
+    "explanation": "Vạch kẻ đường (vạch trắng liền) cho biết cấm đi sang phần đường bên phải (làn đối diện) để vượt xe."
   },
   {
-    "question": "A learner’s permit holder may carry a copy of the permit, and if the copy is carried while practicing driving, it is not necessary to carry the original permit. Is this correct?",
+    "question": "Người có giấy phép tập lái có thể mang theo bản sao giấy phép, và nếu mang bản sao khi tập lái thì không cần mang bản gốc. Điều này có đúng không?",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "The original learner’s permit must be carried while driving. A copy alone is not sufficient."
+    "explanation": "Phải mang theo giấy phép tập lái bản gốc khi lái xe. Chỉ mang bản sao là không đủ."
   },
   {
-    "question": "In the situation shown, a vehicle traveling in lane A may change its course to lane B. Is this correct?",
+    "question": "Trong tình huống được hiển thị, xe đi ở làn A có thể chuyển hướng sang làn B. Điều này có đúng không?",
     "image": "can_change.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "Lane markings in the figure allow a lane change from A to B."
+    "explanation": "Vạch kẻ làn đường trong hình cho phép chuyển làn từ A sang B."
   },
   {
-    "question": "When driving across a sidewalk to enter a parking area, you do not need to stop before the sidewalk if you can confirm safety. Is this correct?",
+    "question": "Khi lái xe băng qua vỉa hè để vào bãi đỗ xe, bạn không cần dừng lại trước vỉa hè nếu đã xác nhận an toàn. Điều này có đúng không?",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "Drivers must stop before crossing a sidewalk, regardless of whether safety appears confirmed."
+    "explanation": "Người lái xe phải dừng lại trước khi băng qua vỉa hè, bất kể có vẻ đã an toàn hay chưa."
   },
   {
-    "question": "In the situation shown, vehicle A must proceed slowly when passing through the intersection due to poor visibility caused by obstacles. Is this correct?",
+    "question": "Trong tình huống được hiển thị, xe A phải đi chậm khi qua giao lộ do tầm nhìn kém vì có chướng ngại vật. Điều này có đúng không?",
     "image": "poor_visibility.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "If the intersection is controlled (e.g., by signs or signals), the rule requiring slow movement due to poor visibility does not automatically apply."
+    "explanation": "Nếu giao lộ được điều khiển (ví dụ bằng biển báo hoặc đèn tín hiệu), quy định phải đi chậm do tầm nhìn kém sẽ không tự động áp dụng."
   },
   {
-    "question": "This hand signal by the police officer indicates a red light for the direction shown by the arrow. Is this correct?",
+    "question": "Tín hiệu tay này của cảnh sát cho biết đèn đỏ đối với hướng được mũi tên chỉ ra. Điều này có đúng không?",
     "image": "police_stop_hand_signal.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "Police hand signals override traffic lights and may indicate a stop (red) depending on direction."
+    "explanation": "Tín hiệu tay của cảnh sát có hiệu lực ưu tiên hơn đèn giao thông và có thể biểu thị dừng lại (đèn đỏ) tùy theo hướng."
   },
   {
-    "question": "While stopped at a traffic light, a driver uses a mobile phone, and when the light turns green, starts driving again. Is this acceptable?",
+    "question": "Khi đang dừng chờ đèn đỏ, người lái xe sử dụng điện thoại di động, và khi đèn chuyển xanh thì tiếp tục lái xe. Điều này có được chấp nhận không?",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "Using a mobile phone while driving is prohibited. Even when stopped, it can delay reaction and create danger."
+    "explanation": "Việc sử dụng điện thoại di động khi lái xe là bị cấm. Ngay cả khi đang dừng, điều đó vẫn có thể làm chậm phản ứng và gây nguy hiểm."
   },
   {
-    "question": "You must sound the horn when passing an intersection or the top of a hill where visibility is poor. Is this correct?",
+    "question": "Bạn phải bấm còi khi đi qua giao lộ hoặc đỉnh đồi nơi có tầm nhìn kém. Điều này có đúng không?",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "The horn should be used only when necessary. It is not mandatory in all such situations."
+    "explanation": "Còi chỉ nên được sử dụng khi cần thiết. Không bắt buộc trong mọi tình huống như vậy."
   },
   {
-    "question": "Vehicles and mopeds are allowed to pass through a road regulated by the traffic sign shown. Is this correct?",
+    "question": "Xe ô tô và xe gắn máy được phép đi qua con đường có biển báo giao thông này. Điều này có đúng không?",
     "image": "car_motorcycle_no_entry.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "This sign indicates a prohibition (vehicles and mopeds are restricted). Therefore, they are not allowed to pass."
+    "explanation": "Biển báo này cho biết có sự cấm đoán (xe ô tô và xe gắn máy bị hạn chế). Vì vậy, chúng không được phép đi qua."
   },
   {
-    "question": "This sign indicates that there is a school, kindergarten, or nursery ahead. Is this correct?",
+    "question": "Biển báo này cho biết phía trước có trường học, mẫu giáo hoặc nhà trẻ. Điều này có đúng không?",
     "image": "pedestrian.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "This is a pedestrian (children) warning sign, indicating that children may be present, not specifically that a school or facility is ahead."
+    "explanation": "Đây là biển cảnh báo người đi bộ (trẻ em), cho biết có thể có trẻ em xuất hiện chứ không chỉ cụ thể phía trước có trường học hay cơ sở giáo dục."
   },
   {
-    "question": "If a vehicle is stopped at or before a crosswalk, you must stop before passing that vehicle. Is this correct?",
+    "question": "Nếu có một xe đang dừng tại hoặc trước vạch qua đường, bạn phải dừng lại trước khi vượt qua xe đó. Điều này có đúng không?",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "A stopped vehicle may be yielding to pedestrians. You must stop to avoid endangering pedestrians."
+    "explanation": "Xe đang dừng có thể đang nhường đường cho người đi bộ. Bạn phải dừng lại để tránh gây nguy hiểm cho người đi bộ."
   },
   {
-    "question": "In the situation shown, vehicle A cannot change lanes or turn right at the intersection. Is this correct?",
+    "question": "Trong tình huống được hiển thị, xe A không thể chuyển làn hoặc rẽ phải tại giao lộ. Điều này có đúng không?",
     "image": "change_lane.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "Lane markings restrict both lane changes and turning movements. Drivers must follow the indicated directions."
+    "explanation": "Vạch kẻ làn đường hạn chế cả việc chuyển làn và hướng rẽ. Người lái xe phải tuân theo hướng đi được chỉ định."
   },
   {
-    "question": "When approaching a section of road indicated by this sign, you must gradually move forward to the right while paying attention to vehicles behind you. Is this correct?",
+    "question": "Khi đến gần đoạn đường có biển báo này, bạn phải từ từ di chuyển sang bên phải đồng thời chú ý đến các xe phía sau. Điều này có đúng không?",
     "image": "road_narrowing.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "This sign warns of road narrowing. Drivers must adjust position carefully and remain aware of surrounding traffic."
+    "explanation": "Biển báo này cảnh báo đường bị thu hẹp. Người lái xe phải điều chỉnh vị trí cẩn thận và chú ý đến giao thông xung quanh."
   },
   {
-    "question": "In the situation shown, when a driver extends an arm diagonally downward as seen from the rear, it indicates that the vehicle is slowing down or preparing to stop. Is this correct?",
+    "question": "Trong tình huống được hiển thị, khi người lái xe đưa cánh tay chếch xuống dưới nhìn từ phía sau, điều đó cho biết xe đang giảm tốc độ hoặc chuẩn bị dừng lại. Điều này có đúng không?",
     "image": "hands_down.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "A downward hand signal from the driver indicates deceleration or stopping."
+    "explanation": "Tín hiệu tay hướng xuống dưới của người lái xe cho biết xe đang giảm tốc độ hoặc dừng lại."
   },
   {
-    "question": "When you approach a route bus that is stopped at a bus stop, you must wait behind the bus until it begins moving forward. Is this correct?",
+    "question": "Khi bạn đến gần một xe buýt tuyến đang dừng tại trạm, bạn phải chờ phía sau xe buýt cho đến khi xe bắt đầu di chuyển trở lại. Điều này có đúng không?",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "You may pass a stopped bus if it is safe and no pedestrians are endangered. Waiting is not always required."
+    "explanation": "Bạn có thể vượt qua xe buýt đang dừng nếu an toàn và không gây nguy hiểm cho người đi bộ. Không phải lúc nào cũng cần phải chờ."
   },
   {
-    "question": "You may overtake other vehicles or mopeds on a steep downhill section. Is this correct?",
+    "question": "Bạn có thể vượt các xe khác hoặc xe gắn máy trên đoạn đường dốc xuống steep. Điều này có đúng không?",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "Overtaking is prohibited in dangerous areas such as steep slopes, due to limited control and visibility."
+    "explanation": "Việc vượt xe bị cấm ở những khu vực nguy hiểm như dốc steep vì khả năng kiểm soát và tầm nhìn bị hạn chế."
   },
   {
-    "question": "A learner’s permit holder must display this sign at designated positions on both the front and rear of the vehicle while practicing driving. Is this correct?",
+    "question": "Người có giấy phép tập lái phải gắn biển báo này ở vị trí quy định phía trước và phía sau xe khi tập lái. Điều này có đúng không?",
     "image": "karimen.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "Proper display of learner signs is mandatory for identification and safety."
+    "explanation": "Việc gắn đúng biển báo tập lái là bắt buộc để nhận diện và bảo đảm an toàn."
   },
   {
-    "question": "Vehicles may proceed in the direction shown by a green arrow signal. When the green arrow points to the right, a right turn or U-turn is permitted. Is this correct?",
+    "question": "Các phương tiện có thể đi theo hướng được chỉ bởi đèn mũi tên xanh. Khi mũi tên xanh chỉ sang phải, được phép rẽ phải hoặc quay đầu xe. Điều này có đúng không?",
     "image": "green_arrow_proceed.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "A green arrow allows movement only in the indicated direction, including permitted turns."
+    "explanation": "Mũi tên xanh chỉ cho phép di chuyển theo hướng được chỉ định, bao gồm cả các hướng rẽ được phép."
   },
   {
-    "question": "The diamond-shaped pavement marking indicates that a pedestrian crossing or bicycle crossing may be ahead. Is this correct?",
+    "question": "Vạch kẻ hình thoi trên mặt đường cho biết phía trước có thể có vạch qua đường cho người đi bộ hoặc xe đạp. Điều này có đúng không?",
     "image": "diamond_markings.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "These markings warn drivers to prepare for crossing areas ahead."
+    "explanation": "Các vạch này cảnh báo người lái xe chuẩn bị cho khu vực băng qua phía trước."
   },
   {
-    "question": "Even on roads where lanes are separated by yellow lines, vehicles may cross the line to change lanes when making a left or right turn. Is this correct?",
+    "question": "Ngay cả trên những con đường có làn đường được phân cách bằng vạch vàng, xe vẫn có thể vượt qua vạch để chuyển làn khi rẽ trái hoặc rẽ phải. Điều này có đúng không?",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "Crossing yellow lines is generally prohibited, but exceptions exist for turning movements when necessary."
+    "explanation": "Việc vượt qua vạch vàng nhìn chung bị cấm, nhưng có ngoại lệ đối với thao tác rẽ khi cần thiết."
   },
   {
-    "question": "Where this sign is present, you must not enter the right side of the road in order to overtake another vehicle. Is this correct?",
+    "question": "Tại nơi có biển báo này, bạn không được đi sang phần đường bên phải để vượt xe khác. Điều này có đúng không?",
     "image": "no_overtaking.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "This sign indicates no overtaking, which includes entering the opposite lane."
+    "explanation": "Biển báo này cho biết cấm vượt xe, bao gồm cả việc đi sang làn đối diện."
   },
   {
-    "question": "The driver’s seat should be adjusted so that the knee is stretched when pressing the clutch pedal. Is this correct?",
+    "question": "Ghế lái nên được điều chỉnh sao cho đầu gối duỗi ra khi đạp bàn đạp ly hợp. Điều này có đúng không?",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "A slightly extended leg allows proper control and full pedal operation."
+    "explanation": "Chân hơi duỗi giúp kiểm soát tốt và vận hành đầy đủ bàn đạp."
   },
   {
-    "question": "Using a mobile phone or looking at a navigation screen while driving does not affect attention and will not lead to danger or accidents. Is this correct?",
+    "question": "Sử dụng điện thoại di động hoặc nhìn vào màn hình định vị khi lái xe không ảnh hưởng đến sự chú ý và sẽ không dẫn đến nguy hiểm hoặc tai nạn. Điều này có đúng không?",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "These actions reduce attention and significantly increase accident risk."
+    "explanation": "Những hành động này làm giảm sự chú ý và làm tăng đáng kể nguy cơ tai nạn."
   },
   {
-    "question": "This sign indicates that driving on the right side of the road is prohibited only when overtaking. Is this correct?",
+    "question": "Biển báo này cho biết việc lái xe ở phần đường bên phải chỉ bị cấm khi vượt xe. Điều này có đúng không?",
     "image": "no_vehicle_entry.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "The sign does not specifically refer to overtaking only. The statement misinterprets its meaning"
+    "explanation": "Biển báo này không chỉ đề cập riêng đến việc vượt xe. Câu này hiểu sai ý nghĩa của biển báo."
   },
   {
-    "question": "After entering an intersection, you may turn right before an oncoming vehicle. Is this correct?",
+    "question": "Sau khi đã đi vào giao lộ, bạn có thể rẽ phải trước xe ngược chiều. Điều này có đúng không?",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "You must yield to oncoming traffic when turning right."
+    "explanation": "Bạn phải nhường đường cho xe ngược chiều khi rẽ phải."
   },
   {
-    "question": "When passing a school or kindergarten bus that is stopped to drop off children, you must always stop behind the bus. Is this correct?",
+    "question": "Khi vượt qua xe buýt trường học hoặc xe buýt mẫu giáo đang dừng để cho trẻ xuống xe, bạn luôn phải dừng phía sau xe buýt. Điều này có đúng không?",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "You must slow down and ensure safety, but stopping is not always required."
+    "explanation": "Bạn phải giảm tốc độ và bảo đảm an toàn, nhưng không phải lúc nào cũng bắt buộc phải dừng lại."
   },
   {
-    "question": "In the situation shown, vehicle A is parked illegally. Is this correct?",
+    "question": "Trong tình huống được hiển thị, xe A đang đỗ trái phép. Điều này có đúng không?",
     "image": "No_Parking_with_arrow_left.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "The sign shown indicates no parking, but conditions (such as temporary stopping or other context) may make the situation legal."
+    "explanation": "Biển báo được hiển thị cho biết cấm đỗ xe, nhưng các điều kiện khác (như dừng tạm thời hoặc bối cảnh khác) có thể khiến tình huống này hợp pháp."
   },
   {
-    "question": "When passing a school or kindergarten bus that is stopped to drop off children, you must always stop behind the bus. Is this correct?",
+    "question": "Khi vượt qua xe buýt trường học hoặc xe buýt mẫu giáo đang dừng để cho trẻ xuống xe, bạn luôn phải dừng phía sau xe buýt. Điều này có đúng không?",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "You must slow down and ensure safety, but stopping is not always required."
+    "explanation": "Bạn phải giảm tốc độ và bảo đảm an toàn, nhưng không phải lúc nào cũng bắt buộc phải dừng lại."
   },
   {
-    "question": "When approaching a road marked with this sign, you do not need to slow down if you can clearly check both left and right. Is this correct?",
+    "question": "Khi đến gần con đường có biển báo này, bạn không cần giảm tốc độ nếu có thể quan sát rõ cả bên trái và bên phải. Điều này có đúng không?",
     "image": "yokei.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "This sign means you must slow down, regardless of visibility. It is a mandatory action."
+    "explanation": "Biển báo này có nghĩa là bạn phải giảm tốc độ bất kể tầm nhìn. Đây là hành động bắt buộc."
   },
   {
-    "question": "This sign means that vehicles are not allowed to turn either right or left. Is this correct?",
+    "question": "Biển báo này có nghĩa là xe không được phép rẽ phải hoặc rẽ trái. Điều này có đúng không?",
     "image": "direction_left_and_right.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "The sign actually means vehicles must proceed either left or right. Straight movement is not allowed."
+    "explanation": "Biển báo này thực ra có nghĩa là xe phải đi sang trái hoặc sang phải. Không được đi thẳng."
   },
   {
-    "question": "“Slowing down” means reducing speed so that the vehicle can stop immediately at any time, which generally corresponds to a speed of less than 10 km/h. Is this correct?",
+    "question": "“Giảm tốc độ” có nghĩa là giảm tốc sao cho xe có thể dừng lại ngay lập tức bất cứ lúc nào, thường tương ứng với tốc độ dưới 10 km/h. Điều này có đúng không?",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "This matches the official definition used in driving rules."
+    "explanation": "Điều này phù hợp với định nghĩa chính thức được sử dụng trong luật giao thông."
   },
   {
-    "question": "This sign indicates that pedestrian crossing is prohibited. Is this correct?",
+    "question": "Biển báo này cho biết cấm người đi bộ băng qua đường. Điều này có đúng không?",
     "image": "oudan_kinshi.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "The sign clearly prohibits pedestrians from crossing."
+    "explanation": "Biển báo này rõ ràng cấm người đi bộ băng qua đường."
   },
   {
-    "question": "Drivers must comply with the conditions written on their driver’s license, such as using an automatic transmission vehicle or wearing corrective lenses. Is this correct?",
+    "question": "Người lái xe phải tuân thủ các điều kiện ghi trên bằng lái xe của mình, chẳng hạn như sử dụng xe số tự động hoặc đeo kính điều chỉnh thị lực. Điều này có đúng không?",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "License conditions are legally binding and must always be followed."
+    "explanation": "Các điều kiện trên bằng lái có tính ràng buộc pháp lý và luôn phải được tuân thủ."
   },
   {
-    "question": "The pavement marking shown indicates that stopping or parking is prohibited in this area. Is this correct?",
+    "question": "Vạch kẻ mặt đường được hiển thị cho biết cấm dừng hoặc đỗ xe trong khu vực này. Điều này có đúng không?",
     "image": "stopping.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "This marking indicates a restricted area, but the statement as written is not fully accurate for all conditions."
+    "explanation": "Vạch kẻ này cho biết khu vực bị hạn chế, nhưng câu mô tả không hoàn toàn chính xác trong mọi điều kiện."
   },
   {
-    "question": "To enter a gas station located on the right side of the road, a driver may turn right from the far-left side of the road and cross the center line to enter the facility. Is this correct?",
+    "question": "Để vào trạm xăng nằm bên phải đường, người lái xe có thể rẽ phải từ phía ngoài cùng bên trái của đường và cắt qua vạch giữa để vào cơ sở đó. Điều này có đúng không?",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "Crossing the center line is allowed when necessary to enter a roadside facility such as a gas station."
+    "explanation": "Được phép cắt qua vạch giữa khi cần thiết để vào cơ sở ven đường như trạm xăng."
   },
   {
-    "question": "When facing a flashing yellow signal, pedestrians, vehicles, and trams may proceed carefully while paying attention to surrounding traffic. Is this correct?",
+    "question": "Khi gặp tín hiệu đèn vàng nhấp nháy, người đi bộ, xe cộ và xe điện có thể đi tiếp cẩn thận đồng thời chú ý giao thông xung quanh. Điều này có đúng không?",
     "image": "yellow_light.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "A flashing yellow light means proceed with caution, not stop."
+    "explanation": "Đèn vàng nhấp nháy có nghĩa là đi cẩn thận, không phải dừng lại."
   },
   {
-    "question": "On a road with this sign, parking is permitted between 8:00 and 20:00. Is this correct?",
+    "question": "Trên con đường có biển báo này, được phép đỗ xe từ 8:00 đến 20:00. Điều này có đúng không?",
     "image": "time_restriction.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "Drivers must give way to emergency vehicles, but not necessarily by changing lanes. The correct action is to move aside or stop safely, depending on the situation."
+    "explanation": "Người lái xe phải nhường đường cho xe khẩn cấp, nhưng không nhất thiết bằng cách chuyển làn. Hành động đúng là tránh sang bên hoặc dừng lại an toàn tùy tình huống."
   },
   {
-    "question": "When driving a vehicle equipped with airbags, it is not necessary to wear a seatbelt. Is this correct?",
+    "question": "Khi lái xe có trang bị túi khí, không cần phải thắt dây an toàn. Điều này có đúng không?",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "Seatbelts are always required, even in vehicles with airbags."
+    "explanation": "Dây an toàn luôn bắt buộc, kể cả trên xe có túi khí."
   },
   {
-    "question": "This sign indicates that a large intersection lies ahead. Is this correct?",
+    "question": "Biển báo này cho biết phía trước có một giao lộ lớn. Điều này có đúng không?",
     "image": "big_arrow_road_sign.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "The sign warns of a major intersection ahead, requiring attention."
+    "explanation": "Biển báo này cảnh báo phía trước có giao lộ lớn, yêu cầu chú ý."
   },
   {
-    "question": "You may stop your vehicle in a “no stopping zone” in front of a police or fire station if no emergency vehicles are approaching. Is this correct?",
+    "question": "Bạn có thể dừng xe trong “khu vực cấm dừng” phía trước đồn cảnh sát hoặc trạm cứu hỏa nếu không có xe khẩn cấp đang đến gần. Điều này có đúng không?",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "Stopping is strictly prohibited in these zones regardless of conditions."
+    "explanation": "Việc dừng xe bị cấm nghiêm ngặt trong các khu vực này bất kể điều kiện nào."
   },
   {
-    "question": "On a rainy day, when stopping on a steel plate at a roadwork site, it is safer to brake suddenly. Is this correct?",
+    "question": "Vào ngày mưa, khi dừng xe trên tấm thép tại khu vực thi công đường, phanh gấp sẽ an toàn hơn. Điều này có đúng không?",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "Sudden braking can cause slipping. Smooth and gradual braking is required."
+    "explanation": "Phanh gấp có thể làm xe bị trượt. Cần phanh nhẹ nhàng và từ từ."
   },
   {
-    "question": "This sign indicates the end of a section or zone where a traffic regulation (shown by another sign) applies. Is this correct?",
+    "question": "Biển báo này cho biết kết thúc đoạn đường hoặc khu vực mà một quy định giao thông (được hiển thị bằng biển báo khác) còn hiệu lực. Điều này có đúng không?",
     "image": "slash_arrow.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "This sign marks the end of a restriction or regulation zone, meaning the previous rule no longer applies beyond this point."
+    "explanation": "Biển báo này đánh dấu kết thúc khu vực hạn chế hoặc quy định, nghĩa là quy tắc trước đó không còn áp dụng sau điểm này."
   },
   {
-    "question": "When driving downhill in a vehicle with automatic transmission, you should shift the gear into L or 1. Is this correct?",
+    "question": "Khi lái xe số tự động xuống dốc, bạn nên chuyển số sang L hoặc 1. Điều này có đúng không?",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "Lower gears may be used for engine braking, but the statement is too absolute. It is not always required in all downhill situations."
+    "explanation": "Có thể sử dụng số thấp để phanh bằng động cơ, nhưng câu này quá tuyệt đối. Không phải lúc nào cũng bắt buộc trong mọi tình huống xuống dốc."
   },
   {
-    "question": "When a police officer controlling traffic raises both arms straight up vertically, this signal has the same meaning as a yellow traffic light for traffic moving parallel to the officer. Is this correct?",
+    "question": "Khi cảnh sát điều khiển giao thông giơ thẳng cả hai tay lên theo phương thẳng đứng, tín hiệu này có cùng ý nghĩa với đèn vàng đối với dòng xe đi song song với cảnh sát. Điều này có đúng không?",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "This hand signal does not correspond to a yellow light for parallel traffic. The interpretation in the statement is incorrect."
+    "explanation": "Tín hiệu tay này không tương ứng với đèn vàng đối với dòng xe đi song song. Cách hiểu trong câu là không đúng."
   },
   {
-    "question": "When passing a streetcar, drivers should normally overtake from the left side, except where the streetcar tracks are positioned along the far left side of the road.",
+    "question": "Khi vượt xe điện, người lái xe thông thường nên vượt bên trái, ngoại trừ trường hợp đường ray xe điện nằm sát mép trái của đường.",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "In Japan, vehicles generally pass streetcars on the left. However, if the tracks run along the left edge of the roadway, passing on the right may be permitted depending on road conditions."
+    "explanation": "Tại Nhật Bản, các phương tiện thông thường vượt xe điện từ bên trái. Tuy nhiên, nếu đường ray nằm sát mép trái của phần đường, việc vượt bên phải có thể được phép tùy theo điều kiện giao thông."
   },
   {
-    "question": "Whenever traveling beside a pedestrian, drivers are required to continue at a very slow speed at all times.",
+    "question": "Bất cứ khi nào đi cạnh người đi bộ, người lái xe bắt buộc phải luôn di chuyển với tốc độ rất chậm.",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "Drivers must slow down only when necessary to protect pedestrians and ensure safety. The required speed depends on the situation and available space."
+    "explanation": "Người lái xe chỉ cần giảm tốc độ khi cần thiết để bảo vệ người đi bộ và bảo đảm an toàn. Tốc độ phù hợp phụ thuộc vào tình huống và khoảng cách hiện có."
   },
   {
-    "question": "If lanes are separated by a yellow line, drivers are never allowed to cross it, even to make room for an approaching emergency vehicle.",
+    "question": "Nếu các làn đường được phân cách bằng vạch vàng, người lái xe tuyệt đối không được phép vượt qua vạch đó, kể cả để nhường đường cho xe khẩn cấp đang đến.",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "Drivers may cross a yellow line when necessary to safely yield to an emergency vehicle. Giving priority to emergency vehicles is an important legal obligation."
+    "explanation": "Người lái xe có thể vượt qua vạch vàng khi cần thiết để nhường đường an toàn cho xe khẩn cấp. Nhường đường cho xe khẩn cấp là nghĩa vụ pháp lý quan trọng."
   },
   {
-    "question": "The posted sign means that both ordinary automobiles and standard motorized bicycles may travel at exactly 50 km/h.",
+    "question": "Biển báo hiển thị có nghĩa là cả ô tô thông thường và xe gắn máy động cơ tiêu chuẩn đều có thể chạy đúng 50 km/h.",
     "image": "50.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "While ordinary automobiles may follow the posted 50 km/h limit, some vehicle categories such as certain motorized bicycles may have lower legal maximum speeds. Drivers must follow the limit that applies to their vehicle type."
+    "explanation": "Trong khi ô tô thông thường có thể tuân theo giới hạn 50 km/h được hiển thị, một số loại phương tiện như xe gắn máy động cơ nhất định có thể có tốc độ tối đa hợp pháp thấp hơn. Người lái xe phải tuân theo giới hạn áp dụng cho loại phương tiện của mình."
   },
   {
-    "question": "A school or kindergarten bus stopping to load or unload children should use its hazard warning lights.",
+    "question": "Xe buýt trường học hoặc xe buýt mẫu giáo khi dừng để đón hoặc trả trẻ em nên bật đèn cảnh báo nguy hiểm.",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "Hazard flashers help alert nearby drivers that children may be entering or leaving the vehicle. This encourages surrounding traffic to proceed carefully and cautiously."
+    "explanation": "Đèn cảnh báo giúp thông báo cho các tài xế xung quanh rằng trẻ em có thể đang lên hoặc xuống xe. Điều này khuyến khích các phương tiện xung quanh đi cẩn thận hơn."
   },
   {
-    "question": "A special towing qualification is not required when pulling a disabled vehicle using a rope, tow truck, or similar equipment.",
+    "question": "Không cần giấy phép kéo xe chuyên dụng khi kéo một xe bị hỏng bằng dây kéo, xe cứu hộ hoặc thiết bị tương tự.",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "In Japan, a separate towing license is generally unnecessary for simple towing of a disabled vehicle under certain legal conditions. However, proper safety measures and towing rules must still be followed."
+    "explanation": "Tại Nhật Bản, thường không cần giấy phép kéo xe riêng cho việc kéo đơn giản một xe bị hỏng trong một số điều kiện pháp lý nhất định. Tuy nhiên, vẫn phải tuân thủ các quy tắc an toàn và quy định kéo xe."
   },
   {
-    "question": "Drivers should use hand signals or a light signal when slowing down or bringing the vehicle to a stop if necessary.",
+    "question": "Người lái xe nên sử dụng tín hiệu tay hoặc tín hiệu đèn khi giảm tốc độ hoặc dừng xe nếu cần thiết.",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "Signaling your intentions helps warn vehicles behind you and improves road safety. Hand or light signals may be used when normal brake or signal lights are unavailable or insufficient."
+    "explanation": "Việc báo hiệu ý định của bạn giúp cảnh báo các xe phía sau và tăng an toàn giao thông. Tín hiệu tay hoặc đèn có thể được sử dụng khi đèn phanh hoặc đèn tín hiệu thông thường không hoạt động hoặc không đủ rõ."
   },
   {
-    "question": "In an automatic transmission vehicle, you should keep the brake pedal pressed and place the selector in “P” or “N” while stopped, because the vehicle may move slightly due to creep phenomenon.",
+    "question": "Trên xe số tự động, bạn nên giữ đạp phanh và để cần số ở vị trí “P” hoặc “N” khi dừng xe, vì xe có thể hơi di chuyển do hiện tượng creep.",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "Automatic vehicles can slowly move forward even without pressing the accelerator because of engine idle power transfer. Keeping the brake applied helps prevent unintended movement."
+    "explanation": "Xe số tự động có thể từ từ tiến lên ngay cả khi không đạp ga do lực truyền động khi động cơ chạy không tải. Giữ phanh sẽ giúp ngăn xe di chuyển ngoài ý muốn."
   },
   {
-    "question": "The displayed symbol identifies a vehicle driven by an elderly motorist aged 60 or older.",
+    "question": "Biểu tượng hiển thị cho biết xe được điều khiển bởi người lái xe cao tuổi từ 60 tuổi trở lên.",
     "image": "senior.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "This is Japan’s elderly driver mark, which is generally associated with drivers aged 70 and above, not 60. The mark encourages surrounding drivers to show extra caution and consideration."
+    "explanation": "Đây là ký hiệu người lái xe cao tuổi của Nhật Bản, thường áp dụng cho người lái xe từ 70 tuổi trở lên chứ không phải 60 tuổi. Ký hiệu này nhằm khuyến khích các tài xế xung quanh chú ý và nhường nhịn hơn."
   },
   {
-    "question": "You must avoid blocking or disturbing pedestrians and other traffic when making a U-turn, reversing, or crossing across the roadway.",
+    "question": "Bạn phải tránh cản trở hoặc gây khó khăn cho người đi bộ và các phương tiện khác khi quay đầu xe, lùi xe hoặc băng ngang qua đường.",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "Drivers must only perform these maneuvers when it is safe and without interfering with surrounding traffic. Safety and smooth traffic flow always take priority."
+    "explanation": "Người lái xe chỉ được thực hiện các thao tác này khi an toàn và không gây cản trở giao thông xung quanh. An toàn và lưu thông thông suốt luôn được ưu tiên."
   },
   {
-    "question": "If an emergency vehicle approaches on a one-way street, drivers are always required to move to the left side of the road.",
+    "question": "Nếu xe khẩn cấp đến trên đường một chiều, người lái xe luôn phải tránh sang bên trái của đường.",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "On one-way roads in Japan, drivers should move to whichever side is safest and allows the emergency vehicle to pass smoothly. It is not always specifically the left side."
+    "explanation": "Trên đường một chiều tại Nhật Bản, người lái xe nên tránh sang phía an toàn nhất để xe khẩn cấp đi qua dễ dàng. Không phải lúc nào cũng nhất thiết là bên trái."
   },
   {
-    "question": "If the traffic signal turns yellow while you are entering an intersection, you must stop immediately where you are.",
+    "question": "Nếu đèn giao thông chuyển sang màu vàng khi bạn đang đi vào giao lộ, bạn phải dừng lại ngay tại chỗ.",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "A driver who cannot stop safely before the stop line may continue through the intersection carefully. Sudden stopping inside the intersection can create danger."
+    "explanation": "Nếu người lái xe không thể dừng an toàn trước vạch dừng, họ có thể tiếp tục đi qua giao lộ một cách cẩn thận. Việc dừng đột ngột trong giao lộ có thể gây nguy hiểm."
   },
   {
-    "question": "Passengers do not need to wear seatbelts if the vehicle is equipped with airbags.",
+    "question": "Hành khách không cần thắt dây an toàn nếu xe được trang bị túi khí.",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "Airbags are designed to work together with seatbelts, not replace them. Japanese traffic law requires passengers to wear seatbelts for safety."
+    "explanation": "Túi khí được thiết kế để hoạt động cùng với dây an toàn chứ không thay thế dây an toàn. Luật giao thông Nhật Bản yêu cầu hành khách phải thắt dây an toàn để bảo đảm an toàn."
   },
   {
-    "question": "On roads with several lanes, changing lanes freely always helps traffic move smoothly and prevents accidents.",
+    "question": "Trên đường có nhiều làn xe, việc chuyển làn tự do luôn giúp giao thông lưu thông trơn tru và ngăn ngừa tai nạn.",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "Unnecessary lane changes can increase the risk of collisions and disrupt traffic flow. Drivers should remain in their lane unless changing lanes is necessary and safe."
+    "explanation": "Việc chuyển làn không cần thiết có thể làm tăng nguy cơ va chạm và gây rối loạn lưu thông. Người lái xe nên giữ nguyên làn đường trừ khi việc chuyển làn là cần thiết và an toàn."
   },
   {
-    "question": "The sign shown indicates a designated safety area for pedestrians or protected road users.",
+    "question": "Biển báo được hiển thị chỉ khu vực an toàn dành riêng cho người đi bộ hoặc người tham gia giao thông cần được bảo vệ.",
     "image": "safety_zone.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "In Japan, safety zones are marked to provide a protected space for pedestrians or passengers. Drivers must avoid entering or obstructing these areas unless absolutely necessary."
+    "explanation": "Tại Nhật Bản, khu vực an toàn được đánh dấu để tạo không gian bảo vệ cho người đi bộ hoặc hành khách. Người lái xe phải tránh đi vào hoặc cản trở các khu vực này trừ khi thực sự cần thiết."
   },
   {
-    "question": "The two traffic control poses shown by the police officer mean “stop” for vehicles facing the officer, similar to a red traffic signal.",
+    "question": "Hai tư thế điều khiển giao thông được hiển thị của cảnh sát có nghĩa là “dừng lại” đối với các xe hướng về phía cảnh sát, tương tự như đèn đỏ.",
     "image": "two_policemen.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "Japanese traffic officers use hand signals that carry the same authority as traffic lights. Drivers facing these signals must stop and wait for further instruction."
+    "explanation": "Cảnh sát giao thông Nhật Bản sử dụng tín hiệu tay có hiệu lực tương đương đèn giao thông. Các xe đối diện tín hiệu này phải dừng lại và chờ hướng dẫn tiếp theo."
   },
   {
-    "question": "When an emergency vehicle approaches away from an intersection, drivers may move to the left side of the road without always making a complete stop, as long as the vehicle can pass safely.",
+    "question": "Khi xe khẩn cấp đến ở khu vực không gần giao lộ, người lái xe có thể tránh sang bên trái đường mà không nhất thiết phải dừng hẳn, miễn là xe khẩn cấp có thể đi qua an toàn.",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "Under Japanese traffic rules, drivers should yield smoothly and safely to emergency vehicles. A complete stop is not always required if pulling aside safely is enough to allow passage."
+    "explanation": "Theo luật giao thông Nhật Bản, người lái xe nên nhường đường cho xe khẩn cấp một cách an toàn và trôi chảy. Không phải lúc nào cũng cần dừng hẳn nếu chỉ cần tránh sang bên là đủ để xe đi qua."
   },
   {
-    "question": "The sign shown marks a roadway reserved mainly for pedestrians and bicycles. Motor vehicles may only cross it when entering or leaving nearby properties or parking areas.",
+    "question": "Biển báo hiển thị đánh dấu đoạn đường chủ yếu dành cho người đi bộ và xe đạp. Xe cơ giới chỉ được đi qua khi vào hoặc ra khỏi các cơ sở hoặc bãi đỗ xe gần đó.",
     "image": "pedestrian_and_bicycle.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "In Japan, this type of road is intended to protect pedestrians and cyclists from regular vehicle traffic. Cars and motorcycles are only allowed to cross it in limited situations such as accessing roadside facilities."
+    "explanation": "Tại Nhật Bản, loại đường này nhằm bảo vệ người đi bộ và người đi xe đạp khỏi giao thông xe cơ giới thông thường. Ô tô và xe máy chỉ được phép đi qua trong các trường hợp hạn chế như vào các cơ sở ven đường."
   },
   {
-    "question": "Heavy traffic can become dangerous if even one driver or pedestrian behaves carelessly or ignores others on the road.",
+    "question": "Giao thông đông đúc có thể trở nên nguy hiểm nếu chỉ một người lái xe hoặc người đi bộ hành động bất cẩn hoặc không quan tâm đến người khác trên đường.",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "Safe traffic flow depends on cooperation and consideration from everyone using the road. Reckless behavior can quickly lead to congestion or accidents."
+    "explanation": "Lưu thông an toàn phụ thuộc vào sự hợp tác và ý thức của tất cả mọi người sử dụng đường. Hành vi liều lĩnh có thể nhanh chóng dẫn đến ùn tắc hoặc tai nạn."
   },
   {
-    "question": "When an emergency vehicle approaches near an intersection, drivers must immediately stop exactly where they are.",
+    "question": "Khi xe khẩn cấp đến gần giao lộ, người lái xe phải dừng ngay lập tức đúng tại vị trí hiện tại của mình.",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "Japanese traffic rules require drivers to avoid blocking intersections whenever possible. Drivers should move safely to the side and stop in a location that allows the emergency vehicle to pass smoothly."
+    "explanation": "Luật giao thông Nhật Bản yêu cầu người lái xe tránh cản trở giao lộ nếu có thể. Người lái xe nên tránh sang bên an toàn và dừng ở vị trí cho phép xe khẩn cấp đi qua dễ dàng."
   },
   {
-    "question": "At a red traffic signal with a right-turn directional sign, passenger cars and large trucks may turn right, but motorcycles are not allowed to do so.",
+    "question": "Tại đèn đỏ có biển chỉ dẫn rẽ phải, xe con và xe tải lớn có thể rẽ phải nhưng xe máy thì không được phép.",
     "image": "green_arrow_proceed.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "In Japan, a directional arrow signal applies to all vehicle types traveling in the permitted direction unless another restriction is posted. Motorcycles may also proceed if the signal allows the movement."
+    "explanation": "Tại Nhật Bản, tín hiệu mũi tên chỉ hướng áp dụng cho tất cả các loại phương tiện đi theo hướng được phép trừ khi có hạn chế khác được hiển thị. Xe máy cũng có thể đi nếu tín hiệu cho phép."
   },
   {
-    "question": "Driving while your license is suspended is treated the same as simply forgetting to carry your driver’s license.",
+    "question": "Lái xe khi bằng lái đang bị đình chỉ được xem giống như chỉ quên mang theo bằng lái.",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "Operating a vehicle with a suspended license is considered unlicensed driving, which is a much more serious violation than failing to carry your license card."
+    "explanation": "Điều khiển phương tiện khi bằng lái bị đình chỉ được xem là lái xe không có bằng hợp lệ, đây là vi phạm nghiêm trọng hơn nhiều so với việc quên mang bằng lái."
   },
   {
-    "question": "The sign shown means that a bicycle crossing is located ahead.",
+    "question": "Biển báo hiển thị có nghĩa là phía trước có chỗ băng qua dành cho xe đạp.",
     "image": "Japanese_bicycle_sign.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "This sign indicates a route or area designated for bicycles, not specifically a bicycle crossing. Bicycle crossing signs use different markings and symbols."
+    "explanation": "Biển báo này chỉ tuyến đường hoặc khu vực dành cho xe đạp, không phải chỗ băng qua dành cho xe đạp. Biển báo chỗ băng qua xe đạp sử dụng ký hiệu và vạch khác."
   },
   {
-    "question": "If another vehicle is stopped before a pedestrian crossing or bicycle crossing, you must stop before passing that vehicle and moving ahead.",
+    "question": "Nếu một xe khác đang dừng trước vạch qua đường cho người đi bộ hoặc xe đạp, bạn phải dừng trước khi vượt qua xe đó và đi tiếp.",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "A stopped vehicle near a crossing may be yielding to pedestrians or cyclists that are difficult to see. Japanese traffic rules require drivers to stop and check carefully before proceeding."
+    "explanation": "Xe đang dừng gần nơi băng qua đường có thể đang nhường cho người đi bộ hoặc người đi xe đạp khó quan sát thấy. Luật giao thông Nhật Bản yêu cầu người lái xe dừng lại và kiểm tra cẩn thận trước khi đi tiếp."
   },
   {
-    "question": "Passing another vehicle is prohibited on a pedestrian crossing and within 30 meters before reaching the crossing.",
+    "question": "Cấm vượt xe khác trên vạch qua đường cho người đi bộ và trong phạm vi 30 mét trước vạch qua đường.",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "Overtaking near crosswalks is dangerous because pedestrians may suddenly appear from beside another vehicle. Japanese traffic rules restrict overtaking in these areas to protect pedestrians."
+    "explanation": "Việc vượt xe gần vạch qua đường rất nguy hiểm vì người đi bộ có thể bất ngờ xuất hiện bên cạnh xe khác. Luật giao thông Nhật Bản hạn chế việc vượt xe tại các khu vực này để bảo vệ người đi bộ."
   },
   {
-    "question": "When entering a main road or a road with priority from a side street, drivers must slow down, and in some situations they may also need to stop and yield.",
+    "question": "Khi nhập vào đường chính hoặc đường ưu tiên từ đường nhánh, người lái xe phải giảm tốc độ, và trong một số trường hợp cũng cần dừng lại và nhường đường.",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "Vehicles entering from smaller roads must pay attention to traffic already traveling on the priority road. Stopping may be necessary when visibility is poor or traffic conditions require it."
+    "explanation": "Các phương tiện đi ra từ đường nhỏ phải chú ý đến giao thông đang lưu thông trên đường ưu tiên. Có thể cần dừng lại khi tầm nhìn kém hoặc điều kiện giao thông yêu cầu."
   },
   {
-    "question": "A driver operating a large vehicle with towing equipment must also hold a towing license when pulling a vehicle whose total weight exceeds 750 kg.",
+    "question": "Người lái xe điều khiển xe lớn có thiết bị kéo cũng phải có giấy phép kéo xe khi kéo một xe có tổng trọng lượng vượt quá 750 kg.",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "In Japan, towing heavier vehicles requires a separate towing qualification in addition to the license for the main vehicle. This rule helps ensure drivers have proper towing knowledge and control skills."
+    "explanation": "Tại Nhật Bản, kéo các xe nặng hơn yêu cầu phải có giấy phép kéo xe riêng ngoài giấy phép của xe chính. Quy định này nhằm bảo đảm người lái có đủ kiến thức và kỹ năng điều khiển khi kéo xe."
   },
   {
-    "question": "Before making a right turn, you should move close to the center of the road immediately before the intersection.",
+    "question": "Trước khi rẽ phải, bạn nên di chuyển sát gần giữa đường ngay trước giao lộ.",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "Drivers should position the vehicle for a right turn gradually and with enough advance notice, not suddenly just before the intersection. Smooth early positioning helps maintain safety and predictable traffic flow."
+    "explanation": "Người lái xe nên chuẩn bị vị trí để rẽ phải từ từ và đủ sớm, không nên chuyển hướng đột ngột ngay trước giao lộ. Việc chuẩn bị sớm giúp duy trì an toàn và lưu thông ổn định."
   },
   {
-    "question": "Drivers should keep enough distance from the vehicle ahead so they can stop safely if the vehicle in front brakes suddenly, and this following distance should become greater at higher speeds.",
+    "question": "Người lái xe nên giữ khoảng cách đủ với xe phía trước để có thể dừng an toàn nếu xe trước phanh gấp, và khoảng cách này cần lớn hơn khi tốc độ cao hơn.",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "Higher speeds increase stopping distance and reduce reaction time. Maintaining a larger gap helps prevent rear-end collisions and improves overall road safety."
+    "explanation": "Tốc độ cao làm tăng quãng đường dừng xe và giảm thời gian phản ứng. Giữ khoảng cách lớn hơn giúp ngăn ngừa va chạm từ phía sau và tăng an toàn giao thông."
   },
   {
-    "question": "Before moving your vehicle from a parked position, you should check around the car for safety, use your turn signal, and confirm traffic conditions again with mirrors and visual checks before starting.",
+    "question": "Trước khi cho xe rời khỏi vị trí đỗ, bạn nên kiểm tra an toàn xung quanh xe, bật tín hiệu xin đường và xác nhận lại điều kiện giao thông bằng gương và quan sát trực tiếp trước khi khởi hành.",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "In Japan, drivers are expected to carefully confirm safety before entering traffic. Double-checking mirrors and blind spots helps prevent collisions with pedestrians, bicycles, or approaching vehicles."
+    "explanation": "Tại Nhật Bản, người lái xe được yêu cầu xác nhận an toàn cẩn thận trước khi nhập vào dòng giao thông. Kiểm tra lại gương và điểm mù giúp tránh va chạm với người đi bộ, xe đạp hoặc phương tiện đang đến."
   },
   {
-    "question": "When parking an automatic vehicle on a slope, you should leave the gear in “D” uphill or “R” downhill after applying the parking brake.",
+    "question": "Khi đỗ xe số tự động trên dốc, bạn nên để cần số ở “D” khi đỗ lên dốc hoặc “R” khi đỗ xuống dốc sau khi kéo phanh tay.",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "Automatic vehicles should normally be placed in the “P” (Park) position when parked. Using “D” or “R” alone is not the correct or safest parking method."
+    "explanation": "Xe số tự động thông thường phải được để ở vị trí “P” (Park) khi đỗ xe. Chỉ sử dụng “D” hoặc “R” không phải là cách đỗ xe đúng hoặc an toàn nhất."
   },
   {
-    "question": "Roads reserved only for pedestrians may also be used by light special vehicles, motorized bicycles, and small motor vehicles.Roads reserved only for pedestrians may also be used by light special vehicles, motorized bicycles, and small motor vehicles.",
+    "question": "Các con đường chỉ dành cho người đi bộ cũng có thể được sử dụng bởi xe đặc biệt hạng nhẹ, xe gắn máy động cơ và xe cơ giới nhỏ.",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "Pedestrian-only roads are generally restricted from regular vehicle traffic in order to protect pedestrians. Only specially permitted vehicles may enter under limited circumstances."
+    "explanation": "Đường dành riêng cho người đi bộ nhìn chung bị hạn chế đối với phương tiện giao thông thông thường nhằm bảo vệ người đi bộ. Chỉ các phương tiện được phép đặc biệt mới được đi vào trong một số trường hợp hạn chế."
   },
   {
-    "question": "During a turn, the inside rear wheel follows a tighter path than the inside front wheel.",
+    "question": "Khi rẽ, bánh sau phía trong sẽ đi theo quỹ đạo hẹp hơn bánh trước phía trong.",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "This is known as “off-tracking,” where the rear wheels cut closer to the inside during turns. Drivers must allow enough space, especially when driving large vehicles or turning at intersections."
+    "explanation": "Hiện tượng này được gọi là “off-tracking”, trong đó bánh sau cắt vào phía trong nhiều hơn khi rẽ. Người lái xe phải chừa đủ khoảng trống, đặc biệt khi lái xe lớn hoặc rẽ ở giao lộ."
   },
   {
-    "question": "The traffic sign shown means that making a U-turn is prohibited.",
+    "question": "Biển báo giao thông hiển thị có nghĩa là cấm quay đầu xe.",
     "image": "no_crossing_sign.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "This sign actually prohibits a right turn, not a U-turn. Drivers in Japan must follow the exact direction indicated by prohibition signs to avoid dangerous maneuvers."
+    "explanation": "Biển báo này thực tế cấm rẽ phải chứ không phải cấm quay đầu. Người lái xe tại Nhật Bản phải tuân theo chính xác hướng cấm được hiển thị để tránh các thao tác nguy hiểm."
   },
   {
-    "question": "Bicycles are not allowed to travel on the type of side strip shown in the illustration.",
+    "question": "Xe đạp không được phép đi trên loại lề đường được hiển thị trong hình minh họa.",
     "image": "side_strip.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "Certain side strips may still be used by bicycles depending on the road markings and traffic conditions. In Japan, bicycles are sometimes permitted to travel along designated side areas for safety."
+    "explanation": "Một số loại lề đường vẫn có thể được xe đạp sử dụng tùy theo vạch kẻ đường và điều kiện giao thông. Tại Nhật Bản, xe đạp đôi khi được phép đi dọc theo các khu vực bên đường được chỉ định để bảo đảm an toàn."
   },
   {
-    "question": "The lane marked with the displayed sign may be used by light special vehicles, motorized bicycles, and light vehicles in addition to buses.",
+    "question": "Làn đường có biển báo hiển thị này có thể được sử dụng bởi xe đặc biệt hạng nhẹ, xe gắn máy động cơ và xe hạng nhẹ ngoài xe buýt.",
     "image": "senyou_lane.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "This sign indicates a bus-only or priority lane, but some smaller vehicle categories are permitted to enter under Japanese traffic regulations. Drivers should still follow any additional posted restrictions or time limits."
+    "explanation": "Biển báo này chỉ làn đường ưu tiên hoặc dành riêng cho xe buýt, nhưng một số loại phương tiện nhỏ hơn được phép đi vào theo quy định giao thông Nhật Bản. Người lái xe vẫn phải tuân theo các hạn chế hoặc khung giờ bổ sung nếu có."
   },
   {
-    "question": "A person who holds only a standard driver’s license may not operate taxis or other commercial passenger vehicles for business purposes, but may drive them when taking the vehicle for repair or maintenance.",
+    "question": "Người chỉ có bằng lái xe thông thường không được phép điều khiển taxi hoặc các phương tiện chở khách thương mại khác cho mục đích kinh doanh, nhưng có thể lái chúng khi đưa xe đi sửa chữa hoặc bảo dưỡng.",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "In Japan, operating vehicles such as taxis for business requires a second-class license. However, driving the vehicle for non-commercial reasons, such as delivering it to a repair shop, is permitted with an ordinary license."
+    "explanation": "Tại Nhật Bản, việc điều khiển taxi cho mục đích kinh doanh yêu cầu bằng lái hạng hai. Tuy nhiên, lái xe cho các mục đích không thương mại như đưa xe đi sửa chữa thì được phép với bằng lái thông thường."
   },
   {
-    "question": "The road marking shown indicates a “No Entry Area.”",
+    "question": "Vạch kẻ đường hiển thị chỉ “Khu vực cấm vào.”",
     "image": "restricted_area.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "This marking represents a safety zone or restricted area on the roadway, not a no-entry sign. Drivers should avoid entering the marked section unless necessary for safety or road conditions."
+    "explanation": "Vạch kẻ này biểu thị khu vực an toàn hoặc khu vực hạn chế trên đường chứ không phải biển cấm vào. Người lái xe nên tránh đi vào khu vực được đánh dấu trừ khi cần thiết vì an toàn hoặc điều kiện giao thông."
   },
   {
-    "question": "In the intersection shown, both Vehicle A and Vehicle B have limited visibility, so both drivers should reduce speed before proceeding.",
+    "question": "Tại giao lộ được hiển thị, cả xe A và xe B đều có tầm nhìn hạn chế nên cả hai người lái xe phải giảm tốc độ trước khi đi tiếp.",
     "image": "mitoshi_with_shop.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "Poor visibility at intersections increases the risk of collisions with crossing vehicles or pedestrians. Japanese traffic rules require drivers to slow down and confirm safety carefully in such situations."
+    "explanation": "Tầm nhìn kém tại giao lộ làm tăng nguy cơ va chạm với các phương tiện cắt ngang hoặc người đi bộ. Luật giao thông Nhật Bản yêu cầu người lái xe giảm tốc độ và xác nhận an toàn cẩn thận trong các tình huống như vậy."
   },
   {
-    "question": "When entering or leaving a place beside the roadway, you are required to stop before crossing a sidewalk or side strip only if pedestrians are nearby.",
+    "question": "Khi đi vào hoặc ra khỏi một nơi bên cạnh đường, bạn chỉ bắt buộc phải dừng trước khi băng qua vỉa hè hoặc lề đường nếu có người đi bộ ở gần.",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "Under Japanese traffic rules, drivers must stop briefly before crossing a sidewalk or side strip regardless of whether pedestrians are present. This helps ensure safety for pedestrians and cyclists who may suddenly appear."
+    "explanation": "Theo luật giao thông Nhật Bản, người lái xe phải dừng ngắn trước khi băng qua vỉa hè hoặc lề đường bất kể có người đi bộ hay không. Điều này giúp bảo đảm an toàn cho người đi bộ và xe đạp có thể bất ngờ xuất hiện."
   },
   {
-    "question": "If the center of the road is marked with a solid yellow line, drivers are prohibited from overtaking by crossing to the right side of that line.",
+    "question": "Nếu giữa đường có vạch vàng liền, người lái xe bị cấm vượt xe bằng cách đi sang phần đường bên phải của vạch đó.",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "A solid yellow center line in Japan indicates a no-passing zone. Crossing the line to overtake another vehicle is dangerous and prohibited."
+    "explanation": "Vạch vàng liền ở giữa đường tại Nhật Bản biểu thị khu vực cấm vượt. Việc đi qua vạch để vượt xe khác là nguy hiểm và bị cấm."
   },
   {
-    "question": "Vehicles not designated for the lane shown on the sign may temporarily use the lane during traffic congestion if no buses are approaching.",
+    "question": "Các phương tiện không được chỉ định cho làn đường hiển thị trên biển báo có thể tạm thời sử dụng làn này khi tắc đường nếu không có xe buýt đang đến.",
     "image": "senyou_lane.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "Exclusive lanes marked for buses or specific vehicles must generally be used only by the vehicles indicated on the sign. Other vehicles are not allowed to enter simply because traffic is heavy."
+    "explanation": "Các làn đường dành riêng cho xe buýt hoặc phương tiện cụ thể nói chung chỉ được sử dụng bởi các phương tiện được chỉ định trên biển báo. Các xe khác không được phép đi vào chỉ vì giao thông đông đúc."
   },
   {
-    "question": "If your vehicle becomes immobilized on a railway crossing, you should quickly alert railway personnel and take immediate action to remove the vehicle from the tracks.",
+    "question": "Nếu xe của bạn bị chết máy trên đường ray tàu hỏa, bạn phải nhanh chóng báo cho nhân viên đường sắt và ngay lập tức thực hiện hành động để đưa xe ra khỏi đường ray.",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "A stalled vehicle on train tracks creates a serious danger. Drivers should notify railway staff or use the emergency alarm and try to clear the tracks as quickly as possible."
+    "explanation": "Xe bị chết máy trên đường ray tạo ra nguy hiểm nghiêm trọng. Người lái xe phải thông báo cho nhân viên đường sắt hoặc sử dụng chuông báo khẩn cấp và cố gắng di chuyển xe ra khỏi đường ray càng nhanh càng tốt."
   },
   {
-    "question": "The total braking distance of a vehicle is calculated by adding the driver’s reaction distance to the distance traveled after the brakes begin working.",
+    "question": "Tổng quãng đường phanh của xe được tính bằng cách cộng quãng đường phản ứng của người lái với quãng đường xe đi được sau khi phanh bắt đầu hoạt động.",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "Total stopping distance is the combination of reaction distance and braking distance. “Braking distance” alone refers only to the distance traveled after the brakes are applied."
+    "explanation": "Tổng quãng đường dừng xe là sự kết hợp giữa quãng đường phản ứng và quãng đường phanh. “Quãng đường phanh” riêng lẻ chỉ đề cập đến quãng đường đi được sau khi đạp phanh."
   },
   {
-    "question": "When elderly individuals or persons with physical disabilities are near the roadway, drivers should reduce speed or stop if necessary to protect them.",
+    "question": "Khi có người cao tuổi hoặc người khuyết tật ở gần đường, người lái xe nên giảm tốc độ hoặc dừng lại nếu cần thiết để bảo vệ họ.",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "Drivers must show extra caution toward vulnerable pedestrians. Slowing down or stopping helps prevent accidents and ensures safer road conditions."
+    "explanation": "Người lái xe phải đặc biệt cẩn thận với những người đi bộ dễ bị tổn thương. Giảm tốc độ hoặc dừng lại giúp ngăn ngừa tai nạn và bảo đảm điều kiện giao thông an toàn hơn."
   },
   {
-    "question": "Cars and motorized bicycles are generally prohibited from driving on sidewalks, side strips, or bicycle paths except when crossing them to enter or leave roadside property.",
+    "question": "Ô tô và xe gắn máy động cơ nhìn chung bị cấm đi trên vỉa hè, lề đường hoặc làn xe đạp ngoại trừ khi băng qua để vào hoặc ra khỏi cơ sở ven đường.",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "These areas are mainly reserved for pedestrians and bicycles. Vehicles may cross them only when necessary for access to parking areas, homes, or businesses."
+    "explanation": "Những khu vực này chủ yếu dành cho người đi bộ và xe đạp. Các phương tiện chỉ được phép băng qua khi cần vào bãi đỗ xe, nhà ở hoặc cơ sở kinh doanh."
   },
   {
-    "question": "The three signs shown in the illustration all represent exactly the same traffic instruction.",
+    "question": "Ba biển báo được hiển thị trong hình minh họa đều có chính xác cùng một chỉ dẫn giao thông.",
     "image": "unrelated.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "Although the signs may appear related, supplementary plates and directional arrows can change the meaning or limit where the regulation applies. Drivers must read all parts of the sign together carefully."
+    "explanation": "Mặc dù các biển báo có vẻ liên quan, nhưng các bảng phụ và mũi tên chỉ hướng có thể thay đổi ý nghĩa hoặc phạm vi áp dụng của quy định. Người lái xe phải đọc kỹ toàn bộ biển báo cùng nhau."
   },
   {
-    "question": "Even if an emergency vehicle approaches from behind, drivers in lanes B or C shown by the lane markings are not required to change lanes.",
+    "question": "Ngay cả khi xe khẩn cấp đến từ phía sau, các xe ở làn B hoặc C được hiển thị bởi vạch kẻ làn đường không bắt buộc phải chuyển làn.",
     "image": "B_cannot_change_lane.jpg",
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "Drivers must cooperate with emergency vehicles whenever possible. Even in designated lanes, vehicles should move appropriately and give way safely when an emergency vehicle approaches."
+    "explanation": "Người lái xe phải hợp tác với xe khẩn cấp bất cứ khi nào có thể. Ngay cả trong các làn được chỉ định, các phương tiện cũng phải di chuyển phù hợp và nhường đường an toàn khi xe khẩn cấp đến gần."
   },
   {
-    "question": "If the traffic signal for the intersecting road is red, you may always continue through the intersection without checking other conditions.",
+    "question": "Nếu đèn giao thông của đường cắt ngang là màu đỏ, bạn luôn có thể tiếp tục đi qua giao lộ mà không cần kiểm tra các điều kiện khác.",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "False",
-    "explanation": "A driver must still confirm that the intersection is clear and safe before proceeding. Traffic conditions, pedestrians, or blocked intersections may require stopping even when cross traffic has a red"
+    "explanation": "Người lái xe vẫn phải xác nhận giao lộ thông thoáng và an toàn trước khi đi tiếp. Điều kiện giao thông, người đi bộ hoặc giao lộ bị ùn tắc có thể yêu cầu dừng lại ngay cả khi hướng giao thông cắt ngang đang có đèn đỏ."
   },
   {
-    "question": "Drivers should understand the risks faced by pedestrians and cyclists and operate their vehicles with care and consideration toward them.",
+    "question": "Người lái xe nên hiểu những rủi ro mà người đi bộ và người đi xe đạp phải đối mặt và điều khiển phương tiện với sự cẩn thận và quan tâm đối với họ.",
     "image": null,
     "choices": [
       "True",
       "False"
     ],
     "answer": "True",
-    "explanation": "Pedestrians and cyclists are more vulnerable in traffic accidents because they have less protection than vehicle occupants. Japanese traffic safety rules emphasize awareness, caution, and mutual respect on the road."
+    "explanation": "Người đi bộ và người đi xe đạp dễ bị tổn thương hơn trong tai nạn giao thông vì họ có ít sự bảo vệ hơn so với người ngồi trong xe. Quy tắc an toàn giao thông của Nhật Bản nhấn mạnh nhận thức, sự cẩn trọng và tôn trọng lẫn nhau trên đường."
   }
 ]

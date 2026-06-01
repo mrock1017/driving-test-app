@@ -1,12 +1,6 @@
 from flask import session
 
 # =========================================================
-# 🌐 UI TRANSLATIONS
-# =========================================================
-
-from flask import session
-
-# =========================================================
 
 # 🌐 UI TRANSLATIONS
 
@@ -439,6 +433,73 @@ UI_TEXT = {
 
         "upgrade": "⭐ ترقية"
     },
+
+     "ur": {
+        "premium_reviewers": "🔒 پریمیم ریویورز",
+        "premium_features": "⭐ پریمیم خصوصیات",
+        "unlock_premium": "🔒 پریمیم ان لاک کریں",
+        "premium_active": "✅ پریمیم فعال ہے",
+        "manage_subscription": "💳 سبسکرپشن کا انتظام کریں",
+        "upgrade": "⭐ اپ گریڈ کریں",
+        "honmen_master": "🛣 ہونمین ماسٹر",
+        "study_mode": "🧠 مطالعہ موڈ",
+        "reviewer_karimen": "🧠 کاریمن ریویور",
+        "reviewer_honmen": "🧠 ہونمین ریویور",
+        "karimen_mock": "📝 کاریمن موک ٹیسٹ",
+        "karimen_test_1": "📝 کاریمن ٹیسٹ 1",
+        "karimen_test_2": "📝 کاریمن ٹیسٹ 2",
+        "honmen_mock": "🏁 ہونمین موک ٹیسٹ",
+        "honmen_test_1": "🛣 ہونمین ماسٹر",
+        "honmen_test_2": "🏁 ہونمین ٹیسٹ 2",
+        "honmen_test_3": "🏁 ہونمین ٹیسٹ 3",
+        "app_info": "⚙️ ایپ کی معلومات",
+        "score_history": "📊 اسکور کی تاریخ",
+        "privacy": "🔒 رازداری کی پالیسی",
+        "terms": "📄 استعمال کی شرائط",
+        "contact": "✉️ ہم سے رابطہ کریں",
+        "dark_mode": "🌙 ڈارک موڈ",
+        "login": "👤 لاگ ان",
+        "register": "📝 رجسٹر کریں",
+        "logout": "🚪 لاگ آؤٹ",
+        "welcome": "خوش آمدید",
+        "ai_title": "🧠 اے آئی ٹیوٹر",
+        "premium": "⭐ پریمیم صارف",
+        "select_language": "زبان منتخب کریں"
+    },
+
+    "my": {
+        "premium_reviewers": "🔒 ပရီမီယမ် ပြန်လည်လေ့ကျင့်ခန်းများ",
+        "premium_features": "⭐ ပရီမီယမ် လုပ်ဆောင်ချက်များ",
+        "unlock_premium": "🔒 ပရီမီယမ်ကို ဖွင့်ပါ",
+        "premium_active": "✅ ပရီမီယမ် အသုံးပြုနိုင်ပါသည်",
+        "manage_subscription": "💳 စာရင်းသွင်းမှုကို စီမံရန်",
+        "upgrade": "⭐ အဆင့်မြှင့်ရန်",
+        "honmen_master": "🛣 Honmen Master",
+        "study_mode": "🧠 လေ့လာမှု မုဒ်",
+        "reviewer_karimen": "🧠 Karimen ပြန်လည်လေ့ကျင့်ခန်း",
+        "reviewer_honmen": "🧠 Honmen ပြန်လည်လေ့ကျင့်ခန်း",
+        "karimen_mock": "📝 Karimen စမ်းသပ်စာမေးပွဲ",
+        "karimen_test_1": "📝 Karimen Test 1",
+        "karimen_test_2": "📝 Karimen Test 2",
+        "honmen_mock": "🏁 Honmen စမ်းသပ်စာမေးပွဲ",
+        "honmen_test_1": "🛣 Honmen Master",
+        "honmen_test_2": "🏁 Honmen Test 2",
+        "honmen_test_3": "🏁 Honmen Test 3",
+        "app_info": "⚙️ အက်ပ် အချက်အလက်",
+        "score_history": "📊 ရမှတ် မှတ်တမ်း",
+        "privacy": "🔒 ကိုယ်ရေးလုံခြုံမှု မူဝါဒ",
+        "terms": "📄 အသုံးပြုမှု စည်းမျဉ်းများ",
+        "contact": "✉️ ဆက်သွယ်ရန်",
+        "dark_mode": "🌙 အမှောင် မုဒ်",
+        "login": "👤 လော့ဂ်အင်",
+        "register": "📝 မှတ်ပုံတင်ရန်",
+        "logout": "🚪 လော့ဂ်အောက်",
+        "welcome": "ကြိုဆိုပါတယ်",
+        "ai_title": "🧠 AI ဆရာ",
+        "premium": "⭐ ပရီမီယမ် အသုံးပြုသူ",
+        "select_language": "ဘာသာစကား ရွေးချယ်ပါ"
+    },
+
 
     }
 
