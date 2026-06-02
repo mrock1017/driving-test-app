@@ -38,5 +38,7 @@ def load_questions(folder, language, filename):
 
     except Exception as e:
 
+        print("JSON ERROR:", e)
+        print("FILE:", filepath)
 
-        return redirect('/menu')
+        return []
