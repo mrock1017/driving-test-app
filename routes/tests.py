@@ -187,7 +187,13 @@ def start_mode(mode, test):
     # ✅ LOAD QUESTIONS WITH CACHE
     # =====================================================
 
-    cache_key = f"{folder}_{language}_{test}"
+    question_filename = f"{test}.json"
+
+    if test.endswith("_master"):
+
+        question_filename = "question_bank.json"
+
+    cache_key = f"{folder}_{language}_{question_filename}"
 
     if cache_key not in QUESTION_CACHE:
 
@@ -197,7 +203,7 @@ def start_mode(mode, test):
 
             language,
 
-            f"{test}.json"
+            question_filename
         )
 
     questions = QUESTION_CACHE[cache_key]
@@ -215,7 +221,10 @@ def start_mode(mode, test):
     # =====================================================
 
     session['folder'] = folder
-    session['questions_file'] = test
+    session['questions_file'] = question_filename.replace(
+    ".json",
+    ""
+    )
     session['answers'] = []
     session['current'] = 0
     session['mode'] = mode

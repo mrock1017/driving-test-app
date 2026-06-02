@@ -692,6 +692,26 @@ with app.app_context():
 
     db.create_all()
 
+    try:
+        db.session.execute(
+            db.text(
+                "ALTER TABLE user ADD COLUMN failed_login_attempts INTEGER DEFAULT 0"
+            )
+        )
+        db.session.commit()
+    except Exception:
+        db.session.rollback()
+
+    try:
+        db.session.execute(
+            db.text(
+                "ALTER TABLE user ADD COLUMN locked_until DATETIME"
+            )
+        )
+        db.session.commit()
+    except Exception:
+        db.session.rollback()
+
 # =========================================================
 # 🖼 FAVICON
 # =========================================================

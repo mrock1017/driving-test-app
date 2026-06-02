@@ -6,7 +6,10 @@ from itsdangerous import URLSafeTimedSerializer
 mail = Mail()
 
 serializer = URLSafeTimedSerializer(
-    os.environ.get("SECRET_KEY")
+    os.environ.get(
+        "SECRET_KEY",
+        "local-dev-secret-key"
+    )
 )
 
 from flask_mail import Message
