@@ -217,6 +217,101 @@ html[dir="rtl"] .info-box ul{
 
             </div>
 
+        {% elif mode == "gaimen" %}
+
+            <div class="title">
+                {{ ui.gaimen_master }}
+            </div>
+
+            <div class="subtitle">
+                Gaimen Kirikae Master generates a randomized practice exam
+                for learners preparing for foreign license conversion in Japan.
+            </div>
+
+            <div class="info-box">
+
+                <h3>
+                    {{ ui.how_it_works }}
+                </h3>
+
+                <ul>
+                    <li>Each attempt contains 50 randomly selected questions.</li>
+                    <li>Questions are generated from the {{ ui.gaimen_question_bank }}.</li>
+                    <li>Every attempt may contain a different question combination.</li>
+                    <li>This helps prepare for Japanese traffic rules used in license conversion tests.</li>
+                    <li>The passing target is 45 out of 50.</li>
+                </ul>
+
+            </div>
+
+            <div class="warning-box">
+                Read carefully. Many Gaimen Kirikae questions focus on Japanese-specific traffic rules and road safety judgment.
+            </div>
+
+            <div class="info-box">
+
+                <h3>
+                    {{ ui.exam_details }}
+                </h3>
+
+                <ul>
+                    <li>{{ ui.questions_label }}: 50</li>
+                    <li>{{ ui.passing_score_label }}: 45 / 50</li>
+                    <li>{{ ui.question_source_label }}: {{ ui.gaimen_question_bank }}</li>
+                    <li>{{ ui.generation_type_label }}: {{ ui.randomized_master_exam }}</li>
+                    <li>{{ ui.time_limit_label }}: 30 {{ ui.time_minutes }}</li>
+                </ul>
+
+            </div>
+
+        {% elif mode == "gentsuki" %}
+
+            <div class="title">
+                {{ ui.gentsuki_master }}
+            </div>
+
+            <div class="subtitle">
+                Gentsuki Master generates a randomized practice exam
+                for learners preparing for the Japanese moped written test.
+            </div>
+
+            <div class="info-box">
+
+                <h3>
+                    {{ ui.how_it_works }}
+                </h3>
+
+                <ul>
+                    <li>Each attempt contains 50 randomly selected questions.</li>
+                    <li>Questions are generated from the {{ ui.gentsuki_question_bank }}.</li>
+                    <li>Every attempt may contain a different question combination.</li>
+                    <li>This helps you practice moped rules, road signs, and safe riding judgment.</li>
+                    <li>The passing target is 45 out of 50.</li>
+                </ul>
+
+            </div>
+
+            <div class="warning-box">
+                Read carefully. Gentsuki questions often test moped-specific rules, speed limits, road signs, and safe riding behavior.
+            </div>
+
+            <div class="info-box">
+
+                <h3>
+                    {{ ui.exam_details }}
+                </h3>
+
+                <ul>
+                    <li>{{ ui.questions_label }}: 50</li>
+                    <li>{{ ui.passing_score_label }}: 45 / 50</li>
+                    <li>{{ ui.question_source_label }}: {{ ui.gentsuki_question_bank }}</li>
+                    <li>{{ ui.generation_type_label }}: {{ ui.randomized_master_exam }}</li>
+                    <li>{{ ui.time_limit_label }}: 30 {{ ui.time_minutes }}</li>
+                </ul>
+
+            </div>
+
+
         {% else %}
 
             <div class="title">
