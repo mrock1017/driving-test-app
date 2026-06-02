@@ -15,176 +15,98 @@
           rel="stylesheet">
 
 <style>
-
-*{
-    box-sizing:border-box;
-}
+*{ box-sizing:border-box; }
 
 body{
-
     margin:0;
-
     font-family:'Inter', sans-serif;
-
-    background:
-    linear-gradient(
-    180deg,
-    #f8fbff 0%,
-    #eef4fb 60%,
-    #edf2f7 100%
-    );
-
+    background:linear-gradient(180deg,#f8fbff 0%,#eef4fb 60%,#edf2f7 100%);
     color:#0f172a;
-
     min-height:100vh;
 }
 
 .container{
-
     max-width:560px;
-
     margin:auto;
-
     padding:24px 16px 50px;
 }
 
 .card{
-
     background:white;
-
-    border:
-    1px solid rgba(226,232,240,0.9);
-
+    border:1px solid rgba(226,232,240,0.9);
     border-radius:28px;
-
     padding:28px 24px;
-
-    box-shadow:
-    0 10px 30px rgba(15,23,42,0.06);
+    box-shadow:0 10px 30px rgba(15,23,42,0.06);
 }
 
 .title{
-
     font-size:28px;
-
     font-weight:800;
-
     margin-bottom:10px;
-
     letter-spacing:-0.8px;
 }
 
 .subtitle{
-
     color:#64748b;
-
     font-weight:600;
-
     line-height:1.7;
-
     margin-bottom:24px;
 }
 
 .info-box{
-
     background:#eff6ff;
-
-    border:
-    1px solid #bfdbfe;
-
+    border:1px solid #bfdbfe;
     border-radius:22px;
-
     padding:20px;
-
     margin-bottom:18px;
 }
 
 .info-box h3{
-
     margin-top:0;
-
     font-size:20px;
 }
 
 .info-box ul{
-
     padding-left:22px;
-
     line-height:1.8;
-
     font-weight:600;
 }
 
 html[dir="rtl"] .info-box ul{
-
     padding-left:0;
-
     padding-right:22px;
 }
 
 .warning-box{
-
     background:#fff7ed;
-
-    border:
-    1px solid #fed7aa;
-
+    border:1px solid #fed7aa;
     border-radius:22px;
-
     padding:18px;
-
     line-height:1.7;
-
     font-weight:600;
-
     margin-top:18px;
+    margin-bottom:18px;
 }
 
 .button{
-
     display:flex;
-
     justify-content:center;
-
     align-items:center;
-
     width:100%;
-
     padding:16px;
-
     margin-top:18px;
-
     border-radius:20px;
-
     text-decoration:none;
-
     font-size:18px;
-
     font-weight:800;
-
     color:white;
-
-    background:
-    linear-gradient(
-    135deg,
-    #3b82f6,
-    #2563eb
-    );
-
-    box-shadow:
-    0 10px 22px rgba(37,99,235,0.18);
+    background:linear-gradient(135deg,#3b82f6,#2563eb);
+    box-shadow:0 10px 22px rgba(37,99,235,0.18);
 }
 
 .button-secondary{
-
-    background:
-    linear-gradient(
-    135deg,
-    #64748b,
-    #334155
-    );
+    background:linear-gradient(135deg,#64748b,#334155);
 }
-
 </style>
 
 </head>
@@ -198,7 +120,7 @@ html[dir="rtl"] .info-box ul{
         {% if mode == "karimen" %}
 
             <div class="title">
-                📝 Karimen Master
+                {{ ui.karimen_master }}
             </div>
 
             <div class="subtitle">
@@ -209,12 +131,12 @@ html[dir="rtl"] .info-box ul{
             <div class="info-box">
 
                 <h3>
-                    How Karimen Master Works
+                    {{ ui.how_it_works }}
                 </h3>
 
                 <ul>
                     <li>Each attempt contains 50 randomly selected questions.</li>
-                    <li>The questions are generated from the Karimen question bank.</li>
+                    <li>The questions are generated from the {{ ui.karimen_question_bank }}.</li>
                     <li>Every attempt may contain a different question combination.</li>
                     <li>This helps you practice more rules instead of memorizing one fixed test.</li>
                     <li>The passing target is 45 out of 50.</li>
@@ -230,15 +152,15 @@ html[dir="rtl"] .info-box ul{
             <div class="info-box">
 
                 <h3>
-                    📋 Exam Details
+                    {{ ui.exam_details }}
                 </h3>
 
                 <ul>
-                    <li>Questions: 50</li>
-                    <li>Passing Score: 45 / 50</li>
-                    <li>Question Source: Karimen Question Bank</li>
-                    <li>Generation Type: Randomized Master Exam</li>
-                    <li>Time Limit: 30 Minutes</li>
+                    <li>{{ ui.questions_label }}: 50</li>
+                    <li>{{ ui.passing_score_label }}: 45 / 50</li>
+                    <li>{{ ui.question_source_label }}: {{ ui.karimen_question_bank }}</li>
+                    <li>{{ ui.generation_type_label }}: {{ ui.randomized_master_exam }}</li>
+                    <li>{{ ui.time_limit_label }}: 30 Minutes</li>
                 </ul>
 
             </div>
@@ -246,7 +168,7 @@ html[dir="rtl"] .info-box ul{
         {% elif mode == "honmen" %}
 
             <div class="title">
-                🛣 Honmen Master
+                {{ ui.honmen_master }}
             </div>
 
             <div class="subtitle">
@@ -257,7 +179,7 @@ html[dir="rtl"] .info-box ul{
             <div class="info-box">
 
                 <h3>
-                    How Honmen Master Works
+                    {{ ui.how_it_works }}
                 </h3>
 
                 <ul>
@@ -267,7 +189,7 @@ html[dir="rtl"] .info-box ul{
                     <li>If one answer inside a group question is wrong, that group question becomes 0 points.</li>
                     <li>The total score is 100 points.</li>
                     <li>The passing target is 90 out of 100.</li>
-                    <li>Every attempt is randomly generated from the Honmen question bank.</li>
+                    <li>Every attempt is randomly generated from the {{ ui.honmen_question_bank }}.</li>
                 </ul>
 
             </div>
@@ -281,16 +203,16 @@ html[dir="rtl"] .info-box ul{
             <div class="info-box">
 
                 <h3>
-                    📋 Exam Details
+                    {{ ui.exam_details }}
                 </h3>
 
                 <ul>
-                    <li>Questions: 95</li>
+                    <li>{{ ui.questions_label }}: 95</li>
                     <li>Total Score: 100 Points</li>
-                    <li>Passing Score: 90 / 100</li>
-                    <li>Question Source: Honmen Question Bank</li>
-                    <li>Generation Type: Randomized Master Exam</li>
-                    <li>Time Limit: 50 Minutes</li>
+                    <li>{{ ui.passing_score_label }}: 90 / 100</li>
+                    <li>{{ ui.question_source_label }}: {{ ui.honmen_question_bank }}</li>
+                    <li>{{ ui.generation_type_label }}: {{ ui.randomized_master_exam }}</li>
+                    <li>{{ ui.time_limit_label }}: 50 Minutes</li>
                 </ul>
 
             </div>
@@ -310,14 +232,14 @@ html[dir="rtl"] .info-box ul{
         <a href="/start/{{ mode }}/{{ test }}"
            class="button">
 
-            🚀 Start Master Exam
+            {{ ui.master_start }}
 
         </a>
 
         <a href="/menu"
            class="button button-secondary">
 
-            🏠 Back To Menu
+            {{ ui.back_to_menu }}
 
         </a>
 
