@@ -1,10 +1,6 @@
 import os
 import json
 
-# =========================================================
-# ✅ LOAD QUESTIONS
-# =========================================================
-
 def load_questions(folder, language, filename):
 
     filepath = os.path.join(
@@ -14,7 +10,11 @@ def load_questions(folder, language, filename):
         filename
     )
 
+    print("TRYING FILE:", filepath)
+
     if not os.path.exists(filepath):
+
+        print("NOT FOUND, TRYING EN FALLBACK")
 
         filepath = os.path.join(
             "data",
@@ -23,7 +23,11 @@ def load_questions(folder, language, filename):
             filename
         )
 
+        print("FALLBACK FILE:", filepath)
+
     if not os.path.exists(filepath):
+
+        print("FINAL FILE NOT FOUND:", filepath)
 
         return []
 
@@ -31,14 +35,18 @@ def load_questions(folder, language, filename):
 
         with open(
             filepath,
-            encoding='utf-8-sig'
+            encoding="utf-8-sig"
         ) as f:
 
-            return json.load(f)
+            data = json.load(f)
+
+            print("LOADED QUESTIONS:", len(data))
+
+            return data
 
     except Exception as e:
 
-        print("JSON ERROR:", e)
-        print("FILE:", filepath)
+        print("JSON LOAD ERROR:", e)
+        print("FAILED FILE:", filepath)
 
         return []
