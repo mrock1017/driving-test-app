@@ -202,6 +202,14 @@ def start_mode(mode, test):
 
         folder = "reviewer/honmen"
 
+    elif mode == "reviewer_gaimen":
+
+        folder = "reviewer/gaimen"
+
+    elif mode == "reviewer_gentsuki":
+
+        folder = "reviewer/gentsuki"
+
     else:
 
         return "Invalid mode"

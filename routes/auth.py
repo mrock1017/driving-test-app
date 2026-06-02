@@ -40,7 +40,7 @@ import uuid
 from flask import make_response
 from models import UserDevice
 
-MAX_PREMIUM_DEVICES = 3
+MAX_PREMIUM_DEVICES = 4
 
 @auth.route('/test-auth')
 def test_auth():

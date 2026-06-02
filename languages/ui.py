@@ -39,6 +39,8 @@ UI_TEXT = {
         "master_exams": "📚 Master Exams",
         "generate_new_test": "🔄 Generate New Test",
         "return_to_menu": "🏠 Return To Menu",
+        "reviewer_gaimen": "🌏 Reviewer Gaimen Kirikae",
+        "reviewer_gentsuki": "🛵 Reviewer Gentsuki",
 
         "study_mode": "🧠 Study Mode",
         "reviewer_karimen": "🧠 Reviewer Karimen",
@@ -99,6 +101,8 @@ UI_TEXT = {
         "master_exams": "📚 Master Exams",
         "generate_new_test": "🔄 Generate New Test",
         "return_to_menu": "🏠 Return To Menu",
+        "reviewer_gaimen": "🌏 Reviewer Gaimen Kirikae",
+        "reviewer_gentsuki": "🛵 Reviewer Gentsuki",
 
         "study_mode": "🧠 Study Mode",
         "reviewer_karimen": "🧠 Reviewer Karimen",
@@ -169,6 +173,8 @@ UI_TEXT = {
         "master_exams": "📚 Master Exams",
         "generate_new_test": "🔄 Generate New Test",
         "return_to_menu": "🏠 Return To Menu",
+        "reviewer_gaimen": "🌏 Reviewer Gaimen Kirikae",
+        "reviewer_gentsuki": "🛵 Reviewer Gentsuki",
 
         "study_mode": "🧠 अध्ययन मोड",
         "reviewer_karimen": "🧠 करिमेन रिभ्युअर",
@@ -229,6 +235,8 @@ UI_TEXT = {
         "master_exams": "📚 Master Exams",
         "generate_new_test": "🔄 Generate New Test",
         "return_to_menu": "🏠 Return To Menu",
+        "reviewer_gaimen": "🌏 Reviewer Gaimen Kirikae",
+        "reviewer_gentsuki": "🛵 Reviewer Gentsuki",
 
         "study_mode": "🧠 Chế Độ Học",
         "reviewer_karimen": "🧠 Ôn Tập Karimen",
@@ -289,6 +297,8 @@ UI_TEXT = {
         "master_exams": "📚 Master Exams",
         "generate_new_test": "🔄 Generate New Test",
         "return_to_menu": "🏠 Return To Menu",
+        "reviewer_gaimen": "🌏 Reviewer Gaimen Kirikae",
+        "reviewer_gentsuki": "🛵 Reviewer Gentsuki",
 
         "study_mode": "🧠 Modo de Estudo",
         "reviewer_karimen": "🧠 Revisão Karimen",
@@ -349,6 +359,8 @@ UI_TEXT = {
         "master_exams": "📚 Master Exams",
         "generate_new_test": "🔄 Generate New Test",
         "return_to_menu": "🏠 Return To Menu",
+        "reviewer_gaimen": "🌏 Reviewer Gaimen Kirikae",
+        "reviewer_gentsuki": "🛵 Reviewer Gentsuki",
 
         "study_mode": "🧠 Mode Belajar",
         "reviewer_karimen": "🧠 Reviewer Karimen",
@@ -409,6 +421,8 @@ UI_TEXT = {
         "master_exams": "📚 Master Exams",
         "generate_new_test": "🔄 Generate New Test",
         "return_to_menu": "🏠 Return To Menu",
+        "reviewer_gaimen": "🌏 Reviewer Gaimen Kirikae",
+        "reviewer_gentsuki": "🛵 Reviewer Gentsuki",
 
         "study_mode": "🧠 وضع الدراسة",
         "reviewer_karimen": "🧠 مراجعة كاريمين",
@@ -469,6 +483,8 @@ UI_TEXT = {
         "master_exams": "📚 Master Exams",
         "generate_new_test": "🔄 Generate New Test",
         "return_to_menu": "🏠 Return To Menu",
+        "reviewer_gaimen": "🌏 Reviewer Gaimen Kirikae",
+        "reviewer_gentsuki": "🛵 Reviewer Gentsuki",
 
         "study_mode": "🧠 مطالعہ موڈ",
         "reviewer_karimen": "🧠 کاریمن ریویور",
@@ -529,6 +545,8 @@ UI_TEXT = {
         "master_exams": "📚 Master Exams",
         "generate_new_test": "🔄 Generate New Test",
         "return_to_menu": "🏠 Return To Menu",
+        "reviewer_gaimen": "🌏 Reviewer Gaimen Kirikae",
+        "reviewer_gentsuki": "🛵 Reviewer Gentsuki",
 
         "study_mode": "🧠 လေ့လာမှု မုဒ်",
         "reviewer_karimen": "🧠 Karimen ပြန်လည်လေ့ကျင့်ခန်း",

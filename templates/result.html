@@ -874,12 +874,12 @@ body.dark .retry-section p{
 
         </p>
 
-        {% if session.get('test') %}
+        {% if session.get('test') and 'master' in session.get('test', '') %}
 
             <a href="/start/{{ session.get('mode') }}/{{ session.get('test') }}"
             class="button">
 
-                🔄 Generate New Test
+                {{ ui.generate_new_test }}
 
             </a>
 
@@ -888,7 +888,7 @@ body.dark .retry-section p{
         <a href="/menu"
         class="button button-secondary">
 
-            🏠 Return To Menu
+            {{ ui.return_to_menu }}
 
         </a>
 
