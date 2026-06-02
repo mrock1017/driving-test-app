@@ -36,6 +36,10 @@ UI_TEXT = {
         "total_score_label": "Total Score",
         "time_minutes": "Minutes",
 
+        "master_exams": "📚 Master Exams",
+        "generate_new_test": "🔄 Generate New Test",
+        "return_to_menu": "🏠 Return To Menu",
+
         "study_mode": "🧠 Study Mode",
         "reviewer_karimen": "🧠 Reviewer Karimen",
         "reviewer_honmen": "🧠 Reviewer Honmen",
@@ -91,6 +95,10 @@ UI_TEXT = {
         "gentsuki_question_bank": "Gentsuki Question Bank",
         "total_score_label": "Total Score",
         "time_minutes": "Minutes",
+
+        "master_exams": "📚 Master Exams",
+        "generate_new_test": "🔄 Generate New Test",
+        "return_to_menu": "🏠 Return To Menu",
 
         "study_mode": "🧠 Study Mode",
         "reviewer_karimen": "🧠 Reviewer Karimen",
@@ -158,6 +166,10 @@ UI_TEXT = {
         "total_score_label": "Total Score",
         "time_minutes": "Minutes",
 
+        "master_exams": "📚 Master Exams",
+        "generate_new_test": "🔄 Generate New Test",
+        "return_to_menu": "🏠 Return To Menu",
+
         "study_mode": "🧠 अध्ययन मोड",
         "reviewer_karimen": "🧠 करिमेन रिभ्युअर",
         "reviewer_honmen": "🧠 होनमेन रिभ्युअर",
@@ -213,6 +225,10 @@ UI_TEXT = {
         "gentsuki_question_bank": "Gentsuki Question Bank",
         "total_score_label": "Total Score",
         "time_minutes": "Minutes",
+
+        "master_exams": "📚 Master Exams",
+        "generate_new_test": "🔄 Generate New Test",
+        "return_to_menu": "🏠 Return To Menu",
 
         "study_mode": "🧠 Chế Độ Học",
         "reviewer_karimen": "🧠 Ôn Tập Karimen",
@@ -270,6 +286,10 @@ UI_TEXT = {
         "total_score_label": "Total Score",
         "time_minutes": "Minutes",
 
+        "master_exams": "📚 Master Exams",
+        "generate_new_test": "🔄 Generate New Test",
+        "return_to_menu": "🏠 Return To Menu",
+
         "study_mode": "🧠 Modo de Estudo",
         "reviewer_karimen": "🧠 Revisão Karimen",
         "reviewer_honmen": "🧠 Revisão Honmen",
@@ -325,6 +345,10 @@ UI_TEXT = {
         "gentsuki_question_bank": "Gentsuki Question Bank",
         "total_score_label": "Total Score",
         "time_minutes": "Minutes",
+
+        "master_exams": "📚 Master Exams",
+        "generate_new_test": "🔄 Generate New Test",
+        "return_to_menu": "🏠 Return To Menu",
 
         "study_mode": "🧠 Mode Belajar",
         "reviewer_karimen": "🧠 Reviewer Karimen",
@@ -382,6 +406,10 @@ UI_TEXT = {
         "total_score_label": "Total Score",
         "time_minutes": "Minutes",
 
+        "master_exams": "📚 Master Exams",
+        "generate_new_test": "🔄 Generate New Test",
+        "return_to_menu": "🏠 Return To Menu",
+
         "study_mode": "🧠 وضع الدراسة",
         "reviewer_karimen": "🧠 مراجعة كاريمين",
         "reviewer_honmen": "🧠 مراجعة هونمن",
@@ -438,6 +466,10 @@ UI_TEXT = {
         "total_score_label": "Total Score",
         "time_minutes": "Minutes",
 
+        "master_exams": "📚 Master Exams",
+        "generate_new_test": "🔄 Generate New Test",
+        "return_to_menu": "🏠 Return To Menu",
+
         "study_mode": "🧠 مطالعہ موڈ",
         "reviewer_karimen": "🧠 کاریمن ریویور",
         "reviewer_honmen": "🧠 ہونمین ریویور",
@@ -493,6 +525,10 @@ UI_TEXT = {
         "gentsuki_question_bank": "Gentsuki Question Bank",
         "total_score_label": "Total Score",
         "time_minutes": "Minutes",
+
+        "master_exams": "📚 Master Exams",
+        "generate_new_test": "🔄 Generate New Test",
+        "return_to_menu": "🏠 Return To Menu",
 
         "study_mode": "🧠 လေ့လာမှု မုဒ်",
         "reviewer_karimen": "🧠 Karimen ပြန်လည်လေ့ကျင့်ခန်း",
