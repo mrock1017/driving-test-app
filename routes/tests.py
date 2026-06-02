@@ -91,6 +91,21 @@ def next_question():
 
     return redirect('/question')
 
+
+@tests.route('/master-info/<mode>/<test>')
+def master_info(mode, test):
+
+    return render_template(
+
+        'master_info.html',
+
+        mode=mode,
+
+        test=test,
+
+        ui=get_ui()
+    )
+
 # =========================================================
 # 🚀 START MODE
 # =========================================================
