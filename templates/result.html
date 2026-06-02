@@ -546,6 +546,70 @@ img{
     transform:scale(0.985);
 }
 
+/* =======================================
+   🎉 TEST COMPLETED SECTION
+======================================= */
+
+.retry-section{
+
+    background:white;
+
+    border:
+    1px solid rgba(226,232,240,0.9);
+
+    border-radius:26px;
+
+    padding:24px;
+
+    margin-top:28px;
+    margin-bottom:20px;
+
+    text-align:center;
+
+    box-shadow:
+    0 8px 24px rgba(15,23,42,0.05);
+}
+
+body.dark .retry-section{
+
+    background:#111827;
+
+    color:#f1f5f9;
+}
+
+.retry-section h3{
+
+    margin-top:0;
+
+    font-size:22px;
+
+    font-weight:800;
+}
+
+.retry-section p{
+
+    color:#64748b;
+
+    line-height:1.7;
+
+    font-weight:600;
+}
+
+body.dark .retry-section p{
+
+    color:#cbd5e1;
+}
+
+.button-secondary{
+
+    background:
+    linear-gradient(
+    135deg,
+    #64748b,
+    #334155
+    );
+}
+
 /* 🌙 DARK TOGGLE */
 
 .dark-toggle{
@@ -581,31 +645,6 @@ img{
     0 10px 24px rgba(15,23,42,0.25);
 
     z-index:999;
-}
-
-/* 📱 MOBILE */
-
-@media(max-width:600px){
-
-    .header-title{
-
-        font-size:24px;
-    }
-
-    .score{
-
-        font-size:44px;
-    }
-
-    .question-text{
-
-        font-size:17px;
-    }
-
-    .button{
-
-        font-size:17px;
-    }
 }
 
 </style>
@@ -812,14 +851,48 @@ img{
 
     {% endfor %}
 
-    <!-- 🔁 RETRY -->
+    <!-- 🎉 TEST COMPLETED OPTIONS -->
 
-    <a href="/menu"
-       class="button">
+    <div class="retry-section">
 
-        🔁 Back To Menu
+        <h3>
 
-    </a>
+            🎉 Test Completed
+
+        </h3>
+
+        <p>
+
+            Would you like to generate another test?
+
+        </p>
+
+        <p>
+
+            Each new Master test is randomly generated from the question bank,
+            so you can practice with a different set of questions each time.
+
+        </p>
+
+        {% if session.get('test') %}
+
+            <a href="/start/{{ session.get('mode') }}/{{ session.get('test') }}"
+            class="button">
+
+                🔄 Generate New Test
+
+            </a>
+
+        {% endif %}
+
+        <a href="/menu"
+        class="button button-secondary">
+
+            🏠 Return To Menu
+
+        </a>
+
+    </div>
 
 </div>
 

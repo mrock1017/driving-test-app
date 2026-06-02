@@ -207,6 +207,7 @@ def start_mode(mode, test):
         )
 
     questions = QUESTION_CACHE[cache_key]
+    is_master_test = test.endswith("_master")
 
     if len(questions) == 0:
 
@@ -225,6 +226,7 @@ def start_mode(mode, test):
     ".json",
     ""
     )
+    session['test'] = test
     session['answers'] = []
     session['current'] = 0
     session['mode'] = mode
@@ -248,19 +250,158 @@ def start_mode(mode, test):
 
                 normal_questions.append(i)
 
-        selected_normal = random.sample(
+        # =====================================================
+        # ✅ SAFETY CHECK
+        # Must have at least 1 normal and 1 group question
+        # =====================================================
 
-            normal_questions,
+        if len(normal_questions) == 0 or len(grouped_questions) == 0:
 
-            min(90, len(normal_questions))
+            return "No Honmen questions found."
+
+        # =====================================================
+        # ✅ GET USED QUESTION HISTORY FROM SESSION
+        # =====================================================
+
+        used_normal = session.get(
+            "used_honmen_normal",
+            []
         )
 
-        selected_grouped = random.sample(
-
-            grouped_questions,
-
-            min(5, len(grouped_questions))
+        used_grouped = session.get(
+            "used_honmen_grouped",
+            []
         )
+
+        # =====================================================
+        # ✅ AVAILABLE QUESTIONS FIRST
+        # =====================================================
+
+        available_normal = [
+
+            i for i in normal_questions
+
+            if i not in used_normal
+        ]
+
+        available_grouped = [
+
+            i for i in grouped_questions
+
+            if i not in used_grouped
+        ]
+
+        selected_normal = []
+        selected_grouped = []
+
+        # =====================================================
+        # ✅ SELECT NORMAL QUESTIONS
+        # Always produce 90 normal questions
+        # =====================================================
+
+        if len(available_normal) >= 90:
+
+            selected_normal = random.sample(
+                available_normal,
+                90
+            )
+
+        else:
+
+            selected_normal = available_normal.copy()
+
+            remaining_needed = 90 - len(selected_normal)
+
+            reuse_pool = normal_questions.copy()
+
+            random.shuffle(reuse_pool)
+
+            for q_index in reuse_pool:
+
+                if len(selected_normal) >= 90:
+
+                    break
+
+                if q_index not in selected_normal:
+
+                    selected_normal.append(q_index)
+
+            # if bank itself has fewer than 90,
+            # allow duplicate reuse only as final fallback
+
+            while len(selected_normal) < 90:
+
+                selected_normal.append(
+                    random.choice(normal_questions)
+                )
+
+        # =====================================================
+        # ✅ SELECT GROUP QUESTIONS
+        # Always produce 5 grouped questions
+        # =====================================================
+
+        if len(available_grouped) >= 5:
+
+            selected_grouped = random.sample(
+                available_grouped,
+                5
+            )
+
+        else:
+
+            selected_grouped = available_grouped.copy()
+
+            remaining_needed = 5 - len(selected_grouped)
+
+            reuse_pool = grouped_questions.copy()
+
+            random.shuffle(reuse_pool)
+
+            for q_index in reuse_pool:
+
+                if len(selected_grouped) >= 5:
+
+                    break
+
+                if q_index not in selected_grouped:
+
+                    selected_grouped.append(q_index)
+
+            # if bank itself has fewer than 5,
+            # allow duplicate reuse only as final fallback
+
+            while len(selected_grouped) < 5:
+
+                selected_grouped.append(
+                    random.choice(grouped_questions)
+                )
+
+        # =====================================================
+        # ✅ SAVE USED QUESTIONS
+        # =====================================================
+
+        session["used_honmen_normal"] = list(
+            set(
+                used_normal
+                +
+                selected_normal
+            )
+        )
+
+        session["used_honmen_grouped"] = list(
+            set(
+                used_grouped
+                +
+                selected_grouped
+            )
+        )
+
+        session.modified = True
+
+        # =====================================================
+        # ✅ FINAL HONMEN ORDER
+        # 1–90 normal, 91–95 grouped
+        # =====================================================
 
         order = (
             selected_normal
