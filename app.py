@@ -204,7 +204,18 @@ def generate_ai_explanation(
 @app.route('/set-language/<lang>')
 def set_language(lang):
 
-    allowed = ['en', 'tl', 'ne']
+    allowed = [
+
+        'en',
+        'tl',
+        'ne',
+        'vi',
+        'pt',
+        'id',
+        'ar',
+        'ur',
+        'my'
+    ]
 
     if lang not in allowed:
 
