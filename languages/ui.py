@@ -29,6 +29,13 @@ UI_TEXT = {
         "karimen_question_bank": "Karimen Question Bank",
         "honmen_question_bank": "Honmen Question Bank",
 
+        "gaimen_master": "🌏 Gaimen Kirikae Master",
+        "gentsuki_master": "🛵 Gentsuki Master",
+        "gaimen_question_bank": "Gaimen Kirikae Question Bank",
+        "gentsuki_question_bank": "Gentsuki Question Bank",
+        "total_score_label": "Total Score",
+        "time_minutes": "Minutes",
+
         "study_mode": "🧠 Study Mode",
         "reviewer_karimen": "🧠 Reviewer Karimen",
         "reviewer_honmen": "🧠 Reviewer Honmen",
@@ -77,6 +84,13 @@ UI_TEXT = {
         "randomized_master_exam": "Randomized Master Exam",
         "karimen_question_bank": "Karimen Question Bank",
         "honmen_question_bank": "Honmen Question Bank",
+
+        "gaimen_master": "🌏 Gaimen Kirikae Master",
+        "gentsuki_master": "🛵 Gentsuki Master",
+        "gaimen_question_bank": "Gaimen Kirikae Question Bank",
+        "gentsuki_question_bank": "Gentsuki Question Bank",
+        "total_score_label": "Total Score",
+        "time_minutes": "Minutes",
 
         "study_mode": "🧠 Study Mode",
         "reviewer_karimen": "🧠 Reviewer Karimen",
@@ -137,6 +151,13 @@ UI_TEXT = {
         "karimen_question_bank": "करिमेन प्रश्न बैंक",
         "honmen_question_bank": "होनमेन प्रश्न बैंक",
 
+        "gaimen_master": "🌏 Gaimen Kirikae Master",
+        "gentsuki_master": "🛵 Gentsuki Master",
+        "gaimen_question_bank": "Gaimen Kirikae Question Bank",
+        "gentsuki_question_bank": "Gentsuki Question Bank",
+        "total_score_label": "Total Score",
+        "time_minutes": "Minutes",
+
         "study_mode": "🧠 अध्ययन मोड",
         "reviewer_karimen": "🧠 करिमेन रिभ्युअर",
         "reviewer_honmen": "🧠 होनमेन रिभ्युअर",
@@ -185,6 +206,13 @@ UI_TEXT = {
         "randomized_master_exam": "Bài Thi Master Ngẫu Nhiên",
         "karimen_question_bank": "Ngân Hàng Câu Hỏi Karimen",
         "honmen_question_bank": "Ngân Hàng Câu Hỏi Honmen",
+
+        "gaimen_master": "🌏 Gaimen Kirikae Master",
+        "gentsuki_master": "🛵 Gentsuki Master",
+        "gaimen_question_bank": "Gaimen Kirikae Question Bank",
+        "gentsuki_question_bank": "Gentsuki Question Bank",
+        "total_score_label": "Total Score",
+        "time_minutes": "Minutes",
 
         "study_mode": "🧠 Chế Độ Học",
         "reviewer_karimen": "🧠 Ôn Tập Karimen",
@@ -235,6 +263,13 @@ UI_TEXT = {
         "karimen_question_bank": "Banco de Perguntas Karimen",
         "honmen_question_bank": "Banco de Perguntas Honmen",
 
+        "gaimen_master": "🌏 Gaimen Kirikae Master",
+        "gentsuki_master": "🛵 Gentsuki Master",
+        "gaimen_question_bank": "Gaimen Kirikae Question Bank",
+        "gentsuki_question_bank": "Gentsuki Question Bank",
+        "total_score_label": "Total Score",
+        "time_minutes": "Minutes",
+
         "study_mode": "🧠 Modo de Estudo",
         "reviewer_karimen": "🧠 Revisão Karimen",
         "reviewer_honmen": "🧠 Revisão Honmen",
@@ -283,6 +318,13 @@ UI_TEXT = {
         "randomized_master_exam": "Ujian Master Acak",
         "karimen_question_bank": "Bank Soal Karimen",
         "honmen_question_bank": "Bank Soal Honmen",
+
+        "gaimen_master": "🌏 Gaimen Kirikae Master",
+        "gentsuki_master": "🛵 Gentsuki Master",
+        "gaimen_question_bank": "Gaimen Kirikae Question Bank",
+        "gentsuki_question_bank": "Gentsuki Question Bank",
+        "total_score_label": "Total Score",
+        "time_minutes": "Minutes",
 
         "study_mode": "🧠 Mode Belajar",
         "reviewer_karimen": "🧠 Reviewer Karimen",
@@ -333,6 +375,13 @@ UI_TEXT = {
         "karimen_question_bank": "بنك أسئلة كاريمين",
         "honmen_question_bank": "بنك أسئلة هونمن",
 
+        "gaimen_master": "🌏 Gaimen Kirikae Master",
+        "gentsuki_master": "🛵 Gentsuki Master",
+        "gaimen_question_bank": "Gaimen Kirikae Question Bank",
+        "gentsuki_question_bank": "Gentsuki Question Bank",
+        "total_score_label": "Total Score",
+        "time_minutes": "Minutes",
+
         "study_mode": "🧠 وضع الدراسة",
         "reviewer_karimen": "🧠 مراجعة كاريمين",
         "reviewer_honmen": "🧠 مراجعة هونمن",
@@ -382,6 +431,13 @@ UI_TEXT = {
         "karimen_question_bank": "کاریمن سوالات کا بینک",
         "honmen_question_bank": "ہونمین سوالات کا بینک",
 
+        "gaimen_master": "🌏 Gaimen Kirikae Master",
+        "gentsuki_master": "🛵 Gentsuki Master",
+        "gaimen_question_bank": "Gaimen Kirikae Question Bank",
+        "gentsuki_question_bank": "Gentsuki Question Bank",
+        "total_score_label": "Total Score",
+        "time_minutes": "Minutes",
+
         "study_mode": "🧠 مطالعہ موڈ",
         "reviewer_karimen": "🧠 کاریمن ریویور",
         "reviewer_honmen": "🧠 ہونمین ریویور",
@@ -430,6 +486,13 @@ UI_TEXT = {
         "randomized_master_exam": "ကျပန်း Master စာမေးပွဲ",
         "karimen_question_bank": "Karimen မေးခွန်းဘဏ်",
         "honmen_question_bank": "Honmen မေးခွန်းဘဏ်",
+
+        "gaimen_master": "🌏 Gaimen Kirikae Master",
+        "gentsuki_master": "🛵 Gentsuki Master",
+        "gaimen_question_bank": "Gaimen Kirikae Question Bank",
+        "gentsuki_question_bank": "Gentsuki Question Bank",
+        "total_score_label": "Total Score",
+        "time_minutes": "Minutes",
 
         "study_mode": "🧠 လေ့လာမှု မုဒ်",
         "reviewer_karimen": "🧠 Karimen ပြန်လည်လေ့ကျင့်ခန်း",
