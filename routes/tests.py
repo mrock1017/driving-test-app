@@ -186,6 +186,14 @@ def start_mode(mode, test):
 
         folder = "honmen"
 
+    elif mode == "gaimen":
+
+        folder = "gaimen_kirikae"
+
+    elif mode == "gentsuki":
+
+        folder = "gentsuki"
+
     elif mode == "reviewer_karimen":
 
         folder = "reviewer/karimen"
