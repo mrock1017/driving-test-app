@@ -42,6 +42,39 @@ UI_TEXT = {
         "reviewer_gaimen": "🌏 Reviewer Gaimen Kirikae",
         "reviewer_gentsuki": "🛵 Reviewer Gentsuki",
 
+                "master_exam_description":
+        "This exam is generated from a large question bank and may differ every time you attempt it.",
+
+        "master_random_notice":
+        "Every attempt generates a new randomized exam from the question bank. Questions may differ each time you start a new test.",
+
+        "master_random_question_1":
+        "Each attempt contains randomly selected questions.",
+
+        "master_random_question_2":
+        "Questions are generated from the question bank.",
+
+        "master_random_question_3":
+        "Every attempt may contain a different question combination.",
+
+        "master_random_question_4":
+        "This helps improve familiarity with actual Japanese driving examinations.",
+
+        "master_random_question_5":
+        "Reviewers remain available for study at any time.",
+
+        "karimen_notice":
+        "Karimen questions focus on basic traffic rules, road signs, and safe driving practices.",
+
+        "honmen_notice":
+        "Honmen questions include advanced traffic situations, hazard prediction, and practical driving judgment.",
+
+        "gaimen_notice":
+        "Many Gaimen Kirikae questions focus on Japanese-specific traffic rules and safe driving judgment.",
+
+        "gentsuki_notice":
+        "Gentsuki questions often focus on moped rules, speed restrictions, road signs, and safe riding behavior.",
+
         "study_mode": "🧠 Study Mode",
         "reviewer_karimen": "🧠 Reviewer Karimen",
         "reviewer_honmen": "🧠 Reviewer Honmen",
@@ -93,16 +126,49 @@ UI_TEXT = {
 
         "gaimen_master": "🌏 Gaimen Kirikae Master",
         "gentsuki_master": "🛵 Gentsuki Master",
-        "gaimen_question_bank": "Gaimen Kirikae Question Bank",
-        "gentsuki_question_bank": "Gentsuki Question Bank",
-        "total_score_label": "Total Score",
-        "time_minutes": "Minutes",
+        "gaimen_question_bank": "Question Bank ng Gaimen Kirikae",
+        "gentsuki_question_bank": "Question Bank ng Gentsuki",
+        "total_score_label": "Kabuuang Iskor",
+        "time_minutes": "Minuto",
 
-        "master_exams": "📚 Master Exams",
-        "generate_new_test": "🔄 Generate New Test",
-        "return_to_menu": "🏠 Return To Menu",
-        "reviewer_gaimen": "🌏 Reviewer Gaimen Kirikae",
-        "reviewer_gentsuki": "🛵 Reviewer Gentsuki",
+        "master_exams": "📚 Mga Master Exam",
+        "generate_new_test": "🔄 Gumawa ng Bagong Test",
+        "return_to_menu": "🏠 Bumalik sa Menu",
+        "reviewer_gaimen": "🌏 Reviewer ng Gaimen Kirikae",
+        "reviewer_gentsuki": "🛵 Reviewer ng Gentsuki",
+
+                "master_exam_description":
+        "Ang exam na ito ay ginagawa mula sa malaking question bank at maaaring mag-iba sa bawat attempt.",
+
+        "master_random_notice":
+        "Bawat attempt ay gumagawa ng bagong randomized exam mula sa question bank. Maaaring mag-iba ang mga tanong sa bawat pagsisimula ng bagong test.",
+
+        "master_random_question_1":
+        "Bawat attempt ay may mga tanong na pinipili nang random.",
+
+        "master_random_question_2":
+        "Ang mga tanong ay kinukuha mula sa question bank.",
+
+        "master_random_question_3":
+        "Maaaring iba ang kombinasyon ng mga tanong sa bawat attempt.",
+
+        "master_random_question_4":
+        "Nakakatulong ito upang mas maging pamilyar ka sa tunay na Japanese driving examinations.",
+
+        "master_random_question_5":
+        "Ang reviewers ay maaari pa ring gamitin para sa pag-aaral anumang oras.",
+
+        "karimen_notice":
+        "Ang Karimen questions ay nakatuon sa basic traffic rules, road signs, at safe driving practices.",
+
+        "honmen_notice":
+        "Ang Honmen questions ay may advanced traffic situations, hazard prediction, at practical driving judgment.",
+
+        "gaimen_notice":
+        "Maraming Gaimen Kirikae questions ang nakatuon sa Japanese-specific traffic rules at safe driving judgment.",
+
+        "gentsuki_notice":
+        "Ang Gentsuki questions ay madalas nakatuon sa moped rules, speed restrictions, road signs, at safe riding behavior.",
 
         "study_mode": "🧠 Study Mode",
         "reviewer_karimen": "🧠 Reviewer Karimen",
@@ -163,18 +229,51 @@ UI_TEXT = {
         "karimen_question_bank": "करिमेन प्रश्न बैंक",
         "honmen_question_bank": "होनमेन प्रश्न बैंक",
 
-        "gaimen_master": "🌏 Gaimen Kirikae Master",
-        "gentsuki_master": "🛵 Gentsuki Master",
-        "gaimen_question_bank": "Gaimen Kirikae Question Bank",
-        "gentsuki_question_bank": "Gentsuki Question Bank",
-        "total_score_label": "Total Score",
-        "time_minutes": "Minutes",
+        "gaimen_master": "🌏 गाइमें किरिकाए मास्टर",
+        "gentsuki_master": "🛵 गेन्त्सुकी मास्टर",
+        "gaimen_question_bank": "गाइमें किरिकाए प्रश्न बैंक",
+        "gentsuki_question_bank": "गेन्त्सुकी प्रश्न बैंक",
+        "total_score_label": "कुल अंक",
+        "time_minutes": "मिनेट",
 
-        "master_exams": "📚 Master Exams",
-        "generate_new_test": "🔄 Generate New Test",
-        "return_to_menu": "🏠 Return To Menu",
-        "reviewer_gaimen": "🌏 Reviewer Gaimen Kirikae",
-        "reviewer_gentsuki": "🛵 Reviewer Gentsuki",
+        "master_exams": "📚 मास्टर परीक्षाहरू",
+        "generate_new_test": "🔄 नयाँ परीक्षा बनाउनुहोस्",
+        "return_to_menu": "🏠 मेनुमा फर्कनुहोस्",
+        "reviewer_gaimen": "🌏 गाइमें किरिकाए रिभ्युअर",
+        "reviewer_gentsuki": "🛵 गेन्त्सुकी रिभ्युअर",
+
+                "master_exam_description":
+        "यो परीक्षा ठूलो प्रश्न बैंकबाट बनाइन्छ र प्रत्येक प्रयासमा फरक हुन सक्छ।",
+
+        "master_random_notice":
+        "हरेक प्रयासमा प्रश्न बैंकबाट नयाँ अनियमित परीक्षा बनाइन्छ। नयाँ टेस्ट सुरु गर्दा प्रश्नहरू फरक हुन सक्छन्।",
+
+        "master_random_question_1":
+        "हरेक प्रयासमा अनियमित रूपमा छानिएका प्रश्नहरू समावेश हुन्छन्।",
+
+        "master_random_question_2":
+        "प्रश्नहरू प्रश्न बैंकबाट उत्पन्न गरिन्छन्।",
+
+        "master_random_question_3":
+        "हरेक प्रयासमा प्रश्नहरूको संयोजन फरक हुन सक्छ।",
+
+        "master_random_question_4":
+        "यसले वास्तविक जापानी सवारी चालक परीक्षा प्रति परिचित हुन मद्दत गर्छ।",
+
+        "master_random_question_5":
+        "रिभ्युअरहरू कुनै पनि समयमा अध्ययनका लागि उपलब्ध रहनेछन्।",
+
+        "karimen_notice":
+        "करिमेन प्रश्नहरू आधारभूत ट्राफिक नियमहरू, सडक संकेतहरू, र सुरक्षित सवारी अभ्यासमा केन्द्रित हुन्छन्।",
+
+        "honmen_notice":
+        "होनमेन प्रश्नहरू उन्नत ट्राफिक अवस्था, जोखिम पूर्वानुमान, र व्यावहारिक सवारी निर्णय समावेश गर्छन्।",
+
+        "gaimen_notice":
+        "धेरै गाइमेन किरिकाए प्रश्नहरू जापान-विशेष ट्राफिक नियमहरू र सुरक्षित सवारी निर्णयमा केन्द्रित हुन्छन्।",
+
+        "gentsuki_notice":
+        "गेन्त्सुकी प्रश्नहरू प्रायः मोपेड नियमहरू, गति सीमाहरू, सडक संकेतहरू, र सुरक्षित सवारी व्यवहारमा केन्द्रित हुन्छन्।",
 
         "study_mode": "🧠 अध्ययन मोड",
         "reviewer_karimen": "🧠 करिमेन रिभ्युअर",
@@ -227,16 +326,49 @@ UI_TEXT = {
 
         "gaimen_master": "🌏 Gaimen Kirikae Master",
         "gentsuki_master": "🛵 Gentsuki Master",
-        "gaimen_question_bank": "Gaimen Kirikae Question Bank",
-        "gentsuki_question_bank": "Gentsuki Question Bank",
-        "total_score_label": "Total Score",
-        "time_minutes": "Minutes",
+        "gaimen_question_bank": "Ngân Hàng Câu Hỏi Gaimen Kirikae",
+        "gentsuki_question_bank": "Ngân Hàng Câu Hỏi Gentsuki",
+        "total_score_label": "Tổng Điểm",
+        "time_minutes": "Phút",
 
-        "master_exams": "📚 Master Exams",
-        "generate_new_test": "🔄 Generate New Test",
-        "return_to_menu": "🏠 Return To Menu",
-        "reviewer_gaimen": "🌏 Reviewer Gaimen Kirikae",
-        "reviewer_gentsuki": "🛵 Reviewer Gentsuki",
+        "master_exams": "📚 Bài Thi Master",
+        "generate_new_test": "🔄 Tạo Bài Thi Mới",
+        "return_to_menu": "🏠 Quay Lại Menu",
+        "reviewer_gaimen": "🌏 Ôn Tập Gaimen Kirikae",
+        "reviewer_gentsuki": "🛵 Ôn Tập Gentsuki",
+
+                "master_exam_description":
+        "Bài thi này được tạo từ một ngân hàng câu hỏi lớn và có thể khác nhau trong mỗi lần làm bài.",
+
+        "master_random_notice":
+        "Mỗi lần làm bài sẽ tạo ra một bài thi ngẫu nhiên mới từ ngân hàng câu hỏi. Các câu hỏi có thể thay đổi mỗi khi bạn bắt đầu bài thi mới.",
+
+        "master_random_question_1":
+        "Mỗi lần làm bài đều chứa các câu hỏi được chọn ngẫu nhiên.",
+
+        "master_random_question_2":
+        "Các câu hỏi được lấy từ ngân hàng câu hỏi.",
+
+        "master_random_question_3":
+        "Mỗi lần làm bài có thể có tổ hợp câu hỏi khác nhau.",
+
+        "master_random_question_4":
+        "Điều này giúp bạn làm quen tốt hơn với các kỳ thi lái xe thực tế tại Nhật Bản.",
+
+        "master_random_question_5":
+        "Các mục ôn tập vẫn luôn có sẵn để học bất cứ lúc nào.",
+
+        "karimen_notice":
+        "Các câu hỏi Karimen tập trung vào luật giao thông cơ bản, biển báo giao thông và các nguyên tắc lái xe an toàn.",
+
+        "honmen_notice":
+        "Các câu hỏi Honmen bao gồm các tình huống giao thông nâng cao, dự đoán nguy hiểm và đánh giá kỹ năng lái xe thực tế.",
+
+        "gaimen_notice":
+        "Nhiều câu hỏi Gaimen Kirikae tập trung vào các quy tắc giao thông đặc thù của Nhật Bản và khả năng phán đoán lái xe an toàn.",
+
+        "gentsuki_notice":
+        "Các câu hỏi Gentsuki thường tập trung vào quy định dành cho xe gắn máy nhỏ, giới hạn tốc độ, biển báo giao thông và hành vi lái xe an toàn.",
 
         "study_mode": "🧠 Chế Độ Học",
         "reviewer_karimen": "🧠 Ôn Tập Karimen",
@@ -287,18 +419,51 @@ UI_TEXT = {
         "karimen_question_bank": "Banco de Perguntas Karimen",
         "honmen_question_bank": "Banco de Perguntas Honmen",
 
-        "gaimen_master": "🌏 Gaimen Kirikae Master",
-        "gentsuki_master": "🛵 Gentsuki Master",
-        "gaimen_question_bank": "Gaimen Kirikae Question Bank",
-        "gentsuki_question_bank": "Gentsuki Question Bank",
-        "total_score_label": "Total Score",
-        "time_minutes": "Minutes",
+        "gaimen_master": "🌏 Mestre Gaimen Kirikae",
+        "gentsuki_master": "🛵 Mestre Gentsuki",
+        "gaimen_question_bank": "Banco de Perguntas Gaimen Kirikae",
+        "gentsuki_question_bank": "Banco de Perguntas Gentsuki",
+        "total_score_label": "Pontuação Total",
+        "time_minutes": "Minutos",
 
-        "master_exams": "📚 Master Exams",
-        "generate_new_test": "🔄 Generate New Test",
-        "return_to_menu": "🏠 Return To Menu",
-        "reviewer_gaimen": "🌏 Reviewer Gaimen Kirikae",
-        "reviewer_gentsuki": "🛵 Reviewer Gentsuki",
+        "master_exams": "📚 Exames Master",
+        "generate_new_test": "🔄 Gerar Novo Teste",
+        "return_to_menu": "🏠 Voltar ao Menu",
+        "reviewer_gaimen": "🌏 Revisão Gaimen Kirikae",
+        "reviewer_gentsuki": "🛵 Revisão Gentsuki",
+
+                "master_exam_description":
+        "Este exame é gerado a partir de um grande banco de perguntas e pode ser diferente a cada tentativa.",
+
+        "master_random_notice":
+        "Cada tentativa gera um novo exame aleatório a partir do banco de perguntas. As perguntas podem mudar toda vez que você iniciar um novo teste.",
+
+        "master_random_question_1":
+        "Cada tentativa contém perguntas selecionadas aleatoriamente.",
+
+        "master_random_question_2":
+        "As perguntas são geradas a partir do banco de perguntas.",
+
+        "master_random_question_3":
+        "Cada tentativa pode apresentar uma combinação diferente de perguntas.",
+
+        "master_random_question_4":
+        "Isso ajuda você a se familiarizar melhor com os exames reais de direção do Japão.",
+
+        "master_random_question_5":
+        "Os revisores continuam disponíveis para estudo a qualquer momento.",
+
+        "karimen_notice":
+        "As perguntas do Karimen focam em regras básicas de trânsito, placas de sinalização e práticas de direção segura.",
+
+        "honmen_notice":
+        "As perguntas do Honmen incluem situações avançadas de trânsito, previsão de riscos e julgamento prático na condução.",
+
+        "gaimen_notice":
+        "Muitas perguntas do Gaimen Kirikae focam em regras de trânsito específicas do Japão e em decisões seguras ao dirigir.",
+
+        "gentsuki_notice":
+        "As perguntas do Gentsuki geralmente focam em regras para ciclomotores, limites de velocidade, placas de trânsito e comportamento seguro ao pilotar.",
 
         "study_mode": "🧠 Modo de Estudo",
         "reviewer_karimen": "🧠 Revisão Karimen",
@@ -349,18 +514,51 @@ UI_TEXT = {
         "karimen_question_bank": "Bank Soal Karimen",
         "honmen_question_bank": "Bank Soal Honmen",
 
-        "gaimen_master": "🌏 Gaimen Kirikae Master",
-        "gentsuki_master": "🛵 Gentsuki Master",
-        "gaimen_question_bank": "Gaimen Kirikae Question Bank",
-        "gentsuki_question_bank": "Gentsuki Question Bank",
-        "total_score_label": "Total Score",
-        "time_minutes": "Minutes",
+        "gaimen_master": "🌏 Master Gaimen Kirikae",
+        "gentsuki_master": "🛵 Master Gentsuki",
+        "gaimen_question_bank": "Bank Soal Gaimen Kirikae",
+        "gentsuki_question_bank": "Bank Soal Gentsuki",
+        "total_score_label": "Total Nilai",
+        "time_minutes": "Menit",
 
-        "master_exams": "📚 Master Exams",
-        "generate_new_test": "🔄 Generate New Test",
-        "return_to_menu": "🏠 Return To Menu",
+        "master_exams": "📚 Ujian Master",
+        "generate_new_test": "🔄 Buat Tes Baru",
+        "return_to_menu": "🏠 Kembali ke Menu",
         "reviewer_gaimen": "🌏 Reviewer Gaimen Kirikae",
         "reviewer_gentsuki": "🛵 Reviewer Gentsuki",
+
+                "master_exam_description":
+        "Ujian ini dibuat dari bank soal yang besar dan dapat berbeda setiap kali Anda mencobanya.",
+
+        "master_random_notice":
+        "Setiap percobaan akan menghasilkan ujian acak baru dari bank soal. Pertanyaan dapat berbeda setiap kali Anda memulai tes baru.",
+
+        "master_random_question_1":
+        "Setiap percobaan berisi pertanyaan yang dipilih secara acak.",
+
+        "master_random_question_2":
+        "Pertanyaan diambil dari bank soal.",
+
+        "master_random_question_3":
+        "Setiap percobaan dapat memiliki kombinasi pertanyaan yang berbeda.",
+
+        "master_random_question_4":
+        "Hal ini membantu Anda lebih terbiasa dengan ujian mengemudi Jepang yang sebenarnya.",
+
+        "master_random_question_5":
+        "Reviewer tetap tersedia untuk belajar kapan saja.",
+
+        "karimen_notice":
+        "Soal Karimen berfokus pada peraturan lalu lintas dasar, rambu jalan, dan praktik berkendara yang aman.",
+
+        "honmen_notice":
+        "Soal Honmen mencakup situasi lalu lintas tingkat lanjut, prediksi bahaya, dan penilaian berkendara secara praktis.",
+
+        "gaimen_notice":
+        "Banyak soal Gaimen Kirikae berfokus pada peraturan lalu lintas khusus Jepang dan penilaian berkendara yang aman.",
+
+        "gentsuki_notice":
+        "Soal Gentsuki sering berfokus pada aturan moped, batas kecepatan, rambu lalu lintas, dan perilaku berkendara yang aman.",
 
         "study_mode": "🧠 Mode Belajar",
         "reviewer_karimen": "🧠 Reviewer Karimen",
@@ -411,18 +609,51 @@ UI_TEXT = {
         "karimen_question_bank": "بنك أسئلة كاريمين",
         "honmen_question_bank": "بنك أسئلة هونمن",
 
-        "gaimen_master": "🌏 Gaimen Kirikae Master",
-        "gentsuki_master": "🛵 Gentsuki Master",
-        "gaimen_question_bank": "Gaimen Kirikae Question Bank",
-        "gentsuki_question_bank": "Gentsuki Question Bank",
-        "total_score_label": "Total Score",
-        "time_minutes": "Minutes",
+        "gaimen_master": "🌏 ماستر غايمن كيريكاي",
+        "gentsuki_master": "🛵 ماستر جينتسوكي",
+        "gaimen_question_bank": "بنك أسئلة غايمن كيريكاي",
+        "gentsuki_question_bank": "بنك أسئلة جينتسوكي",
+        "total_score_label": "إجمالي الدرجات",
+        "time_minutes": "دقائق",
 
-        "master_exams": "📚 Master Exams",
-        "generate_new_test": "🔄 Generate New Test",
-        "return_to_menu": "🏠 Return To Menu",
-        "reviewer_gaimen": "🌏 Reviewer Gaimen Kirikae",
-        "reviewer_gentsuki": "🛵 Reviewer Gentsuki",
+        "master_exams": "📚 اختبارات الماستر",
+        "generate_new_test": "🔄 إنشاء اختبار جديد",
+        "return_to_menu": "🏠 العودة إلى القائمة",
+        "reviewer_gaimen": "🌏 مراجعة غايمن كيريكاي",
+        "reviewer_gentsuki": "🛵 مراجعة جينتسوكي",
+
+                "master_exam_description":
+        "يتم إنشاء هذا الاختبار من بنك أسئلة كبير وقد يختلف في كل مرة تقوم بمحاولته.",
+
+        "master_random_notice":
+        "في كل محاولة يتم إنشاء اختبار عشوائي جديد من بنك الأسئلة. قد تختلف الأسئلة في كل مرة تبدأ فيها اختبارًا جديدًا.",
+
+        "master_random_question_1":
+        "تحتوي كل محاولة على أسئلة يتم اختيارها بشكل عشوائي.",
+
+        "master_random_question_2":
+        "يتم إنشاء الأسئلة من بنك الأسئلة.",
+
+        "master_random_question_3":
+        "قد تحتوي كل محاولة على مجموعة مختلفة من الأسئلة.",
+
+        "master_random_question_4":
+        "يساعدك ذلك على التعود بشكل أفضل على اختبارات القيادة اليابانية الفعلية.",
+
+        "master_random_question_5":
+        "تبقى المراجعات متاحة للدراسة في أي وقت.",
+
+        "karimen_notice":
+        "تركز أسئلة كاريمين على قواعد المرور الأساسية، وإشارات الطرق، وممارسات القيادة الآمنة.",
+
+        "honmen_notice":
+        "تتضمن أسئلة هونمن مواقف مرورية متقدمة، والتنبؤ بالمخاطر، واتخاذ القرارات العملية أثناء القيادة.",
+
+        "gaimen_notice":
+        "تركز العديد من أسئلة غايمن كيريكاي على قواعد المرور الخاصة باليابان واتخاذ القرارات الآمنة أثناء القيادة.",
+
+        "gentsuki_notice":
+        "تركز أسئلة جينتسوكي غالبًا على قواعد الدراجات الصغيرة (الموبيد)، وحدود السرعة، وإشارات المرور، وسلوك القيادة الآمن.",
 
         "study_mode": "🧠 وضع الدراسة",
         "reviewer_karimen": "🧠 مراجعة كاريمين",
@@ -473,18 +704,51 @@ UI_TEXT = {
         "karimen_question_bank": "کاریمن سوالات کا بینک",
         "honmen_question_bank": "ہونمین سوالات کا بینک",
 
-        "gaimen_master": "🌏 Gaimen Kirikae Master",
-        "gentsuki_master": "🛵 Gentsuki Master",
-        "gaimen_question_bank": "Gaimen Kirikae Question Bank",
-        "gentsuki_question_bank": "Gentsuki Question Bank",
-        "total_score_label": "Total Score",
-        "time_minutes": "Minutes",
+        "gaimen_master": "🌏 گائیمین کیریکائے ماسٹر",
+        "gentsuki_master": "🛵 گینتسوکی ماسٹر",
+        "gaimen_question_bank": "گائیمین کیریکائے سوالات کا بینک",
+        "gentsuki_question_bank": "گینتسوکی سوالات کا بینک",
+        "total_score_label": "کل اسکور",
+        "time_minutes": "منٹ",
 
-        "master_exams": "📚 Master Exams",
-        "generate_new_test": "🔄 Generate New Test",
-        "return_to_menu": "🏠 Return To Menu",
-        "reviewer_gaimen": "🌏 Reviewer Gaimen Kirikae",
-        "reviewer_gentsuki": "🛵 Reviewer Gentsuki",
+        "master_exams": "📚 ماسٹر امتحانات",
+        "generate_new_test": "🔄 نیا امتحان بنائیں",
+        "return_to_menu": "🏠 مینو پر واپس جائیں",
+        "reviewer_gaimen": "🌏 گائیمین کیریکائے ریویور",
+        "reviewer_gentsuki": "🛵 گینتسوکی ریویور",
+
+                "master_exam_description":
+        "یہ امتحان ایک بڑے سوالات کے بینک سے تیار کیا جاتا ہے اور ہر کوشش میں مختلف ہو سکتا ہے۔",
+
+        "master_random_notice":
+        "ہر کوشش میں سوالات کے بینک سے ایک نیا رینڈم امتحان تیار کیا جاتا ہے۔ ہر بار نیا ٹیسٹ شروع کرنے پر سوالات مختلف ہو سکتے ہیں۔",
+
+        "master_random_question_1":
+        "ہر کوشش میں رینڈم طور پر منتخب کیے گئے سوالات شامل ہوتے ہیں۔",
+
+        "master_random_question_2":
+        "سوالات سوالات کے بینک سے تیار کیے جاتے ہیں۔",
+
+        "master_random_question_3":
+        "ہر کوشش میں سوالات کا مجموعہ مختلف ہو سکتا ہے۔",
+
+        "master_random_question_4":
+        "یہ آپ کو جاپان کے اصل ڈرائیونگ امتحانات سے بہتر طور پر واقف ہونے میں مدد دیتا ہے۔",
+
+        "master_random_question_5":
+        "ریویورز کسی بھی وقت مطالعے کے لیے دستیاب رہتے ہیں۔",
+
+        "karimen_notice":
+        "کاریمن سوالات بنیادی ٹریفک قوانین، سڑک کے اشاروں اور محفوظ ڈرائیونگ کے طریقوں پر مرکوز ہوتے ہیں۔",
+
+        "honmen_notice":
+        "ہونمین سوالات میں جدید ٹریفک صورتحال، خطرات کی پیش گوئی اور عملی ڈرائیونگ فیصلے شامل ہوتے ہیں۔",
+
+        "gaimen_notice":
+        "بہت سے گائیمین کیریکائے سوالات جاپان کے مخصوص ٹریفک قوانین اور محفوظ ڈرائیونگ فیصلوں پر مرکوز ہوتے ہیں۔",
+
+        "gentsuki_notice":
+        "گینتسوکی سوالات عموماً موپیڈ قوانین، رفتار کی حد، سڑک کے اشاروں اور محفوظ سواری کے رویوں پر مرکوز ہوتے ہیں۔",
 
         "study_mode": "🧠 مطالعہ موڈ",
         "reviewer_karimen": "🧠 کاریمن ریویور",
@@ -535,18 +799,51 @@ UI_TEXT = {
         "karimen_question_bank": "Karimen မေးခွန်းဘဏ်",
         "honmen_question_bank": "Honmen မေးခွန်းဘဏ်",
 
-        "gaimen_master": "🌏 Gaimen Kirikae Master",
-        "gentsuki_master": "🛵 Gentsuki Master",
-        "gaimen_question_bank": "Gaimen Kirikae Question Bank",
-        "gentsuki_question_bank": "Gentsuki Question Bank",
-        "total_score_label": "Total Score",
-        "time_minutes": "Minutes",
+        "gaimen_master": "🌏 Gaimen Kirikae မာစတာ",
+        "gentsuki_master": "🛵 Gentsuki မာစတာ",
+        "gaimen_question_bank": "Gaimen Kirikae မေးခွန်းဘဏ်",
+        "gentsuki_question_bank": "Gentsuki မေးခွန်းဘဏ်",
+        "total_score_label": "စုစုပေါင်း ရမှတ်",
+        "time_minutes": "မိနစ်",
 
-        "master_exams": "📚 Master Exams",
-        "generate_new_test": "🔄 Generate New Test",
-        "return_to_menu": "🏠 Return To Menu",
-        "reviewer_gaimen": "🌏 Reviewer Gaimen Kirikae",
-        "reviewer_gentsuki": "🛵 Reviewer Gentsuki",
+        "master_exams": "📚 မာစတာ စာမေးပွဲများ",
+        "generate_new_test": "🔄 စာမေးပွဲအသစ် ဖန်တီးရန်",
+        "return_to_menu": "🏠 မီနူးသို့ ပြန်သွားရန်",
+        "reviewer_gaimen": "🌏 Gaimen Kirikae ပြန်လည်လေ့ကျင့်ခန်း",
+        "reviewer_gentsuki": "🛵 Gentsuki ပြန်လည်လေ့ကျင့်ခန်း",
+
+                "master_exam_description":
+        "ဤစာမေးပွဲသည် မေးခွန်းဘဏ်ကြီးမှ ဖန်တီးထားပြီး ကြိုးစားမှုတိုင်းတွင် ကွဲပြားနိုင်ပါသည်။",
+
+        "master_random_notice":
+        "ကြိုးစားမှုတိုင်းတွင် မေးခွန်းဘဏ်မှ ကျပန်းစာမေးပွဲအသစ်ကို ဖန်တီးပေးပါသည်။ စာမေးပွဲအသစ် စတင်တိုင်း မေးခွန်းများ ကွဲပြားနိုင်ပါသည်။",
+
+        "master_random_question_1":
+        "ကြိုးစားမှုတိုင်းတွင် ကျပန်းရွေးချယ်ထားသော မေးခွန်းများ ပါဝင်ပါသည်။",
+
+        "master_random_question_2":
+        "မေးခွန်းများကို မေးခွန်းဘဏ်မှ ထုတ်လုပ်ပေးပါသည်။",
+
+        "master_random_question_3":
+        "ကြိုးစားမှုတိုင်းတွင် မေးခွန်းပေါင်းစပ်မှု ကွဲပြားနိုင်ပါသည်။",
+
+        "master_random_question_4":
+        "၎င်းသည် ဂျပန်ယာဉ်မောင်းစာမေးပွဲအစစ်များနှင့် ပိုမိုရင်းနှီးလာစေရန် ကူညီပေးပါသည်။",
+
+        "master_random_question_5":
+        "ပြန်လည်လေ့ကျင့်ခန်းများကို မည်သည့်အချိန်တွင်မဆို လေ့လာနိုင်ပါသည်။",
+
+        "karimen_notice":
+        "Karimen မေးခွန်းများသည် အခြေခံယာဉ်စည်းကမ်းများ၊ လမ်းညွှန်ဆိုင်းဘုတ်များနှင့် လုံခြုံသောမောင်းနှင်မှုအလေ့အကျင့်များကို အဓိကထားပါသည်။",
+
+        "honmen_notice":
+        "Honmen မေးခွန်းများတွင် အဆင့်မြင့်ယာဉ်အသွားအလာအခြေအနေများ၊ အန္တရာယ်ကြိုတင်ခန့်မှန်းခြင်းနှင့် လက်တွေ့မောင်းနှင်မှု ဆုံးဖြတ်ချက်များ ပါဝင်ပါသည်။",
+
+        "gaimen_notice":
+        "Gaimen Kirikae မေးခွန်းအများစုသည် ဂျပန်နိုင်ငံအတွက် သီးသန့်ယာဉ်စည်းကမ်းများနှင့် လုံခြုံသောမောင်းနှင်မှု ဆုံးဖြတ်ချက်များကို အဓိကထားပါသည်။",
+
+        "gentsuki_notice":
+        "Gentsuki မေးခွန်းများသည် မော်ပက်စည်းကမ်းများ၊ အမြန်နှုန်းကန့်သတ်ချက်များ၊ လမ်းညွှန်ဆိုင်းဘုတ်များနှင့် လုံခြုံသောစီးနင်းမှုအပြုအမူများကို အဓိကထားလေ့ရှိပါသည်。",
 
         "study_mode": "🧠 လေ့လာမှု မုဒ်",
         "reviewer_karimen": "🧠 Karimen ပြန်လည်လေ့ကျင့်ခန်း",

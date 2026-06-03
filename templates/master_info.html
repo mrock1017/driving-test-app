@@ -124,8 +124,7 @@ html[dir="rtl"] .info-box ul{
             </div>
 
             <div class="subtitle">
-                Karimen Master creates a fresh learner’s permit practice exam
-                from your Karimen question bank every time you start.
+                {{ ui.master_exam_description }}
             </div>
 
             <div class="info-box">
@@ -135,18 +134,17 @@ html[dir="rtl"] .info-box ul{
                 </h3>
 
                 <ul>
-                    <li>Each attempt contains 50 randomly selected questions.</li>
-                    <li>The questions are generated from the {{ ui.karimen_question_bank }}.</li>
-                    <li>Every attempt may contain a different question combination.</li>
-                    <li>This helps you practice more rules instead of memorizing one fixed test.</li>
-                    <li>The passing target is 45 out of 50.</li>
+                    <li>{{ ui.master_random_question_1 }}</li>
+                    <li>{{ ui.master_random_question_2 }}</li>
+                    <li>{{ ui.master_random_question_3 }}</li>
+                    <li>{{ ui.master_random_question_4 }}</li>
+                    <li>{{ ui.master_random_question_5 }}</li>
                 </ul>
 
             </div>
 
             <div class="warning-box">
-                Read each question carefully. Some questions may look similar,
-                but they may test different Japanese traffic rules.
+                {{ ui.karimen_notice }}
             </div>
 
             <div class="info-box">
@@ -172,8 +170,7 @@ html[dir="rtl"] .info-box ul{
             </div>
 
             <div class="subtitle">
-                Honmen Master is designed to simulate the structure of the
-                Japanese full driving license written exam.
+                {{ ui.master_exam_description }}
             </div>
 
             <div class="info-box">
@@ -183,21 +180,17 @@ html[dir="rtl"] .info-box ul{
                 </h3>
 
                 <ul>
-                    <li>Questions 1–90 are standard True/False questions.</li>
-                    <li>Questions 91–95 are group questions with illustrations.</li>
-                    <li>Each group question is worth 2 points.</li>
-                    <li>If one answer inside a group question is wrong, that group question becomes 0 points.</li>
-                    <li>The total score is 100 points.</li>
-                    <li>The passing target is 90 out of 100.</li>
-                    <li>Every attempt is randomly generated from the {{ ui.honmen_question_bank }}.</li>
+                    <li>{{ ui.master_random_question_1 }}</li>
+                    <li>{{ ui.master_random_question_2 }}</li>
+                    <li>{{ ui.master_random_question_3 }}</li>
+                    <li>{{ ui.master_random_question_4 }}</li>
+                    <li>{{ ui.master_random_question_5 }}</li>
                 </ul>
 
             </div>
 
             <div class="warning-box">
-                Pay special attention to the final group questions.
-                They carry higher value and test hazard prediction,
-                road signs, and real driving judgment.
+                {{ ui.honmen_notice }}
             </div>
 
             <div class="info-box">
@@ -224,8 +217,7 @@ html[dir="rtl"] .info-box ul{
             </div>
 
             <div class="subtitle">
-                Gaimen Kirikae Master generates a randomized practice exam
-                for learners preparing for foreign license conversion in Japan.
+                {{ ui.master_exam_description }}
             </div>
 
             <div class="info-box">
@@ -235,17 +227,17 @@ html[dir="rtl"] .info-box ul{
                 </h3>
 
                 <ul>
-                    <li>Each attempt contains 50 randomly selected questions.</li>
-                    <li>Questions are generated from the {{ ui.gaimen_question_bank }}.</li>
-                    <li>Every attempt may contain a different question combination.</li>
-                    <li>This helps prepare for Japanese traffic rules used in license conversion tests.</li>
-                    <li>The passing target is 45 out of 50.</li>
+                    <li>{{ ui.master_random_question_1 }}</li>
+                    <li>{{ ui.master_random_question_2 }}</li>
+                    <li>{{ ui.master_random_question_3 }}</li>
+                    <li>{{ ui.master_random_question_4 }}</li>
+                    <li>{{ ui.master_random_question_5 }}</li>
                 </ul>
 
             </div>
 
             <div class="warning-box">
-                Read carefully. Many Gaimen Kirikae questions focus on Japanese-specific traffic rules and road safety judgment.
+                {{ ui.gaimen_notice }}
             </div>
 
             <div class="info-box">
@@ -271,8 +263,7 @@ html[dir="rtl"] .info-box ul{
             </div>
 
             <div class="subtitle">
-                Gentsuki Master generates a randomized practice exam
-                for learners preparing for the Japanese moped written test.
+                {{ ui.master_exam_description }}
             </div>
 
             <div class="info-box">
@@ -282,17 +273,17 @@ html[dir="rtl"] .info-box ul{
                 </h3>
 
                 <ul>
-                    <li>Each attempt contains 50 randomly selected questions.</li>
-                    <li>Questions are generated from the {{ ui.gentsuki_question_bank }}.</li>
-                    <li>Every attempt may contain a different question combination.</li>
-                    <li>This helps you practice moped rules, road signs, and safe riding judgment.</li>
-                    <li>The passing target is 45 out of 50.</li>
+                    <li>{{ ui.master_random_question_1 }}</li>
+                    <li>{{ ui.master_random_question_2 }}</li>
+                    <li>{{ ui.master_random_question_3 }}</li>
+                    <li>{{ ui.master_random_question_4 }}</li>
+                    <li>{{ ui.master_random_question_5 }}</li>
                 </ul>
 
             </div>
 
             <div class="warning-box">
-                Read carefully. Gentsuki questions often test moped-specific rules, speed limits, road signs, and safe riding behavior.
+                {{ ui.gentsuki_notice }}
             </div>
 
             <div class="info-box">
@@ -311,18 +302,21 @@ html[dir="rtl"] .info-box ul{
 
             </div>
 
-
         {% else %}
 
             <div class="title">
-                Master Exam
+                {{ ui.master_exams }}
             </div>
 
             <div class="subtitle">
-                This exam is randomly generated from the question bank.
+                {{ ui.master_exam_description }}
             </div>
 
         {% endif %}
+
+        <div class="warning-box">
+            {{ ui.master_random_notice }}
+        </div>
 
         <a href="/start/{{ mode }}/{{ test }}"
            class="button">
