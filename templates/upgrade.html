@@ -402,56 +402,57 @@ body{
 
         <div class="pricing-wrapper">
 
-            <!-- MONTHLY -->
-
+            <!-- WEEKLY -->
             <div class="price-box">
 
                 <div class="plan-name">
-
-                    Monthly Plan
-
+                    Weekly Plan
                 </div>
 
                 <div class="price">
-
-                    ¥2000
-
+                    ¥500
                 </div>
 
                 <div class="per">
+                    per week
+                </div>
 
+            </div>
+
+            <!-- MONTHLY -->
+            <div class="price-box">
+
+                <div class="plan-name">
+                    Monthly Plan
+                </div>
+
+                <div class="price">
+                    ¥1800
+                </div>
+
+                <div class="per">
                     per month
-
                 </div>
 
             </div>
 
             <!-- YEARLY -->
-
             <div class="price-box yearly">
 
                 <div class="save-badge">
-
-                    SAVE 75%
-
+                    BEST VALUE
                 </div>
 
                 <div class="plan-name">
-
                     Yearly Plan
-
                 </div>
 
                 <div class="price">
-
                     ¥6000
-
                 </div>
 
                 <div class="per">
-
                     per year
-
                 </div>
 
             </div>
@@ -538,7 +539,12 @@ line-height:1.6;
 
 {% else %}
 
-<!-- 💳 STRIPE BUTTONS -->
+<a href="/create-checkout-session/weekly"
+   class="upgrade-btn">
+
+   🚀 Upgrade Weekly
+
+</a>
 
 <a href="/create-checkout-session/monthly"
    class="upgrade-btn">
