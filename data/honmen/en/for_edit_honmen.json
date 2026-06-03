@@ -1,442 +1,352 @@
 [
   {
-    "question": "A cyclist riding slowly while using a smartphone for navigation is exempt from penalties because the device is being used for directions rather than communication.",
+    "question": "A moped is not always permitted to travel at 30 km/h, as lower speed limits may be imposed depending on road conditions or traffic regulations.",
     "image": null,
-    "choices": [
-      "True",
-      "False"
-    ],
+    "choices": ["True", "False"],
     "answer": "False",
-    "explanation": "Holding or actively operating a smartphone while cycling may still violate distracted-driving regulations regardless of purpose."
+    "explanation": "Although 30 km/h is the general maximum speed for mopeds in Japan, some roads have posted speed limits that are lower. Drivers must always obey the posted speed limit."
   },
   {
-    "question": "When no bicycle lane exists, cyclists should normally travel near the center of the roadway to improve visibility to drivers.",
+    "question": "When slowing down or stopping a motorcycle or moped, the safest method is to use both the front and rear brakes together.",
     "image": null,
-    "choices": [
-      "True",
-      "False"
-    ],
-    "answer": "False",
-    "explanation": "Cyclists should generally keep to the left side of the roadway unless avoiding hazards or turning."
-  },
-  {
-    "question": "A driver overtaking a bicycle may pass closely if the speed difference between the vehicle and bicycle is minimal.",
-    "image": null,
-    "choices": [
-      "True",
-      "False"
-    ],
-    "answer": "False",
-    "explanation": "Drivers are expected to maintain safe spacing regardless of relative speed."
-  },
-  {
-    "question": "An AT-limited license holder may drive a manual-transmission vehicle during emergencies if accompanied by a fully licensed driver.",
-    "image": null,
-    "choices": [
-      "True",
-      "False"
-    ],
-    "answer": "False",
-    "explanation": "License restrictions remain legally binding even if another qualified driver is present."
-  },
-  {
-    "question": "A driver using autonomous driving assistance remains legally responsible for safe operation of the vehicle.",
-    "image": null,
-    "choices": [
-      "True",
-      "False"
-    ],
+    "choices": ["True", "False"],
     "answer": "True",
-    "explanation": "Current autonomous systems do not remove driver responsibility under Japanese law."
+    "explanation": "Applying both brakes at the same time helps maintain stability and shortens stopping distance. Relying on only one brake can increase the risk of losing control."
   },
   {
-    "question": "A bicycle rider wearing headphones in only one ear cannot be penalized because outside sounds remain partially audible.",
+    "question": "Holding a valid moped license alone is not sufficient; the license must also be carried whenever operating a moped.",
     "image": null,
-    "choices": [
-      "True",
-      "False"
-    ],
-    "answer": "False",
-    "explanation": "Enforcement depends on whether hearing and safe operation are impaired, not simply the number of ears covered."
-  },
-  {
-    "question": "A cyclist approaching a stop sign at very low speed may proceed without fully stopping if visibility is clear.",
-    "image": null,
-    "choices": [
-      "True",
-      "False"
-    ],
-    "answer": "False",
-    "explanation": "Stop signs require a complete stop for bicycles as well as motor vehicles."
-  },
-  {
-    "question": "An autonomous driving system approved for expressway use may automatically be used on ordinary public roads.",
-    "image": null,
-    "choices": [
-      "True",
-      "False"
-    ],
-    "answer": "False",
-    "explanation": "Autonomous systems are approved only for specified operational conditions and environments."
-  },
-  {
-    "question": "A driver opening a vehicle door without checking for approaching bicycles may bear legal responsibility for a collision.",
-    "image": null,
-    "choices": [
-      "True",
-      "False"
-    ],
+    "choices": ["True", "False"],
     "answer": "True",
-    "explanation": "Drivers must confirm safety before opening doors into traffic."
+    "explanation": "Japanese traffic law requires drivers to have their license with them while driving. Failing to carry it can result in penalties even if the driver is properly licensed."
   },
   {
-    "question": "An AT vehicle can never roll backward on an incline because the transmission automatically locks the wheels.",
+    "question": "For safer braking on a two-wheeled vehicle, the rider should keep the handlebars straight, make use of engine braking, and apply both front and rear brakes together.",
     "image": null,
-    "choices": [
-      "True",
-      "False"
-    ],
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "This combination helps maintain balance and vehicle control while reducing speed effectively. Abrupt braking or turning the handlebars during braking can increase the risk of a skid."
+  },
+  {
+    "question": "At an intersection where visibility is poor in both directions, continuously sounding the horn while proceeding through the intersection is the proper way to pass safely.",
+    "image": null,
+    "choices": ["True", "False"],
     "answer": "False",
-    "explanation": "Automatic transmission vehicles may still roll depending on brake use and incline conditions."
+    "explanation": "Drivers should reduce speed and proceed carefully at poorly visible intersections. The horn should only be used when specifically required or when necessary to avoid danger."
   },
   {
-    "question": "Even when a cyclist violates traffic rules, motorists are still expected to take reasonable measures to avoid collisions.",
-    "image": null,
-    "choices": [
-      "True",
-      "False"
-    ],
+    "question": "This road sign means drivers are not allowed to cross the roadway by making a right turn to enter or leave a roadside property or facility.",
+    "image": "no_crossing_sign.jpg",
+    "choices": ["True", "False"],
     "answer": "True",
-    "explanation": "Drivers maintain a duty of care toward vulnerable road users."
+    "explanation": "The sign shown prohibits crossing the center or designated area by making a right turn. Drivers must follow the restriction and use an alternative route where permitted."
   },
   {
-    "question": "A Level 4 autonomous vehicle may operate without continuous human monitoring only within approved operational areas and conditions.",
-    "image": null,
-    "choices": [
-      "True",
-      "False"
-    ],
-    "answer": "True",
-    "explanation": "Level 4 systems are limited to designated environments and operational domains."
-  },
-  {
-    "question": "Cyclists are permitted to ignore temporary traffic officer instructions if permanent road signs indicate otherwise.",
-    "image": null,
-    "choices": [
-      "True",
-      "False"
-    ],
+    "question": "The sign displayed marks the beginning of a one-way traffic street.",
+    "image": "turn_left.jpg",
+    "choices": ["True", "False"],
     "answer": "False",
-    "explanation": "Instructions from police officers or authorized traffic controllers take priority over signs and signals."
+    "explanation": "This sign indicates a required direction of travel (left) rather than the start of a one-way road. A one-way road is indicated by a different regulatory sign in Japan."
   },
   {
-    "question": "A bicycle rider who dismounts and walks the bicycle through a pedestrian crossing is generally treated as a pedestrian.",
+    "question": "This warning sign informs drivers that a regulated section of road or traffic restriction lies ahead.",
     "image": null,
-    "choices": [
-      "True",
-      "False"
-    ],
-    "answer": "True",
-    "explanation": "Once dismounted and walking the bicycle, the person is generally treated as a pedestrian."
-  },
-  {
-    "question": "A cyclist riding on the far right side of a one-way street in Japan is complying with traffic law because one-way roads allow flexible bicycle positioning.",
-    "image": null,
-    "choices": [
-      "True",
-      "False"
-    ],
+    "choices": ["True", "False"],
     "answer": "False",
-    "explanation": "Even on one-way roads, cyclists are generally expected to keep to the left unless specific markings indicate otherwise."
+    "explanation": "The sign is a general warning sign used to alert drivers to a hazard or condition ahead that requires caution. It does not specifically indicate the start of a traffic restriction zone."
   },
   {
-    "question": "A motorist approaching a cyclist from behind at night should consider that the cyclist may be harder to see when wearing dark clothing, even if bicycle lights are installed.",
+    "question": "Because tunnels can present visibility and safety concerns, passing another vehicle is prohibited in every tunnel.",
     "image": null,
-    "choices": [
-      "True",
-      "False"
-    ],
-    "answer": "True",
-    "explanation": "Drivers must account for visibility limitations and adjust following distance and speed accordingly."
-  },
-  {
-    "question": "A driver using adaptive cruise control may legally stop monitoring traffic continuously because the system manages following distance automatically.",
-    "image": null,
-    "choices": [
-      "True",
-      "False"
-    ],
+    "choices": ["True", "False"],
     "answer": "False",
-    "explanation": "Driver-assistance systems do not remove the requirement for active supervision."
+    "explanation": "Overtaking is prohibited only in tunnels designated by law, such as those with a single traffic lane in the same direction. In tunnels where overtaking is not specifically prohibited, drivers must still exercise extreme caution."
   },
   {
-    "question": "When overtaking a bicycle, sounding the horn alone is sufficient warning even if safe lateral distance is not maintained.",
+    "question": "A moped is normally limited to a maximum speed of 30 km/h, but it may be driven at 40 km/h on a wide road when traffic is light.",
     "image": null,
-    "choices": [
-      "True",
-      "False"
-    ],
+    "choices": ["True", "False"],
     "answer": "False",
-    "explanation": "The horn does not replace the obligation to pass safely."
+    "explanation": "Under Japanese traffic law, the maximum speed for a moped is generally 30 km/h unless a lower limit is posted. Road width or traffic conditions do not permit exceeding the legal speed limit."
   },
   {
-    "question": "Cyclists are expected to anticipate that pedestrians may change direction suddenly on shared sidewalks.",
+    "question": "A moped may pull a trailer as long as the trailer's load does not exceed 200 kilograms.",
     "image": null,
-    "choices": [
-      "True",
-      "False"
-    ],
-    "answer": "True",
-    "explanation": "Cyclists must operate carefully around pedestrians and prepare for unpredictable movement."
-  },
-  {
-    "question": "A Level 4 autonomous driving system may legally operate outside approved areas if weather conditions are favorable.",
-    "image": null,
-    "choices": [
-      "True",
-      "False"
-    ],
+    "choices": ["True", "False"],
     "answer": "False",
-    "explanation": "Operational approval depends on designated conditions and areas, not only weather."
+    "explanation": "Mopeds are subject to strict towing restrictions under Japanese traffic regulations. The statement is incorrect because towing permissions and weight limits are not determined simply by allowing a 200-kilogram load."
   },
   {
-    "question": "A cyclist riding against traffic on a one-way road may continue legally if the road is narrow and vehicle traffic is light.",
+    "question": "The drive chain of a motorcycle or moped should have no movement at all when checked by pressing it with a finger.",
     "image": null,
-    "choices": [
-      "True",
-      "False"
-    ],
+    "choices": ["True", "False"],
     "answer": "False",
-    "explanation": "Under Japanese traffic law, bicycles are generally treated as vehicles and must travel in the same direction as traffic unless signs specifically permit otherwise. Many riders incorrectly assume that one-way restrictions apply only to cars, but revised enforcement in 2026 specifically targets wrong-way bicycle riding because it greatly increases collision risk at intersections and blind corners."
+    "explanation": "A certain amount of chain slack is necessary for proper operation. A chain that is too tight can cause excessive wear and mechanical problems."
   },
   {
-    "question": "A Level 3 autonomous-driving system may temporarily allow the driver to stop actively monitoring the roadway, but the driver must still be capable of resuming control when requested.",
+    "question": "During a pre-drive inspection, I discovered that the turn signals were malfunctioning, but I continued driving because hand signals could be used instead.",
     "image": null,
-    "choices": [
-      "True",
-      "False"
-    ],
-    "answer": "True",
-    "explanation": "Level 3 systems are conditionally automated, meaning some driving tasks may be handled by the vehicle under limited conditions. However, Japanese regulations still require the human driver to remain capable of takeover because the system may suddenly encounter conditions beyond its operational capability such as weather changes, unclear lane markings, or unexpected road construction."
-  },
-  {
-    "question": "A specified small motorized bicycle (certain electric scooters) may legally travel on sidewalks at ordinary bicycle speeds if pedestrians are not nearby.",
-    "image": null,
-    "choices": [
-      "True",
-      "False"
-    ],
+    "choices": ["True", "False"],
     "answer": "False",
-    "explanation": "Even scooters classified as “specified small motorized bicycles” can only use sidewalks under strict conditions and low-speed limitations. Japanese rules require these vehicles to operate carefully near pedestrians and, in permitted sidewalk areas, speed must remain extremely low to prioritize pedestrian safety."
+    "explanation": "A vehicle with defective direction indicators should not be driven on public roads. Hand signals do not excuse operating a vehicle with required equipment that is not functioning properly."
   },
   {
-    "question": "A driver using autonomous-driving assistance should prepare for the possibility that rain or snow may reduce sensor performance even if the system appears to function normally.",
+    "question": "If the main traffic light is green, a moped making a left turn may continue even when the dedicated left-turn arrow is showing red.",
     "image": null,
-    "choices": [
-      "True",
-      "False"
-    ],
+    "choices": ["True", "False"],
     "answer": "True",
-    "explanation": "Modern autonomous and driver-assistance systems depend heavily on cameras, radar, lidar, and lane recognition. Heavy rain, snow, glare, fog, or faded lane markings can reduce system accuracy without immediately disabling the system, which is why Japanese guidance still places responsibility on the human operator to monitor conditions continuously."
+    "explanation": "When the main signal permits traffic to proceed, a moped may generally make a lawful left turn unless a separate signal specifically prohibits that movement. The red left-turn arrow alone does not prevent the maneuver in this situation."
   },
   {
-    "question": "On a one-way road, a bicycle may travel in either direction provided the rider remains near the edge of the roadway.",
+    "question": "A person holding only a moped license is permitted to operate a moped, a mini car, and a small special-purpose vehicle.",
     "image": null,
-    "choices": [
-      "True",
-      "False"
-    ],
+    "choices": ["True", "False"],
     "answer": "False",
-    "explanation": "One-way restrictions normally apply to bicycles unless special signage creates an exception. Many recent bicycle-law revisions emphasize dangerous wrong-way cycling because drivers often fail to anticipate bicycles approaching from prohibited directions."
+    "explanation": "A moped license authorizes operation of a moped, but it does not automatically allow driving all other vehicle categories. Separate licensing requirements apply to mini cars and certain special-purpose vehicles."
   },
   {
-    "question": "If an autonomous-driving system requests driver intervention, the driver should respond immediately even if the surrounding traffic situation appears stable.",
+    "question": "This sign means that mopeds are allowed to use the road.",
     "image": null,
-    "choices": [
-      "True",
-      "False"
-    ],
-    "answer": "True",
-    "explanation": "A takeover request usually means the system has detected operational uncertainty or reached the limits of its approved driving conditions. Delaying response because the roadway “looks safe” can create dangerous situations where the system can no longer reliably manage hazards or road geometry."
-  },
-  {
-    "question": "A cyclist who slows down significantly at a stop sign but does not completely stop may still violate the revised 2026 bicycle enforcement rules.",
-    "image": null,
-    "choices": [
-      "True",
-      "False"
-    ],
-    "answer": "True",
-    "explanation": "Japan’s revised bicycle enforcement now treats rolling stops more strictly under the blue-ticket system. Authorities specifically noted that many bicycle accidents occur because cyclists reduce speed but fail to perform a complete stop before intersections or railway crossings."
-  },
-  {
-    "question": "A Level 4 autonomous vehicle operating legally within its approved area may ignore temporary manual instructions from police officers because its programmed route has already been government-approved.",
-    "image": null,
-    "choices": [
-      "True",
-      "False"
-    ],
+    "choices": ["True", "False"],
     "answer": "False",
-    "explanation": "Police officers directing traffic always take priority over signals, signs, and automated navigation systems. Even fully approved autonomous systems must comply with temporary emergency control measures, accidents, disasters, or construction-zone instructions."
+    "explanation": "The sign shown is a designated bicycle-only route sign. It applies to bicycles and does not indicate that mopeds are permitted to travel on that roadway section."
   },
   {
-    "question": "Specified small motorized bicycles must generally travel on the left side of the roadway in the same direction as traffic.",
+    "question": "If a vehicle's brakes or steering controls are defective, the driver should continue driving carefully at a reduced speed.",
     "image": null,
-    "choices": [
-      "True",
-      "False"
-    ],
-    "answer": "True",
-    "explanation": "Japan’s electric-scooter regulations largely follow ordinary roadway positioning principles. Wrong-side travel creates serious danger because intersections, turning vehicles, and overtaking behavior are designed assuming left-side traffic flow."
-  },
-  {
-    "question": "A driver approaching a cyclist riding improperly against traffic should still attempt to avoid collision even though the cyclist violated traffic rules.",
-    "image": null,
-    "choices": [
-      "True",
-      "False"
-    ],
-    "answer": "True",
-    "explanation": "Japanese road-safety principles continue to place strong responsibility on drivers to protect vulnerable road users whenever possible. Even if the cyclist is violating the law, motorists are expected to drive defensively and take reasonable collision-avoidance measures."
-  },
-  {
-    "question": "An autonomous-driving system approved for expressway use may automatically be used on ordinary urban roads if traffic conditions are light.",
-    "image": null,
-    "choices": [
-      "True",
-      "False"
-    ],
+    "choices": ["True", "False"],
     "answer": "False",
-    "explanation": "Autonomous systems are approved only within specific operational domains called ODDs (Operational Design Domains). Approval for highways does not automatically authorize use on city streets because urban environments involve pedestrians, bicycles, intersections, and unpredictable hazards requiring different system certification."
+    "explanation": "A vehicle with a serious defect affecting safe operation must not be driven on public roads. Reduced speed does not remove the danger created by faulty brakes or steering equipment."
   },
   {
-    "question": "When turning into a narrow one-way street, a driver should remain alert for bicycles traveling illegally against traffic.",
+    "question": "When riding a moped across a sidewalk or similar pedestrian area, it is sufficient to proceed slowly while avoiding interference with pedestrians.",
     "image": null,
-    "choices": [
-      "True",
-      "False"
-    ],
-    "answer": "True",
-    "explanation": "Defensive driving requires anticipating possible violations by other road users. Because wrong-way bicycle riding remains relatively common in Japan, especially on narrow residential streets, drivers are expected to check carefully even when they technically have priority."
-  },
-  {
-    "question": "Specified small motorized bicycles may perform ordinary right turns at all intersections in the same manner as motorcycles.",
-    "image": null,
-    "choices": [
-      "True",
-      "False"
-    ],
+    "choices": ["True", "False"],
     "answer": "False",
-    "explanation": "Certain specified small motorized bicycles are required to perform two-stage right turns similar to bicycles on many roads. This rule exists because small low-speed vehicles are more vulnerable during direct right-turn maneuvers across traffic."
+    "explanation": "When crossing a sidewalk or entering a roadway through a pedestrian area, drivers must slow down and give priority to pedestrians. Simply trying not to obstruct them does not fully satisfy the driver's legal responsibilities."
   },
   {
-    "question": "An autonomous-driving system functioning normally may still fail to detect unusual hazards outside its programmed expectations.",
+    "question": "Because visibility can suddenly worsen when moving from daylight into a tunnel, drivers should reduce speed before entering.",
     "image": null,
-    "choices": [
-      "True",
-      "False"
-    ],
+    "choices": ["True", "False"],
     "answer": "True",
-    "explanation": "Autonomous systems operate using trained detection models and environmental assumptions. Unexpected obstacles, damaged road markings, unusual pedestrian behavior, or severe weather can create situations beyond the system’s recognition capability, which is why human supervision remains legally important."
+    "explanation": "The eyes need time to adjust to the darker environment inside a tunnel. Slowing down before entry helps ensure sufficient reaction time and safer vehicle control."
   },
   {
-    "question": "Even when using advanced autonomous-driving assistance, drivers remain responsible for maintaining safe attention and legal compliance unless the system is specifically authorized for fully driverless operation.",
+    "question": "When negotiating a bend on a moped, control is improved by leaning the vehicle into the curve rather than steering sharply with the handlebars alone.",
     "image": null,
-    "choices": [
-      "True",
-      "False"
-    ],
+    "choices": ["True", "False"],
     "answer": "True",
-    "explanation": "Most systems currently available to ordinary drivers in Japan remain Level 1–3 driver-assistance technologies rather than fully autonomous operation. Because of this, drivers continue to hold legal responsibility for monitoring traffic, obeying signals, and intervening whenever the system cannot safely manage roadway conditions."
+    "explanation": "Two-wheeled vehicles turn most smoothly by combining gentle steering input with proper body and vehicle lean. Excessive handlebar movement can reduce stability while cornering."
   },
   {
-    "question": "Because opposing traffic is prohibited on a one-way road, a driver may always continue safely near the far right side of the roadway.",
+    "question": "The slowing effect produced by engine braking becomes stronger when a lower gear is selected.",
     "image": null,
-    "choices": [
-      "True",
-      "False"
-    ],
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Lower gears increase engine resistance and help reduce speed more effectively. This is particularly useful on downhill roads or when additional braking force is needed."
+  },
+  {
+    "question": "If an emergency vehicle approaches from behind while you are already passing through an intersection, you should stop immediately where you are.",
+    "image": null,
+    "choices": ["True", "False"],
     "answer": "False",
-    "explanation": "A driver on a one-way road may sometimes legally position the vehicle toward the right side when necessary, such as preparing for a right turn or avoiding obstacles. However, the tricky part is the word “always.” Japanese honmen questions often use legally-correct partial statements combined with dangerous"
+    "explanation": "Stopping inside an intersection may obstruct traffic and create danger. Drivers should first clear the intersection safely and then yield to the emergency vehicle as required."
   },
   {
-    "question": "A Level 3 autonomous-driving system may allow the driver to reduce active steering operation temporarily, but the driver must still remain capable of immediately responding to takeover requests.",
+    "question": "The purpose of a muffler is to decrease the amount of exhaust gases released by the engine.",
     "image": null,
-    "choices": [
-      "True",
-      "False"
-    ],
-    "answer": "True",
-    "explanation": "Level 3 systems are designed to automate certain driving functions under limited conditions. However, the tricky part is understanding that “automation” does not mean the driver is released from responsibility. Japanese regulations still expect the driver to remain mentally and physically prepared to intervene immediately if the system reaches its operational limit."
-  },
-  {
-    "question": "When driving on a one-way road, checking carefully for vehicles approaching from the prohibited direction is unnecessary because such movement violates traffic law.",
-    "image": null,
-    "choices": [
-      "True",
-      "False"
-    ],
+    "choices": ["True", "False"],
     "answer": "False",
-    "explanation": "The tricky part is that the sentence sounds logically correct from a legal perspective, but Japanese defensive-driving principles focus on predicting real danger rather than assuming perfect rule compliance. Wrong-way bicycles and vehicles still occur frequently, especially on narrow residential roads."
+    "explanation": "A muffler is designed primarily to reduce engine and exhaust noise. The reduction of exhaust emissions is handled by other components, such as emission-control systems."
   },
   {
-    "question": "A Level 4 autonomous vehicle approved for driverless operation may continue autonomous driving outside its designated area if traffic remains light and weather conditions are favorable.",
+    "question": "Drivers should not wear footwear such as geta, loose sandals, or other shoes that could interfere with proper vehicle operation.",
     "image": null,
-    "choices": [
-      "True",
-      "False"
-    ],
-    "answer": "False",
-    "explanation": "The tricky part is that the situation sounds safe, but Level 4 approval depends on certified Operational Design Domains (ODDs), not the driver’s personal judgment about traffic conditions. Even if weather and traffic appear favorable, operation outside approved conditions may exceed the system’s validated safety capability."
-  },
-  {
-    "question": "On a one-way road, a driver may legally use the right side of the roadway when necessary, but should still prepare for bicycles or vehicles approaching unexpectedly.",
-    "image": null,
-    "choices": [
-      "True",
-      "False"
-    ],
-    "answer": "False",
-    "explanation": "This question is tricky because many examinees focus only on the first half or second half of the sentence. Under Japanese traffic rules, drivers on one-way roads may sometimes use the right side more flexibly than on ordinary roads. However, that flexibility does not remove the duty to predict hazards."
-  },
-  {
-    "question": "If an autonomous-driving system appears stable during expressway travel, briefly using a smartphone is acceptable because the vehicle continues monitoring traffic automatically.",
-    "image": null,
-    "choices": [
-      "True",
-      "False"
-    ],
-    "answer": "False",
-    "explanation": "The tricky part is that many modern vehicles appear highly capable during stable highway driving. However, current Japanese law still treats most consumer autonomous systems as driver-assistance technologies rather than fully autonomous operation."
-  },
-  {
-    "question": "Even on one-way roads, reducing speed near blind corners is safer because bicycles or pedestrians may suddenly appear unexpectedly.",
-    "image": null,
-    "choices": [
-      "True",
-      "False"
-    ],
+    "choices": ["True", "False"],
     "answer": "True",
-    "explanation": "The tricky part is that many drivers incorrectly associate one-way roads with reduced danger because opposing traffic is prohibited."
+    "explanation": "Footwear that may slip off or hinder pedal control can affect safe driving. Drivers are responsible for ensuring they can operate the vehicle safely at all times."
   },
   {
-    "question": "A driver entering a one-way road should confirm whether bicycles are specifically permitted to travel differently from ordinary vehicles.",
+    "question": "A moped operated on public roads must be covered by compulsory automobile liability insurance or an approved mutual aid equivalent.",
     "image": null,
-    "choices": [
-      "True",
-      "False"
-    ],
+    "choices": ["True", "False"],
     "answer": "True",
-    "explanation": "The tricky part is that some Japanese roads contain supplemental signs allowing bicycles to travel differently from cars. Many examinees incorrectly assume one-way restrictions apply identically to every road user."
+    "explanation": "Japanese law requires all mopeds to have valid compulsory liability coverage before being used on public roads. Operating without such coverage is illegal."
+  },
+   {
+    "question": "When overtaking a bicycle, a driver should leave an adequate safety gap or slow down if sufficient space is not available.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Cyclists are vulnerable road users and may move unexpectedly. Maintaining a safe distance helps prevent collisions and protects both parties."
   },
   {
-    "question": "Even when legally using the right side of a one-way roadway, a driver should avoid excessive speed because hidden hazards may appear suddenly.",
+    "question": "The road marked with this sign may be used by mopeds.",
     "image": null,
-    "choices": [
-      "True",
-      "False"
-    ],
+    "choices": ["True", "False"],
     "answer": "True",
-    "explanation": "The tricky part is understanding that legal roadway positioning does not guarantee safety. Drivers may legally use more of the roadway on one-way streets, but modern Japanese exams increasingly emphasize that wider positioning should never lead to overconfidence or reduced hazard anticipation."
+    "explanation": "This sign indicates a roadway reserved for motor vehicles. Since mopeds are classified as motorized vehicles under Japanese traffic regulations, they are generally permitted to use roads displaying this sign unless another restriction applies."
+  },
+  {
+    "question": "When a lane is bordered by solid yellow lines on both sides, drivers are prohibited from crossing those lines to change lanes, including for right or left turns.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Solid yellow lane markings indicate that crossing the line is prohibited. Drivers must remain within their lane and follow the designated turning points where lane changes are permitted."
+  },
+  {
+    "question": "Operating a vehicle while using a mobile phone can distract the driver and significantly increase the risk of an accident.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Using a mobile phone reduces attention to traffic conditions and hazards. Japanese traffic laws impose strict penalties on distracted driving because of the dangers it creates."
+  },
+  {
+    "question": "If signs or road markings prohibit crossing the roadway or making a U-turn, reversing is also prohibited in the same location.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "Restrictions on crossing or U-turns do not automatically prohibit reversing. However, reversing must still be performed safely and only when traffic conditions allow."
+  },
+  {
+    "question": "When the traffic signal is blue (green), a driver should enter the intersection even if vehicles ahead have caused congestion beyond it.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "Drivers must not enter an intersection unless there is sufficient space to clear it. Blocking an intersection can obstruct traffic flow and create hazards."
+  },
+  {
+    "question": "Because a vehicle tends to gain speed on a downhill grade, a greater following distance should be maintained than on a flat road.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Stopping distances increase on downhill slopes due to gravity. Allowing additional space provides more time to react and stop safely."
+  },
+  {
+    "question": "Carrying a heavy load increases the distance required to bring a vehicle to a complete stop.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Additional weight increases momentum, making the vehicle harder to stop quickly. Drivers should account for the longer braking distance when carrying cargo."
+  },
+  {
+    "question": "After stopping at a railroad crossing and confirming that no train is approaching, you may proceed even if traffic beyond the crossing is backed up.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "Drivers must not enter a railroad crossing unless there is enough space to completely clear it. Becoming trapped on the tracks due to traffic congestion is extremely dangerous and prohibited."
+  },
+  {
+    "question": "When applying the brakes, the pedal should be operated using the heel of the foot rather than the ball or toes of the foot.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "Drivers should press the brake pedal with the ball of the foot to maintain accurate control and allow quick movement between the accelerator and brake pedals. Using the heel can reduce braking precision."
+  },
+  {
+    "question": "If a moped's engine is running while the vehicle is being pushed by hand, it may be taken along a sidewalk.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "A moped with its engine running is treated as a motor vehicle in operation. Sidewalks are generally reserved for pedestrians, and mopeds are not permitted to travel there except where specifically allowed by law."
+  },
+  {
+    "question": "A proper riding position on a motorcycle or moped includes keeping the wrists lowered and holding the handlebars lightly as though pushing them slightly forward.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Maintaining a relaxed grip and proper wrist position helps improve steering control and reduces rider fatigue. An overly tight grip can make handling less stable."
+  },
+  {
+    "question": "The horn may only be used at locations marked with a \"Sound Horn\" sign and nowhere else.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "While drivers must sound the horn where required by a \"Sound Horn\" sign, it may also be used when necessary to prevent danger or avoid a collision. Unnecessary horn use should still be avoided."
+  },
+  {
+    "question": "At a signalized intersection on a two-lane roadway, a moped making a right turn on a green light must use the same turning procedure as an ordinary automobile.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "On roads with two traffic lanes or fewer in the same direction, a moped generally performs a right turn in the same manner as other motor vehicles. The two-stage right-turn rule applies only under specific conditions."
+  },
+  {
+    "question": "Any amount of free play in a brake pedal indicates a dangerous defect.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "A small amount of pedal free play is normal and necessary for proper brake operation. Excessive free play may indicate a problem, but some movement is expected."
+  },
+  {
+    "question": "When the rider of a moped ahead extends their left arm straight out to the side, it means they intend to travel slowly.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "Extending the left arm horizontally is a hand signal indicating a left turn or lane change to the left. It does not indicate a reduction in speed."
+  },
+  {
+    "question": "During dense fog, activating the right turn signal is an appropriate way to make your vehicle more noticeable to approaching traffic.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "Turn signals should only be used to indicate turning or lane changes. In poor visibility, drivers should use appropriate lights and reduce speed rather than misuse directional signals."
+  },
+  {
+    "question": "A driver intending to make a right turn or a U-turn should begin signaling at least 30 meters before the location where the maneuver will occur.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Japanese traffic regulations require turn or U-turn signals to be given at least 30 meters before the intended action. This provides sufficient warning to other road users."
+  },
+  {
+    "question": "A vehicle's speed affects only the distance traveled after the brakes are applied, and has no influence on any other stopping factors.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "Speed affects both reaction distance and braking distance. As speed increases, the total stopping distance becomes significantly longer."
+  },
+  {
+    "question": "A moped is permitted to carry cargo weighing up to 60 kilograms.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "Cargo limits for mopeds are regulated by law and vehicle specifications. A load of 60 kilograms exceeds the standard limit allowed for a typical moped."
+  },
+  {
+    "question": "I passed a slow-moving moped within 30 meters of an intersection.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "Overtaking is generally prohibited near intersections because visibility and traffic conflicts increase the risk of accidents. Drivers should wait until they have safely cleared the restricted area."
+  },
+  {
+    "question": "When turning at a signal-controlled intersection, drivers of cars and mopeds may proceed without paying attention to pedestrians because motor vehicles have priority.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "Drivers must always watch for and yield to pedestrians when required by law. A green signal does not remove the obligation to ensure pedestrian safety during a turn."
+  },
+  {
+    "question": "At an intersection where the crossing roads are of approximately equal width, vehicles must not interfere with the movement of a tram.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "True",
+    "explanation": "Trams are given special consideration under Japanese traffic regulations. Drivers must avoid obstructing a tram's progress when passing through such intersections."
+  },
+  {
+    "question": "When carrying luggage on a bicycle, the load may extend beyond the width of the cargo carrier.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "Bicycle cargo must be loaded within legally permitted dimensions. Excessive overhang can create hazards and may violate traffic regulations."
+  },
+  {
+    "question": "A moped is always allowed to travel at 30 km/h and can never be subject to a lower speed limit.",
+    "image": null,
+    "choices": ["True", "False"],
+    "answer": "False",
+    "explanation": "While 30 km/h is the general maximum speed for mopeds, lower posted speed limits must be obeyed. Drivers are required to follow the most restrictive applicable speed limit."
   }
 ]

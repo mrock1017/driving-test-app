@@ -1,1 +1,2502 @@
-[] 
+[
+  {
+    "question": "A moped is not always permitted to travel at 30 km/h, as lower speed limits may be imposed depending on road conditions or traffic regulations.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Although 30 km/h is the general maximum speed for mopeds in Japan, some roads have posted speed limits that are lower. Drivers must always obey the posted speed limit."
+  },
+  {
+    "question": "When slowing down or stopping a motorcycle or moped, the safest method is to use both the front and rear brakes together.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Applying both brakes at the same time helps maintain stability and shortens stopping distance. Relying on only one brake can increase the risk of losing control."
+  },
+  {
+    "question": "Holding a valid moped license alone is not sufficient; the license must also be carried whenever operating a moped.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Japanese traffic law requires drivers to have their license with them while driving. Failing to carry it can result in penalties even if the driver is properly licensed."
+  },
+  {
+    "question": "For safer braking on a two-wheeled vehicle, the rider should keep the handlebars straight, make use of engine braking, and apply both front and rear brakes together.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "This combination helps maintain balance and vehicle control while reducing speed effectively. Abrupt braking or turning the handlebars during braking can increase the risk of a skid."
+  },
+  {
+    "question": "At an intersection where visibility is poor in both directions, continuously sounding the horn while proceeding through the intersection is the proper way to pass safely.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Drivers should reduce speed and proceed carefully at poorly visible intersections. The horn should only be used when specifically required or when necessary to avoid danger."
+  },
+  {
+    "question": "This road sign means drivers are not allowed to cross the roadway by making a right turn to enter or leave a roadside property or facility.",
+    "image": "no_crossing_sign.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "The sign shown prohibits crossing the center or designated area by making a right turn. Drivers must follow the restriction and use an alternative route where permitted."
+  },
+  {
+    "question": "The sign displayed marks the beginning of a one-way traffic street.",
+    "image": "turn_left.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "This sign indicates a required direction of travel (left) rather than the start of a one-way road. A one-way road is indicated by a different regulatory sign in Japan."
+  },
+  {
+    "question": "This warning sign informs drivers that a regulated section of road or traffic restriction lies ahead.",
+    "image": "warning.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "The sign is a general warning sign used to alert drivers to a hazard or condition ahead that requires caution. It does not specifically indicate the start of a traffic restriction zone."
+  },
+  {
+    "question": "Because tunnels can present visibility and safety concerns, passing another vehicle is prohibited in every tunnel.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Overtaking is prohibited only in tunnels designated by law, such as those with a single traffic lane in the same direction. In tunnels where overtaking is not specifically prohibited, drivers must still exercise extreme caution."
+  },
+  {
+    "question": "A moped is normally limited to a maximum speed of 30 km/h, but it may be driven at 40 km/h on a wide road when traffic is light.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Under Japanese traffic law, the maximum speed for a moped is generally 30 km/h unless a lower limit is posted. Road width or traffic conditions do not permit exceeding the legal speed limit."
+  },
+  {
+    "question": "A moped may pull a trailer as long as the trailer's load does not exceed 200 kilograms.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Mopeds are subject to strict towing restrictions under Japanese traffic regulations. The statement is incorrect because towing permissions and weight limits are not determined simply by allowing a 200-kilogram load."
+  },
+  {
+    "question": "The drive chain of a motorcycle or moped should have no movement at all when checked by pressing it with a finger.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "A certain amount of chain slack is necessary for proper operation. A chain that is too tight can cause excessive wear and mechanical problems."
+  },
+  {
+    "question": "During a pre-drive inspection, I discovered that the turn signals were malfunctioning, but I continued driving because hand signals could be used instead.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "A vehicle with defective direction indicators should not be driven on public roads. Hand signals do not excuse operating a vehicle with required equipment that is not functioning properly."
+  },
+  {
+    "question": "If the main traffic light is green, a moped making a left turn may continue even when the dedicated left-turn arrow is showing red.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "When the main signal permits traffic to proceed, a moped may generally make a lawful left turn unless a separate signal specifically prohibits that movement. The red left-turn arrow alone does not prevent the maneuver in this situation."
+  },
+  {
+    "question": "A person holding only a moped license is permitted to operate a moped, a mini car, and a small special-purpose vehicle.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "A moped license authorizes operation of a moped, but it does not automatically allow driving all other vehicle categories. Separate licensing requirements apply to mini cars and certain special-purpose vehicles."
+  },
+  {
+    "question": "This sign means that mopeds are allowed to use the road.",
+    "image": "bicycle.png",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "The sign shown is a designated bicycle-only route sign. It applies to bicycles and does not indicate that mopeds are permitted to travel on that roadway section."
+  },
+  {
+    "question": "If a vehicle's brakes or steering controls are defective, the driver should continue driving carefully at a reduced speed.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "A vehicle with a serious defect affecting safe operation must not be driven on public roads. Reduced speed does not remove the danger created by faulty brakes or steering equipment."
+  },
+  {
+    "question": "When riding a moped across a sidewalk or similar pedestrian area, it is sufficient to proceed slowly while avoiding interference with pedestrians.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "When crossing a sidewalk or entering a roadway through a pedestrian area, drivers must slow down and give priority to pedestrians. Simply trying not to obstruct them does not fully satisfy the driver's legal responsibilities."
+  },
+  {
+    "question": "Because visibility can suddenly worsen when moving from daylight into a tunnel, drivers should reduce speed before entering.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "The eyes need time to adjust to the darker environment inside a tunnel. Slowing down before entry helps ensure sufficient reaction time and safer vehicle control."
+  },
+  {
+    "question": "When negotiating a bend on a moped, control is improved by leaning the vehicle into the curve rather than steering sharply with the handlebars alone.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Two-wheeled vehicles turn most smoothly by combining gentle steering input with proper body and vehicle lean. Excessive handlebar movement can reduce stability while cornering."
+  },
+  {
+    "question": "The slowing effect produced by engine braking becomes stronger when a lower gear is selected.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Lower gears increase engine resistance and help reduce speed more effectively. This is particularly useful on downhill roads or when additional braking force is needed."
+  },
+  {
+    "question": "If an emergency vehicle approaches from behind while you are already passing through an intersection, you should stop immediately where you are.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Stopping inside an intersection may obstruct traffic and create danger. Drivers should first clear the intersection safely and then yield to the emergency vehicle as required."
+  },
+  {
+    "question": "The purpose of a muffler is to decrease the amount of exhaust gases released by the engine.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "A muffler is designed primarily to reduce engine and exhaust noise. The reduction of exhaust emissions is handled by other components, such as emission-control systems."
+  },
+  {
+    "question": "Drivers should not wear footwear such as geta, loose sandals, or other shoes that could interfere with proper vehicle operation.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Footwear that may slip off or hinder pedal control can affect safe driving. Drivers are responsible for ensuring they can operate the vehicle safely at all times."
+  },
+  {
+    "question": "A moped operated on public roads must be covered by compulsory automobile liability insurance or an approved mutual aid equivalent.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Japanese law requires all mopeds to have valid compulsory liability coverage before being used on public roads. Operating without such coverage is illegal."
+  },
+  {
+    "question": "When overtaking a bicycle, a driver should leave an adequate safety gap or slow down if sufficient space is not available.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Cyclists are vulnerable road users and may move unexpectedly. Maintaining a safe distance helps prevent collisions and protects both parties."
+  },
+  {
+    "question": "The road marked with this sign may be used by mopeds.",
+    "image": "moped_can_enter.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "This sign indicates a roadway reserved for motor vehicles. Since mopeds are classified as motorized vehicles under Japanese traffic regulations, they are generally permitted to use roads displaying this sign unless another restriction applies."
+  },
+  {
+    "question": "When a lane is bordered by solid yellow lines on both sides, drivers are prohibited from crossing those lines to change lanes, including for right or left turns.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Solid yellow lane markings indicate that crossing the line is prohibited. Drivers must remain within their lane and follow the designated turning points where lane changes are permitted."
+  },
+  {
+    "question": "Operating a vehicle while using a mobile phone can distract the driver and significantly increase the risk of an accident.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Using a mobile phone reduces attention to traffic conditions and hazards. Japanese traffic laws impose strict penalties on distracted driving because of the dangers it creates."
+  },
+  {
+    "question": "If signs or road markings prohibit crossing the roadway or making a U-turn, reversing is also prohibited in the same location.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Restrictions on crossing or U-turns do not automatically prohibit reversing. However, reversing must still be performed safely and only when traffic conditions allow."
+  },
+  {
+    "question": "When the traffic signal is blue (green), a driver should enter the intersection even if vehicles ahead have caused congestion beyond it.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Drivers must not enter an intersection unless there is sufficient space to clear it. Blocking an intersection can obstruct traffic flow and create hazards."
+  },
+  {
+    "question": "Because a vehicle tends to gain speed on a downhill grade, a greater following distance should be maintained than on a flat road.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Stopping distances increase on downhill slopes due to gravity. Allowing additional space provides more time to react and stop safely."
+  },
+  {
+    "question": "Carrying a heavy load increases the distance required to bring a vehicle to a complete stop.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Additional weight increases momentum, making the vehicle harder to stop quickly. Drivers should account for the longer braking distance when carrying cargo."
+  },
+  {
+    "question": "After stopping at a railroad crossing and confirming that no train is approaching, you may proceed even if traffic beyond the crossing is backed up.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Drivers must not enter a railroad crossing unless there is enough space to completely clear it. Becoming trapped on the tracks due to traffic congestion is extremely dangerous and prohibited."
+  },
+  {
+    "question": "When applying the brakes, the pedal should be operated using the heel of the foot rather than the ball or toes of the foot.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Drivers should press the brake pedal with the ball of the foot to maintain accurate control and allow quick movement between the accelerator and brake pedals. Using the heel can reduce braking precision."
+  },
+  {
+    "question": "If a moped's engine is running while the vehicle is being pushed by hand, it may be taken along a sidewalk.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "A moped with its engine running is treated as a motor vehicle in operation. Sidewalks are generally reserved for pedestrians, and mopeds are not permitted to travel there except where specifically allowed by law."
+  },
+  {
+    "question": "A proper riding position on a motorcycle or moped includes keeping the wrists lowered and holding the handlebars lightly as though pushing them slightly forward.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Maintaining a relaxed grip and proper wrist position helps improve steering control and reduces rider fatigue. An overly tight grip can make handling less stable."
+  },
+  {
+    "question": "The horn may only be used at locations marked with a \"Sound Horn\" sign and nowhere else.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "While drivers must sound the horn where required by a \"Sound Horn\" sign, it may also be used when necessary to prevent danger or avoid a collision. Unnecessary horn use should still be avoided."
+  },
+  {
+    "question": "At a signalized intersection on a two-lane roadway, a moped making a right turn on a green light must use the same turning procedure as an ordinary automobile.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "On roads with two traffic lanes or fewer in the same direction, a moped generally performs a right turn in the same manner as other motor vehicles. The two-stage right-turn rule applies only under specific conditions."
+  },
+  {
+    "question": "Any amount of free play in a brake pedal indicates a dangerous defect.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "A small amount of pedal free play is normal and necessary for proper brake operation. Excessive free play may indicate a problem, but some movement is expected."
+  },
+  {
+    "question": "When the rider of a moped ahead extends their left arm straight out to the side, it means they intend to travel slowly.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Extending the left arm horizontally is a hand signal indicating a left turn or lane change to the left. It does not indicate a reduction in speed."
+  },
+  {
+    "question": "During dense fog, activating the right turn signal is an appropriate way to make your vehicle more noticeable to approaching traffic.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Turn signals should only be used to indicate turning or lane changes. In poor visibility, drivers should use appropriate lights and reduce speed rather than misuse directional signals."
+  },
+  {
+    "question": "A driver intending to make a right turn or a U-turn should begin signaling at least 30 meters before the location where the maneuver will occur.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Japanese traffic regulations require turn or U-turn signals to be given at least 30 meters before the intended action. This provides sufficient warning to other road users."
+  },
+  {
+    "question": "A vehicle's speed affects only the distance traveled after the brakes are applied, and has no influence on any other stopping factors.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Speed affects both reaction distance and braking distance. As speed increases, the total stopping distance becomes significantly longer."
+  },
+  {
+    "question": "A moped is permitted to carry cargo weighing up to 60 kilograms.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Cargo limits for mopeds are regulated by law and vehicle specifications. A load of 60 kilograms exceeds the standard limit allowed for a typical moped."
+  },
+  {
+    "question": "I passed a slow-moving moped within 30 meters of an intersection.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Overtaking is generally prohibited near intersections because visibility and traffic conflicts increase the risk of accidents. Drivers should wait until they have safely cleared the restricted area."
+  },
+  {
+    "question": "When turning at a signal-controlled intersection, drivers of cars and mopeds may proceed without paying attention to pedestrians because motor vehicles have priority.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Drivers must always watch for and yield to pedestrians when required by law. A green signal does not remove the obligation to ensure pedestrian safety during a turn."
+  },
+  {
+    "question": "At an intersection where the crossing roads are of approximately equal width, vehicles must not interfere with the movement of a tram.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Trams are given special consideration under Japanese traffic regulations. Drivers must avoid obstructing a tram's progress when passing through such intersections."
+  },
+  {
+    "question": "When carrying luggage on a bicycle, the load may extend beyond the width of the cargo carrier.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Bicycle cargo must be loaded within legally permitted dimensions. Excessive overhang can create hazards and may violate traffic regulations."
+  },
+  {
+    "question": "A moped is always allowed to travel at 30 km/h and can never be subject to a lower speed limit.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "While 30 km/h is the general maximum speed for mopeds, lower posted speed limits must be obeyed. Drivers are required to follow the most restrictive applicable speed limit."
+  },
+  {
+    "question": "Drivers must begin signaling at least 30 meters before making a right turn, left turn, or U-turn, whereas signals for stopping or slowing down may be given when the action becomes necessary.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Japanese traffic rules require advance signaling for turns and U-turns to provide adequate notice to other road users. Signals for slowing or stopping are given when there is a need to reduce speed or stop."
+  },
+  {
+    "question": "Because wet road surfaces reduce tire grip and increase stopping distance, a larger gap should be maintained from the vehicle ahead during rain.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Rain makes roads slippery and lengthens braking distance. Increasing the following distance provides additional time and space to react safely."
+  },
+  {
+    "question": "Even if a moped has a seat designed for an additional rider, carrying a passenger is not permitted.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Standard mopeds in Japan are generally intended for a single rider only. The presence of a passenger seat does not automatically authorize two-person riding."
+  },
+  {
+    "question": "The maximum allowable width of cargo carried on a moped is the width of the cargo rack plus 10 centimeters on each side.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Japanese regulations permit cargo to extend only within specific dimensional limits. The allowed width is not calculated as the cargo device width plus 10 centimeters on each side."
+  },
+  {
+    "question": "Since using a mobile phone while driving is hazardous, the vehicle should first be stopped in a safe location if phone use is unavoidable.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Operating a mobile phone while driving can significantly reduce attention and increase accident risk. Drivers should stop in a safe place before using a phone."
+  },
+  {
+    "question": "Drivers should reduce speed when traveling through or near a curve in the road.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Curves can limit visibility and reduce vehicle stability. Slowing down helps maintain control and allows more time to respond to hazards."
+  },
+  {
+    "question": "Rapid acceleration and abrupt braking are not only unsafe but can also contribute to environmental pollution.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Aggressive driving increases fuel consumption and exhaust emissions. Smooth driving improves safety while reducing environmental impact."
+  },
+  {
+    "question": "Mopeds are prohibited from using the lane indicated by this sign.",
+    "image": "senyou_lane.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "This sign designates an exclusive lane for buses. However, under Japanese traffic regulations, mopeds may use a bus-exclusive lane unless a separate sign specifically prohibits their entry."
+  },
+  {
+    "question": "This pavement marking shows that a previous prohibition on U-turns has ended, meaning drivers may now make a U-turn.",
+    "image": "uturn_prohibited.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "The marking shown is not an indication that a no-U-turn restriction has ended. Drivers must not turn their vehicles around in areas marked with this sign."
+  },
+  {
+    "question": "When riding a moped through a curve, the proper technique is to allow the vehicle to lean naturally in the direction of the turn.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Two-wheeled vehicles maintain stability in a turn by leaning appropriately. Proper leaning helps the rider negotiate curves smoothly and safely."
+  },
+  {
+    "question": "At a tram stop that does not have a designated safety zone, if no passengers are getting on or off, you may pass the stopped tram slowly while maintaining at least 1.5 meters of clearance.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Japanese traffic regulations allow vehicles to pass a stopped tram under these conditions if a sufficient safety distance is maintained. Drivers must proceed carefully and remain alert for pedestrians."
+  },
+  {
+    "question": "A lightweight construction helmet provides adequate protection for riding because it prevents the head from becoming uncomfortable or stuffy.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Riders must wear a motorcycle safety helmet that meets the required standards. A lightweight construction helmet does not provide the level of protection required for operating a moped or motorcycle."
+  },
+  {
+    "question": "When indicating a right or left turn on a moped, only the turn signal lamps may be used, and hand signals should never be used.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Hand signals may be used when necessary, particularly if the vehicle's signal lights cannot be used. Both approved hand signals and turn indicators are recognized methods of communication."
+  },
+  {
+    "question": "When approaching a bus that is stopped at a designated bus stop, you are always required to stop behind it until it moves away.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Drivers are not automatically required to stop behind a bus at a bus stop. Depending on road conditions and safety, passing may be permitted while exercising appropriate caution."
+  },
+  {
+    "question": "On a one-way street, a vehicle may travel on the right side beyond the center of the roadway.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Since traffic moves in only one direction on a one-way road, vehicles may use portions of the roadway that would normally be considered the right side of the center line. Drivers must still follow lane markings and other applicable traffic controls."
+  },
+  {
+    "question": "When passing near a pedestrian, a moped must reduce speed if there is not enough space to maintain a safe separation.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Drivers must take precautions to ensure pedestrian safety. If sufficient clearance cannot be maintained, slowing down is required to reduce the risk of a collision."
+  },
+  {
+    "question": "A vehicle intending to turn right must yield to oncoming vehicles proceeding straight, vehicles turning left, and trams, even if the right-turning vehicle entered the intersection first, except in a roundabout.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Japanese traffic rules require right-turning vehicles to give way to certain conflicting traffic movements. Entering the intersection first does not automatically grant priority."
+  },
+  {
+    "question": "A vehicle carrying a heavy load can stop more effectively than the same vehicle without cargo.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Additional weight increases momentum and extends braking distance. Heavily loaded vehicles generally require more distance to come to a complete stop."
+  },
+  {
+    "question": "On an automatic motorcycle or moped equipped with a continuously variable transmission (CVT), engine power is transmitted less efficiently to the drive wheel when engine speed is low.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "CVT-equipped vehicles often transmit power less effectively at lower engine speeds. As engine RPM increases, power delivery to the wheels generally becomes more efficient."
+  },
+  {
+    "question": "A moped may use a bicycle path when traffic volume is low and conditions appear safe.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Bicycle paths are intended for bicycles and other permitted users. Mopeds are generally prohibited from traveling on bicycle paths unless specifically authorized by law or signage."
+  },
+  {
+    "question": "At an intersection where no crosswalk is provided, a pedestrian was crossing the road. Since vehicles have priority, I required the pedestrian to stop and proceeded through the intersection.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Drivers must exercise caution and yield when necessary to avoid endangering pedestrians. Vehicle operators do not have unrestricted priority over pedestrians simply because a crosswalk is absent."
+  },
+  {
+    "question": "Unless a different limit is indicated by signs or markings, the maximum legal speed for a moped is 40 km/h.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "The general maximum speed for a moped in Japan is 30 km/h unless a lower speed limit applies. Drivers must obey posted speed restrictions where applicable."
+  },
+  {
+    "question": "When approaching a stop sign, a driver must come to a complete stop immediately before the stop line, confirm that it is safe to proceed, and then continue.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "A full stop is required at a stop sign. After stopping, drivers must carefully check for approaching traffic and other hazards before entering the roadway."
+  },
+  {
+    "question": "If an obstruction blocks your side of the road ahead, you must slow down or stop if necessary and allow oncoming traffic to pass safely.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "When an obstacle narrows the roadway, drivers must avoid interfering with approaching vehicles. Yielding when necessary helps prevent conflicts and ensures safe passage for all road users."
+  },
+  {
+    "question": "When directed to stop by a police officer or traffic controller on a road away from an intersection, drivers must stop at a point 10 meters before the officer.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Drivers must stop at the location designated by the officer's signals or instructions. A fixed stopping distance of 10 meters does not always apply."
+  },
+  {
+    "question": "As I was about to cross a railroad crossing, the barrier started to descend. Since no train was visible, I accelerated and crossed before it closed.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Once the warning devices activate or the barrier begins to lower, drivers must not enter the crossing. A train may be approaching even if it cannot yet be seen."
+  },
+  {
+    "question": "Even though the traffic light was green, I stopped before the stop line because a police officer standing in the intersection was signaling with both arms extended horizontally.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Instructions given by a police officer take precedence over traffic signals. Drivers must obey the officer's directions even when the traffic light indicates they may proceed."
+  },
+  {
+    "question": "The safest braking technique on a motorcycle or moped is to combine engine braking with the simultaneous use of both the front and rear brakes.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Using engine braking together with both brakes helps maintain stability and reduces stopping distance. This method provides smoother and more controlled deceleration."
+  },
+  {
+    "question": "If evacuation becomes necessary during a disaster and a vehicle must be left on the road, it should be parked where it will not interfere with evacuees or emergency response operations.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Vehicles left during emergencies must not obstruct evacuation routes or disaster-relief activities. Keeping roads accessible is essential for emergency services."
+  },
+  {
+    "question": "This sign warns drivers to be alert for traffic merging from the left side ahead.",
+    "image": "roadway_joins_from_left.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "The warning sign shown indicates that another roadway joins from the left. Drivers should watch for vehicles entering from that direction and adjust their driving accordingly."
+  },
+  {
+    "question": "Even when a driver obeys all traffic regulations, inconsiderate or reckless behavior can still create danger for others and for the driver.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Safe driving requires both compliance with traffic laws and consideration for other road users. Careless behavior can lead to accidents despite technically following the rules."
+  },
+  {
+    "question": "Stopping near the crest of an uphill slope to unload cargo is acceptable.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Stopping near the top of a hill can restrict visibility for other road users and create a hazard. Such locations are generally unsuitable and often prohibited for stopping or parking."
+  },
+  {
+    "question": "This sign indicates that ordinary passenger cars are prohibited, while mopeds are still permitted to use the road.",
+    "image": "moped_can_enter.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "The sign shown prohibits standard motor vehicles but does not include mopeds in the restriction. Unless another sign specifically prohibits them, mopeds may continue to use the road."
+  },
+  {
+    "question": "At an intersection controlled by a flashing yellow signal, drivers are required to come to a complete stop before proceeding.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "A flashing yellow signal means drivers may proceed with caution after confirming safety. A complete stop is not required unless another sign or condition requires it."
+  },
+  {
+    "question": "This warning sign indicates that the number of traffic lanes will decrease ahead, and drivers should move into the right lane.",
+    "image": "lane_decreased.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "The sign warns that the left lane ends and traffic must merge. Drivers should prepare to move into the remaining lane safely and in accordance with traffic conditions."
+  },
+  {
+    "question": "You must not pass a vehicle that has moved right in preparation for making a right turn.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Overtaking a vehicle that is positioning itself to make a right turn can create a dangerous conflict. Drivers should wait until the turning vehicle has completed its maneuver."
+  },
+  {
+    "question": "Stopping or parking is prohibited within 5 meters before or after a pedestrian crossing.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Japanese traffic regulations prohibit stopping or parking within 5 meters of a crosswalk. This rule helps ensure that pedestrians remain visible to approaching drivers."
+  },
+  {
+    "question": "When leaving a dark tunnel and entering a brightly lit area, your eyesight may temporarily be affected, making it more difficult to see clearly.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "The eyes need time to adjust to sudden changes in brightness. Drivers should remain alert and be prepared for a temporary reduction in visual clarity when exiting a tunnel."
+  },
+  {
+    "question": "This sign indicates a climbing lane for slower vehicles, but only trucks carrying cargo are permitted to use it.",
+    "image": "slower_traffic.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "The sign marks a climbing lane intended for slower-moving traffic to use when ascending a grade. It is not restricted solely to cargo-carrying trucks; other slow vehicles may also use the lane when appropriate."
+  },
+  {
+    "question": "The first year after receiving a moped license is considered a probationary period, and riders who accumulate a specified number of violations during that time may be required to attend a novice driver training course.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Japan's novice driver system applies special monitoring during the initial licensing period. Riders who exceed certain violation thresholds may be ordered to complete additional safety education."
+  },
+  {
+    "question": "Parking alongside the right side of a parked vehicle is prohibited, but temporarily stopping there is allowed.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Stopping or parking beside another parked vehicle can obstruct traffic and may constitute double parking. Such actions are generally prohibited except in limited circumstances allowed by law."
+  },
+  {
+    "question": "After entering an intersection on a green signal to make a right turn, if the signal changes to yellow or red while waiting, you must continue to remain stopped.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Once a vehicle has lawfully entered the intersection, it should complete the turn and clear the intersection when it is safe to do so. Remaining in the intersection could obstruct traffic and create a hazard."
+  },
+  {
+    "question": "If a traffic accident occurs, providing first aid such as controlling bleeding while waiting for emergency services is an appropriate action.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Drivers involved in or witnessing an accident should take reasonable measures to assist injured persons when it is safe to do so. Basic first aid, such as stopping severe bleeding, can help protect lives until professional help arrives."
+  },
+  {
+    "question": "After giving a signal to move off, there is no need to check traffic or confirm that the area around the vehicle is safe.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Signaling alone does not guarantee safety. Drivers must always check mirrors, blind spots, pedestrians, and surrounding traffic before starting to move."
+  },
+  {
+    "question": "When a child is walking alone near the roadway, drivers should either stop if necessary or slow down to ensure the child's safety.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Children may act unpredictably and may not accurately judge traffic conditions. Drivers must exercise extra caution and be prepared to stop when necessary."
+  },
+  {
+    "question": "When approaching a person using a wheelchair, drivers should stop or reduce speed as needed to avoid interfering with their movement.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Road users with physical disabilities are entitled to special consideration. Drivers must operate their vehicles in a manner that does not endanger or obstruct them."
+  },
+  {
+    "question": "On a roadway that does not have marked traffic lanes, a vehicle may use any position on the left side of the center line.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Even on roads without marked lanes, drivers must keep as far left as practicable and drive in a safe manner. They may not freely occupy any position on the left side if doing so could interfere with other traffic or create danger."
+  },
+  {
+    "question": "When overtaking a tram on a road where the tracks run along the center of the roadway, vehicles should normally pass on the tram's left side.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Under Japanese traffic rules, vehicles generally overtake a tram on the left. Exceptions may apply only when the track layout or road structure specifically requires a different method."
+  },
+  {
+    "question": "At night, when there is a steady flow of oncoming traffic, it is safer to keep the headlights on high beam so other drivers can see you more easily.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "High beams can temporarily impair the vision of oncoming drivers. When other vehicles are approaching, drivers should switch to low beams to avoid causing glare while maintaining adequate visibility."
+  },
+  {
+    "question": "When descending a long slope, it is preferable to rely on engine braking rather than continuously applying the foot or hand brakes.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Excessive use of the brakes on a long downhill grade can cause brake overheating and reduced braking performance. Engine braking helps control speed more safely and reduces strain on the braking system."
+  },
+  {
+    "question": "While driving on a one-way street away from an intersection, I moved toward the left side of the road to give way to an emergency vehicle approaching from behind.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Drivers must yield promptly to approaching emergency vehicles. On a one-way road, moving to the left side and allowing the emergency vehicle to pass is an appropriate response unless directed otherwise by traffic conditions or officials."
+  },
+  {
+    "question": "Even if a driver reacts immediately and applies the brakes forcefully upon noticing a hazard, the vehicle will not stop at once.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Every vehicle requires a certain distance to stop due to reaction time and braking distance. Instantaneous stopping is physically impossible under normal driving conditions."
+  },
+  {
+    "question": "During a safety inspection of a motorcycle or moped, brake lever free play of approximately 20 to 30 millimeters is considered acceptable.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "A moderate amount of brake lever play is necessary for proper brake operation. Excessive or insufficient free play may indicate the need for adjustment or maintenance."
+  },
+  {
+    "question": "If a traffic accident results in injuries, the driver should stop immediately, take steps to prevent additional accidents, assist the injured, avoid creating unnecessary traffic hazards, and notify the police.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Japanese law requires drivers involved in injury accidents to protect injured persons, prevent secondary collisions, and report the incident to the police without delay."
+  },
+  {
+    "question": "When a photochemical smog alert or severe air pollution condition is expected, drivers should avoid using their vehicles whenever possible.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Reducing vehicle use during periods of serious air pollution helps limit emissions and protect public health. Authorities may also issue recommendations encouraging people to refrain from unnecessary driving."
+  },
+  {
+    "question": "Even when the roadway is at least 6 meters wide on the left side, a driver may overtake by moving to the right side unless overtaking is specifically prohibited.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Drivers must follow the proper overtaking rules and remain on the appropriate side of the roadway. Road width alone does not permit overtaking in a manner that violates traffic regulations."
+  },
+  {
+    "question": "After bus service has ended for the day, I stopped within 10 meters of a bus stop in order to go shopping.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Restrictions near bus stops generally apply while buses are operating. When the stop is not in service, stopping may be permitted if no other parking or stopping restrictions apply."
+  },
+  {
+    "question": "A person holding only a moped license operated a motorcycle with an engine displacement of 80 cc.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "A moped license does not authorize the operation of an 80 cc motorcycle. Such a vehicle requires a license appropriate for its engine displacement category."
+  },
+  {
+    "question": "This sign indicates that the number of lanes will decrease ahead, so drivers should move into the right lane.",
+    "image": "lane_decreased.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "The warning sign shows that the left lane ends ahead and traffic must merge into the remaining lane. Drivers should prepare to move right safely and in good time."
+  },
+  {
+    "question": "If a major earthquake warning is issued, using a vehicle to evacuate as quickly as possible is the preferred action.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "During major disasters, unnecessary vehicle use can cause severe congestion and interfere with emergency operations. Authorities generally encourage evacuation on foot unless driving is specifically necessary."
+  },
+  {
+    "question": "A person who holds a moped license is permitted to operate only a moped.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "A moped license is limited to vehicles classified as mopeds under Japanese law. It does not authorize the operation of ordinary motorcycles, passenger cars, or other vehicle categories."
+  },
+  {
+    "question": "When crossing a sidewalk on a moped, you may proceed slowly if no pedestrians are present.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Drivers crossing a sidewalk must be prepared to stop and must proceed with extreme caution. The obligation to ensure safety exists even when pedestrians are not immediately visible."
+  },
+  {
+    "question": "Because there are generally fewer vehicles and pedestrians at night, driving faster than during the daytime is safe.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Visibility is reduced at night, making it more difficult to detect hazards, pedestrians, and obstacles. Drivers should adjust their speed to conditions rather than assume nighttime travel is safer."
+  },
+  {
+    "question": "Even when traffic is heavily congested, a driver may stop on a bicycle crossing while waiting for traffic ahead to move.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Drivers must not enter a bicycle crossing unless there is enough space to clear it completely. Blocking a bicycle crossing can interfere with cyclists and create a safety hazard."
+  },
+  {
+    "question": "Mopeds are prohibited from traveling on a road marked with this sign.",
+    "image": "motorcycle_not_allowed.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "The sign shown indicates that motorcycles and similar two-wheeled motor vehicles are prohibited. Mopeds fall within the restricted category and may not use the road unless an exception is specifically provided."
+  },
+  {
+    "question": "When making a right turn on a one-way street, a driver must move toward the center of the roadway and turn around the inside corner of the intersection.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "On a one-way road, vehicles making a right turn should generally approach from the right side of the roadway. Approaching from the center is not the correct turning method."
+  },
+  {
+    "question": "A moped may use the roadside strip as long as no pedestrians are currently walking there.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Roadside strips are primarily intended for pedestrian use and safety. Mopeds are not permitted to travel on them simply because pedestrians are absent."
+  },
+  {
+    "question": "Repeatedly applying and releasing the brakes can cause the brake lights to flash, making it easier for following drivers to notice that the vehicle is slowing down.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Lightly tapping the brakes can activate the brake lights and alert drivers behind. This can help reduce the risk of rear-end collisions when slowing unexpectedly."
+  },
+  {
+    "question": "At a location marked with this sign, a rider may proceed with a motorcycle or moped if the engine is switched off and the vehicle is pushed by hand.",
+    "image": "reserved_for_pedestrians.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "The sign indicates a pedestrian-only route or area. When a rider dismounts and pushes a motorcycle or moped, the person is generally treated as a pedestrian under Japanese traffic rules and may pass through unless another restriction applies."
+  },
+  {
+    "question": "When the traffic light ahead turns red, it is acceptable to stop within the area marked by this road marking.",
+    "image": "restricted_area.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "The marking shown is a box junction or keep-clear area. Drivers should not stop inside this marked section and must keep it clear to avoid obstructing traffic flow."
+  },
+  {
+    "question": "If a traffic signal changes from green to yellow before reaching the intersection, the safest action is to accelerate and clear the intersection quickly.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Drivers should not increase speed to beat a yellow light. If it is safe to stop before the intersection, they should do so in accordance with traffic regulations."
+  },
+  {
+    "question": "A person who knowingly allows an intoxicated individual to operate their moped may also face legal penalties.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Japanese traffic laws impose penalties not only on impaired drivers but also on those who knowingly assist or enable drunk driving by lending a vehicle."
+  },
+  {
+    "question": "This sign indicates that making a left turn onto a diagonal road is prohibited.",
+    "image": "diagonal_road.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "The sign shows the permitted directions of travel. Since the diagonal-left movement is not indicated, drivers are prohibited from making that turn."
+  },
+  {
+    "question": "Because motorcycles and mopeds can be difficult for drivers of larger vehicles to notice, riders must pay close attention to surrounding traffic conditions.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Two-wheeled vehicles are smaller and can easily fall into blind spots. Riders should remain alert and anticipate that other drivers may not immediately see them."
+  },
+  {
+    "question": "A person whose moped license has been suspended is prohibited from operating a moped until the suspension period ends.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "During a license suspension, the holder loses the legal authority to drive the vehicle class covered by that license. Driving during the suspension period is a violation of the law."
+  },
+  {
+    "question": "Even if the traffic signal controlling cross traffic is red, it does not automatically mean that the signal facing you is green.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Traffic signal phases vary depending on the intersection design and traffic control system. Drivers must always obey the signal facing their direction rather than making assumptions based on other signals."
+  },
+  {
+    "question": "Overtaking a vehicle that has stopped to allow passengers to get in or out, then stopping ahead of that vehicle, is not considered cutting in.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Cutting in generally refers to entering another vehicle's path in a manner that forces it to brake or change course. Simply passing a stopped vehicle and stopping ahead of it does not automatically constitute cutting in."
+  },
+  {
+    "question": "When braking a motorcycle or moped on a dry road surface, greater braking force should be applied to the rear brake than to the front brake.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "On dry roads, the front brake provides most of the stopping power. Effective braking is achieved by using both brakes appropriately rather than relying more heavily on the rear brake."
+  },
+  {
+    "question": "When a disabled vehicle is being towed with a rope, both the driver of the towing vehicle and the person steering the disabled vehicle must hold a valid license for that type of vehicle.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "The person controlling the towed vehicle must be capable of steering and braking it safely. Therefore, both individuals must possess the appropriate driving qualifications."
+  },
+  {
+    "question": "While driving, an emergency vehicle approached from behind. Because I was not near an intersection, I continued driving slowly without yielding.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Drivers must promptly give way to emergency vehicles using sirens or warning devices. Even away from intersections, vehicles should move aside and allow the emergency vehicle to pass."
+  },
+  {
+    "question": "Since visibility is reduced at night, drivers should focus their attention only on the area immediately in front of the vehicle.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Drivers should look well ahead while also monitoring surrounding traffic. Focusing only on the area directly ahead reduces awareness of hazards further down the road."
+  },
+  {
+    "question": "Driving beyond speed limits or carrying excessive loads has no effect on vehicle noise or exhaust sound.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Higher speeds and excessive loads can increase engine strain, vehicle noise, and exhaust sound. Such driving may also increase fuel consumption and environmental impact."
+  },
+  {
+    "question": "At night, tail lights must remain illuminated even when a vehicle is parked or stopped with an approved warning device displayed.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Under certain conditions, a properly displayed warning device may allow a stopped or parked vehicle to remain without tail lights. Drivers must still comply with the applicable lighting and safety requirements."
+  },
+  {
+    "question": "While loading or unloading near firefighting equipment, a vehicle may remain stopped for more than five minutes if the driver is ready to move immediately.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Areas near firefighting equipment are subject to strict stopping and parking restrictions. Being prepared to drive away does not exempt a driver from those rules."
+  },
+  {
+    "question": "On an automatic motorcycle or moped equipped with a continuously variable transmission (CVT), engine power is transmitted more efficiently to the wheels at low engine speeds.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "CVT-equipped two-wheeled vehicles generally transmit power less effectively at lower RPMs. Power delivery becomes more efficient as engine speed increases within the operating range."
+  },
+  {
+    "question": "This sign means that carrying a passenger on a moped is permitted.",
+    "image": "riding_prohibited.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "The sign shown prohibits riding with a passenger on a motorcycle or moped. Operators of mopeds must comply with the restriction and may not carry a second person where this sign is posted."
+  },
+  {
+    "question": "If traffic ahead is backed up and there is a possibility of becoming stranded on a railroad crossing, you must wait and not enter the crossing.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Drivers must not enter a railroad crossing unless there is enough space beyond it to clear the tracks completely. Stopping on a crossing due to congestion is extremely dangerous and prohibited."
+  },
+  {
+    "question": "A driver may cross a solid yellow lane line to change lanes when traffic is light.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Solid yellow lane markings indicate that crossing the line is prohibited. Traffic conditions do not override the restriction unless specifically permitted by road markings or signs."
+  },
+  {
+    "question": "If a vehicle has been issued an abandoned vehicle notice due to a parking violation, the notice must remain attached even when the vehicle is driven away.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "The person responsible for the vehicle may remove the notice when dealing with the violation. The requirement is to comply with the legal procedures, not necessarily to keep the notice attached while driving."
+  },
+  {
+    "question": "At an uncontrolled intersection where roads of similar width meet, except where a priority road is involved, drivers must avoid interfering with the movement of a tram.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Japanese traffic regulations give special consideration to trams in such situations. Drivers must not obstruct a tram's progress when crossing or entering the intersection."
+  },
+  {
+    "question": "Engine braking becomes stronger when shifting into progressively lower gears.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Lower gears create greater engine resistance, which increases the braking effect. This technique is especially useful on downhill roads and during controlled deceleration."
+  },
+  {
+    "question": "When towing a disabled moped with a rope, a red cloth must be attached to the center of the rope.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "The requirement to attach a marker such as a red cloth applies to certain towing situations involving vehicles, but it does not apply in the manner stated for a disabled moped. Drivers must follow the specific towing rules applicable to the vehicle being towed."
+  },
+  {
+    "question": "If the main traffic signal is red but a green left-turn arrow is illuminated, all vehicles may make a left turn in the direction indicated by the arrow.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "A green directional arrow permits movement in the direction shown, even when the main signal is red. Drivers must still yield to pedestrians and other road users when required."
+  },
+  {
+    "question": "A vehicle with a defective muffler that causes excessive exhaust noise should not be operated on public roads.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Vehicles must be maintained in a safe and lawful condition. A damaged muffler can create excessive noise and may violate vehicle equipment regulations."
+  },
+  {
+    "question": "The center road marking shown prohibits drivers from crossing into the right side of the roadway to overtake another vehicle.",
+    "image": "broken_centerline.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "The marking shown is a broken center line, which generally allows drivers to cross it when overtaking can be done safely and no other restrictions apply. Drivers must still ensure adequate visibility and safety before passing."
+  },
+  {
+    "question": "Even when this sign is present for tram tracks, mopeds are permitted to travel within the tram track area.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "The sign indicates a restriction regarding the use of the tram track area. Mopeds may not enter or travel within the tram tracks when such a restriction applies."
+  },
+  {
+    "question": "Overtaking inside a tunnel is prohibited only when the tunnel contains marked traffic lanes.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Tunnel overtaking restrictions depend on the road structure and traffic regulations. Overtaking is not limited to the condition described and may be prohibited in other tunnel situations as well."
+  },
+  {
+    "question": "Tires with worn tread are more likely to skid on wet roads and can increase the distance needed to stop.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Reduced tread depth decreases a tire's ability to disperse water, increasing the risk of hydroplaning and loss of traction. This can significantly lengthen stopping distances in rainy conditions."
+  },
+  {
+    "question": "On a road without marked traffic lanes, a moped should travel near the center of the roadway.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Mopeds should generally keep to the left side of the road as required by Japanese traffic rules. Traveling near the center without necessity may interfere with other traffic."
+  },
+  {
+    "question": "Driving through a deep puddle may allow water to enter the brake drum, reducing braking effectiveness.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Water entering brake components can temporarily reduce braking performance. After passing through deep water, drivers should test the brakes carefully and ensure normal operation has been restored."
+  },
+  {
+    "question": "This sign indicates a designated stopping location, meaning a vehicle may stop there even where stopping and parking restrictions would normally apply.",
+    "image": "can_stop_but_cant_park.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "The sign shown is a designated stopping place sign. Vehicles may stop at the indicated location in accordance with the purpose of the sign, even if general stopping restrictions would otherwise apply."
+  },
+  {
+    "question": "If another vehicle is stopped immediately before a pedestrian crossing, you are required to pass it slowly.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "When a vehicle is stopped near a crosswalk, drivers must be especially alert for pedestrians. Depending on the situation, slowing down alone may not be sufficient, and passing may be restricted."
+  },
+  {
+    "question": "A flashing yellow traffic signal requires drivers to stop at the stop line, confirm safety, and then continue.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "A flashing yellow signal allows drivers to proceed with caution after checking for safety. A complete stop is not required unless another traffic control device requires it."
+  },
+  {
+    "question": "If the headlights of an approaching vehicle are causing glare at night, it is advisable to shift your focus slightly toward the left side of the roadway ahead.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Looking slightly toward the left edge of your lane helps reduce the effects of glare while allowing you to maintain awareness of the road ahead. Staring directly into oncoming headlights should be avoided."
+  },
+  {
+    "question": "Even after a driver notices a hazard and applies the brakes suddenly, the vehicle does not stop instantly, and higher speeds increase the danger.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Stopping distance consists of both reaction distance and braking distance. As speed increases, the total distance required to stop becomes significantly longer."
+  },
+  {
+    "question": "The horn should not be used without reason, except when necessary to prevent danger or where a \"Sound Horn\" sign requires its use.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Japanese traffic regulations prohibit unnecessary horn use. However, drivers may sound the horn when required by traffic signs or when needed to avoid a collision or other danger."
+  },
+  {
+    "question": "When making a sharp right turn from a one-way road on a moped, the rider must stay near the left edge of the roadway and turn around the inside corner of the intersection.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "On a one-way road, a vehicle making a right turn should generally approach from the right side of the roadway. Remaining near the left edge is not the correct method for such a turn."
+  },
+  {
+    "question": "Except in emergencies or unavoidable circumstances, drivers should operate their vehicles in a manner that does not require abrupt braking.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Sudden braking can create hazards for both the driver and surrounding traffic. Maintaining a safe speed and following distance helps avoid situations that require emergency braking."
+  },
+  {
+    "question": "When following another vehicle across a railroad crossing, you may proceed without making a temporary stop as long as the crossing appears safe.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Drivers are generally required to stop before entering a railroad crossing and confirm that it is safe to proceed. Following another vehicle does not remove this obligation."
+  },
+  {
+    "question": "If a traffic accident results only in minor injuries, reporting the incident to the police is optional.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Any traffic accident involving injuries must be reported to the police, regardless of the severity of the injuries. Reporting is a legal duty under Japanese traffic law."
+  },
+  {
+    "question": "This sign indicates that driving on the right side of the sign is prohibited.",
+    "image": "keep_left.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "The sign directs vehicles to pass on the left side of the obstacle or marker. Drivers must not proceed on the side that the sign prohibits."
+  },
+  {
+    "question": "When an emergency vehicle approaches while you are already passing through an intersection, you must immediately stop within the intersection.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Drivers should first clear the intersection safely and then yield to the emergency vehicle. Stopping inside the intersection could obstruct traffic and create additional hazards."
+  },
+  {
+    "question": "Vehicles are never allowed to enter or park on a roadside strip, regardless of its width.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "The rules regarding roadside strips depend on their width and the specific circumstances. In some cases, partial use of a sufficiently wide roadside strip may be permitted when parking legally."
+  },
+  {
+    "question": "If a police officer's or traffic controller's hand signals conflict with a traffic signal, the officer's signals take priority, but a traffic controller's signals do not.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Directions given by both police officers and authorized traffic controllers take precedence over traffic signals. Drivers must follow their instructions even when signal indications differ."
+  },
+  {
+    "question": "When riding a moped on muddy or gravel-covered roads, it is advisable to select a higher gear and accelerate through the area.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Sudden acceleration on loose or slippery surfaces can cause wheel spin and loss of control. Riders should maintain a steady speed and operate the vehicle smoothly to preserve traction."
+  },
+  {
+    "question": "The maximum permitted height of cargo loaded on a moped is 3 meters measured from the road surface.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Cargo carried on a moped is subject to specific dimensional restrictions. A total height of 3 meters exceeds the legal limit allowed for a moped."
+  },
+  {
+    "question": "Using engine braking on roads other than downhill slopes has no effect on the distance required to stop the vehicle.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Engine braking helps reduce vehicle speed in many driving situations, not only on descents. It can contribute to deceleration and influence overall stopping distance."
+  },
+  {
+    "question": "In a tunnel that has marked traffic lanes, overtaking another car or moped is permitted.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Japanese traffic regulations prohibit overtaking in certain tunnels, particularly those without vehicle lanes. In tunnels with designated traffic lanes, overtaking may be allowed if it can be done safely and no other restrictions apply."
+  },
+  {
+    "question": "Drivers must comply with all restrictions and conditions specified on their driver's license whenever operating a vehicle.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "License conditions, such as corrective lenses requirements or vehicle limitations, are legally binding. Failing to follow them is a traffic violation."
+  },
+  {
+    "question": "Whenever passing near a pedestrian, you must both maintain a safe clearance and reduce speed.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Drivers must either maintain sufficient distance or slow down when adequate clearance cannot be ensured. Reducing speed is not always required if a safe distance is already available."
+  },
+  {
+    "question": "Before moving off, a driver should signal the intention to start, check traffic conditions using mirrors, and confirm that the area around the vehicle is safe.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Proper observation and signaling are essential before entering traffic. Drivers should check mirrors, blind spots, and surrounding conditions before starting."
+  },
+  {
+    "question": "When a moped overtakes an ordinary passenger vehicle, it must always pass on the vehicle's left side.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Overtaking rules depend on the road situation and applicable traffic regulations. A moped is not required to pass on the left in every circumstance."
+  },
+  {
+    "question": "On a roadway without marked traffic lanes, a driver may freely use any position on the left side of the center line.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Drivers must keep as far left as practicable and operate their vehicles safely. They may not occupy any position at will if doing so interferes with traffic or creates danger."
+  },
+  {
+    "question": "A moped overtook a slow-moving small special vehicle near a curve where visibility was adequate.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Overtaking near a curve is generally prohibited because visibility may be limited and the risk of collision is increased. Drivers should wait until they reach a location where overtaking is legally permitted and safe."
+  },
+  {
+    "question": "When crossing railroad tracks on a moped, you should begin in a low gear, immediately shift to a higher gear, open the throttle fully, and cross as fast as possible.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Drivers should cross railroad crossings smoothly and safely without unnecessary acceleration or gear changes. Maintaining control of the vehicle is more important than crossing at high speed."
+  },
+  {
+    "question": "A person who knowingly asks an intoxicated individual to operate a moped for deliveries or transportation is not subject to any legal penalty.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Japanese traffic laws impose penalties not only on drunk drivers but also on people who encourage, request, or facilitate drunk driving."
+  },
+  {
+    "question": "Abrupt acceleration and harsh braking create safety risks and can also increase fuel consumption.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Aggressive driving wastes fuel and places additional stress on the vehicle. Smooth acceleration and braking improve both safety and fuel efficiency."
+  },
+  {
+    "question": "After noticing a pedestrian carrying a yellow cane, I sounded the horn to make the person stop and then continued driving.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "A yellow cane indicates a person with visual impairment. Drivers must exercise special care, reduce speed, and yield when necessary rather than using the horn to force the pedestrian to stop."
+  },
+  {
+    "question": "A moped may legally carry cargo weighing up to 30 kilograms.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Under Japanese regulations, the maximum cargo weight permitted on a standard moped is generally 30 kilograms, provided other cargo dimension requirements are also met."
+  },
+  {
+    "question": "A moped is allowed to overtake another vehicle even in a section where overtaking is prohibited.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Overtaking restrictions apply to mopeds as well as other vehicles. Drivers must obey no-overtaking signs, markings, and road rules."
+  },
+  {
+    "question": "Preparing for emergencies includes maintaining appropriate vehicle insurance and learning basic first-aid techniques.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Adequate insurance coverage and knowledge of emergency response procedures can help reduce the consequences of accidents and improve assistance to injured persons."
+  },
+  {
+    "question": "When stopping on an uphill grade, it is advisable to leave enough space from the vehicle ahead rather than stopping too close.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Vehicles on slopes may roll backward slightly when starting. Leaving sufficient space helps prevent collisions and provides a safety margin."
+  },
+  {
+    "question": "Because mopeds are small and easy to maneuver, weaving or zigzagging through traffic is acceptable.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Zigzag driving is dangerous and can confuse other road users. Drivers must maintain a predictable path and operate their vehicles safely."
+  },
+  {
+    "question": "Safe driving requires not only obeying traffic laws but also continuously observing road, weather, and traffic conditions.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Traffic rules alone cannot address every situation. Drivers must remain alert and adapt their driving to the conditions around them."
+  },
+  {
+    "question": "As the curve becomes tighter and its radius becomes smaller, the outward force acting on a moving vehicle increases.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Centrifugal force increases when a vehicle travels through a curve with a smaller radius at the same speed. This is why drivers should reduce speed before entering sharp bends."
+  },
+  {
+    "question": "The less traction a road surface provides, the more effective the vehicle's brakes become.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "A lower coefficient of friction reduces tire grip, making braking less effective. Slippery surfaces such as wet, icy, or muddy roads increase stopping distance."
+  },
+  {
+    "question": "A moped may be operated legally if it has voluntary insurance coverage, even when compulsory automobile liability insurance is not in force.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Compulsory automobile liability insurance is legally required for all mopeds operated on public roads. Optional insurance does not replace this mandatory coverage."
+  },
+  {
+    "question": "When braking a motorcycle or moped on a dry road surface, slightly greater braking force should be applied to the front brake than to the rear brake.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "On dry pavement, the front brake provides most of the stopping power because weight shifts forward during braking. Proper use of both brakes helps maintain stability and control."
+  },
+  {
+    "question": "This sign means parking is prohibited, but briefly stopping a vehicle is still permitted.",
+    "image": "no_stopping.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "The sign shown indicates \"No Stopping and No Parking.\" Vehicles may not stop or park in the designated area except under circumstances specifically permitted by law."
+  },
+  {
+    "question": "Driving slowly means operating the vehicle at a speed that allows it to stop immediately if necessary.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Under Japanese traffic regulations, \"slow speed\" refers to a speed at which the driver can stop the vehicle promptly and safely. This is often required in areas with increased hazards or limited visibility."
+  },
+  {
+    "question": "While driving within a roundabout, you must give way to vehicles entering the roundabout from the left.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Vehicles already circulating within a roundabout generally have priority. Drivers entering the roundabout must yield to traffic already traveling inside it."
+  },
+  {
+    "question": "A moped is prohibited from traveling in an area marked with this sign.",
+    "image": "handcarts.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "The sign shown prohibits handcarts or similar manually operated carts, not mopeds. Unless another restriction applies, mopeds are not affected by this sign."
+  },
+  {
+    "question": "When reducing speed or coming to a stop, a driver may use hand signals to communicate the intention to other road users.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Japanese traffic regulations recognize hand signals as a valid method of indicating driving intentions. They may be used when appropriate, especially if signal lamps cannot be used."
+  },
+  {
+    "question": "If a moped has equipment designed for carrying a passenger, the rider may transport a child or another passenger.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Standard mopeds are generally limited to a single rider under Japanese traffic regulations. The presence of a passenger seat or similar equipment does not automatically permit carrying another person."
+  },
+  {
+    "question": "When another vehicle is passing you, you should keep as close to the left side of the roadway as practicable and avoid accelerating until the maneuver has been completed.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Drivers being overtaken must cooperate with the passing vehicle by maintaining their course and speed. Increasing speed during an overtaking maneuver can create danger."
+  },
+  {
+    "question": "A vehicle that has been parked illegally and cannot be moved immediately because the driver is absent is referred to as an abandoned vehicle.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "In Japanese traffic enforcement, a vehicle left unattended in violation of parking regulations may be classified as an abandoned vehicle. Such vehicles are subject to special enforcement procedures."
+  },
+  {
+    "question": "Mopeds are permitted to use the lane indicated by this sign.",
+    "image": "senyou_lane.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "The sign designates a bus-exclusive lane. Under Japanese traffic regulations, mopeds may generally use a bus-exclusive lane unless an additional sign specifically excludes them."
+  },
+  {
+    "question": "Traffic ahead was backed up, and there was a possibility that my vehicle would stop on a pedestrian crossing. Since no pedestrians were using the crossing, I proceeded anyway.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Drivers must not enter a pedestrian crossing unless there is sufficient space to clear it completely. The absence of pedestrians does not permit blocking the crossing."
+  },
+  {
+    "question": "When pedestrians are present within a designated safety zone, drivers may pass the area at a slow speed.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Vehicles may proceed carefully past a safety zone while exercising caution toward pedestrians. Drivers must reduce speed and ensure they do not endanger anyone entering or leaving the safety zone."
+  },
+  {
+    "question": "Where a stop line is provided, the correct stopping point is immediately before that line.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Drivers required to stop must do so just before the stop line. This position provides proper visibility while ensuring compliance with traffic control devices and road markings."
+  },
+  {
+    "question": "When riding on an uneven dirt or gravel road, the safest method is to hold the handlebars lightly and travel through at a high speed.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Rough and unpaved roads require reduced speed and careful control. Traveling quickly on such surfaces can increase the risk of losing balance or traction."
+  },
+  {
+    "question": "Even in an area marked with a no-parking sign, a vehicle may stop at any time for loading or unloading goods.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "A no-parking restriction does not automatically permit stopping for loading or unloading. Drivers must comply with any stopping restrictions and other applicable traffic regulations."
+  },
+  {
+    "question": "Fuel consumption tends to increase when a vehicle is driven either excessively fast or unnecessarily slowly.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Vehicles generally operate most efficiently within an appropriate speed range. Extremely high or low speeds can result in greater fuel usage."
+  },
+  {
+    "question": "If the accelerator cable becomes stuck and the throttle remains open while driving, the correct response is to apply the brakes abruptly and stop immediately.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Sudden braking may cause loss of control, especially if engine power continues to be applied. Drivers should first reduce engine power safely and bring the vehicle under control before stopping."
+  },
+  {
+    "question": "The novice driver period is the one-year period following the issuance of a regular driver's license, large motorcycle license, ordinary motorcycle license, or moped license.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Japan's novice driver system applies for one year after obtaining certain types of licenses. Drivers and riders in this period are subject to special rules and additional safety requirements."
+  },
+  {
+    "question": "When moving into another lane traveling in the same direction, the turn signal should be activated approximately 10 seconds before the lane change.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Japanese traffic regulations require signaling for lane changes at least 3 seconds before beginning the maneuver. A fixed requirement of about 10 seconds is not prescribed."
+  },
+  {
+    "question": "Even when a railroad crossing provides a clear view in both directions, overtaking is prohibited within 30 meters before the crossing.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Japanese traffic regulations prohibit overtaking near railroad crossings because of the increased risk of accidents. Good visibility does not remove this restriction."
+  },
+  {
+    "question": "Changing directly from a high gear to a much lower gear can place excessive stress on the engine and drivetrain.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Abrupt downshifting may cause engine over-revving and mechanical strain. Drivers should shift smoothly and select gears appropriate for the vehicle's speed."
+  },
+  {
+    "question": "If an abandoned vehicle notice has been attached for an illegal parking violation, it may be removed before driving the vehicle away.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "The notice serves as an enforcement document and does not have to remain attached while the vehicle is being driven. However, the driver or owner must still comply with the applicable legal procedures."
+  },
+  {
+    "question": "This lane sign allows a driver traveling in the designated lane to make a left turn at the upcoming intersection.",
+    "image": "permitted_directions.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "The sign indicates the permitted directions of travel for that lane. Since a left-turn arrow is displayed, vehicles in the lane may legally turn left."
+  },
+  {
+    "question": "This road marking indicates that a pedestrian crossing or bicycle crossing is located ahead.",
+    "image": "diamond_markings.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "The diamond-shaped pavement marking is used to warn drivers of an approaching pedestrian crossing or bicycle crossing. Drivers should be prepared to slow down and watch for crossing users."
+  },
+  {
+    "question": "Drivers do not need to reduce their speed at night compared with daytime driving.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Visibility is generally reduced at night, making it harder to detect hazards, pedestrians, and obstacles. Drivers should adjust their speed according to visibility and road conditions."
+  },
+  {
+    "question": "This sign means drivers must always slow down because children are likely to suddenly enter the roadway.",
+    "image": "pedestrian.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "The sign shown identifies a school zone or school crossing area, warning drivers to watch for children. While extra caution is required, the sign itself does not automatically impose a legal requirement to proceed at slow speed at all times."
+  },
+  {
+    "question": "Mopeds are generally not allowed to travel along tram tracks, but they may enter or cross the tracks when making a right turn, left turn, crossing the roadway, or performing a U-turn.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Japanese traffic rules generally prohibit routine travel within tram track areas. However, mopeds may use or cross the tracks when necessary for specific maneuvers such as turning or crossing the roadway."
+  },
+  {
+    "question": "On a road where three lanes are available in the direction of travel, a moped must use the lane farthest to the left.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Mopeds are generally required to keep to the left side of the roadway. On multi-lane roads, they should normally use the leftmost lane unless traffic controls or road conditions require otherwise."
+  },
+  {
+    "question": "A driver may overtake a moped within 30 meters before a bicycle crossing if no cyclists are currently using the crossing.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Overtaking is prohibited within the specified distance of a bicycle crossing regardless of whether cyclists are present. The restriction exists to protect crossing users and improve safety."
+  },
+  {
+    "question": "I stopped for three minutes to load or unload cargo in an area marked with this sign.",
+    "image": "no_parking_sign.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "The sign shown indicates \"No Parking.\" Temporary stopping for activities such as loading or unloading may be permitted, provided the vehicle is not considered parked under the legal definition and no separate stopping restriction applies."
+  },
+  {
+    "question": "Near a curve or a steep downhill section, overtaking is prohibited, and drivers should reduce speed even when visibility appears sufficient.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Curves and steep descents present increased risks due to limited reaction time, changing vehicle dynamics, and potential visibility issues. Drivers must exercise caution and comply with overtaking restrictions in these areas."
+  },
+  {
+    "question": "This warning sign means drivers are legally required to travel at a slow speed.",
+    "image": "steep.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "The sign shown warns of a steep 10% grade ahead. It alerts drivers to the slope but does not itself impose a mandatory slow-speed requirement; drivers should adjust their speed according to conditions."
+  },
+  {
+    "question": "At an uncontrolled intersection where roads of similar width meet and neither road has priority, I proceeded first because the other vehicle was approaching from my right.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "At intersections of roads with approximately equal width, vehicles approaching from the left must generally yield to vehicles approaching from the right. Therefore, the vehicle on the right has priority."
+  },
+  {
+    "question": "Mopeds are prohibited from entering a roadway marked with this sign.",
+    "image": "no_bicycle.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "The sign shown prohibits bicycles, not mopeds. Since a moped is classified as a motor vehicle rather than a bicycle, this sign does not by itself prohibit moped traffic."
+  },
+  {
+    "question": "Obeying traffic regulations and yielding appropriately to other road users creates confusion and increases the risk of accidents.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Following traffic rules and yielding when required promotes predictable traffic flow and improves safety. These actions help reduce confusion and prevent collisions."
+  },
+  {
+    "question": "A rider satisfies the helmet requirement for operating a moped by wearing any type of helmet, including a construction helmet.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Moped riders must wear a motorcycle helmet that meets the applicable safety standards. A construction helmet is not an approved substitute for riding on public roads."
+  },
+  {
+    "question": "At an intersection, a rider should position the vehicle where the driver of a turning four-wheeled vehicle can clearly see them to avoid being caught in the vehicle's turning path.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Motorcycles and mopeds can be difficult for other drivers to notice. Maintaining a visible position helps reduce the risk of being involved in a turning-related collision."
+  },
+  {
+    "question": "Engine braking is more effective when a vehicle is in a higher gear than when it is in a lower gear.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Lower gears produce greater engine resistance and therefore stronger engine braking. This is why drivers often shift to a lower gear when descending steep slopes."
+  },
+  {
+    "question": "At a railroad crossing controlled by traffic signals, drivers may proceed without making a temporary stop when the signal permits traffic to move.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "In Japan, a stop is generally not required at a railroad crossing that is regulated by a traffic signal when the signal indicates it is safe to proceed. Drivers must still remain alert and ensure the crossing can be cleared safely."
+  },
+  {
+    "question": "This sign indicates that mopeds are required to make a two-stage right turn at the intersection.",
+    "image": "two_stage_right.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "The sign shown designates a mandatory two-stage right turn for mopeds. Riders must cross the intersection in two steps rather than making a direct right turn."
+  },
+  {
+    "question": "Because visibility is reduced when entering a tunnel from a bright area, drivers should slow down before reaching the tunnel entrance.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "The eyes require time to adjust to the darker environment inside a tunnel. Reducing speed beforehand helps maintain safety during the transition."
+  },
+  {
+    "question": "A person who supplies alcohol to someone they know will be driving can also be penalized under traffic laws.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Japanese law imposes penalties not only on impaired drivers but also on individuals who knowingly assist or encourage drunk driving, including by providing alcohol."
+  },
+  {
+    "question": "When the headlights of an approaching vehicle cause glare at night, it is acceptable to close your eyes briefly while continuing to drive.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Drivers must keep watching the road and maintain control of the vehicle at all times. Closing your eyes, even momentarily, creates a serious safety risk."
+  },
+  {
+    "question": "At an uncontrolled intersection where roads are of similar width, drivers must not interfere with vehicles approaching from the left.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "At such intersections, drivers are required to respect the applicable right-of-way rules and avoid obstructing other vehicles. Safe passage for approaching traffic must be ensured."
+  },
+  {
+    "question": "Owners of mopeds are required to maintain compulsory automobile liability insurance or an approved mutual aid equivalent.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Compulsory liability coverage is legally required before a moped may be operated on public roads. Driving without this coverage is a violation of the law."
+  },
+  {
+    "question": "When towing a trailer with a moped, I dismounted and pushed the vehicle, so it was acceptable to travel on the sidewalk.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Sidewalks are primarily for pedestrian use. Pushing a moped while towing a trailer does not automatically grant permission to travel on a sidewalk where such movement would be prohibited or unsafe."
+  },
+  {
+    "question": "A bus stopped ahead signaled its intention to re-enter traffic, and I immediately passed alongside it before it could move.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Drivers should exercise caution around buses signaling to depart from a bus stop. Passing in a way that interferes with the bus's safe re-entry into traffic is prohibited."
+  },
+  {
+    "question": "Stopping or parking is prohibited within 5 meters before or after a pedestrian crossing or bicycle crossing.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Japanese traffic regulations prohibit stopping or parking within 5 meters of a crosswalk or bicycle crossing. This helps ensure visibility and safety for crossing pedestrians and cyclists."
+  },
+  {
+    "question": "A yellow directional arrow allows vehicles to travel in the indicated direction even when the main signal is yellow or red, provided attention is paid to surrounding traffic.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "A directional arrow that permits movement is displayed as a green arrow, not a yellow one. Drivers must obey the actual signal indications shown."
+  },
+  {
+    "question": "When parking on a road that has neither a sidewalk nor a roadside strip, a space of 0.75 meters must be left on the left side of the vehicle for pedestrians.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "The required clearance for pedestrians is not measured from the left side of the parked vehicle in the manner stated. Drivers must follow the specific parking rules that ensure safe pedestrian passage."
+  },
+  {
+    "question": "If a vehicle's speed is doubled, the braking distance from the moment the brakes are applied until the vehicle stops becomes roughly four times longer.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Braking distance increases approximately with the square of speed. As a result, doubling speed can increase braking distance by about four times."
+  },
+  {
+    "question": "Mopeds may use a designated bus lane as long as they do not interfere with the movement of buses and similar vehicles.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Under Japanese traffic regulations, mopeds are generally permitted to use bus lanes unless additional signs prohibit them. Riders must not obstruct buses or other authorized vehicles using the lane."
+  },
+  {
+    "question": "At night in heavily trafficked urban areas, drivers should normally use low-beam headlights.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Low beams help prevent glare for other road users in areas with frequent traffic. High beams should be used only when appropriate and switched off when they could dazzle others."
+  },
+  {
+    "question": "Automatic motorcycles and mopeds can accelerate unexpectedly if the throttle is opened too quickly.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Automatic two-wheeled vehicles respond immediately to throttle input. Abrupt throttle operation can lead to sudden acceleration and loss of control."
+  },
+  {
+    "question": "When braking a moped on a wet road surface, it is generally safer to rely slightly more on the rear brake.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Wet roads reduce tire grip and increase the risk of front-wheel skids. Using the brakes smoothly, with slightly greater emphasis on the rear brake, can help maintain stability."
+  },
+  {
+    "question": "While approaching an intersection, I noticed an emergency vehicle coming from the opposite direction, so I moved to the left edge of the road and stopped before entering the intersection.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Drivers must yield to emergency vehicles using sirens or warning devices. When near an intersection, stopping at the left side before entering the intersection helps ensure a clear path for the emergency vehicle."
+  },
+  {
+    "question": "If the parties involved in a traffic accident reach a private agreement, reporting the accident to the police is unnecessary.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Japanese law requires traffic accidents to be reported to the police regardless of any agreement between the parties. This obligation applies even when damages or injuries appear minor."
+  },
+  {
+    "question": "A person who has held a moped license for less than one year must display a novice driver mark on the front or rear of the moped.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "The novice driver mark requirement applies to certain categories of motor vehicle drivers, not to moped operators. Moped riders are not required to display this mark."
+  },
+  {
+    "question": "During a disaster, if a road becomes subject to traffic restrictions under the Disaster Countermeasures Basic Act, drivers should leave the restricted area and move elsewhere.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Drivers must comply with disaster-related traffic controls and cooperate with emergency measures. Leaving restricted zones helps ensure access for emergency and relief operations."
+  },
+  {
+    "question": "In a lane marked with this road marking, mopeds may not travel except when making a left turn.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "The restriction described does not apply in the stated manner. Mopeds may use the lane in accordance with the road markings and traffic regulations governing that roadway."
+  },
+  {
+    "question": "The proper riding posture on a motorcycle or moped is to place the feet on the footrests with the toes pointed slightly forward and the soles held level.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Riders should position their feet securely on the footrests with the toes generally pointed inward or parallel to the vehicle to avoid contact with the road surface. The posture described is not considered proper riding technique."
+  },
+  {
+    "question": "You must not overtake a vehicle that has moved right in preparation for making a right turn or a similar maneuver.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Passing a vehicle that is positioning itself for a right turn can create a dangerous conflict. Drivers should wait until the maneuver has been completed and it is safe to proceed."
+  },
+  {
+    "question": "At night, when a police officer standing in the center of an intersection swings a light horizontally, traffic facing that signal is treated the same as having a green traffic light.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Police hand signals and light signals take precedence over traffic lights. A horizontal swinging light in this situation indicates that traffic in that direction may proceed, similar to a green signal."
+  }
+]
