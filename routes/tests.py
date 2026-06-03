@@ -30,6 +30,18 @@ tests = Blueprint(
     __name__
 )
 
+FREE_REVIEWER_LIMIT = 20
+
+FREE_MASTER_ALLOWED = [
+    "karimen",
+    "gaimen",
+    "gentsuki"
+]
+
+PREMIUM_ONLY_MASTER = [
+    "honmen"
+]
+
 QUESTION_CACHE = {}
 
 # =========================================================
@@ -135,6 +147,42 @@ def start_mode(mode, test):
     )
 
     # =====================================================
+    # 🔒 MASTER EXAM FREE LIMIT
+    # =====================================================
+
+    is_master_test = test.endswith("_master")
+
+    if is_master_test and not is_premium:
+
+        # Honmen Master is always Premium
+        if mode == "honmen":
+
+            return redirect('/upgrade')
+
+        # These masters allow only 1 free generated exam
+        if mode in ["karimen", "gaimen", "gentsuki"]:
+
+            if 'user_id' not in session:
+
+                return redirect('/register')
+
+            existing_attempt = (
+
+                ScoreHistory.query
+
+                .filter_by(
+                    user_id=session['user_id'],
+                    mode=mode
+                )
+
+                .first()
+            )
+
+            if existing_attempt:
+
+                return redirect('/upgrade')
+
+    # =====================================================
     # 🔒 PREMIUM PROTECTION
     # =====================================================
 
@@ -168,18 +216,7 @@ def start_mode(mode, test):
 
             return redirect('/register')
 
-    # =====================================================
-    # 🔒 FREE USERS
-    # =====================================================
-
-    elif not is_premium:
-
-        if mode == "karimen":
-
-            if test != "karimen_1":
-
-                return redirect('/upgrade')
-
+    
     # =====================================================
     # 📂 FOLDER
     # =====================================================
@@ -250,9 +287,6 @@ def start_mode(mode, test):
 
         return redirect('/menu')
 
-        if len(questions) == 0:
-
-            return redirect('/menu')
 
     # =====================================================
     # 💾 SAVE SESSION
@@ -940,14 +974,19 @@ def result():
 
     language = session.get('lang', 'en')
 
-    questions = load_questions(
+    question_filename = f"{session['questions_file']}.json"
 
-        session['folder'],
+    cache_key = f"{session['folder']}_{language}_{question_filename}"
 
-        language,
+    if cache_key not in QUESTION_CACHE:
 
-        f"{session['questions_file']}.json"
-    )
+        QUESTION_CACHE[cache_key] = load_questions(
+            session['folder'],
+            language,
+            question_filename
+        )
+
+    questions = QUESTION_CACHE[cache_key]
 
     order = session.get('order', [])
 
