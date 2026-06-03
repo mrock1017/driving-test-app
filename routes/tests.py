@@ -578,14 +578,19 @@ def question():
 
     language = session.get('lang', 'en')
 
-    questions = load_questions(
+    question_filename = f"{session['questions_file']}.json"
 
-        session['folder'],
+    cache_key = f"{session['folder']}_{language}_{question_filename}"
 
-        language,
+    if cache_key not in QUESTION_CACHE:
 
-        f"{session['questions_file']}.json"
-    )
+        QUESTION_CACHE[cache_key] = load_questions(
+            session['folder'],
+            language,
+            question_filename
+        )
+
+    questions = QUESTION_CACHE[cache_key]
 
     order = session['order']
 
