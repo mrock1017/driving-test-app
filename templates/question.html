@@ -477,7 +477,7 @@ body.dark .situation-box{
 
 {% endif %}
 
-<form method="POST" class="question-form">
+<form method="POST" action="/question" class="question-form">
 
 {% for item in q["items"] %}
 
@@ -621,7 +621,7 @@ body.dark .situation-box{
 
 {% endif %}
 
-<form method="POST" class="question-form">
+<form method="POST" action="/question" class="question-form">
 
 {% for choice in q.choices %}
 
@@ -754,18 +754,7 @@ document.querySelectorAll('form').forEach(form => {
     });
 });
 
-</script>
-
 <script>
-
-if('serviceWorker' in navigator){
-
-    navigator.serviceWorker.register(
-        '/static/service-worker.js'
-    );
-}
-
-</script>
 
 </body>
 </html>

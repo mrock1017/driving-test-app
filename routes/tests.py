@@ -85,9 +85,15 @@ def set_language(lang):
 @tests.route('/next')
 def next_question():
 
-    if 'current' in session:
+    if 'order' not in session:
 
-        session['current'] += 1
+        return redirect('/menu')
+
+    current = session.get('current', 0)
+
+    session['current'] = current + 1
+
+    session.modified = True
 
     return redirect('/question')
 
@@ -212,7 +218,7 @@ def start_mode(mode, test):
 
     else:
 
-        return "Invalid mode"
+        return redirect('/menu')
 
     # =====================================================
     # ✅ LOAD QUESTIONS WITH CACHE
@@ -242,11 +248,11 @@ def start_mode(mode, test):
 
     if len(questions) == 0:
 
-        return "No questions found."
+        return redirect('/menu')
 
         if len(questions) == 0:
 
-            return "No questions found."
+            return redirect('/menu')
 
     # =====================================================
     # 💾 SAVE SESSION
