@@ -42,6 +42,15 @@ PREMIUM_ONLY_MASTER = [
     "honmen"
 ]
 
+def go_upgrade():
+
+    if session.get('platform') == 'android':
+
+        return redirect('/upgrade?platform=android')
+
+    return redirect('/upgrade')
+
+
 QUESTION_CACHE = {}
 
 # =========================================================
@@ -180,7 +189,7 @@ def start_mode(mode, test):
             "gentsuki"
         ]:
 
-            return redirect('/upgrade')
+            return go_upgrade()
 
     
     # =====================================================
@@ -462,7 +471,7 @@ def start_mode(mode, test):
 
             if session.get('guest_reviewer_done'):
 
-                return redirect('/upgrade')
+                return go_upgrade()
 
         # =================================================
         # 🚫 FREE ACCOUNT REVIEWER LIMIT
@@ -484,7 +493,7 @@ def start_mode(mode, test):
 
             if existing_attempt:
 
-                return redirect('/upgrade')
+                return go_upgrade()
 
         reviewer_indexes = []
 
@@ -714,7 +723,7 @@ def question():
 
             db.session.commit()
 
-            return redirect('/upgrade')
+            return go_upgrade()
 
     # =====================================================
     # 📦 CURRENT QUESTION
@@ -1564,7 +1573,7 @@ def reviewers():
 
     if not session.get('is_premium'):
 
-        return redirect('/upgrade')
+        return go_upgrade()
 
     return render_template(
         'reviewer_hub.html'
@@ -1649,7 +1658,7 @@ def road_signs_reviewer():
 
     if not session.get('is_premium'):
 
-        return redirect('/upgrade')
+        return go_upgrade()
 
     language = session.get(
         'lang',

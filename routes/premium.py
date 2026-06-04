@@ -34,13 +34,13 @@ def upgrade():
 
         session['platform'] = platform
 
+    is_android = platform == "android"
+
     return render_template(
-
         'upgrade.html',
-
         ui=get_ui(),
-
-        platform=platform
+        platform=platform,
+        is_android=is_android
     )
 
 # =========================================================
