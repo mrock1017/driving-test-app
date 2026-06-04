@@ -1243,7 +1243,13 @@ def create_checkout_session(plan):
     # 💳 SELECT PRICE ID
     # =====================================================
 
-    if plan == "yearly":
+    if plan == "weekly":
+
+        price_id = os.getenv(
+            "STRIPE_WEEKLY_PRICE_ID"
+        )
+
+    elif plan == "yearly":
 
         price_id = os.getenv(
             "STRIPE_YEARLY_PRICE_ID"
@@ -1285,6 +1291,65 @@ def create_checkout_session(plan):
 
         code=303
     )
+
+@tests.route('/api/google-play/verify-purchase', methods=['POST'])
+def verify_google_play_purchase():
+
+    if 'user_id' not in session:
+
+        return {
+            "success": False,
+            "message": "Login required"
+        }, 401
+
+    data = request.get_json()
+
+    if not data:
+
+        return {
+            "success": False,
+            "message": "Invalid request"
+        }, 400
+
+    product_id = data.get('product_id')
+    purchase_token = data.get('purchase_token')
+
+    if product_id != "premium" or not purchase_token:
+
+        return {
+            "success": False,
+            "message": "Invalid purchase data"
+        }, 400
+
+    user = User.query.get(
+        session['user_id']
+    )
+
+    if not user:
+
+        return {
+            "success": False,
+            "message": "User not found"
+        }, 404
+
+    # TEMPORARY:
+    # This activates Premium after Android purchase success.
+    # Later, replace this with full Google server-side verification.
+
+    user.is_premium = True
+    user.subscription_status = "active"
+    user.google_purchase_token = purchase_token
+    user.google_subscription_product_id = product_id
+
+    session['is_premium'] = True
+
+    db.session.commit()
+
+    return {
+        "success": True,
+        "message": "Premium activated"
+    }, 200
+
 
 # =========================================================
 # ✅ PAYMENT SUCCESS
