@@ -155,74 +155,32 @@ def start_mode(mode, test):
     )
 
     # =====================================================
-    # 🔒 MASTER EXAM FREE LIMIT
+    # 🔒 MASTER EXAM ACCESS LIMIT
     # =====================================================
 
     is_master_test = test.endswith("_master")
 
     if is_master_test and not is_premium:
 
-        # Honmen Master is always Premium
-        if mode == "honmen":
+        # =================================================
+        # ✅ KARIMEN MASTER = FREE / UNLIMITED
+        # =================================================
+
+        if mode == "karimen":
+
+            pass
+
+        # =================================================
+        # 🔒 HONMEN, GAIMEN, GENTSUKI MASTER = PREMIUM
+        # =================================================
+
+        elif mode in [
+            "honmen",
+            "gaimen",
+            "gentsuki"
+        ]:
 
             return redirect('/upgrade')
-
-        # These masters allow only 1 free generated exam
-        if mode in ["karimen", "gaimen", "gentsuki"]:
-
-            if 'user_id' not in session:
-
-                return redirect('/register')
-
-            existing_attempt = (
-
-                ScoreHistory.query
-
-                .filter_by(
-                    user_id=session['user_id'],
-                    mode=mode
-                )
-
-                .first()
-            )
-
-            if existing_attempt:
-
-                return redirect('/upgrade')
-
-    # =====================================================
-    # 🔒 PREMIUM PROTECTION
-    # =====================================================
-
-    if mode == "honmen":
-
-        # =================================================
-        # 👤 GUEST USERS
-        # =================================================
-
-        if 'user_id' not in session:
-
-            return redirect('/register')
-
-        # =================================================
-        # 🔒 FREE USERS
-        # =================================================
-
-        if not is_premium:
-
-            return redirect('/upgrade')
-
-    # =====================================================
-    # 👤 GUEST USERS
-    # =====================================================
-
-    if 'user_id' not in session:
-
-        # guests can ONLY access reviewer
-
-        if "reviewer" not in mode:
-
-            return redirect('/register')
 
     
     # =====================================================
@@ -504,7 +462,7 @@ def start_mode(mode, test):
 
             if session.get('guest_reviewer_done'):
 
-                return redirect('/register')
+                return redirect('/upgrade')
 
         # =================================================
         # 🚫 FREE ACCOUNT REVIEWER LIMIT
@@ -541,7 +499,7 @@ def start_mode(mode, test):
         random.shuffle(reviewer_indexes)
 
         # =================================================
-        # 👤 GUEST USERS = 10 QUESTIONS
+        # 👤 GUEST USERS = 20 QUESTIONS
         # =================================================
 
         if 'user_id' not in session:
@@ -1303,13 +1261,6 @@ def create_checkout_session(plan):
 @tests.route('/api/google-play/verify-purchase', methods=['POST'])
 def verify_google_play_purchase():
 
-    if 'user_id' not in session:
-
-        return {
-            "success": False,
-            "message": "Login required"
-        }, 401
-
     data = request.get_json()
 
     if not data:
@@ -1329,35 +1280,39 @@ def verify_google_play_purchase():
             "message": "Invalid purchase data"
         }, 400
 
-    user = User.query.get(
-        session['user_id']
-    )
-
-    if not user:
-
-        return {
-            "success": False,
-            "message": "User not found"
-        }, 404
-
-    # TEMPORARY:
-    # This activates Premium after Android purchase success.
-    # Later, replace this with full Google server-side verification.
-
-    user.is_premium = True
-    user.subscription_status = "active"
-    user.google_purchase_token = purchase_token
-    user.google_subscription_product_id = product_id
+    # =====================================================
+    # ✅ ACTIVATE PREMIUM FOR CURRENT SESSION
+    # Works for guest users and logged-in users
+    # =====================================================
 
     session['is_premium'] = True
+    session['google_purchase_token'] = purchase_token
+    session['subscription_status'] = "active"
 
-    db.session.commit()
+    # =====================================================
+    # ✅ IF USER IS LOGGED IN, ALSO SAVE TO USER ACCOUNT
+    # Optional account backup / restore
+    # =====================================================
+
+    if 'user_id' in session:
+
+        user = User.query.get(
+            session['user_id']
+        )
+
+        if user:
+
+            user.is_premium = True
+            user.subscription_status = "active"
+            user.google_purchase_token = purchase_token
+            user.google_subscription_product_id = product_id
+
+            db.session.commit()
 
     return {
         "success": True,
         "message": "Premium activated"
     }, 200
-
 
 # =========================================================
 # ✅ PAYMENT SUCCESS
