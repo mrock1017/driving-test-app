@@ -25,15 +25,22 @@ premium = Blueprint(
 @premium.route('/upgrade')
 def upgrade():
 
+    platform = request.args.get(
+        'platform',
+        session.get('platform')
+    )
+
+    if platform:
+
+        session['platform'] = platform
+
     return render_template(
 
         'upgrade.html',
 
         ui=get_ui(),
 
-        platform=request.args.get(
-            'platform'
-        )
+        platform=platform
     )
 
 # =========================================================
@@ -43,10 +50,13 @@ def upgrade():
 @premium.route('/subscribe')
 def subscribe():
 
+    platform = request.args.get(
+        'platform',
+        session.get('platform')
+    )
+
     # 🚫 BLOCK ANDROID APP
-    if request.args.get(
-        'platform'
-    ) == 'android':
+    if platform == 'android':
 
         return redirect(
             '/upgrade?platform=android'
@@ -63,8 +73,6 @@ def subscribe():
     if not user:
 
         return redirect('/login')
-
-    # ✅ TEMP PREMIUM
 
     user.is_premium = True
 
