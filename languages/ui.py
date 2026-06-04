@@ -98,6 +98,8 @@ UI_TEXT = {
         "ai_title": "🧠 AI Tutor",
         "premium": "⭐ Premium User",
         "select_language": "Select Language"
+        "backup_progress": "☁️ Backup Progress",
+        "account_optional_note": "Optional: create an account to back up progress and restore Premium on another device.",
     },
 
     "tl": {
