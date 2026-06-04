@@ -1212,7 +1212,7 @@ def create_checkout_session(plan):
 
     if 'user_id' not in session:
 
-        return redirect('/register')
+        return go_upgrade()
 
     # =====================================================
     # 💳 SELECT PRICE ID
@@ -1590,9 +1590,9 @@ def master_reviewer(reviewer_id):
     # 👤 LOGIN REQUIRED
     # =============================================
 
-    if 'user_id' not in session:
+    if not session.get('is_premium'):
 
-        return redirect('/register')
+        return go_upgrade()
 
     # =============================================
     # ⭐ PREMIUM REQUIRED
@@ -1648,9 +1648,9 @@ def road_signs_reviewer():
     # 👤 LOGIN REQUIRED
     # =============================================
 
-    if 'user_id' not in session:
+    if not session.get('is_premium'):
 
-        return redirect('/register')
+        return go_upgrade()
 
     # =============================================
     # ⭐ PREMIUM REQUIRED
