@@ -712,6 +712,45 @@ with app.app_context():
     except Exception:
         db.session.rollback()
 
+    try:
+        db.session.execute(
+            db.text(
+                "ALTER TABLE user ADD COLUMN google_purchase_token VARCHAR(500)"
+            )
+        )
+        db.session.commit()
+    except Exception:
+        db.session.rollback()
+
+    try:
+        db.session.execute(
+            db.text(
+                "ALTER TABLE user ADD COLUMN google_subscription_product_id VARCHAR(100)"
+            )
+        )
+        db.session.commit()
+    except Exception:
+        db.session.rollback()
+
+    try:
+        db.session.execute(
+            db.text(
+                "ALTER TABLE user ADD COLUMN google_subscription_base_plan_id VARCHAR(100)"
+            )
+        )
+        db.session.commit()
+    except Exception:
+        db.session.rollback()
+
+    try:
+        db.session.execute(
+            db.text(
+                "ALTER TABLE user ADD COLUMN google_subscription_expiry DATETIME"
+            )
+        )
+        db.session.commit()
+    except Exception:
+        db.session.rollback()
 # =========================================================
 # 🖼 FAVICON
 # =========================================================
