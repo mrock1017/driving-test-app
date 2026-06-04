@@ -52,15 +52,23 @@ QUESTION_CACHE = {}
 @tests.route('/menu')
 def menu():
 
+    platform = request.args.get(
+        'platform',
+        session.get('platform')
+    )
+
+    if platform:
+
+        session['platform'] = platform
+
     if 'lang' not in session:
 
         session['lang'] = 'en'
 
     return render_template(
-
         'menu.html',
-
-        ui=get_ui()
+        ui=get_ui(),
+        platform=platform
     )
 
 # =========================================================
