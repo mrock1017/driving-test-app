@@ -515,27 +515,32 @@ body{
 
 {% if platform == "android" %}
 
-<div style="
-background:#fff7ed;
-color:#9a3412;
-padding:20px;
-border-radius:18px;
-font-weight:700;
-margin-top:20px;
-margin-bottom:20px;
-text-align:center;
-line-height:1.6;
-">
+<button
+    type="button"
+    class="upgrade-btn"
+    onclick="AndroidBilling.subscribe('weekly')">
 
-    🚧 Premium subscriptions are temporarily unavailable
-    in the Android app while Google Play Billing is being
-    integrated.
+    🚀 Upgrade Weekly
 
-    <br><br>
+</button>
 
-    Please continue using the free version during testing.
+<button
+    type="button"
+    class="upgrade-btn"
+    onclick="AndroidBilling.subscribe('monthly')">
 
-</div>
+    🚀 Upgrade Monthly
+
+</button>
+
+<a
+    href="#"
+    class="upgrade-btn yearly-btn"
+    onclick="AndroidBilling.subscribe('yearly'); return false;">
+
+    ⭐ Upgrade Yearly
+
+</a>
 
 {% else %}
 
