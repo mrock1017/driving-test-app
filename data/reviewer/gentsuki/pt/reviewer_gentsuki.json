@@ -1,1 +1,2552 @@
-[] 
+[
+  {
+    "question": "Uma motoneta nem sempre pode circular a 30 km/h, pois limites de velocidade mais baixos podem ser impostos dependendo das condições da estrada ou dos regulamentos de trânsito.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Embora 30 km/h seja a velocidade máxima geral para motonetas no Japão, algumas estradas possuem limites de velocidade inferiores. Os condutores devem sempre obedecer ao limite de velocidade sinalizado."
+  },
+  {
+    "question": "Ao reduzir a velocidade ou parar uma motocicleta ou motoneta, o método mais seguro é usar os freios dianteiro e traseiro ao mesmo tempo.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Aplicar ambos os freios simultaneamente ajuda a manter a estabilidade e reduz a distância de parada. Confiar apenas em um dos freios pode aumentar o risco de perder o controle."
+  },
+  {
+    "question": "Possuir apenas uma licença válida para motoneta não é suficiente; a licença também deve ser portada sempre que a motoneta estiver sendo conduzida.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "A legislação de trânsito japonesa exige que os condutores portem sua licença enquanto dirigem. Não carregá-la pode resultar em penalidades, mesmo que o condutor esteja devidamente habilitado."
+  },
+  {
+    "question": "Para uma frenagem mais segura em um veículo de duas rodas, o condutor deve manter o guidão reto, utilizar o freio-motor e aplicar os freios dianteiro e traseiro ao mesmo tempo.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Essa combinação ajuda a manter o equilíbrio e o controle do veículo enquanto reduz a velocidade de forma eficaz. Frenagens bruscas ou girar o guidão durante a frenagem podem aumentar o risco de derrapagem."
+  },
+  {
+    "question": "Em um cruzamento onde a visibilidade é ruim em ambas as direções, buzinar continuamente enquanto atravessa o cruzamento é a maneira correta de passar com segurança.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Os condutores devem reduzir a velocidade e avançar com cuidado em cruzamentos com pouca visibilidade. A buzina deve ser usada apenas quando especificamente exigida ou quando necessária para evitar perigo."
+  },
+  {
+    "question": "Esta placa de trânsito significa que os condutores não têm permissão para atravessar a via fazendo uma conversão à direita para entrar ou sair de uma propriedade ou instalação à beira da estrada.",
+    "image": "no_crossing_sign.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "A placa mostrada proíbe atravessar a linha central ou a área designada ao fazer uma conversão à direita. Os condutores devem seguir essa restrição e utilizar uma rota alternativa quando permitido."
+  },
+  {
+    "question": "A placa exibida indica o início de uma rua de mão única.",
+    "image": "turn_left.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Esta placa indica uma direção obrigatória de circulação (à esquerda), e não o início de uma via de mão única. Uma rua de mão única é indicada por uma placa regulamentar diferente no Japão."
+  },
+  {
+    "question": "Esta placa de advertência informa aos condutores que há uma seção regulamentada da estrada ou uma restrição de trânsito adiante.",
+    "image": "warning.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "A placa é uma advertência geral usada para alertar os condutores sobre um perigo ou condição adiante que exige cautela. Ela não indica especificamente o início de uma zona de restrição de trânsito."
+  },
+  {
+    "question": "Como os túneis podem apresentar preocupações relacionadas à visibilidade e à segurança, ultrapassar outro veículo é proibido em todos os túneis.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "A ultrapassagem é proibida apenas nos túneis designados por lei, como aqueles com uma única faixa de tráfego no mesmo sentido. Nos túneis onde a ultrapassagem não é especificamente proibida, os condutores ainda devem agir com extrema cautela."
+  },
+  {
+    "question": "Uma motoneta normalmente está limitada à velocidade máxima de 30 km/h, mas pode ser conduzida a 40 km/h em uma estrada larga quando o tráfego estiver leve.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "De acordo com a legislação de trânsito japonesa, a velocidade máxima para uma motoneta é geralmente de 30 km/h, a menos que haja um limite inferior sinalizado. A largura da estrada ou as condições do tráfego não permitem exceder o limite legal de velocidade."
+  },
+  {
+    "question": "Uma motoneta pode rebocar um trailer desde que a carga do trailer não exceda 200 quilogramas.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "As motonetas estão sujeitas a restrições rigorosas de reboque de acordo com os regulamentos de trânsito japoneses. A afirmação está incorreta porque as permissões de reboque e os limites de peso não são determinados simplesmente por permitir uma carga de 200 quilogramas."
+  },
+  {
+    "question": "A corrente de transmissão de uma motocicleta ou motoneta não deve apresentar nenhum movimento quando verificada pressionando-a com um dedo.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Uma certa folga na corrente é necessária para o funcionamento adequado. Uma corrente excessivamente esticada pode causar desgaste excessivo e problemas mecânicos."
+  },
+  {
+    "question": "Durante uma inspeção antes de dirigir, descobri que os indicadores de direção estavam com defeito, mas continuei dirigindo porque poderia usar sinais manuais.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Um veículo com indicadores de direção defeituosos não deve ser conduzido em vias públicas. Os sinais manuais não justificam operar um veículo com equipamentos obrigatórios que não estejam funcionando corretamente."
+  },
+  {
+    "question": "Se o semáforo principal estiver verde, uma motoneta que fizer uma conversão à esquerda pode continuar mesmo quando a seta exclusiva para conversão à esquerda estiver vermelha.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Quando o sinal principal permite o avanço do tráfego, uma motoneta geralmente pode fazer uma conversão legal à esquerda, a menos que um sinal separado proíba especificamente esse movimento. A seta vermelha para a esquerda, por si só, não impede a manobra nesta situação."
+  },
+  {
+    "question": "Uma pessoa que possui apenas uma licença para motoneta tem permissão para conduzir uma motoneta, um minicarro e um pequeno veículo de uso especial.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Uma licença para motoneta autoriza a condução de uma motoneta, mas não permite automaticamente conduzir todas as outras categorias de veículos. Requisitos de habilitação separados se aplicam a minicars e a determinados veículos de uso especial."
+  },
+  {
+    "question": "Esta placa significa que as motonetas podem utilizar a estrada.",
+    "image": "bicycle.png",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "A placa mostrada indica uma rota exclusiva para bicicletas. Ela se aplica às bicicletas e não indica que as motonetas estão autorizadas a circular nesse trecho da via."
+  },
+  {
+    "question": "Se os freios ou o sistema de direção de um veículo estiverem com defeito, o condutor deve continuar dirigindo com cuidado e em velocidade reduzida.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Um veículo com um defeito grave que afete sua operação segura não deve ser conduzido em vias públicas. Reduzir a velocidade não elimina o perigo causado por freios ou direção defeituosos."
+  },
+  {
+    "question": "Ao conduzir uma motoneta atravessando uma calçada ou área semelhante destinada a pedestres, é suficiente avançar lentamente e evitar atrapalhar os pedestres.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Ao atravessar uma calçada ou entrar na via por uma área de pedestres, os condutores devem reduzir a velocidade e dar prioridade aos pedestres. Apenas tentar não obstruí-los não cumpre totalmente as responsabilidades legais do condutor."
+  },
+  {
+    "question": "Como a visibilidade pode piorar repentinamente ao passar da luz do dia para um túnel, os condutores devem reduzir a velocidade antes de entrar.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Os olhos precisam de tempo para se adaptar ao ambiente mais escuro dentro de um túnel. Reduzir a velocidade antes da entrada ajuda a garantir tempo de reação suficiente e um controle mais seguro do veículo."
+  },
+  {
+    "question": "Ao fazer uma curva com uma motoneta, o controle é melhorado inclinando o veículo para dentro da curva em vez de virar bruscamente apenas o guidão.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Veículos de duas rodas fazem curvas de forma mais suave combinando movimentos leves do guidão com a inclinação adequada do corpo e do veículo. Movimentos excessivos do guidão podem reduzir a estabilidade durante a curva."
+  },
+  {
+    "question": "O efeito de desaceleração produzido pelo freio-motor torna-se mais forte quando uma marcha mais baixa é selecionada.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Marchas mais baixas aumentam a resistência do motor e ajudam a reduzir a velocidade com mais eficácia. Isso é particularmente útil em descidas ou quando é necessária força adicional de frenagem."
+  },
+  {
+    "question": "Se um veículo de emergência se aproximar por trás enquanto você já estiver atravessando um cruzamento, você deve parar imediatamente onde está.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Parar dentro de um cruzamento pode obstruir o tráfego e criar perigo. Os condutores devem primeiro sair do cruzamento com segurança e depois dar passagem ao veículo de emergência conforme exigido."
+  },
+  {
+    "question": "A finalidade do silenciador é reduzir a quantidade de gases de escape liberados pelo motor.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "O silenciador é projetado principalmente para reduzir o ruído do motor e do escapamento. A redução das emissões de gases é realizada por outros componentes, como os sistemas de controle de emissões."
+  },
+  {
+    "question": "Os condutores não devem usar calçados como geta, sandálias soltas ou outros sapatos que possam interferir na operação adequada do veículo.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Calçados que possam escorregar ou dificultar o controle dos pedais podem comprometer a segurança na condução. Os condutores são responsáveis por garantir que possam operar o veículo com segurança em todos os momentos."
+  },
+  {
+    "question": "Uma motoneta utilizada em vias públicas deve estar coberta pelo seguro obrigatório de responsabilidade civil automotiva ou por um sistema mutualista equivalente aprovado.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "A legislação japonesa exige que todas as motonetas possuam cobertura válida de responsabilidade civil obrigatória antes de serem utilizadas em vias públicas. Conduzir sem essa cobertura é ilegal."
+  },
+  {
+    "question": "Ao ultrapassar uma bicicleta, o condutor deve manter uma distância lateral de segurança adequada ou reduzir a velocidade se não houver espaço suficiente disponível.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Os ciclistas são usuários vulneráveis da via e podem se mover inesperadamente. Manter uma distância segura ajuda a evitar colisões e protege ambas as partes."
+  },
+  {
+    "question": "A via sinalizada por esta placa pode ser utilizada por motonetas.",
+    "image": "moped_can_enter.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Esta placa indica uma via reservada para veículos motorizados. Como as motonetas são classificadas como veículos motorizados pelas regulamentações de trânsito japonesas, geralmente elas podem utilizar vias que exibem esta placa, a menos que exista outra restrição."
+  },
+  {
+    "question": "Quando uma faixa é delimitada por linhas amarelas contínuas em ambos os lados, os condutores estão proibidos de cruzar essas linhas para mudar de faixa, inclusive para conversões à direita ou à esquerda.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "As marcações amarelas contínuas indicam que é proibido cruzar a linha. Os condutores devem permanecer dentro de sua faixa e seguir os pontos designados onde as mudanças de faixa são permitidas."
+  },
+  {
+    "question": "Operar um veículo enquanto utiliza um telefone celular pode distrair o condutor e aumentar significativamente o risco de acidente.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "O uso de um telefone celular reduz a atenção às condições do trânsito e aos perigos da via. As leis de trânsito japonesas impõem penalidades rigorosas para a condução distraída devido aos riscos que ela cria."
+  },
+  {
+    "question": "Se placas ou marcações viárias proibirem atravessar a pista ou fazer retorno, dar marcha à ré também é proibido no mesmo local.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "As restrições para atravessar a pista ou fazer retorno não proíbem automaticamente a marcha à ré. No entanto, a marcha à ré deve sempre ser realizada com segurança e apenas quando as condições do trânsito permitirem."
+  },
+  {
+    "question": "Quando o semáforo está azul (verde), o condutor deve entrar no cruzamento mesmo que haja congestionamento além dele causado por veículos à frente.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Os condutores não devem entrar em um cruzamento a menos que haja espaço suficiente para atravessá-lo completamente. Bloquear um cruzamento pode obstruir o fluxo do trânsito e criar situações perigosas."
+  },
+  {
+    "question": "Como um veículo tende a ganhar velocidade em uma descida, deve-se manter uma distância de seguimento maior do que em uma estrada plana.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "As distâncias de parada aumentam em descidas devido à ação da gravidade. Manter mais espaço proporciona mais tempo para reagir e parar com segurança."
+  },
+  {
+    "question": "Transportar uma carga pesada aumenta a distância necessária para parar completamente um veículo.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "O peso adicional aumenta o momento do veículo, tornando mais difícil pará-lo rapidamente. Os condutores devem considerar a maior distância de frenagem ao transportar cargas."
+  },
+  {
+    "question": "Após parar em uma passagem de nível e confirmar que nenhum trem está se aproximando, você pode seguir mesmo que o trânsito após a passagem esteja congestionado.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Os condutores não devem entrar em uma passagem de nível a menos que haja espaço suficiente para atravessá-la completamente. Ficar preso sobre os trilhos devido a congestionamento é extremamente perigoso e proibido."
+  },
+  {
+    "question": "Ao frear, o pedal deve ser acionado usando o calcanhar em vez da parte dianteira ou dos dedos do pé.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Os condutores devem pressionar o pedal do freio com a parte dianteira do pé para manter um controle preciso e permitir movimentos rápidos entre os pedais do acelerador e do freio. Usar o calcanhar pode reduzir a precisão da frenagem."
+  },
+  {
+    "question": "Se o motor de uma motoneta estiver funcionando enquanto ela é empurrada manualmente, ela pode ser conduzida pela calçada.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Uma motoneta com o motor ligado é considerada um veículo motorizado em operação. As calçadas são geralmente reservadas aos pedestres, e as motonetas não podem circular nelas, exceto quando especificamente permitido por lei."
+  },
+  {
+    "question": "Uma posição correta de condução em uma motocicleta ou motoneta inclui manter os pulsos abaixados e segurar o guidão levemente, como se estivesse empurrando-o suavemente para a frente.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Manter uma pegada relaxada e uma posição adequada dos pulsos ajuda a melhorar o controle da direção e reduz a fadiga do condutor. Uma pegada excessivamente firme pode tornar a condução menos estável."
+  },
+  {
+    "question": "A buzina só pode ser utilizada em locais sinalizados com a placa \"Use a Buzina\" e em nenhum outro lugar.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Embora os condutores devam usar a buzina onde uma placa \"Use a Buzina\" exigir, ela também pode ser utilizada quando necessário para evitar perigo ou prevenir uma colisão. O uso desnecessário da buzina continua sendo desaconselhado."
+  },
+  {
+    "question": "Em um cruzamento controlado por semáforo em uma via de duas faixas, uma motoneta que faz uma conversão à direita com o sinal verde deve utilizar o mesmo procedimento de conversão que um automóvel comum.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Em vias com duas faixas de trânsito ou menos no mesmo sentido, uma motoneta geralmente realiza a conversão à direita da mesma forma que outros veículos motorizados. A regra da conversão à direita em duas etapas aplica-se apenas em condições específicas."
+  },
+  {
+    "question": "Qualquer quantidade de folga no pedal do freio indica um defeito perigoso.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Uma pequena quantidade de folga no pedal é normal e necessária para o funcionamento adequado do sistema de freios. Uma folga excessiva pode indicar um problema, mas algum movimento é esperado."
+  },
+  {
+    "question": "Quando o condutor de uma motoneta à frente estende o braço esquerdo horizontalmente para o lado, isso significa que pretende seguir em velocidade reduzida.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Estender o braço esquerdo horizontalmente é um sinal manual que indica uma conversão à esquerda ou mudança de faixa para a esquerda. Não indica redução de velocidade."
+  },
+  {
+    "question": "Durante neblina intensa, acionar a seta para a direita é uma forma adequada de tornar o veículo mais visível para o trânsito que se aproxima.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "As setas devem ser usadas apenas para indicar conversões ou mudanças de faixa. Em condições de baixa visibilidade, os condutores devem utilizar as luzes apropriadas e reduzir a velocidade, em vez de usar incorretamente os indicadores de direção."
+  },
+  {
+    "question": "Um condutor que pretende fazer uma conversão à direita ou um retorno deve começar a sinalizar pelo menos 30 metros antes do local onde realizará a manobra.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "As regulamentações de trânsito japonesas exigem que os sinais de conversão ou retorno sejam dados pelo menos 30 metros antes da ação pretendida. Isso fornece aviso suficiente aos demais usuários da via."
+  },
+  {
+    "question": "A velocidade de um veículo afeta apenas a distância percorrida após a aplicação dos freios e não influencia outros fatores de parada.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "A velocidade afeta tanto a distância de reação quanto a distância de frenagem. À medida que a velocidade aumenta, a distância total necessária para parar torna-se significativamente maior."
+  },
+  {
+    "question": "Uma motoneta pode transportar carga com peso de até 60 quilogramas.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Os limites de carga para motonetas são regulamentados por lei e pelas especificações do veículo. Uma carga de 60 quilogramas excede o limite padrão permitido para uma motoneta comum."
+  },
+  {
+    "question": "Ultrapassei uma motoneta de baixa velocidade a menos de 30 metros de um cruzamento.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "A ultrapassagem geralmente é proibida nas proximidades de cruzamentos, pois a visibilidade e os conflitos de tráfego aumentam o risco de acidentes. Os condutores devem esperar até ultrapassar a área restrita com segurança."
+  },
+  {
+    "question": "Ao virar em um cruzamento controlado por semáforo, os condutores de automóveis e motonetas podem prosseguir sem prestar atenção aos pedestres porque os veículos motorizados têm prioridade.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Os condutores devem sempre observar os pedestres e ceder passagem quando exigido por lei. Um sinal verde não elimina a obrigação de garantir a segurança dos pedestres durante a conversão."
+  },
+  {
+    "question": "Em um cruzamento onde as vias que se cruzam têm aproximadamente a mesma largura, os veículos não devem interferir na circulação de um bonde.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Os bondes recebem consideração especial de acordo com as regulamentações de trânsito japonesas. Os condutores devem evitar obstruir o avanço de um bonde ao atravessar esse tipo de cruzamento."
+  },
+  {
+    "question": "Ao transportar bagagem em uma bicicleta, a carga pode ultrapassar a largura do suporte de carga.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "A carga transportada em bicicletas deve permanecer dentro das dimensões legalmente permitidas. Exceder esses limites pode criar riscos e violar as regulamentações de trânsito."
+  },
+  {
+    "question": "Uma motoneta está sempre autorizada a trafegar a 30 km/h e nunca pode estar sujeita a um limite de velocidade inferior.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Embora 30 km/h seja a velocidade máxima geral para motonetas, limites de velocidade inferiores indicados por sinalização devem ser obedecidos. Os condutores são obrigados a seguir o limite mais restritivo aplicável."
+  },
+  {
+    "question": "Os condutores devem começar a sinalizar pelo menos 30 metros antes de fazer uma conversão à direita, à esquerda ou um retorno, enquanto os sinais para parar ou reduzir a velocidade podem ser dados quando a ação se tornar necessária.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "As regras de trânsito japonesas exigem sinalização antecipada para conversões e retornos, a fim de fornecer aviso adequado aos demais usuários da via. Os sinais para reduzir a velocidade ou parar são dados quando surge a necessidade de desacelerar ou parar."
+  },
+  {
+    "question": "Como superfícies molhadas reduzem a aderência dos pneus e aumentam a distância de parada, deve-se manter uma distância maior do veículo à frente durante a chuva.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "A chuva torna as estradas escorregadias e aumenta a distância de frenagem. Aumentar a distância de seguimento proporciona mais tempo e espaço para reagir com segurança."
+  },
+  {
+    "question": "Mesmo que uma motoneta tenha um assento projetado para um passageiro adicional, transportar um passageiro não é permitido.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "As motonetas comuns no Japão geralmente são destinadas a apenas um condutor. A presença de um assento para passageiro não autoriza automaticamente o transporte de duas pessoas."
+  },
+  {
+    "question": "A largura máxima permitida da carga transportada em uma motoneta é a largura do bagageiro mais 10 centímetros de cada lado.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "As regulamentações japonesas permitem que a carga se estenda apenas dentro de limites dimensionais específicos. A largura permitida não é calculada como a largura do dispositivo de carga mais 10 centímetros de cada lado."
+  },
+  {
+    "question": "Como usar um telefone celular enquanto dirige é perigoso, o veículo deve primeiro ser parado em um local seguro se o uso do telefone for inevitável.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Operar um telefone celular enquanto dirige pode reduzir significativamente a atenção e aumentar o risco de acidentes. Os condutores devem parar em um local seguro antes de utilizar o telefone."
+  },
+  {
+    "question": "Os condutores devem reduzir a velocidade ao trafegar por uma curva ou próximo dela.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "As curvas podem limitar a visibilidade e reduzir a estabilidade do veículo. Reduzir a velocidade ajuda a manter o controle e proporciona mais tempo para reagir aos perigos."
+  },
+  {
+    "question": "Acelerações rápidas e frenagens bruscas não são apenas perigosas, mas também podem contribuir para a poluição ambiental.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "A condução agressiva aumenta o consumo de combustível e as emissões de gases de escape. Uma condução suave melhora a segurança e reduz o impacto ambiental."
+  },
+  {
+    "question": "As motonetas são proibidas de utilizar a faixa indicada por esta placa.",
+    "image": "senyou_lane.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Esta placa designa uma faixa exclusiva para ônibus. No entanto, de acordo com as regulamentações de trânsito japonesas, as motonetas podem utilizar uma faixa exclusiva para ônibus, a menos que uma placa adicional proíba especificamente sua entrada."
+  },
+  {
+    "question": "Esta marcação no pavimento mostra que uma proibição anterior de retorno terminou, o que significa que os condutores agora podem fazer um retorno.",
+    "image": "uturn_prohibited.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "A marcação mostrada não indica o fim de uma restrição de retorno proibido. Os condutores não devem inverter o sentido de seus veículos em áreas marcadas com este sinal."
+  },
+  {
+    "question": "Ao conduzir uma motoneta em uma curva, a técnica correta é permitir que o veículo incline naturalmente na direção da curva.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Veículos de duas rodas mantêm a estabilidade em curvas inclinando-se adequadamente. A inclinação correta ajuda o condutor a fazer a curva de forma suave e segura."
+  },
+  {
+    "question": "Em uma parada de bonde que não possui uma zona de segurança designada, se não houver passageiros embarcando ou desembarcando, você pode passar pelo bonde parado lentamente mantendo pelo menos 1,5 metro de distância.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "As regulamentações de trânsito japonesas permitem que os veículos passem por um bonde parado nessas condições, desde que seja mantida uma distância de segurança suficiente. Os condutores devem prosseguir com cuidado e permanecer atentos aos pedestres."
+  },
+  {
+    "question": "Um capacete leve de construção oferece proteção adequada para conduzir porque evita que a cabeça fique desconfortável ou abafada.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Os condutores devem usar um capacete de segurança para motocicletas que atenda aos padrões exigidos. Um capacete leve de construção não oferece o nível de proteção necessário para operar uma motoneta ou motocicleta."
+  },
+  {
+    "question": "Ao indicar uma conversão à direita ou à esquerda em uma motoneta, apenas as luzes indicadoras de direção podem ser usadas, e sinais manuais nunca devem ser utilizados.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Os sinais manuais podem ser usados quando necessário, especialmente se as luzes indicadoras do veículo não puderem ser utilizadas. Tanto os sinais manuais aprovados quanto os indicadores de direção são métodos reconhecidos de comunicação."
+  },
+  {
+    "question": "Ao se aproximar de um ônibus parado em um ponto de ônibus designado, você é sempre obrigado a parar atrás dele até que ele volte a se mover.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Os condutores não são automaticamente obrigados a parar atrás de um ônibus em um ponto de parada. Dependendo das condições da via e da segurança, pode ser permitido ultrapassá-lo com a devida cautela."
+  },
+  {
+    "question": "Em uma via de mão única, um veículo pode trafegar pelo lado direito além do centro da pista.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Como o trânsito se move em apenas uma direção em uma via de mão única, os veículos podem utilizar partes da pista que normalmente seriam consideradas o lado direito da linha central. Os condutores ainda devem obedecer às marcações de faixa e aos demais controles de trânsito aplicáveis."
+  },
+  {
+    "question": "Ao passar próximo a um pedestre, uma motoneta deve reduzir a velocidade se não houver espaço suficiente para manter uma distância segura.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Os condutores devem tomar precauções para garantir a segurança dos pedestres. Se não for possível manter uma distância suficiente, é necessário reduzir a velocidade para diminuir o risco de colisão."
+  },
+  {
+    "question": "Um veículo que pretende virar à direita deve ceder passagem aos veículos que vêm em sentido contrário seguindo em frente, aos veículos que viram à esquerda e aos bondes, mesmo que o veículo que vai virar à direita tenha entrado primeiro no cruzamento, exceto em rotatórias.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "As regras de trânsito japonesas exigem que os veículos que viram à direita cedam passagem a determinados movimentos de tráfego conflitantes. Entrar primeiro no cruzamento não concede automaticamente prioridade."
+  },
+  {
+    "question": "Um veículo transportando uma carga pesada pode parar de forma mais eficaz do que o mesmo veículo sem carga.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "O peso adicional aumenta o momento do veículo e prolonga a distância de frenagem. Veículos fortemente carregados geralmente precisam de uma distância maior para parar completamente."
+  },
+  {
+    "question": "Em uma motocicleta automática ou motoneta equipada com uma transmissão continuamente variável (CVT), a potência do motor é transmitida de forma menos eficiente à roda motriz quando a rotação do motor é baixa.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Veículos equipados com CVT frequentemente transmitem potência de forma menos eficiente em baixas rotações do motor. À medida que o RPM do motor aumenta, a entrega de potência às rodas geralmente se torna mais eficiente."
+  },
+  {
+    "question": "Uma motoneta pode utilizar uma ciclovia quando o volume de tráfego é baixo e as condições parecem seguras.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "As ciclovias são destinadas a bicicletas e outros usuários autorizados. As motonetas geralmente são proibidas de trafegar em ciclovias, a menos que sejam especificamente autorizadas por lei ou sinalização."
+  },
+  {
+    "question": "Em um cruzamento onde não há faixa de pedestres, um pedestre estava atravessando a via. Como os veículos têm prioridade, fiz o pedestre parar e segui pelo cruzamento.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Os condutores devem agir com cautela e ceder passagem quando necessário para evitar colocar pedestres em perigo. Os motoristas não têm prioridade irrestrita sobre os pedestres apenas porque não existe uma faixa de pedestres."
+  },
+  {
+    "question": "Salvo indicação diferente por placas ou marcações viárias, a velocidade máxima legal para uma motoneta é de 40 km/h.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "A velocidade máxima geral para uma motoneta no Japão é de 30 km/h, salvo se houver um limite inferior aplicável. Os condutores devem obedecer aos limites de velocidade sinalizados quando existirem."
+  },
+  {
+    "question": "Ao se aproximar de uma placa de parada obrigatória, o condutor deve parar completamente imediatamente antes da linha de parada, confirmar que é seguro prosseguir e então seguir adiante.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Uma parada completa é obrigatória em uma placa de parada. Após parar, os condutores devem verificar cuidadosamente o tráfego que se aproxima e outros perigos antes de entrar na via."
+  },
+  {
+    "question": "Se houver um obstáculo bloqueando o seu lado da via à frente, você deve reduzir a velocidade ou parar, se necessário, e permitir que o tráfego em sentido contrário passe com segurança.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Quando um obstáculo estreita a via, os condutores devem evitar interferir nos veículos que se aproximam. Ceder passagem quando necessário ajuda a prevenir conflitos e garante uma passagem segura para todos os usuários da via."
+  },
+  {
+    "question": "Quando um policial ou controlador de tráfego ordenar a parada em uma via longe de um cruzamento, os condutores devem parar a 10 metros antes dele.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Os condutores devem parar no local indicado pelos sinais ou instruções do agente. Uma distância fixa de 10 metros nem sempre se aplica."
+  },
+  {
+    "question": "Quando eu estava prestes a atravessar uma passagem de nível, a cancela começou a descer. Como nenhum trem era visível, acelerei e atravessei antes que ela se fechasse.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Assim que os dispositivos de aviso forem ativados ou a cancela começar a baixar, os condutores não devem entrar na passagem de nível. Um trem pode estar se aproximando mesmo que ainda não seja visível."
+  },
+  {
+    "question": "Mesmo que o semáforo estivesse verde, parei antes da linha de parada porque um policial no cruzamento estava sinalizando com ambos os braços estendidos horizontalmente.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "As instruções dadas por um policial têm prioridade sobre os sinais de trânsito. Os condutores devem obedecer às orientações do policial mesmo quando o semáforo indica que podem prosseguir."
+  },
+  {
+    "question": "A técnica de frenagem mais segura em uma motocicleta ou motoneta é combinar a frenagem do motor com o uso simultâneo dos freios dianteiro e traseiro.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Usar a frenagem do motor juntamente com ambos os freios ajuda a manter a estabilidade e reduz a distância de parada. Esse método proporciona uma desaceleração mais suave e controlada."
+  },
+  {
+    "question": "Se uma evacuação se tornar necessária durante um desastre e um veículo precisar ser deixado na estrada, ele deve ser estacionado de forma que não interfira com os evacuados nem com as operações de emergência.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Veículos deixados durante emergências não devem bloquear rotas de evacuação nem atividades de socorro. Manter as vias acessíveis é essencial para os serviços de emergência."
+  },
+  {
+    "question": "Esta placa adverte os condutores para ficarem atentos ao tráfego que se junta à via pelo lado esquerdo mais adiante.",
+    "image": "roadway_joins_from_left.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "A placa de advertência mostrada indica que outra via se junta à estrada pela esquerda. Os condutores devem observar os veículos que entram por essa direção e ajustar sua condução adequadamente."
+  },
+  {
+    "question": "Mesmo quando um condutor obedece a todas as regras de trânsito, um comportamento imprudente ou desatencioso ainda pode criar perigo para outras pessoas e para ele próprio.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "A condução segura exige tanto o cumprimento das leis de trânsito quanto consideração pelos demais usuários da via. Um comportamento descuidado pode causar acidentes mesmo quando as regras estão sendo seguidas."
+  },
+  {
+    "question": "Parar próximo ao topo de uma subida para descarregar carga é aceitável.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Parar próximo ao topo de uma colina pode restringir a visibilidade dos demais usuários da via e criar um perigo. Esses locais geralmente são inadequados e frequentemente proibidos para parada ou estacionamento."
+  },
+  {
+    "question": "Esta placa indica que automóveis de passeio comuns são proibidos, enquanto as motonetas ainda podem utilizar a via.",
+    "image": "moped_can_enter.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "A placa mostrada proíbe veículos motorizados comuns, mas não inclui as motonetas na restrição. A menos que outra placa as proíba especificamente, as motonetas podem continuar utilizando a via."
+  },
+  {
+    "question": "Em um cruzamento controlado por um sinal amarelo intermitente, os condutores são obrigados a parar completamente antes de prosseguir.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Um sinal amarelo intermitente significa que os condutores podem prosseguir com cautela após confirmar que é seguro. Uma parada completa não é necessária, a menos que outra placa ou condição o exija."
+  },
+  {
+    "question": "Esta placa de advertência indica que o número de faixas de trânsito diminuirá mais adiante e que os condutores devem mudar para a faixa da direita.",
+    "image": "lane_decreased.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "A placa avisa que a faixa da esquerda termina e que o tráfego deve convergir. Os condutores devem preparar-se para mudar para a faixa restante com segurança e de acordo com as condições do trânsito."
+  },
+  {
+    "question": "You must not pass a vehicle that has moved right in preparation for making a right turn.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Ultrapassar um veículo que já se posicionou para realizar uma conversão à direita pode criar uma situação perigosa. Os condutores devem aguardar até que o veículo conclua a manobra."
+  },
+  {
+    "question": "Stopping or parking is prohibited within 5 meters before or after a pedestrian crossing.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "As regras de trânsito japonesas proíbem parar ou estacionar a menos de 5 metros de uma faixa de pedestres. Essa regra ajuda a garantir que os pedestres permaneçam visíveis para os motoristas que se aproximam."
+  },
+  {
+    "question": "When leaving a dark tunnel and entering a brightly lit area, your eyesight may temporarily be affected, making it more difficult to see clearly.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Os olhos precisam de tempo para se adaptar a mudanças bruscas de luminosidade. Os condutores devem permanecer atentos e preparados para uma redução temporária da clareza visual ao sair de um túnel."
+  },
+  {
+    "question": "This sign indicates a climbing lane for slower vehicles, but only trucks carrying cargo are permitted to use it.",
+    "image": "slower_traffic.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "A placa indica uma faixa de subida destinada a veículos mais lentos durante a subida de uma inclinação. Ela não é exclusiva para caminhões de carga; outros veículos lentos também podem utilizá-la quando apropriado."
+  },
+  {
+    "question": "The first year after receiving a moped license is considered a probationary period, and riders who accumulate a specified number of violations during that time may be required to attend a novice driver training course.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "O sistema japonês para condutores iniciantes aplica monitoramento especial durante o período inicial da habilitação. Condutores que excederem determinados limites de infrações podem ser obrigados a participar de treinamento adicional de segurança."
+  },
+  {
+    "question": "Parking alongside the right side of a parked vehicle is prohibited, but temporarily stopping there is allowed.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Parar ou estacionar ao lado de outro veículo estacionado pode obstruir o trânsito e caracterizar estacionamento duplo. Essas ações geralmente são proibidas, exceto em circunstâncias limitadas previstas em lei."
+  },
+  {
+    "question": "After entering an intersection on a green signal to make a right turn, if the signal changes to yellow or red while waiting, you must continue to remain stopped.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Depois que um veículo entra legalmente no cruzamento, ele deve concluir a conversão e liberar o cruzamento quando for seguro fazê-lo. Permanecer parado dentro do cruzamento pode obstruir o tráfego e criar riscos."
+  },
+  {
+    "question": "If a traffic accident occurs, providing first aid such as controlling bleeding while waiting for emergency services is an appropriate action.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Os condutores envolvidos ou que testemunhem um acidente devem tomar medidas razoáveis para ajudar os feridos, desde que seja seguro fazê-lo. Primeiros socorros básicos, como controlar hemorragias graves, podem salvar vidas até a chegada do atendimento profissional."
+  },
+  {
+    "question": "After giving a signal to move off, there is no need to check traffic or confirm that the area around the vehicle is safe.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Sinalizar sozinho não garante segurança. Os condutores devem sempre verificar os espelhos, pontos cegos, pedestres e o tráfego ao redor antes de iniciar o movimento."
+  },
+  {
+    "question": "When a child is walking alone near the roadway, drivers should either stop if necessary or slow down to ensure the child's safety.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "As crianças podem agir de forma imprevisível e nem sempre conseguem avaliar corretamente as condições do trânsito. Os condutores devem ter cuidado redobrado e estar preparados para parar, se necessário."
+  },
+  {
+    "question": "When approaching a person using a wheelchair, drivers should stop or reduce speed as needed to avoid interfering with their movement.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Usuários da via com deficiência física têm direito a consideração especial. Os condutores devem operar seus veículos de forma que não coloquem essas pessoas em perigo nem dificultem sua movimentação."
+  },
+  {
+    "question": "On a roadway that does not have marked traffic lanes, a vehicle may use any position on the left side of the center line.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Mesmo em vias sem faixas demarcadas, os condutores devem manter-se o mais à esquerda possível e dirigir com segurança. Não podem ocupar livremente qualquer posição à esquerda se isso interferir no trânsito ou criar perigo."
+  },
+  {
+    "question": "When overtaking a tram on a road where the tracks run along the center of the roadway, vehicles should normally pass on the tram's left side.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "De acordo com as regras de trânsito japonesas, os veículos normalmente devem ultrapassar um bonde pelo lado esquerdo. Exceções podem existir apenas quando o traçado dos trilhos ou a estrutura da via exigirem outro procedimento."
+  },
+  {
+    "question": "At night, when there is a steady flow of oncoming traffic, it is safer to keep the headlights on high beam so other drivers can see you more easily.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "O farol alto pode prejudicar temporariamente a visão dos condutores que vêm em sentido contrário. Quando houver veículos se aproximando, deve-se usar o farol baixo para evitar ofuscamento e manter uma visibilidade adequada."
+  },
+  {
+    "question": "When descending a long slope, it is preferable to rely on engine braking rather than continuously applying the foot or hand brakes.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "O uso excessivo dos freios em uma descida longa pode causar superaquecimento e redução da eficiência de frenagem. A frenagem do motor ajuda a controlar a velocidade com mais segurança e reduz o desgaste do sistema de freios."
+  },
+  {
+    "question": "Ao dirigir em uma via de sentido único longe de um cruzamento, movi-me para o lado esquerdo da estrada para dar passagem a um veículo de emergência que se aproximava por trás.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Os condutores devem ceder passagem prontamente aos veículos de emergência que se aproximam. Em uma via de mão única, mover-se para o lado esquerdo e permitir a passagem do veículo de emergência é uma resposta adequada, salvo orientação diferente das condições de trânsito ou das autoridades."
+  },
+  {
+    "question": "Mesmo que um condutor reaja imediatamente e aplique os freios com força ao perceber um perigo, o veículo não irá parar instantaneamente.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Todo veículo necessita de uma certa distância para parar devido ao tempo de reação e à distância de frenagem. Uma parada instantânea é fisicamente impossível em condições normais de condução."
+  },
+  {
+    "question": "Durante uma inspeção de segurança de uma motocicleta ou ciclomotor, uma folga da alavanca do freio de aproximadamente 20 a 30 milímetros é considerada aceitável.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Uma quantidade moderada de folga na alavanca do freio é necessária para o funcionamento adequado do sistema. Folga excessiva ou insuficiente pode indicar necessidade de ajuste ou manutenção."
+  },
+  {
+    "question": "Se um acidente de trânsito resultar em feridos, o condutor deve parar imediatamente, tomar medidas para evitar acidentes adicionais, prestar assistência aos feridos, evitar criar riscos desnecessários ao trânsito e comunicar a ocorrência à polícia.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "A legislação japonesa exige que os condutores envolvidos em acidentes com feridos protejam as vítimas, evitem colisões secundárias e informem a polícia sem demora."
+  },
+  {
+    "question": "Quando houver previsão de alerta de smog fotoquímico ou condição grave de poluição do ar, os condutores devem evitar utilizar seus veículos sempre que possível.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Reduzir o uso de veículos durante períodos de poluição severa ajuda a limitar as emissões e proteger a saúde pública. As autoridades também podem recomendar que as pessoas evitem dirigir sem necessidade."
+  },
+  {
+    "question": "Mesmo quando a pista possui pelo menos 6 metros de largura no lado esquerdo, um condutor pode ultrapassar movendo-se para o lado direito, desde que a ultrapassagem não seja especificamente proibida.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Os condutores devem seguir as regras corretas de ultrapassagem e permanecer no lado apropriado da via. A largura da pista, por si só, não permite realizar ultrapassagens em desacordo com as normas de trânsito."
+  },
+  {
+    "question": "Após o encerramento do serviço de ônibus do dia, parei dentro de 10 metros de um ponto de ônibus para fazer compras.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "As restrições próximas aos pontos de ônibus geralmente se aplicam enquanto o serviço está em funcionamento. Quando o ponto não está em operação, parar pode ser permitido desde que não haja outras restrições de parada ou estacionamento."
+  },
+  {
+    "question": "Uma pessoa que possui apenas licença para ciclomotor conduziu uma motocicleta com cilindrada de 80 cc.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Uma licença para ciclomotor não autoriza a condução de uma motocicleta de 80 cc. Esse veículo exige uma habilitação apropriada para sua categoria de cilindrada."
+  },
+  {
+    "question": "Esta placa indica que o número de faixas diminuirá adiante, portanto os condutores devem mover-se para a faixa da direita.",
+    "image": "lane_decreased.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "A placa de advertência mostra que a faixa da esquerda termina adiante e o tráfego deve convergir para a faixa restante. Os condutores devem preparar-se para mudar para a direita com segurança e antecedência."
+  },
+  {
+    "question": "Se um grande alerta de terremoto for emitido, utilizar um veículo para evacuar o mais rapidamente possível é a ação preferível.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Durante grandes desastres, o uso desnecessário de veículos pode causar congestionamentos severos e dificultar as operações de emergência. As autoridades geralmente incentivam a evacuação a pé, salvo quando dirigir for especificamente necessário."
+  },
+  {
+    "question": "Uma pessoa que possui uma licença de ciclomotor suspensa está proibida de conduzir um ciclomotor até o término do período de suspensão.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Durante a suspensão da habilitação, o titular perde a autorização legal para conduzir a categoria de veículo coberta por essa licença. Dirigir durante o período de suspensão constitui infração à lei."
+  },
+  {
+    "question": "Mesmo que o semáforo que controla o tráfego transversal esteja vermelho, isso não significa automaticamente que o semáforo voltado para você esteja verde.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "As fases dos semáforos variam de acordo com o projeto do cruzamento e o sistema de controle de tráfego. Os condutores devem sempre obedecer ao sinal voltado para sua direção, em vez de fazer suposições com base em outros sinais."
+  },
+  {
+    "question": "Ultrapassar um veículo que parou para permitir o embarque ou desembarque de passageiros e depois parar à frente desse veículo não é considerado fechar a passagem.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Fechar a passagem geralmente significa entrar na trajetória de outro veículo de forma que o obrigue a frear ou mudar de direção. Simplesmente ultrapassar um veículo parado e parar à sua frente não constitui automaticamente essa infração."
+  },
+  {
+    "question": "Ao frear uma motocicleta ou ciclomotor em uma superfície seca, deve-se aplicar mais força ao freio traseiro do que ao dianteiro.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Em pistas secas, o freio dianteiro fornece a maior parte da capacidade de frenagem. Uma frenagem eficaz é obtida utilizando ambos os freios de forma adequada, e não confiando mais no freio traseiro."
+  },
+  {
+    "question": "Quando um veículo avariado é rebocado com uma corda, tanto o condutor do veículo rebocador quanto a pessoa que dirige o veículo rebocado devem possuir uma habilitação válida para esse tipo de veículo.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "A pessoa que controla o veículo rebocado deve ser capaz de esterçar e frear com segurança. Portanto, ambos os indivíduos devem possuir as qualificações de condução apropriadas."
+  },
+  {
+    "question": "Enquanto dirigia, um veículo de emergência aproximou-se por trás. Como eu não estava perto de um cruzamento, continuei dirigindo lentamente sem dar passagem.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Os condutores devem dar passagem prontamente aos veículos de emergência que utilizam sirenes ou dispositivos de advertência. Mesmo longe de cruzamentos, os veículos devem sair do caminho e permitir sua passagem."
+  },
+  {
+    "question": "Como a visibilidade é reduzida à noite, os condutores devem concentrar sua atenção apenas na área imediatamente à frente do veículo.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Os condutores devem olhar bem à frente enquanto também monitoram o tráfego ao redor. Concentrar-se apenas na área imediatamente à frente reduz a percepção de perigos mais distantes."
+  },
+  {
+    "question": "Dirigir acima dos limites de velocidade ou transportar cargas excessivas não afeta o ruído do veículo nem o som do escapamento.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Velocidades mais altas e cargas excessivas podem aumentar o esforço do motor, o ruído do veículo e o som do escapamento. Esse tipo de condução também pode aumentar o consumo de combustível e o impacto ambiental."
+  },
+  {
+    "question": "À noite, as lanternas traseiras devem permanecer acesas mesmo quando o veículo estiver estacionado ou parado com um dispositivo de advertência aprovado exibido.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Em determinadas condições, um dispositivo de advertência corretamente exibido pode permitir que um veículo parado ou estacionado permaneça sem as lanternas traseiras acesas. Ainda assim, os condutores devem cumprir todos os requisitos aplicáveis de iluminação e segurança."
+  },
+  {
+    "question": "Ao carregar ou descarregar próximo a equipamentos de combate a incêndio, um veículo pode permanecer parado por mais de cinco minutos se o condutor estiver pronto para movê-lo imediatamente.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "As áreas próximas a equipamentos de combate a incêndio estão sujeitas a rigorosas restrições de parada e estacionamento. Estar pronto para sair não isenta o condutor dessas regras."
+  },
+  {
+    "question": "Em uma motocicleta ou ciclomotor automático equipado com transmissão continuamente variável (CVT), a potência do motor é transmitida às rodas de forma mais eficiente em baixas rotações do motor.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Veículos de duas rodas equipados com CVT geralmente transmitem potência de forma menos eficiente em baixas rotações. A transmissão de potência torna-se mais eficiente à medida que a rotação do motor aumenta dentro da faixa normal de funcionamento."
+  },
+  {
+    "question": "Esta placa significa que é permitido transportar um passageiro em um ciclomotor.",
+    "image": "riding_prohibited.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "A placa apresentada proíbe transportar passageiros em motocicletas ou ciclomotores. Os condutores de ciclomotores devem obedecer à restrição e não podem transportar uma segunda pessoa onde esta placa estiver instalada."
+  },
+  {
+    "question": "Se houver congestionamento à frente e existir a possibilidade de ficar preso sobre uma passagem de nível ferroviária, você deve esperar e não entrar na passagem.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Os condutores não devem entrar em uma passagem de nível a menos que haja espaço suficiente além dela para liberar completamente os trilhos. Parar sobre a passagem devido ao congestionamento é extremamente perigoso e proibido."
+  },
+  {
+    "question": "Um condutor pode cruzar uma linha amarela contínua para mudar de faixa quando o tráfego estiver leve.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "As linhas amarelas contínuas indicam que cruzar a linha é proibido. As condições de tráfego não anulam essa restrição, exceto quando especificamente permitido por sinalização ou marcações viárias."
+  },
+  {
+    "question": "Se um veículo recebeu uma notificação de veículo abandonado devido a uma infração de estacionamento, a notificação deve permanecer afixada mesmo quando o veículo for retirado do local.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "A pessoa responsável pelo veículo pode remover a notificação ao tratar da infração. A exigência é cumprir os procedimentos legais aplicáveis, não necessariamente manter a notificação afixada durante a condução."
+  },
+  {
+    "question": "Em um cruzamento sem controle onde vias de largura semelhante se encontram, exceto quando houver uma via preferencial envolvida, os condutores devem evitar interferir no movimento de um bonde.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "As regras de trânsito japonesas concedem consideração especial aos bondes nessas situações. Os condutores não devem obstruir a passagem de um bonde ao cruzar ou entrar no cruzamento."
+  },
+  {
+    "question": "A frenagem do motor torna-se mais forte ao reduzir progressivamente para marchas mais baixas.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Marchas mais baixas criam maior resistência do motor, aumentando o efeito de frenagem. Essa técnica é especialmente útil em descidas e durante desacelerações controladas."
+  },
+  {
+    "question": "Ao rebocar um ciclomotor avariado com uma corda, um pano vermelho deve ser preso ao centro da corda.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "A exigência de fixar um marcador, como um pano vermelho, aplica-se a determinadas situações de reboque de veículos, mas não da forma descrita para um ciclomotor avariado. Os condutores devem seguir as regras específicas de reboque aplicáveis ao veículo rebocado."
+  },
+  {
+    "question": "Se o semáforo principal estiver vermelho, mas uma seta verde para conversão à esquerda estiver acesa, todos os veículos podem virar à esquerda na direção indicada pela seta.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Uma seta verde permite o movimento na direção indicada, mesmo quando o sinal principal está vermelho. Os condutores ainda devem dar passagem a pedestres e outros usuários da via quando necessário."
+  },
+  {
+    "question": "Um veículo com silenciador defeituoso que provoque ruído excessivo do escapamento não deve ser conduzido em vias públicas.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Os veículos devem ser mantidos em condições seguras e legais. Um silenciador danificado pode produzir ruído excessivo e violar os regulamentos relativos aos equipamentos do veículo."
+  },
+  {
+    "question": "Um ciclomotor pode circular em uma ciclovia quando o volume de tráfego for baixo e as condições parecerem seguras.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "As ciclovias são destinadas a bicicletas e outros usuários autorizados. Os ciclomotores geralmente são proibidos de circular em ciclovias, salvo quando especificamente permitido por lei ou sinalização."
+  },
+  {
+    "question": "Em um cruzamento onde não há faixa de pedestres, um pedestre estava atravessando a via. Como os veículos têm prioridade, exigi que o pedestre parasse e atravessei o cruzamento.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Os condutores devem agir com cautela e dar passagem quando necessário para evitar colocar pedestres em perigo. Os motoristas não têm prioridade irrestrita apenas porque não existe uma faixa de pedestres."
+  },
+  {
+    "question": "A menos que um limite diferente seja indicado por placas ou marcações, a velocidade máxima legal para um ciclomotor é de 40 km/h.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "A velocidade máxima geral para um ciclomotor no Japão é de 30 km/h, salvo quando um limite inferior se aplica. Os condutores devem obedecer aos limites de velocidade sinalizados quando aplicável."
+  },
+  {
+    "question": "Ao se aproximar de uma placa de parada obrigatória, o condutor deve parar completamente imediatamente antes da linha de parada, confirmar que é seguro prosseguir e então continuar.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Uma parada completa é obrigatória diante de uma placa de parada. Após parar, o condutor deve verificar cuidadosamente a aproximação de veículos e outros perigos antes de entrar na via."
+  },
+  {
+    "question": "Se houver um obstáculo bloqueando o seu lado da via à frente, você deve reduzir a velocidade ou parar, se necessário, e permitir que o tráfego vindo em sentido contrário passe com segurança.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Quando um obstáculo estreita a via, os condutores devem evitar interferir nos veículos que se aproximam. Dar passagem quando necessário ajuda a evitar conflitos e garante uma circulação segura para todos."
+  },
+  {
+    "question": "Quando um policial ou agente de trânsito ordena que os veículos parem em uma via fora de um cruzamento, os condutores devem parar a 10 metros antes do agente.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Os condutores devem parar no local indicado pelos sinais ou instruções do policial. Uma distância fixa de 10 metros nem sempre se aplica."
+  },
+  {
+    "question": "Quando eu estava prestes a atravessar uma passagem de nível ferroviária, a cancela começou a descer. Como nenhum trem estava visível, acelerei e atravessei antes que ela fechasse.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Assim que os dispositivos de aviso são ativados ou a cancela começa a baixar, os condutores não devem entrar na passagem de nível. Um trem pode estar se aproximando mesmo que ainda não seja visível."
+  },
+  {
+    "question": "Mesmo que o semáforo estivesse verde, parei antes da linha de parada porque um policial no cruzamento estava sinalizando com os dois braços estendidos horizontalmente.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "As instruções de um policial têm prioridade sobre os sinais de trânsito. Os condutores devem obedecer às orientações do policial mesmo quando o semáforo permite avançar."
+  },
+  {
+    "question": "A técnica de frenagem mais segura em uma motocicleta ou ciclomotor é combinar a frenagem do motor com o uso simultâneo dos freios dianteiro e traseiro.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Usar a frenagem do motor juntamente com ambos os freios ajuda a manter a estabilidade e reduz a distância de parada. Esse método proporciona uma desaceleração mais suave e controlada."
+  },
+  {
+    "question": "Se durante um desastre for necessário evacuar e deixar um veículo na via, ele deve ser estacionado em um local onde não interfira com os evacuados nem com as operações de emergência.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Veículos deixados durante emergências não devem bloquear rotas de evacuação ou atividades de socorro. Manter as vias acessíveis é essencial para os serviços de emergência."
+  },
+  {
+    "question": "Este sinal de advertência alerta os condutores para ficarem atentos ao tráfego que se incorpora pela esquerda à frente.",
+    "image": "roadway_joins_from_left.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "O sinal de advertência mostrado indica que outra via se junta pela esquerda. Os condutores devem observar os veículos que entram por essa direção e ajustar sua condução conforme necessário."
+  },
+  {
+    "question": "Mesmo quando um condutor cumpre todas as regras de trânsito, um comportamento imprudente ou desatencioso ainda pode criar perigo para outras pessoas e para si próprio.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "A condução segura exige tanto o cumprimento das leis de trânsito quanto consideração pelos demais usuários da via. Um comportamento descuidado pode causar acidentes mesmo quando as regras estão sendo seguidas."
+  },
+  {
+    "question": "Parar próximo ao topo de uma subida para descarregar mercadorias é aceitável.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Parar próximo ao topo de uma colina pode reduzir a visibilidade para outros usuários da via e criar uma situação perigosa. Esses locais geralmente não são adequados e muitas vezes são proibidos para parada ou estacionamento."
+  },
+  {
+    "question": "Este sinal indica que automóveis de passageiros comuns são proibidos, enquanto os ciclomotores ainda podem utilizar a via.",
+    "image": "moped_can_enter.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "O sinal mostrado proíbe veículos automotores comuns, mas não inclui os ciclomotores na restrição. A menos que outro sinal os proíba especificamente, os ciclomotores podem continuar utilizando a via."
+  },
+  {
+    "question": "Em um cruzamento controlado por um sinal amarelo piscante, os condutores são obrigados a parar completamente antes de prosseguir.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Um sinal amarelo piscante significa que os condutores podem prosseguir com cautela após confirmar que é seguro. Não é necessária uma parada completa, a menos que outro sinal ou condição exija isso."
+  },
+  {
+    "question": "Este sinal de advertência indica que o número de faixas diminuirá à frente e que os condutores devem mudar para a faixa da direita.",
+    "image": "lane_decreased.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "O sinal avisa que a faixa da esquerda termina e que o tráfego deverá convergir. Os condutores devem preparar-se para mudar com segurança para a faixa restante, de acordo com as condições do trânsito."
+  },
+  {
+    "question": "Você não deve ultrapassar um veículo que tenha se deslocado para a direita em preparação para fazer uma conversão à direita.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Ultrapassar um veículo que está se posicionando para virar à direita pode criar uma situação perigosa. Os condutores devem esperar até que o veículo conclua a manobra."
+  },
+  {
+    "question": "É proibido parar ou estacionar a menos de 5 metros antes ou depois de uma faixa de pedestres.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "As regras de trânsito japonesas proíbem parar ou estacionar a menos de 5 metros de uma faixa de pedestres. Essa regra ajuda a garantir que os pedestres permaneçam visíveis para os motoristas que se aproximam."
+  },
+  {
+    "question": "Ao sair de um túnel escuro e entrar em uma área muito iluminada, sua visão pode ser temporariamente afetada, tornando mais difícil enxergar claramente.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Os olhos precisam de tempo para se adaptar a mudanças bruscas de luminosidade. Os condutores devem permanecer atentos e preparados para uma redução temporária da clareza visual ao sair de um túnel."
+  },
+  {
+    "question": "Este sinal indica uma faixa adicional para veículos lentos em subida, mas somente caminhões transportando carga podem utilizá-la.",
+    "image": "slower_traffic.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "O sinal indica uma faixa de subida destinada ao tráfego mais lento durante a ascensão de uma ladeira. Ela não é restrita apenas a caminhões de carga; outros veículos lentos também podem utilizá-la quando apropriado."
+  },
+  {
+    "question": "O primeiro ano após a obtenção da licença de ciclomotor é considerado um período probatório, e os condutores que acumularem um número determinado de infrações nesse período poderão ser obrigados a participar de um curso para condutores iniciantes.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "O sistema japonês para condutores iniciantes aplica um monitoramento especial durante o período inicial de habilitação. Condutores que ultrapassarem determinados limites de infrações podem ser obrigados a realizar treinamento adicional de segurança."
+  },
+  {
+    "question": "Estacionar ao lado direito de um veículo já estacionado é proibido, mas parar temporariamente nesse local é permitido.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Parar ou estacionar ao lado de outro veículo estacionado pode obstruir o tráfego e caracterizar estacionamento em fila dupla. Essas ações geralmente são proibidas, exceto em circunstâncias limitadas previstas por lei."
+  },
+  {
+    "question": "Após entrar em um cruzamento com sinal verde para fazer uma conversão à direita, se o sinal mudar para amarelo ou vermelho enquanto você aguarda, deverá continuar parado.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Depois que um veículo entra legalmente no cruzamento, ele deve concluir a conversão e sair do cruzamento quando for seguro fazê-lo. Permanecer dentro do cruzamento pode obstruir o tráfego e criar perigo."
+  },
+  {
+    "question": "Se ocorrer um acidente de trânsito, prestar primeiros socorros, como controlar um sangramento enquanto aguarda os serviços de emergência, é uma atitude adequada.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Os condutores envolvidos ou testemunhas de um acidente devem tomar medidas razoáveis para ajudar os feridos quando for seguro fazê-lo. Primeiros socorros básicos, como conter hemorragias graves, podem ajudar a salvar vidas até a chegada de ajuda profissional."
+  },
+  {
+    "question": "Depois de sinalizar a intenção de partir, não é necessário verificar o tráfego nem confirmar se a área ao redor do veículo está segura.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Sinalizar por si só não garante segurança. Os condutores devem sempre verificar os espelhos, pontos cegos, pedestres e o tráfego ao redor antes de iniciar o movimento."
+  },
+  {
+    "question": "Este sinal indica um local designado para parada, o que significa que um veículo pode parar ali mesmo onde normalmente se aplicariam restrições de parada e estacionamento.",
+    "image": "can_stop_but_cant_park.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "O sinal mostrado indica um local designado para parada. Os veículos podem parar no local indicado de acordo com a finalidade do sinal, mesmo que restrições gerais de parada normalmente se aplicassem."
+  },
+  {
+    "question": "Se outro veículo estiver parado imediatamente antes de uma faixa de pedestres, você é obrigado a ultrapassá-lo lentamente.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Quando um veículo está parado próximo a uma faixa de pedestres, os condutores devem estar especialmente atentos aos pedestres. Dependendo da situação, apenas reduzir a velocidade pode não ser suficiente, e a ultrapassagem pode ser proibida."
+  },
+  {
+    "question": "Um sinal de trânsito amarelo piscante exige que os condutores parem na linha de parada, confirmem a segurança e então prossigam.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Um sinal amarelo piscante permite que os condutores prossigam com cautela após verificar a segurança. Não é necessário parar completamente, a menos que outro dispositivo de controle de trânsito o exija."
+  },
+  {
+    "question": "Se os faróis de um veículo que se aproxima estiverem causando ofuscamento à noite, é aconselhável direcionar ligeiramente o olhar para o lado esquerdo da via à frente.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Olhar ligeiramente para a borda esquerda da sua faixa ajuda a reduzir os efeitos do ofuscamento enquanto permite manter a percepção da estrada à frente. Deve-se evitar olhar diretamente para os faróis dos veículos que vêm em sentido contrário."
+  },
+  {
+    "question": "Mesmo depois que um condutor percebe um perigo e aplica os freios repentinamente, o veículo não para instantaneamente, e velocidades mais altas aumentam o risco.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "A distância de parada é composta pela distância de reação e pela distância de frenagem. À medida que a velocidade aumenta, a distância total necessária para parar torna-se significativamente maior."
+  },
+  {
+    "question": "A buzina não deve ser usada sem motivo, exceto quando for necessária para evitar perigo ou quando houver uma placa de \"Use a Buzina\" exigindo seu uso.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "As regras de trânsito japonesas proíbem o uso desnecessário da buzina. No entanto, os condutores podem utilizá-la quando exigido por sinalização ou quando necessário para evitar uma colisão ou outro perigo."
+  },
+  {
+    "question": "Ao fazer uma conversão acentuada à direita em uma via de mão única com um ciclomotor, o condutor deve permanecer próximo à borda esquerda da via e virar contornando o canto interno do cruzamento.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Em uma via de mão única, um veículo que vai virar à direita deve normalmente aproximar-se pelo lado direito da pista. Permanecer próximo à borda esquerda não é o método correto para essa manobra."
+  },
+  {
+    "question": "Exceto em emergências ou circunstâncias inevitáveis, os condutores devem dirigir de forma que não seja necessário frear bruscamente.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Frenagens bruscas podem criar riscos tanto para o condutor quanto para o trânsito ao redor. Manter uma velocidade segura e distância adequada ajuda a evitar situações que exijam frenagem de emergência."
+  },
+  {
+    "question": "Ao seguir outro veículo através de uma passagem de nível ferroviária, você pode prosseguir sem fazer uma parada temporária desde que a passagem pareça segura.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Os condutores geralmente são obrigados a parar antes de entrar em uma passagem de nível e confirmar que é seguro prosseguir. Seguir outro veículo não elimina essa obrigação."
+  },
+  {
+    "question": "Se um acidente de trânsito resultar apenas em ferimentos leves, comunicar o incidente à polícia é opcional.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Qualquer acidente de trânsito que envolva feridos deve ser comunicado à polícia, independentemente da gravidade dos ferimentos. Essa comunicação é uma obrigação legal segundo a legislação de trânsito japonesa."
+  },
+  {
+    "question": "Este sinal indica que é proibido trafegar pelo lado direito do sinal.",
+    "image": "keep_left.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "O sinal orienta os veículos a passarem pelo lado esquerdo do obstáculo ou marcador. Os condutores não devem prosseguir pelo lado proibido pelo sinal."
+  },
+  {
+    "question": "Quando um veículo de emergência se aproxima enquanto você já está atravessando um cruzamento, deve parar imediatamente dentro do cruzamento.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Os condutores devem primeiro sair do cruzamento com segurança e depois dar passagem ao veículo de emergência. Parar dentro do cruzamento pode obstruir o trânsito e criar riscos adicionais."
+  },
+  {
+    "question": "Os veículos nunca podem entrar ou estacionar em uma faixa lateral da via, independentemente da sua largura.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "As regras relativas às faixas laterais dependem da sua largura e das circunstâncias específicas. Em alguns casos, o uso parcial de uma faixa lateral suficientemente larga pode ser permitido para estacionamento legal."
+  },
+  {
+    "question": "Se os sinais manuais de um policial ou agente de trânsito entrarem em conflito com um semáforo, os sinais do policial têm prioridade, mas os do agente de trânsito não.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "As instruções dadas tanto por policiais quanto por agentes de trânsito autorizados têm prioridade sobre os semáforos. Os condutores devem seguir suas orientações mesmo quando diferirem das indicações dos sinais luminosos."
+  },
+  {
+    "question": "Ao conduzir um ciclomotor em estradas com lama ou cobertas de cascalho, é aconselhável selecionar uma marcha mais alta e acelerar ao atravessar a área.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Acelerações bruscas em superfícies soltas ou escorregadias podem causar patinagem das rodas e perda de controle. O condutor deve manter uma velocidade constante e operar o veículo suavemente para preservar a aderência."
+  },
+  {
+    "question": "A altura máxima permitida para uma carga transportada em um ciclomotor é de 3 metros medidos a partir da superfície da estrada.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "A carga transportada em um ciclomotor está sujeita a restrições específicas de dimensões. Uma altura total de 3 metros excede o limite legal permitido para um ciclomotor."
+  },
+  {
+    "question": "O uso do freio-motor em estradas que não sejam descidas não tem efeito sobre a distância necessária para parar o veículo.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "O freio-motor ajuda a reduzir a velocidade do veículo em diversas situações de condução, não apenas em descidas. Ele pode contribuir para a desaceleração e influenciar a distância total de parada."
+  },
+  {
+    "question": "Em um túnel com faixas de trânsito demarcadas, é permitido ultrapassar outro carro ou ciclomotor.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "As regras de trânsito japonesas proíbem ultrapassagens em determinados túneis, especialmente aqueles sem faixas de circulação. Em túneis com faixas de trânsito definidas, a ultrapassagem pode ser permitida se puder ser realizada com segurança e nenhuma outra restrição se aplicar."
+  },
+  {
+    "question": "Os condutores devem cumprir todas as restrições e condições especificadas em sua carteira de habilitação sempre que operarem um veículo.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "As condições da habilitação, como a exigência de lentes corretivas ou limitações quanto ao tipo de veículo, são legalmente obrigatórias. O descumprimento dessas condições constitui infração de trânsito."
+  },
+  {
+    "question": "Sempre que passar próximo a um pedestre, você deve manter uma distância segura e reduzir a velocidade.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Os condutores devem manter uma distância suficiente ou reduzir a velocidade quando não for possível garantir uma separação adequada. Reduzir a velocidade nem sempre é necessário se uma distância segura já puder ser mantida."
+  },
+  {
+    "question": "Antes de iniciar o movimento, o condutor deve sinalizar sua intenção de partir, verificar as condições do trânsito usando os espelhos e confirmar que a área ao redor do veículo está segura.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "A observação adequada e a sinalização são essenciais antes de entrar no fluxo de trânsito. Os condutores devem verificar os espelhos, os pontos cegos e as condições ao redor antes de iniciar o movimento."
+  },
+  {
+    "question": "Quando um ciclomotor ultrapassa um veículo de passeio comum, ele deve sempre passar pelo lado esquerdo do veículo.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "As regras de ultrapassagem dependem da situação da via e das regulamentações de trânsito aplicáveis. Um ciclomotor não é obrigado a ultrapassar pela esquerda em todas as circunstâncias."
+  },
+  {
+    "question": "Em uma via sem faixas de trânsito demarcadas, o condutor pode utilizar livremente qualquer posição do lado esquerdo da linha central.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Os condutores devem manter-se o mais à esquerda possível e operar seus veículos com segurança. Não podem ocupar qualquer posição à vontade se isso interferir no trânsito ou criar perigo."
+  },
+  {
+    "question": "Um ciclomotor ultrapassou um veículo especial pequeno que se movia lentamente próximo a uma curva onde a visibilidade era adequada.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "A ultrapassagem próxima a uma curva geralmente é proibida porque a visibilidade pode ser limitada e o risco de colisão aumenta. Os condutores devem esperar até chegar a um local onde a ultrapassagem seja legalmente permitida e segura."
+  },
+  {
+    "question": "Ao atravessar trilhos ferroviários com um ciclomotor, você deve iniciar em marcha baixa, mudar imediatamente para uma marcha mais alta, acelerar totalmente e atravessar o mais rápido possível.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Os condutores devem atravessar passagens de nível de forma suave e segura, sem acelerações desnecessárias ou trocas de marcha. Manter o controle do veículo é mais importante do que atravessar em alta velocidade."
+  },
+  {
+    "question": "Uma pessoa que conscientemente pede a alguém embriagado para conduzir um ciclomotor para entregas ou transporte não está sujeita a nenhuma penalidade legal.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "As leis de trânsito japonesas impõem penalidades não apenas aos condutores alcoolizados, mas também às pessoas que incentivam, solicitam ou facilitam a condução sob efeito de álcool."
+  },
+  {
+    "question": "Acelerações bruscas e frenagens severas criam riscos à segurança e também podem aumentar o consumo de combustível.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Uma condução agressiva desperdiça combustível e impõe esforço adicional ao veículo. Acelerações e frenagens suaves melhoram tanto a segurança quanto a eficiência de combustível."
+  },
+  {
+    "question": "Depois de perceber um pedestre carregando uma bengala amarela, toquei a buzina para fazê-lo parar e então continuei dirigindo.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Uma bengala amarela indica uma pessoa com deficiência visual. Os condutores devem ter cuidado especial, reduzir a velocidade e dar passagem quando necessário, em vez de usar a buzina para obrigar o pedestre a parar."
+  },
+  {
+    "question": "Um ciclomotor pode transportar legalmente uma carga de até 30 quilogramas.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "De acordo com as regulamentações japonesas, o peso máximo de carga permitido em um ciclomotor padrão é geralmente de 30 quilogramas, desde que os demais requisitos de dimensão da carga também sejam atendidos."
+  },
+  {
+    "question": "Um ciclomotor pode ultrapassar outro veículo mesmo em um trecho onde a ultrapassagem é proibida.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "As restrições de ultrapassagem se aplicam aos ciclomotores assim como aos demais veículos. Os condutores devem obedecer às placas, marcações e regras que proíbem ultrapassagens."
+  },
+  {
+    "question": "Preparar-se para emergências inclui manter um seguro veicular adequado e aprender técnicas básicas de primeiros socorros.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Uma cobertura de seguro adequada e o conhecimento de procedimentos de resposta a emergências podem ajudar a reduzir as consequências de acidentes e melhorar a assistência às pessoas feridas."
+  },
+  {
+    "question": "Ao parar em uma subida, é aconselhável deixar espaço suficiente em relação ao veículo da frente, em vez de parar muito próximo.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Veículos em aclives podem recuar ligeiramente ao iniciar o movimento. Deixar espaço suficiente ajuda a evitar colisões e proporciona uma margem de segurança."
+  },
+  {
+    "question": "Como os ciclomotores são pequenos e fáceis de manobrar, é aceitável ziguezaguear entre os veículos no trânsito.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Dirigir em zigue-zague é perigoso e pode confundir outros usuários da via. Os condutores devem manter uma trajetória previsível e operar seus veículos com segurança."
+  },
+  {
+    "question": "Dirigir com segurança exige não apenas obedecer às leis de trânsito, mas também observar continuamente as condições da via, do clima e do tráfego.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "As regras de trânsito, por si só, não conseguem abranger todas as situações. Os condutores devem permanecer atentos e adaptar sua condução às condições ao seu redor."
+  },
+  {
+    "question": "À medida que uma curva se torna mais fechada e seu raio diminui, a força para fora que atua sobre um veículo em movimento aumenta.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "A força centrífuga aumenta quando um veículo percorre uma curva de raio menor na mesma velocidade. Por isso, os condutores devem reduzir a velocidade antes de entrar em curvas acentuadas."
+  },
+  {
+    "question": "Quanto menor for a aderência oferecida pela superfície da estrada, mais eficazes se tornam os freios do veículo.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Um coeficiente de atrito mais baixo reduz a aderência dos pneus, tornando a frenagem menos eficaz. Superfícies escorregadias, como estradas molhadas, congeladas ou enlameadas, aumentam a distância de parada."
+  },
+  {
+    "question": "Um ciclomotor pode ser operado legalmente se possuir seguro facultativo, mesmo que o seguro obrigatório de responsabilidade civil automóvel não esteja em vigor.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "O seguro obrigatório de responsabilidade civil automóvel é exigido por lei para todos os ciclomotores utilizados em vias públicas. O seguro opcional não substitui essa cobertura obrigatória."
+  },
+  {
+    "question": "Ao frear uma motocicleta ou ciclomotor em uma superfície seca, deve-se aplicar uma força de frenagem ligeiramente maior no freio dianteiro do que no traseiro.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Em pavimento seco, o freio dianteiro fornece a maior parte da força de frenagem porque o peso do veículo se desloca para a frente durante a frenagem. O uso adequado de ambos os freios ajuda a manter a estabilidade e o controle."
+  },
+  {
+    "question": "Esta placa significa que é proibido estacionar, mas ainda é permitido parar brevemente o veículo.",
+    "image": "no_stopping.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "A placa mostrada indica 'Proibido Parar e Estacionar'. Os veículos não podem parar nem estacionar na área indicada, exceto em circunstâncias especificamente permitidas por lei."
+  },
+  {
+    "question": "Dirigir em baixa velocidade significa operar o veículo em uma velocidade que permita parar imediatamente, se necessário.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "De acordo com as regulamentações de trânsito japonesas, 'baixa velocidade' refere-se a uma velocidade na qual o condutor pode parar o veículo de forma rápida e segura. Isso costuma ser exigido em áreas com maior risco ou visibilidade limitada."
+  },
+  {
+    "question": "Ao dirigir dentro de uma rotatória, você deve dar preferência aos veículos que entram na rotatória pela esquerda.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Os veículos que já circulam dentro da rotatória geralmente têm prioridade. Os condutores que entram na rotatória devem ceder passagem ao tráfego que já está circulando nela."
+  },
+  {
+    "question": "Um ciclomotor está proibido de circular em uma área sinalizada por esta placa.",
+    "image": "handcarts.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "A placa mostrada proíbe carrinhos de mão ou veículos semelhantes operados manualmente, não ciclomotores. A menos que exista outra restrição, os ciclomotores não são afetados por esta placa."
+  },
+  {
+    "question": "Ao reduzir a velocidade ou parar, o condutor pode usar sinais manuais para comunicar sua intenção aos demais usuários da via.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "As regulamentações de trânsito japonesas reconhecem os sinais manuais como um método válido para indicar intenções de condução. Eles podem ser usados quando apropriado, especialmente se as luzes indicadoras não puderem ser utilizadas."
+  },
+  {
+    "question": "Se um ciclomotor possuir equipamento projetado para transportar um passageiro, o condutor poderá levar uma criança ou outro passageiro.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Os ciclomotores padrão geralmente são limitados a apenas um ocupante de acordo com as regulamentações de trânsito japonesas. A presença de um assento para passageiro ou equipamento semelhante não autoriza automaticamente o transporte de outra pessoa."
+  },
+  {
+    "question": "Quando outro veículo estiver ultrapassando você, deve-se manter o mais próximo possível do lado esquerdo da via e evitar acelerar até que a manobra seja concluída.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Os condutores que estão sendo ultrapassados devem cooperar com o veículo que realiza a ultrapassagem, mantendo sua trajetória e velocidade. Aumentar a velocidade durante a manobra de ultrapassagem pode criar situações perigosas."
+  },
+  {
+    "question": "Um veículo estacionado ilegalmente que não pode ser removido imediatamente porque o condutor está ausente é considerado um veículo abandonado.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Na fiscalização de trânsito japonesa, um veículo deixado sem supervisão em violação às regras de estacionamento pode ser classificado como veículo abandonado. Esses veículos estão sujeitos a procedimentos especiais de fiscalização."
+  },
+  {
+    "question": "Os ciclomotores podem utilizar a faixa indicada por esta placa.",
+    "image": "senyou_lane.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "A placa indica uma faixa exclusiva para ônibus. De acordo com as regras de trânsito japonesas, os ciclomotores geralmente podem utilizar uma faixa exclusiva para ônibus, a menos que uma placa adicional proíba especificamente sua entrada."
+  },
+  {
+    "question": "O trânsito à frente estava congestionado e havia a possibilidade de meu veículo parar sobre uma faixa de pedestres. Como não havia pedestres utilizando a faixa, segui em frente mesmo assim.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Os condutores não devem entrar em uma faixa de pedestres a menos que haja espaço suficiente para atravessá-la completamente. A ausência de pedestres não autoriza bloquear a faixa."
+  },
+  {
+    "question": "Quando houver pedestres dentro de uma zona de segurança designada, os condutores podem passar pelo local em baixa velocidade.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Os veículos podem passar cuidadosamente por uma zona de segurança, exercendo cautela em relação aos pedestres. Os condutores devem reduzir a velocidade e garantir que não coloquem em risco ninguém que esteja entrando ou saindo da zona de segurança."
+  },
+  {
+    "question": "Quando existe uma linha de parada, o local correto para parar é imediatamente antes dessa linha.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Os condutores obrigados a parar devem fazê-lo imediatamente antes da linha de parada. Essa posição proporciona boa visibilidade e garante o cumprimento dos dispositivos de controle de trânsito e das marcações viárias."
+  },
+  {
+    "question": "Ao conduzir em uma estrada irregular de terra ou cascalho, o método mais seguro é segurar o guidão levemente e atravessar o trecho em alta velocidade.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Estradas irregulares e não pavimentadas exigem redução de velocidade e controle cuidadoso. Trafegar rapidamente nessas superfícies pode aumentar o risco de perder o equilíbrio ou a aderência."
+  },
+  {
+    "question": "Mesmo em uma área sinalizada com placa de proibido estacionar, um veículo pode parar a qualquer momento para carregar ou descarregar mercadorias.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Uma restrição de estacionamento não autoriza automaticamente a parada para carga ou descarga. Os condutores devem obedecer às restrições de parada e às demais regulamentações de trânsito aplicáveis."
+  },
+  {
+    "question": "O consumo de combustível tende a aumentar quando um veículo é conduzido excessivamente rápido ou desnecessariamente devagar.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Os veículos geralmente operam de forma mais eficiente dentro de uma faixa adequada de velocidade. Velocidades extremamente altas ou baixas podem resultar em maior consumo de combustível."
+  },
+  {
+    "question": "Se o cabo do acelerador ficar preso e o acelerador permanecer aberto durante a condução, a resposta correta é frear bruscamente e parar imediatamente.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Uma frenagem brusca pode causar perda de controle, especialmente se o motor continuar fornecendo potência. O condutor deve primeiro reduzir a potência do motor com segurança e recuperar o controle do veículo antes de parar."
+  },
+  {
+    "question": "O período de condutor iniciante corresponde ao período de um ano após a emissão de uma carteira de motorista comum, carteira de motocicleta de grande porte, motocicleta comum ou licença para ciclomotor.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "O sistema japonês para condutores iniciantes aplica-se durante um ano após a obtenção de determinados tipos de habilitação. Durante esse período, condutores e motociclistas estão sujeitos a regras especiais e requisitos adicionais de segurança."
+  },
+  {
+    "question": "Ao mudar para outra faixa que segue na mesma direção, a seta deve ser acionada aproximadamente 10 segundos antes da mudança de faixa.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "As regras de trânsito japonesas exigem que a sinalização para mudança de faixa seja feita pelo menos 3 segundos antes de iniciar a manobra. Não existe uma exigência fixa de aproximadamente 10 segundos."
+  },
+  {
+    "question": "Mesmo quando uma passagem de nível oferece visão clara em ambas as direções, é proibido ultrapassar dentro dos 30 metros anteriores à passagem.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "As regras de trânsito japonesas proíbem ultrapassagens próximas a passagens de nível devido ao aumento do risco de acidentes. Uma boa visibilidade não elimina essa restrição."
+  },
+  {
+    "question": "Reduzir diretamente de uma marcha alta para uma marcha muito mais baixa pode causar esforço excessivo ao motor e ao sistema de transmissão.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Uma redução brusca de marcha pode causar excesso de rotações no motor e esforço mecânico. Os condutores devem trocar de marcha suavemente e selecionar marchas adequadas à velocidade do veículo."
+  },
+  {
+    "question": "Se um aviso de veículo abandonado tiver sido afixado devido a uma infração de estacionamento ilegal, ele pode ser removido antes de conduzir o veículo para longe.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "O aviso serve como documento de fiscalização e não precisa permanecer afixado enquanto o veículo estiver sendo conduzido. No entanto, o condutor ou proprietário ainda deve cumprir os procedimentos legais aplicáveis."
+  },
+  {
+    "question": "Esta placa de faixa permite que um condutor que trafega na faixa indicada vire à esquerda no próximo cruzamento.",
+    "image": "permitted_directions.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "A placa indica as direções permitidas para circulação naquela faixa. Como é exibida uma seta de conversão à esquerda, os veículos nessa faixa podem legalmente virar à esquerda."
+  },
+  {
+    "question": "Esta marcação viária indica que há uma faixa de pedestres ou uma travessia para bicicletas à frente.",
+    "image": "diamond_markings.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "A marcação em formato de losango é utilizada para alertar os condutores sobre a aproximação de uma faixa de pedestres ou travessia para bicicletas. Os condutores devem estar preparados para reduzir a velocidade e observar os usuários que estejam atravessando."
+  },
+  {
+    "question": "Os condutores não precisam reduzir a velocidade à noite em comparação com a condução durante o dia.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "A visibilidade geralmente é reduzida à noite, tornando mais difícil detectar perigos, pedestres e obstáculos. Os condutores devem ajustar a velocidade de acordo com a visibilidade e as condições da via."
+  },
+  {
+    "question": "Esta placa significa que os condutores devem sempre reduzir a velocidade porque as crianças podem entrar repentinamente na pista.",
+    "image": "pedestrian.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "A placa mostrada identifica uma zona escolar ou área de travessia escolar, alertando os condutores para a presença de crianças. Embora seja necessária atenção extra, a placa em si não impõe automaticamente a obrigação legal de trafegar sempre em baixa velocidade."
+  },
+  {
+    "question": "Os ciclomotores geralmente não podem circular sobre trilhos de bonde, mas podem entrar ou cruzá-los ao virar à direita, virar à esquerda, atravessar a via ou realizar um retorno.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "As regras de trânsito japonesas geralmente proíbem a circulação normal na área dos trilhos de bonde. No entanto, os ciclomotores podem utilizar ou cruzar os trilhos quando necessário para determinadas manobras, como conversões ou travessias."
+  },
+  {
+    "question": "Em uma via com três faixas no sentido de circulação, o ciclomotor deve utilizar a faixa mais à esquerda.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Os ciclomotores geralmente são obrigados a manter-se no lado esquerdo da via. Em estradas com várias faixas, normalmente devem utilizar a faixa mais à esquerda, salvo quando a sinalização ou as condições da via determinarem o contrário."
+  },
+  {
+    "question": "Um condutor pode ultrapassar um ciclomotor dentro dos 30 metros anteriores a uma travessia para bicicletas se não houver ciclistas utilizando a travessia naquele momento.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "A ultrapassagem é proibida dentro da distância especificada antes de uma travessia para bicicletas, independentemente da presença de ciclistas. Essa restrição existe para proteger os usuários da travessia e aumentar a segurança."
+  },
+  {
+    "question": "Parei por três minutos para carregar ou descarregar mercadorias em uma área sinalizada com esta placa.",
+    "image": "no_parking_sign.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "A placa mostrada indica 'Proibido Estacionar'. Paradas temporárias para atividades como carga ou descarga podem ser permitidas, desde que o veículo não seja considerado estacionado pela definição legal e não exista uma restrição específica de parada."
+  },
+  {
+    "question": "Próximo a uma curva ou a uma descida acentuada, a ultrapassagem é proibida e os condutores devem reduzir a velocidade mesmo quando a visibilidade parece suficiente.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Curvas e descidas íngremes apresentam riscos maiores devido ao tempo reduzido de reação, mudanças na dinâmica do veículo e possíveis limitações de visibilidade. Os condutores devem agir com cautela e obedecer às restrições de ultrapassagem nessas áreas."
+  },
+  {
+    "question": "Esta placa de advertência significa que os condutores são legalmente obrigados a trafegar em baixa velocidade.",
+    "image": "steep.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "A placa mostrada adverte sobre uma inclinação acentuada de 10% à frente. Ela alerta os condutores sobre a inclinação, mas não impõe, por si só, uma obrigação legal de trafegar em velocidade reduzida; os condutores devem ajustar a velocidade de acordo com as condições."
+  },
+  {
+    "question": "Em um cruzamento sem controle onde vias de largura semelhante se encontram e nenhuma delas possui prioridade, avancei primeiro porque o outro veículo se aproximava pela minha direita.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Em cruzamentos de vias com larguras aproximadamente iguais, os veículos que se aproximam pela esquerda geralmente devem ceder passagem aos veículos que vêm pela direita. Portanto, o veículo à direita tem prioridade."
+  },
+  {
+    "question": "Os ciclomotores estão proibidos de entrar em uma via sinalizada com esta placa.",
+    "image": "no_bicycle.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "A placa mostrada proíbe bicicletas, não ciclomotores. Como um ciclomotor é classificado como veículo motorizado e não como bicicleta, esta placa, por si só, não proíbe a circulação de ciclomotores."
+  },
+  {
+    "question": "Obedecer às regras de trânsito e ceder passagem adequadamente aos outros usuários da via gera confusão e aumenta o risco de acidentes.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Seguir as regras de trânsito e ceder passagem quando necessário promove um fluxo de tráfego previsível e melhora a segurança. Essas ações ajudam a reduzir a confusão e prevenir colisões."
+  },
+  {
+    "question": "Um condutor cumpre a exigência de uso de capacete para operar um ciclomotor usando qualquer tipo de capacete, incluindo um capacete de construção.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Os condutores de ciclomotores devem usar um capacete para motocicleta que atenda aos padrões de segurança aplicáveis. Um capacete de construção não é um substituto aprovado para circular em vias públicas."
+  },
+  {
+    "question": "Em um cruzamento, o condutor deve posicionar o veículo de forma que o motorista de um veículo de quatro rodas que esteja virando possa vê-lo claramente, evitando ficar preso na trajetória da conversão.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Motocicletas e ciclomotores podem ser difíceis de perceber para outros motoristas. Manter uma posição visível ajuda a reduzir o risco de envolvimento em colisões relacionadas a conversões."
+  },
+  {
+    "question": "O freio-motor é mais eficaz quando o veículo está em uma marcha mais alta do que quando está em uma marcha mais baixa.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Marchas mais baixas produzem maior resistência do motor e, portanto, um freio-motor mais forte. É por isso que os condutores frequentemente reduzem para uma marcha inferior ao descer ladeiras íngremes."
+  },
+  {
+    "question": "Em uma passagem de nível controlada por semáforos, os condutores podem prosseguir sem fazer uma parada temporária quando o sinal permitir a circulação.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "No Japão, geralmente não é necessário parar em uma passagem de nível controlada por semáforo quando o sinal indica que é seguro prosseguir. Os condutores ainda devem permanecer atentos e garantir que a travessia possa ser concluída com segurança."
+  },
+  {
+    "question": "Esta placa indica que os ciclomotores são obrigados a realizar uma conversão à direita em dois estágios no cruzamento.",
+    "image": "two_stage_right.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "A placa mostrada determina uma conversão obrigatória à direita em dois estágios para ciclomotores. Os condutores devem atravessar o cruzamento em duas etapas em vez de fazer uma conversão direta à direita."
+  },
+  {
+    "question": "Como a visibilidade é reduzida ao entrar em um túnel vindo de uma área iluminada, os condutores devem reduzir a velocidade antes de chegar à entrada do túnel.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Os olhos precisam de tempo para se adaptar ao ambiente mais escuro dentro do túnel. Reduzir a velocidade antecipadamente ajuda a manter a segurança durante essa transição."
+  },
+  {
+    "question": "Uma pessoa que fornece álcool a alguém que sabe que irá dirigir também pode ser penalizada pelas leis de trânsito.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "A legislação japonesa impõe penalidades não apenas aos condutores alcoolizados, mas também às pessoas que conscientemente auxiliam ou incentivam a condução sob efeito de álcool, inclusive fornecendo bebidas alcoólicas."
+  },
+  {
+    "question": "Quando os faróis de um veículo que se aproxima causam ofuscamento à noite, é aceitável fechar os olhos brevemente enquanto continua dirigindo.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Os condutores devem manter os olhos na estrada e conservar o controle do veículo em todos os momentos. Fechar os olhos, mesmo que por um instante, representa um grave risco à segurança."
+  },
+  {
+    "question": "Em um cruzamento sem controle onde as vias possuem largura semelhante, os condutores não devem interferir nos veículos que se aproximam pela esquerda.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Nesses cruzamentos, os condutores devem respeitar as regras de preferência aplicáveis e evitar obstruir outros veículos. A passagem segura do tráfego que se aproxima deve ser garantida."
+  },
+  {
+    "question": "Os proprietários de ciclomotores são obrigados a manter um seguro obrigatório de responsabilidade civil automóvel ou um sistema equivalente de assistência mútua aprovado.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "A cobertura obrigatória de responsabilidade civil é exigida por lei antes que um ciclomotor possa circular em vias públicas. Conduzir sem essa cobertura constitui infração legal."
+  },
+  {
+    "question": "Ao rebocar um reboque com um ciclomotor, desci do veículo e o empurrei, portanto era permitido circular pela calçada.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "As calçadas destinam-se principalmente aos pedestres. Empurrar um ciclomotor enquanto reboca um reboque não concede automaticamente permissão para circular pela calçada quando tal movimento for proibido ou inseguro."
+  },
+  {
+    "question": "Um ônibus parado à frente sinalizou sua intenção de retornar ao tráfego, e eu imediatamente passei ao lado dele antes que pudesse se mover.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Os condutores devem ter cautela ao se aproximarem de ônibus que sinalizam a saída de um ponto de parada. Ultrapassar de forma que interfira no retorno seguro do ônibus ao tráfego é proibido."
+  },
+  {
+    "question": "É proibido parar ou estacionar dentro de 5 metros antes ou depois de uma faixa de pedestres ou de uma travessia para bicicletas.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "As regras de trânsito japonesas proíbem parar ou estacionar dentro de 5 metros de uma faixa de pedestres ou travessia para bicicletas. Isso ajuda a garantir visibilidade e segurança para pedestres e ciclistas."
+  },
+  {
+    "question": "Uma seta direcional amarela permite que os veículos sigam na direção indicada mesmo quando o sinal principal está amarelo ou vermelho, desde que prestem atenção ao tráfego ao redor.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "A seta direcional que permite o movimento é exibida na cor verde, não amarela. Os condutores devem obedecer às indicações reais do semáforo."
+  },
+  {
+    "question": "Ao estacionar em uma via que não possui nem calçada nem acostamento, deve-se deixar um espaço de 0,75 metro no lado esquerdo do veículo para os pedestres.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "O espaço exigido para pedestres não é medido a partir do lado esquerdo do veículo estacionado da maneira descrita. Os condutores devem seguir as regras específicas de estacionamento que garantem a passagem segura dos pedestres."
+  },
+  {
+    "question": "Se a velocidade de um veículo for duplicada, a distância de frenagem desde o momento em que os freios são acionados até a parada completa torna-se aproximadamente quatro vezes maior.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "A distância de frenagem aumenta aproximadamente com o quadrado da velocidade. Como resultado, dobrar a velocidade pode aumentar a distância de frenagem em cerca de quatro vezes."
+  },
+  {
+    "question": "Os ciclomotores podem utilizar uma faixa exclusiva para ônibus desde que não interfiram na circulação dos ônibus e veículos semelhantes.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "De acordo com as regras de trânsito japonesas, os ciclomotores geralmente podem utilizar faixas de ônibus, salvo quando placas adicionais os proíbam. Os condutores não devem obstruir ônibus nem outros veículos autorizados a utilizar a faixa."
+  },
+  {
+    "question": "À noite, em áreas urbanas com tráfego intenso, os condutores normalmente devem utilizar os faróis baixos.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Os faróis baixos ajudam a evitar o ofuscamento de outros usuários da via em áreas com tráfego frequente. Os faróis altos devem ser usados apenas quando apropriado e desligados quando puderem ofuscar outras pessoas."
+  },
+  {
+    "question": "Motocicletas automáticas e ciclomotores podem acelerar inesperadamente se o acelerador for acionado muito rapidamente.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Veículos automáticos de duas rodas respondem imediatamente ao acionamento do acelerador. Uma operação brusca do acelerador pode causar aceleração repentina e perda de controle."
+  },
+  {
+    "question": "Ao frear um ciclomotor em uma superfície molhada, geralmente é mais seguro confiar um pouco mais no freio traseiro.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Estradas molhadas reduzem a aderência dos pneus e aumentam o risco de derrapagem da roda dianteira. Utilizar os freios suavemente, com ligeiramente mais ênfase no freio traseiro, pode ajudar a manter a estabilidade."
+  },
+  {
+    "question": "Ao me aproximar de um cruzamento, percebi um veículo de emergência vindo na direção oposta, então me movi para a borda esquerda da via e parei antes de entrar no cruzamento.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Os condutores devem dar passagem aos veículos de emergência que utilizam sirenes ou dispositivos de aviso. Próximo a um cruzamento, parar no lado esquerdo antes de entrar ajuda a garantir um caminho livre para o veículo de emergência."
+  },
+  {
+    "question": "Se as partes envolvidas em um acidente de trânsito chegarem a um acordo particular, não é necessário comunicar o acidente à polícia.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "A legislação japonesa exige que acidentes de trânsito sejam comunicados à polícia independentemente de qualquer acordo entre as partes. Essa obrigação se aplica mesmo quando os danos ou ferimentos parecem pequenos."
+  },
+  {
+    "question": "Uma pessoa que possui uma licença de ciclomotor há menos de um ano deve exibir a marca de motorista iniciante na parte dianteira ou traseira do ciclomotor.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "A exigência da marca de motorista iniciante aplica-se a determinadas categorias de condutores de veículos motorizados, não aos operadores de ciclomotores. Os condutores de ciclomotores não são obrigados a exibir essa marca."
+  },
+  {
+    "question": "Durante um desastre, se uma estrada estiver sujeita a restrições de tráfego sob a Lei Básica de Contramedidas para Desastres, os condutores devem deixar a área restrita e deslocar-se para outro local.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Os condutores devem cumprir os controles de tráfego relacionados a desastres e cooperar com as medidas de emergência. Deixar as áreas restritas ajuda a garantir o acesso para operações de emergência e socorro."
+  },
+  {
+    "question": "Em uma faixa marcada com esta sinalização viária, os ciclomotores não podem circular, exceto ao fazer uma conversão à esquerda.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "A restrição descrita não se aplica da forma indicada. Os ciclomotores podem utilizar a faixa de acordo com as marcações viárias e as regras de trânsito aplicáveis àquela via."
+  },
+  {
+    "question": "A postura correta de condução em uma motocicleta ou ciclomotor é colocar os pés nos apoios com os dedos apontando ligeiramente para a frente e as solas mantidas niveladas.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Os condutores devem posicionar os pés firmemente nos apoios, com os dedos geralmente voltados para dentro ou paralelos ao veículo para evitar contato com a superfície da estrada. A postura descrita não é considerada uma técnica adequada de condução."
+  },
+  {
+    "question": "Você não deve ultrapassar um veículo que tenha se deslocado para a direita em preparação para uma conversão à direita ou manobra semelhante.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Ultrapassar um veículo que está se posicionando para virar à direita pode criar uma situação perigosa. Os condutores devem aguardar até que a manobra seja concluída e seja seguro prosseguir."
+  },
+  {
+    "question": "À noite, quando um policial parado no centro de um cruzamento balança uma luz horizontalmente, o tráfego voltado para esse sinal é tratado da mesma forma que um semáforo verde.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Os sinais manuais e luminosos dos policiais têm prioridade sobre os semáforos. Nessa situação, um movimento horizontal da luz indica que o tráfego naquela direção pode prosseguir, de forma semelhante a um sinal verde."
+  }
+]

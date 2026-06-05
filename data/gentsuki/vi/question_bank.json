@@ -1,1 +1,2502 @@
-[] 
+[
+  {
+    "question": "Xe gắn máy dưới 50cc không phải lúc nào cũng được phép chạy với tốc độ 30 km/h, vì giới hạn tốc độ thấp hơn có thể được áp dụng tùy theo điều kiện đường sá hoặc quy định giao thông.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Mặc dù 30 km/h là tốc độ tối đa chung đối với xe gắn máy dưới 50cc ở Nhật Bản, nhưng một số tuyến đường có giới hạn tốc độ thấp hơn được quy định bằng biển báo. Người lái xe luôn phải tuân thủ giới hạn tốc độ được chỉ định."
+  },
+  {
+    "question": "Khi giảm tốc độ hoặc dừng xe mô tô hoặc xe gắn máy dưới 50cc, cách an toàn nhất là sử dụng đồng thời cả phanh trước và phanh sau.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Việc sử dụng cả hai phanh cùng lúc giúp duy trì sự ổn định và rút ngắn quãng đường dừng xe. Chỉ dựa vào một phanh có thể làm tăng nguy cơ mất kiểm soát."
+  },
+  {
+    "question": "Chỉ có giấy phép lái xe gắn máy dưới 50cc hợp lệ là chưa đủ; người lái cũng phải mang theo giấy phép khi điều khiển xe.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Luật giao thông Nhật Bản yêu cầu người điều khiển phương tiện phải mang theo giấy phép lái xe khi tham gia giao thông. Không mang theo giấy phép có thể bị xử phạt ngay cả khi người lái có giấy phép hợp lệ."
+  },
+  {
+    "question": "Để phanh an toàn hơn trên xe hai bánh, người lái nên giữ tay lái thẳng, tận dụng phanh động cơ và sử dụng đồng thời cả phanh trước lẫn phanh sau.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Sự kết hợp này giúp duy trì thăng bằng và kiểm soát xe tốt hơn trong khi giảm tốc độ hiệu quả. Phanh gấp hoặc xoay tay lái khi đang phanh có thể làm tăng nguy cơ trượt bánh."
+  },
+  {
+    "question": "Tại giao lộ có tầm nhìn hạn chế ở cả hai hướng, liên tục bấm còi khi đi qua giao lộ là cách đúng để đi qua an toàn.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Người lái xe nên giảm tốc độ và đi qua cẩn thận tại các giao lộ có tầm nhìn hạn chế. Còi chỉ nên được sử dụng khi có yêu cầu cụ thể hoặc khi cần thiết để tránh nguy hiểm."
+  },
+  {
+    "question": "Biển báo này có nghĩa là người lái xe không được phép băng qua phần đường bằng cách rẽ phải để đi vào hoặc đi ra khỏi cơ sở hay khu đất ven đường.",
+    "image": "no_crossing_sign.jpg",
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Biển báo này cấm băng qua vạch giữa đường hoặc khu vực được chỉ định bằng cách rẽ phải. Người lái xe phải tuân thủ quy định này và sử dụng lộ trình thay thế nếu được phép."
+  },
+  {
+    "question": "Biển báo được hiển thị đánh dấu điểm bắt đầu của đường một chiều.",
+    "image": "turn_left.jpg",
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Biển báo này chỉ hướng di chuyển bắt buộc (rẽ trái), chứ không phải là biển báo bắt đầu đường một chiều. Đường một chiều ở Nhật Bản được chỉ định bằng một biển báo điều tiết khác."
+  },
+  {
+    "question": "Biển báo cảnh báo này thông báo cho người lái xe rằng phía trước có một đoạn đường được điều tiết hoặc có hạn chế giao thông.",
+    "image": "warning.jpg",
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Đây là biển báo cảnh báo chung dùng để thông báo cho người lái xe về nguy hiểm hoặc điều kiện phía trước cần thận trọng. Nó không chỉ rõ sự bắt đầu của khu vực hạn chế giao thông."
+  },
+  {
+    "question": "Vì hầm đường bộ có thể gây ra các vấn đề về tầm nhìn và an toàn, việc vượt xe khác bị cấm trong mọi đường hầm.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Chỉ những đường hầm được luật quy định, chẳng hạn như hầm có một làn xe theo cùng một hướng, mới cấm vượt xe. Trong những đường hầm không có quy định cấm vượt, người lái xe vẫn phải hết sức thận trọng."
+  },
+  {
+    "question": "Xe gắn máy dưới 50cc thông thường bị giới hạn ở tốc độ tối đa 30 km/h, nhưng có thể chạy 40 km/h trên đường rộng khi lưu lượng giao thông thấp.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Theo luật giao thông Nhật Bản, tốc độ tối đa của xe gắn máy dưới 50cc thông thường là 30 km/h, trừ khi có biển báo quy định tốc độ thấp hơn. Độ rộng của đường hoặc tình trạng giao thông không cho phép vượt quá giới hạn tốc độ hợp pháp."
+  },
+  {
+    "question": "Xe gắn máy dưới 50cc có thể kéo rơ-moóc miễn là tải trọng của rơ-moóc không vượt quá 200 kg.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Xe gắn máy dưới 50cc chịu các quy định nghiêm ngặt về việc kéo rơ-moóc theo luật giao thông Nhật Bản. Khẳng định này không chính xác vì quyền kéo và giới hạn trọng lượng không được xác định đơn giản bằng mức tải 200 kg."
+  },
+  {
+    "question": "Xích truyền động của xe mô tô hoặc xe gắn máy dưới 50cc không được có bất kỳ độ chùng nào khi kiểm tra bằng cách ấn bằng ngón tay.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Một mức độ chùng nhất định của xích là cần thiết để xe hoạt động bình thường. Xích quá căng có thể gây mài mòn quá mức và các vấn đề cơ khí."
+  },
+  {
+    "question": "Trong quá trình kiểm tra trước khi lái xe, tôi phát hiện đèn báo rẽ bị hỏng nhưng vẫn tiếp tục lái vì có thể sử dụng tín hiệu tay thay thế.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Không được điều khiển phương tiện có đèn báo hướng bị hỏng trên đường công cộng. Tín hiệu tay không phải là lý do hợp lệ để vận hành một phương tiện có thiết bị bắt buộc không hoạt động đúng chức năng."
+  },
+  {
+    "question": "Nếu đèn tín hiệu chính màu xanh, xe gắn máy dưới 50cc rẽ trái vẫn có thể tiếp tục đi ngay cả khi mũi tên dành riêng cho rẽ trái đang hiển thị màu đỏ.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Khi tín hiệu chính cho phép phương tiện đi tiếp, xe gắn máy dưới 50cc thường có thể rẽ trái hợp pháp trừ khi có tín hiệu riêng cấm rõ ràng hướng đi đó. Chỉ riêng mũi tên đỏ dành cho rẽ trái không ngăn cản việc rẽ trong tình huống này."
+  },
+  {
+    "question": "Người chỉ có giấy phép lái xe gắn máy dưới 50cc được phép điều khiển xe gắn máy dưới 50cc, xe mini car và xe chuyên dụng cỡ nhỏ.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Giấy phép lái xe gắn máy dưới 50cc cho phép điều khiển xe gắn máy dưới 50cc nhưng không tự động cho phép lái tất cả các loại phương tiện khác. Xe mini car và một số loại xe chuyên dụng yêu cầu giấy phép riêng."
+  },
+  {
+    "question": "Biển báo này có nghĩa là xe gắn máy dưới 50cc được phép sử dụng con đường đó.",
+    "image": "bicycle.png",
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Biển báo được hiển thị là biển chỉ đường dành riêng cho xe đạp. Nó áp dụng cho xe đạp và không cho biết xe gắn máy dưới 50cc được phép đi trên đoạn đường đó."
+  },
+  {
+    "question": "Nếu hệ thống phanh hoặc tay lái của xe bị hỏng, người lái nên tiếp tục điều khiển xe một cách cẩn thận với tốc độ thấp hơn.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Phương tiện có lỗi nghiêm trọng ảnh hưởng đến khả năng vận hành an toàn không được phép lưu thông trên đường công cộng. Giảm tốc độ không loại bỏ được nguy hiểm do phanh hoặc hệ thống lái bị hỏng gây ra."
+  },
+  {
+    "question": "Khi điều khiển xe gắn máy dưới 50cc băng qua vỉa hè hoặc khu vực dành cho người đi bộ tương tự, chỉ cần đi chậm và tránh cản trở người đi bộ là đủ.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Khi băng qua vỉa hè hoặc đi vào phần đường qua khu vực dành cho người đi bộ, người lái xe phải giảm tốc độ và ưu tiên người đi bộ. Chỉ cố gắng không cản trở họ là chưa thực hiện đầy đủ trách nhiệm pháp lý của người lái xe."
+  },
+  {
+    "question": "Vì tầm nhìn có thể đột ngột giảm khi đi từ nơi có ánh sáng ban ngày vào đường hầm, người lái xe nên giảm tốc độ trước khi vào hầm.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Mắt cần thời gian để thích nghi với môi trường tối hơn bên trong đường hầm. Giảm tốc độ trước khi vào hầm giúp đảm bảo có đủ thời gian phản ứng và kiểm soát xe an toàn hơn."
+  },
+  {
+    "question": "Khi vào cua bằng xe gắn máy dưới 50cc, khả năng kiểm soát được cải thiện nếu nghiêng xe theo hướng cua thay vì chỉ xoay mạnh tay lái.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Các phương tiện hai bánh vào cua ổn định nhất khi kết hợp điều khiển tay lái nhẹ nhàng với việc nghiêng người và nghiêng xe phù hợp. Xoay tay lái quá mức có thể làm giảm độ ổn định khi vào cua."
+  },
+  {
+    "question": "Hiệu quả giảm tốc do phanh động cơ tạo ra sẽ mạnh hơn khi chọn số thấp hơn.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Số thấp làm tăng lực cản của động cơ và giúp giảm tốc độ hiệu quả hơn. Điều này đặc biệt hữu ích khi xuống dốc hoặc khi cần thêm lực hãm."
+  },
+  {
+    "question": "Nếu một xe ưu tiên tiếp cận từ phía sau khi bạn đang đi qua giao lộ, bạn nên dừng lại ngay tại vị trí hiện tại.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Dừng lại trong giao lộ có thể cản trở giao thông và gây nguy hiểm. Người lái xe nên trước tiên đi qua giao lộ một cách an toàn rồi nhường đường cho xe ưu tiên theo quy định."
+  },
+  {
+    "question": "Mục đích của bộ giảm thanh là làm giảm lượng khí thải do động cơ thải ra.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Bộ giảm thanh chủ yếu được thiết kế để giảm tiếng ồn của động cơ và hệ thống xả. Việc giảm khí thải được thực hiện bởi các bộ phận khác như hệ thống kiểm soát khí thải."
+  },
+  {
+    "question": "Người lái xe không nên mang guốc gỗ geta, dép lỏng lẻo hoặc các loại giày dép khác có thể cản trở việc điều khiển phương tiện đúng cách.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Giày dép có thể tuột ra hoặc cản trở việc điều khiển bàn đạp sẽ ảnh hưởng đến việc lái xe an toàn. Người lái xe có trách nhiệm bảo đảm mình có thể điều khiển phương tiện an toàn trong mọi lúc."
+  },
+  {
+    "question": "Xe gắn máy dưới 50cc lưu thông trên đường công cộng phải có bảo hiểm trách nhiệm dân sự bắt buộc hoặc hình thức bảo hiểm tương đương được công nhận.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Luật Nhật Bản yêu cầu tất cả xe gắn máy dưới 50cc phải có bảo hiểm trách nhiệm dân sự bắt buộc còn hiệu lực trước khi được sử dụng trên đường công cộng. Việc điều khiển xe mà không có bảo hiểm này là vi phạm pháp luật."
+  },
+  {
+    "question": "Khi vượt một xe đạp, người lái xe nên giữ khoảng cách an toàn thích hợp hoặc giảm tốc độ nếu không có đủ khoảng trống.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Người đi xe đạp là đối tượng dễ bị tổn thương và có thể di chuyển bất ngờ. Duy trì khoảng cách an toàn giúp ngăn ngừa va chạm và bảo vệ cả hai bên."
+  },
+  {
+    "question": "Con đường được đánh dấu bằng biển báo này có thể được xe gắn máy dưới 50cc sử dụng.",
+    "image": "moped_can_enter.jpg",
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Biển báo này chỉ đường dành cho xe cơ giới. Vì xe gắn máy dưới 50cc được phân loại là phương tiện cơ giới theo luật giao thông Nhật Bản, nên thông thường được phép sử dụng những tuyến đường có biển báo này trừ khi có quy định hạn chế khác."
+  },
+  {
+    "question": "Khi một làn đường được giới hạn bởi các vạch vàng liền ở cả hai bên, người lái xe bị cấm cắt qua các vạch đó để chuyển làn, kể cả để rẽ phải hoặc rẽ trái.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Vạch vàng liền cho biết việc cắt qua vạch là bị cấm. Người lái xe phải giữ nguyên trong làn đường của mình và chỉ chuyển làn tại những vị trí được phép."
+  },
+  {
+    "question": "Điều khiển phương tiện trong khi sử dụng điện thoại di động có thể làm người lái mất tập trung và làm tăng đáng kể nguy cơ xảy ra tai nạn.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Việc sử dụng điện thoại di động làm giảm sự chú ý đến tình hình giao thông và các mối nguy hiểm. Luật giao thông Nhật Bản áp dụng các hình phạt nghiêm khắc đối với hành vi lái xe mất tập trung do những nguy hiểm mà nó gây ra."
+  },
+  {
+    "question": "Nếu biển báo hoặc vạch kẻ đường cấm băng qua phần đường hoặc quay đầu xe, thì việc lùi xe cũng bị cấm tại cùng địa điểm đó.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Các quy định cấm băng qua đường hoặc quay đầu xe không tự động đồng nghĩa với việc cấm lùi xe. Tuy nhiên, việc lùi xe vẫn phải được thực hiện an toàn và chỉ khi điều kiện giao thông cho phép."
+  },
+  {
+    "question": "Khi đèn tín hiệu giao thông màu xanh lá (xanh dương ở Nhật), người lái xe nên đi vào giao lộ ngay cả khi các phương tiện phía trước đã gây ùn tắc ở phía bên kia giao lộ.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Người lái xe không được đi vào giao lộ trừ khi có đủ khoảng trống để đi qua hoàn toàn. Chặn giao lộ có thể cản trở lưu thông và gây nguy hiểm."
+  },
+  {
+    "question": "Vì xe có xu hướng tăng tốc khi xuống dốc, nên cần duy trì khoảng cách bám theo lớn hơn so với khi đi trên đường bằng phẳng.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Quãng đường dừng xe tăng lên khi xuống dốc do tác động của trọng lực. Duy trì khoảng cách lớn hơn giúp có thêm thời gian phản ứng và dừng xe an toàn."
+  },
+  {
+    "question": "Chở hàng nặng làm tăng quãng đường cần thiết để dừng xe hoàn toàn.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Trọng lượng bổ sung làm tăng quán tính, khiến phương tiện khó dừng lại nhanh chóng hơn. Người lái xe cần tính đến quãng đường phanh dài hơn khi chở hàng hóa."
+  },
+  {
+    "question": "Sau khi dừng tại đường sắt giao cắt và xác nhận không có tàu đang đến, bạn có thể đi tiếp ngay cả khi giao thông phía bên kia đường ray đang ùn tắc.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Người lái xe không được đi vào đường sắt giao cắt trừ khi có đủ khoảng trống để đi qua hoàn toàn. Bị mắc kẹt trên đường ray do ùn tắc giao thông là cực kỳ nguy hiểm và bị cấm."
+  },
+  {
+    "question": "Khi đạp phanh, nên sử dụng gót chân thay vì phần trước bàn chân hoặc các ngón chân để tác động lên bàn đạp.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Người lái xe nên sử dụng phần trước bàn chân để đạp phanh nhằm duy trì khả năng kiểm soát chính xác và cho phép di chuyển nhanh giữa chân ga và chân phanh. Sử dụng gót chân có thể làm giảm độ chính xác khi phanh."
+  },
+  {
+    "question": "Nếu động cơ của xe gắn máy dưới 50cc vẫn đang nổ máy trong khi xe được đẩy bằng tay, xe có thể được đưa đi trên vỉa hè.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Xe gắn máy dưới 50cc khi động cơ đang hoạt động được xem là phương tiện cơ giới đang vận hành. Vỉa hè nói chung dành cho người đi bộ và xe gắn máy không được phép đi trên đó trừ khi pháp luật cho phép cụ thể."
+  },
+  {
+    "question": "Tư thế lái đúng trên xe mô tô hoặc xe gắn máy dưới 50cc bao gồm việc giữ cổ tay thấp và cầm tay lái nhẹ nhàng như thể đang đẩy tay lái hơi hướng về phía trước.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Duy trì cách cầm tay lái thư giãn và vị trí cổ tay phù hợp giúp cải thiện khả năng điều khiển và giảm mệt mỏi cho người lái. Nắm tay lái quá chặt có thể làm xe kém ổn định hơn."
+  },
+  {
+    "question": "Còi chỉ được sử dụng tại những nơi có biển báo \"Bấm còi\" và không được sử dụng ở bất kỳ nơi nào khác.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Mặc dù người lái xe phải bấm còi tại những nơi có biển báo \"Bấm còi\", còi cũng có thể được sử dụng khi cần thiết để tránh nguy hiểm hoặc ngăn ngừa va chạm. Tuy nhiên, việc sử dụng còi không cần thiết vẫn nên tránh."
+  },
+  {
+    "question": "Tại giao lộ có đèn tín hiệu trên đường hai làn xe, xe gắn máy dưới 50cc rẽ phải khi đèn xanh phải thực hiện cách rẽ giống như ô tô thông thường.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Trên các tuyến đường có hai làn xe hoặc ít hơn theo cùng một hướng, xe gắn máy dưới 50cc thường thực hiện rẽ phải giống như các phương tiện cơ giới khác. Quy định rẽ phải hai giai đoạn chỉ áp dụng trong những điều kiện cụ thể."
+  },
+  {
+    "question": "Bất kỳ độ rơ nào của bàn đạp phanh cũng cho thấy một lỗi nguy hiểm.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Một lượng nhỏ độ rơ của bàn đạp phanh là bình thường và cần thiết để hệ thống phanh hoạt động đúng cách. Độ rơ quá lớn có thể cho thấy có vấn đề, nhưng một mức độ dịch chuyển nhất định là điều được mong đợi."
+  },
+  {
+    "question": "Khi người lái xe gắn máy dưới 50cc phía trước duỗi thẳng tay trái sang ngang, điều đó có nghĩa là họ định đi chậm.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Duỗi tay trái ngang ra là tín hiệu tay cho biết sẽ rẽ trái hoặc chuyển làn sang trái. Đây không phải là tín hiệu giảm tốc độ."
+  },
+  {
+    "question": "Trong sương mù dày đặc, bật đèn xi nhan phải là cách phù hợp để làm cho xe của bạn dễ được phương tiện đang đến gần nhận thấy hơn.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Đèn xi nhan chỉ nên được sử dụng để báo rẽ hoặc chuyển làn. Khi tầm nhìn kém, người lái xe nên sử dụng đèn phù hợp và giảm tốc độ thay vì dùng sai tín hiệu báo hướng."
+  },
+  {
+    "question": "Người lái xe có ý định rẽ phải hoặc quay đầu xe nên bắt đầu báo hiệu ít nhất 30 mét trước vị trí thực hiện thao tác đó.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Quy định giao thông Nhật Bản yêu cầu tín hiệu rẽ hoặc quay đầu xe phải được đưa ra ít nhất 30 mét trước khi thực hiện. Điều này giúp cảnh báo đầy đủ cho những người tham gia giao thông khác."
+  },
+  {
+    "question": "Tốc độ của xe chỉ ảnh hưởng đến quãng đường đi được sau khi phanh được sử dụng, và không ảnh hưởng đến bất kỳ yếu tố dừng xe nào khác.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Tốc độ ảnh hưởng đến cả quãng đường phản ứng và quãng đường phanh. Khi tốc độ tăng, tổng quãng đường dừng xe trở nên dài hơn đáng kể."
+  },
+  {
+    "question": "Xe gắn máy dưới 50cc được phép chở hàng hóa nặng tối đa 60 kg.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Giới hạn hàng hóa của xe gắn máy dưới 50cc được quy định bởi pháp luật và thông số của phương tiện. Tải trọng 60 kg vượt quá giới hạn tiêu chuẩn cho phép đối với xe gắn máy dưới 50cc thông thường."
+  },
+  {
+    "question": "Tôi đã vượt một xe gắn máy dưới 50cc đang chạy chậm trong phạm vi 30 mét trước giao lộ.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Việc vượt xe gần giao lộ thường bị cấm vì tầm nhìn và các xung đột giao thông làm tăng nguy cơ tai nạn. Người lái xe nên chờ cho đến khi đã qua khu vực bị hạn chế một cách an toàn."
+  },
+  {
+    "question": "Khi rẽ tại giao lộ có đèn tín hiệu, người lái ô tô và xe gắn máy dưới 50cc có thể đi tiếp mà không cần chú ý đến người đi bộ vì xe cơ giới có quyền ưu tiên.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Người lái xe luôn phải quan sát và nhường đường cho người đi bộ khi pháp luật yêu cầu. Đèn xanh không loại bỏ nghĩa vụ bảo đảm an toàn cho người đi bộ khi rẽ."
+  },
+  {
+    "question": "Tại giao lộ nơi các đường giao nhau có chiều rộng gần bằng nhau, các phương tiện không được cản trở sự di chuyển của tàu điện.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Tàu điện được xem xét đặc biệt theo quy định giao thông Nhật Bản. Người lái xe phải tránh cản trở tàu điện di chuyển khi đi qua những giao lộ như vậy."
+  },
+  {
+    "question": "Khi chở hành lý trên xe đạp, hàng hóa có thể nhô ra ngoài chiều rộng của giá chở hàng.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Hàng hóa trên xe đạp phải được chở trong phạm vi kích thước được pháp luật cho phép. Việc nhô ra quá mức có thể gây nguy hiểm và vi phạm quy định giao thông."
+  },
+  {
+    "question": "Xe gắn máy dưới 50cc luôn được phép chạy ở tốc độ 30 km/h và không bao giờ bị áp dụng giới hạn tốc độ thấp hơn.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Mặc dù 30 km/h là tốc độ tối đa chung đối với xe gắn máy dưới 50cc, các giới hạn tốc độ thấp hơn được ghi trên biển báo vẫn phải được tuân thủ. Người lái xe phải tuân theo giới hạn tốc độ nghiêm ngặt nhất đang áp dụng."
+  },
+  {
+    "question": "Người lái xe phải bắt đầu báo hiệu ít nhất 30 mét trước khi rẽ phải, rẽ trái hoặc quay đầu xe, trong khi tín hiệu dừng hoặc giảm tốc có thể được đưa ra khi hành động đó trở nên cần thiết.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Quy định giao thông Nhật Bản yêu cầu báo hiệu trước khi rẽ hoặc quay đầu xe để thông báo đầy đủ cho những người tham gia giao thông khác. Tín hiệu giảm tốc hoặc dừng xe được đưa ra khi cần giảm tốc độ hoặc dừng lại."
+  },
+  {
+    "question": "Vì mặt đường ướt làm giảm độ bám của lốp và tăng quãng đường dừng xe, nên khi trời mưa cần giữ khoảng cách lớn hơn với xe phía trước.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Mưa làm đường trơn trượt và kéo dài quãng đường phanh. Tăng khoảng cách theo sau giúp có thêm thời gian và không gian để phản ứng an toàn."
+  },
+  {
+    "question": "Ngay cả khi xe gắn máy dưới 50cc có yên được thiết kế cho thêm một người ngồi, việc chở hành khách vẫn không được phép.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Xe gắn máy dưới 50cc tiêu chuẩn ở Nhật Bản nhìn chung chỉ dành cho một người lái. Việc có yên cho hành khách không tự động cho phép chở hai người."
+  },
+  {
+    "question": "Chiều rộng tối đa cho phép của hàng hóa chở trên xe gắn máy dưới 50cc là chiều rộng của giá chở hàng cộng thêm 10 cm mỗi bên.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Quy định Nhật Bản chỉ cho phép hàng hóa nhô ra trong các giới hạn kích thước cụ thể. Chiều rộng cho phép không được tính bằng chiều rộng của thiết bị chở hàng cộng thêm 10 cm mỗi bên."
+  },
+  {
+    "question": "Vì sử dụng điện thoại di động khi lái xe là nguy hiểm, nếu bắt buộc phải dùng điện thoại thì trước tiên nên dừng xe ở nơi an toàn.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Sử dụng điện thoại di động khi lái xe có thể làm giảm đáng kể sự chú ý và tăng nguy cơ tai nạn. Người lái xe nên dừng ở nơi an toàn trước khi sử dụng điện thoại."
+  },
+  {
+    "question": "Người lái xe nên giảm tốc độ khi đi qua hoặc gần khúc cua trên đường.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Khúc cua có thể hạn chế tầm nhìn và làm giảm độ ổn định của phương tiện. Giảm tốc độ giúp duy trì khả năng kiểm soát và có thêm thời gian phản ứng với nguy hiểm."
+  },
+  {
+    "question": "Tăng tốc nhanh và phanh đột ngột không chỉ không an toàn mà còn có thể góp phần gây ô nhiễm môi trường.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Lái xe quá gấp gáp làm tăng mức tiêu thụ nhiên liệu và lượng khí thải. Lái xe êm ái giúp cải thiện an toàn đồng thời giảm tác động đến môi trường."
+  },
+  {
+    "question": "Xe gắn máy dưới 50cc bị cấm sử dụng làn đường được chỉ ra bởi biển báo này.",
+    "image": "senyou_lane.jpg",
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Biển báo này chỉ làn đường dành riêng cho xe buýt. Tuy nhiên, theo quy định giao thông Nhật Bản, xe gắn máy dưới 50cc có thể sử dụng làn đường dành riêng cho xe buýt trừ khi có biển báo riêng cấm xe gắn máy dưới 50cc đi vào."
+  },
+  {
+    "question": "Vạch kẻ đường này cho thấy lệnh cấm quay đầu xe trước đó đã kết thúc, nghĩa là người lái xe hiện có thể quay đầu xe.",
+    "image": "uturn_prohibited.jpg",
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Vạch kẻ được hiển thị không phải là dấu hiệu cho biết lệnh cấm quay đầu xe đã kết thúc. Người lái xe không được quay đầu xe tại khu vực có ký hiệu này."
+  },
+  {
+    "question": "Khi điều khiển xe gắn máy dưới 50cc qua khúc cua, kỹ thuật đúng là để xe nghiêng tự nhiên theo hướng rẽ.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Xe hai bánh duy trì sự ổn định khi rẽ bằng cách nghiêng phù hợp. Việc nghiêng đúng cách giúp người lái đi qua khúc cua một cách êm ái và an toàn."
+  },
+  {
+    "question": "Tại một điểm dừng tàu điện không có khu vực an toàn được chỉ định, nếu không có hành khách nào lên hoặc xuống tàu, bạn có thể vượt qua tàu điện đang dừng với tốc độ chậm đồng thời giữ khoảng cách ít nhất 1,5 mét.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Quy định giao thông Nhật Bản cho phép phương tiện vượt qua tàu điện đang dừng trong những điều kiện này nếu duy trì khoảng cách an toàn đầy đủ. Người lái xe phải di chuyển cẩn thận và luôn chú ý đến người đi bộ."
+  },
+  {
+    "question": "Mũ bảo hộ xây dựng loại nhẹ cung cấp đủ sự bảo vệ khi lái xe vì nó giúp đầu không bị khó chịu hoặc bí bách.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Người điều khiển xe phải đội mũ bảo hiểm xe máy đáp ứng các tiêu chuẩn an toàn bắt buộc. Mũ bảo hộ xây dựng loại nhẹ không cung cấp mức độ bảo vệ cần thiết khi điều khiển xe gắn máy hoặc xe mô tô."
+  },
+  {
+    "question": "Khi báo hiệu rẽ phải hoặc rẽ trái trên xe gắn máy dưới 50cc, chỉ được sử dụng đèn xi nhan và tuyệt đối không được sử dụng tín hiệu tay.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Tín hiệu tay có thể được sử dụng khi cần thiết, đặc biệt nếu đèn tín hiệu của xe không thể sử dụng được. Cả tín hiệu tay hợp lệ và đèn báo rẽ đều là những phương thức giao tiếp được công nhận."
+  },
+  {
+    "question": "Khi đến gần một xe buýt đang dừng tại điểm dừng xe buýt được chỉ định, bạn luôn phải dừng phía sau xe cho đến khi xe buýt rời đi.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Người lái xe không tự động bị yêu cầu phải dừng phía sau xe buýt tại điểm dừng. Tùy thuộc vào điều kiện đường sá và mức độ an toàn, việc vượt qua có thể được phép nếu thực hiện một cách thận trọng."
+  },
+  {
+    "question": "Trên đường một chiều, phương tiện có thể đi ở phía bên phải vượt quá trung tâm phần đường xe chạy.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Vì giao thông trên đường một chiều chỉ di chuyển theo một hướng, các phương tiện có thể sử dụng phần mặt đường mà thông thường được xem là phía bên phải của vạch giữa đường. Tuy nhiên, người lái xe vẫn phải tuân thủ vạch kẻ đường và các quy định giao thông khác."
+  },
+  {
+    "question": "Khi đi gần người đi bộ, xe gắn máy dưới 50cc phải giảm tốc độ nếu không có đủ khoảng trống để duy trì khoảng cách an toàn.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Người lái xe phải thực hiện các biện pháp cần thiết để bảo đảm an toàn cho người đi bộ. Nếu không thể duy trì khoảng cách đủ an toàn, việc giảm tốc độ là bắt buộc để giảm nguy cơ va chạm."
+  },
+  {
+    "question": "Phương tiện có ý định rẽ phải phải nhường đường cho xe đi thẳng từ hướng đối diện, xe rẽ trái và tàu điện, ngay cả khi xe rẽ phải đã vào giao lộ trước, ngoại trừ trong vòng xuyến.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Luật giao thông Nhật Bản yêu cầu xe rẽ phải phải nhường đường cho một số hướng di chuyển có khả năng xung đột. Việc vào giao lộ trước không tự động mang lại quyền ưu tiên."
+  },
+  {
+    "question": "Một phương tiện chở hàng nặng có thể dừng lại hiệu quả hơn so với cùng phương tiện đó khi không chở hàng.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Khối lượng bổ sung làm tăng quán tính và kéo dài quãng đường phanh. Các phương tiện chở tải nặng thường cần nhiều khoảng cách hơn để dừng hẳn."
+  },
+  {
+    "question": "Trên xe mô tô hoặc xe gắn máy dưới 50cc sử dụng hộp số vô cấp (CVT), công suất động cơ được truyền tới bánh chủ động kém hiệu quả hơn khi vòng tua động cơ thấp.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Các phương tiện sử dụng CVT thường truyền công suất kém hiệu quả hơn ở tốc độ động cơ thấp. Khi vòng tua động cơ tăng lên, việc truyền công suất tới bánh xe thường hiệu quả hơn."
+  },
+  {
+    "question": "Xe gắn máy dưới 50cc có thể sử dụng đường dành cho xe đạp khi lưu lượng giao thông thấp và điều kiện có vẻ an toàn.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Đường dành cho xe đạp được thiết kế cho xe đạp và các đối tượng được phép sử dụng. Xe gắn máy dưới 50cc nói chung bị cấm lưu thông trên đường dành cho xe đạp trừ khi được pháp luật hoặc biển báo cho phép cụ thể."
+  },
+  {
+    "question": "Tại một giao lộ không có vạch sang đường, một người đi bộ đang băng qua đường. Vì phương tiện có quyền ưu tiên, tôi yêu cầu người đi bộ dừng lại và tiếp tục đi qua giao lộ.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Người lái xe phải thận trọng và nhường đường khi cần thiết để tránh gây nguy hiểm cho người đi bộ. Người điều khiển phương tiện không có quyền ưu tiên tuyệt đối chỉ vì không có vạch sang đường."
+  },
+  {
+    "question": "Trừ khi có giới hạn khác được chỉ ra bằng biển báo hoặc vạch kẻ đường, tốc độ tối đa hợp pháp của xe gắn máy dưới 50cc là 40 km/h.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Tốc độ tối đa chung của xe gắn máy dưới 50cc tại Nhật Bản là 30 km/h, trừ khi có giới hạn tốc độ thấp hơn được áp dụng. Người lái xe phải tuân thủ các giới hạn tốc độ được quy định."
+  },
+  {
+    "question": "Khi đến gần biển báo dừng, người lái xe phải dừng hẳn ngay trước vạch dừng, xác nhận an toàn rồi mới tiếp tục di chuyển.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Dừng hoàn toàn là yêu cầu bắt buộc tại biển báo dừng. Sau khi dừng, người lái xe phải kiểm tra cẩn thận các phương tiện và nguy hiểm đang đến trước khi đi tiếp."
+  },
+  {
+    "question": "Nếu có chướng ngại vật chắn phần đường của bạn phía trước, bạn phải giảm tốc độ hoặc dừng lại khi cần thiết và cho phép xe ngược chiều đi qua an toàn.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Khi chướng ngại vật làm hẹp phần đường, người lái xe phải tránh cản trở các phương tiện đang tới. Việc nhường đường khi cần thiết giúp ngăn ngừa xung đột và bảo đảm lưu thông an toàn cho mọi người tham gia giao thông."
+  },
+  {
+    "question": "Khi được cảnh sát hoặc người điều khiển giao thông ra hiệu dừng trên một đoạn đường không phải giao lộ, người lái xe phải dừng tại vị trí cách người đó 10 mét.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Người lái xe phải dừng tại vị trí được chỉ định bởi tín hiệu hoặc hướng dẫn của người điều khiển giao thông. Không phải lúc nào cũng áp dụng khoảng cách cố định 10 mét."
+  },
+  {
+    "question": "Khi tôi chuẩn bị đi qua đường sắt, thanh chắn bắt đầu hạ xuống. Vì không nhìn thấy tàu hỏa, tôi tăng tốc và băng qua trước khi thanh chắn đóng lại.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Khi thiết bị cảnh báo hoạt động hoặc thanh chắn bắt đầu hạ xuống, người lái xe không được đi vào khu vực đường sắt. Tàu hỏa có thể đang đến gần ngay cả khi chưa thể nhìn thấy."
+  },
+  {
+    "question": "Mặc dù đèn tín hiệu giao thông đang màu xanh, tôi vẫn dừng trước vạch dừng vì một cảnh sát đứng trong giao lộ đang dang ngang cả hai tay.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Chỉ dẫn của cảnh sát được ưu tiên hơn đèn tín hiệu giao thông. Người lái xe phải tuân theo hướng dẫn của cảnh sát ngay cả khi đèn giao thông cho phép đi tiếp."
+  },
+  {
+    "question": "Kỹ thuật phanh an toàn nhất trên xe mô tô hoặc xe gắn máy dưới 50cc là kết hợp phanh động cơ với việc sử dụng đồng thời cả phanh trước và phanh sau.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Việc sử dụng phanh động cơ cùng với cả hai phanh giúp duy trì sự ổn định và rút ngắn quãng đường dừng xe. Phương pháp này mang lại sự giảm tốc mượt mà và dễ kiểm soát hơn."
+  },
+  {
+    "question": "Nếu việc sơ tán trở nên cần thiết trong thảm họa và phải để lại phương tiện trên đường, phương tiện đó nên được đỗ ở nơi không cản trở người sơ tán hoặc các hoạt động cứu hộ khẩn cấp.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Các phương tiện bị bỏ lại trong tình huống khẩn cấp không được cản trở tuyến đường sơ tán hoặc hoạt động cứu trợ thảm họa. Việc giữ cho đường sá thông thoáng là điều cần thiết đối với các dịch vụ khẩn cấp."
+  },
+  {
+    "question": "Biển báo này cảnh báo người lái xe cần chú ý đến các phương tiện nhập vào từ phía bên trái ở phía trước.",
+    "image": "roadway_joins_from_left.jpg",
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Biển báo cảnh báo này cho biết có một tuyến đường khác nhập vào từ bên trái. Người lái xe nên chú ý đến các phương tiện đi vào từ hướng đó và điều chỉnh cách lái xe cho phù hợp."
+  },
+  {
+    "question": "Ngay cả khi người lái xe tuân thủ mọi quy định giao thông, hành vi thiếu ý thức hoặc liều lĩnh vẫn có thể gây nguy hiểm cho người khác và cho chính người lái.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Lái xe an toàn không chỉ đòi hỏi tuân thủ luật giao thông mà còn phải quan tâm đến những người tham gia giao thông khác. Hành vi bất cẩn vẫn có thể dẫn đến tai nạn dù về mặt kỹ thuật người lái đang tuân thủ quy định."
+  },
+  {
+    "question": "Dừng xe gần đỉnh dốc lên để dỡ hàng là chấp nhận được.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Dừng xe gần đỉnh dốc có thể hạn chế tầm nhìn của những người tham gia giao thông khác và tạo ra nguy hiểm. Những vị trí như vậy thường không phù hợp và thường bị cấm dừng hoặc đỗ xe."
+  },
+  {
+    "question": "Biển báo này cho biết xe ô tô chở khách thông thường bị cấm, trong khi xe gắn máy dưới 50cc vẫn được phép sử dụng con đường này.",
+    "image": "moped_can_enter.jpg",
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Biển báo này cấm các phương tiện cơ giới thông thường nhưng không bao gồm xe gắn máy dưới 50cc trong phạm vi hạn chế. Trừ khi có biển báo khác cấm cụ thể, xe gắn máy dưới 50cc vẫn có thể tiếp tục sử dụng đường."
+  },
+  {
+    "question": "Tại giao lộ được điều khiển bằng đèn vàng nhấp nháy, người lái xe bắt buộc phải dừng hẳn trước khi tiếp tục đi.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Đèn vàng nhấp nháy có nghĩa là người lái xe có thể tiếp tục đi với sự thận trọng sau khi xác nhận an toàn. Không bắt buộc phải dừng hẳn trừ khi có biển báo hoặc điều kiện khác yêu cầu."
+  },
+  {
+    "question": "Biển báo cảnh báo này cho biết số làn xe phía trước sẽ giảm và người lái xe nên chuyển sang làn bên phải.",
+    "image": "lane_decreased.jpg",
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Biển báo cảnh báo rằng làn bên trái sắp kết thúc và các phương tiện phải nhập làn. Người lái xe nên chuẩn bị chuyển sang làn còn lại một cách an toàn và phù hợp với tình hình giao thông."
+  },
+  {
+    "question": "Bạn không được vượt qua một phương tiện đã chuyển sang phải để chuẩn bị rẽ phải.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Vượt qua một phương tiện đang chuẩn bị rẽ phải có thể tạo ra tình huống xung đột nguy hiểm. Người lái xe nên chờ cho đến khi phương tiện đó hoàn thành việc rẽ."
+  },
+  {
+    "question": "Cấm dừng hoặc đỗ xe trong phạm vi 5 mét trước hoặc sau vạch qua đường dành cho người đi bộ.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Quy định giao thông Nhật Bản cấm dừng hoặc đỗ xe trong phạm vi 5 mét tính từ vạch qua đường dành cho người đi bộ. Quy định này giúp bảo đảm người đi bộ luôn được nhìn thấy rõ bởi các phương tiện đang đến."
+  },
+  {
+    "question": "Khi rời khỏi một đường hầm tối và đi vào khu vực có ánh sáng mạnh, thị lực của bạn có thể tạm thời bị ảnh hưởng khiến việc quan sát trở nên khó khăn hơn.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Mắt cần thời gian để thích nghi với sự thay đổi đột ngột về độ sáng. Người lái xe nên luôn cảnh giác và chuẩn bị cho tình trạng giảm khả năng quan sát tạm thời khi ra khỏi đường hầm."
+  },
+  {
+    "question": "Biển báo này chỉ làn leo dốc dành cho các phương tiện chạy chậm, nhưng chỉ xe tải chở hàng mới được phép sử dụng.",
+    "image": "slower_traffic.jpg",
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Biển báo này chỉ làn leo dốc dành cho các phương tiện di chuyển chậm khi lên dốc. Làn đường này không chỉ dành riêng cho xe tải chở hàng; các phương tiện chậm khác cũng có thể sử dụng khi phù hợp."
+  },
+  {
+    "question": "Năm đầu tiên sau khi được cấp bằng lái xe gắn máy dưới 50cc được xem là thời gian tập sự, và người điều khiển tích lũy một số lượng vi phạm nhất định trong thời gian đó có thể bị yêu cầu tham gia khóa đào tạo dành cho người lái mới.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Hệ thống quản lý người lái mới của Nhật Bản áp dụng việc giám sát đặc biệt trong thời gian đầu sau khi được cấp bằng. Người điều khiển vượt quá ngưỡng vi phạm nhất định có thể bị yêu cầu tham gia khóa đào tạo an toàn bổ sung."
+  },
+  {
+    "question": "Đỗ xe bên cạnh phía phải của một xe đang đỗ là bị cấm, nhưng dừng tạm thời tại đó thì được phép.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Dừng hoặc đỗ xe bên cạnh một xe đã đỗ có thể cản trở giao thông và có thể bị xem là đỗ xe hàng đôi. Những hành động này nhìn chung bị cấm ngoại trừ một số trường hợp đặc biệt được pháp luật cho phép."
+  },
+  {
+    "question": "Sau khi đã đi vào giao lộ bằng tín hiệu xanh để rẽ phải, nếu đèn chuyển sang vàng hoặc đỏ trong khi đang chờ, bạn phải tiếp tục đứng yên.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Khi phương tiện đã hợp pháp đi vào giao lộ, người lái xe nên hoàn thành việc rẽ và rời khỏi giao lộ khi an toàn. Tiếp tục đứng yên trong giao lộ có thể cản trở giao thông và tạo ra nguy hiểm."
+  },
+  {
+    "question": "Nếu xảy ra tai nạn giao thông, việc thực hiện sơ cứu như cầm máu trong khi chờ lực lượng cấp cứu đến là hành động phù hợp.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Người lái xe liên quan đến hoặc chứng kiến tai nạn nên thực hiện các biện pháp hợp lý để hỗ trợ người bị thương khi điều đó an toàn. Sơ cứu cơ bản như cầm máu nghiêm trọng có thể giúp bảo vệ tính mạng cho đến khi nhân viên y tế đến."
+  },
+  {
+    "question": "Sau khi bật tín hiệu để bắt đầu di chuyển, không cần kiểm tra giao thông hoặc xác nhận khu vực xung quanh xe có an toàn hay không.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Việc bật tín hiệu không đảm bảo an toàn. Người lái xe luôn phải kiểm tra gương, điểm mù, người đi bộ và tình hình giao thông xung quanh trước khi bắt đầu di chuyển."
+  },
+  {
+    "question": "Khi có một đứa trẻ đang đi bộ một mình gần phần đường xe chạy, người lái xe nên dừng lại nếu cần hoặc giảm tốc độ để bảo đảm an toàn cho trẻ.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Trẻ em có thể hành động khó đoán và không đánh giá chính xác được tình hình giao thông. Người lái xe phải đặc biệt thận trọng và sẵn sàng dừng lại khi cần thiết."
+  },
+  {
+    "question": "Khi đến gần một người đang sử dụng xe lăn, người lái xe nên dừng lại hoặc giảm tốc độ khi cần để tránh cản trở việc di chuyển của họ.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Những người tham gia giao thông bị khuyết tật về thể chất được hưởng sự quan tâm đặc biệt. Người lái xe phải điều khiển phương tiện theo cách không gây nguy hiểm hoặc cản trở họ."
+  },
+  {
+    "question": "Trên đường không có làn xe được đánh dấu, phương tiện có thể đi ở bất kỳ vị trí nào bên trái vạch giữa đường.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Ngay cả trên những con đường không có làn xe được đánh dấu, người lái xe vẫn phải đi sát bên trái trong phạm vi có thể và điều khiển xe an toàn. Họ không được tự do chiếm bất kỳ vị trí nào bên trái nếu điều đó có thể cản trở giao thông hoặc gây nguy hiểm."
+  },
+  {
+    "question": "Khi vượt tàu điện trên con đường mà đường ray nằm ở giữa phần đường xe chạy, các phương tiện thông thường nên vượt ở bên trái tàu điện.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Theo quy tắc giao thông Nhật Bản, các phương tiện thông thường vượt tàu điện ở bên trái. Ngoại lệ chỉ áp dụng khi cấu trúc đường ray hoặc thiết kế đường bộ yêu cầu phương pháp khác."
+  },
+  {
+    "question": "Vào ban đêm, khi có luồng xe ngược chiều liên tục, việc giữ đèn pha ở chế độ chiếu xa sẽ an toàn hơn vì người lái xe khác có thể nhìn thấy bạn dễ hơn.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Đèn chiếu xa có thể tạm thời làm suy giảm khả năng quan sát của người lái xe ngược chiều. Khi có xe đang đến gần, người lái xe nên chuyển sang đèn chiếu gần để tránh gây chói mắt trong khi vẫn duy trì tầm nhìn phù hợp."
+  },
+  {
+    "question": "Khi xuống một con dốc dài, nên sử dụng phanh động cơ thay vì liên tục đạp phanh chân hoặc bóp phanh tay.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Việc sử dụng phanh quá mức trên đoạn dốc dài có thể khiến phanh bị quá nhiệt và làm giảm hiệu quả phanh. Phanh động cơ giúp kiểm soát tốc độ an toàn hơn và giảm tải cho hệ thống phanh."
+  },
+  {
+    "question": "Khi đang lái xe trên đường một chiều và không ở gần giao lộ, tôi đã di chuyển về phía bên trái của đường để nhường đường cho xe ưu tiên đang tiến đến từ phía sau.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Người lái xe phải nhanh chóng nhường đường cho xe ưu tiên đang đến gần. Trên đường một chiều, di chuyển sang phía bên trái và cho xe ưu tiên đi qua là cách xử lý phù hợp, trừ khi điều kiện giao thông hoặc người có thẩm quyền hướng dẫn khác."
+  },
+  {
+    "question": "Ngay cả khi người lái xe phản ứng ngay lập tức và phanh mạnh khi nhận thấy nguy hiểm, phương tiện cũng sẽ không dừng lại ngay tức thì.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Mọi phương tiện đều cần một khoảng cách nhất định để dừng lại do thời gian phản ứng và quãng đường phanh. Việc dừng lại tức thì là điều không thể về mặt vật lý trong điều kiện lái xe thông thường."
+  },
+  {
+    "question": "Trong quá trình kiểm tra an toàn xe mô tô hoặc xe gắn máy dưới 50cc, độ rơ của tay phanh khoảng 20 đến 30 milimét được xem là chấp nhận được.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Một mức độ rơ vừa phải của tay phanh là cần thiết để phanh hoạt động đúng cách. Độ rơ quá nhiều hoặc quá ít có thể cho thấy cần điều chỉnh hoặc bảo dưỡng."
+  },
+  {
+    "question": "Nếu tai nạn giao thông gây ra thương tích, người lái xe phải dừng lại ngay lập tức, thực hiện các biện pháp ngăn ngừa tai nạn tiếp theo, hỗ trợ người bị thương, tránh tạo ra nguy hiểm giao thông không cần thiết và thông báo cho cảnh sát.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Luật Nhật Bản yêu cầu người lái xe liên quan đến tai nạn có người bị thương phải bảo vệ người bị thương, ngăn ngừa va chạm thứ cấp và báo cáo sự việc cho cảnh sát không chậm trễ."
+  },
+  {
+    "question": "Khi có cảnh báo sương mù quang hóa hoặc dự báo tình trạng ô nhiễm không khí nghiêm trọng, người lái xe nên tránh sử dụng phương tiện của mình nếu có thể.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Giảm sử dụng phương tiện trong thời kỳ ô nhiễm không khí nghiêm trọng giúp hạn chế khí thải và bảo vệ sức khỏe cộng đồng. Cơ quan chức năng cũng có thể đưa ra khuyến nghị khuyến khích người dân tránh lái xe không cần thiết."
+  },
+  {
+    "question": "Ngay cả khi phần đường bên trái rộng ít nhất 6 mét, người lái xe vẫn có thể vượt bằng cách đi sang bên phải nếu việc vượt xe không bị cấm cụ thể.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Người lái xe phải tuân thủ đúng quy tắc vượt xe và đi đúng phần đường phù hợp. Chỉ riêng độ rộng của đường không cho phép vượt xe theo cách vi phạm quy định giao thông."
+  },
+  {
+    "question": "Sau khi dịch vụ xe buýt trong ngày đã kết thúc, tôi đã dừng xe trong phạm vi 10 mét tính từ điểm dừng xe buýt để đi mua sắm.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Các hạn chế gần điểm dừng xe buýt thường áp dụng trong thời gian xe buýt đang hoạt động. Khi điểm dừng không còn phục vụ, việc dừng xe có thể được phép nếu không có quy định cấm dừng hoặc cấm đỗ nào khác."
+  },
+  {
+    "question": "Một người chỉ có giấy phép lái xe gắn máy dưới 50cc đã điều khiển xe mô tô có dung tích động cơ 80 cc.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Giấy phép lái xe gắn máy dưới 50cc không cho phép điều khiển xe mô tô 80 cc. Phương tiện như vậy yêu cầu giấy phép phù hợp với hạng dung tích động cơ của nó."
+  },
+  {
+    "question": "Biển báo này cho biết số làn xe phía trước sẽ giảm, vì vậy người lái xe nên chuyển sang làn bên phải.",
+    "image": "lane_decreased.jpg",
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Biển cảnh báo cho thấy làn bên trái phía trước sẽ kết thúc và phương tiện phải nhập vào làn còn lại. Người lái xe nên chuẩn bị chuyển sang phải một cách an toàn và đúng thời điểm."
+  },
+  {
+    "question": "Nếu có cảnh báo động đất lớn, sử dụng phương tiện để sơ tán càng nhanh càng tốt là hành động được ưu tiên.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Trong các thảm họa lớn, việc sử dụng phương tiện không cần thiết có thể gây ùn tắc nghiêm trọng và cản trở hoạt động khẩn cấp. Cơ quan chức năng thường khuyến khích sơ tán bằng cách đi bộ trừ khi việc lái xe là thật sự cần thiết."
+  },
+  {
+    "question": "Người có giấy phép lái xe gắn máy dưới 50cc chỉ được phép điều khiển xe gắn máy dưới 50cc.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Giấy phép lái xe gắn máy dưới 50cc chỉ giới hạn cho các phương tiện được phân loại là xe gắn máy dưới 50cc theo luật Nhật Bản. Nó không cho phép điều khiển xe mô tô thông thường, xe ô tô chở khách hoặc các loại phương tiện khác."
+  },
+  {
+    "question": "Khi băng qua vỉa hè bằng xe gắn máy dưới 50cc, bạn có thể đi chậm nếu không có người đi bộ hiện diện.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Người lái xe khi băng qua vỉa hè phải sẵn sàng dừng lại và phải di chuyển hết sức thận trọng. Nghĩa vụ bảo đảm an toàn vẫn tồn tại ngay cả khi không nhìn thấy người đi bộ ngay trước mắt."
+  },
+  {
+    "question": "Vì ban đêm thường có ít phương tiện và người đi bộ hơn, nên lái xe nhanh hơn ban ngày là an toàn.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Tầm nhìn bị giảm vào ban đêm, khiến việc phát hiện nguy hiểm, người đi bộ và chướng ngại vật trở nên khó khăn hơn. Người lái xe nên điều chỉnh tốc độ theo điều kiện thực tế thay vì cho rằng đi ban đêm an toàn hơn."
+  },
+  {
+    "question": "Ngay cả khi giao thông bị ùn tắc nặng, người lái xe vẫn có thể dừng trên phần đường dành cho xe đạp băng qua trong khi chờ xe phía trước di chuyển.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Người lái xe không được đi vào phần đường dành cho xe đạp băng qua trừ khi có đủ khoảng trống để đi qua hoàn toàn. Chặn phần đường này có thể cản trở người đi xe đạp và tạo ra nguy hiểm về an toàn."
+  },
+  {
+    "question": "Xe gắn máy dưới 50cc bị cấm đi trên con đường có biển báo này.",
+    "image": "motorcycle_not_allowed.jpg",
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Biển báo được hiển thị cho biết xe mô tô và các phương tiện cơ giới hai bánh tương tự bị cấm. Xe gắn máy dưới 50cc thuộc nhóm bị hạn chế và không được sử dụng con đường này trừ khi có ngoại lệ được quy định cụ thể."
+  },
+  {
+    "question": "Khi rẽ phải trên đường một chiều, người lái xe phải di chuyển về phía giữa phần đường xe chạy và rẽ quanh góc trong của giao lộ.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Trên đường một chiều, phương tiện rẽ phải thường phải tiếp cận từ phía bên phải của phần đường xe chạy. Tiếp cận từ giữa đường không phải là cách rẽ đúng."
+  },
+  {
+    "question": "Xe gắn máy dưới 50cc có thể sử dụng dải ven đường miễn là hiện không có người đi bộ đang đi ở đó.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Dải ven đường chủ yếu dành cho việc sử dụng và bảo đảm an toàn của người đi bộ. Xe gắn máy dưới 50cc không được phép đi trên đó chỉ vì không có người đi bộ."
+  },
+  {
+    "question": "Việc liên tục phanh rồi nhả phanh có thể làm đèn phanh nhấp nháy, giúp người lái xe phía sau dễ nhận biết rằng phương tiện đang giảm tốc.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Đạp nhẹ phanh có thể kích hoạt đèn phanh và cảnh báo người lái xe phía sau. Điều này có thể giúp giảm nguy cơ va chạm từ phía sau khi giảm tốc bất ngờ."
+  },
+  {
+    "question": "Tại địa điểm có biển báo này, người lái có thể đi qua với xe mô tô hoặc xe gắn máy dưới 50cc nếu đã tắt động cơ và dắt xe bằng tay.",
+    "image": "reserved_for_pedestrians.jpg",
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Biển báo này chỉ tuyến đường hoặc khu vực dành riêng cho người đi bộ. Khi người lái xuống xe và dắt xe mô tô hoặc xe gắn máy dưới 50cc, người đó thường được xem là người đi bộ theo quy tắc giao thông Nhật Bản và có thể đi qua trừ khi có hạn chế khác."
+  },
+  {
+    "question": "Khi đèn giao thông phía trước chuyển sang đỏ, việc dừng xe trong khu vực được đánh dấu bằng vạch kẻ đường này là chấp nhận được.",
+    "image": "restricted_area.jpg",
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Vạch kẻ được hiển thị là khu vực ô giao lộ hoặc khu vực phải giữ thông thoáng. Người lái xe không nên dừng bên trong khu vực được đánh dấu này và phải giữ nó thông thoáng để tránh cản trở luồng giao thông."
+  },
+  {
+    "question": "Nếu đèn tín hiệu giao thông chuyển từ xanh sang vàng trước khi đến giao lộ, hành động an toàn nhất là tăng tốc để nhanh chóng vượt qua giao lộ.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Người lái xe không nên tăng tốc để cố vượt qua đèn vàng. Nếu có thể dừng lại an toàn trước giao lộ, họ phải thực hiện theo đúng quy định giao thông."
+  },
+  {
+    "question": "Người cố ý cho phép một người đang say rượu điều khiển xe gắn máy dưới 50cc của mình cũng có thể bị xử phạt theo pháp luật.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Luật giao thông Nhật Bản không chỉ xử phạt người lái xe trong tình trạng say rượu mà còn xử phạt những người cố ý hỗ trợ hoặc tạo điều kiện cho hành vi lái xe khi say bằng cách cho mượn phương tiện."
+  },
+  {
+    "question": "Biển báo này cho biết việc rẽ trái vào con đường chéo là bị cấm.",
+    "image": "diagonal_road.jpg",
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Biển báo thể hiện các hướng di chuyển được phép. Vì hướng rẽ chéo sang trái không được hiển thị nên người lái xe bị cấm thực hiện hướng rẽ đó."
+  },
+  {
+    "question": "Vì xe mô tô và xe gắn máy dưới 50cc có thể khó được người lái các phương tiện lớn nhận thấy, người điều khiển phải đặc biệt chú ý đến tình hình giao thông xung quanh.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Các phương tiện hai bánh có kích thước nhỏ và dễ rơi vào điểm mù. Người điều khiển nên luôn cảnh giác và dự đoán rằng những người lái xe khác có thể không nhận thấy mình ngay lập tức."
+  },
+  {
+    "question": "Người có giấy phép lái xe gắn máy dưới 50cc đang bị đình chỉ không được phép điều khiển xe gắn máy dưới 50cc cho đến khi thời gian đình chỉ kết thúc.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Trong thời gian bị đình chỉ giấy phép, người sở hữu mất quyền hợp pháp để điều khiển loại phương tiện được cấp phép đó. Lái xe trong thời gian đình chỉ là hành vi vi phạm pháp luật."
+  },
+  {
+    "question": "Ngay cả khi đèn tín hiệu điều khiển luồng giao thông cắt ngang đang màu đỏ, điều đó không tự động có nghĩa là đèn tín hiệu hướng về phía bạn đang màu xanh.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Chu kỳ đèn tín hiệu có thể khác nhau tùy theo thiết kế giao lộ và hệ thống điều khiển giao thông. Người lái xe phải luôn tuân theo tín hiệu hướng về phía mình thay vì suy đoán dựa trên tín hiệu khác."
+  },
+  {
+    "question": "Vượt qua một phương tiện đang dừng để đón hoặc trả khách rồi dừng phía trước phương tiện đó không được xem là hành vi cắt đầu xe.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Hành vi cắt đầu xe thường là việc đi vào lộ trình của phương tiện khác theo cách buộc phương tiện đó phải phanh hoặc đổi hướng. Chỉ đơn giản vượt qua một xe đang dừng rồi dừng phía trước không tự động được xem là cắt đầu xe."
+  },
+  {
+    "question": "Khi phanh xe mô tô hoặc xe gắn máy dưới 50cc trên mặt đường khô ráo, nên tác động lực phanh lớn hơn vào phanh sau so với phanh trước.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Trên đường khô, phanh trước cung cấp phần lớn lực hãm. Việc phanh hiệu quả đạt được bằng cách sử dụng cả hai phanh một cách phù hợp thay vì phụ thuộc nhiều hơn vào phanh sau."
+  },
+  {
+    "question": "Khi một phương tiện bị hỏng được kéo bằng dây, cả người điều khiển xe kéo và người điều khiển phương tiện bị kéo đều phải có giấy phép lái xe hợp lệ cho loại phương tiện đó.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Người điều khiển phương tiện bị kéo phải có khả năng lái và phanh phương tiện đó một cách an toàn. Vì vậy, cả hai người đều phải có giấy phép lái xe phù hợp."
+  },
+  {
+    "question": "Trong khi lái xe, một xe ưu tiên tiến đến từ phía sau. Vì tôi không ở gần giao lộ nên tôi tiếp tục lái chậm mà không nhường đường.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Người lái xe phải nhanh chóng nhường đường cho xe ưu tiên đang sử dụng còi hoặc thiết bị cảnh báo. Ngay cả khi không ở gần giao lộ, phương tiện vẫn phải di chuyển sang bên và cho xe ưu tiên đi qua."
+  },
+  {
+    "question": "Vì tầm nhìn bị giảm vào ban đêm, người lái xe chỉ nên tập trung chú ý vào khu vực ngay phía trước phương tiện.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Người lái xe nên quan sát xa phía trước đồng thời theo dõi giao thông xung quanh. Chỉ tập trung vào khu vực ngay trước đầu xe sẽ làm giảm khả năng nhận biết các nguy hiểm ở xa hơn."
+  },
+  {
+    "question": "Lái xe vượt quá giới hạn tốc độ hoặc chở quá tải không ảnh hưởng đến tiếng ồn của xe hoặc âm thanh từ ống xả.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Tốc độ cao hơn và tải trọng quá mức có thể làm tăng áp lực lên động cơ, gia tăng tiếng ồn của xe và tiếng ồn từ ống xả. Kiểu lái xe này cũng có thể làm tăng mức tiêu thụ nhiên liệu và tác động đến môi trường."
+  },
+  {
+    "question": "Vào ban đêm, đèn hậu phải luôn bật ngay cả khi xe đang đỗ hoặc dừng và đã đặt thiết bị cảnh báo được chấp thuận.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Trong một số điều kiện nhất định, việc đặt đúng thiết bị cảnh báo có thể cho phép xe đang dừng hoặc đỗ không cần bật đèn hậu. Tuy nhiên, người lái xe vẫn phải tuân thủ các yêu cầu về chiếu sáng và an toàn có liên quan."
+  },
+  {
+    "question": "Trong khi bốc dỡ hàng hóa gần thiết bị chữa cháy, phương tiện có thể dừng quá năm phút nếu người lái sẵn sàng di chuyển ngay lập tức.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Khu vực gần thiết bị chữa cháy chịu các quy định nghiêm ngặt về dừng và đỗ xe. Việc sẵn sàng lái xe đi ngay không miễn trừ người lái khỏi các quy định đó."
+  },
+  {
+    "question": "Trên xe mô tô hoặc xe gắn máy dưới 50cc tự động được trang bị hộp số vô cấp (CVT), công suất động cơ được truyền đến bánh xe hiệu quả hơn ở tốc độ động cơ thấp.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Các phương tiện hai bánh sử dụng CVT thường truyền công suất kém hiệu quả hơn ở vòng tua thấp. Hiệu quả truyền lực tăng lên khi tốc độ động cơ tăng trong phạm vi hoạt động thích hợp."
+  },
+  {
+    "question": "Biển báo này có nghĩa là được phép chở người ngồi sau trên xe gắn máy dưới 50cc.",
+    "image": "riding_prohibited.jpg",
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Biển báo này cấm chở người ngồi sau trên xe mô tô hoặc xe gắn máy dưới 50cc. Người điều khiển xe gắn máy dưới 50cc phải tuân thủ quy định này và không được chở thêm người ở nơi có biển báo."
+  },
+  {
+    "question": "Nếu giao thông phía trước đang ùn tắc và có khả năng bị mắc kẹt trên đường sắt giao cắt, bạn phải chờ và không được đi vào khu vực giao cắt.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Người lái xe không được đi vào đường sắt giao cắt trừ khi có đủ khoảng trống phía bên kia để đi qua hoàn toàn. Dừng lại trên đường ray do ùn tắc giao thông là cực kỳ nguy hiểm và bị cấm."
+  },
+  {
+    "question": "Người lái xe có thể cắt qua vạch vàng liền để chuyển làn khi giao thông thưa thớt.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Vạch vàng liền cho biết việc cắt qua vạch là bị cấm. Điều kiện giao thông không làm mất hiệu lực của quy định này trừ khi được cho phép cụ thể bởi biển báo hoặc vạch kẻ đường."
+  },
+  {
+    "question": "Nếu một phương tiện đã bị dán thông báo xe bỏ lại do vi phạm đỗ xe, thông báo đó phải được giữ nguyên ngay cả khi phương tiện được lái đi.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Người chịu trách nhiệm về phương tiện có thể gỡ bỏ thông báo khi xử lý vi phạm. Yêu cầu là tuân thủ các thủ tục pháp lý liên quan, chứ không nhất thiết phải giữ thông báo trên xe khi lái đi."
+  },
+  {
+    "question": "Tại giao lộ không có tín hiệu điều khiển, nơi các con đường có chiều rộng tương đương gặp nhau, ngoại trừ trường hợp có đường ưu tiên, người lái xe phải tránh cản trở sự di chuyển của tàu điện.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Quy định giao thông Nhật Bản dành sự ưu tiên đặc biệt cho tàu điện trong những tình huống như vậy. Người lái xe không được cản trở tàu điện khi băng qua hoặc đi vào giao lộ."
+  },
+  {
+    "question": "Hiệu quả giảm tốc của phanh động cơ sẽ mạnh hơn khi chuyển xuống các số thấp hơn.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Các số thấp tạo ra lực cản động cơ lớn hơn, giúp giảm tốc hiệu quả hơn. Kỹ thuật này đặc biệt hữu ích khi xuống dốc hoặc khi cần giảm tốc có kiểm soát."
+  },
+  {
+    "question": "Khi kéo một xe gắn máy dưới 50cc bị hỏng bằng dây, phải buộc một tấm vải đỏ vào chính giữa sợi dây.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Yêu cầu gắn dấu hiệu như tấm vải đỏ áp dụng cho một số trường hợp kéo xe nhất định, nhưng không áp dụng theo cách được nêu đối với xe gắn máy dưới 50cc bị hỏng. Người lái phải tuân theo các quy định kéo xe cụ thể áp dụng cho loại phương tiện đang được kéo."
+  },
+  {
+    "question": "Nếu đèn tín hiệu chính màu đỏ nhưng mũi tên rẽ trái màu xanh đang sáng, tất cả các phương tiện đều có thể rẽ trái theo hướng được chỉ định bởi mũi tên.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Mũi tên chỉ hướng màu xanh cho phép phương tiện di chuyển theo hướng được chỉ định ngay cả khi đèn tín hiệu chính màu đỏ. Người lái vẫn phải nhường đường cho người đi bộ và các đối tượng tham gia giao thông khác khi cần thiết."
+  },
+  {
+    "question": "Một phương tiện có ống giảm thanh bị hỏng gây ra tiếng ồn khí xả quá mức không được phép lưu thông trên đường công cộng.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Phương tiện phải được duy trì trong tình trạng an toàn và hợp pháp. Ống giảm thanh bị hỏng có thể gây tiếng ồn quá mức và vi phạm các quy định về trang bị phương tiện."
+  },
+  {
+    "question": "Vạch kẻ giữa đường được hiển thị cấm người lái xe đi sang phần đường bên phải để vượt phương tiện khác.",
+    "image": "broken_centerline.jpg",
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Vạch được hiển thị là vạch tim đường đứt đoạn, thường cho phép người lái cắt qua để vượt xe khi có thể thực hiện an toàn và không có hạn chế nào khác. Người lái vẫn phải đảm bảo tầm nhìn đầy đủ và an toàn trước khi vượt."
+  },
+  {
+    "question": "Ngay cả khi có biển báo này tại khu vực đường ray tàu điện, xe gắn máy dưới 50cc vẫn được phép đi trong khu vực đường ray.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Biển báo này cho biết có hạn chế liên quan đến việc sử dụng khu vực đường ray tàu điện. Xe gắn máy dưới 50cc không được đi vào hoặc lưu thông trong khu vực đường ray khi áp dụng hạn chế đó."
+  },
+  {
+    "question": "Việc vượt xe trong đường hầm chỉ bị cấm khi đường hầm có các làn xe được kẻ rõ ràng.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Các quy định về cấm vượt trong đường hầm phụ thuộc vào cấu trúc đường và quy định giao thông. Việc cấm vượt không chỉ giới hạn trong điều kiện được mô tả và cũng có thể bị cấm trong các tình huống đường hầm khác."
+  },
+  {
+    "question": "Lốp xe bị mòn gai có khả năng trượt trên đường ướt cao hơn và có thể làm tăng quãng đường dừng xe.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Độ sâu gai lốp giảm làm giảm khả năng thoát nước của lốp, làm tăng nguy cơ trượt nước và mất độ bám đường. Điều này có thể làm quãng đường phanh dài hơn đáng kể trong điều kiện trời mưa."
+  },
+  {
+    "question": "Trên đường không có làn xe được kẻ rõ ràng, xe gắn máy dưới 50cc nên đi gần giữa lòng đường.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Theo quy định giao thông Nhật Bản, xe gắn máy dưới 50cc nhìn chung phải đi sát bên trái phần đường. Đi gần giữa đường khi không cần thiết có thể cản trở các phương tiện khác."
+  },
+  {
+    "question": "Lái xe qua một vũng nước sâu có thể khiến nước lọt vào tang trống phanh, làm giảm hiệu quả phanh.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Nước lọt vào các bộ phận phanh có thể tạm thời làm giảm hiệu suất phanh. Sau khi đi qua vùng nước sâu, người lái nên kiểm tra phanh cẩn thận và đảm bảo chúng đã hoạt động bình thường trở lại."
+  },
+  {
+    "question": "Biển báo này chỉ vị trí được phép dừng xe, nghĩa là phương tiện có thể dừng tại đó ngay cả khi thông thường khu vực đó bị hạn chế dừng hoặc đỗ xe.",
+    "image": "can_stop_but_cant_park.jpg",
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Biển báo được hiển thị là biển chỉ vị trí được phép dừng xe. Phương tiện có thể dừng tại vị trí được chỉ định phù hợp với mục đích của biển báo, ngay cả khi thông thường có các hạn chế về dừng xe."
+  },
+  {
+    "question": "Nếu có một phương tiện đang dừng ngay trước vạch qua đường dành cho người đi bộ, bạn bắt buộc phải đi qua nó với tốc độ chậm.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Khi có phương tiện dừng gần vạch qua đường, người lái phải đặc biệt chú ý đến người đi bộ. Tùy tình huống, chỉ giảm tốc có thể chưa đủ và việc đi qua có thể bị hạn chế."
+  },
+  {
+    "question": "Đèn tín hiệu nhấp nháy màu vàng yêu cầu người lái phải dừng tại vạch dừng, xác nhận an toàn rồi mới tiếp tục đi.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Đèn vàng nhấp nháy cho phép người lái tiếp tục đi sau khi quan sát và xác nhận an toàn. Không bắt buộc phải dừng hẳn trừ khi có thiết bị điều khiển giao thông khác yêu cầu."
+  },
+  {
+    "question": "Nếu đèn pha của xe đối diện gây chói mắt vào ban đêm, nên chuyển tầm nhìn hơi lệch về phía bên trái phần đường phía trước.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Nhìn hơi lệch về mép trái làn đường giúp giảm tác động của ánh sáng chói trong khi vẫn duy trì khả năng quan sát phía trước. Nên tránh nhìn trực tiếp vào đèn pha của xe đối diện."
+  },
+  {
+    "question": "Ngay cả sau khi người lái phát hiện nguy hiểm và phanh gấp, phương tiện cũng không dừng lại ngay lập tức, và tốc độ càng cao thì mức độ nguy hiểm càng tăng.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Quãng đường dừng xe bao gồm quãng đường phản ứng và quãng đường phanh. Khi tốc độ tăng lên, tổng quãng đường cần thiết để dừng xe cũng tăng lên đáng kể."
+  },
+  {
+    "question": "Không nên sử dụng còi xe khi không có lý do chính đáng, ngoại trừ khi cần thiết để phòng tránh nguy hiểm hoặc tại nơi có biển báo \"Bấm còi\".",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Quy định giao thông Nhật Bản cấm sử dụng còi không cần thiết. Tuy nhiên, người lái có thể bấm còi khi được yêu cầu bởi biển báo giao thông hoặc khi cần tránh va chạm hay nguy hiểm khác."
+  },
+  {
+    "question": "Khi thực hiện một cú rẽ phải gắt từ đường một chiều bằng xe gắn máy dưới 50cc, người điều khiển phải đi sát mép trái đường và rẽ qua góc trong của giao lộ.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Trên đường một chiều, phương tiện rẽ phải thường phải tiếp cận từ phía bên phải của phần đường. Đi sát mép trái không phải là phương pháp đúng để thực hiện kiểu rẽ này."
+  },
+  {
+    "question": "Ngoại trừ các trường hợp khẩn cấp hoặc bất khả kháng, người lái xe nên điều khiển phương tiện theo cách không cần phải phanh gấp.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Phanh gấp có thể tạo ra nguy hiểm cho cả người lái và các phương tiện xung quanh. Duy trì tốc độ an toàn và khoảng cách phù hợp giúp tránh các tình huống phải phanh khẩn cấp."
+  },
+  {
+    "question": "Khi đi theo một phương tiện khác qua đường sắt giao cắt, bạn có thể đi tiếp mà không cần dừng tạm thời miễn là thấy giao cắt có vẻ an toàn.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Người lái xe thường phải dừng trước khi đi vào đường sắt giao cắt và xác nhận an toàn. Việc đi theo phương tiện khác không loại bỏ nghĩa vụ này."
+  },
+  {
+    "question": "Nếu tai nạn giao thông chỉ gây ra thương tích nhẹ, việc báo cảnh sát là không bắt buộc.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Mọi tai nạn giao thông có người bị thương đều phải được báo cho cảnh sát bất kể mức độ nghiêm trọng của thương tích. Đây là nghĩa vụ pháp lý theo luật giao thông Nhật Bản."
+  },
+  {
+    "question": "Biển báo này cho biết việc đi ở phía bên phải của biển báo là bị cấm.",
+    "image": "keep_left.jpg",
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Biển báo hướng dẫn các phương tiện đi qua bên trái của chướng ngại vật hoặc vật đánh dấu. Người lái xe không được đi vào phía mà biển báo cấm."
+  },
+  {
+    "question": "Khi xe ưu tiên đến gần trong lúc bạn đang đi qua giao lộ, bạn phải lập tức dừng lại trong giao lộ.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Người lái xe nên trước tiên đi qua giao lộ một cách an toàn rồi mới nhường đường cho xe ưu tiên. Dừng trong giao lộ có thể cản trở giao thông và tạo thêm nguy hiểm."
+  },
+  {
+    "question": "Phương tiện không bao giờ được phép đi vào hoặc đỗ trên dải ven đường, bất kể chiều rộng của dải đó.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Quy định liên quan đến dải ven đường phụ thuộc vào chiều rộng và hoàn cảnh cụ thể. Trong một số trường hợp, việc sử dụng một phần dải ven đường đủ rộng có thể được phép khi đỗ xe hợp pháp."
+  },
+  {
+    "question": "Nếu tín hiệu tay của cảnh sát hoặc người điều khiển giao thông mâu thuẫn với đèn tín hiệu giao thông, tín hiệu của cảnh sát được ưu tiên, nhưng tín hiệu của người điều khiển giao thông thì không.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Chỉ dẫn của cả cảnh sát và người điều khiển giao thông được ủy quyền đều được ưu tiên hơn đèn tín hiệu giao thông. Người lái xe phải tuân theo hướng dẫn của họ ngay cả khi tín hiệu đèn khác với chỉ dẫn đó."
+  },
+  {
+    "question": "Khi điều khiển xe gắn máy dưới 50cc trên đường bùn hoặc đường phủ sỏi, nên chọn số cao hơn và tăng tốc qua khu vực đó.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Tăng tốc đột ngột trên bề mặt lỏng hoặc trơn trượt có thể làm bánh xe quay trượt và mất kiểm soát. Người lái nên giữ tốc độ ổn định và điều khiển xe nhẹ nhàng để duy trì độ bám."
+  },
+  {
+    "question": "Chiều cao tối đa được phép của hàng hóa chở trên xe gắn máy dưới 50cc là 3 mét tính từ mặt đường.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Hàng hóa chở trên xe gắn máy dưới 50cc phải tuân theo các giới hạn kích thước cụ thể. Tổng chiều cao 3 mét vượt quá giới hạn pháp luật cho phép đối với xe gắn máy dưới 50cc."
+  },
+  {
+    "question": "Sử dụng phanh động cơ trên các đoạn đường không phải dốc xuống không có tác dụng đối với quãng đường cần thiết để dừng xe.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Phanh động cơ giúp giảm tốc độ xe trong nhiều tình huống lái xe, không chỉ khi xuống dốc. Nó có thể góp phần giảm tốc và ảnh hưởng đến tổng quãng đường dừng xe."
+  },
+  {
+    "question": "Trong đường hầm có làn xe được kẻ rõ ràng, việc vượt một ô tô hoặc xe gắn máy dưới 50cc khác được phép.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Quy định giao thông Nhật Bản cấm vượt trong một số đường hầm, đặc biệt là những đường hầm không có làn xe. Trong đường hầm có làn xe được chỉ định, việc vượt có thể được phép nếu thực hiện an toàn và không có hạn chế nào khác."
+  },
+  {
+    "question": "Người lái xe phải tuân thủ tất cả các hạn chế và điều kiện được ghi trên giấy phép lái xe của mình khi điều khiển phương tiện.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Các điều kiện trên giấy phép, chẳng hạn như yêu cầu đeo kính điều chỉnh thị lực hoặc giới hạn loại phương tiện, có giá trị bắt buộc về mặt pháp lý. Không tuân thủ các điều kiện này là vi phạm giao thông."
+  },
+  {
+    "question": "Bất cứ khi nào đi gần người đi bộ, bạn phải vừa giữ khoảng cách an toàn vừa giảm tốc độ.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Người lái xe phải giữ khoảng cách đủ an toàn hoặc giảm tốc độ khi không thể bảo đảm khoảng cách phù hợp. Không phải lúc nào cũng bắt buộc phải giảm tốc nếu đã có khoảng cách an toàn."
+  },
+  {
+    "question": "Trước khi bắt đầu di chuyển, người lái xe nên báo hiệu ý định khởi hành, kiểm tra tình hình giao thông bằng gương và xác nhận khu vực xung quanh xe an toàn.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Quan sát và báo hiệu đúng cách là điều cần thiết trước khi nhập vào luồng giao thông. Người lái xe nên kiểm tra gương, điểm mù và tình hình xung quanh trước khi bắt đầu di chuyển."
+  },
+  {
+    "question": "Khi xe gắn máy dưới 50cc vượt một ô tô chở khách thông thường, nó luôn phải vượt ở bên trái của xe đó.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Quy tắc vượt xe phụ thuộc vào tình huống đường sá và các quy định giao thông áp dụng. Xe gắn máy dưới 50cc không bắt buộc phải vượt bên trái trong mọi trường hợp."
+  },
+  {
+    "question": "Trên đường không có làn xe được kẻ rõ ràng, người lái xe có thể tự do sử dụng bất kỳ vị trí nào bên trái vạch giữa đường.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Người lái xe phải đi sát bên trái trong phạm vi có thể và điều khiển phương tiện an toàn. Họ không được tùy ý chiếm bất kỳ vị trí nào nếu điều đó cản trở giao thông hoặc gây nguy hiểm."
+  },
+  {
+    "question": "Một xe gắn máy dưới 50cc đã vượt một xe chuyên dụng nhỏ chạy chậm gần khúc cua nơi tầm nhìn đầy đủ.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Việc vượt xe gần khúc cua nhìn chung bị cấm vì tầm nhìn có thể bị hạn chế và nguy cơ va chạm tăng cao. Người lái xe nên chờ đến khi đến vị trí được phép vượt hợp pháp và an toàn."
+  },
+  {
+    "question": "Khi đi qua đường sắt giao cắt bằng xe gắn máy dưới 50cc, bạn nên bắt đầu ở số thấp, ngay lập tức chuyển sang số cao hơn, mở hết ga và băng qua càng nhanh càng tốt.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Người lái xe nên đi qua đường sắt giao cắt một cách êm ái và an toàn, không tăng tốc hoặc sang số không cần thiết. Duy trì khả năng kiểm soát phương tiện quan trọng hơn việc băng qua với tốc độ cao."
+  },
+  {
+    "question": "Người cố ý yêu cầu một người đang say rượu điều khiển xe gắn máy dưới 50cc để giao hàng hoặc vận chuyển sẽ không bị bất kỳ hình phạt pháp lý nào.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Luật giao thông Nhật Bản không chỉ xử phạt người lái xe say rượu mà còn xử phạt những người khuyến khích, yêu cầu hoặc tạo điều kiện cho việc lái xe khi say rượu."
+  },
+  {
+    "question": "Tăng tốc đột ngột và phanh gấp tạo ra rủi ro an toàn và cũng có thể làm tăng mức tiêu thụ nhiên liệu.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Lái xe quá gấp gáp làm lãng phí nhiên liệu và gây thêm áp lực cho phương tiện. Tăng tốc và phanh êm ái giúp cải thiện cả an toàn lẫn hiệu quả nhiên liệu."
+  },
+  {
+    "question": "Sau khi nhận thấy một người đi bộ cầm gậy màu vàng, tôi bấm còi để khiến người đó dừng lại rồi tiếp tục lái xe.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Gậy màu vàng cho biết đó là người khiếm thị. Người lái xe phải đặc biệt cẩn thận, giảm tốc độ và nhường đường khi cần thiết, thay vì dùng còi để buộc người đi bộ dừng lại."
+  },
+  {
+    "question": "Xe gắn máy dưới 50cc có thể chở hàng hóa nặng tối đa 30 kg một cách hợp pháp.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Theo quy định của Nhật Bản, trọng lượng hàng hóa tối đa được phép chở trên xe gắn máy dưới 50cc tiêu chuẩn thường là 30 kg, với điều kiện các yêu cầu về kích thước hàng hóa khác cũng được đáp ứng."
+  },
+  {
+    "question": "Xe gắn máy dưới 50cc được phép vượt xe khác ngay cả trong đoạn đường có lệnh cấm vượt.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Các hạn chế về vượt xe áp dụng cho xe gắn máy dưới 50cc cũng như các phương tiện khác. Người lái xe phải tuân thủ biển cấm vượt, vạch kẻ đường và các quy tắc giao thông."
+  },
+  {
+    "question": "Việc chuẩn bị cho các tình huống khẩn cấp bao gồm duy trì bảo hiểm xe phù hợp và học các kỹ năng sơ cứu cơ bản.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Bảo hiểm đầy đủ và kiến thức về các quy trình ứng phó khẩn cấp có thể giúp giảm hậu quả của tai nạn và nâng cao khả năng hỗ trợ người bị thương."
+  },
+  {
+    "question": "Khi dừng xe trên đoạn đường dốc lên, nên giữ khoảng cách đủ với xe phía trước thay vì dừng quá gần.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Xe trên dốc có thể lùi nhẹ khi bắt đầu di chuyển. Chừa đủ khoảng cách giúp tránh va chạm và tạo thêm khoảng an toàn."
+  },
+  {
+    "question": "Vì xe gắn máy dưới 50cc nhỏ gọn và dễ điều khiển, việc luồn lách hoặc chạy zíc zắc giữa dòng xe là chấp nhận được.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Lái xe zíc zắc rất nguy hiểm và có thể khiến những người tham gia giao thông khác khó dự đoán. Người điều khiển phải duy trì hướng đi ổn định và vận hành xe một cách an toàn."
+  },
+  {
+    "question": "Lái xe an toàn không chỉ đòi hỏi tuân thủ luật giao thông mà còn phải liên tục quan sát tình trạng đường sá, thời tiết và giao thông.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Chỉ riêng luật giao thông không thể bao quát mọi tình huống. Người lái xe phải luôn cảnh giác và điều chỉnh cách lái phù hợp với điều kiện xung quanh."
+  },
+  {
+    "question": "Khi khúc cua trở nên gắt hơn và bán kính của nó nhỏ lại, lực hướng ra ngoài tác động lên xe đang di chuyển sẽ tăng lên.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Lực ly tâm tăng lên khi xe đi qua khúc cua có bán kính nhỏ hơn với cùng tốc độ. Đây là lý do người lái xe nên giảm tốc trước khi vào những khúc cua gắt."
+  },
+  {
+    "question": "Mặt đường càng ít độ bám thì phanh của xe càng hiệu quả.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Hệ số ma sát thấp làm giảm độ bám của lốp, khiến phanh kém hiệu quả hơn. Các bề mặt trơn trượt như đường ướt, băng giá hoặc bùn đất làm tăng quãng đường phanh."
+  },
+  {
+    "question": "Xe gắn máy dưới 50cc vẫn có thể được vận hành hợp pháp nếu có bảo hiểm tự nguyện, ngay cả khi không có bảo hiểm trách nhiệm dân sự bắt buộc.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Bảo hiểm trách nhiệm dân sự bắt buộc là yêu cầu pháp lý đối với tất cả xe gắn máy dưới 50cc lưu thông trên đường công cộng. Bảo hiểm tự nguyện không thể thay thế bảo hiểm bắt buộc này."
+  },
+  {
+    "question": "Khi phanh xe máy hoặc xe gắn máy dưới 50cc trên mặt đường khô, nên tác dụng lực phanh lên phanh trước nhiều hơn một chút so với phanh sau.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Trên mặt đường khô, phanh trước tạo ra phần lớn lực hãm vì trọng lượng dồn về phía trước khi phanh. Việc sử dụng đúng cả hai phanh giúp duy trì sự ổn định và khả năng kiểm soát."
+  },
+  {
+    "question": "Biển báo này có nghĩa là cấm đỗ xe, nhưng vẫn được phép dừng xe trong thời gian ngắn.",
+    "image": "no_stopping.jpg",
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Biển báo này có nghĩa là 'Cấm dừng xe và cấm đỗ xe'. Phương tiện không được dừng hoặc đỗ trong khu vực được chỉ định, ngoại trừ các trường hợp được pháp luật cho phép."
+  },
+  {
+    "question": "Lái xe chậm có nghĩa là điều khiển phương tiện ở tốc độ cho phép dừng lại ngay lập tức khi cần thiết.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Theo quy định giao thông Nhật Bản, 'tốc độ chậm' là tốc độ mà người lái có thể dừng xe nhanh chóng và an toàn. Điều này thường được yêu cầu ở những khu vực có nguy cơ cao hoặc tầm nhìn hạn chế."
+  },
+  {
+    "question": "Khi đang lưu thông trong vòng xuyến, bạn phải nhường đường cho các xe đi vào vòng xuyến từ bên trái.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Các xe đang lưu thông bên trong vòng xuyến thường có quyền ưu tiên. Xe đi vào vòng xuyến phải nhường đường cho các phương tiện đã ở trong đó."
+  },
+  {
+    "question": "Xe gắn máy dưới 50cc bị cấm đi vào khu vực có biển báo này.",
+    "image": "handcarts.jpg",
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Biển báo này cấm xe đẩy tay hoặc các loại xe vận hành bằng sức người tương tự, không phải xe gắn máy dưới 50cc. Trừ khi có quy định hạn chế khác, xe gắn máy dưới 50cc không bị ảnh hưởng bởi biển báo này."
+  },
+  {
+    "question": "Khi giảm tốc độ hoặc chuẩn bị dừng xe, người lái có thể sử dụng tín hiệu tay để thông báo ý định của mình cho những người tham gia giao thông khác.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Quy định giao thông Nhật Bản công nhận tín hiệu tay là một phương thức hợp lệ để báo hiệu ý định điều khiển xe. Chúng có thể được sử dụng khi thích hợp, đặc biệt nếu đèn tín hiệu không thể sử dụng."
+  },
+  {
+    "question": "Nếu xe gắn máy dưới 50cc được trang bị thiết bị dành cho việc chở người, người điều khiển có thể chở trẻ em hoặc hành khách khác.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Xe gắn máy dưới 50cc tiêu chuẩn thường chỉ được phép chở một người theo quy định giao thông Nhật Bản. Việc có ghế phụ hoặc thiết bị tương tự không tự động cho phép chở thêm người."
+  },
+  {
+    "question": "Khi có xe khác đang vượt mình, bạn nên đi sát về bên trái phần đường trong khả năng có thể và tránh tăng tốc cho đến khi xe đó vượt xong.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Người bị vượt phải hợp tác bằng cách giữ nguyên hướng đi và tốc độ. Tăng tốc trong lúc xe khác đang vượt có thể gây nguy hiểm."
+  },
+  {
+    "question": "Một phương tiện đỗ trái phép và không thể di chuyển ngay vì người lái không có mặt được gọi là xe bị bỏ lại.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Trong công tác thực thi giao thông tại Nhật Bản, một phương tiện bị bỏ không trong tình trạng vi phạm quy định đỗ xe có thể được xem là xe bị bỏ lại. Những phương tiện này phải chịu các thủ tục xử lý đặc biệt."
+  },
+  {
+    "question": "Xe gắn máy dưới 50cc được phép sử dụng làn đường được chỉ định bởi biển báo này.",
+    "image": "senyou_lane.jpg",
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Biển báo này chỉ định làn đường dành riêng cho xe buýt. Theo quy định giao thông Nhật Bản, xe gắn máy dưới 50cc thường được phép sử dụng làn đường dành riêng cho xe buýt trừ khi có biển báo bổ sung cấm."
+  },
+  {
+    "question": "Phía trước bị ùn tắc và có khả năng xe của tôi sẽ phải dừng trên vạch qua đường dành cho người đi bộ. Vì không có người đi bộ nào đang sử dụng lối qua đường nên tôi vẫn tiếp tục đi.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Người lái xe không được đi vào lối sang đường dành cho người đi bộ nếu không có đủ khoảng trống để đi qua hoàn toàn. Việc không có người đi bộ không cho phép chặn lối sang đường."
+  },
+  {
+    "question": "Khi có người đi bộ trong khu vực an toàn được chỉ định, người lái xe có thể đi qua khu vực đó với tốc độ chậm.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Phương tiện có thể đi qua cẩn thận bên cạnh khu vực an toàn trong khi chú ý đến người đi bộ. Người lái xe phải giảm tốc độ và bảo đảm không gây nguy hiểm cho bất kỳ ai đi vào hoặc rời khỏi khu vực an toàn."
+  },
+  {
+    "question": "Nếu có vạch dừng xe, vị trí dừng đúng là ngay trước vạch đó.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Người lái xe bắt buộc phải dừng phải dừng ngay trước vạch dừng. Vị trí này giúp bảo đảm tầm nhìn thích hợp đồng thời tuân thủ các thiết bị điều khiển giao thông và vạch kẻ đường."
+  },
+  {
+    "question": "Khi điều khiển xe trên đường đất hoặc đường sỏi gồ ghề, cách an toàn nhất là giữ tay lái nhẹ nhàng và chạy qua với tốc độ cao.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Đường gồ ghề và chưa trải nhựa đòi hỏi phải giảm tốc độ và kiểm soát xe cẩn thận. Chạy nhanh trên những bề mặt như vậy có thể làm tăng nguy cơ mất thăng bằng hoặc mất độ bám đường."
+  },
+  {
+    "question": "Ngay cả trong khu vực có biển cấm đỗ xe, phương tiện vẫn có thể dừng bất cứ lúc nào để bốc hoặc dỡ hàng hóa.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Biển cấm đỗ xe không tự động cho phép dừng xe để bốc hoặc dỡ hàng. Người lái xe phải tuân thủ mọi quy định về dừng xe và các quy định giao thông khác có liên quan."
+  },
+  {
+    "question": "Mức tiêu thụ nhiên liệu có xu hướng tăng khi xe chạy quá nhanh hoặc quá chậm một cách không cần thiết.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Phương tiện thường hoạt động hiệu quả nhất trong một khoảng tốc độ phù hợp. Tốc độ quá cao hoặc quá thấp đều có thể làm tăng mức tiêu thụ nhiên liệu."
+  },
+  {
+    "question": "Nếu dây ga bị kẹt và bướm ga vẫn mở khi đang lái xe, cách xử lý đúng là đạp phanh gấp và dừng xe ngay lập tức.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Phanh gấp có thể khiến xe mất kiểm soát, đặc biệt nếu động cơ vẫn tiếp tục truyền lực. Người lái nên giảm công suất động cơ một cách an toàn và kiểm soát xe trước khi dừng lại."
+  },
+  {
+    "question": "Thời gian dành cho người lái mới là một năm kể từ khi được cấp bằng lái ô tô thông thường, bằng mô tô phân khối lớn, bằng mô tô thông thường hoặc bằng lái xe gắn máy dưới 50cc.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Hệ thống người lái mới của Nhật Bản áp dụng trong vòng một năm sau khi được cấp một số loại giấy phép lái xe nhất định. Trong thời gian này, người lái phải tuân theo các quy định đặc biệt và yêu cầu an toàn bổ sung."
+  },
+  {
+    "question": "Khi chuyển sang làn đường khác cùng chiều, tín hiệu rẽ nên được bật khoảng 10 giây trước khi chuyển làn.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Theo quy định giao thông Nhật Bản, phải bật tín hiệu chuyển làn ít nhất 3 giây trước khi thực hiện thao tác. Không có quy định cố định yêu cầu phải báo trước khoảng 10 giây."
+  },
+  {
+    "question": "Ngay cả khi đường sắt giao cắt có tầm nhìn rõ ràng theo cả hai hướng, việc vượt xe vẫn bị cấm trong phạm vi 30 mét trước nơi giao cắt.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Luật giao thông Nhật Bản cấm vượt xe gần đường sắt giao cắt do nguy cơ tai nạn gia tăng. Tầm nhìn tốt không làm mất hiệu lực của quy định này."
+  },
+  {
+    "question": "Chuyển trực tiếp từ số cao xuống số rất thấp có thể gây áp lực quá mức lên động cơ và hệ truyền động.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Việc về số quá gấp có thể khiến động cơ quay quá tốc độ và gây áp lực cơ học. Người lái nên chuyển số êm ái và chọn cấp số phù hợp với tốc độ của xe."
+  },
+  {
+    "question": "Nếu thông báo về xe bị bỏ lại đã được gắn lên xe do vi phạm đỗ xe trái phép, thông báo đó có thể được tháo ra trước khi lái xe đi.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Thông báo này là một tài liệu xử lý vi phạm và không bắt buộc phải để nguyên trên xe khi xe được lái đi. Tuy nhiên, người lái hoặc chủ xe vẫn phải thực hiện đầy đủ các thủ tục pháp lý liên quan."
+  },
+  {
+    "question": "Biển báo làn đường này cho phép người lái đi trong làn được chỉ định rẽ trái tại giao lộ phía trước.",
+    "image": "permitted_directions.jpg",
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Biển báo cho biết các hướng di chuyển được phép đối với làn đường đó. Vì có mũi tên rẽ trái nên các xe trong làn được phép rẽ trái hợp pháp."
+  },
+  {
+    "question": "Vạch kẻ đường này cho biết phía trước có lối sang đường dành cho người đi bộ hoặc người đi xe đạp.",
+    "image": "diamond_markings.jpg",
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Vạch hình thoi trên mặt đường được sử dụng để cảnh báo người lái xe rằng phía trước có lối sang đường dành cho người đi bộ hoặc xe đạp. Người lái nên chuẩn bị giảm tốc độ và quan sát người sang đường."
+  },
+  {
+    "question": "Người lái xe không cần giảm tốc độ vào ban đêm so với khi lái xe ban ngày.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Tầm nhìn thường bị giảm vào ban đêm, khiến việc phát hiện nguy hiểm, người đi bộ và chướng ngại vật trở nên khó khăn hơn. Người lái xe nên điều chỉnh tốc độ phù hợp với tầm nhìn và điều kiện đường sá."
+  },
+  {
+    "question": "Biển báo này có nghĩa là người lái xe luôn phải giảm tốc độ vì trẻ em có thể bất ngờ chạy ra đường.",
+    "image": "pedestrian.jpg",
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Biển báo này chỉ khu vực trường học hoặc khu vực học sinh qua đường, cảnh báo người lái xe chú ý đến trẻ em. Mặc dù cần cẩn trọng hơn, bản thân biển báo không tự động tạo ra nghĩa vụ pháp lý phải luôn đi với tốc độ chậm."
+  },
+  {
+    "question": "Xe gắn máy dưới 50cc nhìn chung không được phép đi dọc theo đường ray xe điện, nhưng có thể đi vào hoặc băng qua đường ray khi rẽ phải, rẽ trái, băng qua đường hoặc quay đầu xe.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Luật giao thông Nhật Bản thường cấm việc lưu thông thông thường trong khu vực đường ray xe điện. Tuy nhiên, xe gắn máy dưới 50cc có thể sử dụng hoặc băng qua đường ray khi cần thiết để thực hiện các thao tác như rẽ hoặc băng qua đường."
+  },
+  {
+    "question": "Trên con đường có ba làn xe cùng chiều, xe gắn máy dưới 50cc phải sử dụng làn ngoài cùng bên trái.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Xe gắn máy dưới 50cc thường được yêu cầu đi sát bên trái phần đường. Trên đường nhiều làn, chúng thường phải sử dụng làn ngoài cùng bên trái trừ khi biển báo giao thông hoặc điều kiện đường sá yêu cầu khác."
+  },
+  {
+    "question": "Người lái xe có thể vượt một xe gắn máy dưới 50cc trong phạm vi 30 mét trước lối sang đường dành cho xe đạp nếu hiện tại không có người đi xe đạp nào sử dụng lối sang đường đó.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Việc vượt xe bị cấm trong khoảng cách quy định trước lối sang đường dành cho xe đạp bất kể có người đi xe đạp hay không. Quy định này nhằm bảo vệ người sử dụng lối sang đường và tăng cường an toàn."
+  },
+  {
+    "question": "Tôi đã dừng xe trong ba phút để bốc hoặc dỡ hàng tại khu vực có biển báo này.",
+    "image": "no_parking_sign.jpg",
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Biển báo này có nghĩa là 'Cấm đỗ xe'. Việc dừng xe tạm thời để thực hiện các hoạt động như bốc hoặc dỡ hàng có thể được phép, miễn là xe không bị coi là đang đỗ theo định nghĩa pháp luật và không có quy định cấm dừng xe riêng."
+  },
+  {
+    "question": "Gần khúc cua hoặc đoạn dốc xuống lớn, việc vượt xe bị cấm và người lái xe nên giảm tốc độ ngay cả khi tầm nhìn có vẻ đầy đủ.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Khúc cua và dốc xuống dài làm tăng rủi ro do thời gian phản ứng hạn chế, sự thay đổi động lực học của xe và các vấn đề về tầm nhìn. Người lái xe phải cẩn thận và tuân thủ các quy định cấm vượt tại những khu vực này."
+  },
+  {
+    "question": "Biển cảnh báo này có nghĩa là người lái xe bắt buộc phải đi với tốc độ chậm theo quy định pháp luật.",
+    "image": "steep.jpg",
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Biển báo này cảnh báo phía trước có dốc 10%. Nó chỉ cảnh báo về độ dốc chứ không tự tạo ra yêu cầu pháp lý phải đi với tốc độ chậm; người lái xe nên điều chỉnh tốc độ phù hợp với điều kiện thực tế."
+  },
+  {
+    "question": "Tại giao lộ không có tín hiệu điều khiển nơi các con đường có chiều rộng tương đương nhau và không có đường ưu tiên, tôi đi trước vì xe kia đang đến từ bên phải của tôi.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Tại các giao lộ nơi các con đường có chiều rộng gần bằng nhau, xe đến từ bên trái thường phải nhường đường cho xe đến từ bên phải. Vì vậy, xe ở bên phải có quyền ưu tiên."
+  },
+  {
+    "question": "Xe gắn máy dưới 50cc bị cấm đi vào phần đường có biển báo này.",
+    "image": "no_bicycle.jpg",
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Biển báo này cấm xe đạp, không phải xe gắn máy dưới 50cc. Vì xe gắn máy dưới 50cc được phân loại là phương tiện cơ giới chứ không phải xe đạp, nên riêng biển báo này không cấm xe gắn máy dưới 50cc lưu thông."
+  },
+  {
+    "question": "Việc tuân thủ quy định giao thông và nhường đường đúng cách cho những người tham gia giao thông khác gây ra sự nhầm lẫn và làm tăng nguy cơ tai nạn.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Tuân thủ luật giao thông và nhường đường khi cần thiết giúp luồng giao thông trở nên dễ dự đoán hơn và nâng cao an toàn. Những hành động này giúp giảm nhầm lẫn và phòng tránh va chạm."
+  },
+  {
+    "question": "Người điều khiển xe gắn máy dưới 50cc đáp ứng yêu cầu đội mũ bảo hiểm bằng cách đội bất kỳ loại mũ bảo hiểm nào, kể cả mũ bảo hộ xây dựng.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Người điều khiển xe gắn máy dưới 50cc phải đội mũ bảo hiểm xe máy đáp ứng các tiêu chuẩn an toàn áp dụng. Mũ bảo hộ xây dựng không phải là vật thay thế được chấp thuận khi lái xe trên đường công cộng."
+  },
+  {
+    "question": "Tại giao lộ, người điều khiển nên đặt xe ở vị trí mà người lái xe bốn bánh đang rẽ có thể nhìn thấy rõ, để tránh bị cuốn vào đường rẽ của xe đó.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Xe mô tô và xe gắn máy dưới 50cc có thể khó được các tài xế khác nhận thấy. Giữ vị trí dễ nhìn thấy giúp giảm nguy cơ liên quan đến va chạm khi xe khác rẽ."
+  },
+  {
+    "question": "Phanh động cơ hiệu quả hơn khi xe đang ở số cao so với khi ở số thấp.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Số thấp tạo ra lực cản động cơ lớn hơn và do đó tạo ra phanh động cơ mạnh hơn. Đây là lý do người lái thường chuyển xuống số thấp khi xuống dốc steep."
+  },
+  {
+    "question": "Tại đường sắt giao cắt được điều khiển bằng đèn tín hiệu giao thông, người lái xe có thể đi tiếp mà không cần dừng tạm thời khi tín hiệu cho phép xe di chuyển.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Ở Nhật Bản, thông thường không cần dừng tại đường sắt giao cắt được điều khiển bằng đèn tín hiệu giao thông khi tín hiệu cho biết có thể đi tiếp an toàn. Tuy nhiên, người lái vẫn phải cảnh giác và bảo đảm có thể vượt qua đường ray an toàn."
+  },
+  {
+    "question": "Biển báo này cho biết xe gắn máy dưới 50cc bắt buộc phải rẽ phải theo hai giai đoạn tại giao lộ.",
+    "image": "two_stage_right.jpg",
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Biển báo này quy định bắt buộc xe gắn máy dưới 50cc phải rẽ phải theo hai giai đoạn. Người điều khiển phải băng qua giao lộ theo hai bước thay vì rẽ phải trực tiếp."
+  },
+  {
+    "question": "Vì tầm nhìn bị giảm khi đi vào đường hầm từ khu vực sáng, người lái xe nên giảm tốc độ trước khi đến cửa hầm.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Mắt cần thời gian để thích nghi với môi trường tối hơn bên trong đường hầm. Giảm tốc trước giúp duy trì an toàn trong giai đoạn chuyển đổi ánh sáng."
+  },
+  {
+    "question": "Người cung cấp rượu cho người mà họ biết sẽ lái xe cũng có thể bị xử phạt theo luật giao thông.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Luật Nhật Bản không chỉ xử phạt người lái xe trong tình trạng say rượu mà còn xử phạt những người cố ý hỗ trợ hoặc khuyến khích lái xe khi say rượu, bao gồm cả việc cung cấp rượu."
+  },
+  {
+    "question": "Khi đèn pha của xe đang tới gây chói mắt vào ban đêm, có thể nhắm mắt trong chốc lát trong khi vẫn tiếp tục lái xe.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Người lái xe phải luôn quan sát đường và duy trì kiểm soát phương tiện. Nhắm mắt, dù chỉ trong khoảnh khắc, cũng tạo ra nguy cơ an toàn nghiêm trọng."
+  },
+  {
+    "question": "Tại giao lộ không có điều khiển nơi các đường có chiều rộng tương tự nhau, người lái xe không được cản trở các phương tiện đi đến từ bên trái.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Tại những giao lộ như vậy, người lái xe phải tôn trọng các quy tắc quyền ưu tiên đang áp dụng và tránh cản trở các phương tiện khác. Cần bảo đảm lối đi an toàn cho phương tiện đang đến gần."
+  },
+  {
+    "question": "Chủ sở hữu xe gắn máy dưới 50cc bắt buộc phải duy trì bảo hiểm trách nhiệm dân sự bắt buộc hoặc hình thức bảo hiểm tương đương được chấp thuận.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Bảo hiểm trách nhiệm dân sự bắt buộc là yêu cầu pháp lý trước khi xe gắn máy dưới 50cc được sử dụng trên đường công cộng. Lái xe không có loại bảo hiểm này là vi phạm pháp luật."
+  },
+  {
+    "question": "Khi kéo rơ-moóc bằng xe gắn máy dưới 50cc, tôi đã xuống xe và dắt xe, vì vậy việc đi trên vỉa hè là chấp nhận được.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Vỉa hè chủ yếu dành cho người đi bộ. Việc dắt xe gắn máy dưới 50cc khi đang kéo rơ-moóc không tự động cho phép đi trên vỉa hè ở nơi việc di chuyển như vậy bị cấm hoặc không an toàn."
+  },
+  {
+    "question": "Một xe buýt dừng phía trước đã bật tín hiệu muốn nhập lại vào dòng xe, và tôi lập tức vượt bên cạnh xe buýt trước khi nó có thể di chuyển.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Người lái xe nên thận trọng khi gần xe buýt đang báo hiệu rời khỏi điểm dừng. Việc vượt theo cách cản trở xe buýt nhập lại vào dòng xe một cách an toàn là bị cấm."
+  },
+  {
+    "question": "Cấm dừng hoặc đỗ xe trong phạm vi 5 mét trước hoặc sau lối sang đường dành cho người đi bộ hoặc lối sang đường dành cho xe đạp.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Quy định giao thông Nhật Bản cấm dừng hoặc đỗ xe trong phạm vi 5 mét tính từ lối sang đường dành cho người đi bộ hoặc xe đạp. Điều này giúp bảo đảm tầm nhìn và an toàn cho người đi bộ và người đi xe đạp khi băng qua đường."
+  },
+  {
+    "question": "Mũi tên chỉ hướng màu vàng cho phép phương tiện đi theo hướng được chỉ định ngay cả khi đèn tín hiệu chính màu vàng hoặc đỏ, miễn là chú ý đến giao thông xung quanh.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Mũi tên chỉ hướng cho phép di chuyển được hiển thị bằng màu xanh, không phải màu vàng. Người lái xe phải tuân theo tín hiệu thực tế được hiển thị."
+  },
+  {
+    "question": "Khi đỗ xe trên đường không có vỉa hè cũng không có dải ven đường, phải chừa khoảng trống 0,75 mét ở bên trái xe cho người đi bộ.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Khoảng trống cần thiết cho người đi bộ không được đo từ bên trái xe đang đỗ theo cách nêu trong câu. Người lái xe phải tuân thủ các quy tắc đỗ xe cụ thể nhằm bảo đảm lối đi an toàn cho người đi bộ."
+  },
+  {
+    "question": "Nếu tốc độ của xe tăng gấp đôi, quãng đường phanh từ lúc phanh được tác động cho đến khi xe dừng lại sẽ dài hơn khoảng bốn lần.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Quãng đường phanh tăng xấp xỉ theo bình phương tốc độ. Do đó, khi tốc độ tăng gấp đôi, quãng đường phanh có thể tăng khoảng bốn lần."
+  },
+  {
+    "question": "Xe gắn máy dưới 50cc có thể sử dụng làn xe buýt được chỉ định miễn là không cản trở sự di chuyển của xe buýt và các phương tiện tương tự.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Theo quy định giao thông Nhật Bản, xe gắn máy dưới 50cc thường được phép sử dụng làn xe buýt trừ khi có biển báo bổ sung cấm. Người điều khiển không được cản trở xe buýt hoặc các phương tiện được phép khác sử dụng làn này."
+  },
+  {
+    "question": "Vào ban đêm ở khu vực đô thị có lưu lượng giao thông đông, người lái xe thông thường nên sử dụng đèn chiếu gần.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Đèn chiếu gần giúp tránh gây chói mắt cho những người tham gia giao thông khác ở khu vực có nhiều xe cộ. Đèn chiếu xa chỉ nên được sử dụng khi phù hợp và phải tắt khi có thể làm chói mắt người khác."
+  },
+  {
+    "question": "Xe mô tô số tự động và xe gắn máy dưới 50cc có thể tăng tốc bất ngờ nếu tay ga được vặn quá nhanh.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Các phương tiện hai bánh số tự động phản ứng ngay lập tức với thao tác tay ga. Việc vặn ga đột ngột có thể dẫn đến tăng tốc bất ngờ và mất kiểm soát."
+  },
+  {
+    "question": "Khi phanh xe gắn máy dưới 50cc trên mặt đường ướt, nhìn chung sẽ an toàn hơn nếu sử dụng lực phanh phía sau nhiều hơn một chút.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Đường ướt làm giảm độ bám của lốp và tăng nguy cơ bánh trước bị trượt. Sử dụng phanh một cách nhẹ nhàng, với sự ưu tiên nhiều hơn một chút cho phanh sau, có thể giúp duy trì sự ổn định."
+  },
+  {
+    "question": "Khi đang đến gần một giao lộ, tôi nhận thấy một xe ưu tiên đang đến từ hướng đối diện, vì vậy tôi di chuyển vào mép trái của đường và dừng lại trước khi đi vào giao lộ.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Người lái xe phải nhường đường cho các xe ưu tiên đang sử dụng còi hoặc thiết bị cảnh báo. Khi ở gần giao lộ, việc dừng lại bên trái trước khi vào giao lộ giúp bảo đảm có lối đi thông thoáng cho xe ưu tiên."
+  },
+  {
+    "question": "Nếu các bên liên quan trong một vụ tai nạn giao thông đã đạt được thỏa thuận riêng với nhau, thì không cần báo cáo vụ tai nạn cho cảnh sát.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Luật pháp Nhật Bản yêu cầu mọi vụ tai nạn giao thông phải được báo cáo cho cảnh sát bất kể các bên có đạt được thỏa thuận hay không. Nghĩa vụ này vẫn áp dụng ngay cả khi thiệt hại hoặc thương tích có vẻ nhỏ."
+  },
+  {
+    "question": "Người có bằng lái xe gắn máy dưới 50cc chưa đủ một năm phải gắn phù hiệu lái xe mới ở phía trước hoặc phía sau xe.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Yêu cầu gắn phù hiệu lái xe mới chỉ áp dụng cho một số loại người điều khiển phương tiện cơ giới nhất định, không áp dụng cho người điều khiển xe gắn máy dưới 50cc. Người lái xe gắn máy dưới 50cc không bắt buộc phải gắn phù hiệu này."
+  },
+  {
+    "question": "Trong trường hợp thiên tai, nếu một con đường bị áp dụng hạn chế giao thông theo Luật Cơ bản về Đối sách Thiên tai, người lái xe nên rời khỏi khu vực bị hạn chế và di chuyển đến nơi khác.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Người lái xe phải tuân thủ các biện pháp kiểm soát giao thông liên quan đến thiên tai và hợp tác với các biện pháp khẩn cấp. Việc rời khỏi khu vực bị hạn chế giúp bảo đảm lối đi cho các hoạt động cứu hộ và ứng phó khẩn cấp."
+  },
+  {
+    "question": "Trong làn đường có vạch kẻ đường này, xe gắn máy dưới 50cc không được phép đi vào trừ khi rẽ trái.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Hạn chế được mô tả không áp dụng theo cách đã nêu. Xe gắn máy dưới 50cc có thể sử dụng làn đường theo các vạch kẻ đường và quy định giao thông áp dụng cho tuyến đường đó."
+  },
+  {
+    "question": "Tư thế lái đúng trên xe mô tô hoặc xe gắn máy dưới 50cc là đặt chân lên gác chân với mũi chân hơi hướng về phía trước và lòng bàn chân giữ ngang.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Sai",
+    "explanation": "Người lái nên đặt chân chắc chắn trên gác chân với mũi chân thường hướng vào trong hoặc song song với thân xe để tránh chạm vào mặt đường. Tư thế được mô tả không được xem là kỹ thuật lái xe đúng."
+  },
+  {
+    "question": "Bạn không được vượt một phương tiện đã di chuyển sang phải để chuẩn bị rẽ phải hoặc thực hiện một thao tác tương tự.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Vượt một phương tiện đang vào vị trí để rẽ phải có thể tạo ra tình huống xung đột nguy hiểm. Người lái xe nên chờ cho đến khi phương tiện đó hoàn thành thao tác và việc đi tiếp trở nên an toàn."
+  },
+  {
+    "question": "Vào ban đêm, khi một cảnh sát đứng giữa giao lộ vung đèn theo chiều ngang, dòng xe đối diện với tín hiệu đó được xem như đang gặp đèn xanh giao thông.",
+    "image": null,
+    "choices": [
+      "Đúng",
+      "Sai"
+    ],
+    "answer": "Đúng",
+    "explanation": "Tín hiệu bằng tay hoặc bằng đèn của cảnh sát có hiệu lực ưu tiên hơn đèn giao thông. Trong tình huống này, việc vung đèn theo chiều ngang cho biết các phương tiện theo hướng đó được phép đi, tương tự như tín hiệu đèn xanh."
+  }
+]
