@@ -3398,5 +3398,505 @@
     ],
     "answer": "True",
     "explanation": "Di Jepang, mengemudi dalam keadaan terganggu akibat alkohol dapat dihukum bahkan jika kadar alkohol berada di bawah batas standar, apabila alkohol memengaruhi kemampuan mengemudi dengan aman."
+  },
+  {
+    "question": "Saya memasuki area parkir yang terletak di sisi kiri jalan yang dipasang rambu \"Dilarang Menyeberang Kendaraan\".",
+    "image": null,
+    "choices": [
+      "Benar",
+      "Salah"
+    ],
+    "answer": "Benar",
+    "explanation": "Rambu \"Dilarang Menyeberang Kendaraan\" umumnya melarang kendaraan melintasi garis tengah atau badan jalan dengan cara yang dibatasi oleh rambu tersebut. Memasuki fasilitas parkir yang berada di sisi jalan yang diperbolehkan tidak melanggar larangan tersebut."
+  },
+  {
+    "question": "Meskipun SIM biasa saya sedang ditangguhkan, saya tetap boleh mengendarai moped umum.",
+    "image": null,
+    "choices": [
+      "Benar",
+      "Salah"
+    ],
+    "answer": "Salah",
+    "explanation": "Ketika SIM ditangguhkan, pemegangnya kehilangan hak untuk mengoperasikan jenis kendaraan yang dicakup oleh SIM tersebut. SIM yang ditangguhkan tidak mengizinkan seseorang untuk tetap mengendarai moped."
+  },
+  {
+    "question": "Pengemudi harus selalu masuk dan keluar kendaraan dari sisi kanan, meskipun kondisi lalu lintas membuat hal tersebut tidak aman.",
+    "image": null,
+    "choices": [
+      "Benar",
+      "Salah"
+    ],
+    "answer": "Salah",
+    "explanation": "Pengemudi dan penumpang harus masuk dan keluar dari sisi yang paling aman untuk digunakan. Keselamatan lebih diutamakan daripada menggunakan sisi tertentu dari kendaraan."
+  },
+  {
+    "question": "Ketika perlu membiarkan sebagian kendaraan melewati garis tengah ke lajur berlawanan, kecuali di jalan satu arah, bagian kendaraan yang melewati garis tengah harus dijaga seminimal mungkin.",
+    "image": null,
+    "choices": [
+      "Benar",
+      "Salah"
+    ],
+    "answer": "Benar",
+    "explanation": "Pengemudi harus tetap berada di dalam lajurnya bila memungkinkan. Jika melintasi garis tengah tidak dapat dihindari, hanya bagian minimum yang diperlukan dari kendaraan yang boleh memasuki lajur berlawanan."
+  },
+  {
+    "question": "Tidak diperlukan SIM penarik khusus ketika menarik kendaraan mogok dengan tali, mobil derek, kendaraan crane, atau peralatan serupa, meskipun berat total kendaraan yang ditarik melebihi 750 kilogram.",
+    "image": null,
+    "choices": [
+      "Benar",
+      "Salah"
+    ],
+    "answer": "Benar",
+    "explanation": "Menarik kendaraan mogok berdasarkan aturan penanganan kendaraan rusak diperlakukan berbeda dari menarik trailer dalam operasi normal. Dalam kasus seperti itu, SIM penarik umumnya tidak diperlukan."
+  },
+  {
+    "question": "Meskipun berada di jalan yang menampilkan rambu batas kecepatan 40 km/jam ini, moped umum tidak boleh melebihi 30 km/jam.",
+    "image": "40.jpg",
+    "choices": [
+      "Benar",
+      "Salah"
+    ],
+    "answer": "Benar",
+    "explanation": "Batas kecepatan maksimum yang ditetapkan untuk moped umum adalah 30 km/jam kecuali jika berlaku batas yang lebih rendah. Rambu batas kecepatan yang lebih tinggi dari 30 km/jam tidak mengizinkan moped umum melampaui batas maksimum hukumnya."
+  },
+  {
+    "question": "Di jalan dengan dua lajur yang bergerak ke arah yang sama, memilih lajur yang lalu lintasnya lebih ringan akan selalu membuat arus lalu lintas lebih aman dan lancar.",
+    "image": null,
+    "choices": [
+      "Benar",
+      "Salah"
+    ],
+    "answer": "Salah",
+    "explanation": "Pemilihan lajur harus didasarkan pada peraturan lalu lintas, jenis kendaraan, kecepatan, dan kondisi jalan, bukan hanya pada lajur yang terlihat lebih sepi. Memilih lajur hanya karena jumlah kendaraannya lebih sedikit tidak selalu aman atau tepat."
+  },
+  {
+    "question": "Rambu-rambu yang ditunjukkan merupakan rambu peringatan yang memberi tahu pengguna jalan tentang potensi bahaya atau kondisi jalan khusus di depan dan mengharuskan peningkatan kewaspadaan.",
+    "image": "potential_hazards.jpg",
+    "choices": [
+      "Benar",
+      "Salah"
+    ],
+    "answer": "Benar",
+    "explanation": "Rambu peringatan dirancang untuk memberi tahu pengemudi tentang kondisi seperti pekerjaan jalan, perlintasan kereta api, tikungan, atau bahaya lainnya. Pengemudi harus menyesuaikan cara mengemudi dan tetap waspada saat mendekatinya."
+  },
+  {
+    "question": "Seseorang yang memiliki SIM kendaraan semi-menengah atau SIM biasa tidak diperbolehkan mengemudikan minibus dengan kapasitas tempat duduk 11 hingga 29 penumpang.",
+    "image": null,
+    "choices": [
+      "Benar",
+      "Salah"
+    ],
+    "answer": "Benar",
+    "explanation": "Kendaraan dengan kapasitas penumpang dalam rentang tersebut umumnya memerlukan klasifikasi SIM yang lebih tinggi. SIM biasa tidak memberikan kewenangan untuk mengoperasikan minibus semacam itu."
+  },
+  {
+    "question": "Kendaraan yang memiliki izin khusus boleh melaju perlahan di area yang ditandai dengan rambu ini ketika ada pejalan kaki di sekitar, tetapi tidak perlu mengurangi kecepatan jika tidak ada pejalan kaki.",
+    "image": "reserved_for_pedestrians.jpg",
+    "choices": [
+      "Benar",
+      "Salah"
+    ],
+    "answer": "Salah",
+    "explanation": "Rambu tersebut menunjukkan area khusus pejalan kaki. Bahkan kendaraan yang secara khusus diizinkan masuk harus berjalan dengan sangat hati-hati dan dengan kecepatan rendah, terlepas dari apakah pejalan kaki terlihat atau tidak."
+  },
+  {
+    "question": "Saya hanya mengonsumsi sedikit alkohol dan percaya bahwa saya tidak terpengaruh, sehingga saya mengemudi dengan hati-hati setelahnya.",
+    "image": null,
+    "choices": [
+      "Benar",
+      "Salah"
+    ],
+    "answer": "Salah",
+    "explanation": "Mengemudi setelah mengonsumsi alkohol dilarang apabila memengaruhi kemampuan mengemudi atau melebihi batas hukum. Keyakinan pribadi pengemudi bahwa dirinya \"tidak mabuk\" tidak menentukan apakah mengemudi tersebut legal atau aman."
+  },
+  {
+    "question": "Marka jalan yang ditunjukkan menunjukkan bahwa terdapat persimpangan di depan.",
+    "image": "diamond_markings.jpg",
+    "choices": [
+      "Benar",
+      "Salah"
+    ],
+    "answer": "Salah",
+    "explanation": "Marka berbentuk berlian yang ditunjukkan merupakan peringatan awal bahwa terdapat penyeberangan pejalan kaki atau penyeberangan sepeda di depan. Marka tersebut tidak digunakan untuk menunjukkan adanya persimpangan."
+  },
+  {
+    "question": "Pada pengaturan lajur yang ditunjukkan, kendaraan yang melaju di lajur B boleh berpindah ke lajur lain untuk berbelok ke kiri atau ke kanan.",
+    "image": "B_cannot_change_lane.jpg",
+    "choices": [
+      "Benar",
+      "Salah"
+    ],
+    "answer": "Salah",
+    "explanation": "Lajur B ditetapkan hanya untuk perjalanan lurus. Pengemudi yang menggunakan lajur tersebut harus mengikuti arah yang ditunjukkan oleh marka lajur dan tidak boleh berpindah lajur hanya untuk berbelok di persimpangan."
+  },
+  {
+    "question": "Saat mendekati lampu lalu lintas kuning berkedip, pengemudi diwajibkan melaju dengan kecepatan lambat.",
+    "image": null,
+    "choices": [
+      "Benar",
+      "Salah"
+    ],
+    "answer": "Salah",
+    "explanation": "Lampu kuning berkedip mengizinkan pengemudi untuk melanjutkan perjalanan setelah memastikan bahwa keadaan aman. Meskipun kewaspadaan diperlukan, tidak ada kewajiban otomatis untuk melaju dengan \"kecepatan lambat\" sebagaimana didefinisikan dalam peraturan lalu lintas."
+  },
+  {
+    "question": "Rambu ini melarang kendaraan yang memiliki tinggi keseluruhan, termasuk muatan yang dibawa, melebihi 3,3 meter untuk memasuki jalan tersebut.",
+    "image": "height_limit.jpg",
+    "choices": [
+      "Benar",
+      "Salah"
+    ],
+    "answer": "Benar",
+    "explanation": "Rambu tersebut menunjukkan batas tinggi maksimum 3,3 meter. Pengemudi harus mempertimbangkan tinggi total kendaraan beserta muatannya sebelum melanjutkan perjalanan."
+  },
+  {
+    "question": "Sebelum menyalip kendaraan lain, Anda harus terlebih dahulu menyalakan lampu sein dan baru kemudian memeriksa keselamatan.",
+    "image": null,
+    "choices": [
+      "Benar",
+      "Salah"
+    ],
+    "answer": "Salah",
+    "explanation": "Pengemudi harus terlebih dahulu memastikan bahwa manuver menyalip dapat dilakukan dengan aman, kemudian memberikan isyarat yang sesuai sebelum memulai manuver. Pemeriksaan keselamatan tidak boleh dilewatkan."
+  },
+  {
+    "question": "Menyalip diperbolehkan dengan membiarkan sebagian kendaraan melewati garis tengah ke lajur berlawanan apabila lajur di sebelah kiri lebarnya setidaknya 6 meter, jarak pandang memadai, dan tidak mengganggu lalu lintas dari arah berlawanan.",
+    "image": null,
+    "choices": [
+      "Benar",
+      "Salah"
+    ],
+    "answer": "Salah",
+    "explanation": "Menyalip dengan memasuki lajur berlawanan tunduk pada pembatasan hukum tertentu dan tidak otomatis diperbolehkan dalam kondisi yang disebutkan. Pengemudi harus mematuhi seluruh aturan menyalip dan marka jalan yang berlaku."
+  },
+  {
+    "question": "Saat mendekati seseorang yang menggunakan kursi roda atau membawa tongkat putih maupun tongkat kuning, pengemudi harus berhenti sementara atau memperlambat kendaraan untuk menjamin keselamatan orang tersebut.",
+    "image": null,
+    "choices": [
+      "Benar",
+      "Salah"
+    ],
+    "answer": "Benar",
+    "explanation": "Undang-undang lalu lintas Jepang mengharuskan perhatian khusus terhadap pejalan kaki penyandang disabilitas. Pengemudi harus mengambil tindakan yang tepat untuk menghindari bahaya atau hambatan bagi mereka."
+  },
+  {
+    "question": "Setiap kali melewati zona keselamatan, pengemudi diwajibkan mengurangi kecepatan tanpa memandang ada atau tidaknya pejalan kaki.",
+    "image": null,
+    "choices": [
+      "Benar",
+      "Salah"
+    ],
+    "answer": "Salah",
+    "explanation": "Pengemudi harus berhati-hati di dekat zona keselamatan, tetapi pengurangan kecepatan hingga kecepatan lambat tidak diwajibkan dalam setiap situasi. Tindakan yang tepat bergantung pada keberadaan pejalan kaki dan kondisi sekitar."
+  },
+  {
+    "question": "Saat mengemudi di dekat persimpangan, saya melihat kendaraan darurat mendekat lalu bergerak ke sisi kiri jalan sambil memperlambat kendaraan.",
+    "image": null,
+    "choices": [
+      "Benar",
+      "Salah"
+    ],
+    "answer": "Salah",
+    "explanation": "Ketika kendaraan darurat mendekat di dekat persimpangan, pengemudi harus menghindari berhenti dengan cara yang menghalangi jalannya. Tindakan yang benar bergantung pada arah kendaraan darurat dan kedekatannya dengan persimpangan, dan hanya memperlambat sambil bergerak ke kiri belum tentu memenuhi prosedur memberi jalan yang diwajibkan."
+  },
+  {
+    "question": "Pengemudi tidak wajib memperlambat atau menghentikan kendaraan untuk pejalan kaki yang menyeberang jalan di tempat yang tidak memiliki penyeberangan yang ditandai karena kendaraan memiliki prioritas.",
+    "image": null,
+    "choices": [
+      "Benar",
+      "Salah"
+    ],
+    "answer": "Salah",
+    "explanation": "Pengemudi harus berhati-hati untuk menghindari membahayakan pejalan kaki, terlepas dari ada atau tidaknya penyeberangan yang ditandai. Prioritas kendaraan tidak menghilangkan kewajiban untuk mengemudi dengan aman di sekitar pejalan kaki."
+  },
+  {
+    "question": "Saya menyalip moped umum di dalam terowongan yang tidak memiliki lajur lalu lintas yang ditandai.",
+    "image": null,
+    "choices": [
+      "Benar",
+      "Salah"
+    ],
+    "answer": "Salah",
+    "explanation": "Menyalip dilarang di terowongan yang tidak memiliki lajur lalu lintas yang ditetapkan. Lokasi seperti ini memiliki risiko lebih tinggi karena jarak pandang yang terbatas dan ruang yang sempit."
+  },
+  {
+    "question": "Saat melaju di lajur khusus bus rute, saya tetap berada di lajur tersebut meskipun sebuah bus sekolah atau bus taman kanak-kanak sedang mendekat, karena bus tersebut bukan bus rute.",
+    "image": null,
+    "choices": [
+      "Benar",
+      "Salah"
+    ],
+    "answer": "Salah",
+    "explanation": "Beberapa lajur khusus bus juga dapat digunakan oleh kendaraan yang secara khusus diizinkan berdasarkan peraturan setempat. Pengemudi harus mematuhi pembatasan dan ketentuan yang berlaku untuk lajur tersebut."
+  },
+  {
+    "question": "Di persimpangan tanpa pengaturan lalu lintas di mana lebar jalan berbeda, moped umum yang ditunjukkan pada ilustrasi harus memperlambat kendaraan dan memberi jalan kepada mobil penumpang.",
+    "image": "moped_priority.jpg",
+    "choices": [
+      "Benar",
+      "Salah"
+    ],
+    "answer": "Salah",
+    "explanation": "Di persimpangan tanpa pengaturan lalu lintas, hak prioritas ditentukan oleh peraturan lalu lintas yang berlaku, termasuk prioritas jalan dan arah pendekatan. Perhatikan jalan yang dilalui moped tersebut. Moped tidak secara otomatis wajib mengalah hanya karena kendaraan lain adalah mobil penumpang."
+  },
+  {
+    "question": "Jika kondisi aman, kendaraan di depan dapat disalip baik dari sisi kiri maupun kanan.",
+    "image": null,
+    "choices": [
+      "Benar",
+      "Salah"
+    ],
+    "answer": "Salah",
+    "explanation": "Menurut peraturan lalu lintas Jepang, menyalip umumnya dilakukan dari sisi kanan kendaraan yang disalip. Menyalip dari kiri hanya diperbolehkan dalam situasi tertentu yang ditentukan oleh hukum."
+  },
+  {
+    "question": "Sebagai aturan umum, lajur yang ditandai dengan rambu ini diperuntukkan bagi bus, meskipun kendaraan tertentu seperti moped, kendaraan ringan, dan kendaraan khusus kecil tertentu dapat diizinkan menggunakannya.",
+    "image": "senyou_lane.jpg",
+    "choices": [
+      "Benar",
+      "Salah"
+    ],
+    "answer": "Benar",
+    "explanation": "Rambu ini menunjukkan lajur prioritas bus atau lajur khusus bus. Namun, peraturan lalu lintas Jepang mengizinkan beberapa kategori kendaraan menggunakan lajur tersebut apabila secara khusus diperbolehkan."
+  },
+  {
+    "question": "Saat mendekati puncak tanjakan, Anda boleh mempertahankan kecepatan saat ini jika tidak ada rambu yang mengharuskan Anda mengurangi kecepatan.",
+    "image": null,
+    "choices": [
+      "Benar",
+      "Salah"
+    ],
+    "answer": "Salah",
+    "explanation": "Jarak pandang sering kali terbatas di dekat puncak tanjakan. Pengemudi harus mengurangi kecepatan dan melaju dengan hati-hati karena bahaya atau kendaraan dari arah berlawanan mungkin tidak terlihat."
+  },
+  {
+    "question": "Dalam situasi yang ditunjukkan, Kendaraan A tidak boleh memasuki lajur berlawanan untuk menyalip Kendaraan B.",
+    "image": "solid_white_centerline.jpg",
+    "choices": [
+      "Benar",
+      "Salah"
+    ],
+    "answer": "Benar",
+    "explanation": "Meskipun lebar jalan ditunjukkan 6 meter, pengemudi tidak boleh menyalip dengan memasuki lajur berlawanan jika tindakan tersebut melanggar aturan menyalip atau menimbulkan bahaya bagi lalu lintas dari arah berlawanan. Semua syarat menyalip dengan aman harus terpenuhi sebelum melakukan manuver tersebut."
+  },
+  {
+    "question": "Ketika rambu arah lajur ini dipasang sebelum persimpangan, pengemudi harus menggunakan lajur yang ditentukan untuk arah perjalanan yang diinginkan, kecuali dalam situasi yang tidak dapat dihindari seperti pekerjaan jalan atau ketika memberi jalan kepada kendaraan darurat.",
+    "image": "designated_direction.jpg",
+    "choices": [
+      "Benar",
+      "Salah"
+    ],
+    "answer": "Benar",
+    "explanation": "Rambu pengaturan penggunaan lajur mengharuskan pengemudi mengikuti arah yang ditetapkan untuk setiap lajur. Menyimpang dari lajur yang ditentukan hanya diperbolehkan jika diizinkan oleh hukum atau dalam keadaan yang tidak dapat dihindari."
+  },
+  {
+    "question": "Jika pekerjaan jalan menutup sebagian badan jalan, sepeda motor tidak perlu memberi jalan kepada lalu lintas dari arah berlawanan karena ukurannya lebih kecil daripada kebanyakan kendaraan.",
+    "image": null,
+    "choices": [
+      "Benar",
+      "Salah"
+    ],
+    "answer": "Salah",
+    "explanation": "Kewajiban untuk memberi jalan ditentukan oleh kondisi lalu lintas dan aturan hak prioritas, bukan oleh ukuran kendaraan. Sepeda motor harus mematuhi ketentuan memberi jalan yang sama seperti kendaraan lainnya."
+  },
+  {
+    "question": "Saat mengemudi di jalan prioritas, Anda tidak perlu memperlambat kendaraan atau bersiap untuk berhenti terhadap kendaraan yang masuk dari jalan samping.",
+    "image": null,
+    "choices": [
+      "Benar",
+      "Salah"
+    ],
+    "answer": "Salah",
+    "explanation": "Meskipun kendaraan di jalan prioritas umumnya memiliki hak utama, pengemudi tetap harus mengemudi dengan aman dan siap menghadapi bahaya. Kewaspadaan yang sesuai selalu diperlukan di persimpangan."
+  },
+  {
+    "question": "Jika sebuah kendaraan berhenti tepat sebelum penyeberangan sepeda, Anda harus melewatinya dengan perlahan dan terus melaju.",
+    "image": null,
+    "choices": [
+      "Benar",
+      "Salah"
+    ],
+    "answer": "Salah",
+    "explanation": "Kendaraan yang berhenti di dekat penyeberangan sepeda mungkin sedang memberi jalan kepada pesepeda. Pengemudi harus melanjutkan dengan hati-hati dan memastikan tidak ada pesepeda yang sedang menyeberang sebelum melanjutkan perjalanan."
+  },
+  {
+    "question": "Kecuali jika ditentukan lain oleh rambu atau marka jalan, sepeda motor biasa dengan kapasitas mesin 250 cc atau kurang dilarang melaju lebih cepat dari 50 km/jam di jalan biasa.",
+    "image": null,
+    "choices": [
+      "Benar",
+      "Salah"
+    ],
+    "answer": "Salah",
+    "explanation": "Kecepatan maksimum untuk sepeda motor biasa umumnya ditentukan oleh batas kecepatan yang dipasang dan peraturan lalu lintas yang berlaku. Tidak ada aturan umum yang membatasi sepeda motor 250 cc atau kurang hingga 50 km/jam."
+  },
+  {
+    "question": "Saat memarkir kendaraan bertransmisi otomatis di tanjakan, tuas pemilih gigi harus dibiarkan pada posisi \"D\".",
+    "image": null,
+    "choices": [
+      "Benar",
+      "Salah"
+    ],
+    "answer": "Salah",
+    "explanation": "Kendaraan otomatis biasanya harus diamankan menggunakan rem parkir dan ditempatkan pada posisi parkir yang sesuai, seperti \"P\". Membiarkan tuas pada posisi \"D\" tidak mengamankan kendaraan dengan benar."
+  },
+  {
+    "question": "Saat memberi jalan kepada kendaraan darurat di jalan yang jauh dari persimpangan, tidak selalu perlu berhenti sepenuhnya jika Anda dapat menepi dengan aman dan membiarkannya lewat.",
+    "image": null,
+    "choices": [
+      "Benar",
+      "Salah"
+    ],
+    "answer": "Benar",
+    "explanation": "Di luar persimpangan, pengemudi harus bergerak ke sisi kiri jalan dan memberi jalan kepada kendaraan darurat. Berhenti sepenuhnya tidak selalu diperlukan jika jalur aman dapat diberikan."
+  },
+  {
+    "question": "Meskipun pengemudi umumnya diwajibkan berhenti sebelum melintasi rel kereta api, mereka dapat melanjutkan perjalanan sesuai lampu lalu lintas jika perlintasan tersebut dikendalikan oleh sinyal lalu lintas.",
+    "image": null,
+    "choices": [
+      "Benar",
+      "Salah"
+    ],
+    "answer": "Benar",
+    "explanation": "Di perlintasan kereta api yang dilengkapi lampu lalu lintas, pengemudi dapat mengikuti petunjuk sinyal tersebut. Kewajiban berhenti yang biasanya berlaku tidak diterapkan ketika terdapat pengendalian oleh lampu lalu lintas."
+  },
+  {
+    "question": "Setiap kali berbelok ke kiri atau ke kanan, pengemudi harus mengurangi kecepatan dan melakukannya dengan hati-hati.",
+    "image": null,
+    "choices": [
+      "Benar",
+      "Salah"
+    ],
+    "answer": "Benar",
+    "explanation": "Berbelok meningkatkan risiko tabrakan dengan pejalan kaki, pesepeda, dan kendaraan lainnya. Mengurangi kecepatan membantu meningkatkan kendali dan keselamatan selama manuver."
+  },
+  {
+    "question": "Kecuali terdapat rambu \"Gunakan Klakson\", klakson tidak boleh digunakan sama sekali, bahkan untuk mencegah bahaya.",
+    "image": null,
+    "choices": [
+      "Benar",
+      "Salah"
+    ],
+    "answer": "Salah",
+    "explanation": "Pengemudi boleh menggunakan klakson jika diperlukan untuk menghindari bahaya yang langsung mengancam. Penggunaan klakson tidak terbatas hanya pada lokasi yang memiliki rambu \"Gunakan Klakson\"."
+  },
+  {
+    "question": "Rambu ini berarti \"Dilarang Masuk untuk Kendaraan\".",
+    "image": "no_entry.jpg",
+    "choices": [
+      "Benar",
+      "Salah"
+    ],
+    "answer": "Benar",
+    "explanation": "Rambu ini melarang kendaraan memasuki jalan dari arah yang menghadap rambu tersebut. Rambu ini umum digunakan pada jalan satu arah dan pintu masuk yang dibatasi."
+  },
+  {
+    "question": "Jika isyarat tangan petugas polisi bertentangan dengan lampu lalu lintas, pengemudi harus mengikuti petunjuk petugas tersebut.",
+    "image": null,
+    "choices": [
+      "Benar",
+      "Salah"
+    ],
+    "answer": "Benar",
+    "explanation": "Instruksi yang diberikan oleh petugas polisi memiliki prioritas lebih tinggi daripada lampu lalu lintas, rambu jalan, dan marka jalan. Pengemudi secara hukum wajib mematuhi petunjuk petugas tersebut."
+  },
+  {
+    "question": "Peraturan lalu lintas dibuat untuk mendukung pergerakan pejalan kaki dan kendaraan yang aman serta efisien, dan semua pengguna jalan diharapkan untuk mematuhinya.",
+    "image": null,
+    "choices": [
+      "Benar",
+      "Salah"
+    ],
+    "answer": "Benar",
+    "explanation": "Peraturan lalu lintas dirancang untuk mencegah kecelakaan dan menjaga kelancaran arus lalu lintas. Kepatuhan dari semua pengguna jalan berkontribusi pada keselamatan yang lebih baik bagi semua orang."
+  },
+  {
+    "question": "Rambu ini berarti pejalan kaki boleh terus menggunakan jalan, tetapi kendaraan dilarang melanjutkan perjalanan melewati titik ini.",
+    "image": "tsukoshi.jpg",
+    "choices": [
+      "Benar",
+      "Salah"
+    ],
+    "answer": "Salah",
+    "explanation": "Rambu yang ditunjukkan menandakan penutupan jalan atau pembatasan lalu lintas bagi kendaraan, tergantung pada peraturan yang berlaku. Rambu tersebut tidak secara otomatis berarti bahwa semua pejalan kaki diizinkan menggunakan jalan tanpa pembatasan."
+  },
+  {
+    "question": "Menggunakan telepon genggam saat mengemudi berbahaya karena mengalihkan perhatian dari lalu lintas. Oleh karena itu, pengemudi sebaiknya membisukan telepon atau mengaktifkan mode berkendara sebelum memulai perjalanan.",
+    "image": null,
+    "choices": [
+      "Benar",
+      "Salah"
+    ],
+    "answer": "Benar",
+    "explanation": "Penggunaan telepon genggam dapat secara signifikan mengurangi kesadaran dan waktu reaksi pengemudi. Mengambil langkah untuk mencegah gangguan sebelum mengemudi membantu meningkatkan keselamatan."
+  },
+  {
+    "question": "Ketika panah hijau yang mengizinkan belok kanan ditampilkan, hanya kendaraan ringan yang diperbolehkan melanjutkan ke arah tersebut.",
+    "image": null,
+    "choices": [
+      "Benar",
+      "Salah"
+    ],
+    "answer": "Salah",
+    "explanation": "Panah hijau mengizinkan kendaraan di lajur atau arah yang berlaku untuk melanjutkan perjalanan sesuai petunjuk, terlepas dari apakah kendaraan tersebut merupakan kendaraan ringan. Izin tersebut tidak terbatas pada jenis kendaraan tertentu kecuali dinyatakan sebaliknya."
+  },
+  {
+    "question": "Mengulurkan lengan secara diagonal ke bawah dari kendaraan, seperti yang ditunjukkan pada gambar, merupakan isyarat tangan yang menunjukkan bahwa pengemudi sedang mundur.",
+    "image": "hands_down.jpg",
+    "choices": [
+      "Benar",
+      "Salah"
+    ],
+    "answer": "Salah",
+    "explanation": "Isyarat tangan ini tidak digunakan untuk menunjukkan kendaraan sedang mundur. Dalam peraturan lalu lintas Jepang, isyarat seperti ini umumnya berkaitan dengan memperlambat kendaraan atau berhenti, tergantung pada posisi dan gerakan lengan yang tepat."
+  },
+  {
+    "question": "\"Creep\" mengacu pada kecenderungan kendaraan bertransmisi otomatis untuk bergerak perlahan ke depan ketika dimasukkan ke posisi gigi berjalan meskipun pedal gas tidak ditekan.",
+    "image": null,
+    "choices": [
+      "Benar",
+      "Salah"
+    ],
+    "answer": "Salah",
+    "explanation": "Creep terjadi ketika kendaraan otomatis bergerak secara bertahap setelah dipindahkan ke posisi gigi berjalan dan pedal rem dilepas, meskipun pedal gas tidak ditekan. Istilah ini tidak menggambarkan gerakan mendadak yang disebabkan oleh menekan pedal gas."
+  },
+  {
+    "question": "Jika berhenti darurat tidak dapat dihindari pada kendaraan bertransmisi manual, Anda harus menekan pedal kopling pada saat yang sama dengan menginjak rem.",
+    "image": null,
+    "choices": [
+      "Benar",
+      "Salah"
+    ],
+    "answer": "Salah",
+    "explanation": "Dalam keadaan darurat, tindakan utama adalah melakukan pengereman kuat. Menekan kopling secara bersamaan dapat mengurangi manfaat pengereman mesin dan tidak selalu merupakan respons awal yang paling tepat."
+  },
+  {
+    "question": "Ketika seorang polisi atau petugas pengatur lalu lintas mengangkat kedua lengan secara vertikal, isyarat tersebut memiliki arti yang sama dengan lampu lalu lintas merah bagi kendaraan yang menghadap petugas tersebut.",
+    "image": null,
+    "choices": [
+      "Benar",
+      "Salah"
+    ],
+    "answer": "Benar",
+    "explanation": "Menurut aturan pengaturan lalu lintas Jepang, isyarat tangan ini mengharuskan lalu lintas yang menghadap petugas untuk berhenti. Isyarat tangan polisi memiliki prioritas lebih tinggi daripada lampu lalu lintas dan rambu jalan."
+  },
+  {
+    "question": "Rambu ini berarti pengemudi dilarang baik melewati maupun menyalip mobil atau sepeda motor.",
+    "image": "no_overtaking.jpg",
+    "choices": [
+      "Benar",
+      "Salah"
+    ],
+    "answer": "Salah",
+    "explanation": "Rambu yang ditunjukkan menunjukkan pembatasan terkait melewati atau melintasi dengan cara tertentu, tetapi bukan rambu umum \"Dilarang Menyalip\". Pengemudi harus mematuhi larangan khusus yang ditunjukkan oleh rambu tersebut."
+  },
+  {
+    "question": "Di jalan satu arah yang jauh dari persimpangan, Anda boleh bergerak ke sisi kanan jalan untuk memberi jalan kepada kendaraan darurat jika bergerak ke kiri akan menghalangi jalannya.",
+    "image": null,
+    "choices": [
+      "Benar",
+      "Salah"
+    ],
+    "answer": "Benar",
+    "explanation": "Di jalan satu arah, pengemudi harus mengambil tindakan yang paling aman agar kendaraan darurat dapat lewat. Jika bergerak ke kanan memberikan ruang yang lebih baik dan tidak menimbulkan bahaya, hal tersebut dapat menjadi tindakan yang tepat sesuai keadaan."
   }
 ]

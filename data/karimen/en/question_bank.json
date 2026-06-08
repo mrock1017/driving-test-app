@@ -3398,5 +3398,505 @@
     ],
     "answer": "True",
     "explanation": "In Japan, impaired driving can be punished even below the standard alcohol threshold if alcohol has affected safe driving ability."
+  },
+  {
+    "question": "I entered a parking area located on the left side of a road marked with a \"No Vehicle Crossing\" sign.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "A \"No Vehicle Crossing\" sign generally prohibits crossing the center line or roadway in the restricted manner specified. Entering a parking facility on the permitted side of the road does not violate the restriction."
+  },
+  {
+    "question": "Even if my ordinary driver's license has been suspended, I may continue operating a general moped.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "When a driver's license is suspended, the holder loses the authority to operate vehicle classes covered by that license. A suspended license does not permit continued operation of a moped."
+  },
+  {
+    "question": "Drivers must always get into and out of a vehicle from the right side, even when traffic conditions make doing so unsafe.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Drivers and passengers should enter and exit from the side that can be used safely. Safety takes priority over using a particular side of the vehicle."
+  },
+  {
+    "question": "When it is necessary to allow part of the vehicle to extend beyond the center line into the opposing lane, except on a one-way road, the amount extending beyond the center line should be kept to a minimum.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Drivers should remain within their lane whenever possible. If crossing the center line is unavoidable, only the minimum necessary portion of the vehicle should enter the opposing lane."
+  },
+  {
+    "question": "No special towing license is required when towing a disabled vehicle with a rope, tow truck, crane vehicle, or similar equipment, even if the disabled vehicle's gross weight exceeds 750 kilograms.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Towing a disabled vehicle under the applicable breakdown-recovery rules is treated differently from towing a trailer in ordinary operation. In such cases, a towing license is generally not required."
+  },
+  {
+    "question": "Even on a road displaying this 40 km/h speed-limit sign, a general moped must not exceed 30 km/h.",
+    "image": "40.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "The statutory maximum speed for a general moped is 30 km/h unless a lower limit applies. A posted speed limit higher than 30 km/h does not allow a general moped to exceed its legal maximum speed."
+  },
+  {
+    "question": "On a road with two lanes traveling in the same direction, selecting the lane with lighter traffic will always promote safer and smoother traffic flow.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Lane selection should be based on traffic rules, vehicle type, speed, and road conditions, not simply on which lane appears less crowded. Choosing a lane solely because it has fewer vehicles may not always be safe or appropriate."
+  },
+  {
+    "question": "The signs shown are warning signs that alert road users to potential hazards or special road conditions ahead and require increased caution.",
+    "image": "potential_hazards.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Warning signs are designed to notify drivers of conditions such as roadwork, railroad crossings, curves, or other hazards. Drivers should adjust their driving and remain alert when approaching them."
+  },
+  {
+    "question": "A person holding a semi-medium vehicle license or an ordinary driver's license is not permitted to operate a minibus with a seating capacity of 11 to 29 passengers.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Vehicles with a passenger capacity in this range generally require a higher license classification. An ordinary driver's license does not authorize operation of such minibuses."
+  },
+  {
+    "question": "A vehicle with special permission may travel slowly in an area marked by this sign when pedestrians are nearby, but does not need to reduce speed when no pedestrians are present.",
+    "image": "reserved_for_pedestrians.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "The sign indicates a pedestrian-only area. Even vehicles that are exceptionally permitted to enter must proceed with extreme caution and at a slow speed regardless of whether pedestrians are immediately visible."
+  },
+  {
+    "question": "I consumed only a small amount of alcohol and believed I was not impaired, so I drove carefully afterward.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Driving after drinking alcohol is prohibited when it affects driving ability or exceeds legal limits. A driver's personal belief that they are \"not intoxicated\" does not determine whether driving is lawful or safe."
+  },
+  {
+    "question": "The road marking shown indicates that an intersection is located ahead.",
+    "image": "diamond_markings.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "The diamond-shaped pavement markings shown are advance warnings of a pedestrian crossing or bicycle crossing ahead. They are not used to indicate an approaching intersection."
+  },
+  {
+    "question": "In the illustrated lane arrangement, vehicles traveling in lane B may change into another lane in order to make a left or right turn.",
+    "image": "B_cannot_change_lane.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Lane B is designated for straight-ahead travel only. Drivers using that lane must proceed in the direction indicated by the lane markings and may not change lanes solely to make a turn at the intersection."
+  },
+  {
+    "question": "When approaching a flashing yellow traffic signal, drivers are required to proceed at a slow speed.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "A flashing yellow signal permits drivers to proceed after confirming that it is safe to do so. Although caution is required, there is no automatic requirement to travel at \"slow speed\" as defined by traffic regulations."
+  },
+  {
+    "question": "This sign prohibits vehicles whose overall height, including any cargo or load being carried, exceeds 3.3 meters from entering the road.",
+    "image": "height_limit.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "The sign indicates a maximum height restriction of 3.3 meters. Drivers must consider the total height of the vehicle and its load before proceeding."
+  },
+  {
+    "question": "Before overtaking another vehicle, you should activate your turn signal first and check for safety afterward.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Drivers must first confirm that overtaking can be performed safely and then give the appropriate signal before beginning the maneuver. Safety confirmation should never be skipped."
+  },
+  {
+    "question": "Overtaking is permitted by allowing part of the vehicle to cross the center line into the opposing lane if the lane to the left is at least 6 meters wide, visibility is sufficient, and oncoming traffic will not be obstructed.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Overtaking by crossing into the opposing lane is subject to specific legal restrictions and is not automatically permitted under the conditions stated. Drivers must comply with all applicable overtaking rules and road markings."
+  },
+  {
+    "question": "When approaching a person using a wheelchair or carrying a white cane or yellow cane, drivers must either stop temporarily or slow down to ensure the person's safety.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Japanese traffic laws require special consideration for pedestrians with disabilities. Drivers must take appropriate measures to avoid creating danger or obstruction."
+  },
+  {
+    "question": "Whenever passing a safety zone, drivers are required to reduce speed regardless of whether pedestrians are present.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Drivers must exercise caution near a safety zone, but a mandatory reduction to slow speed is not required in every situation. The appropriate action depends on the presence of pedestrians and surrounding conditions."
+  },
+  {
+    "question": "While driving near an intersection, I noticed an emergency vehicle approaching and moved toward the left side of the road while slowing down.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "When an emergency vehicle is approaching near an intersection, drivers should avoid stopping in a manner that obstructs its passage. The proper response depends on the vehicle's direction and proximity to the intersection, and merely slowing while moving left may not satisfy the required yielding procedure."
+  },
+  {
+    "question": "Drivers are not required to slow down or stop for pedestrians crossing a road where no marked crosswalk is present because vehicles have priority.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Drivers must exercise due care to avoid endangering pedestrians, regardless of whether a marked crosswalk is present. Vehicle priority does not remove the obligation to drive safely around pedestrians."
+  },
+  {
+    "question": "I overtook a general moped inside a tunnel that does not have marked traffic lanes.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Overtaking is prohibited in tunnels without designated traffic lanes. Such locations present increased risks due to limited visibility and restricted space."
+  },
+  {
+    "question": "While traveling in a lane reserved for route buses, I remained in that lane even though a school or kindergarten bus was approaching, because it is not a route bus.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Certain exclusive bus lanes may also be used by vehicles specifically authorized under local regulations. Drivers must follow the restrictions and requirements applicable to the lane."
+  },
+  {
+    "question": "At an uncontrolled intersection where the roads differ in width, the general moped shown in the illustration must slow down and yield to the passenger car.",
+    "image": "moped_priority.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "At intersections without traffic control, right-of-way is determined by the applicable traffic rules, including road priority and approach direction. Notice the road the the moped is traveling. The moped is not automatically required to yield merely because the other vehicle is a passenger car."
+  },
+  {
+    "question": "If conditions are safe, the vehicle ahead may be overtaken from either the left or the right side.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Under Japanese traffic rules, overtaking is generally performed on the right side of the vehicle being passed. Passing on the left is only permitted in limited situations specified by law."
+  },
+  {
+    "question": "As a general rule, the lane marked by this sign is reserved for buses, although certain vehicles such as mopeds, light vehicles, and specified small special vehicles may be permitted to use it.",
+    "image": "senyou_lane.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "This sign designates a bus-priority or bus-exclusive lane. However, Japanese traffic regulations allow some vehicle categories to use the lane when specifically permitted."
+  },
+  {
+    "question": "When approaching the crest of a hill, you may maintain your current speed if there is no sign requiring you to slow down.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Visibility is often restricted near the top of an incline. Drivers should reduce speed and proceed cautiously because hazards or oncoming traffic may not be visible."
+  },
+  {
+    "question": "In the situation shown, Vehicle A must not enter the opposing lane in order to overtake Vehicle B.",
+    "image": "solid_white_centerline.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Even though the roadway width is shown as 6 meters, drivers must not overtake by crossing into the opposing lane when doing so would violate overtaking rules or create a danger to oncoming traffic. Safe overtaking conditions must be fully satisfied before attempting the maneuver."
+  },
+  {
+    "question": "When this lane-direction sign is posted before an intersection, drivers must use the lane designated for their intended direction of travel, except in unavoidable situations such as road construction or when yielding to an emergency vehicle.",
+    "image": "designated_direction.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Lane-use control signs require drivers to follow the direction assigned to each lane. Departing from the designated lane is permitted only when allowed by law or when unavoidable circumstances exist."
+  },
+  {
+    "question": "If roadwork blocks part of the roadway, a motorcycle does not need to yield to oncoming traffic because it is smaller than most vehicles.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "The obligation to yield is determined by traffic conditions and right-of-way rules, not by vehicle size. Motorcycles must comply with the same yielding requirements as other vehicles."
+  },
+  {
+    "question": "While driving on a priority road, you do not need to slow down or prepare to stop for vehicles entering from a side road.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Although vehicles on a priority road generally have precedence, drivers must still operate safely and remain prepared for hazards. Appropriate caution is always required at intersections."
+  },
+  {
+    "question": "If a vehicle is stopped immediately before a bicycle crossing, you must pass it slowly and continue ahead.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "A stopped vehicle near a bicycle crossing may be yielding to a cyclist. Drivers must proceed with caution and confirm that no cyclist is crossing before continuing."
+  },
+  {
+    "question": "Unless signs or markings provide otherwise, a regular motorcycle with an engine displacement of 250 cc or less is prohibited from traveling faster than 50 km/h on an ordinary road.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "The maximum speed for a regular motorcycle is generally governed by the posted speed limit and applicable traffic laws. There is no general rule limiting motorcycles of 250 cc or less to 50 km/h."
+  },
+  {
+    "question": "When parking an automatic-transmission vehicle on an uphill slope, the selector lever should be left in the \"D\" position.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "An automatic vehicle should normally be secured using the parking brake and placed in the appropriate parking position, such as \"P.\" Leaving the selector in \"D\" does not properly secure the vehicle."
+  },
+  {
+    "question": "When yielding to an emergency vehicle on a road away from an intersection, it is not always necessary to stop completely if you can safely move aside and allow it to pass.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Outside intersections, drivers should move to the left side of the road and yield to emergency vehicles. A complete stop is not required in every situation if safe passage can be provided."
+  },
+  {
+    "question": "Although drivers are generally required to stop before crossing railway tracks, they may proceed according to the traffic signal when a signal controls the crossing.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "At railway crossings equipped with traffic signals, drivers may follow the signal indication. The usual mandatory stop requirement does not apply when signal control is provided."
+  },
+  {
+    "question": "Whenever making a left or right turn, drivers should reduce speed and proceed cautiously.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Turning increases the risk of collisions with pedestrians, cyclists, and other vehicles. Slowing down improves control and safety during the maneuver."
+  },
+  {
+    "question": "Unless there is a \"Sound Horn\" sign, the horn must never be used, even to prevent danger.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Drivers may use the horn when necessary to avoid immediate danger. The horn is not restricted solely to locations marked with a \"Sound Horn\" sign."
+  },
+  {
+    "question": "This sign means \"No Entry for Vehicles.\"",
+    "image": "no_entry.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "The sign prohibits vehicles from entering from the direction facing the sign. It is commonly used on one-way roads and restricted entrances."
+  },
+  {
+    "question": "If a police officer's hand signals conflict with a traffic signal, drivers must follow the officer's directions.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Instructions given by a police officer take precedence over traffic signals, road signs, and road markings. Drivers are legally required to obey the officer's directions."
+  },
+  {
+    "question": "Traffic rules exist to promote the safe and efficient movement of both pedestrians and vehicles, and all road users are expected to follow them.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Traffic regulations are designed to prevent accidents and maintain orderly traffic flow. Compliance by all road users contributes to safer roads for everyone."
+  },
+  {
+    "question": "This sign means that pedestrians may continue to use the road, but vehicles are prohibited from proceeding beyond this point.",
+    "image": "tsukoshi.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "The sign shown indicates a road closure or traffic restriction for vehicles, depending on the applicable regulation. It does not automatically mean that all pedestrians are permitted to use the roadway without restriction."
+  },
+  {
+    "question": "Using a mobile phone while driving is dangerous because it distracts attention from traffic. Therefore, drivers should silence the phone or use a driving mode before starting a trip.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Mobile phone use can significantly reduce a driver's awareness and reaction time. Taking steps to prevent distractions before driving helps improve safety."
+  },
+  {
+    "question": "When a green arrow authorizing a right turn is displayed, only light vehicles are allowed to proceed in that direction.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "A green arrow permits vehicles in the applicable lane or direction to proceed as indicated, regardless of whether they are light vehicles. The permission is not limited to a specific vehicle class unless otherwise stated."
+  },
+  {
+    "question": "Extending an arm diagonally downward from a vehicle, as illustrated, is a hand signal indicating that the driver is reversing.",
+    "image": "hands_down.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "This hand signal is not used to indicate reversing. Under Japanese traffic rules, such a signal is commonly associated with slowing down or stopping, depending on the exact position and movement of the arm."
+  },
+  {
+    "question": "\"Creep\" refers to the tendency of an automatic-transmission vehicle to move forward slowly when placed in gear even without pressing the accelerator.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Creep occurs when an automatic vehicle moves gradually after being shifted into gear with the brake released, even if the accelerator is not pressed. It is not characterized by abrupt movement caused by pressing the accelerator."
+  },
+  {
+    "question": "If an emergency stop is unavoidable in a manual-transmission vehicle, you should depress the clutch pedal at the same time as applying the brakes.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "In an emergency, the primary action is strong braking. Pressing the clutch simultaneously can reduce the benefit of engine braking and is not always the preferred initial response."
+  },
+  {
+    "question": "When a police officer or traffic controller raises both arms vertically, the signal has the same meaning as a red traffic light for vehicles facing the officer.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Under Japanese traffic control rules, this hand signal requires traffic facing the officer to stop. Police hand signals take precedence over traffic lights and road signs."
+  },
+  {
+    "question": "This sign means that drivers are prohibited from both passing and overtaking automobiles or motorcycles.",
+    "image": "no_overtaking.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "The sign shown indicates a restriction related to passing or crossing in a specified manner, but it is not the general \"No Overtaking\" sign. Drivers should follow the specific prohibition indicated by the sign."
+  },
+  {
+    "question": "On a one-way road away from an intersection, you may move toward the right side of the roadway to yield to an emergency vehicle if moving left would interfere with its passage.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "On a one-way street, drivers should take the action that most safely allows the emergency vehicle to pass. If moving right provides better clearance and does not create danger, it may be appropriate under the circumstances."
   }
 ]
