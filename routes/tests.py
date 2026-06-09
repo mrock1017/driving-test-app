@@ -106,6 +106,32 @@ def set_language(lang):
 
     return redirect('/menu')
 
+@tests.route('/goto-question/<int:index>')
+def goto_question(index):
+
+    if 'order' not in session:
+
+        return redirect('/menu')
+
+    total = len(session.get('order', []))
+
+    if total == 0:
+
+        return redirect('/menu')
+
+    if index < 0:
+
+        index = 0
+
+    if index >= total:
+
+        index = total - 1
+
+    session['current'] = index
+    session.modified = True
+
+    return redirect('/question')
+
 # =========================================================
 # ✅ NEXT QUESTION ROUTE
 # FIXES SKIPPED QUESTIONS

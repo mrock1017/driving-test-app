@@ -37,6 +37,52 @@
 
 <style>
 
+.navigator{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-bottom:18px;
+}
+
+.nav-number{
+    width:42px;
+    height:42px;
+    border-radius:12px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-decoration:none;
+    font-weight:800;
+    background:#e5e7eb;
+    color:#111827;
+    font-size:15px;
+}
+
+.nav-number.answered{
+    background:#22c55e;
+    color:white;
+}
+
+.nav-number.current{
+    background:#2563eb;
+    color:white;
+}
+
+body.dark .nav-number{
+    background:#334155;
+    color:#f8fafc;
+}
+
+body.dark .nav-number.answered{
+    background:#16a34a;
+    color:white;
+}
+
+body.dark .nav-number.current{
+    background:#3b82f6;
+    color:white;
+}
+
 *{
     box-sizing:border-box;
     -webkit-tap-highlight-color:transparent;
@@ -447,6 +493,31 @@ body.dark .situation-box{
 </div>
 
 {% endif %}
+
+{% if not is_reviewer %}
+
+<div class="navigator">
+
+    {% for i in range(total) %}
+
+    <a href="/goto-question/{{ i }}"
+       class="nav-number
+       {% if i + 1 == display_index %}
+           current
+       {% elif i < session.get('answers', [])|length and session.get('answers', [])[i] %}
+           answered
+       {% endif %}">
+
+        {{ i + 1 }}
+
+    </a>
+
+    {% endfor %}
+
+</div>
+
+{% endif %}
+
 
 <div class="card">
 
