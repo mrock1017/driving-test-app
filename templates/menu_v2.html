@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="{{ session.get('lang', 'en') }}">
+<head>
+<title>Japan Driving Test Master</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+*{
+    box-sizing:border-box;
+    -webkit-tap-highlight-color:transparent;
+}
+
+body{
+    margin:0;
+    font-family:'Inter', sans-serif;
+    background:#f1f5f9;
+    color:#0f172a;
+}
+
+.header{
+    padding:22px 18px;
+    background:white;
+    border-bottom-left-radius:24px;
+    border-bottom-right-radius:24px;
+    box-shadow:0 8px 24px rgba(15,23,42,0.08);
+}
+
+.topbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:12px;
+}
+
+.logo{
+    font-size:22px;
+    font-weight:800;
+}
+
+.menu-toggle{
+    width:48px;
+    height:48px;
+    border:none;
+    border-radius:14px;
+    background:#e2e8f0;
+    font-size:26px;
+}
+
+.settings-panel{
+    display:none;
+    margin-top:18px;
+}
+
+.settings-panel.active{
+    display:block;
+}
+
+.settings-btn{
+    display:block;
+    padding:14px;
+    margin-top:10px;
+    border-radius:14px;
+    background:#e2e8f0;
+    color:#0f172a;
+    text-decoration:none;
+    font-weight:700;
+}
+
+.container{
+    max-width:560px;
+    margin:auto;
+    padding:20px 16px 40px;
+}
+
+.dashboard-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:14px;
+}
+
+.dashboard-card{
+    min-height:132px;
+    border-radius:14px;
+    padding:18px;
+    text-decoration:none;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    box-shadow:0 10px 24px rgba(15,23,42,0.12);
+}
+
+.card-icon{
+    font-size:34px;
+}
+
+.card-title{
+    font-size:18px;
+    font-weight:800;
+}
+
+.card-subtitle{
+    font-size:13px;
+    font-weight:600;
+    opacity:0.9;
+    margin-top:4px;
+}
+
+.study-card{ background:#2563eb; }
+.karimen-card{ background:#f97316; }
+.honmen-card{ background:#16a34a; }
+.gaimen-card{ background:#9333ea; }
+.gentsuki-card{
+    background:#eab308;
+    color:#111827;
+}
+.premium-card{
+    background:#f59e0b;
+    color:#111827;
+}
+
+.language-box{
+    margin-top:22px;
+    background:white;
+    border-radius:18px;
+    padding:16px;
+}
+
+.language-title{
+    font-weight:800;
+    margin-bottom:12px;
+}
+
+.language-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:10px;
+}
+
+.language-grid a{
+    text-decoration:none;
+    background:#e2e8f0;
+    color:#0f172a;
+    padding:12px;
+    border-radius:12px;
+    font-weight:700;
+    text-align:center;
+}
+
+body.dark{
+    background:#0f172a;
+    color:white;
+}
+
+body.dark .header,
+body.dark .language-box{
+    background:#1e293b;
+}
+
+body.dark .settings-btn,
+body.dark .menu-toggle,
+body.dark .language-grid a{
+    background:#334155;
+    color:white;
+}
+
+@media(max-width:380px){
+    .dashboard-card{
+        min-height:118px;
+        padding:14px;
+    }
+
+    .card-title{
+        font-size:16px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+    <div class="topbar">
+        <div class="logo">
+            🇯🇵 Japan Driving Test Master
+        </div>
+
+        <button class="menu-toggle" onclick="toggleSettings()">
+            ☰
+        </button>
+    </div>
+
+    <div id="settingsPanel" class="settings-panel">
+
+        {% if session.get('username') %}
+            <div class="settings-btn">
+                👤 {{ session.get('username') }}
+            </div>
+
+            <a href="/logout" class="settings-btn">
+                {{ ui.logout }}
+            </a>
+        {% else %}
+            <a href="/login" class="settings-btn">
+                {{ ui.login }}
+            </a>
+
+            <a href="/register" class="settings-btn">
+                {{ ui.register }}
+            </a>
+        {% endif %}
+
+        <button onclick="toggleDarkMode()" class="settings-btn" style="width:100%; border:none; font-size:16px;">
+            🌙 Dark Mode
+        </button>
+
+        {% if session.get('user_id') %}
+        <a href="{{ url_for('tests.score_history') }}" class="settings-btn">
+            📊 {{ ui.score_history }}
+        </a>
+        {% endif %}
+
+        <a href="/privacy" class="settings-btn">{{ ui.privacy }}</a>
+        <a href="/terms" class="settings-btn">{{ ui.terms }}</a>
+        <a href="/contact" class="settings-btn">{{ ui.contact }}</a>
+    </div>
+</div>
+
+<div class="container">
+
+    <div class="dashboard-grid">
+
+        <a href="/reviewers" class="dashboard-card study-card">
+            <div class="card-icon">🧠</div>
+            <div>
+                <div class="card-title">{{ ui.study_mode }}</div>
+                <div class="card-subtitle">Reviewers & practice</div>
+            </div>
+        </a>
+
+        <a href="/master-info/karimen/karimen_master" class="dashboard-card karimen-card">
+            <div class="card-icon">📝</div>
+            <div>
+                <div class="card-title">{{ ui.karimen_mock }}</div>
+                <div class="card-subtitle">Free unlimited</div>
+            </div>
+        </a>
+
+        <a href="/master-info/honmen/honmen_master" class="dashboard-card honmen-card">
+            <div class="card-icon">🏁</div>
+            <div>
+                <div class="card-title">{{ ui.honmen_mock }}</div>
+                <div class="card-subtitle">95-question exam</div>
+            </div>
+        </a>
+
+        <a href="/master-info/gaimen/gaimen_master" class="dashboard-card gaimen-card">
+            <div class="card-icon">🌏</div>
+            <div>
+                <div class="card-title">{{ ui.gaimen_master }}</div>
+                <div class="card-subtitle">License conversion</div>
+            </div>
+        </a>
+
+        <a href="/master-info/gentsuki/gentsuki_master" class="dashboard-card gentsuki-card">
+            <div class="card-icon">🛵</div>
+            <div>
+                <div class="card-title">{{ ui.gentsuki_master }}</div>
+                <div class="card-subtitle">Moped test</div>
+            </div>
+        </a>
+
+        {% if session.get('is_premium') %}
+        <a href="/customer-portal" class="dashboard-card premium-card">
+            <div class="card-icon">⭐</div>
+            <div>
+                <div class="card-title">{{ ui.premium_active }}</div>
+                <div class="card-subtitle">{{ ui.manage_subscription }}</div>
+            </div>
+        </a>
+        {% else %}
+        <a href="/upgrade" class="dashboard-card premium-card">
+            <div class="card-icon">⭐</div>
+            <div>
+                <div class="card-title">{{ ui.premium_features }}</div>
+                <div class="card-subtitle">{{ ui.unlock_premium }}</div>
+            </div>
+        </a>
+        {% endif %}
+
+    </div>
+
+    <div class="language-box">
+        <div class="language-title">🌐 {{ ui.select_language }}</div>
+
+        <div class="language-grid">
+            <a href="/set-language/en">🇺🇸 English</a>
+            <a href="/set-language/tl">🇵🇭 Tagalog</a>
+            <a href="/set-language/ne">🇳🇵 Nepali</a>
+            <a href="/set-language/vi">🇻🇳 Vietnamese</a>
+            <a href="/set-language/pt">🇵🇹 Portuguese</a>
+            <a href="/set-language/id">🇮🇩 Indonesian</a>
+            <a href="/set-language/ar">🇸🇦 العربية</a>
+            <a href="/set-language/ur">🇵🇰 اردو</a>
+            <a href="/set-language/my">🇲🇲 မြန်မာ</a>
+        </div>
+    </div>
+
+</div>
+
+<script>
+function toggleSettings(){
+    document.getElementById("settingsPanel").classList.toggle("active");
+}
+
+function toggleDarkMode(){
+    document.body.classList.toggle("dark");
+}
+</script>
+
+</body>
+</html>

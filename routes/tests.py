@@ -157,14 +157,9 @@ def next_question():
 def master_info(mode, test):
 
     return render_template(
-
-        'master_info.html',
-
-        mode=mode,
-
-        test=test,
-
-        ui=get_ui()
+        'menu_v2.html',
+        ui=get_ui(),
+        platform=platform
     )
 
 # =========================================================
