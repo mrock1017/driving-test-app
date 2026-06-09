@@ -75,7 +75,7 @@ def menu():
         session['lang'] = 'en'
 
     return render_template(
-        'menu.html',
+        'menu_v2.html',
         ui=get_ui(),
         platform=platform
     )
@@ -157,9 +157,14 @@ def next_question():
 def master_info(mode, test):
 
     return render_template(
-        'menu_v2.html',
-        ui=get_ui(),
-        platform=platform
+
+        'master_info.html',
+
+        mode=mode,
+
+        test=test,
+
+        ui=get_ui()
     )
 
 # =========================================================
