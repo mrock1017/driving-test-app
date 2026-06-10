@@ -80,6 +80,14 @@ def menu():
         platform=platform
     )
 
+@tests.route('/language')
+def language_page():
+
+    return render_template(
+        'language.html',
+        ui=get_ui()
+    )
+
 # =========================================================
 # 🌐 SET LANGUAGE
 # =========================================================
