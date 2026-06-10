@@ -311,6 +311,37 @@ body.dark .language-title{
         font-size:16px;
     }
 }
+
+.language-row{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    text-decoration:none;
+    color:#111827;
+}
+
+.language-current{
+    margin-top:6px;
+    font-size:14px;
+    font-weight:700;
+    color:#64748b;
+}
+
+.language-arrow{
+    font-size:36px;
+    font-weight:700;
+    color:#94a3b8;
+}
+
+body.dark .language-row{
+    color:white;
+}
+
+body.dark .language-current,
+body.dark .language-arrow{
+    color:#cbd5e1;
+}
+
 </style>
 </head>
 
@@ -432,19 +463,25 @@ body.dark .language-title{
     </div>
 
     <div class="language-box">
-        <div class="language-title">🌐 {{ ui.select_language }}</div>
 
-        <div class="language-grid">
-            <a href="/set-language/en">🇺🇸 English</a>
-            <a href="/set-language/tl">🇵🇭 Tagalog</a>
-            <a href="/set-language/ne">🇳🇵 Nepali</a>
-            <a href="/set-language/vi">🇻🇳 Vietnamese</a>
-            <a href="/set-language/pt">🇵🇹 Portuguese</a>
-            <a href="/set-language/id">🇮🇩 Indonesian</a>
-            <a href="/set-language/ar">🇸🇦 العربية</a>
-            <a href="/set-language/ur">🇵🇰 اردو</a>
-            <a href="/set-language/my">🇲🇲 မြန်မာ</a>
-        </div>
+        <a href="/language" class="language-row">
+
+            <div>
+                <div class="language-title">
+                    🌐 Language
+                </div>
+
+                <div class="language-current">
+                    Current: {{ session.get('lang', 'en').upper() }}
+                </div>
+            </div>
+
+            <div class="language-arrow">
+                ›
+            </div>
+
+        </a>
+
     </div>
 
 </div>

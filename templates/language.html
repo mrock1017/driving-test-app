@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html
+    lang="{{ session.get('lang', 'en') }}"
+    dir="{% if session.get('lang') in ['ar', 'ur'] %}rtl{% else %}ltr{% endif %}"
+>
+<head>
+<title>Select Language</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;700&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Myanmar:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    box-sizing:border-box;
+    -webkit-tap-highlight-color:transparent;
+}
+
+body{
+    margin:0;
+    font-family:'Inter', sans-serif;
+    background:linear-gradient(180deg,#f9fafb 0%,#eef2f7 100%);
+    color:#111827;
+}
+
+html[lang="ur"] body{
+    font-family:'Noto Nastaliq Urdu', serif;
+}
+
+html[lang="my"] body{
+    font-family:'Noto Sans Myanmar', sans-serif;
+}
+
+.container{
+    max-width:560px;
+    margin:auto;
+    padding:24px 18px 40px;
+}
+
+.header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    margin-bottom:24px;
+}
+
+.back-btn{
+    width:54px;
+    height:54px;
+    border-radius:18px;
+    background:#eef2f7;
+    color:#007aff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-decoration:none;
+    font-size:34px;
+    font-weight:800;
+}
+
+.title{
+    font-size:32px;
+    font-weight:800;
+    line-height:1.1;
+}
+
+.language-card{
+    background:rgba(255,255,255,.88);
+    border-radius:32px;
+    padding:18px;
+    box-shadow:0 10px 30px rgba(15,23,42,.05);
+}
+
+.language-link{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px;
+    border-radius:22px;
+    text-decoration:none;
+    color:#111827;
+    font-size:20px;
+    font-weight:800;
+    border-bottom:1px solid #eef2f7;
+}
+
+.language-link:last-child{
+    border-bottom:none;
+}
+
+.language-link:active{
+    background:#f1f5f9;
+    transform:scale(.98);
+}
+
+.check{
+    color:#007aff;
+    font-size:22px;
+    font-weight:800;
+}
+
+body.dark{
+    background:#0f172a;
+    color:white;
+}
+
+body.dark .language-card{
+    background:#1e293b;
+}
+
+body.dark .language-link{
+    color:white;
+    border-bottom:1px solid #334155;
+}
+
+body.dark .back-btn{
+    background:#334155;
+    color:#60a5fa;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="header">
+        <a href="/menu" class="back-btn">‹</a>
+
+        <div class="title">
+            🌐 Language
+        </div>
+
+        <div style="width:54px;"></div>
+    </div>
+
+    <div class="language-card">
+
+        <a href="/set-language/en" class="language-link">
+            <span>🇺🇸 English</span>
+            {% if session.get('lang') == 'en' %}<span class="check">✓</span>{% endif %}
+        </a>
+
+        <a href="/set-language/tl" class="language-link">
+            <span>🇵🇭 Tagalog</span>
+            {% if session.get('lang') == 'tl' %}<span class="check">✓</span>{% endif %}
+        </a>
+
+        <a href="/set-language/ne" class="language-link">
+            <span>🇳🇵 Nepali</span>
+            {% if session.get('lang') == 'ne' %}<span class="check">✓</span>{% endif %}
+        </a>
+
+        <a href="/set-language/vi" class="language-link">
+            <span>🇻🇳 Vietnamese</span>
+            {% if session.get('lang') == 'vi' %}<span class="check">✓</span>{% endif %}
+        </a>
+
+        <a href="/set-language/pt" class="language-link">
+            <span>🇵🇹 Portuguese</span>
+            {% if session.get('lang') == 'pt' %}<span class="check">✓</span>{% endif %}
+        </a>
+
+        <a href="/set-language/id" class="language-link">
+            <span>🇮🇩 Indonesian</span>
+            {% if session.get('lang') == 'id' %}<span class="check">✓</span>{% endif %}
+        </a>
+
+        <a href="/set-language/ar" class="language-link">
+            <span>🇸🇦 العربية</span>
+            {% if session.get('lang') == 'ar' %}<span class="check">✓</span>{% endif %}
+        </a>
+
+        <a href="/set-language/ur" class="language-link">
+            <span>🇵🇰 اردو</span>
+            {% if session.get('lang') == 'ur' %}<span class="check">✓</span>{% endif %}
+        </a>
+
+        <a href="/set-language/my" class="language-link">
+            <span>🇲🇲 မြန်မာ</span>
+            {% if session.get('lang') == 'my' %}<span class="check">✓</span>{% endif %}
+        </a>
+
+    </div>
+
+</div>
+
+<script>
+if(localStorage.getItem("darkMode") === "true"){
+    document.body.classList.add("dark");
+}
+</script>
+
+</body>
+</html>
