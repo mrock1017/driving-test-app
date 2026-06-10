@@ -121,6 +121,73 @@ html[dir="rtl"] .settings-btn{
     display:block;
 }
 
+.settings-card{
+
+    margin-top:18px;
+
+    background:
+        rgba(255,255,255,.92);
+
+    border-radius:28px;
+
+    overflow:hidden;
+
+    box-shadow:
+        0 10px 30px rgba(15,23,42,.05);
+}
+
+.settings-row{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:18px 20px;
+
+    text-decoration:none;
+
+    color:#111827;
+
+    font-weight:700;
+
+    border-bottom:
+        1px solid #eef2f7;
+}
+
+.settings-row:last-child{
+
+    border-bottom:none;
+}
+
+.settings-arrow{
+
+    color:#94a3b8;
+
+    font-size:24px;
+
+    font-weight:700;
+}
+
+body.dark .settings-card{
+
+    background:#1e293b;
+}
+
+body.dark .settings-row{
+
+    color:white;
+
+    border-bottom:
+        1px solid #334155;
+}
+
+body.dark .settings-arrow{
+
+    color:#94a3b8;
+}
+
 .settings-btn{
     display:block;
     padding:14px;
@@ -360,41 +427,170 @@ body.dark .language-arrow{
 
     <div id="settingsPanel" class="settings-panel">
 
-        {% if session.get('username') %}
-            <div class="settings-btn">
-                👤 {{ session.get('username') }}
+        <div class="settings-card">
 
-                {% if session.get('is_premium') %}
-                    <span class="premium-badge">⭐ Premium</span>
-                {% endif %}
-            </div>
+            {% if session.get('username') %}
 
-            <a href="/logout" class="settings-btn">
-                {{ ui.logout }}
-            </a>
-        {% else %}
-            <a href="/login" class="settings-btn">
-                {{ ui.login }}
-            </a>
+                <div class="settings-row">
 
-            <a href="/register" class="settings-btn">
-                {{ ui.register }}
-            </a>
-        {% endif %}
+                    <span>
+                        👤 {{ session.get('username') }}
 
-        <button onclick="toggleDarkMode()" class="settings-btn" style="width:100%; border:none; font-size:16px;">
-            🌙 Dark Mode
-        </button>
+                        {% if session.get('is_premium') %}
+                            <span class="premium-badge">
+                                ⭐ Premium
+                            </span>
+                        {% endif %}
+                    </span>
 
-        {% if session.get('user_id') %}
-        <a href="{{ url_for('tests.score_history') }}" class="settings-btn">
-            📊 {{ ui.score_history }}
-        </a>
-        {% endif %}
+                </div>
 
-        <a href="/privacy" class="settings-btn">{{ ui.privacy }}</a>
-        <a href="/terms" class="settings-btn">{{ ui.terms }}</a>
-        <a href="/contact" class="settings-btn">{{ ui.contact }}</a>
+                <a href="{{ url_for('tests.score_history') }}"
+                class="settings-row">
+
+                    <span>📊 Score History</span>
+
+                    <span class="settings-arrow">›</span>
+
+                </a>
+
+                <a href="/language"
+                class="settings-row">
+
+                    <span>🌐 Language</span>
+
+                    <span class="settings-arrow">›</span>
+
+                </a>
+
+                <button
+                    onclick="toggleDarkMode()"
+                    class="settings-row"
+                    style="
+                        width:100%;
+                        background:none;
+                        border:none;
+                        cursor:pointer;
+                    ">
+
+                    <span>🌙 Dark Mode</span>
+
+                    <span class="settings-arrow">›</span>
+
+                </button>
+
+                <a href="/privacy"
+                class="settings-row">
+
+                    <span>🔒 Privacy Policy</span>
+
+                    <span class="settings-arrow">›</span>
+
+                </a>
+
+                <a href="/terms"
+                class="settings-row">
+
+                    <span>📄 Terms of Use</span>
+
+                    <span class="settings-arrow">›</span>
+
+                </a>
+
+                <a href="/contact"
+                class="settings-row">
+
+                    <span>✉️ Contact Us</span>
+
+                    <span class="settings-arrow">›</span>
+
+                </a>
+
+                <a href="/logout"
+                class="settings-row">
+
+                    <span>🚪 Logout</span>
+
+                    <span class="settings-arrow">›</span>
+
+                </a>
+
+            {% else %}
+
+                <a href="/login"
+                class="settings-row">
+
+                    <span>🔑 Login</span>
+
+                    <span class="settings-arrow">›</span>
+
+                </a>
+
+                <a href="/register"
+                class="settings-row">
+
+                    <span>☁️ Backup Progress</span>
+
+                    <span class="settings-arrow">›</span>
+
+                </a>
+
+                <a href="/language"
+                class="settings-row">
+
+                    <span>🌐 Language</span>
+
+                    <span class="settings-arrow">›</span>
+
+                </a>
+
+                <button
+                    onclick="toggleDarkMode()"
+                    class="settings-row"
+                    style="
+                        width:100%;
+                        background:none;
+                        border:none;
+                        cursor:pointer;
+                    ">
+
+                    <span>🌙 Dark Mode</span>
+
+                    <span class="settings-arrow">›</span>
+
+                </button>
+
+                <a href="/privacy"
+                class="settings-row">
+
+                    <span>🔒 Privacy Policy</span>
+
+                    <span class="settings-arrow">›</span>
+
+                </a>
+
+                <a href="/terms"
+                class="settings-row">
+
+                    <span>📄 Terms of Use</span>
+
+                    <span class="settings-arrow">›</span>
+
+                </a>
+
+                <a href="/contact"
+                class="settings-row">
+
+                    <span>✉️ Contact Us</span>
+
+                    <span class="settings-arrow">›</span>
+
+                </a>
+
+            {% endif %}
+
+        </div>
+
     </div>
 </div>
 
