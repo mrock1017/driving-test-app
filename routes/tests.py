@@ -181,6 +181,7 @@ def start_mode(mode, test):
     session.pop('order', None)
     session.pop('answers', None)
     session.pop('current', None)
+    session.pop('exam_submitted', None)
 
     language = session.get('lang', 'en')
 
@@ -957,6 +958,18 @@ def question():
 
         ui=get_ui()
     )
+
+@tests.route('/submit-exam')
+def submit_exam():
+
+    if 'order' not in session:
+
+        return redirect('/menu')
+
+    session['exam_submitted'] = True
+    session.modified = True
+
+    return redirect('/result')
 
 # =========================================================
 # 🏆 RESULT PAGE

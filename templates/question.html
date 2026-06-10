@@ -602,11 +602,31 @@ body.dark .situation-box{
     type="submit"
     class="submit-btn">
 
-    Next
+    {% if display_index == total %}
+
+        Save Answer
+
+    {% else %}
+
+        Next
+
+    {% endif %}
 
 </button>
 
 </form>
+
+{% if not is_reviewer %}
+
+<a href="/submit-exam"
+   class="next-btn"
+   onclick="return confirm('Submit exam now?')">
+
+   ✅ Submit Exam
+
+</a>
+
+{% endif %}
 
 {% elif is_reviewer and feedback %}
 
