@@ -358,6 +358,33 @@ body.dark .ai-box{
     box-shadow 0.12s ease;
 }
 
+.review-card{
+
+    border-left:4px solid transparent;
+}
+
+.review-card.wrong-answer{
+
+    border-left:4px solid #ff453a;
+
+    background:#fff8f8;
+}
+
+.review-card:not(.wrong-answer){
+
+    border-left:4px solid #34c759;
+}
+
+body.dark .review-card.wrong-answer{
+
+    background:#2a1616;
+}
+
+body.dark .review-card:not(.wrong-answer){
+
+    background:#111827;
+}
+
 .card:hover{
 
     transform:translateY(-1px);
@@ -904,22 +931,11 @@ body.dark .button-secondary{
 
             <div class="ai-box">
 
-                <b>🧠 AI Explanation</b>
+                <b>🧠 Detailed Explanation</b>
 
                 <p>
 
-                    {% if r.is_correct %}
-
-                        Great job.
-                        This answer follows Japanese driving safety rules and proper road awareness.
-
-                    {% else %}
-
-                        This question tests safe driving judgment, hazard prediction,
-                        and road rule understanding.
-                        Review defensive driving principles carefully.
-
-                    {% endif %}
+                    {{ r.explanation }}
 
                 </p>
 
