@@ -1,92 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-
-    <link rel="apple-touch-icon"
-          href="/static/images/icon.png?v=2">
+    <link rel="apple-touch-icon" href="/static/images/icon.png?v=2">
 
     <title>Japan Driving Test Master</title>
 
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="manifest"
-          href="{{ url_for('static', filename='manifest.json') }}">
+    <link rel="manifest" href="{{ url_for('static', filename='manifest.json') }}">
 
-    <meta name="theme-color"
-          content="#2563eb">
+    <meta name="theme-color" content="#2563eb">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Driving Test Master">
 
-    <meta name="apple-mobile-web-app-capable"
-          content="yes">
-
-    <meta name="apple-mobile-web-app-status-bar-style"
-          content="black-translucent">
-
-    <meta name="apple-mobile-web-app-title"
-          content="Driving Test Master">
-
-    <link rel="preconnect"
-          href="https://fonts.googleapis.com">
-
-    <link rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
-          rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
 <style>
-
-.navigator{
-    display:flex;
-    flex-wrap:wrap;
-    gap:5px;
-    margin-bottom:16px;
-}
-
-.nav-number{
-    width:30px;
-    height:30px;
-    border-radius:8px;
-
-    display:flex;
-    align-items:center;
-    justify-content:center;
-
-    text-decoration:none;
-
-    font-weight:700;
-    font-size:12px;
-
-    background:#e5e7eb;
-    color:#111827;
-}
-
-.nav-number.answered{
-    background:#22c55e;
-    color:white;
-}
-
-.nav-number.current{
-    background:#2563eb;
-    color:white;
-}
-
-body.dark .nav-number{
-    background:#334155;
-    color:#f8fafc;
-}
-
-body.dark .nav-number.answered{
-    background:#16a34a;
-    color:white;
-}
-
-body.dark .nav-number.current{
-    background:#3b82f6;
-    color:white;
-}
-
 *{
     box-sizing:border-box;
     -webkit-tap-highlight-color:transparent;
@@ -99,23 +31,13 @@ html{
 body{
     font-family:'Inter', sans-serif;
     margin:0;
-    background:linear-gradient(
-        180deg,
-        #f8fbff 0%,
-        #eef4fb 60%,
-        #edf2f7 100%
-    );
+    background:linear-gradient(180deg,#f8fbff 0%,#eef4fb 60%,#edf2f7 100%);
     color:#0f172a;
     min-height:100vh;
 }
 
 body.dark{
-    background:linear-gradient(
-        180deg,
-        #0f172a 0%,
-        #111827 60%,
-        #1e293b 100%
-    );
+    background:linear-gradient(180deg,#0f172a 0%,#111827 60%,#1e293b 100%);
     color:#f1f5f9;
 }
 
@@ -210,11 +132,7 @@ body.dark .progress-bar{
 
 .progress{
     height:10px;
-    background:linear-gradient(
-        90deg,
-        #60a5fa,
-        #2563eb
-    );
+    background:linear-gradient(90deg,#60a5fa,#2563eb);
     border-radius:999px;
     transition:width 0.25s ease;
 }
@@ -228,6 +146,52 @@ body.dark .progress-bar{
 
 body.dark .timer{
     color:#e2e8f0;
+}
+
+.navigator{
+    display:flex;
+    flex-wrap:wrap;
+    gap:5px;
+    margin-bottom:16px;
+}
+
+.nav-number{
+    width:30px;
+    height:30px;
+    border-radius:8px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-decoration:none;
+    font-weight:700;
+    font-size:12px;
+    background:#e5e7eb;
+    color:#111827;
+}
+
+.nav-number.answered{
+    background:#22c55e;
+    color:white;
+}
+
+.nav-number.current{
+    background:#2563eb;
+    color:white;
+}
+
+body.dark .nav-number{
+    background:#334155;
+    color:#f8fafc;
+}
+
+body.dark .nav-number.answered{
+    background:#16a34a;
+    color:white;
+}
+
+body.dark .nav-number.current{
+    background:#3b82f6;
+    color:white;
 }
 
 .card{
@@ -304,11 +268,7 @@ button,
     font-weight:800;
     border:none;
     border-radius:20px;
-    background:linear-gradient(
-        135deg,
-        #3b82f6,
-        #2563eb
-    );
+    background:linear-gradient(135deg,#3b82f6,#2563eb);
     color:white;
     margin-top:22px;
     cursor:pointer;
@@ -382,7 +342,6 @@ body.dark .situation-box{
 }
 
 @media(max-width:640px){
-
     .container{
         padding:14px 12px 40px;
     }
@@ -405,408 +364,265 @@ body.dark .situation-box{
         font-size:17px;
     }
 }
-
 </style>
 </head>
 
 <body>
 
 <div class="header">
-
     <div>
-
         <div class="title">
-
             <span>🚗</span>
-
             <span>Driving Test</span>
-
         </div>
 
         <div class="language-badge">
-
             🌐 {{ session.get('lang', 'en').upper() }}
-
         </div>
 
         {% if session.get('username') %}
-
         <div class="language-badge">
-
             👤 {{ session.get('username') }}
-
         </div>
+        {% endif %}
+    </div>
+
+    <div class="header-buttons">
+        <button class="dark-btn" onclick="toggleDarkMode()">🌙</button>
+
+        <a href="/quit"
+           class="quit"
+           onclick="return confirm('Quit exam? Progress will be lost.')">
+           Quit
+        </a>
+    </div>
+</div>
+
+<div class="container">
+
+    <div class="question-status">
+        {% if is_reviewer %}
+            Review Question {{ display_index }}
+        {% else %}
+            Question {{ display_index }} / {{ total }}
+        {% endif %}
+    </div>
+
+    <div class="progress-bar">
+        <div class="progress" style="width: {{ (display_index / total) * 100 }}%;"></div>
+    </div>
+
+    {% if not is_reviewer %}
+    <div class="timer">
+        ⏱ <span id="timer"></span>
+    </div>
+    {% endif %}
+
+    {% if not is_reviewer %}
+    <div class="navigator">
+        {% for i in range(total) %}
+        <a href="/goto-question/{{ i }}"
+           class="nav-number
+           {% if i + 1 == display_index %}
+               current
+           {% elif i < session.get('answers', [])|length and session.get('answers', [])[i] %}
+               answered
+           {% endif %}">
+            {{ i + 1 }}
+        </a>
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    <div class="card">
+
+        {% if "items" in q and not is_reviewer %}
+
+            <div class="group-title">
+                Group Question {{ q.question_group }}
+            </div>
+
+            <div class="situation-box">
+                {{ q.situation }}
+            </div>
+
+            {% if q.get('image') %}
+            <img
+                src="{{ url_for('static', filename='images/' ~ q.get('image')) }}"
+                loading="lazy"
+                draggable="false"
+                onerror="this.style.display='none'">
+            {% endif %}
+
+            <form method="POST" action="/question" class="question-form">
+
+                {% for item in q["items"] %}
+
+                <div class="group-question">
+
+                    <div class="group-number">
+                        Question {{ item.number }}
+                    </div>
+
+                    <p class="question-text">
+                        {{ item.question }}
+                    </p>
+
+                    <label class="choice">
+                        <input
+                            type="radio"
+                            name="answer_{{ item.number }}"
+                            value="True"
+                            required>
+                        <span>True</span>
+                    </label>
+
+                    <label class="choice">
+                        <input
+                            type="radio"
+                            name="answer_{{ item.number }}"
+                            value="False"
+                            required>
+                        <span>False</span>
+                    </label>
+
+                </div>
+
+                {% endfor %}
+
+                <button type="submit" class="submit-btn">
+                    {% if display_index == total %}
+                        Save Answer
+                    {% else %}
+                        Next
+                    {% endif %}
+                </button>
+
+            </form>
+
+            {% if display_index == total %}
+            <a href="/submit-exam"
+               class="next-btn"
+               onclick="return confirm('Submit exam now?')">
+               ✅ Submit Exam
+            </a>
+            {% endif %}
+
+        {% elif is_reviewer and feedback %}
+
+            <p class="question-text">
+                {{ q.question }}
+            </p>
+
+            {% if q.image %}
+            <img
+                src="{{ url_for('static', filename='images/' ~ q.image) }}"
+                loading="lazy"
+                draggable="false"
+                onerror="this.style.display='none'">
+            {% endif %}
+
+            <div class="feedback-box">
+
+                <p class="{{ 'correct' if is_correct else 'incorrect' }}">
+                    Your answer: {{ user_answer }}
+                </p>
+
+                <p>
+                    <b>Correct:</b> {{ correct_answer }}
+                </p>
+
+                <p>
+                    {{ explanation }}
+                </p>
+
+            </div>
+
+            {% if ai_explanation %}
+            <div class="ai-box">
+                <b>🧠 AI Explanation</b>
+                <p>{{ ai_explanation }}</p>
+            </div>
+            {% endif %}
+
+            <a href="/next" class="next-btn">
+               Next Question
+            </a>
+
+        {% else %}
+
+            <p class="question-text">
+                {{ q.question }}
+            </p>
+
+            {% if q.image %}
+            <img
+                src="{{ url_for('static', filename='images/' ~ q.image) }}"
+                loading="lazy"
+                draggable="false"
+                onerror="this.style.display='none'">
+            {% endif %}
+
+            <form method="POST" action="/question" class="question-form">
+
+                {% for choice in q.choices %}
+
+                <label class="choice">
+                    <input
+                        type="radio"
+                        name="answer"
+                        value="{{ choice }}"
+                        required>
+                    <span>{{ choice }}</span>
+                </label>
+
+                {% endfor %}
+
+                <button type="submit" class="submit-btn">
+                    {% if is_reviewer %}
+                        Submit
+                    {% elif display_index == total %}
+                        Save Answer
+                    {% else %}
+                        Next
+                    {% endif %}
+                </button>
+
+            </form>
+
+            {% if not is_reviewer and display_index == total %}
+            <a href="/submit-exam"
+               class="next-btn"
+               onclick="return confirm('Submit exam now?')">
+               ✅ Submit Exam
+            </a>
+            {% endif %}
 
         {% endif %}
 
     </div>
 
-    <div class="header-buttons">
-
-        <button
-            class="dark-btn"
-            onclick="toggleDarkMode()">
-
-            🌙
-
-        </button>
-
-        <a href="/quit"
-           class="quit"
-           onclick="return confirm('Quit exam? Progress will be lost.')">
-
-           Quit
-
-        </a>
-
-    </div>
-
-</div>
-
-<div class="container">
-
-<div class="question-status">
-
-    {% if is_reviewer %}
-
-        Review Question {{ display_index }}
-
-    {% else %}
-
-        Question {{ display_index }} / {{ total }}
-
-    {% endif %}
-
-</div>
-
-<div class="progress-bar">
-
-    <div class="progress"
-         style="width: {{ (display_index / total) * 100 }}%;">
-
-    </div>
-
 </div>
 
 {% if not is_reviewer %}
-
-<div class="timer">
-
-    ⏱ <span id="timer"></span>
-
-</div>
-
-{% endif %}
-
-{% if not is_reviewer %}
-
-<div class="navigator">
-
-    {% for i in range(total) %}
-
-    <a href="/goto-question/{{ i }}"
-       class="nav-number
-       {% if i + 1 == display_index %}
-           current
-       {% elif i < session.get('answers', [])|length and session.get('answers', [])[i] %}
-           answered
-       {% endif %}">
-
-        {{ i + 1 }}
-
-    </a>
-
-    {% endfor %}
-
-</div>
-
-{% endif %}
-
-
-<div class="card">
-
-{% if "items" in q and not is_reviewer %}
-
-<div class="group-title">
-
-    Group Question {{ q.question_group }}
-
-</div>
-
-<div class="situation-box">
-
-    {{ q.situation }}
-
-</div>
-
-{% if q.get('image') %}
-
-<img
-    src="{{ url_for(
-        'static',
-        filename='images/' ~ q.get('image')
-    ) }}"
-    loading="lazy"
-    draggable="false"
-    onerror="this.style.display='none'">
-
-{% endif %}
-
-<form method="POST" action="/question" class="question-form">
-
-{% for item in q["items"] %}
-
-<div class="group-question">
-
-    <div class="group-number">
-
-        Question {{ item.number }}
-
-    </div>
-
-    <p class="question-text">
-
-        {{ item.question }}
-
-    </p>
-
-    <label class="choice">
-
-        <input
-            type="radio"
-            name="answer_{{ item.number }}"
-            value="True"
-            required>
-
-        <span>True</span>
-
-    </label>
-
-    <label class="choice">
-
-        <input
-            type="radio"
-            name="answer_{{ item.number }}"
-            value="False"
-            required>
-
-        <span>False</span>
-
-    </label>
-
-</div>
-
-{% endfor %}
-
-<button
-    type="submit"
-    class="submit-btn">
-
-    {% if is_reviewer %}
-
-        Submit
-
-    {% elif display_index == total %}
-
-        Save Answer
-
-    {% else %}
-
-        Next
-
-    {% endif %}
-
-</button>
-
-</form>
-
-{% if not is_reviewer %}
-
-<a href="/submit-exam"
-   class="next-btn"
-   onclick="return confirm('Submit exam now?')">
-
-   ✅ Submit Exam
-
-</a>
-
-{% endif %}
-
-{% elif is_reviewer and feedback %}
-
-<p class="question-text">
-
-    {{ q.question }}
-
-</p>
-
-{% if q.image %}
-
-<img
-    src="{{ url_for(
-        'static',
-        filename='images/' ~ q.image
-    ) }}"
-    loading="lazy"
-    draggable="false"
-    onerror="this.style.display='none'">
-
-{% endif %}
-
-<div class="feedback-box">
-
-<p class="{{ 'correct' if is_correct else 'incorrect' }}">
-
-    Your answer: {{ user_answer }}
-
-</p>
-
-<p>
-
-    <b>Correct:</b>
-    {{ correct_answer }}
-
-</p>
-
-<p>
-
-    {{ explanation }}
-
-</p>
-
-</div>
-
-{% if ai_explanation %}
-
-<div class="ai-box">
-
-    <b>🧠 AI Explanation</b>
-
-    <p>
-
-        {{ ai_explanation }}
-
-    </p>
-
-</div>
-
-{% endif %}
-
-<a href="/next"
-   class="next-btn">
-
-   Next Question
-
-</a>
-
-{% else %}
-
-<p class="question-text">
-
-    {{ q.question }}
-
-</p>
-
-{% if q.image %}
-
-<img
-    src="{{ url_for(
-        'static',
-        filename='images/' ~ q.image
-    ) }}"
-    loading="lazy"
-    draggable="false"
-    onerror="this.style.display='none'">
-
-{% endif %}
-
-<form method="POST" action="/question" class="question-form">
-
-{% for choice in q.choices %}
-
-<label class="choice">
-
-    <input
-        type="radio"
-        name="answer"
-        value="{{ choice }}"
-        required>
-
-    <span>{{ choice }}</span>
-
-</label>
-
-{% endfor %}
-
-<button
-    type="submit"
-    class="submit-btn">
-
-    {% if is_reviewer %}
-
-        Submit
-
-    {% elif display_index == total %}
-
-        Save Answer
-
-    {% else %}
-
-        Next
-
-    {% endif %}
-
-</button>
-
-</form>
-
-{% if not is_reviewer %}
-
-<a href="/submit-exam"
-   class="next-btn"
-   onclick="return confirm('Submit exam now?')">
-
-   ✅ Submit Exam
-
-</a>
-
-{% endif %}
-
-{% endif %}
-
-</div>
-
-</div>
-
-{% if not is_reviewer %}
-
 <script>
-
 let time = {{ remaining or 0 }};
 
 function updateTimer(){
-
     if(time < 0){
-
         return;
     }
 
     let m = Math.floor(time / 60);
-
     let s = time % 60;
 
-    const timer =
-        document.getElementById("timer");
+    const timer = document.getElementById("timer");
 
     if(timer){
-
-        timer.innerText =
-
-            m + ":" + (s < 10 ? "0" : "") + s;
+        timer.innerText = m + ":" + (s < 10 ? "0" : "") + s;
     }
 
     if(time <= 0){
-
         window.location.replace("/submit-exam");
     }
 
@@ -814,17 +630,12 @@ function updateTimer(){
 }
 
 updateTimer();
-
 setInterval(updateTimer, 1000);
-
 </script>
-
 {% endif %}
 
 <script>
-
 function toggleDarkMode(){
-
     document.body.classList.toggle('dark');
 
     localStorage.setItem(
@@ -834,41 +645,30 @@ function toggleDarkMode(){
 }
 
 if(localStorage.getItem('darkMode') === 'true'){
-
     document.body.classList.add('dark');
 }
-
 </script>
 
 <script>
-
 document.querySelectorAll('form').forEach(form => {
-
     let submitted = false;
 
     form.addEventListener('submit', function(event){
-
         if(submitted){
-
             event.preventDefault();
             return;
         }
 
         submitted = true;
 
-        const button =
-            form.querySelector('.submit-btn');
+        const button = form.querySelector('.submit-btn');
 
         if(button){
-
             button.disabled = true;
-
-            button.innerHTML =
-                '⏳ Loading...';
+            button.innerHTML = '⏳ Loading...';
         }
     });
 });
-
 </script>
 
 </body>
