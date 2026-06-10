@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="apple-touch-icon"
+          href="/static/images/icon.png?v=2">
+
+    <title>Japan Driving Test Master</title>
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <link rel="manifest"
+          href="{{ url_for('static', filename='manifest.json') }}">
+
+    <meta name="theme-color"
+          content="#2563eb">
+
+    <meta name="apple-mobile-web-app-capable"
+          content="yes">
+
+    <meta name="apple-mobile-web-app-status-bar-style"
+          content="black-translucent">
+
+    <meta name="apple-mobile-web-app-title"
+          content="Driving Test Master">
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+<style>
+
+.navigator{
+    display:flex;
+    flex-wrap:wrap;
+    gap:5px;
+    margin-bottom:16px;
+}
+
+.nav-number{
+    width:30px;
+    height:30px;
+    border-radius:8px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    text-decoration:none;
+
+    font-weight:700;
+    font-size:12px;
+
+    background:#e5e7eb;
+    color:#111827;
+}
+
+.nav-number.answered{
+    background:#22c55e;
+    color:white;
+}
+
+.nav-number.current{
+    background:#2563eb;
+    color:white;
+}
+
+body.dark .nav-number{
+    background:#334155;
+    color:#f8fafc;
+}
+
+body.dark .nav-number.answered{
+    background:#16a34a;
+    color:white;
+}
+
+body.dark .nav-number.current{
+    background:#3b82f6;
+    color:white;
+}
+
+*{
+    box-sizing:border-box;
+    -webkit-tap-highlight-color:transparent;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Inter', sans-serif;
+    margin:0;
+    background:linear-gradient(
+        180deg,
+        #f8fbff 0%,
+        #eef4fb 60%,
+        #edf2f7 100%
+    );
+    color:#0f172a;
+    min-height:100vh;
+}
+
+body.dark{
+    background:linear-gradient(
+        180deg,
+        #0f172a 0%,
+        #111827 60%,
+        #1e293b 100%
+    );
+    color:#f1f5f9;
+}
+
+.container{
+    max-width:560px;
+    margin:auto;
+    padding:18px 16px 40px;
+}
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:rgba(255,255,255,0.82);
+    backdrop-filter:blur(16px);
+    padding:18px;
+    position:sticky;
+    top:0;
+    z-index:100;
+    border-bottom-left-radius:24px;
+    border-bottom-right-radius:24px;
+    box-shadow:0 8px 30px rgba(15,23,42,0.06);
+}
+
+body.dark .header{
+    background:rgba(15,23,42,0.92);
+}
+
+.title{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    font-weight:800;
+    font-size:24px;
+}
+
+.language-badge{
+    margin-top:4px;
+    font-size:13px;
+    font-weight:700;
+    color:#64748b;
+}
+
+.header-buttons{
+    display:flex;
+    gap:10px;
+}
+
+.dark-btn{
+    background:#1e293b;
+    color:white;
+    border:none;
+    padding:12px 14px;
+    border-radius:16px;
+    font-size:14px;
+    font-weight:700;
+    cursor:pointer;
+}
+
+.quit{
+    background:#ef4444;
+    color:white;
+    padding:12px 16px;
+    border-radius:16px;
+    text-decoration:none;
+    font-size:15px;
+    font-weight:700;
+}
+
+.question-status{
+    margin-top:16px;
+    font-size:15px;
+    font-weight:700;
+    color:#475569;
+}
+
+body.dark .question-status{
+    color:#cbd5e1;
+}
+
+.progress-bar{
+    height:10px;
+    background:#dbe7f5;
+    border-radius:999px;
+    overflow:hidden;
+    margin:12px 0 18px;
+}
+
+body.dark .progress-bar{
+    background:#334155;
+}
+
+.progress{
+    height:10px;
+    background:linear-gradient(
+        90deg,
+        #60a5fa,
+        #2563eb
+    );
+    border-radius:999px;
+    transition:width 0.25s ease;
+}
+
+.timer{
+    font-weight:700;
+    color:#334155;
+    margin-bottom:18px;
+    font-size:16px;
+}
+
+body.dark .timer{
+    color:#e2e8f0;
+}
+
+.card{
+    background:white;
+    border:1px solid rgba(226,232,240,0.8);
+    padding:24px 20px;
+    border-radius:28px;
+    box-shadow:0 10px 30px rgba(15,23,42,0.05);
+}
+
+body.dark .card{
+    background:#1e293b;
+    border:1px solid #334155;
+}
+
+.question-text{
+    font-size:20px;
+    line-height:1.55;
+    font-weight:700;
+    margin-bottom:20px;
+}
+
+body.dark .question-text{
+    color:white;
+}
+
+img{
+    width:100%;
+    border-radius:22px;
+    margin-top:16px;
+    margin-bottom:22px;
+}
+
+.choice{
+    display:flex;
+    align-items:center;
+    gap:14px;
+    padding:18px;
+    margin:14px 0;
+    border-radius:20px;
+    border:1px solid #e2e8f0;
+    background:white;
+    cursor:pointer;
+    transition:0.2s ease;
+}
+
+.choice:hover{
+    transform:translateY(-1px);
+}
+
+body.dark .choice{
+    background:#0f172a;
+    border:1px solid #334155;
+}
+
+.choice input{
+    transform:scale(1.3);
+}
+
+.choice span{
+    font-size:18px;
+    font-weight:600;
+}
+
+button,
+.next-btn{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-decoration:none;
+    padding:16px;
+    font-size:18px;
+    font-weight:800;
+    border:none;
+    border-radius:20px;
+    background:linear-gradient(
+        135deg,
+        #3b82f6,
+        #2563eb
+    );
+    color:white;
+    margin-top:22px;
+    cursor:pointer;
+}
+
+button:disabled{
+    opacity:0.7;
+    cursor:not-allowed;
+}
+
+.correct{
+    color:#16a34a;
+    font-weight:700;
+}
+
+.incorrect{
+    color:#dc2626;
+    font-weight:700;
+}
+
+.ai-box{
+    margin-top:20px;
+    padding:18px;
+    border-radius:18px;
+    background:#eff6ff;
+    border:1px solid #93c5fd;
+    line-height:1.7;
+}
+
+body.dark .ai-box{
+    background:#0f172a;
+    border:1px solid #334155;
+}
+
+.group-question{
+    margin-top:24px;
+    padding-top:22px;
+    border-top:1px solid #e2e8f0;
+}
+
+.group-number{
+    font-weight:800;
+    margin-bottom:12px;
+    color:#2563eb;
+}
+
+.group-title{
+    font-size:24px;
+    font-weight:800;
+    color:#2563eb;
+    margin-bottom:16px;
+}
+
+.situation-box{
+    background:#eff6ff;
+    border:1px solid #bfdbfe;
+    padding:18px;
+    border-radius:20px;
+    margin-bottom:22px;
+    line-height:1.7;
+}
+
+body.dark .situation-box{
+    background:#0f172a;
+    border:1px solid #334155;
+}
+
+.feedback-box{
+    margin-top:20px;
+    line-height:1.8;
+}
+
+@media(max-width:640px){
+
+    .container{
+        padding:14px 12px 40px;
+    }
+
+    .card{
+        padding:20px 16px;
+        border-radius:24px;
+    }
+
+    .question-text{
+        font-size:18px;
+    }
+
+    .choice span{
+        font-size:16px;
+    }
+
+    button,
+    .next-btn{
+        font-size:17px;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="header">
+
+    <div>
+
+        <div class="title">
+
+            <span>🚗</span>
+
+            <span>Driving Test</span>
+
+        </div>
+
+        <div class="language-badge">
+
+            🌐 {{ session.get('lang', 'en').upper() }}
+
+        </div>
+
+        {% if session.get('username') %}
+
+        <div class="language-badge">
+
+            👤 {{ session.get('username') }}
+
+        </div>
+
+        {% endif %}
+
+    </div>
+
+    <div class="header-buttons">
+
+        <button
+            class="dark-btn"
+            onclick="toggleDarkMode()">
+
+            🌙
+
+        </button>
+
+        <a href="/quit"
+           class="quit"
+           onclick="return confirm('Quit exam? Progress will be lost.')">
+
+           Quit
+
+        </a>
+
+    </div>
+
+</div>
+
+<div class="container">
+
+<div class="question-status">
+
+    {% if is_reviewer %}
+
+        Review Question {{ display_index }}
+
+    {% else %}
+
+        Question {{ display_index }} / {{ total }}
+
+    {% endif %}
+
+</div>
+
+<div class="progress-bar">
+
+    <div class="progress"
+         style="width: {{ (display_index / total) * 100 }}%;">
+
+    </div>
+
+</div>
+
+{% if not is_reviewer %}
+
+<div class="timer">
+
+    ⏱ <span id="timer"></span>
+
+</div>
+
+{% endif %}
+
+{% if not is_reviewer %}
+
+<div class="navigator">
+
+    {% for i in range(total) %}
+
+    <a href="/goto-question/{{ i }}"
+       class="nav-number
+       {% if i + 1 == display_index %}
+           current
+       {% elif i < session.get('answers', [])|length and session.get('answers', [])[i] %}
+           answered
+       {% endif %}">
+
+        {{ i + 1 }}
+
+    </a>
+
+    {% endfor %}
+
+</div>
+
+{% endif %}
+
+
+<div class="card">
+
+{% if "items" in q and not is_reviewer %}
+
+<div class="group-title">
+    Group Question {{ q.question_group }}
+</div>
+
+<div class="situation-box">
+    {{ q.situation }}
+</div>
+
+{% if q.get('image') %}
+<img
+    src="{{ url_for('static', filename='images/' ~ q.get('image')) }}"
+    loading="lazy"
+    draggable="false"
+    onerror="this.style.display='none'">
+{% endif %}
+
+<form method="POST" action="/question" class="question-form">
+
+{% for item in q["items"] %}
+
+<div class="group-question">
+
+    <div class="group-number">
+        Question {{ item.number }}
+    </div>
+
+    <p class="question-text">
+        {{ item.question }}
+    </p>
+
+    <label class="choice">
+        <input
+            type="radio"
+            name="answer_{{ item.number }}"
+            value="True"
+            required>
+        <span>True</span>
+    </label>
+
+    <label class="choice">
+        <input
+            type="radio"
+            name="answer_{{ item.number }}"
+            value="False"
+            required>
+        <span>False</span>
+    </label>
+
+</div>
+
+{% endfor %}
+
+<button type="submit" class="submit-btn">
+
+    {% if display_index == total %}
+        Save Answer
+    {% else %}
+        Next
+    {% endif %}
+
+</button>
+
+</form>
+
+{% if display_index == total %}
+
+<a href="/submit-exam"
+   class="next-btn"
+   onclick="return confirm('Submit exam now?')">
+   ✅ Submit Exam
+</a>
+
+{% endif %}
+
+{% elif is_reviewer and feedback %}
+
+<p class="question-text">
+    {{ q.question }}
+</p>
+
+{% if q.image %}
+<img
+    src="{{ url_for('static', filename='images/' ~ q.image) }}"
+    loading="lazy"
+    draggable="false"
+    onerror="this.style.display='none'">
+{% endif %}
+
+<div class="feedback-box">
+
+    <p class="{{ 'correct' if is_correct else 'incorrect' }}">
+        Your answer: {{ user_answer }}
+    </p>
+
+    <p>
+        <b>Correct:</b> {{ correct_answer }}
+    </p>
+
+    <p>
+        {{ explanation }}
+    </p>
+
+</div>
+
+{% if ai_explanation %}
+
+<div class="ai-box">
+    <b>🧠 AI Explanation</b>
+    <p>{{ ai_explanation }}</p>
+</div>
+
+{% endif %}
+
+<a href="/next" class="next-btn">
+   Next Question
+</a>
+
+{% else %}
+
+<p class="question-text">
+    {{ q.question }}
+</p>
+
+{% if q.image %}
+<img
+    src="{{ url_for('static', filename='images/' ~ q.image) }}"
+    loading="lazy"
+    draggable="false"
+    onerror="this.style.display='none'">
+{% endif %}
+
+<form method="POST" action="/question" class="question-form">
+
+{% for choice in q.choices %}
+
+<label class="choice">
+    <input
+        type="radio"
+        name="answer"
+        value="{{ choice }}"
+        required>
+    <span>{{ choice }}</span>
+</label>
+
+{% endfor %}
+
+<button type="submit" class="submit-btn">
+
+    {% if is_reviewer %}
+        Submit
+    {% elif display_index == total %}
+        Save Answer
+    {% else %}
+        Next
+    {% endif %}
+
+</button>
+
+</form>
+
+{% if not is_reviewer and display_index == total %}
+
+<a href="/submit-exam"
+   class="next-btn"
+   onclick="return confirm('Submit exam now?')">
+   ✅ Submit Exam
+</a>
+
+{% endif %}
+
+{% endif %}
+
+</div>
+
+<img
+    src="{{ url_for(
+        'static',
+        filename='images/' ~ q.image
+    ) }}"
+    loading="lazy"
+    draggable="false"
+    onerror="this.style.display='none'">
+
+{% endif %}
+
+<div class="feedback-box">
+
+<p class="{{ 'correct' if is_correct else 'incorrect' }}">
+
+    Your answer: {{ user_answer }}
+
+</p>
+
+<p>
+
+    <b>Correct:</b>
+    {{ correct_answer }}
+
+</p>
+
+<p>
+
+    {{ explanation }}
+
+</p>
+
+</div>
+
+{% if ai_explanation %}
+
+<div class="ai-box">
+
+    <b>🧠 AI Explanation</b>
+
+    <p>
+
+        {{ ai_explanation }}
+
+    </p>
+
+</div>
+
+{% endif %}
+
+<a href="/next"
+   class="next-btn">
+
+   Next Question
+
+</a>
+
+{% else %}
+
+<p class="question-text">
+
+    {{ q.question }}
+
+</p>
+
+{% if q.image %}
+
+<img
+    src="{{ url_for(
+        'static',
+        filename='images/' ~ q.image
+    ) }}"
+    loading="lazy"
+    draggable="false"
+    onerror="this.style.display='none'">
+
+{% endif %}
+
+<form method="POST" action="/question" class="question-form">
+
+{% for choice in q.choices %}
+
+<label class="choice">
+
+    <input
+        type="radio"
+        name="answer"
+        value="{{ choice }}"
+        required>
+
+    <span>{{ choice }}</span>
+
+</label>
+
+{% endfor %}
+
+<button
+    type="submit"
+    class="submit-btn">
+
+    {% if is_reviewer %}
+
+        Submit
+
+    {% elif display_index == total %}
+
+        Save Answer
+
+    {% else %}
+
+        Next
+
+    {% endif %}
+
+</button>
+
+</form>
+
+{% if not is_reviewer %}
+
+<a href="/submit-exam"
+   class="next-btn"
+   onclick="return confirm('Submit exam now?')">
+
+   ✅ Submit Exam
+
+</a>
+
+{% endif %}
+
+{% if not is_reviewer %}
+
+<script>
+
+let time = {{ remaining or 0 }};
+
+function updateTimer(){
+
+    if(time < 0){
+
+        return;
+    }
+
+    let m = Math.floor(time / 60);
+
+    let s = time % 60;
+
+    const timer =
+        document.getElementById("timer");
+
+    if(timer){
+
+        timer.innerText =
+
+            m + ":" + (s < 10 ? "0" : "") + s;
+    }
+
+    if(time <= 0){
+
+        window.location.replace("/submit-exam");
+    }
+
+    time--;
+}
+
+updateTimer();
+
+setInterval(updateTimer, 1000);
+
+</script>
+
+{% endif %}
+
+<script>
+
+function toggleDarkMode(){
+
+    document.body.classList.toggle('dark');
+
+    localStorage.setItem(
+        'darkMode',
+        document.body.classList.contains('dark')
+    );
+}
+
+if(localStorage.getItem('darkMode') === 'true'){
+
+    document.body.classList.add('dark');
+}
+
+</script>
+
+<script>
+
+document.querySelectorAll('form').forEach(form => {
+
+    let submitted = false;
+
+    form.addEventListener('submit', function(event){
+
+        if(submitted){
+
+            event.preventDefault();
+            return;
+        }
+
+        submitted = true;
+
+        const button =
+            form.querySelector('.submit-btn');
+
+        if(button){
+
+            button.disabled = true;
+
+            button.innerHTML =
+                '⏳ Loading...';
+        }
+    });
+});
+
+</script>
+
+</body>
+</html>
