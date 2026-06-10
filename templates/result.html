@@ -342,23 +342,20 @@ body.dark .ai-box{
 
     background:white;
 
-    border:
-    1px solid rgba(226,232,240,0.9);
+    border:none;
 
-    border-radius:26px;
+    border-radius:24px;
 
-    padding:22px;
+    padding:24px;
 
-    margin-bottom:18px;
+    margin-bottom:20px;
 
     box-shadow:
-    0 8px 24px rgba(15,23,42,0.05);
+    0 4px 20px rgba(15,23,42,0.06);
 
     transition:
     transform 0.12s ease,
     box-shadow 0.12s ease;
-
-    animation:fadeSlide 0.35s ease;
 }
 
 .card:hover{
@@ -511,25 +508,20 @@ img{
 
     padding:16px;
 
-    font-size:18px;
+    font-size:17px;
 
-    font-weight:800;
+    font-weight:700;
 
-    border-radius:20px;
+    border-radius:18px;
 
-    background:
-    linear-gradient(
-    135deg,
-    #3b82f6,
-    #2563eb
-    );
+    background:#007aff;
 
     color:white;
 
-    margin-top:24px;
+    margin-top:18px;
 
     box-shadow:
-    0 10px 22px rgba(37,99,235,0.18);
+    0 4px 14px rgba(0,122,255,0.24);
 
     transition:
     transform 0.12s ease,
@@ -550,9 +542,15 @@ img{
 
     display:flex;
 
-    gap:12px;
+    background:#e5e7eb;
 
-    margin-bottom:22px;
+    padding:4px;
+
+    border-radius:18px;
+
+    gap:4px;
+
+    margin-bottom:24px;
 }
 
 .filter-btn{
@@ -561,24 +559,46 @@ img{
 
     border:none;
 
-    border-radius:16px;
+    background:transparent;
 
-    padding:14px;
+    border-radius:14px;
+
+    padding:13px 10px;
 
     font-size:15px;
 
-    font-weight:800;
+    font-weight:700;
 
     cursor:pointer;
 
-    background:#e2e8f0;
+    color:#64748b;
 
-    color:#0f172a;
+    transition:all 0.2s ease;
 }
 
 .filter-btn.active{
 
-    background:#2563eb;
+    background:white;
+
+    color:#111827;
+
+    box-shadow:
+    0 2px 8px rgba(15,23,42,0.10);
+}
+
+body.dark .review-filter-buttons{
+
+    background:#1e293b;
+}
+
+body.dark .filter-btn{
+
+    color:#94a3b8;
+}
+
+body.dark .filter-btn.active{
+
+    background:#334155;
 
     color:white;
 }
@@ -639,12 +659,18 @@ body.dark .retry-section p{
 
 .button-secondary{
 
-    background:
-    linear-gradient(
-    135deg,
-    #64748b,
-    #334155
-    );
+    background:#f1f5f9;
+
+    color:#111827;
+
+    box-shadow:none;
+}
+
+body.dark .button-secondary{
+
+    background:#334155;
+
+    color:white;
 }
 
 /* 🌙 DARK TOGGLE */
@@ -782,7 +808,7 @@ body.dark .retry-section p{
             class="filter-btn active"
             onclick="showAllAnswers()">
 
-            📘 Review All Answers
+            Review All Answers
 
         </button>
 
@@ -790,7 +816,7 @@ body.dark .retry-section p{
             class="filter-btn"
             onclick="showWrongAnswers()">
 
-            ❌ Review Wrong Answers
+            Review Wrong Answers
 
         </button>
 
