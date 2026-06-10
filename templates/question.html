@@ -602,7 +602,11 @@ body.dark .situation-box{
     type="submit"
     class="submit-btn">
 
-    {% if display_index == total %}
+    {% if is_reviewer %}
+
+        Submit
+
+    {% elif display_index == total %}
 
         Save Answer
 
@@ -742,6 +746,10 @@ body.dark .situation-box{
 
         Submit
 
+    {% elif display_index == total %}
+
+        Save Answer
+
     {% else %}
 
         Next
@@ -751,6 +759,18 @@ body.dark .situation-box{
 </button>
 
 </form>
+
+{% if not is_reviewer %}
+
+<a href="/submit-exam"
+   class="next-btn"
+   onclick="return confirm('Submit exam now?')">
+
+   ✅ Submit Exam
+
+</a>
+
+{% endif %}
 
 {% endif %}
 
@@ -787,7 +807,7 @@ function updateTimer(){
 
     if(time <= 0){
 
-        window.location.replace("/result");
+        window.location.replace("/submit-exam");
     }
 
     time--;
@@ -849,7 +869,7 @@ document.querySelectorAll('form').forEach(form => {
     });
 });
 
-<script>
+</script>
 
 </body>
 </html>
