@@ -758,7 +758,9 @@ def question():
 
     if current >= len(order):
 
-        return redirect('/result')
+        session['current'] = len(order) - 1
+
+        return redirect('/question')
 
     question_index = order[current]
 
@@ -816,13 +818,11 @@ def question():
 
             answers = session.get('answers', [])
 
-            if len(answers) <= current:
+            while len(answers) <= current:
 
-                answers.append(answer)
+                answers.append(None)
 
-            else:
-
-                answers[current] = answer
+            answers[current] = answer
 
             session['answers'] = answers
 
@@ -886,19 +886,13 @@ def question():
 
                 group_answers.append(ans)
 
-            # =================================================
-            # ✅ SAFE SAVE
-            # =================================================
-
             answers = session.get('answers', [])
 
-            if len(answers) <= current:
+            while len(answers) <= current:
 
-                answers.append(group_answers)
+                answers.append(None)
 
-            else:
-
-                answers[current] = group_answers
+            answers[current] = group_answers
 
             session['answers'] = answers
 
@@ -916,13 +910,11 @@ def question():
 
             answers = session.get('answers', [])
 
-            if len(answers) <= current:
+            while len(answers) <= current:
 
-                answers.append(answer)
+                answers.append(None)
 
-            else:
-
-                answers[current] = answer
+            answers[current] = answer
 
             session['answers'] = answers
 
@@ -985,6 +977,10 @@ def result():
     if "reviewer" in session['mode']:
 
         return redirect('/menu')
+    
+    if not session.get('exam_submitted'):
+
+        return redirect('/question')
 
     language = session.get('lang', 'en')
 
@@ -1033,9 +1029,11 @@ def result():
 
             if i >= len(answers):
 
-                continue
+                user_group_answers = []
 
-            user_group_answers = answers[i]
+            else:
+
+                user_group_answers = answers[i] or []
 
             total_questions += 2
 
@@ -1092,7 +1090,7 @@ def result():
                     q.get("image")
                 })
 
-            # ✅ ALL 3 MUST BE CORRECT
+            # ✅ ALL ITEMS MUST BE CORRECT
 
             if all_correct:
 
