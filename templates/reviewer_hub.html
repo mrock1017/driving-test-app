@@ -1,116 +1,154 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
 
-    <meta charset="UTF-8">
+<meta charset="UTF-8">
 
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
 
-    <title>
-        Reviewers
-    </title>
+<title>
+    Study Reviewers
+</title>
 
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
-          rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
+      rel="stylesheet">
 
 <style>
 
 *{
-
     box-sizing:border-box;
 }
 
 body{
-
     margin:0;
-
     padding:20px;
-
-    background:#f8fafc;
-
-    font-family:'Inter', sans-serif;
+    background:linear-gradient(180deg,#f9fafb 0%,#eef2f7 100%);
+    font-family:-apple-system, BlinkMacSystemFont, 'Inter', sans-serif;
 }
 
 .container{
-
     max-width:700px;
-
     margin:auto;
 }
 
 .card{
+    background:rgba(255,255,255,.92);
+    border-radius:34px;
+    padding:28px;
 
-    background:white;
-
-    border-radius:28px;
-
-    padding:30px;
+    border:1px solid rgba(255,255,255,.8);
 
     box-shadow:
-    0 10px 30px rgba(0,0,0,0.08);
+        0 20px 50px rgba(15,23,42,.06),
+        0 4px 12px rgba(15,23,42,.03);
+
+    backdrop-filter:blur(24px);
+    -webkit-backdrop-filter:blur(24px);
 }
 
 .title{
-
-    font-size:34px;
-
+    font-size:36px;
     font-weight:800;
-
-    margin-bottom:12px;
-
+    letter-spacing:-1px;
+    margin-bottom:10px;
     color:#0f172a;
 }
 
 .subtitle{
-
     color:#64748b;
-
     line-height:1.7;
-
     margin-bottom:28px;
 }
 
-.reviewer-btn{
-
-    display:block;
-
-    text-decoration:none;
-
-    background:#eff6ff;
-
-    color:#2563eb;
-
-    padding:22px;
-
-    border-radius:20px;
-
-    font-weight:700;
-
-    margin-bottom:18px;
-
-    transition:0.15s ease;
+.section-title{
+    margin:28px 0 12px;
+    font-size:13px;
+    font-weight:800;
+    color:#8e8e93;
+    text-transform:uppercase;
+    letter-spacing:.8px;
 }
 
-.reviewer-btn:hover{
+.reviewer-btn{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    text-decoration:none;
+    color:#111827;
+    padding:18px 20px;
+    border-radius:22px;
+    font-weight:800;
+    margin-bottom:12px;
+    background:white;
+    border:1px solid #e5e7eb;
+    box-shadow:0 4px 12px rgba(15,23,42,.04);
+    transition:.2s ease;
+}
 
-    transform:translateY(-2px);
+.reviewer-btn::after{
+    content:"›";
+    color:#94a3b8;
+    font-size:26px;
+    font-weight:800;
+}
 
-    background:#dbeafe;
+.reviewer-btn:active{
+    transform:scale(.97);
+}
+
+.karimen{
+    background:#eaf2ff;
+}
+
+.honmen{
+    background:#eafaf0;
+}
+
+.gaimen{
+    background:#f3e8ff;
+}
+
+.gentsuki{
+    background:#fff8d6;
+}
+
+.special{
+    background:#f8fafc;
 }
 
 .back{
-
-    display:inline-block;
-
-    margin-top:10px;
-
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:22px;
+    height:54px;
+    border-radius:20px;
+    background:#eef2f7;
+    color:#007aff;
     text-decoration:none;
+    font-weight:800;
+}
 
-    color:#2563eb;
+.back:active{
+    transform:scale(.97);
+}
 
-    font-weight:700;
+@media(max-width:600px){
+
+    .card{
+        padding:22px;
+    }
+
+    .title{
+        font-size:28px;
+    }
+
+    .reviewer-btn{
+        padding:18px;
+    }
 }
 
 </style>
@@ -121,49 +159,99 @@ body{
 
 <div class="container">
 
-    <div class="card">
+<div class="card">
 
-        <div class="title">
+    <div class="title">
 
-            📚 Study Reviewers
-
-        </div>
-
-        <div class="subtitle">
-
-            Study important Japan driving rules,
-            safety guides, road signs,
-            and exam explanations.
-
-        </div>
-
-        <a href="/road-signs-reviewer"
-            class="reviewer-btn">
-
-            🚧 Road Signs Reviewer
-
-        <a href="/master-reviewer/1"
-            class="reviewer-btn">
-
-            📘 Master Reviewer 1
-
-        </a>
-
-        <a href="/master-reviewer/2"
-            class="reviewer-btn">
-
-            📗 Master Reviewer 2
-
-        </a>
-
-        <a href="/menu"
-           class="back">
-
-           ← Back to Menu
-
-        </a>
+        📚 Study Reviewers
 
     </div>
+
+    <div class="subtitle">
+
+        Study important Japan driving rules,
+        safety guides, road signs,
+        and exam explanations.
+
+    </div>
+
+    <!-- ================================================= -->
+    <!-- 🧠 QUESTION BANK REVIEWERS -->
+    <!-- ================================================= -->
+
+    <div class="section-title">
+
+        🧠 Question Bank Reviewers
+
+    </div>
+
+    <a href="/start/reviewer_karimen/question_bank"
+       class="reviewer-btn karimen">
+
+        🧠 Karimen Reviewer
+
+    </a>
+
+    <a href="/start/reviewer_honmen/question_bank"
+       class="reviewer-btn honmen">
+
+        🏁 Honmen Reviewer
+
+    </a>
+
+    <a href="/start/reviewer_gaimen/question_bank"
+       class="reviewer-btn gaimen">
+
+        🌏 Gaimen Kirikae Reviewer
+
+    </a>
+
+    <a href="/start/reviewer_gentsuki/question_bank"
+       class="reviewer-btn gentsuki">
+
+        🛵 Gentsuki Reviewer
+
+    </a>
+
+    <!-- ================================================= -->
+    <!-- 📚 SPECIAL REVIEWERS -->
+    <!-- ================================================= -->
+
+    <div class="section-title">
+
+        📚 Special Reviewers
+
+    </div>
+
+    <a href="/road-signs-reviewer"
+       class="reviewer-btn special">
+
+        🚧 Road Signs Reviewer
+
+    </a>
+
+    <a href="/master-reviewer/1"
+       class="reviewer-btn special">
+
+        📘 Master Reviewer 1
+
+    </a>
+
+    <a href="/master-reviewer/2"
+       class="reviewer-btn special">
+
+        📗 Master Reviewer 2
+
+    </a>
+
+    <a href="/menu"
+       class="back">
+
+       ← Back to Menu
+
+    </a>
+
+</div>
 
 </div>
 
