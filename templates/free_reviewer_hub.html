@@ -1,19 +1,224 @@
-<a href="/start/reviewer_karimen/reviewer_karimen"
-   class="reviewer-btn karimen">
-    🧠 Karimen Reviewer
-</a>
+<!DOCTYPE html>
+<html lang="en">
 
-<a href="/start/reviewer_honmen/reviewer_honmen"
-   class="reviewer-btn honmen">
-    🏁 Honmen Reviewer
-</a>
+<head>
 
-<a href="/start/reviewer_gaimen/reviewer_gaimen"
-   class="reviewer-btn gaimen">
-    🌏 Gaimen Kirikae Reviewer
-</a>
+<meta charset="UTF-8">
 
-<a href="/start/reviewer_gentsuki/reviewer_gentsuki"
-   class="reviewer-btn gentsuki">
-    🛵 Gentsuki Reviewer
-</a>
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+
+<title>Study Mode</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
+      rel="stylesheet">
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    padding:20px;
+    background:linear-gradient(180deg,#f9fafb 0%,#eef2f7 100%);
+    font-family:-apple-system,BlinkMacSystemFont,'Inter',sans-serif;
+}
+
+.container{
+    max-width:700px;
+    margin:auto;
+}
+
+.card{
+    background:rgba(255,255,255,.92);
+    border-radius:34px;
+    padding:28px;
+
+    border:1px solid rgba(255,255,255,.8);
+
+    box-shadow:
+        0 20px 50px rgba(15,23,42,.06),
+        0 4px 12px rgba(15,23,42,.03);
+
+    backdrop-filter:blur(24px);
+    -webkit-backdrop-filter:blur(24px);
+}
+
+.title{
+    font-size:36px;
+    font-weight:800;
+    letter-spacing:-1px;
+    margin-bottom:10px;
+    color:#0f172a;
+}
+
+.subtitle{
+    color:#64748b;
+    line-height:1.7;
+    margin-bottom:28px;
+}
+
+.section-title{
+    margin:28px 0 12px;
+    font-size:13px;
+    font-weight:800;
+    color:#8e8e93;
+    text-transform:uppercase;
+    letter-spacing:.8px;
+}
+
+.reviewer-btn{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    text-decoration:none;
+    color:#111827;
+    padding:18px 20px;
+    border-radius:22px;
+    font-weight:800;
+    margin-bottom:12px;
+    background:white;
+    border:1px solid #e5e7eb;
+    box-shadow:0 4px 12px rgba(15,23,42,.04);
+    transition:.2s ease;
+}
+
+.reviewer-btn::after{
+    content:"›";
+    color:#94a3b8;
+    font-size:26px;
+    font-weight:800;
+}
+
+.reviewer-btn:active{
+    transform:scale(.97);
+}
+
+.karimen{
+    background:#eaf2ff;
+}
+
+.honmen{
+    background:#eafaf0;
+}
+
+.gaimen{
+    background:#f3e8ff;
+}
+
+.gentsuki{
+    background:#fff8d6;
+}
+
+.special{
+    background:#f8fafc;
+}
+
+.back{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:22px;
+    height:54px;
+    border-radius:20px;
+    background:#eef2f7;
+    color:#007aff;
+    text-decoration:none;
+    font-weight:800;
+}
+
+.back:active{
+    transform:scale(.97);
+}
+
+@media(max-width:600px){
+
+    .card{
+        padding:22px;
+    }
+
+    .title{
+        font-size:28px;
+    }
+
+    .reviewer-btn{
+        padding:18px;
+    }
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="card">
+
+    <div class="title">
+        📚 Study Mode
+    </div>
+
+    <div class="subtitle">
+        Free users can access the first 20 questions of each reviewer.
+        Premium users receive unlimited reviewer access plus special study materials.
+    </div>
+
+    <div class="section-title">
+        🧠 Question Bank Reviewers
+    </div>
+
+    <a href="/start/reviewer_karimen/reviewer_karimen"
+       class="reviewer-btn karimen">
+        🧠 Karimen Reviewer
+    </a>
+
+    <a href="/start/reviewer_honmen/reviewer_honmen"
+       class="reviewer-btn honmen">
+        🏁 Honmen Reviewer
+    </a>
+
+    <a href="/start/reviewer_gaimen/reviewer_gaimen"
+       class="reviewer-btn gaimen">
+        🌏 Gaimen Kirikae Reviewer
+    </a>
+
+    <a href="/start/reviewer_gentsuki/reviewer_gentsuki"
+       class="reviewer-btn gentsuki">
+        🛵 Gentsuki Reviewer
+    </a>
+
+    <div class="section-title">
+        📚 Special Reviewers
+    </div>
+
+    <a href="/road-signs-reviewer"
+       class="reviewer-btn special">
+        🚧 Road Signs Reviewer
+    </a>
+
+    <a href="/master-reviewer/1"
+       class="reviewer-btn special">
+        📘 Master Reviewer 1
+    </a>
+
+    <a href="/master-reviewer/2"
+       class="reviewer-btn special">
+        📗 Master Reviewer 2
+    </a>
+
+    <a href="/menu"
+       class="back">
+       ← Back to Menu
+    </a>
+
+</div>
+
+</div>
+
+</body>
+
+</html>
