@@ -4039,6 +4039,906 @@
     ],
     "answer": "True",
     "explanation": "The sign warns of two-way traffic ahead. Drivers should be alert for oncoming vehicles and maintain proper lane position when entering the section."
+  },
+  {
+    "question": "The vehicle inspection sticker displays the month and year when the inspection was performed.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "The inspection sticker is primarily used to show the expiration or validity period of the inspection, not simply the date on which the inspection was conducted."
+  },
+  {
+    "question": "The proper riding position on a motorcycle or moped is to lean forward loosely so that wind resistance is reduced and riding becomes easier.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Riders should maintain a balanced and stable posture with proper control of the handlebars and footrests. Excessive slouching can reduce vehicle control and increase fatigue."
+  },
+  {
+    "question": "When another vehicle is overtaking you, it is acceptable to maintain your position without making room, even if the gap between your vehicle and the one ahead is limited, provided you do not accelerate.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Drivers being overtaken should cooperate by allowing the maneuver to be completed safely. If necessary, they should adjust their position to help maintain adequate clearance."
+  },
+  {
+    "question": "Because vehicles tend to gain speed on downhill grades, stopping distances become longer, so a larger following distance should be maintained than on level roads.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Gravity increases vehicle momentum on descents, making it harder to stop quickly. Increasing the space between vehicles provides a greater safety margin."
+  },
+  {
+    "question": "In the situation shown, Vehicle A entered the intersection first intending to turn right. If Vehicle B proceeds straight, Vehicle A must wait until Vehicle B passes; however, if Vehicle B is turning left, Vehicle A may continue and complete the right turn.",
+    "image": "a_right_turn.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Right-of-way at an intersection depends on the applicable traffic rules and the movements of the vehicles involved. A vehicle turning right does not automatically gain priority simply because the opposing vehicle is turning left."
+  },
+  {
+    "question": "Drivers may park or stop inside a tunnel that has marked traffic lanes.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Parking and stopping in tunnels are generally prohibited because they create serious hazards and obstruct traffic flow."
+  },
+  {
+    "question": "When crossing railroad tracks, drivers should check carefully in both directions because a train may approach from the opposite direction immediately after another train has passed.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Drivers must indeed check for trains from both directions before crossing. Therefore, the statement's conclusion is correct, making the original statement not false under Japanese traffic safety principles."
+  },
+  {
+    "question": "If a driver becomes fatigued while traveling on an expressway, they may pull onto a sufficiently wide shoulder and stop there to rest.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Drivers should use a service area, parking area, or another designated safe location for rest. Stopping on the shoulder is generally prohibited except in emergencies."
+  },
+  {
+    "question": "Hydroplaning and the standing-wave phenomenon are the same occurrence because both happen at high speed when tire pressure is low.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Hydroplaning occurs when a layer of water separates the tires from the road surface. A standing-wave phenomenon is a different tire-related condition associated with high speed and tire deformation."
+  },
+  {
+    "question": "Even if a collision with an oncoming vehicle appears unavoidable, the driver should continue trying to reduce the impact by braking or steering rather than giving up.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Drivers should make every reasonable effort to avoid or lessen the severity of a crash. Even small reductions in speed can significantly reduce injuries and damage."
+  },
+  {
+    "question": "When transporting an indivisible load that exceeds the standard cargo limits shown in the illustration, a driver may proceed without obtaining permission from the police authority responsible for the departure area.",
+    "image": "loading_cargo.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Special permission is required before operating a vehicle carrying an oversized or overweight indivisible load. The necessary authorization must be obtained in advance from the appropriate authority."
+  },
+  {
+    "question": "This sign prohibits large and ordinary motorcycles, but general mopeds are still allowed to enter.",
+    "image": "motorcycle_not_allowed.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "The sign shown prohibits motorcycles, including general mopeds, unless an exception is specifically provided. Moped riders must obey the restriction in the same way as other motorcycle operators."
+  },
+  {
+    "question": "The owner of a passenger car, excluding motorcycles, must secure a parking space located within 5 kilometers of the vehicle's primary place of use.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Japanese parking-space regulations require the parking location to be within a much shorter prescribed distance from the vehicle's normal place of use. A distance of 5 kilometers does not satisfy the requirement."
+  },
+  {
+    "question": "If an intersection has traffic signals but no stop line, drivers should stop immediately in front of the signal itself.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "When no stop line is provided, drivers must stop at the appropriate position before entering the intersection. The stopping point is not necessarily directly beneath or in front of the signal."
+  },
+  {
+    "question": "Vehicles may drive through the road marking shown, but they must not stop within the marked area.",
+    "image": "restricted_area.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "The boxed marking indicates an area that should be kept clear to prevent traffic obstruction. Drivers may pass through it when necessary, but they must not stop and block the marked space."
+  },
+  {
+    "question": "If a vehicle becomes disabled on an expressway and must be parked, it should be moved onto a sufficiently wide shoulder or roadside strip.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "A disabled vehicle should be removed from the traffic lanes whenever possible. Using the shoulder or another safe area helps reduce the risk of secondary accidents."
+  },
+  {
+    "question": "When approaching a flashing red traffic signal, drivers may either stop or simply slow down before proceeding.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "A flashing red signal requires a complete stop. After stopping, drivers must confirm safety before proceeding."
+  },
+  {
+    "question": "The passenger capacity shown on a vehicle inspection certificate does not include the driver.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "The seating capacity listed on the inspection certificate includes the driver's seat unless otherwise specified. Drivers should not assume the driver is excluded from the count."
+  },
+  {
+    "question": "Fatigue while driving often first appears through reduced visual awareness, increased oversight of hazards, more frequent misjudgments, and declining decision-making ability.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Driver fatigue impairs concentration, observation, and judgment. These effects increase the likelihood of delayed reactions and traffic accidents."
+  },
+  {
+    "question": "This sign prohibits changing lanes or passing alongside another vehicle for the purpose of overtaking automobiles or general mopeds.",
+    "image": "oikoshi_kinshi.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "The sign indicates an overtaking prohibition. Drivers must not overtake by changing lanes or passing another vehicle in a manner prohibited by the sign."
+  },
+  {
+    "question": "Because children, elderly pedestrians, and other vulnerable road users may act unpredictably, drivers should pay close attention to their movements.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Some pedestrians may suddenly change direction or enter the roadway without warning. Drivers must remain alert and be prepared to slow down or stop when necessary."
+  },
+  {
+    "question": "To complete an overtaking maneuver as quickly as possible, a driver should move very close to the vehicle ahead before pulling out and passing.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Following too closely reduces visibility and leaves insufficient reaction time. Drivers should maintain a safe following distance before and during overtaking."
+  },
+  {
+    "question": "If a motorcycle or moped is traveling where it is clearly visible to a driver of a passenger car, it cannot be overlooked.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Even when a two-wheeled vehicle appears visible, drivers may still fail to notice it because of blind spots, distractions, or misjudgment. Riders should never assume they have been seen."
+  },
+  {
+    "question": "When encountering the sign shown, drivers must proceed in the direction indicated by the red arrow in the illustration.",
+    "image": "mandatory.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "The sign requires vehicles to pass on the side indicated by the white arrow on the sign itself. Drivers must follow the direction shown by the traffic sign, not an unrelated arrow in a diagram."
+  },
+  {
+    "question": "During heavy congestion, passenger cars and general mopeds may use the roadside strip as a travel lane.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "The roadside strip is not intended for ordinary travel. Drivers must remain within the appropriate traffic lane unless a specific exception applies."
+  },
+  {
+    "question": "This sign allows a passenger vehicle carrying 10 occupants to proceed.",
+    "image": "bus_prohibited.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "The sign prohibits buses, not ordinary passenger cars. A passenger car carrying 10 people may proceed if it is otherwise legally permitted and within its authorized seating capacity."
+  },
+  {
+    "question": "Curves are locations where overtaking is prohibited, and drivers should reduce speed when approaching them.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Curves often limit visibility and increase the risk of collisions. Drivers must slow down appropriately and refrain from overtaking in prohibited areas."
+  },
+  {
+    "question": "Riders of motorcycles and mopeds may focus heavily on the road surface ahead, which can make it harder to notice hazards farther ahead or to the sides.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "The riding posture and movement of a two-wheeled vehicle can narrow a rider's effective field of attention. Riders should consciously scan their surroundings to detect hazards early."
+  },
+  {
+    "question": "As tire tread wears down, grip between the tires and the road decreases. This increases braking distance, but it does not affect reaction distance.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Reaction distance depends on the driver's perception and reaction time, not tire condition. Worn tires mainly affect traction and braking performance."
+  },
+  {
+    "question": "The sign shown indicates a bicycle crossing.",
+    "image": "japanese_bicycle_sign.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "This sign designates a bicycle path or bicycle-only route. It does not indicate a bicycle crossing area."
+  },
+  {
+    "question": "This warning sign alerts drivers to the possibility of wild animals suddenly entering the roadway.",
+    "image": "animal_crossing.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "The sign warns of an area where animals may cross unexpectedly. Drivers should remain alert and be prepared to slow down."
+  },
+  {
+    "question": "Parking is prohibited within 5 meters of a fire hydrant, fire alarm box, or location where firefighting equipment is installed.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Japanese traffic regulations generally prohibit parking within a greater specified distance of certain firefighting facilities. The distance stated in the question is not correct."
+  },
+  {
+    "question": "The warning sign shown indicates that the road shoulder is weak and may collapse easily.",
+    "image": "falling_rocks_hazzard.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "This sign warns of falling rocks or rockslide danger ahead. Drivers should watch for rocks that may fall onto the roadway from nearby slopes."
+  },
+  {
+    "question": "Whenever visibility is reduced to less than 50 meters on ordinary roads (or 200 meters on expressways), such as in a tunnel or dense fog, drivers must use their headlights even during daylight hours.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Headlights are required when visibility is significantly reduced. Turning on the lights helps drivers see hazards and makes the vehicle more visible to others."
+  },
+  {
+    "question": "Traffic signs and road markings provide instructions, warnings, and guidance to help road users travel safely and maintain efficient traffic flow.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Signs and markings communicate important traffic regulations and warnings. Drivers are expected to understand and follow them at all times."
+  },
+  {
+    "question": "If only a small amount of engine oil or coolant is leaking from a vehicle, it is not considered a mechanical problem and the vehicle may continue to be driven.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Any oil or coolant leak may indicate a mechanical defect that could worsen during operation. The vehicle should be inspected and repaired before continued use."
+  },
+  {
+    "question": "A driver may stop a vehicle for ten minutes on a road where the remaining space between the vehicle and the right edge of the roadway is less than 3.5 meters, provided the driver remains beside the vehicle directing cargo loading.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Stopping is prohibited where insufficient roadway width remains for other traffic to pass safely. Remaining beside the vehicle does not remove this restriction."
+  },
+  {
+    "question": "It is prohibited to overtake or pass a vehicle displaying a novice-driver mark or senior-driver mark.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Such vehicles may be overtaken when it can be done safely and legally. However, other drivers must exercise consideration and avoid creating danger."
+  },
+  {
+    "question": "This sign allows vehicles to proceed as long as the height of the cargo measured from the cargo bed does not exceed 3.3 meters.",
+    "image": "height_limit.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "The sign indicates a maximum vehicle height of 3.3 meters measured from the road surface, including the vehicle and any load. It is not measured from the cargo bed."
+  },
+  {
+    "question": "A vehicle owner must not lend a vehicle to an unlicensed person, a person who has been drinking alcohol, or allow others to use the vehicle without authorization.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Vehicle owners have a responsibility to prevent unlawful or unsafe operation of their vehicles. Allowing unauthorized, unlicensed, or intoxicated persons to drive can result in serious penalties."
+  },
+  {
+    "question": "At an uncontrolled intersection where the roads are of equal width, as shown in the illustration, Vehicle A must not interfere with the movement of Vehicle B.",
+    "image": "a_priority.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "At an intersection without traffic control where roads are of similar width, priority is generally given to vehicles approaching from the left. In the situation shown, Vehicle B is not automatically entitled to proceed first."
+  },
+  {
+    "question": "When overtaking on a road where the left half of the roadway is less than 6 meters wide, a driver may cross the center line into the opposing lane if visibility is good and no signs or markings prohibit it.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "On roads meeting the applicable conditions, crossing the center line for overtaking may be permitted when it can be done safely and is not prohibited by traffic controls. Drivers must still ensure that oncoming traffic is not endangered."
+  },
+  {
+    "question": "Drivers should be especially careful when a motorcycle or moped passes near a passenger car because the two-wheeled vehicle may enter the car's blind spot and go unnoticed.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Two-wheeled vehicles are smaller and less visible than larger vehicles. They can easily disappear into blind spots, increasing the risk of a collision."
+  },
+  {
+    "question": "If a pedestrian is crossing, or is about to cross, near an intersection without a marked pedestrian crossing, drivers must slow down, stop, or take other necessary measures to avoid obstructing the pedestrian.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Drivers must exercise caution around pedestrians regardless of whether a marked crosswalk is present. Pedestrian safety must be given appropriate consideration."
+  },
+  {
+    "question": "Because visibility is reduced in rainy weather, drivers should move as close as possible to the shoulder in order to avoid collisions with oncoming vehicles.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Drivers should maintain proper lane position even in poor weather. Driving excessively close to the shoulder may create other hazards and is not the recommended safety practice."
+  },
+  {
+    "question": "During long-distance driving, it is advisable to take a break at least once every two hours.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Regular rest breaks help reduce fatigue and maintain concentration. Fatigue significantly increases the risk of traffic accidents."
+  },
+  {
+    "question": "The slower-traffic lane on an expressway may be used only by large trucks carrying cargo; other vehicles are prohibited from using it.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "The slower-traffic lane is not reserved exclusively for loaded large trucks. Other vehicles may use the lane as required by traffic conditions and applicable regulations."
+  },
+  {
+    "question": "Intersections and the areas around them are among the highest-risk locations for accidents, so drivers should watch not only for visible hazards but also for potential dangers hidden from view and proceed with appropriate caution.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Many collisions occur at intersections because of conflicting traffic movements and limited visibility. Drivers should anticipate unexpected hazards and adjust their speed accordingly."
+  },
+  {
+    "question": "When stopping or parking a vehicle on an ordinary road at night, a driver who places an emergency warning device behind the vehicle is not required to use hazard lights, parking lights, or tail lights.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "At night, appropriate vehicle lighting is generally required to ensure visibility to other road users. An emergency warning device alone does not replace the need for required lights."
+  },
+  {
+    "question": "The sign shown indicates a road designated as an expressway or motorway.",
+    "image": "designated_lanes_automobiles.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "This sign identifies a road intended for high-speed motor vehicle traffic, such as an expressway. Drivers entering such roads must follow the special rules that apply to expressways."
+  },
+  {
+    "question": "When making a right turn at an intersection (other than a roundabout), a passenger car should approach as close as possible to the right edge of the roadway and then turn near the center of the intersection.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "In Japan, vehicles drive on the left side of the road. A right-turning vehicle should generally approach near the center line or center of its side of the roadway, not the right edge."
+  },
+  {
+    "question": "For traffic traveling in the direction indicated by the thinner arrow, the police officer's hand signal shown has the same meaning as the traffic signal displayed.",
+    "image": "police_and_traffic_light.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Police hand signals and traffic signals do not always convey the same instruction to traffic from a particular direction. Drivers must interpret the officer's signal according to the official hand-signal rules, which take precedence over traffic lights."
+  },
+  {
+    "question": "When an emergency vehicle is approaching or is already near an intersection, drivers must clear the intersection, move toward the left side of the road, and stop, except on one-way roads where different positioning may be required.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Drivers must immediately facilitate the passage of emergency vehicles. Near intersections, the priority is to clear the intersection and then yield safely."
+  },
+  {
+    "question": "Only drivers who feel inexperienced after obtaining a regular driver's license are required to display a novice-driver mark; confident drivers may choose not to use it.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Display of the novice-driver mark is determined by legal requirements, not by the driver's confidence level. Eligible novice drivers must comply with the applicable regulations."
+  },
+  {
+    "question": "Under dry-road conditions with new tires, a safe following distance on an expressway is approximately 100 meters when traveling at 100 km/h.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "A common safety guideline is to maintain a distance roughly equivalent to the vehicle's speed in meters. At 100 km/h, this corresponds to about 100 meters."
+  },
+  {
+    "question": "This sign indicates that large trucks, specified medium-sized trucks, and designated heavy vehicles must use the leftmost lane.",
+    "image": "leftmost_lane.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "The sign designates a lane reserved for certain categories of large or heavy vehicles. Drivers of those vehicles must travel in the indicated lane."
+  },
+  {
+    "question": "If a vehicle becomes disabled and must be parked on an ordinary road during daylight hours, the driver should place an emergency warning device or otherwise make the vehicle's disabled condition apparent to other road users.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Warning devices and other visible indicators help alert approaching drivers to the presence of a disabled vehicle. This reduces the risk of secondary accidents."
+  },
+  {
+    "question": "A person should not provide or encourage the consumption of alcohol to someone who is expected to operate a vehicle afterward.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Under Japanese traffic laws, providing alcohol to a person who will drive can result in penalties. Preventing impaired driving is a shared responsibility of both drivers and those around them."
+  },
+  {
+    "question": "In the situation shown in the illustration, Vehicle A must reduce speed when reaching the point marked X.",
+    "image": "must_not_reduce.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Drivers are required to slow down when approaching an area where visibility is obstructed and cross traffic, pedestrians, or other hazards may appear unexpectedly. However, in the illustrated situation, Vehicle A is traveling on the priority roadway and is not automatically required to reduce speed at point X solely because of the obstruction. The driver should maintain a safe speed and continue while observing traffic conditions carefully."
+  },
+  {
+    "question": "It is never permissible to place luggage or other cargo on the seats of a standard passenger vehicle.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Cargo may be placed on passenger seats if it is loaded safely, properly secured, and does not interfere with driving, visibility, or legal safety requirements."
+  },
+  {
+    "question": "Because visibility is reduced at night, drivers should generally travel more slowly than they would on the same road during daylight hours.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Pedestrians, cyclists, obstacles, and road conditions are harder to detect at night. Reducing speed provides more time to recognize hazards and react safely."
+  },
+  {
+    "question": "There is a short delay between recognizing a hazard and the brakes beginning to work, so drivers should account for this reaction time while driving.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "A vehicle continues moving during the driver's perception and reaction time before braking begins. This delay is an important component of overall stopping distance."
+  },
+  {
+    "question": "If you notice that a vehicle behind is starting to overtake you, and you are preparing to overtake the vehicle ahead, you should abandon your overtaking maneuver and allow the other vehicle to pass first.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Attempting to overtake while another vehicle is already overtaking can create a dangerous situation. Drivers should prioritize safety and avoid conflicting overtaking maneuvers."
+  },
+  {
+    "question": "A child restraint seat is not required when a child under six years old rides in the rear seat of a passenger vehicle.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "In Japan, children under six years of age are generally required to use an appropriate child safety seat when riding in a motor vehicle. This requirement applies regardless of whether the child is seated in the front or rear."
+  },
+  {
+    "question": "At a location marked with this sign, drivers are prohibited from crossing the roadway to enter or exit a property located on the left side.",
+    "image": "no_crossing_sign.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "This sign prohibits making a right turn. It does not prohibit crossing the roadway to access premises on the left side when such movement is otherwise permitted and can be done safely."
+  },
+  {
+    "question": "If the headlights of an approaching vehicle are dazzling at night, you should keep looking directly at them to help your eyes adjust more quickly.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Looking directly into bright headlights can further impair vision. Drivers should instead shift their gaze slightly toward the left edge of the road while maintaining awareness of traffic conditions."
+  },
+  {
+    "question": "On slippery surfaces such as gravel or muddy roads, the risk of skidding or losing steering control increases, so drivers should slow down beforehand and avoid abrupt acceleration, braking, or steering inputs.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Loose or slippery road surfaces reduce tire grip. Smooth vehicle control and reduced speed help maintain stability and prevent loss of control."
+  },
+  {
+    "question": "When traffic is moving in a line and vehicles ahead are slowing down or stopping near an intersection or railway crossing, you must not use gaps between vehicles to cut in or cross in front of them.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Cutting into stopped or slowing traffic near intersections and railway crossings creates a significant hazard. Drivers should wait and proceed only when it is safe and lawful to do so."
+  },
+  {
+    "question": "Whenever passengers are boarding or leaving a tram, a driver must stop until all pedestrians have crossed the road, regardless of whether a safety zone is provided.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "The rules differ depending on whether a safety zone is present. Where a safety zone exists and conditions permit, drivers may proceed according to the applicable regulations rather than always being required to stop."
+  },
+  {
+    "question": "Centrifugal force becomes greater as vehicle speed increases, and it also becomes stronger when the curve being negotiated is tighter.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Centrifugal force increases roughly in proportion to the square of speed and becomes larger as the radius of a curve decreases. This is why drivers must reduce speed before entering sharp curves."
+  },
+  {
+    "question": "The proper hand signal for reversing is to extend the arm diagonally downward outside the vehicle and move the hand backward with the palm facing the rear.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Under Japanese traffic rules, this hand signal indicates that the vehicle is about to reverse. It serves as a warning to other road users when turn signals alone may not be sufficient."
+  },
+  {
+    "question": "If a vehicle becomes disabled on an expressway and must be stopped, the driver and passengers should take safety precautions and then move to a secure location away from the roadway.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Remaining inside or near a disabled vehicle on an expressway is dangerous. After setting warning devices and taking necessary precautions, occupants should evacuate to a safe place."
+  },
+  {
+    "question": "The driving line shown in the illustration is the correct method for negotiating the curve.",
+    "image": "curve_improper_way.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "The safe technique is generally to reduce speed before entering the curve, maintain stability through the bend, and accelerate only after the vehicle begins to straighten out. Accelerating before the curve can increase the risk of skidding."
+  },
+  {
+    "question": "When descending a long slope, drivers of cars should rely mainly on the foot brake, and riders of two-wheeled vehicles should depend primarily on the wheel brakes, using engine braking only as a secondary aid.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "On long downhill sections, engine braking should be used actively to help control speed. Relying excessively on the service brakes may cause brake fade and reduce braking effectiveness."
+  },
+  {
+    "question": "If heavy braking is necessary at high speed, drivers should combine engine braking with repeated, controlled applications of the brake pedal.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Engine braking helps reduce vehicle speed while limiting brake overheating. Applying the brakes in a controlled manner can improve safety during extended deceleration."
+  },
+  {
+    "question": "At a signal-controlled intersection where roads in each direction have three or more lanes, a general moped must make a right turn using the two-stage right-turn method unless signs or markings indicate otherwise.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "In Japan, general mopeds are normally required to perform a two-stage right turn at intersections meeting these conditions unless traffic signs or road markings provide different instructions. This rule is intended to improve safety for slower two-wheeled vehicles."
+  },
+  {
+    "question": "On a roadside strip like the one shown, only light vehicles may enter to stop or park, while other types of vehicles are prohibited from doing so.",
+    "image": "roadway.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Whether a vehicle may stop or park on a roadside strip depends on the width of the strip and applicable traffic regulations. It is not restricted exclusively to light vehicles."
+  },
+  {
+    "question": "If a vehicle strikes a stationary object after reducing its speed to half, the collision energy is approximately one-quarter of what it would have been at the original speed.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Collision energy is proportional to the square of speed. Therefore, reducing speed by half decreases the impact energy to about one-fourth."
+  },
+  {
+    "question": "If the front-right tire has lower air pressure than the front-left tire, the vehicle will tend to pull toward the left.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "A vehicle generally tends to drift toward the side with the lower tire pressure. In this case, it would be more likely to pull toward the right."
+  },
+  {
+    "question": "In an automatic-transmission vehicle, if the selector is in a drive position other than \"P\" or \"N,\" the vehicle may begin moving on its own due to creep even without pressing the accelerator, so the brake pedal should be firmly applied and the parking brake used when appropriate.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Automatic vehicles can move slowly forward or backward because of the creep phenomenon. Drivers must keep the vehicle under control by using the brake and parking brake as necessary."
+  },
+  {
+    "question": "Operating a vehicle while your driver's license is suspended is legally treated as driving without a valid license.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "A suspended license does not grant driving privileges during the suspension period. Driving during that time is considered unlicensed driving under Japanese law."
+  },
+  {
+    "question": "When the parking brake of a four-wheeled vehicle is fully engaged, there should be absolutely no remaining travel in the lever.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Parking brakes are designed to operate within a specified range of lever movement. The absence of any remaining travel does not necessarily indicate proper adjustment."
+  },
+  {
+    "question": "If a vehicle being overtaken begins moving right because the driver has not noticed the overtaking vehicle, the overtaking driver may use the horn when necessary to prevent danger.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Although unnecessary horn use is prohibited, sounding the horn is permitted when needed to avoid an immediate hazard. Alerting another driver to prevent a collision is an appropriate use of the horn."
+  },
+  {
+    "question": "Because the vehicle inspection certificate and compulsory automobile liability insurance certificate are important documents, they should be kept at home rather than inside the vehicle to avoid loss or theft.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "explanation": "Japanese law requires drivers to carry the vehicle inspection certificate and compulsory automobile liability insurance certificate when operating the vehicle. These documents must be available for inspection when necessary."
+  },
+  {
+    "question": "The hand signal used to indicate slowing down is identical to the hand signal used to indicate stopping.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Under Japanese traffic regulations, the same downward arm signal may be used to indicate either slowing down or stopping. Other road users must interpret it according to the vehicle's movement and situation."
+  },
+  {
+    "question": "Where the sign shown is posted, only buses are permitted to obey the traffic signal specifically designated by that sign.",
+    "image": "senyou_lane.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "The sign indicates a bus-only signal. Drivers of other vehicles must follow the regular traffic signals and may not rely on signals intended exclusively for buses."
+  },
+  {
+    "question": "Obtaining a driver's license involves more than learning vehicle operation; it also brings greater legal and social responsibilities, including criminal, civil, and administrative obligations.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Drivers are responsible for complying with traffic laws and may face various legal consequences for violations or accidents. Safe driving requires awareness of these responsibilities."
+  },
+  {
+    "question": "If you begin to feel drowsy while driving at night, you should stop in a safe place, rest briefly, and continue driving only after you have recovered sufficiently.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Fatigue significantly reduces judgment, reaction time, and concentration. Taking a rest before continuing is an important measure to prevent accidents."
+  },
+  {
+    "question": "When a rider of a two-wheeled vehicle intends to travel straight through an intersection, extra caution is necessary because an oncoming driver making a right turn may misjudge the motorcycle's speed or distance.",
+    "image": null,
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Motorcycles and mopeds can appear farther away or slower than they actually are. Riders should anticipate possible errors in judgment by turning vehicles and be prepared to respond safely."
+  },
+  {
+    "question": "When entering a parking area located beside the roadway, the safest method is to approach and enter along the path indicated in the illustration.",
+    "image": "roadside_garage.jpg",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "explanation": "Entering a roadside parking space in the manner shown allows the driver to maintain better visibility of surrounding traffic and position the vehicle more safely. Proper entry techniques help reduce interference with other road users and lower the risk of collisions."
   }
 ]
 ]
