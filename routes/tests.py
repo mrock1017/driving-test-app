@@ -1597,6 +1597,15 @@ def customer_portal():
 
         raise e
 
+
+@tests.route('/free-reviewers')
+def free_reviewers():
+
+    return render_template(
+        'free_reviewer_hub.html',
+        ui=get_ui()
+    )
+
 # =========================================================
 # 📚 REVIEWER HUB
 # =========================================================
