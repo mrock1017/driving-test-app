@@ -57,6 +57,28 @@ class User(db.Model):
         nullable=True
     )
 
+    
+
+    google_purchase_token = db.Column(
+    db.String(500),
+    nullable=True
+    )
+
+    google_subscription_product_id = db.Column(
+        db.String(100),
+        nullable=True
+    )
+
+    google_subscription_base_plan_id = db.Column(
+        db.String(100),
+        nullable=True
+    )
+
+    google_subscription_expiry = db.Column(
+        db.DateTime,
+        nullable=True
+    )
+
 # =========================================================
 # 📊 SCORE HISTORY MODEL
 # =========================================================

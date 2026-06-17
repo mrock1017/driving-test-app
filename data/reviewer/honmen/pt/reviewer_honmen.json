@@ -4938,5 +4938,905 @@
     ],
     "answer": "Verdadeiro",
     "explanation": "Entrar em uma vaga de estacionamento à beira da estrada da maneira mostrada permite ao motorista manter melhor visibilidade do tráfego ao redor e posicionar o veículo com mais segurança. Técnicas adequadas de entrada ajudam a reduzir a interferência com outros usuários da via e diminuem o risco de colisões."
+  },
+  {
+    "question": "Passar à frente de outro veículo é permitido sobre ou dentro de 30 metros antes de uma faixa de pedestres ou travessia de bicicletas, mesmo que a ultrapassagem não seja permitida nessa área.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "De acordo com as leis de trânsito japonesas, a ultrapassagem é proibida sobre ou dentro de 30 metros antes de uma faixa de pedestres ou travessia de bicicletas. Simplesmente passar por outro veículo também pode ser restrito dependendo de como a manobra é realizada e da situação do trânsito, portanto a afirmação não está totalmente correta."
+  },
+  {
+    "question": "Quando um ciclomotor comum realiza uma conversão à direita em dois estágios em um cruzamento, o condutor deve continuar mantendo o sinal de conversão à direita ligado até alcançar a posição designada e seguir em frente através do cruzamento antes de concluir a conversão à direita.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Em uma conversão à direita em dois estágios, o ciclomotor comum primeiro atravessa até a posição de espera designada e depois segue na nova direção. O sinal de conversão à direita deve permanecer ativado até que o condutor complete a primeira etapa e alcance o ponto onde a conversão será finalizada."
+  },
+  {
+    "question": "Ao pretender sair da via virando à esquerda ou à direita, o condutor deve acionar a seta aproximadamente 30 metros antes do local onde o veículo deixará a via.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Os regulamentos de trânsito japoneses exigem que os condutores sinalizem sua intenção de virar à esquerda ou à direita pelo menos 30 metros antes do ponto onde ocorrerá a conversão ou saída da via. Isso fornece aviso adequado aos demais usuários da estrada."
+  },
+  {
+    "question": "Em vias expressas onde não há placa indicando limite de velocidade, os veículos automotores comuns podem trafegar nas faixas de circulação com velocidade máxima de 60 km/h.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "De acordo com os regulamentos de trânsito japoneses, a velocidade máxima legal para veículos automotores comuns em vias expressas é geralmente de 100 km/h, salvo restrições específicas. Portanto, afirmar que o limite é de 60 km/h está incorreto."
+  },
+  {
+    "question": "Ao dirigir em uma estrada coberta de neve, os condutores devem evitar seguir os rastros deixados pelos pneus dos veículos à frente porque esses rastros são especialmente escorregadios.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Os rastros de pneus existentes frequentemente oferecem melhor aderência do que a neve intacta, porque a neve já foi compactada. Os condutores ainda devem prosseguir com cuidado, mas esses rastros não são necessariamente a parte mais escorregadia da pista."
+  },
+  {
+    "question": "Parar ou estacionar é proibido dentro de 3 metros da entrada de uma garagem, embora o proprietário da garagem ou pessoas relacionadas à propriedade possam estacionar ali.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "As leis de trânsito japonesas proíbem estacionar de forma que bloqueie a entrada ou saída de uma garagem, independentemente da propriedade. Ser o proprietário não isenta automaticamente uma pessoa das restrições de estacionamento que afetam a segurança do trânsito."
+  },
+  {
+    "question": "Se um semáforo mostrar luz vermelha juntamente com uma seta verde apontando para a esquerda, carros e ciclomotores comuns podem seguir na direção da seta, mas ciclomotores pequenos específicos e veículos leves não têm permissão para seguir nessa direção.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Uma seta verde permite que os veículos sigam na direção indicada mesmo quando o sinal principal está vermelho. A restrição descrita na afirmação não reflete corretamente as regras sobre quais veículos podem seguir uma seta luminosa."
+  },
+  {
+    "question": "Para veículos automotores comuns com cilindrada de 660 cc ou menos, a velocidade máxima permitida nas faixas de circulação de uma via expressa é de 80 km/h.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "No Japão, a cilindrada do motor, por si só, não reduz o limite legal de velocidade em vias expressas para veículos automotores comuns. A menos que haja uma restrição específica, aplicam-se as regras normais de velocidade das vias expressas."
+  },
+  {
+    "question": "Em um cruzamento com a placa mostrada, automóveis e ciclomotores comuns podem virar à esquerda mesmo quando o semáforo está vermelho ou amarelo, mas ciclomotores pequenos específicos e veículos leves não podem fazê-lo.",
+    "image": "turn_left.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "A placa mostrada indica uma direção obrigatória de circulação (esquerda). Ela não autoriza, por si só, que os veículos avancem com o sinal vermelho ou amarelo. Os condutores devem continuar obedecendo ao semáforo, salvo se outro sinal ou regulamento permitir especificamente o movimento."
+  },
+  {
+    "question": "A quantidade de atrito entre os pneus e a superfície da estrada está intimamente relacionada à distância de reação do condutor.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "A distância de reação é a distância percorrida durante o tempo necessário para o condutor perceber um perigo e começar a frear. O atrito entre os pneus e a estrada afeta principalmente a distância de frenagem, e não a distância de reação."
+  },
+  {
+    "question": "O sinal manual mostrado na ilustração indica que o condutor pretende reduzir a velocidade ou parar o veículo.",
+    "image": "hands_down.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "De acordo com os regulamentos de trânsito japoneses, este sinal manual é usado para informar outros usuários da via de que o veículo está reduzindo a velocidade ou parando. Condutores devem reconhecer e reagir adequadamente a esses sinais."
+  },
+  {
+    "question": "Ao dirigir após escurecer, o condutor deve concentrar-se apenas na área imediatamente à frente do veículo porque os faróis não iluminam suficientemente longe.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Os condutores devem olhar bem à frente ao dirigir à noite para identificar perigos com antecedência. Concentrar-se apenas na área imediatamente à frente do veículo reduz o tempo disponível para reagir a possíveis perigos."
+  },
+  {
+    "question": "Em condições como neblina densa ou tempestade de neve, os condutores devem ligar cedo os faróis de neblina e os faróis principais, usar as lanternas traseiras dos veículos à frente como referência, reduzir a velocidade e usar a buzina quando necessário para a segurança.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "A baixa visibilidade exige que os condutores se tornem mais visíveis e prossigam com cautela. Usar luzes adequadas, reduzir a velocidade e alertar os outros com a buzina quando necessário são medidas importantes de segurança."
+  },
+  {
+    "question": "A placa de advertência mostrada indica que há um semáforo acionado por pedestres à frente.",
+    "image": "traffic_signal_ahead_warning.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "A placa adverte que há um semáforo à frente. Ela não indica especificamente um semáforo acionado por botão; apenas alerta os condutores sobre a presença de controle de tráfego por semáforo mais adiante na via."
+  },
+  {
+    "question": "Nas faixas principais de uma via expressa, é proibido cruzar o canteiro central ou fazer retorno, mas é permitido dar marcha à ré por uma curta distância quando necessário.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Dar marcha à ré em uma via expressa é proibido porque cria um grave perigo para o trânsito. Cruzar o canteiro central, fazer retorno e dar marcha à ré são geralmente proibidos em vias expressas."
+  },
+  {
+    "question": "O termo \"faixa principal\" em uma via expressa refere-se à seção utilizada para o tráfego normal e não inclui faixas de aceleração, desaceleração, subida, acostamentos ou faixas laterais.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Na terminologia das vias expressas japonesas, a faixa principal é a parte destinada ao fluxo regular de tráfego. Seções auxiliares, como faixas de aceleração e desaceleração, são classificadas separadamente."
+  },
+  {
+    "question": "Parar ou estacionar é proibido dentro de uma passagem de nível ferroviária e dentro de 10 metros antes ou depois dela.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "As leis de trânsito japonesas proíbem parar ou estacionar dentro de uma passagem de nível ferroviária e dentro de 10 metros dela. Esta regra ajuda a garantir a visibilidade e evita que veículos obstruam o tráfego ferroviário."
+  },
+  {
+    "question": "Ao conduzir uma motocicleta ou outro veículo de duas rodas durante o tempo quente, recomenda-se usar roupas leves, como bermudas e camisas de manga curta, para maior conforto.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Motociclistas devem usar roupas de proteção que cubram o corpo mesmo no verão. Equipamentos adequados ajudam a reduzir lesões em caso de queda ou colisão."
+  },
+  {
+    "question": "Ao rebocar um veículo avariado com uma corda, a distância entre os dois veículos não deve exceder 5 metros, e um pano vermelho com área mínima de 0,3 metro quadrado deve ser preso ao centro da corda.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Os regulamentos japoneses exigem que um marcador vermelho seja preso à corda de reboque, mas as exigências relativas à distância e à sinalização devem ser seguidas exatamente. A afirmação não descreve corretamente os requisitos legais para reboque."
+  },
+  {
+    "question": "Em uma estrada montanhosa estreita onde os veículos não conseguem passar facilmente uns pelos outros, o veículo que sobe deve ceder passagem ao veículo que desce.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Em geral, o veículo que desce deve dar passagem ao veículo que sobe quando a passagem é difícil. Veículos que estão subindo uma inclinação frequentemente têm mais dificuldade para reiniciar após parar."
+  },
+  {
+    "question": "A marcação no pavimento mostrada na ilustração alerta os condutores de que há uma faixa de pedestres ou uma travessia de bicicletas à frente.",
+    "image": "diamond_markings.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Esta marcação viária em forma de losango é usada no Japão para alertar os condutores sobre uma faixa de pedestres ou travessia de bicicletas à frente. Os condutores devem reduzir a velocidade e estar preparados para pedestres ou ciclistas atravessando."
+  },
+  {
+    "question": "Ao ultrapassar um bonde que circula sobre trilhos localizados no centro da via, os veículos devem sempre passar pelo lado direito.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "O lado usado para passar por um bonde depende da configuração da via e das regras de trânsito aplicáveis. Nem sempre é correto ou legal passar pelo lado direito."
+  },
+  {
+    "question": "Automóveis comuns devem estar cobertos pelo seguro obrigatório de responsabilidade civil automóvel, mas os ciclomotores estão isentos dessa exigência.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "No Japão, os ciclomotores também devem ter seguro obrigatório de responsabilidade civil automóvel (CALI). É proibido operar um veículo sem o seguro exigido."
+  },
+  {
+    "question": "Onde uma faixa lateral é separada da pista por uma única linha branca contínua, um veículo pode entrar na faixa lateral para estacionar se restarem pelo menos 0,75 metro de espaço no lado esquerdo do veículo estacionado.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Um veículo pode usar uma faixa lateral marcada por uma única linha branca para parar ou estacionar se a folga necessária permanecer para pedestres e outros usuários da via. Manter pelo menos 0,75 metro de espaço é uma das condições aplicáveis segundo as normas de trânsito japonesas."
+  },
+  {
+    "question": "O condutor deve parar para um pedestre que já está usando a faixa de pedestres, mas se o pedestre parar ao ver o veículo se aproximando, o condutor pode continuar pela faixa sem tomar outras medidas.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Os condutores devem dar preferência aos pedestres que estão atravessando ou prestes a atravessar na faixa de pedestres. Mesmo que o pedestre hesite ou pare, o condutor deve garantir a segurança do pedestre antes de prosseguir."
+  },
+  {
+    "question": "Se o motor de um veículo com transmissão automática parar e não puder ser religado, o veículo pode ser movido colocando o seletor em \"D\" e acionando o motor de partida.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Usar o motor de partida para mover um veículo é inseguro e pode danificar o veículo. Um veículo avariado deve ser movido usando métodos adequados de resgate ou reboque."
+  },
+  {
+    "question": "Quando um veículo automotor comum fica avariado em uma via expressa e não consegue continuar a viagem, o condutor deve colocar um triângulo de advertência de emergência atrás do veículo. Durante a noite ou quando a visibilidade for inferior a 200 metros, o condutor também deve ligar o pisca-alerta, as luzes de estacionamento ou as lanternas traseiras.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "As normas das vias expressas japonesas exigem que os condutores de veículos avariados alertem o tráfego que se aproxima. O uso de um refletor de advertência e das luzes apropriadas do veículo ajuda a prevenir acidentes secundários."
+  },
+  {
+    "question": "Em um cruzamento marcado com o símbolo no pavimento mostrado, um veículo que vira à direita é obrigado a reduzir a velocidade fora da área central do cruzamento.",
+    "image": "diamond.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "A marcação no pavimento mostrada indica a área central de um cruzamento na qual os veículos devem evitar entrar desnecessariamente. Ela não exige especificamente que veículos virando à direita reduzam a velocidade fora dessa área."
+  },
+  {
+    "question": "De acordo com a placa mostrada, somente veículos automotores comuns têm permissão para circular sobre os trilhos de bonde.",
+    "image": "streetcar_track_permitted_sign.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "A placa indica que os trilhos de bonde podem ser usados por veículos designados sob certas condições. Isso não significa que apenas veículos automotores comuns tenham permissão para circular sobre os trilhos."
+  },
+  {
+    "question": "Um ciclomotor comum não pode transportar duas pessoas ao mesmo tempo.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "De acordo com as leis de trânsito japonesas, transportar passageiro em um ciclomotor comum é geralmente proibido. Esses veículos são projetados e licenciados para operação por apenas uma pessoa."
+  },
+  {
+    "question": "O escapamento dos veículos contém substâncias como monóxido de carbono, hidrocarbonetos e óxidos de nitrogênio, que contribuem para a poluição ambiental.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "As emissões de veículos automotores contêm poluentes que podem afetar negativamente a qualidade do ar e a saúde humana. Reduzir o uso desnecessário do motor e manter os veículos adequadamente ajuda a limitar essas emissões."
+  },
+  {
+    "question": "Durante a chuva, os pedestres frequentemente se concentram em evitar poças e podem ter a visibilidade limitada por guarda-chuvas ou roupas de chuva, tornando importante que os condutores fiquem atentos a movimentos inesperados de pedestres.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "A chuva pode reduzir a percepção dos pedestres em relação ao tráfego ao redor. Os condutores devem ter cuidado extra e estar preparados para ações repentinas de pedestres em condições molhadas."
+  },
+  {
+    "question": "É proibido cortar muito perto ou dirigir agressivamente à frente de um veículo que exibe uma placa de condutor idoso ou de condutor com deficiência física, mas a mesma proteção não se aplica a veículos que exibem uma placa de condutor aprendiz.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "As leis de trânsito japonesas proíbem atos perigosos, como cortar a frente ou obstruir veículos que exibem placas de condutor aprendiz, idoso ou relacionadas a deficiência. Condutores aprendizes também são protegidos por essas normas."
+  },
+  {
+    "question": "Os condutores não devem operar um telefone celular nem se concentrar na tela de navegação enquanto dirigem, pois essas distrações aumentam o risco de acidente de trânsito.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Desviar o olhar da estrada para usar dispositivos eletrônicos pode reduzir significativamente a capacidade do condutor de reagir a perigos. A lei japonesa restringe o uso de telefones celulares enquanto se dirige."
+  },
+  {
+    "question": "Em uma via marcada com a placa mostrada, um ciclomotor comum está limitado a uma velocidade máxima de 30 km/h.",
+    "image": "speed_limit_50.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "A placa indica um limite de velocidade de 50 km/h para os veículos sujeitos a esse limite. No entanto, ciclomotores comuns continuam sujeitos ao seu limite máximo legal separado de 30 km/h, salvo disposição legal em contrário."
+  },
+  {
+    "question": "Mudanças de faixa frequentes ou desnecessárias podem causar inconvenientes a outros usuários da via e aumentar a probabilidade de acidentes, portanto os condutores devem permanecer na mesma faixa sempre que possível.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Manter uma posição estável na faixa ajuda o fluxo do tráfego a seguir suavemente e melhora a segurança. Mudanças de faixa devem ser feitas apenas quando necessário e depois de confirmar que é seguro fazê-las."
+  },
+  {
+    "question": "Um veículo com transmissão automática pode permanecer na posição \"D\" (Drive) o tempo todo, inclusive ao descer vias longas ou íngremes.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Em descidas longas ou íngremes, os condutores podem precisar selecionar uma marcha mais baixa para usar o freio-motor. Depender apenas do freio de pé pode causar superaquecimento dos freios e redução do desempenho de frenagem."
+  },
+  {
+    "question": "A ultrapassagem é proibida em trechos de descida íngreme da via, mas a mesma restrição não se aplica a trechos de subida íngreme.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "As normas de trânsito japonesas proíbem especificamente a ultrapassagem em descidas íngremes e outros locais onde a visibilidade e a segurança são reduzidas. A mesma proibição geral não se aplica automaticamente a trechos de subida íngreme."
+  },
+  {
+    "question": "Como veículos grandes têm uma trajetória de curva mais ampla e pontos cegos significativos, especialmente no lado esquerdo perto da dianteira do veículo, os condutores devem ter cuidado para não colocar pedestres ou ciclistas em perigo ao virar.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Veículos grandes podem ter pontos cegos extensos que dificultam ver usuários da via próximos. Os condutores devem verificar cuidadosamente a presença de pedestres e ciclistas antes e durante as conversões."
+  },
+  {
+    "question": "A faixa indicada pela placa mostrada é reservada para ônibus entre 7:00 e 9:00 da manhã, mas veículos automotores comuns podem usar a faixa às 8:00 da noite.",
+    "image": "bus_only_lane_7_9.png",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "A placa designa uma faixa exclusiva para ônibus durante os horários exibidos. Como 8:00 da noite está fora do período restrito de 7:00 a 9:00 da manhã, veículos comuns podem usar a faixa, salvo se houver outra restrição aplicável."
+  },
+  {
+    "question": "Ao escolher uma motocicleta ou outro veículo de duas rodas, é importante escolher um que corresponda ao porte físico e ao nível de habilidade do condutor, e é inseguro operar repentinamente um veículo grande ou potente demais.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Conduzir um veículo que excede a habilidade ou o controle físico do condutor pode aumentar o risco de acidentes. Escolher um veículo de tamanho adequado melhora a segurança e a dirigibilidade."
+  },
+  {
+    "question": "O comprimento total da carga transportada em um caminhão comum pode ser de até 1,2 vez o comprimento total do veículo.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "As normas japonesas para veículos permitem o comprimento da carga dentro de limites específicos com base nas dimensões do veículo. Um comprimento máximo de carga de 1,2 vez o comprimento do veículo está dentro dessas normas."
+  },
+  {
+    "question": "Onde placas ou marcações viárias proíbem cruzar a linha central ou fazer retorno, dar marcha à ré com o veículo também é proibido.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "As restrições para cruzar a linha central ou fazer retornos não proíbem automaticamente dar marcha à ré. No entanto, a marcha à ré ainda deve ser feita com segurança e de acordo com outras normas de trânsito aplicáveis."
+  },
+  {
+    "question": "Objetos próximos ao veículo tornam-se mais difíceis de perceber ao trafegar a 60 km/h do que ao trafegar a 30 km/h.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "À medida que a velocidade do veículo aumenta, o campo de visão efetivo do condutor se estreita, fenômeno conhecido como visão de túnel. Isso torna objetos e perigos próximos mais difíceis de detectar em velocidades mais altas."
+  },
+  {
+    "question": "Colidir com uma parede sólida de concreto a 60 km/h produz um impacto aproximadamente equivalente a cair de uma altura de cerca de 14 metros.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Uma colisão a 60 km/h gera uma quantidade muito grande de energia cinética. A força do impacto resultante pode ser comparável a uma queda de um prédio de vários andares, demonstrando a importância de controlar a velocidade."
+  },
+  {
+    "question": "Se um veículo tiver defeitos no sistema de direção ou de freios, o condutor pode continuar a operá-lo desde que tenha cuidado extra e reduza a velocidade.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Um veículo com direção ou freios defeituosos é inseguro para circular em vias públicas. Esses defeitos devem ser reparados antes que o veículo seja conduzido."
+  },
+  {
+    "question": "Na situação mostrada, o Veículo A está proibido de ultrapassar o Veículo B mesmo que haja espaço e visibilidade suficientes para fazê-lo com segurança.",
+    "image": "vehicle_a_vehicle_b_overtaking.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "As leis de trânsito japonesas proíbem ultrapassagens dentro de certas distâncias de cruzamentos, faixas de pedestres e outros locais especificados. A ilustração por si só não estabelece uma condição que proíba automaticamente a ultrapassagem se ela puder ser realizada legalmente e com segurança."
+  },
+  {
+    "question": "Em cruzamentos onde a visibilidade é ruim para qualquer um dos lados, exceto em cruzamentos controlados por semáforo ou quando se trafega em uma via com prioridade, os condutores devem reduzir a velocidade e, se necessário, parar completamente conforme as circunstâncias.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Condutores que se aproximam de cruzamentos com pouca visibilidade devem prosseguir com cautela e estar preparados para parar. Esta regra ajuda a evitar colisões com veículos, ciclistas ou pedestres que se aproximem de direções ocultas."
+  },
+  {
+    "question": "Quando um policial estende ambos os braços horizontalmente para os lados, o tráfego que se aproxima pela frente ou por trás do policial deve tratar o sinal como uma luz vermelha.",
+    "image": "police_both_arms_horizontal.png",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "De acordo com as regras japonesas de controle de tráfego, este sinal manual do policial instrui o tráfego que se aproxima pela frente e por trás do policial a parar. Ele tem o mesmo efeito de um sinal vermelho para essas direções."
+  },
+  {
+    "question": "As inspeções do veículo realizadas diariamente incluem não apenas verificações feitas antes da partida, mas também observações e verificações feitas durante a condução.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Espera-se que os condutores monitorem a condição do veículo durante a operação, bem como antes de iniciar uma viagem. Sons incomuns, vibrações ou sinais de alerta percebidos durante a condução fazem parte das verificações diárias de segurança do veículo."
+  },
+  {
+    "question": "Em uma estrada com menos de 6 metros de largura que possui uma linha central amarela contínua, os veículos são proibidos de cruzar a linha para o lado direito da pista a fim de ultrapassar outro veículo.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Uma linha central amarela contínua no Japão indica que é proibido cruzar a linha para ultrapassar. Os condutores devem permanecer no seu lado da pista quando essa restrição estiver em vigor."
+  },
+  {
+    "question": "Os condutores são responsáveis por garantir que os passageiros não abram as portas do veículo de maneira descuidada que possa colocar outras pessoas em perigo.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Os condutores devem tomar precauções razoáveis para impedir que passageiros abram portas quando isso puder interferir no trânsito ou criar perigo para pedestres, ciclistas ou outros veículos."
+  },
+  {
+    "question": "O nível do óleo do motor deve ser mantido entre as marcas superior e inferior indicadas na vareta de óleo.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Manter o nível do óleo dentro da faixa especificada garante a lubrificação adequada do motor. Níveis de óleo muito baixos ou muito altos podem causar danos ao motor ou mau desempenho."
+  },
+  {
+    "question": "As placas de trânsito que usam a forma mostrada na ilustração são limitadas a apenas duas instruções regulamentares: \"Reduza a velocidade\" e \"Pare.\"",
+    "image": "inverted_triangle_sign_shape.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "No Japão, a forma triangular invertida é usada especificamente para as placas de 'Reduza a velocidade' e 'Pare'. A forma distinta ajuda os condutores a reconhecer rapidamente essas instruções importantes."
+  },
+  {
+    "question": "Ao ultrapassar outro veículo, o condutor deve minimizar a distância lateral entre os dois veículos para reduzir o risco de colisão com o tráfego em sentido contrário.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Os condutores devem manter uma distância lateral segura ao ultrapassar. Passar muito perto aumenta o risco de colisão e coloca ambos os veículos em perigo."
+  },
+  {
+    "question": "Onde a marcação no pavimento mostrada está presente, os veículos que trafegam na Faixa A estão proibidos de se deslocar para a Faixa B.",
+    "image": "lane_a_lane_b_marking.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "A linha amarela contínua mostrada indica uma restrição para cruzar a linha central a fim de ultrapassar. Ela não proíbe necessariamente um veículo na Faixa A de se deslocar para a Faixa B em todas as circunstâncias descritas na afirmação."
+  },
+  {
+    "question": "Em uma via expressa nacional com duas ou mais faixas de tráfego no mesmo sentido, um reboque deve trafegar na faixa mais à esquerda.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "As normas de trânsito japonesas geralmente exigem que reboques usem a faixa mais à esquerda em vias expressas nacionais com várias faixas, salvo quando circunstâncias especiais ou controles de tráfego exigirem o contrário."
+  },
+  {
+    "question": "A carteira de motorista pode ser renovada a partir de dois meses antes do aniversário do titular que antecede imediatamente a data de validade e até a própria data de validade.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "As carteiras de motorista japonesas geralmente podem ser renovadas durante o período de renovação designado, que vai de um mês antes do aniversário do titular até um mês depois dele. O período descrito na afirmação está incorreto."
+  },
+  {
+    "question": "Onde as marcações de faixa atribuem direções específicas de circulação em um cruzamento, os condutores geralmente devem seguir a faixa designada. No entanto, entrar em uma faixa diferente pode ser permitido quando necessário para evitar um veículo de emergência ou devido a circunstâncias inevitáveis, como obras na via.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Os condutores normalmente devem seguir a direção da faixa indicada pelas marcações no pavimento. Exceções podem ser permitidas quando necessário para garantir a segurança ou cumprir instruções relacionadas a situações de emergência."
+  },
+  {
+    "question": "Ao se aproximar de uma curva, o condutor deve reduzir a velocidade antes de entrar, manter o controle adequado enquanto faz a curva e começar a acelerar gradualmente depois de passar pela curva.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Fazer curvas com segurança exige reduzir a velocidade antes de entrar na curva. Acelerar suavemente depois que o veículo estiver estabilizado ajuda a manter o controle e a aderência."
+  },
+  {
+    "question": "Durante o tempo quente, os condutores de motocicletas e outros veículos de duas rodas devem usar roupas leves, como shorts e camisetas de manga curta, para maior conforto.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Os motociclistas devem usar roupas de proteção que cubram o corpo independentemente da estação do ano. Equipamentos adequados ajudam a reduzir a gravidade dos ferimentos em caso de acidente."
+  },
+  {
+    "question": "Se um terremoto tornar necessário abandonar um veículo e evacuar, o condutor deve mover o veículo para o lado esquerdo da via, se possível, desligar o motor, deixar a chave no veículo ou em um local facilmente visível e deixar as portas destrancadas após fechar as janelas.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Esses procedimentos ajudam os socorristas a mover veículos, se necessário, e reduzem a obstrução das operações de emergência. As orientações japonesas de preparação para desastres enfatizam a importância de manter as estradas acessíveis após grandes terremotos."
+  },
+  {
+    "question": "A placa mostrada indica que apenas pedestres e bicicletas comuns podem utilizar o caminho designado, sendo proibida a entrada de outros tipos de veículos.",
+    "image": "pedestrian_and_bicycle.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Esta placa circular azul designa uma via compartilhada para pedestres e bicicletas. Veículos motorizados e outros veículos não autorizados não podem utilizar essa rota."
+  },
+  {
+    "question": "Ao inspecionar a corrente de transmissão de um veículo de duas rodas, a corrente deve estar completamente esticada, sem nenhuma folga quando pressionada com a mão.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "As correntes de motocicletas exigem uma quantidade específica de folga para funcionar corretamente. Uma corrente excessivamente esticada pode causar desgaste excessivo e problemas mecânicos."
+  },
+  {
+    "question": "Em uma passagem de nível com visibilidade desobstruída, o condutor pode simplesmente reduzir a velocidade e prosseguir se parecer seguro, sem precisar parar completamente.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "As leis de trânsito japonesas geralmente exigem que os veículos parem imediatamente antes de uma passagem de nível e confirmem a segurança antes de prosseguir. Boa visibilidade não elimina essa obrigação, exceto em situações especificamente designadas."
+  },
+  {
+    "question": "Ao se preparar para sair das faixas principais de uma via expressa, o condutor deve reduzir significativamente a velocidade antes de entrar na faixa de desaceleração, enquanto ainda estiver na faixa principal.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Os condutores normalmente devem entrar primeiro na faixa de desaceleração e só então reduzir a velocidade dentro dela. Reduzir excessivamente a velocidade ainda na faixa principal pode criar perigo para os veículos que vêm atrás."
+  },
+  {
+    "question": "Uma pessoa que esteja doente, extremamente fatigada ou de outra forma fisicamente incapaz de dirigir deve evitar operar um veículo.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Problemas físicos ou mentais podem reduzir a concentração, o julgamento e o tempo de reação. Os condutores não devem operar um veículo quando sua condição puder afetar a condução segura."
+  },
+  {
+    "question": "As vias públicas não devem ser tratadas como vagas de estacionamento privadas para veículos pessoais.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "As vias são destinadas ao uso do tráfego público. Estacionar um veículo de forma que ocupe espaço público sem autorização pode violar as normas de trânsito."
+  },
+  {
+    "question": "Como as vias expressas nacionais possuem limites de velocidade estabelecidos, os condutores devem trafegar o mais próximo possível da velocidade máxima, mesmo durante chuva ou outras condições climáticas adversas.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Os condutores devem ajustar a velocidade de acordo com as condições da via, do tráfego e do clima. Chuva, neblina e outros perigos podem exigir velocidades muito abaixo do limite sinalizado."
+  },
+  {
+    "question": "Quando um ônibus de linha está parado em um ponto de ônibus designado e sinaliza sua intenção de retornar ao fluxo de tráfego, os condutores que se aproximam por trás devem permitir sua entrada, a menos que isso exija uma frenagem brusca ou outras manobras perigosas.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "As regras de trânsito japonesas dão prioridade aos ônibus de linha que saem de pontos de ônibus designados. Outros condutores devem cooperar e permitir que o ônibus entre no tráfego com segurança sempre que for razoavelmente possível."
+  },
+  {
+    "question": "A placa mostrada indica uma ciclovia ou uma via reservada exclusivamente para bicicletas.",
+    "image": "bicycle.png",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "A placa mostrada é uma placa de advertência que indica a existência de uma travessia de bicicletas à frente. Ela não designa uma via exclusiva para bicicletas nem uma ciclovia."
+  },
+  {
+    "question": "Ao planejar uma viagem, os condutores devem reservar tempo extra suficiente, pois um cronograma apertado pode levar à fadiga, à redução da atenção e ao excesso de velocidade sem que percebam.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Condutores que se sentem pressionados pelo tempo têm maior probabilidade de tomar decisões inseguras e ignorar perigos. Reservar tempo extra contribui para uma condução mais segura e tranquila."
+  },
+  {
+    "question": "Se os faróis de um veículo que se aproxima estiverem ofuscando, o condutor deve evitar olhar diretamente para eles e, em vez disso, focar ligeiramente para o lado esquerdo da estrada à frente.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Olhar ligeiramente para a esquerda ajuda a reduzir o ofuscamento enquanto permite ao condutor manter a percepção da via. Olhar diretamente para faróis fortes pode prejudicar temporariamente a visão."
+  },
+  {
+    "question": "Quando um policial levanta uma lanterna verticalmente para cima, o sinal tem o mesmo significado de uma luz amarela para veículos que se aproximam de todas as direções.",
+    "image": "police_lamp_raised_upward.png",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "O sinal de lanterna de um policial mantida verticalmente para cima não corresponde simplesmente a uma luz amarela para todas as direções. Os sinais manuais e luminosos da polícia possuem significados específicos que variam conforme a direção do tráfego que se aproxima."
+  },
+  {
+    "question": "Ao entrar no fluxo de tráfego a partir da lateral da via, o uso da seta é desnecessário se o condutor já tiver confirmado que nenhum veículo está se aproximando por trás.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Os condutores são obrigados a sinalizar antes de entrar no tráfego a partir da lateral da via. A sinalização informa todos os usuários da estrada sobre as intenções do condutor, mesmo quando a via parece livre."
+  },
+  {
+    "question": "Ultrapassar um veículo automotor comum que esteja ultrapassando um ciclomotor comum não é considerado uma ultrapassagem dupla proibida.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Ultrapassagem dupla refere-se a ultrapassar um veículo que já está ultrapassando outro veículo. Como um ciclomotor comum é tratado de forma diferente sob essa regra, ultrapassar um veículo que está passando por um ciclomotor comum não se enquadra na forma proibida de ultrapassagem dupla."
+  },
+  {
+    "question": "Ao pressionar totalmente o pedal do freio em um veículo de quatro rodas, é preferível que o pedal mantenha uma pequena distância do assoalho em vez de tocá-lo completamente.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Um sistema de freios em boas condições deve fornecer uma distância de reserva adequada do pedal. Se o pedal do freio alcançar o assoalho durante a frenagem, isso pode indicar um problema mecânico que requer inspeção."
+  },
+  {
+    "question": "Quando um veículo automotor comum está parado ou estacionado em uma estrada sem iluminação durante a noite, o condutor deve torná-lo visível para outros usuários da via utilizando luzes ou exibindo um dispositivo de advertência de emergência.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "As normas de trânsito japonesas exigem que veículos parados ou estacionados sejam claramente visíveis durante a escuridão. Pisca-alerta, luzes de estacionamento, lanternas traseiras ou dispositivos de advertência ajudam a evitar colisões com veículos que se aproximam."
+  },
+  {
+    "question": "Onde a pista tem menos de 6 metros de largura e é marcada com uma linha central branca como mostrado, o Veículo A pode cruzar ligeiramente para o lado direito da via para ultrapassar o Veículo B.",
+    "image": "solid_white_centerline.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Mesmo quando a linha central é branca, os condutores devem garantir que a ultrapassagem possa ser concluída com segurança e de acordo com as marcações viárias e condições de trânsito aplicáveis. A situação mostrada não permite automaticamente cruzar para a faixa de sentido oposto."
+  },
+  {
+    "question": "Ao encontrar um veículo vindo em sentido contrário à noite, os condutores devem mudar do farol alto ou ajustar os faróis para evitar ofuscar o outro condutor, mas não há necessidade de fazê-lo ao seguir outro veículo por trás.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Os condutores devem evitar causar ofuscamento tanto ao tráfego em sentido contrário quanto aos veículos à frente. Ao seguir outro veículo, os faróis também devem ser ajustados adequadamente para não prejudicar a visão do condutor à frente."
+  },
+  {
+    "question": "Como motocicletas e outros veículos de duas rodas às vezes são difíceis de serem percebidos por outros condutores, os motociclistas devem usar roupas e capacetes altamente visíveis sempre que possível.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Roupas claras e chamativas aumentam a visibilidade do motociclista para o tráfego ao redor. Uma maior visibilidade ajuda a reduzir o risco de acidentes causados por outros condutores que não percebem o motociclista."
+  },
+  {
+    "question": "Ao dar partida em um veículo de quatro rodas em uma subida, o freio de estacionamento deve ser utilizado conforme necessário para evitar que o veículo recue.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "O uso do freio de estacionamento durante uma partida em subida ajuda a manter o veículo parado até que força suficiente seja aplicada para movê-lo. Essa técnica melhora a segurança e o controle do veículo."
+  },
+  {
+    "question": "Um veículo que entra ou sai de uma instalação à beira da estrada atravessando uma calçada ou faixa lateral deve parar apenas quando houver pedestres presentes; caso contrário, reduzir a velocidade é suficiente.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Os condutores devem parar imediatamente antes de atravessar uma calçada ou faixa lateral e confirmar a segurança, independentemente de haver pedestres visíveis. Essa regra ajuda a proteger pedestres e outros usuários da via que possam aparecer repentinamente."
+  },
+  {
+    "question": "Ao se aproximar de um cruzamento onde a via transversal tem prioridade ou é claramente mais larga, os condutores devem reduzir a velocidade e, se necessário, parar para não interferir no tráfego da via transversal.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Os veículos que circulam em vias prioritárias têm preferência de passagem. Os condutores que se aproximam por uma via sem prioridade devem prosseguir com cautela e ceder passagem quando necessário para evitar obstruir o tráfego."
+  },
+  {
+    "question": "Ao trafegar na mesma velocidade, um veículo transportando uma carga pesada terá uma distância de frenagem menor do que o mesmo veículo transportando uma carga mais leve.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "Um veículo mais pesado geralmente precisa de uma distância maior para parar porque possui maior quantidade de movimento. O aumento do peso do veículo pode aumentar significativamente a distância de frenagem."
+  },
+  {
+    "question": "Ao encontrar crianças pequenas desacompanhadas, idosos, pessoas com deficiência física ou outras pessoas que possam ter dificuldade para se locomover com segurança, os condutores devem reduzir a velocidade ou parar, se necessário, para garantir a segurança delas.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "As leis de trânsito japonesas exigem que os condutores tenham cuidado especial com usuários vulneráveis da via. Reduzir a velocidade ou parar ajuda a evitar acidentes e permite que essas pessoas atravessem ou se movimentem com segurança."
+  },
+  {
+    "question": "Ao passar por um veículo parado, é aconselhável verificar cuidadosamente os arredores, incluindo áreas onde pedestres possam estar escondidos, pois alguém pode surgir repentinamente por trás do veículo.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Verdadeiro",
+    "explanation": "Veículos parados podem obstruir a visão do condutor em relação a pedestres, ciclistas e outros perigos. Os condutores devem prosseguir com cautela e estar preparados para movimentos inesperados vindos de áreas ocultas."
+  },
+  {
+    "question": "A placa mostrada indica que é permitido estacionar desde que a via tenha pelo menos 6 metros de largura.",
+    "image": "parking_restriction_6m_sign.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "A placa indica uma restrição de estacionamento, e a placa complementar refere-se a uma condição relacionada à largura da via. Isso não significa que estacionar seja livremente permitido sempre que a estrada tiver 6 metros ou mais de largura."
+  },
+  {
+    "question": "De acordo com a placa mostrada, os ciclomotores estão proibidos de prosseguir, enquanto motocicletas comuns e de grande porte podem continuar independentemente da cilindrada.",
+    "image": "designated_lane_automobiles.jpg",
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "A placa circular azul com o símbolo de um automóvel de passeio indica uma rota ou via designada para automóveis. Ela não proíbe especificamente apenas os ciclomotores enquanto permite que todas as motocicletas prossigam."
+  },
+  {
+    "question": "Um veículo pode transportar uma carga que obstrua a visibilidade das setas indicadoras de direção, lanternas traseiras, luzes de freio ou da placa de licença, desde que outra pessoa acompanhe a carga para monitorá-la.",
+    "image": null,
+    "choices": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "answer": "Falso",
+    "explanation": "A carga não deve obstruir equipamentos legalmente exigidos, como luzes, indicadores de direção ou placas de licença. Ter outra pessoa observando a carga não isenta o condutor dessas exigências."
   }
 ]
